@@ -286,7 +286,7 @@
     const totals = tiers.map(t => buckets.reduce((s, b) => s + counts[t][b], 0));
     const maxTotal = Math.max(1, ...totals);
 
-    const W = 600, H = 220, PAD_L = 90, PAD_R = 120, PAD_T = 10, PAD_B = 36;
+    const W = 600, H = 220, PAD_L = 90, PAD_R = 190, PAD_T = 10, PAD_B = 36;
     const barH = (H - PAD_T - PAD_B) / tiers.length - 8;
     const xMax = W - PAD_L - PAD_R;
 
@@ -298,16 +298,29 @@
     const bdTopY = rowTop(0);
     const bdBotY = rowTop(1) + barH;
     let svg = "";
-    // Right-side bracket spanning rows 0+1 (illiquids+mixed = BD-relevant).
-    // Sits just past the n=N labels with room for a two-line caption that
-    // doesn't get clipped by the viewBox.
+    // Two right-side brackets:
+    //   - Inner: illiquids + mixed = BD-relevant (rows 0+1)
+    //   - Outer: all four tiers = total classified (matches the 2,814 anchor)
     const brX1 = PAD_L + xMax + 18;
     const brX2 = brX1 + 8;
+    const brX3 = brX2 + 56;   // outer bracket sits further right
+    const brX4 = brX3 + 8;
     const brYM = (bdTopY + bdBotY) / 2;
-    const BR_COLOR = "#1f2937";          // charcoal, monochrome with the chart palette
+    const BR_COLOR = "#1f2937";
+
+    // Inner bracket — BD-relevant
     svg += `<path d="M ${brX1} ${bdTopY} L ${brX2} ${bdTopY} L ${brX2} ${bdBotY} L ${brX1} ${bdBotY}" stroke="${BR_COLOR}" stroke-width="1.5" fill="none"/>`;
     svg += `<text x="${brX2 + 5}" y="${brYM - 3}" font-size="11" fill="${BR_COLOR}" font-weight="700" font-family="Inter,sans-serif">${bdN.toLocaleString()}</text>`;
     svg += `<text x="${brX2 + 5}" y="${brYM + 9}" font-size="9" fill="${BR_COLOR}" font-family="Inter,sans-serif">BD-relevant</text>`;
+
+    // Outer bracket — total classified (anchor: 2,814)
+    const totalN = C.length;
+    const allTopY = rowTop(0);
+    const allBotY = rowTop(tiers.length - 1) + barH;
+    const allYM = (allTopY + allBotY) / 2;
+    svg += `<path d="M ${brX3} ${allTopY} L ${brX4} ${allTopY} L ${brX4} ${allBotY} L ${brX3} ${allBotY}" stroke="#991b1b" stroke-width="1.5" fill="none"/>`;
+    svg += `<text x="${brX4 + 5}" y="${allYM - 3}" font-size="11" fill="#991b1b" font-weight="700" font-family="Inter,sans-serif">${totalN.toLocaleString()}</text>`;
+    svg += `<text x="${brX4 + 5}" y="${allYM + 9}" font-size="9" fill="#991b1b" font-family="Inter,sans-serif">total classified</text>`;
 
     tiers.forEach((t, i) => {
       const yTop = PAD_T + i * ((H - PAD_T - PAD_B) / tiers.length);
@@ -326,9 +339,7 @@
       svg += `<text x="${x + 4}" y="${yTop + barH/2 + 4}" font-size="10" fill="#7a818b" font-family="Inter,sans-serif">n=${total}</text>`;
     });
     svg += `<line x1="${PAD_L}" y1="${H - PAD_B + 8}" x2="${W - PAD_R}" y2="${H - PAD_B + 8}" stroke="#e4e6ea"/>`;
-    svg += `<text x="${PAD_L}" y="${H - 18}" font-size="10" fill="#7a818b" font-family="Inter,sans-serif">bar width = count · total = ${C.length.toLocaleString()}</text>`;
-    // BD-bullseye tie-in
-    svg += `<text x="${PAD_L}" y="${H - 5}" font-size="10" fill="#1f2937" font-family="Inter,sans-serif" font-weight="600">illiquids + mixed = ${bdN.toLocaleString()} — the BD bullseye baseline (top funnel)</text>`;
+    svg += `<text x="${PAD_L}" y="${H - 12}" font-size="10" fill="#7a818b" font-family="Inter,sans-serif">bar width = count</text>`;
     $("#ov-wa-chart").innerHTML = svg;
     $("#ov-wa-legend").innerHTML = buckets.map(b =>
       `<span class="legend-item"><span class="swatch" style="background:${colors[b]}"></span>${b}</span>`
@@ -363,7 +374,7 @@
     const anchor = $("#ov-anchor-corps");
     if (anchor) anchor.innerHTML = fmt("active corps · 100% baseline");
     const chartAnchor = $("#ov-chart-anchor");
-    if (chartAnchor) chartAnchor.innerHTML = fmt("classified firms · 100% baseline");
+    if (chartAnchor) chartAnchor.innerHTML = "";  // 2,814 now shown as a bracket on the chart
   }
 
   function renderPeopleRow(data, sets) {
