@@ -168,6 +168,42 @@
     renderTable();
   }
 
+  // Nav badge: red dot with count when one or more starred (must-see)
+  // events fall within the next 7 days. Same regex as the row highlight.
+  async function updateNavBadge() {
+    const badge = document.getElementById("nav-events-badge");
+    if (!badge) return;
+    try {
+      if (!STATE.rows.length) {
+        const text = await K.fetchCsvText("data/events.csv");
+        STATE.rows = K.parseCsv(text).rows;
+      }
+    } catch {
+      badge.hidden = true;
+      return;
+    }
+    const mustSeeRe = /\b(luncheon|brownbag|breakfast|cocktails?|drinks|networking|agm|reception)\b/i;
+    const now = new Date();
+    now.setHours(0, 0, 0, 0);
+    const cutoff = new Date(now);
+    cutoff.setDate(cutoff.getDate() + 7);
+    const soon = STATE.rows.filter(r => {
+      if (!mustSeeRe.test(r.title || "")) return false;
+      const d = r.date_start ? new Date(r.date_start) : null;
+      return d && !isNaN(d) && d >= now && d <= cutoff;
+    });
+    if (soon.length) {
+      badge.hidden = false;
+      badge.textContent = String(soon.length);
+      badge.classList.add("nav-badge-overdue");
+      const titles = soon.slice(0, 3).map(r => `${r.date_start} ${r.title.slice(0,60)}`).join(" · ");
+      const more = soon.length > 3 ? ` (+${soon.length - 3} more)` : "";
+      badge.setAttribute("title", `${soon.length} starred event${soon.length === 1 ? "" : "s"} in next 7 days: ${titles}${more}`);
+    } else {
+      badge.hidden = true;
+    }
+  }
+
   window.K = window.K || {};
-  window.K.Events = { show };
+  window.K.Events = { show, updateNavBadge };
 })();

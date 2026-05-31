@@ -100,8 +100,12 @@
   window.addEventListener("hashchange", route);
   if (!window.location.hash) window.location.hash = "#/overview";
 
-  // Kick triggers load eagerly so Overview's "Recent triggers" strip can populate.
+  // Kick triggers load eagerly so the nav badge can populate.
   K.Triggers.init();
+  // Kick events load eagerly so the Events nav badge can light up red
+  // when a must-see (luncheon / breakfast / cocktails / AGM) is in the
+  // next 7 days, even before the user visits the tab.
+  if (K.Events && K.Events.updateNavBadge) K.Events.updateNavBadge();
 
   route();
 })();
