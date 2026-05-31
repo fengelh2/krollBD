@@ -21,7 +21,7 @@ Currency
 
 [**Pinewood Wine - Premium Wine Tasting Experience ｜Red, White & Sparkling**](https://www.eventbrite.hk/e/pinewood-wine-premium-wine-tasting-experience-red-white-sparkling-tickets-1989807499796?aff=ebdssbdestsearch)
 
-Today at 17:30 + 268 more
+Today at 13:30 + 265 more
 
 
 
@@ -31,19 +31,11 @@ Hung Hom · Pinewood Wine Society
 
 
 
-From $1,999.00
 
 
 
 
 
-
-
-Pinewood Wine Limited
-
-
-
-166 followers
 
 
 
@@ -65,7 +57,7 @@ _Save this event: Pinewood Wine - Premium Wine Tasting Experience ｜Red, White 
 
 [**Pinewood Wine - Premium Wine Tasting Experience ｜Red, White & Sparkling**](https://www.eventbrite.hk/e/pinewood-wine-premium-wine-tasting-experience-red-white-sparkling-tickets-1989807499796?aff=ebdssbdestsearch)
 
-Today at 17:30 + 268 more
+Today at 13:30 + 265 more
 
 
 
@@ -75,7 +67,11 @@ Hung Hom · Pinewood Wine Society
 
 
 
-From $1,999.00
+
+
+
+
+
 
 
 
@@ -87,7 +83,7 @@ _Share this event: Pinewood Wine - Premium Wine Tasting Experience ｜Red, White
 
 [**June 2026 Rumble: An Improv Jam**](https://www.eventbrite.hk/e/june-2026-rumble-an-improv-jam-tickets-1984243698316?aff=ebdssbdestsearch)
 
-Monday at 19:00
+Tomorrow at 19:00
 
 
 
@@ -97,19 +93,11 @@ Hong Kong · Enterprise Building
 
 
 
-From $50.00
 
 
 
 
 
-
-
-Rooftop Improv
-
-
-
-99 followers
 
 
 
@@ -131,7 +119,7 @@ _Save this event: June 2026 Rumble: An Improv Jam__Share this event: June 2026 R
 
 [**June 2026 Rumble: An Improv Jam**](https://www.eventbrite.hk/e/june-2026-rumble-an-improv-jam-tickets-1984243698316?aff=ebdssbdestsearch)
 
-Monday at 19:00
+Tomorrow at 19:00
 
 
 
@@ -141,7 +129,11 @@ Hong Kong · Enterprise Building
 
 
 
-From $50.00
+
+
+
+
+
 
 
 
@@ -153,7 +145,7 @@ _Share this event: June 2026 Rumble: An Improv Jam__Save this event: June 2026 R
 
 [**An Exclusive Gong Sound Bath**](https://www.eventbrite.com/e/an-exclusive-gong-sound-bath-tickets-1980618615596?aff=ebdssbdestsearch)
 
-Tomorrow at 13:00 + 176 more
+Today at 14:30 + 175 more
 
 
 
@@ -163,7 +155,11 @@ TIN SHUI WA · TIN SHUI WA
 
 
 
-From $344.00
+
+
+
+
+
 
 
 
@@ -185,7 +181,7 @@ _Save this event: An Exclusive Gong Sound Bath__Share this event: An Exclusive G
 
 [**An Exclusive Gong Sound Bath**](https://www.eventbrite.com/e/an-exclusive-gong-sound-bath-tickets-1980618615596?aff=ebdssbdestsearch)
 
-Tomorrow at 13:00 + 176 more
+Today at 14:30 + 175 more
 
 
 
@@ -195,7 +191,11 @@ TIN SHUI WA · TIN SHUI WA
 
 
 
-From $344.00
+
+
+
+
+
 
 
 
@@ -217,19 +217,11 @@ Hong Kong · Lok Hing Lane Sitting-out Area (Lan Kwai Fong Amphitheatre)
 
 
 
-From $158.99
 
 
 
 
 
-
-
-Bar Hop Hong Kong
-
-
-
-60 followers
 
 
 
@@ -261,7 +253,11 @@ Hong Kong · Lok Hing Lane Sitting-out Area (Lan Kwai Fong Amphitheatre)
 
 
 
-From $158.99
+
+
+
+
+
 
 
 
@@ -283,19 +279,11 @@ Hong Kong · Level 19, Crystal Court, Hopewell Hotel
 
 
 
-From $2,227.00
 
 
 
 
 
-
-
-RICS Royal Institution of Chartered Surveyors
-
-
-
-1.1k followers
 
 
 
@@ -327,7 +315,11 @@ Hong Kong · Level 19, Crystal Court, Hopewell Hotel
 
 
 
-From $2,227.00
+
+
+
+
+
 
 
 
@@ -349,13 +341,13 @@ Sheung Wan · J. Rotbart & Co.
 
 
 
-From $105.99
 
 
 
 
 
-Money Action
+
+
 
 _Save this event: BEYOND ETFs: OWNING PHYSICAL GOLD & SILVER__Share this event: BEYOND ETFs: OWNING PHYSICAL GOLD & SILVER_
 
@@ -385,7 +377,11 @@ Sheung Wan · J. Rotbart & Co.
 
 
 
-From $105.99
+
+
+
+
+
 
 
 
@@ -407,19 +403,11 @@ hong kong · Soho House Hong Kong
 
 
 
-From $211.98
 
 
 
 
 
-
-
-KRAF events
-
-
-
-201 followers
 
 
 
@@ -451,7 +439,11 @@ hong kong · Soho House Hong Kong
 
 
 
-From $211.98
+
+
+
+
+
 
 
 
@@ -463,7 +455,7 @@ _Share this event: Fiesta Caliente Mundial feat Latino Chino__Save this event: F
 
 [**Social Serve at UBS Presents Padel Central**](https://www.eventbrite.hk/e/social-serve-at-ubs-presents-padel-central-tickets-1988813511751?aff=ebdssbdestsearch)
 
-Monday at 19:00
+Tomorrow at 19:00
 
 
 
@@ -473,19 +465,11 @@ Central · Hong Kong Observation Wheel & AIA Vitality Park
 
 
 
-From $475.00
 
 
 
 
 
-
-
-UBS Presents Padel Central
-
-
-
-208 followers
 
 
 
@@ -503,70 +487,4 @@ _Save this event: Social Serve at UBS Presents Padel Central__Share this event: 
 
 
 
-[![Social Serve at UBS Presents Padel Central primary image](https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1172370704%2F906183479023%2F1%2Foriginal.20251205-061355?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=5b3438e477e9ef907ece605960af2c4a)](https://www.eventbrite.hk/e/social-serve-at-ubs-presents-padel-central-tickets-1988813511751?aff=ebdssbdestsearch)
-
-[**Social Serve at UBS Presents Padel Central**](https://www.eventbrite.hk/e/social-serve-at-ubs-presents-padel-central-tickets-1988813511751?aff=ebdssbdestsearch)
-
-Monday at 19:00
-
-
-
-Central · Hong Kong Observation Wheel & AIA Vitality Park
-
-
-
-
-
-From $475.00
-
-
-
-
-
-_Share this event: Social Serve at UBS Presents Padel Central__Save this event: Social Serve at UBS Presents Padel Central_
-
-- [![[WE RE BACK!] Whatsapp Group for WSET Graduates / Students Recruiting primary image](https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F438390939%2F233691721757%2F1%2Foriginal.20200709-154929?w=640&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C40%2C1280%2C640&s=9499468b643e21db1bbf568193012d95)](https://www.eventbrite.hk/e/we-re-back-whatsapp-group-for-wset-graduates-students-recruiting-tickets-533222000357?aff=ebdssbdestsearch)
-
-[**\[WE RE BACK!\] Whatsapp Group for WSET Graduates / Students Recruiting**](https://www.eventbrite.hk/e/we-re-back-whatsapp-group-for-wset-graduates-students-recruiting-tickets-533222000357?aff=ebdssbdestsearch)
-
-Today at 19:00 + 79 more
-
-
-
-Cheung Sha Wan · Cheung Sha Wan Private Club House
-
-
-
-
-
-Free
-
-
-
-
-
-
-
-C&S Wine - Tasting x Learning x Sharing
-
-
-
-150 followers
-
-
-
-_Save this event: \[WE RE BACK!\] Whatsapp Group for WSET Graduates / Students Recruiting__Share this event: \[WE RE BACK!\] Whatsapp Group for WSET Graduates / Students Recruiting_
-
-
-
-
-
-
-
-
-
-
-
-
-
-[![[WE RE BACK!] Whatsapp Group for WSET Gr
+[![Social Serve at UBS Presents Padel Central primary image](https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1172370704%2F906183479023%2F1%2Foriginal.20251205-061355?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=5b3438e477e9ef907ece6059

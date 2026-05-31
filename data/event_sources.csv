@@ -2,21 +2,21 @@ host,listing_url,topic_default,confirmed,requires_js,detail_url_regex,notes
 HKICPA,https://mas.hkicpa.org.hk/mycpa/public/event/list?searchAll=1,accounting+regulatory,yes,yes,,Felix-provided. HKICPA MyCPA event search — SPA needs long JS wait.
 Informa Connect,https://informaconnect.com/events/?subBrands%5B0%5D=Informa%20Connect,mixed,yes,yes,,Felix-provided. Informa global events — filter HK after extraction.
 AVCJ (Ion Analytics),https://community.ionanalytics.com/events,private_equity+private_debt,yes,yes,,Felix-provided. Ion runs AVCJ + Debtwire + Mergermarket events.
-AIMA,https://www.aima.org/events.html,hedge_funds+alts,no,no,,Best-guess URL.
+AIMA,https://www.aima.org/events.html,hedge_funds+alts,yes,yes,,Public events listing — login wall on details but list visible.
 HKVCA,https://www.hkvca.com.hk/,private_equity+venture,yes,yes,https://www\.hkvca\.com\.hk/event/[a-z0-9\-]+/,"HKVCA homepage lists upcoming-event URLs; two-pass: regex-grab them, scrape each detail page."
-HKIFA,https://www.hkifa.org.hk/events/,asset_management+regulatory,no,no,,Best-guess URL.
+HKIFA,https://hkifa.org.hk/,asset_management+regulatory,yes,yes,https://hkifa\.org\.hk/[a-z0-9\-/]*event[a-z0-9\-/]*,Homepage; two-pass on /event-* links.
 APER,https://www.asianprivatecapital.com/events/,private_equity,no,no,,Best-guess.
 AsianInvestor,https://www.asianinvestor.net/events,asset_management,no,no,,Best-guess.
-Preqin,https://www.preqin.com/insights/events,alts_data,no,yes,,Best-guess SPA.
-PEI,https://www.privateequityinternational.com/events/,private_equity,no,no,,Best-guess.
-Private Debt Investor,https://www.privatedebtinvestor.com/events/,private_debt,no,no,,Best-guess.
-PERE,https://www.perenews.com/events/,private_real_estate,no,no,,Best-guess.
-CFA Society Hong Kong,https://www.cfasociety.org/hongkong/Pages/EventsCalendar.aspx,asset_management+alts,no,no,,Best-guess SharePoint calendar.
+Preqin,https://www.preqin.com/insights/events,alts_data,no,yes,,BROKEN — no public events page found; skip until working URL.
+PEI,https://www.peievents.com/en/pei-media-global-events-calendar/private-equity-international-events-calendar/,private_equity,yes,yes,,PEI Media's hosted calendar — confirmed real URL.
+Private Debt Investor,https://www.peievents.com/en/pei-media-global-events-calendar/private-debt-investor-events-calendar/,private_debt,yes,yes,,Same PEI Media calendar host.
+PERE,https://www.peievents.com/en/pei-media-global-events-calendar/pere-events-calendar/,private_real_estate,yes,yes,,Same PEI Media calendar host.
+CFA Society Hong Kong,https://cfasocietyhongkong.org/,asset_management+alts,yes,yes,https://cfasocietyhongkong\.org/event/[a-z0-9\-]+,Homepage; two-pass on /event/ links.
 SuperReturn Asia,https://informaconnect.com/superreturn-asia/,private_equity,no,yes,,Annual flagship event.
-EY HK insights,https://www.ey.com/en_hk/insights/events,audit+advisory,no,yes,,Best-guess.
+EY HK insights,https://www.ey.com/en_hk/insights/events,audit+advisory,no,yes,,BROKEN — no public events page found; skip until working URL.
 PwC HK events,https://www.pwchk.com/en/events.html,audit+advisory,no,no,,Best-guess.
-KPMG HK events,https://kpmg.com/cn/en/home/events.html,audit+advisory,no,yes,,Best-guess.
-Deloitte HK events,https://www2.deloitte.com/cn/en/pages/about-deloitte/events.html,audit+advisory,no,no,,Best-guess.
+KPMG HK events,https://kpmg.com/cn/en/events.html,audit+advisory,yes,yes,,Corrected URL after redirect.
+Deloitte HK events,https://www.deloitte.com/cn/en/events.html,audit+advisory,yes,yes,,Corrected URL after redirect to new domain.
 Eventbrite HK · PE,https://www.eventbrite.hk/d/hong-kong/private-equity/,private_equity,yes,yes,,Public Eventbrite HK search for private equity events — includes informal/networking.
 Eventbrite HK · private credit,https://www.eventbrite.hk/d/hong-kong/private-credit/,private_debt,yes,yes,,Public Eventbrite HK search for private credit / debt events.
 Eventbrite HK · asset management,https://www.eventbrite.hk/d/hong-kong/asset-management/,asset_management,yes,yes,,Public Eventbrite HK search for asset management events.

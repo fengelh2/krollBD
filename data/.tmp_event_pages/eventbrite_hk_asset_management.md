@@ -31,19 +31,11 @@ Thu 11 Jun, 17:00
 
 
 
-From $0.00
 
 
 
 
 
-
-
-ComplianceOne Consulting Limited
-
-
-
-29 followers
 
 
 
@@ -75,7 +67,11 @@ Thu 11 Jun, 17:00
 
 
 
-From $0.00
+
+
+
+
+
 
 
 
@@ -97,13 +93,13 @@ Hong Kong · NET•WORK by Hang Lung Properties - 18th and 19th floors of the St
 
 
 
-From $100.00
 
 
 
 
 
-Good Period I Certified B Corp
+
+
 
 _Save this event: Menstrual Health at Work and the Power of Procurement to Do Good__Share this event: Menstrual Health at Work and the Power of Procurement to Do Good_
 
@@ -133,7 +129,11 @@ Hong Kong · NET•WORK by Hang Lung Properties - 18th and 19th floors of the St
 
 
 
-From $100.00
+
+
+
+
+
 
 
 
@@ -155,19 +155,11 @@ Admiralty · HKUST Business School
 
 
 
-Free
 
 
 
 
 
-
-
-MIT Hong Kong Innovation Node
-
-
-
-566 followers
 
 
 
@@ -199,7 +191,11 @@ Admiralty · HKUST Business School
 
 
 
-Free
+
+
+
+
+
 
 
 
@@ -221,19 +217,11 @@ Quarry bay · 安永會計師事務所
 
 
 
-Free
 
 
 
 
 
-
-
-Inspiring Girls Hong Kong
-
-
-
-202 followers
 
 
 
@@ -265,7 +253,11 @@ Quarry bay · 安永會計師事務所
 
 
 
-Free
+
+
+
+
+
 
 
 
@@ -283,19 +275,11 @@ Hong Kong · Centricity - Concentric
 
 
 
-From £0.00
 
 
 
 
 
-
-
-ETFGI LLP
-
-
-
-217 followers
 
 
 
@@ -323,7 +307,11 @@ Hong Kong · Centricity - Concentric
 
 
 
-From £0.00
+
+
+
+
+
 
 
 
@@ -345,19 +333,11 @@ Wednesday at 17:00
 
 
 
-Free
 
 
 
 
 
-
-
-iFAST Global Markets
-
-
-
-27 followers
 
 
 
@@ -389,7 +369,11 @@ Wednesday at 17:00
 
 
 
-Free
+
+
+
+
+
 
 
 
@@ -411,19 +395,11 @@ Hong Kong · Hong Kong
 
 
 
-From $3,999.00
 
 
 
 
 
-
-
-Rapid Skill Up
-
-
-
-144 followers
 
 
 
@@ -441,70 +417,4 @@ _Save this event: Leveraging Robotics for Success \| Hong Kong__Share this event
 
 
 
-[![Leveraging Robotics for Success | Hong Kong primary image](https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1021648223%2F2314805913363%2F1%2Foriginal.20250502-081422?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.00488636363636&fp-y=0.00507434944238&s=7abf0130588a3bd45595ef17975afde2)](https://www.eventbrite.com.au/e/leveraging-robotics-for-success-hong-kong-tickets-1052186527227?aff=ebdssbdestsearch)
-
-[**Leveraging Robotics for Success \| Hong Kong**](https://www.eventbrite.com.au/e/leveraging-robotics-for-success-hong-kong-tickets-1052186527227?aff=ebdssbdestsearch)
-
-Tue 16 Jun, 13:00 + 8 more
-
-
-
-Hong Kong · Hong Kong
-
-
-
-
-
-From $3,999.00
-
-
-
-
-
-_Share this event: Leveraging Robotics for Success \| Hong Kong__Save this event: Leveraging Robotics for Success \| Hong Kong_
-
-- [![AI Implementation in Business | Hong Kong primary image](https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1021448003%2F2314805913363%2F1%2Foriginal.20250501-232206?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.00488636363636&fp-y=0.00507434944238&s=8009296c624323f9ce7f81671c9ee37a)](https://www.eventbrite.com.au/e/ai-implementation-in-business-hong-kong-tickets-1014959901387?aff=ebdssbdestsearch)
-
-[**AI Implementation in Business \| Hong Kong**](https://www.eventbrite.com.au/e/ai-implementation-in-business-hong-kong-tickets-1014959901387?aff=ebdssbdestsearch)
-
-Tue 23 Jun, 13:00 + 8 more
-
-
-
-Hong Kong · Hong Kong
-
-
-
-
-
-From $3,999.00
-
-
-
-
-
-
-
-Rapid Skill Up
-
-
-
-144 followers
-
-
-
-_Save this event: AI Implementation in Business \| Hong Kong__Share this event: AI Implementation in Business \| Hong Kong_
-
-
-
-
-
-
-
-
-
-
-
-
-
-[![AI Implementation in Business | Hong Kong primary image](https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1021448003%2F2314805913363%2F1%2Foriginal.20250501-232206?crop=focalpoint&fit=crop&w=64
+[![Leveraging Robotics for Success | Hong Kong primary image](https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1021648223%2F2314805913363%2F1%2Foriginal.20250502-081422?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.00

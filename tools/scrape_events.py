@@ -39,7 +39,7 @@ from llm_router import llm_call  # noqa: E402
 # For SPA-heavy event sites, the default 1500ms wait isn't enough — the event
 # listing renders client-side and we'd get only the page shell. Use this
 # longer wait when requires_js=yes in event_sources.csv.
-JS_HEAVY_WAIT_MS = 6000
+JS_HEAVY_WAIT_MS = 4000   # lowered from 6000 to leave more buffer inside the 15s total timeout
 
 
 def _scrape_firecrawl_aggressive(url: str) -> str:
@@ -168,6 +168,25 @@ def _event_key(e: dict) -> tuple:
             (e.get("date_start", "") or "").strip())
 
 
+def _is_keepable(e: dict) -> tuple[bool, str]:
+    """Belt-and-braces filter applied AFTER the LLM extraction. The LLM is
+    instructed to skip past + non-HK events but occasionally slips up.
+    Returns (keep?, reason_if_dropped)."""
+    today_iso = dt.date.today().isoformat()
+    ds = (e.get("date_start") or "").strip()
+    if ds and ds < today_iso:
+        # Check date_end too — if multi-day event ends in the future, keep it
+        de = (e.get("date_end") or "").strip()
+        if not (de and de >= today_iso):
+            return False, f"past event (date_start={ds})"
+    # Drop physical-only events outside HK. Virtual events from anywhere are OK.
+    is_hk = str(e.get("is_hk", "")).lower() == "true"
+    is_virtual = str(e.get("is_virtual", "")).lower() == "true"
+    if not is_hk and not is_virtual:
+        return False, f"not HK / not virtual (city={e.get('city','')})"
+    return True, ""
+
+
 def _atomic_write_events(rows: list[dict]) -> None:
     tmp = EVENTS_PATH.with_suffix(".csv.tmp")
     with tmp.open("w", encoding="utf-8", newline="") as f:
@@ -289,6 +308,10 @@ def main():
                     ev["host"] = host
                     ev["source_url"] = du
                     ev["scraped_at_utc"] = now
+                    keep, why = _is_keepable(ev)
+                    if not keep:
+                        skipped_count += 1
+                        continue
                     key = _event_key(ev)
                     if key in existing_keys:
                         skipped_count += 1
@@ -334,6 +357,10 @@ def main():
             ev["host"] = host
             ev["source_url"] = url
             ev["scraped_at_utc"] = now
+            keep, why = _is_keepable(ev)
+            if not keep:
+                skipped_count += 1
+                continue
             key = _event_key(ev)
             if key in existing_keys:
                 skipped_count += 1

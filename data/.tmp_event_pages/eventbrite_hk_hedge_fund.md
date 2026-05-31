@@ -27,19 +27,11 @@ Hong Kong · Centricity - Concentric
 
 
 
-From £0.00
 
 
 
 
 
-
-
-ETFGI LLP
-
-
-
-217 followers
 
 
 
@@ -67,7 +59,11 @@ Hong Kong · Centricity - Concentric
 
 
 
-From £0.00
+
+
+
+
+
 
 
 
@@ -89,19 +85,11 @@ Central · Hong Kong
 
 
 
-Free
 
 
 
 
 
-
-
-Tablon Global
-
-
-
-4.4k followers
 
 
 
@@ -133,7 +121,11 @@ Central · Hong Kong
 
 
 
-Free
+
+
+
+
+
 
 
 
@@ -145,7 +137,7 @@ _Share this event: Join Biggest Community \| Investors Founders \| Hong Kong \| 
 
 [**Sai Kung Stray Friends Foundation Adoption and Fundraising Event**](https://www.eventbrite.hk/e/sai-kung-stray-friends-foundation-adoption-and-fundraising-event-tickets-1989295342921?aff=ebdssbdestsearch)
 
-Tomorrow at 15:00
+Today at 15:00
 
 
 
@@ -155,13 +147,13 @@ Hong Kong · Thirsty Shaker Cocktail Bar
 
 
 
-From $105.99
 
 
 
 
 
-Sai Kung Stray Friends, Fruits of Cupid, Thirsty Shaker
+
+
 
 _Save this event: Sai Kung Stray Friends Foundation Adoption and Fundraising Event__Share this event: Sai Kung Stray Friends Foundation Adoption and Fundraising Event_
 
@@ -181,7 +173,7 @@ _Save this event: Sai Kung Stray Friends Foundation Adoption and Fundraising Eve
 
 [**Sai Kung Stray Friends Foundation Adoption and Fundraising Event**](https://www.eventbrite.hk/e/sai-kung-stray-friends-foundation-adoption-and-fundraising-event-tickets-1989295342921?aff=ebdssbdestsearch)
 
-Tomorrow at 15:00
+Today at 15:00
 
 
 
@@ -191,7 +183,11 @@ Hong Kong · Thirsty Shaker Cocktail Bar
 
 
 
-From $105.99
+
+
+
+
+
 
 
 
@@ -213,19 +209,11 @@ Hong Kong · AIA Vitality hub, Central Harbourfront Event Space, HK
 
 
 
-From $250.00
 
 
 
 
 
-
-
-Inspiring Girls Hong Kong
-
-
-
-202 followers
 
 
 
@@ -257,7 +245,11 @@ Hong Kong · AIA Vitality hub, Central Harbourfront Event Space, HK
 
 
 
-From $250.00
+
+
+
+
+
 
 
 
@@ -279,19 +271,11 @@ Quarry Bay · Quarryside
 
 
 
-Free
 
 
 
 
 
-
-
-Women's Journal
-
-
-
-18 followers
 
 
 
@@ -323,7 +307,11 @@ Quarry Bay · Quarryside
 
 
 
-Free
+
+
+
+
+
 
 
 
@@ -345,19 +333,11 @@ Hong Kong · Crystal Bowl of Light
 
 
 
-From $3,815.64
 
 
 
 
 
-
-
-Crystal Bowl Of Light
-
-
-
-18 followers
 
 
 
@@ -389,7 +369,11 @@ Hong Kong · Crystal Bowl of Light
 
 
 
-From $3,815.64
+
+
+
+
+
 
 
 
@@ -411,19 +395,11 @@ Hong Kong · HOPEWELL HOTEL
 
 
 
-Free
 
 
 
 
 
-
-
-WikiExpo Official
-
-
-
-298 followers
 
 
 
@@ -443,68 +419,4 @@ _Save this event: ✈Wiki Finance Expo Hong Kong 2026 (Asia’s Largest Fintech 
 
 [![✈Wiki Finance Expo Hong Kong 2026 (Asia’s Largest Fintech & Web3.0 Event) primary image](https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1180629518%2F1434347084143%2F1%2Foriginal.20260325-031712?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=4331b953663e30e6cfde883a2d1515ad)](https://www.eventbrite.hk/e/wiki-finance-expo-hong-kong-2026-asias-largest-fintech-web30-event-tickets-1975079985404?aff=ebdssbdestsearch)
 
-[**✈Wiki Finance Expo Hong Kong 2026 (Asia’s Largest Fintech & Web3.0 Event)**](https://www.eventbrite.hk/e/wiki-finance-expo-hong-kong-2026-asias-largest-fintech-web30-event-tickets-1975079985404?aff=ebdssbdestsearch)
-
-Thu 23 Jul, 09:00
-
-
-
-Hong Kong · HOPEWELL HOTEL
-
-
-
-
-
-Free
-
-
-
-
-
-_Share this event: ✈Wiki Finance Expo Hong Kong 2026 (Asia’s Largest Fintech & Web3.0 Event)__Save this event: ✈Wiki Finance Expo Hong Kong 2026 (Asia’s Largest Fintech & Web3.0 Event)_
-
-- [![Hobie’s Angels! Lady's Helm Training + Race on a Hobie 16 primary image](https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1180107628%2F2963255863841%2F1%2Foriginal.20260318-024528?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=9e193f20779077782e91ee2eeaf6d744)](https://www.eventbrite.com/e/hobies-angels-ladys-helm-training-race-on-a-hobie-16-tickets-1985417022761?aff=ebdssbdestsearch)
-
-[**Hobie’s Angels! Lady's Helm Training + Race on a Hobie 16**](https://www.eventbrite.com/e/hobies-angels-ladys-helm-training-race-on-a-hobie-16-tickets-1985417022761?aff=ebdssbdestsearch)
-
-Sat 6 Jun, 10:30 + 1 more
-
-
-
-Shek O · Hong Kong Hobie Club
-
-
-
-
-
-From $500.00
-
-
-
-
-
-
-
-Hong Kong Hobie Club
-
-
-
-11 followers
-
-
-
-_Save this event: Hobie’s Angels! Lady's Helm Training + Race on a Hobie 16__Share this event: Hobie’s Angels! Lady's Helm Training + Race on a Hobie 16_
-
-
-
-
-
-
-
-
-
-
-
-
-
-[![Hobie’s Angels! Lady's Helm Training + Race on a Hobie 16 primary image](https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1180107628%2F2963255863841%2F1%2Foriginal.20260318-024528?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=9e193f20779077782e91ee2eeaf6d744)](https://www.eventbrite.com/e/hobies-angels-ladys-helm-training-race-on-a-hob
+[**✈Wiki Finance Expo Hong Kong 2026 (Asia’s Largest Fintech & Web3.0 Event)**](https://www.eventbrite.hk/e/wiki-finance-expo-hong-kong-2026-asias-largest-fintech-web30-ev

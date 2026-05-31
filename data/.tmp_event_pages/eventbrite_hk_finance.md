@@ -31,19 +31,11 @@ Central · Dot Cod Seafood Restaurant & Oyster Bar
 
 
 
-From $464.24
 
 
 
 
 
-
-
-Australian Association of Hong Kong Limited
-
-
-
-263 followers
 
 
 
@@ -75,7 +67,11 @@ Central · Dot Cod Seafood Restaurant & Oyster Bar
 
 
 
-From $464.24
+
+
+
+
+
 
 
 
@@ -97,19 +93,11 @@ Central · PST Central (17/F, 33 Wyndham Street, Central)
 
 
 
-Free
 
 
 
 
 
-
-
-PREFACE
-
-
-
-1.3k followers
 
 
 
@@ -141,7 +129,11 @@ Central · PST Central (17/F, 33 Wyndham Street, Central)
 
 
 
-Free
+
+
+
+
+
 
 
 
@@ -163,19 +155,11 @@ Hong Kong · Holiday Inn Golden Mile
 
 
 
-Free
 
 
 
 
 
-
-
-Life and Medical Sciences Innovation Institute
-
-
-
-32 followers
 
 
 
@@ -207,7 +191,11 @@ Hong Kong · Holiday Inn Golden Mile
 
 
 
-Free
+
+
+
+
+
 
 
 
@@ -225,19 +213,11 @@ Hong Kong · Centricity - Concentric
 
 
 
-From £0.00
 
 
 
 
 
-
-
-ETFGI LLP
-
-
-
-217 followers
 
 
 
@@ -265,7 +245,11 @@ Hong Kong · Centricity - Concentric
 
 
 
-From £0.00
+
+
+
+
+
 
 
 
@@ -287,19 +271,11 @@ Hong Kong · HOPEWELL HOTEL
 
 
 
-Free
 
 
 
 
 
-
-
-WikiExpo Official
-
-
-
-298 followers
 
 
 
@@ -331,7 +307,11 @@ Hong Kong · HOPEWELL HOTEL
 
 
 
-Free
+
+
+
+
+
 
 
 
@@ -353,19 +333,11 @@ Central · The Aftermath
 
 
 
-From $105.99
 
 
 
 
 
-
-
-Kate Hu
-
-
-
-69 followers
 
 
 
@@ -397,7 +369,11 @@ Central · The Aftermath
 
 
 
-From $105.99
+
+
+
+
+
 
 
 
@@ -419,19 +395,11 @@ Hong Kong · Level 19, Crystal Court, Hopewell Hotel
 
 
 
-From $2,227.00
 
 
 
 
 
-
-
-RICS Royal Institution of Chartered Surveyors
-
-
-
-1.1k followers
 
 
 
@@ -463,7 +431,11 @@ Hong Kong · Level 19, Crystal Court, Hopewell Hotel
 
 
 
-From $2,227.00
+
+
+
+
+
 
 
 
@@ -471,62 +443,4 @@ From $2,227.00
 
 _Share this event: RICS Hong Kong Conference 2026__Save this event: RICS Hong Kong Conference 2026_
 
-- [![BEYOND ETFs: OWNING PHYSICAL GOLD & SILVER primary image](https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1185498305%2F2953966047161%2F1%2Foriginal.20260527-043914?w=640&auto=format%2Ccompress&q=75&sharp=10&s=d8bc1ad00ac6e503d57e6cc477aaefc5)](https://www.eventbrite.hk/e/beyond-etfs-owning-physical-gold-silver-tickets-1989984401915?aff=ebdssbdestsearch)
-
-[**BEYOND ETFs: OWNING PHYSICAL GOLD & SILVER**](https://www.eventbrite.hk/e/beyond-etfs-owning-physical-gold-silver-tickets-1989984401915?aff=ebdssbdestsearch)
-
-Wed 17 Jun, 18:30
-
-
-
-Sheung Wan · J. Rotbart & Co.
-
-
-
-
-
-From $105.99
-
-
-
-
-
-Money Action
-
-_Save this event: BEYOND ETFs: OWNING PHYSICAL GOLD & SILVER__Share this event: BEYOND ETFs: OWNING PHYSICAL GOLD & SILVER_
-
-
-
-
-
-
-
-
-
-
-
-
-
-[![BEYOND ETFs: OWNING PHYSICAL GOLD & SILVER primary image](https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1185498305%2F2953966047161%2F1%2Foriginal.20260527-043914?w=640&auto=format%2Ccompress&q=75&sharp=10&s=d8bc1ad00ac6e503d57e6cc477aaefc5)](https://www.eventbrite.hk/e/beyond-etfs-owning-physical-gold-silver-tickets-1989984401915?aff=ebdssbdestsearch)
-
-[**BEYOND ETFs: OWNING PHYSICAL GOLD & SILVER**](https://www.eventbrite.hk/e/beyond-etfs-owning-physical-gold-silver-tickets-1989984401915?aff=ebdssbdestsearch)
-
-Wed 17 Jun, 18:30
-
-
-
-Sheung Wan · J. Rotbart & Co.
-
-
-
-
-
-From $105.99
-
-
-
-
-
-_Share this event: BEYOND ETFs: OWNING PHYSICAL GOLD & SILVER__Save this event: BEYOND ETFs: OWNING PHYSICAL GOLD & SILVER_
-
-- [![Entrepreneur Stories | The Serial Entrepreneur's Playbook primary image](https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1185498540%2F482050212219%2F1%2Foriginal.20260527-044544?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.089&fp-y=0.521&s=61a63e18e631f59c1003be88a068ac2b)](https://www.eventbrite.hk/e/entrepreneur-stories-the-serial-entrepreneurs-playboo
+- [![BEYOND ETFs: OWNING PHYSICAL GOLD & SILVER primary image](https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1185498305%2F2953966047161%2F1%2Foriginal.20260527-043914?w=640&auto=format%2Ccompress&q=75&sharp=10&s=d8bc1ad00ac6e503d57e6cc477aaefc5)](https://www.eventbrite.hk/e/beyond-etfs-owning-phys

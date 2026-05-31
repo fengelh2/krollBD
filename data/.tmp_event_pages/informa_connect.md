@@ -329,15 +329,7 @@ east](https://informaconnect.com/finovatespring/)
 \\
   - Denver CO, US\\
 \\
-Everything is bigger at FAN EXPO Denver. The largest expo in Denver is a place to celebrate all things BIG in pop culture. Get an autograph or a photo with your favorite guest then get creative at the workshops, cosplay parties, and so much more.\\
-\\
-Book Now\\
-\\
-east\\
-\\
-Book Now\\
-\\
-east](https://fanexpohq.com/fanexpodenver/)
+Everything is bigger at FAN EXPO Denver. The largest expo in Denver is a place to celebrate all things BIG in pop culture. Get an autograph or a photo with your favorite guest then get creative at the workshops, cosplay parties, and so much more.](https://fanexpohq.com/fanexpodenver/)
 - [Pop Culture\\
 \\
 **FAN EXPO Philadelphia**\\
@@ -347,15 +339,7 @@ east](https://fanexpohq.com/fanexpodenver/)
 \\
   - Philadelphia PA, US\\
 \\
-FAN EXPO Philadelphia is Back! Experience the ultimate playground for Comics, Sci-Fi, Horror, Anime, and Gaming. Three BIG days of citywide events, family-friendly attractions and world-renowned celebrities await. Join tens of thousands of fans who are just like you.\\
-\\
-Book Now\\
-\\
-east\\
-\\
-Book Now\\
-\\
-east](https://fanexpohq.com/fanexpophiladelphia/)
+FAN EXPO Philadelphia is Back! Experience the ultimate playground for Comics, Sci-Fi, Horror, Anime, and Gaming. Three BIG days of citywide events, family-friendly attractions and world-renowned celebrities await. Join tens of thousands of fans who are just like you.](https://fanexpohq.com/fanexpophiladelphia/)
 - [Commercial & Multi-Residential Real Estate\\
 \\
 **Land & Homebuilding Capital Markets East**\\

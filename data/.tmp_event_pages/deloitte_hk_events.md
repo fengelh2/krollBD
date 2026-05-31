@@ -1,16 +1,26 @@
 Link opens in a new tabopens in new window
 
-[![logo text](https://www.deloitte.com/content/dam/assets-shared/logos/svg/a-d/deloitte-logo.svg)](https://www.deloitte.com/cn/en.html)
+- [中文](https://www.deloitte.com/cn/zh/events.html?icid=toggle_cn_zh)
+- [English](https://www.deloitte.com/cn/en/events.html#)
 
-# Lost your way?
+# Connect with our events
 
-Use the search box to get back on track or follow the links below.
+A collection of events, webinars and conferences showcasing Deloitte's insights and perspectives
 
-Search
+- All 1
+  - All 1
+  - In-person 1
+- More filters
+- More filters
 
-|     |     |
-| --- | --- |
-| [Our Thinking](https://www.deloitte.com/cn/en/our-thinking.html) | [Press room](https://www.deloitte.com/cn/en/about/press-room.html) |
-| [Careers](https://www.deloitte.com/cn/en/careers.html) | [Industries](https://www.deloitte.com/cn/en/Industries.html) |
+### [Milano Cortina 2026](https://www.deloitte.com/cn/en/events/milano-cortina-2026.html)
 
-[Go to homepage](https://www.deloitte.com/cn/en.html)
+In-person:Event
+
+06 Feb. - 15 Mar. 2026
+
+Milano Cortina 2026 will be Deloitte’s first edition as Worldwide Technology Integration Partner to the International Olympic Committee (IOC). From testing and rehearsals through to buzzer beaters and victory laps, Deloitte is playing a delivery role with an impact that is felt throughout the Olympic and Paralympic Games delivery experience.
+
+[View details](https://www.deloitte.com/cn/en/events/milano-cortina-2026.html)
+
+![](https://media.deloitte.com/is/image/deloitte/milano-cortina:720-x-480?defaultImage=default-nonprofile-thumbnail&defaultImageMode=1)

@@ -31,19 +31,11 @@ Wan Chai · Hong Kong Convention and Exhibition Centre
 
 
 
-From $57.84
 
 
 
 
 
-
-
-VIP Nightlife - Live the Best VIP Life.
-
-
-
-39.8k followers
 
 
 
@@ -75,7 +67,11 @@ Wan Chai · Hong Kong Convention and Exhibition Centre
 
 
 
-From $57.84
+
+
+
+
+
 
 
 
@@ -87,7 +83,7 @@ _Share this event: Bitcoin Asia 2026 \| Hong Kong__Save this event: Bitcoin Asia
 
 [**Pinewood Wine - Premium Wine Tasting Experience ｜Red, White & Sparkling**](https://www.eventbrite.hk/e/pinewood-wine-premium-wine-tasting-experience-red-white-sparkling-tickets-1989807499796?aff=ebdssbdestsearch)
 
-Today at 17:30 + 268 more
+Today at 13:30 + 265 more
 
 
 
@@ -97,19 +93,11 @@ Hung Hom · Pinewood Wine Society
 
 
 
-From $1,999.00
 
 
 
 
 
-
-
-Pinewood Wine Limited
-
-
-
-166 followers
 
 
 
@@ -131,7 +119,7 @@ _Save this event: Pinewood Wine - Premium Wine Tasting Experience ｜Red, White 
 
 [**Pinewood Wine - Premium Wine Tasting Experience ｜Red, White & Sparkling**](https://www.eventbrite.hk/e/pinewood-wine-premium-wine-tasting-experience-red-white-sparkling-tickets-1989807499796?aff=ebdssbdestsearch)
 
-Today at 17:30 + 268 more
+Today at 13:30 + 265 more
 
 
 
@@ -141,7 +129,11 @@ Hung Hom · Pinewood Wine Society
 
 
 
-From $1,999.00
+
+
+
+
+
 
 
 
@@ -153,7 +145,7 @@ _Share this event: Pinewood Wine - Premium Wine Tasting Experience ｜Red, White
 
 [**June 2026 Rumble: An Improv Jam**](https://www.eventbrite.hk/e/june-2026-rumble-an-improv-jam-tickets-1984243698316?aff=ebdssbdestsearch)
 
-Monday at 19:00
+Tomorrow at 19:00
 
 
 
@@ -163,19 +155,11 @@ Hong Kong · Enterprise Building
 
 
 
-From $50.00
 
 
 
 
 
-
-
-Rooftop Improv
-
-
-
-99 followers
 
 
 
@@ -197,7 +181,7 @@ _Save this event: June 2026 Rumble: An Improv Jam__Share this event: June 2026 R
 
 [**June 2026 Rumble: An Improv Jam**](https://www.eventbrite.hk/e/june-2026-rumble-an-improv-jam-tickets-1984243698316?aff=ebdssbdestsearch)
 
-Monday at 19:00
+Tomorrow at 19:00
 
 
 
@@ -207,7 +191,11 @@ Hong Kong · Enterprise Building
 
 
 
-From $50.00
+
+
+
+
+
 
 
 
@@ -219,7 +207,7 @@ _Share this event: June 2026 Rumble: An Improv Jam__Save this event: June 2026 R
 
 [**An Exclusive Gong Sound Bath**](https://www.eventbrite.com/e/an-exclusive-gong-sound-bath-tickets-1980618615596?aff=ebdssbdestsearch)
 
-Tomorrow at 13:00 + 176 more
+Today at 14:30 + 175 more
 
 
 
@@ -229,7 +217,11 @@ TIN SHUI WA · TIN SHUI WA
 
 
 
-From $344.00
+
+
+
+
+
 
 
 
@@ -251,7 +243,7 @@ _Save this event: An Exclusive Gong Sound Bath__Share this event: An Exclusive G
 
 [**An Exclusive Gong Sound Bath**](https://www.eventbrite.com/e/an-exclusive-gong-sound-bath-tickets-1980618615596?aff=ebdssbdestsearch)
 
-Tomorrow at 13:00 + 176 more
+Today at 14:30 + 175 more
 
 
 
@@ -261,7 +253,11 @@ TIN SHUI WA · TIN SHUI WA
 
 
 
-From $344.00
+
+
+
+
+
 
 
 
@@ -283,19 +279,11 @@ Hong Kong · Lok Hing Lane Sitting-out Area (Lan Kwai Fong Amphitheatre)
 
 
 
-From $158.99
 
 
 
 
 
-
-
-Bar Hop Hong Kong
-
-
-
-60 followers
 
 
 
@@ -327,7 +315,11 @@ Hong Kong · Lok Hing Lane Sitting-out Area (Lan Kwai Fong Amphitheatre)
 
 
 
-From $158.99
+
+
+
+
+
 
 
 
@@ -349,7 +341,11 @@ Lamma Isalnd · LAMMA BBQ
 
 
 
-From $233.18
+
+
+
+
+
 
 
 
@@ -381,7 +377,11 @@ Lamma Isalnd · LAMMA BBQ
 
 
 
-From $233.18
+
+
+
+
+
 
 
 
@@ -403,19 +403,11 @@ Hong Kong · Level 19, Crystal Court, Hopewell Hotel
 
 
 
-From $2,227.00
 
 
 
 
 
-
-
-RICS Royal Institution of Chartered Surveyors
-
-
-
-1.1k followers
 
 
 
@@ -447,7 +439,11 @@ Hong Kong · Level 19, Crystal Court, Hopewell Hotel
 
 
 
-From $2,227.00
+
+
+
+
+
 
 
 
@@ -469,13 +465,13 @@ Sheung Wan · J. Rotbart & Co.
 
 
 
-From $105.99
 
 
 
 
 
-Money Action
+
+
 
 _Save this event: BEYOND ETFs: OWNING PHYSICAL GOLD & SILVER__Share this event: BEYOND ETFs: OWNING PHYSICAL GOLD & SILVER_
 
@@ -505,7 +501,11 @@ Sheung Wan · J. Rotbart & Co.
 
 
 
-From $105.99
+
+
+
+
+
 
 
 
@@ -513,70 +513,4 @@ From $105.99
 
 _Share this event: BEYOND ETFs: OWNING PHYSICAL GOLD & SILVER__Save this event: BEYOND ETFs: OWNING PHYSICAL GOLD & SILVER_
 
-- [![Fiesta Caliente Mundial feat Latino Chino primary image](https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1185496733%2F574443865977%2F1%2Foriginal.20260527-035805?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.966&fp-y=0.519&s=322aff56c73ec60bfbf10cb31ed09dc4)](https://www.eventbrite.hk/e/fiesta-caliente-mundial-feat-latino-chino-tickets-1990457257238?aff=ebdssbdestsearch)
-
-[**Fiesta Caliente Mundial feat Latino Chino**](https://www.eventbrite.hk/e/fiesta-caliente-mundial-feat-latino-chino-tickets-1990457257238?aff=ebdssbdestsearch)
-
-Sat 13 Jun, 20:00
-
-
-
-hong kong · Soho House Hong Kong
-
-
-
-
-
-From $211.98
-
-
-
-
-
-
-
-KRAF events
-
-
-
-201 followers
-
-
-
-_Save this event: Fiesta Caliente Mundial feat Latino Chino__Share this event: Fiesta Caliente Mundial feat Latino Chino_
-
-
-
-
-
-
-
-
-
-
-
-
-
-[![Fiesta Caliente Mundial feat Latino Chino primary image](https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1185496733%2F574443865977%2F1%2Foriginal.20260527-035805?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.966&fp-y=0.519&s=322aff56c73ec60bfbf10cb31ed09dc4)](https://www.eventbrite.hk/e/fiesta-caliente-mundial-feat-latino-chino-tickets-1990457257238?aff=ebdssbdestsearch)
-
-[**Fiesta Caliente Mundial feat Latino Chino**](https://www.eventbrite.hk/e/fiesta-caliente-mundial-feat-latino-chino-tickets-1990457257238?aff=ebdssbdestsearch)
-
-Sat 13 Jun, 20:00
-
-
-
-hong kong · Soho House Hong Kong
-
-
-
-
-
-From $211.98
-
-
-
-
-
-_Share this event: Fiesta Caliente Mundial feat Latino Chino__Save this event: Fiesta Caliente Mundial feat Latino Chino_
-
-- [![Social Serve at UBS Presents Padel Central primary image](https://img.evbuc.com/https%3A%2F%
+- [![Fiesta Caliente Mundial feat Latino Chino primary image](https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F

@@ -27,19 +27,11 @@ Hong Kong · Centricity - Concentric
 
 
 
-From £0.00
 
 
 
 
 
-
-
-ETFGI LLP
-
-
-
-217 followers
 
 
 
@@ -67,7 +59,11 @@ Hong Kong · Centricity - Concentric
 
 
 
-From £0.00
+
+
+
+
+
 
 
 
@@ -89,7 +85,11 @@ The Peak · Matilda International Hospital
 
 
 
-From $1,500.00
+
+
+
+
+
 
 
 
@@ -121,7 +121,11 @@ The Peak · Matilda International Hospital
 
 
 
-From $1,500.00
+
+
+
+
+
 
 
 
@@ -143,19 +147,11 @@ Kowloon · Eaton HK, Kino
 
 
 
-From $105.99
 
 
 
 
 
-
-
-Eaton HK
-
-
-
-1.7k followers
 
 
 
@@ -187,7 +183,11 @@ Kowloon · Eaton HK, Kino
 
 
 
-From $105.99
+
+
+
+
+
 
 
 
@@ -209,13 +209,13 @@ Hong Kong · NET•WORK by Hang Lung Properties - 18th and 19th floors of the St
 
 
 
-From $100.00
 
 
 
 
 
-Good Period I Certified B Corp
+
+
 
 _Save this event: Menstrual Health at Work and the Power of Procurement to Do Good__Share this event: Menstrual Health at Work and the Power of Procurement to Do Good_
 
@@ -245,7 +245,11 @@ Hong Kong · NET•WORK by Hang Lung Properties - 18th and 19th floors of the St
 
 
 
-From $100.00
+
+
+
+
+
 
 
 
@@ -267,19 +271,11 @@ Hong Kong · The 80 \| 20
 
 
 
-From $200.00
 
 
 
 
 
-
-
-生涯發展學院
-
-
-
-111 followers
 
 
 
@@ -311,7 +307,11 @@ Hong Kong · The 80 \| 20
 
 
 
-From $200.00
+
+
+
+
+
 
 
 
@@ -319,21 +319,20 @@ From $200.00
 
 _Share this event: 香港生涯規劃發展師認證課程 (LPDF) 報名費__Save this event: 香港生涯規劃發展師認證課程 (LPDF) 報名費_
 
-- [![Entrepreneur Stories | The Serial Entrepreneur's Playbook primary image](https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1185498540%2F482050212219%2F1%2Foriginal.20260527-044544?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.089&fp-y=0.521&s=61a63e18e631f59c1003be88a068ac2b)](https://www.eventbrite.hk/e/entrepreneur-stories-the-serial-entrepreneurs-playbook-tickets-1990459725621?aff=ebdssbdestsearch)
+- [![免費 - 全方位 Excel Functions (函數) 應用工作坊 (Cantonese Speaker) primary image](https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1182386201%2F182288185266%2F1%2Foriginal.20240403-132317?w=640&auto=format%2Ccompress&q=75&sharp=10&rect=56%2C0%2C3920%2C1960&s=85d4c28c8af155749c7479275654a36a)](https://www.eventbrite.hk/e/-excel-functions-cantonese-speaker-tickets-1987669360564?aff=ebdssbdestsearch)
 
-[**Entrepreneur Stories \| The Serial Entrepreneur's Playbook**](https://www.eventbrite.hk/e/entrepreneur-stories-the-serial-entrepreneurs-playbook-tickets-1990459725621?aff=ebdssbdestsearch)
+[**免費 \- 全方位 Excel Functions (函數) 應用工作坊 (Cantonese Speaker)**](https://www.eventbrite.hk/e/-excel-functions-cantonese-speaker-tickets-1987669360564?aff=ebdssbdestsearch)
 
-Tue 16 Jun, 18:30
+Tue 16 Jun, 19:00
 
 
 
-Quarry Bay · Banyan Workspace
+九龍塘 · 香港生產力促進局生產力大樓1/F
 
 
 
 
 
-From $100.00
 
 
 
@@ -341,15 +340,13 @@ From $100.00
 
 
 
-Banyan Workspace
 
+_Save this event: 免費 - 全方位 Excel Functions (函數) 應用工作坊 (Cantonese Speaker)__Share this event: 免費 - 全方位 Excel Functions (函數) 應用工作坊 (Cantonese Speaker)_
 
 
-158 followers
 
 
 
-_Save this event: Entrepreneur Stories \| The Serial Entrepreneur's Playbook__Share this event: Entrepreneur Stories \| The Serial Entrepreneur's Playbook_
 
 
 
@@ -358,48 +355,47 @@ _Save this event: Entrepreneur Stories \| The Serial Entrepreneur's Playbook__Sh
 
 
 
+[![免費 - 全方位 Excel Functions (函數) 應用工作坊 (Cantonese Speaker) primary image](https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1182386201%2F182288185266%2F1%2Foriginal.20240403-132317?w=640&auto=format%2Ccompress&q=75&sharp=10&rect=56%2C0%2C3920%2C1960&s=85d4c28c8af155749c7479275654a36a)](https://www.eventbrite.hk/e/-excel-functions-cantonese-speaker-tickets-1987669360564?aff=ebdssbdestsearch)
 
+[**免費 \- 全方位 Excel Functions (函數) 應用工作坊 (Cantonese Speaker)**](https://www.eventbrite.hk/e/-excel-functions-cantonese-speaker-tickets-1987669360564?aff=ebdssbdestsearch)
 
+Tue 16 Jun, 19:00
 
 
 
-[![Entrepreneur Stories | The Serial Entrepreneur's Playbook primary image](https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1185498540%2F482050212219%2F1%2Foriginal.20260527-044544?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.089&fp-y=0.521&s=61a63e18e631f59c1003be88a068ac2b)](https://www.eventbrite.hk/e/entrepreneur-stories-the-serial-entrepreneurs-playbook-tickets-1990459725621?aff=ebdssbdestsearch)
+九龍塘 · 香港生產力促進局生產力大樓1/F
 
-[**Entrepreneur Stories \| The Serial Entrepreneur's Playbook**](https://www.eventbrite.hk/e/entrepreneur-stories-the-serial-entrepreneurs-playbook-tickets-1990459725621?aff=ebdssbdestsearch)
 
-Tue 16 Jun, 18:30
 
 
 
-Quarry Bay · Banyan Workspace
 
 
 
 
 
-From $100.00
 
 
 
 
 
-_Share this event: Entrepreneur Stories \| The Serial Entrepreneur's Playbook__Save this event: Entrepreneur Stories \| The Serial Entrepreneur's Playbook_
+_Share this event: 免費 - 全方位 Excel Functions (函數) 應用工作坊 (Cantonese Speaker)__Save this event: 免費 - 全方位 Excel Functions (函數) 應用工作坊 (Cantonese Speaker)_
 
-- [![Kids4Kids Youth Summit 2026| 童協基金會敢·創–社區設計師培訓論壇 2026 primary image](https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1185406093%2F383724915591%2F1%2Foriginal.20260526-040011?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=abdc3de3435f8c4f266aef1fcdebb073)](https://www.eventbrite.hk/e/kids4kids-youth-summit-2026-2026-tickets-1987471349307?aff=ebdssbdestsearch)
 
-[**Kids4Kids Youth Summit 2026\| 童協基金會敢·創–社區設計師培訓論壇 2026**](https://www.eventbrite.hk/e/kids4kids-youth-summit-2026-2026-tickets-1987471349307?aff=ebdssbdestsearch)
 
-Sat 19 Sept, 09:30
 
 
+View 4 similar results
 
-Kowloon · Christian Alliance International School
+- [![Downtown Business Networking at Red room [K11-TST] primary image](https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1184227475%2F581411840743%2F1%2Foriginal.20260510-081642?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=8d957ab4bbfa3aba7b8ca7087d19c967)](https://www.eventbrite.hk/e/downtown-business-networking-at-red-room-k11-tst-tickets-1989166488514?aff=ebdssbdestsearch)
 
+[**Downtown Business Networking at Red room \[K11-TST\]**](https://www.eventbrite.hk/e/downtown-business-networking-at-red-room-k11-tst-tickets-1989166488514?aff=ebdssbdestsearch)
 
+Thu 18 Jun, 17:00
 
 
 
-From $500.00
+Hong Kong. · Red Room
 
 
 
@@ -407,15 +403,13 @@ From $500.00
 
 
 
-Kids4Kids Limited 童協基金會
 
 
 
-19 followers
 
 
 
-_Save this event: Kids4Kids Youth Summit 2026\| 童協基金會敢·創–社區設計師培訓論壇 2026__Share this event: Kids4Kids Youth Summit 2026\| 童協基金會敢·創–社區設計師培訓論壇 2026_
+_Save this event: Downtown Business Networking at Red room \[K11-TST\]__Share this event: Downtown Business Networking at Red room \[K11-TST\]_
 
 
 
@@ -429,92 +423,30 @@ _Save this event: Kids4Kids Youth Summit 2026\| 童協基金會敢·創–社區
 
 
 
-[![Kids4Kids Youth Summit 2026| 童協基金會敢·創–社區設計師培訓論壇 2026 primary image](https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1185406093%2F383724915591%2F1%2Foriginal.20260526-040011?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=abdc3de3435f8c4f266aef1fcdebb073)](https://www.eventbrite.hk/e/kids4kids-youth-summit-2026-2026-tickets-1987471349307?aff=ebdssbdestsearch)
+[![Downtown Business Networking at Red room [K11-TST] primary image](https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1184227475%2F581411840743%2F1%2Foriginal.20260510-081642?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=8d957ab4bbfa3aba7b8ca7087d19c967)](https://www.eventbrite.hk/e/downtown-business-networking-at-red-room-k11-tst-tickets-1989166488514?aff=ebdssbdestsearch)
 
-[**Kids4Kids Youth Summit 2026\| 童協基金會敢·創–社區設計師培訓論壇 2026**](https://www.eventbrite.hk/e/kids4kids-youth-summit-2026-2026-tickets-1987471349307?aff=ebdssbdestsearch)
+[**Downtown Business Networking at Red room \[K11-TST\]**](https://www.eventbrite.hk/e/downtown-business-networking-at-red-room-k11-tst-tickets-1989166488514?aff=ebdssbdestsearch)
 
-Sat 19 Sept, 09:30
+Thu 18 Jun, 17:00
 
 
 
-Kowloon · Christian Alliance International School
+Hong Kong. · Red Room
 
 
 
 
 
-From $500.00
 
 
 
 
 
-_Share this event: Kids4Kids Youth Summit 2026\| 童協基金會敢·創–社區設計師培訓論壇 2026__Save this event: Kids4Kids Youth Summit 2026\| 童協基金會敢·創–社區設計師培訓論壇 2026_
 
-- [![國際生涯發展諮詢師認證課程 (CDA) 報名費 primary image](https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1039313933%2F1506707677273%2F1%2Foriginal.20250527-003957?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.005&fp-y=0.005&s=8359d9bd094bb223d86f2020d38b08ce)](https://www.eventbrite.hk/e/cda-tickets-1990294828409?aff=ebdssbdestsearch)
 
-[**國際生涯發展諮詢師認證課程 (CDA) 報名費**](https://www.eventbrite.hk/e/cda-tickets-1990294828409?aff=ebdssbdestsearch)
 
-Sat 1 Aug, 10:00
 
 
+_Share this event: Downtown Business Networking at Red room \[K11-TST\]__Save this event: Downtown Business Networking at Red room \[K11-TST\]_
 
-Hong Kong · The 80 \| 20
-
-
-
-
-
-From $250.00
-
-
-
-
-
-
-
-生涯發展學院
-
-
-
-111 followers
-
-
-
-_Save this event: 國際生涯發展諮詢師認證課程 (CDA) 報名費__Share this event: 國際生涯發展諮詢師認證課程 (CDA) 報名費_
-
-
-
-
-
-
-
-
-
-
-
-
-
-[![國際生涯發展諮詢師認證課程 (CDA) 報名費 primary image](https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1039313933%2F1506707677273%2F1%2Foriginal.20250527-003957?crop=focalpoint&fit=crop&w=640&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.005&fp-y=0.005&s=8359d9bd094bb223d86f2020d38b08ce)](https://www.eventbrite.hk/e/cda-tickets-1990294828409?aff=ebdssbdestsearch)
-
-[**國際生涯發展諮詢師認證課程 (CDA) 報名費**](https://www.eventbrite.hk/e/cda-tickets-1990294828409?aff=ebdssbdestsearch)
-
-Sat 1 Aug, 10:00
-
-
-
-Hong Kong · The 80 \| 20
-
-
-
-
-
-From $250.00
-
-
-
-
-
-_Share this event: 國際生涯發展諮詢師認證課程 (CDA) 報名費__Save this event: 國際生涯發展諮詢師認證課程 (CDA) 報名費_
-
-- [![免費 - 全方位 Excel Functions (函數) 應用工作坊 (Cantonese Speaker) primary image](https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1182386201%2F182288185266%2F1%2Foriginal.20240403-132317?w=640&auto=format%2Ccompress&q=75&sharp=10&rect=56%2C0%2C3920%2C1960&s=85d4c28c8af155749c7479275654a36a)](https://www.eventbrite.hk/e/-excel-func
+- [![Entrepreneur Stories | The Serial Entrepreneur's Playbook primary image](https://img.evbuc.com/h
