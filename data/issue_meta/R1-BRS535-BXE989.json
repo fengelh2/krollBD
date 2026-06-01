@@ -18,22 +18,34 @@
   "email_body_hash": "52ab0ae1d4",
   "email_candidates": [
     {
-      "email": "man.mo@prymecapital.hk",
+      "email": "mmo@prymecapital.hk",
       "kind": "ro_guess",
       "confidence": "medium",
-      "ro": "MO Man Ho"
+      "ro": "MO Man Ho",
+      "evidence": "AbstractAPI: deliverable (valid_email) · CAUTION: all 3 patterns \"deliverable\" → likely catch-all domain (mailbox not actually verified)",
+      "abstract_verdict": "deliverable",
+      "abstract_quality_score": 0.99,
+      "flag": "likely_catch_all"
     },
     {
       "email": "manmo@prymecapital.hk",
       "kind": "ro_guess",
       "confidence": "medium",
-      "ro": "MO Man Ho"
+      "ro": "MO Man Ho",
+      "evidence": "AbstractAPI: deliverable (valid_email) · CAUTION: all 3 patterns \"deliverable\" → likely catch-all domain (mailbox not actually verified)",
+      "abstract_verdict": "deliverable",
+      "abstract_quality_score": 0.99,
+      "flag": "likely_catch_all"
     },
     {
-      "email": "mmo@prymecapital.hk",
+      "email": "man.mo@prymecapital.hk",
       "kind": "ro_guess",
       "confidence": "medium",
-      "ro": "MO Man Ho"
+      "ro": "MO Man Ho",
+      "evidence": "AbstractAPI: deliverable (valid_email) · CAUTION: all 3 patterns \"deliverable\" → likely catch-all domain (mailbox not actually verified)",
+      "abstract_verdict": "deliverable",
+      "abstract_quality_score": 0.99,
+      "flag": "likely_catch_all"
     },
     {
       "email": "info@prymecapital.hk",

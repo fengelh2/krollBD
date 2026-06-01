@@ -20,20 +20,32 @@
     {
       "email": "cheuk.yeung@meridiancapitalasia.com",
       "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "YEUNG Cheuk Ki"
+      "confidence": "low",
+      "ro": "YEUNG Cheuk Ki",
+      "evidence": "AbstractAPI: undeliverable (dns_record_not_found)",
+      "abstract_verdict": "undeliverable",
+      "abstract_quality_score": 0.0,
+      "flag": "abstractapi_says_undeliverable"
     },
     {
       "email": "cheukyeung@meridiancapitalasia.com",
       "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "YEUNG Cheuk Ki"
+      "confidence": "low",
+      "ro": "YEUNG Cheuk Ki",
+      "evidence": "AbstractAPI: undeliverable (dns_record_not_found)",
+      "abstract_verdict": "undeliverable",
+      "abstract_quality_score": 0.0,
+      "flag": "abstractapi_says_undeliverable"
     },
     {
       "email": "cyeung@meridiancapitalasia.com",
       "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "YEUNG Cheuk Ki"
+      "confidence": "low",
+      "ro": "YEUNG Cheuk Ki",
+      "evidence": "AbstractAPI: undeliverable (dns_record_not_found)",
+      "abstract_verdict": "undeliverable",
+      "abstract_quality_score": 0.0,
+      "flag": "abstractapi_says_undeliverable"
     },
     {
       "email": "info@meridiancapitalasia.com",

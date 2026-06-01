@@ -18,22 +18,34 @@
   "email_body_hash": "522aac7e13",
   "email_candidates": [
     {
-      "email": "mei-ling.wang@spectrum-capital.net",
+      "email": "mwang@spectrum-capital.net",
       "kind": "ro_guess",
       "confidence": "medium",
-      "ro": "WANG Mei-Ling"
+      "ro": "WANG Mei-Ling",
+      "evidence": "AbstractAPI: deliverable (valid_email) · CAUTION: all 3 patterns \"deliverable\" → likely catch-all domain (mailbox not actually verified)",
+      "abstract_verdict": "deliverable",
+      "abstract_quality_score": 0.99,
+      "flag": "likely_catch_all"
     },
     {
       "email": "mei-lingwang@spectrum-capital.net",
       "kind": "ro_guess",
       "confidence": "medium",
-      "ro": "WANG Mei-Ling"
+      "ro": "WANG Mei-Ling",
+      "evidence": "AbstractAPI: deliverable (valid_email) · CAUTION: all 3 patterns \"deliverable\" → likely catch-all domain (mailbox not actually verified)",
+      "abstract_verdict": "deliverable",
+      "abstract_quality_score": 0.99,
+      "flag": "likely_catch_all"
     },
     {
-      "email": "mwang@spectrum-capital.net",
+      "email": "mei-ling.wang@spectrum-capital.net",
       "kind": "ro_guess",
       "confidence": "medium",
-      "ro": "WANG Mei-Ling"
+      "ro": "WANG Mei-Ling",
+      "evidence": "AbstractAPI: deliverable (valid_email) · CAUTION: all 3 patterns \"deliverable\" → likely catch-all domain (mailbox not actually verified)",
+      "abstract_verdict": "deliverable",
+      "abstract_quality_score": 0.99,
+      "flag": "likely_catch_all"
     },
     {
       "email": "info@spectrum-capital.net",

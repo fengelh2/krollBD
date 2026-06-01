@@ -20,20 +20,32 @@
     {
       "email": "sik.chan@syfe.com",
       "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "CHAN Sik Lam"
+      "confidence": "low",
+      "ro": "CHAN Sik Lam",
+      "evidence": "AbstractAPI: undeliverable (invalid_mailbox)",
+      "abstract_verdict": "undeliverable",
+      "abstract_quality_score": 0.0,
+      "flag": "abstractapi_says_undeliverable"
     },
     {
       "email": "sikchan@syfe.com",
       "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "CHAN Sik Lam"
+      "confidence": "low",
+      "ro": "CHAN Sik Lam",
+      "evidence": "AbstractAPI: undeliverable (invalid_mailbox)",
+      "abstract_verdict": "undeliverable",
+      "abstract_quality_score": 0.0,
+      "flag": "abstractapi_says_undeliverable"
     },
     {
       "email": "schan@syfe.com",
       "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "CHAN Sik Lam"
+      "confidence": "low",
+      "ro": "CHAN Sik Lam",
+      "evidence": "AbstractAPI: undeliverable (invalid_mailbox)",
+      "abstract_verdict": "undeliverable",
+      "abstract_quality_score": 0.0,
+      "flag": "abstractapi_says_undeliverable"
     },
     {
       "email": "info@syfe.com",

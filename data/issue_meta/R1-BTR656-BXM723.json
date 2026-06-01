@@ -18,22 +18,34 @@
   "email_body_hash": "4cb2df857e",
   "email_candidates": [
     {
-      "email": "flannie.fu@spectrum-capital.net",
+      "email": "ffu@spectrum-capital.net",
       "kind": "ro_guess",
       "confidence": "medium",
-      "ro": "FU Flannie Lan"
+      "ro": "FU Flannie Lan",
+      "evidence": "AbstractAPI: deliverable (valid_email) · CAUTION: all 3 patterns \"deliverable\" → likely catch-all domain (mailbox not actually verified)",
+      "abstract_verdict": "deliverable",
+      "abstract_quality_score": 0.99,
+      "flag": "likely_catch_all"
     },
     {
       "email": "flanniefu@spectrum-capital.net",
       "kind": "ro_guess",
       "confidence": "medium",
-      "ro": "FU Flannie Lan"
+      "ro": "FU Flannie Lan",
+      "evidence": "AbstractAPI: deliverable (valid_email) · CAUTION: all 3 patterns \"deliverable\" → likely catch-all domain (mailbox not actually verified)",
+      "abstract_verdict": "deliverable",
+      "abstract_quality_score": 0.99,
+      "flag": "likely_catch_all"
     },
     {
-      "email": "ffu@spectrum-capital.net",
+      "email": "flannie.fu@spectrum-capital.net",
       "kind": "ro_guess",
       "confidence": "medium",
-      "ro": "FU Flannie Lan"
+      "ro": "FU Flannie Lan",
+      "evidence": "AbstractAPI: deliverable (valid_email) · CAUTION: all 3 patterns \"deliverable\" → likely catch-all domain (mailbox not actually verified)",
+      "abstract_verdict": "deliverable",
+      "abstract_quality_score": 0.99,
+      "flag": "likely_catch_all"
     },
     {
       "email": "info@spectrum-capital.net",

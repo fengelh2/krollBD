@@ -20,20 +20,32 @@
     {
       "email": "on.mow@qmisgroup.com",
       "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "MOW On Loy"
+      "confidence": "low",
+      "ro": "MOW On Loy",
+      "evidence": "AbstractAPI: undeliverable (dns_record_not_found)",
+      "abstract_verdict": "undeliverable",
+      "abstract_quality_score": 0.0,
+      "flag": "abstractapi_says_undeliverable"
     },
     {
       "email": "onmow@qmisgroup.com",
       "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "MOW On Loy"
+      "confidence": "low",
+      "ro": "MOW On Loy",
+      "evidence": "AbstractAPI: undeliverable (dns_record_not_found)",
+      "abstract_verdict": "undeliverable",
+      "abstract_quality_score": 0.0,
+      "flag": "abstractapi_says_undeliverable"
     },
     {
       "email": "omow@qmisgroup.com",
       "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "MOW On Loy"
+      "confidence": "low",
+      "ro": "MOW On Loy",
+      "evidence": "AbstractAPI: undeliverable (dns_record_not_found)",
+      "abstract_verdict": "undeliverable",
+      "abstract_quality_score": 0.0,
+      "flag": "abstractapi_says_undeliverable"
     },
     {
       "email": "info@qmisgroup.com",

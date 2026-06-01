@@ -18,22 +18,34 @@
   "email_body_hash": "3be9bc481d",
   "email_candidates": [
     {
-      "email": "tin.mak@bankofamerica.com",
+      "email": "tmak@bankofamerica.com",
       "kind": "ro_guess",
       "confidence": "medium",
-      "ro": "MAK Tin Chak"
+      "ro": "MAK Tin Chak",
+      "evidence": "AbstractAPI: deliverable (valid_email) · CAUTION: all 3 patterns \"deliverable\" → likely catch-all domain (mailbox not actually verified)",
+      "abstract_verdict": "deliverable",
+      "abstract_quality_score": 0.99,
+      "flag": "likely_catch_all"
     },
     {
       "email": "tinmak@bankofamerica.com",
       "kind": "ro_guess",
       "confidence": "medium",
-      "ro": "MAK Tin Chak"
+      "ro": "MAK Tin Chak",
+      "evidence": "AbstractAPI: deliverable (valid_email) · CAUTION: all 3 patterns \"deliverable\" → likely catch-all domain (mailbox not actually verified)",
+      "abstract_verdict": "deliverable",
+      "abstract_quality_score": 0.99,
+      "flag": "likely_catch_all"
     },
     {
-      "email": "tmak@bankofamerica.com",
+      "email": "tin.mak@bankofamerica.com",
       "kind": "ro_guess",
       "confidence": "medium",
-      "ro": "MAK Tin Chak"
+      "ro": "MAK Tin Chak",
+      "evidence": "AbstractAPI: deliverable (valid_email) · CAUTION: all 3 patterns \"deliverable\" → likely catch-all domain (mailbox not actually verified)",
+      "abstract_verdict": "deliverable",
+      "abstract_quality_score": 0.99,
+      "flag": "likely_catch_all"
     },
     {
       "email": "info@bankofamerica.com",
