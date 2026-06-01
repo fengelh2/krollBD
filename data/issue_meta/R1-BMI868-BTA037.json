@@ -19,10 +19,13 @@
   "email_candidates": [
     {
       "email": "dan.wang@jasperhk.com",
-      "kind": "ro_guess",
-      "confidence": "medium",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
       "ro": "WANG Dan",
-      "evidence": "Hunter ok + AbstractAPI deliverable (valid_email)"
+      "evidence": "Hunter score 84 + AbstractAPI: deliverable",
+      "score": 84,
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email"
     },
     {
       "email": "danwang@jasperhk.com",

@@ -23,8 +23,10 @@
       "confidence": "low",
       "ro": "LIU Kai Kin",
       "score": 77,
-      "evidence": "Hunter ok + AbstractAPI undeliverable (invalid_mailbox)",
-      "flag": "abstractapi_says_undeliverable"
+      "evidence": "Hunter score 77 + AbstractAPI: undeliverable",
+      "flag": "abstractapi_says_undeliverable",
+      "abstract_verdict": "undeliverable",
+      "abstract_detail": "invalid_mailbox"
     },
     {
       "email": "kai.liu@cmschina.com.hk",

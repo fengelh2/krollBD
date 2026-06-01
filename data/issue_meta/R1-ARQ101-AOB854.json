@@ -18,6 +18,16 @@
   "email_body_hash": "e44de9bbaf",
   "email_candidates": [
     {
+      "email": "wtsang@dkpartners.com",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "TSANG Wai Hang, Wayne",
+      "evidence": "Hunter score 96 + AbstractAPI: deliverable",
+      "score": 96,
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email"
+    },
+    {
       "email": "wai.tsang@dkpartners.com",
       "kind": "ro_guess",
       "confidence": "medium",
@@ -28,13 +38,6 @@
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "TSANG Wai Hang, Wayne"
-    },
-    {
-      "email": "wtsang@dkpartners.com",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "TSANG Wai Hang, Wayne",
-      "evidence": "Hunter ok + AbstractAPI deliverable (valid_email)"
     },
     {
       "email": "info@dkpartners.com",

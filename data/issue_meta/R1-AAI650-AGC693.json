@@ -23,8 +23,10 @@
       "confidence": "low",
       "ro": "CHUNG Ho Tung",
       "score": 81,
-      "evidence": "Hunter ok + AbstractAPI undeliverable (invalid_mailbox)",
-      "flag": "abstractapi_says_undeliverable"
+      "evidence": "Hunter score 81 + AbstractAPI: undeliverable",
+      "flag": "abstractapi_says_undeliverable",
+      "abstract_verdict": "undeliverable",
+      "abstract_detail": "invalid_mailbox"
     },
     {
       "email": "ho.chung@cmschina.com.hk",

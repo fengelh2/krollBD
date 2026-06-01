@@ -23,7 +23,9 @@
       "confidence": "hunter_verified",
       "ro": "REN Wenjie",
       "score": 95,
-      "evidence": "Hunter ok + AbstractAPI deliverable (valid_email)"
+      "evidence": "Hunter score 95 + AbstractAPI: deliverable",
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email"
     },
     {
       "email": "wenjie.ren@bilincapital.com",
