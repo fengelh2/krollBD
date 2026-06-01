@@ -333,11 +333,30 @@
             })[c.kind] || c.kind || "";
             const roHint = c.ro ? ` · ${esc(c.ro)}` : "";
             const evidence = c.evidence ? ` title="${esc(c.evidence)}"` : "";
+
+            // Inline verdict tag — surface the AbstractAPI / Hunter result
+            // so the user doesn't have to hover for the reason a candidate
+            // is low/medium/high.
+            let verdictTag = "";
+            if (c.kind === "hunter_io" && (conf === "hunter_verified" || conf === "high")) {
+              verdictTag = `<span class="verdict-tag verdict-good">Hunter+SMTP verified ✓</span>`;
+            } else if (c.flag === "abstractapi_says_undeliverable" || c.abstract_verdict === "undeliverable") {
+              const det = c.abstract_detail ? ` (${esc(c.abstract_detail)})` : "";
+              verdictTag = `<span class="verdict-tag verdict-bad">SMTP says undeliverable${det}</span>`;
+            } else if (c.flag === "likely_catch_all") {
+              verdictTag = `<span class="verdict-tag verdict-warn">catch-all domain — can't confirm</span>`;
+            } else if (c.abstract_verdict === "deliverable") {
+              verdictTag = `<span class="verdict-tag verdict-good">SMTP deliverable ✓</span>`;
+            } else if (c.abstract_verdict === "risky") {
+              verdictTag = `<span class="verdict-tag verdict-warn">SMTP risky</span>`;
+            }
+
             return `
               <div class="cand-row conf-${conf}"${evidence}>
                 <span class="conf-badge conf-${conf}">${conf}</span>
                 <code class="cand-email">${esc(c.email)}</code>
                 <span class="cand-kind">${kindLabel}${roHint}</span>
+                ${verdictTag}
                 <a class="btn small" href="${mailto}">Open in mail</a>
                 <button class="btn copy small" data-copy-cand="${esc(c.email)}">Copy</button>
               </div>`;
