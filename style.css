@@ -307,6 +307,8 @@ svg.chart.big{height:auto;max-width:680px;aspect-ratio:600/220;margin:0 auto}
 .btn:hover{background:var(--hover);text-decoration:none}
 .btn.primary{background:var(--fg);color:#fff;border-color:var(--fg)}
 .btn.primary:hover{background:#000}
+.btn.ghost{background:transparent;color:var(--muted);border-color:var(--line)}
+.btn.ghost:hover{background:#f3f4f6;color:#991b1b;border-color:#fca5a5}
 .btn.copy{background:#fff;color:var(--fg);border-color:var(--line-strong)}
 .btn.copy:hover{background:var(--hover)}
 .btn.copy.copied{background:var(--green);color:#fff;border-color:var(--green)}

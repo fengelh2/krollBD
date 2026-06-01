@@ -147,6 +147,45 @@
     return out;
   }
 
+  async function dropTrigger(issue, meta, reason) {
+    const pat = getPat();
+    if (!pat) { promptForPat(); if (!getPat()) return false; }
+    const url = `https://api.github.com/repos/${REPO}/issues/${issue.number}`;
+    // Close as "not_planned" + add a dropped label + comment with the reason
+    // so future audit shows why this trigger wasn't pursued.
+    const commentR = await fetch(`${url}/comments`, {
+      method: "POST",
+      headers: {
+        "Accept": "application/vnd.github+json",
+        "Authorization": `Bearer ${getPat()}`,
+      },
+      body: JSON.stringify({ body: `Dropped (no outreach planned).\n\nReason: ${reason || "(none provided)"}\n\n_Dropped via dashboard._` }),
+    });
+    if (!commentR.ok) {
+      const t = await commentR.text().catch(() => "");
+      alert(`Comment failed (${commentR.status}): ${t.slice(0,200)}`);
+      return false;
+    }
+    const closeR = await fetch(url, {
+      method: "PATCH",
+      headers: {
+        "Accept": "application/vnd.github+json",
+        "Authorization": `Bearer ${getPat()}`,
+      },
+      body: JSON.stringify({
+        state: "closed",
+        state_reason: "not_planned",
+        labels: [...(issue.labels || []).map(l => l.name || l), "dropped-no-outreach"],
+      }),
+    });
+    if (!closeR.ok) {
+      const t = await closeR.text().catch(() => "");
+      alert(`Close failed (${closeR.status}): ${t.slice(0,200)}`);
+      return false;
+    }
+    return true;
+  }
+
   async function dispatchOutreach(issue, meta) {
     const pat = getPat();
     if (!pat) { promptForPat(); if (!getPat()) return false; }
@@ -366,7 +405,8 @@
       <div class="actions">
         ${opts.pending
           ? `<span class="muted-text">Logging… (Action running, refresh in ~30s)</span>`
-          : `<button class="btn primary" data-action="reached-out">Mark as reached out</button>`}
+          : `<button class="btn primary" data-action="reached-out">Mark as reached out</button>
+             <button class="btn ghost" data-action="drop" title="Close this trigger without outreach (e.g. mega-bank, no realistic conversion)">Drop</button>`}
       </div>
     `;
     card.querySelector('[data-copy="subject"]').addEventListener("click", e =>
@@ -382,6 +422,23 @@
       const ok = await dispatchOutreach(issue, meta);
       if (ok) { addPending(issue.number); refresh(); }
       else { btn.disabled = false; btn.textContent = "Mark as reached out"; }
+    });
+    const dropBtn = card.querySelector('[data-action="drop"]');
+    if (dropBtn) dropBtn.addEventListener("click", async () => {
+      const reason = window.prompt(
+        `Drop "${meta.firm}"?\n\nReason (optional — shown on the closed issue):`,
+        "mega-bank — no realistic conversion"
+      );
+      if (reason === null) return;  // user cancelled
+      dropBtn.disabled = true; dropBtn.textContent = "Dropping…";
+      const ok = await dropTrigger(issue, meta, reason.trim());
+      if (ok) {
+        // Optimistically remove from the open list and re-render
+        ALL_OPEN = ALL_OPEN.filter(i => i.number !== issue.number);
+        refresh();
+      } else {
+        dropBtn.disabled = false; dropBtn.textContent = "Drop";
+      }
     });
     return card;
   }
