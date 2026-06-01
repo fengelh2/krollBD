@@ -18,6 +18,15 @@
   "email_body_hash": "8e60ebbc81",
   "email_candidates": [
     {
+      "email": "kai-kinliu@cmschina.com.hk",
+      "kind": "hunter_io",
+      "confidence": "low",
+      "ro": "LIU Kai Kin",
+      "score": 77,
+      "evidence": "Hunter ok + AbstractAPI undeliverable (invalid_mailbox)",
+      "flag": "abstractapi_says_undeliverable"
+    },
+    {
       "email": "kai.liu@cmschina.com.hk",
       "kind": "ro_guess",
       "confidence": "medium",
@@ -66,5 +75,17 @@
   "aum_usd_m": "",
   "parent_org": "China Merchants Securities Co., Ltd.",
   "classification_source": "website",
-  "website_accuracy": "probable"
+  "website_accuracy": "probable",
+  "hunter_hits": [
+    {
+      "email": "kai-kinliu@cmschina.com.hk",
+      "score": 77,
+      "ro": "LIU Kai Kin",
+      "abstract_verdict": "undeliverable",
+      "fetched_at_utc": "2026-06-01T12:09:54.508445Z",
+      "abstract_score": 0.0,
+      "abstract_detail": "invalid_mailbox",
+      "abstract_quality_score": 0.0
+    }
+  ]
 }

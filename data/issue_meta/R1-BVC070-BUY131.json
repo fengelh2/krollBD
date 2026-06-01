@@ -18,6 +18,14 @@
   "email_body_hash": "c0fa59dce1",
   "email_candidates": [
     {
+      "email": "wenjie@bilincapital.com",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "REN Wenjie",
+      "score": 95,
+      "evidence": "Hunter ok + AbstractAPI deliverable (valid_email)"
+    },
+    {
       "email": "wenjie.ren@bilincapital.com",
       "kind": "ro_guess",
       "confidence": "medium",
@@ -66,5 +74,16 @@
   "aum_usd_m": "",
   "parent_org": "",
   "classification_source": "none",
-  "website_accuracy": "unverified"
+  "website_accuracy": "unverified",
+  "hunter_hits": [
+    {
+      "email": "wenjie@bilincapital.com",
+      "score": 95,
+      "ro": "REN Wenjie",
+      "abstract_verdict": "deliverable",
+      "fetched_at_utc": "2026-06-01T12:09:54.510970Z",
+      "abstract_quality_score": 0.99,
+      "abstract_detail": "valid_email"
+    }
+  ]
 }

@@ -33,7 +33,8 @@
       "email": "wtsang@dkpartners.com",
       "kind": "ro_guess",
       "confidence": "medium",
-      "ro": "TSANG Wai Hang, Wayne"
+      "ro": "TSANG Wai Hang, Wayne",
+      "evidence": "Hunter ok + AbstractAPI deliverable (valid_email)"
     },
     {
       "email": "info@dkpartners.com",
@@ -66,5 +67,16 @@
   "aum_usd_m": "",
   "parent_org": "Davidson Kempner Capital Management LP",
   "classification_source": "website",
-  "website_accuracy": "verified"
+  "website_accuracy": "verified",
+  "hunter_hits": [
+    {
+      "email": "wtsang@dkpartners.com",
+      "score": 96,
+      "ro": "TSANG Wai Hang, Wayne",
+      "abstract_verdict": "deliverable",
+      "fetched_at_utc": "2026-06-01T12:09:54.509816Z",
+      "abstract_quality_score": 0.99,
+      "abstract_detail": "valid_email"
+    }
+  ]
 }

@@ -35,6 +35,14 @@ PROJECT_ROOT = Path(__file__).resolve().parents[1]
 load_dotenv(PROJECT_ROOT / ".env")
 
 ABSTRACT_KEY = os.environ.get("ABSTRACTAPI_KEY")
+# Round-robin across multiple free accounts: try ABSTRACTAPI_KEY,
+# ABSTRACTAPI_KEY_2, ... in order. If one returns quota_exhausted (HTTP 422
+# "quota_reached") we fall through to the next.
+ABSTRACT_KEYS: list[str] = [k for k in (
+    os.environ.get("ABSTRACTAPI_KEY"),
+    os.environ.get("ABSTRACTAPI_KEY_2"),
+    os.environ.get("ABSTRACTAPI_KEY_3"),
+) if k]
 CACHE_PATH = PROJECT_ROOT / "data" / "email_verifier_cache.json"
 LOCK_PATH = PROJECT_ROOT / "data" / ".email_verifier_cache.lock"
 TIMEOUT = 15
@@ -141,7 +149,7 @@ def verify(email: str) -> dict | None:
     """
     if not email:
         return None
-    if not ABSTRACT_KEY:
+    if not ABSTRACT_KEYS:
         return _record(email, STATUS_NOT_CONFIGURED)
 
     email_l = email.lower().strip()
@@ -152,20 +160,38 @@ def verify(email: str) -> dict | None:
 
     # Endpoint: Email Reputation API (different product from Email Validation;
     # both report deliverability, response shapes differ).
-    try:
-        r = requests.get(
-            "https://emailreputation.abstractapi.com/v1/",
-            params={"api_key": ABSTRACT_KEY, "email": email_l},
-            timeout=TIMEOUT,
-        )
-    except Exception as e:
-        return _record(email_l, STATUS_ERROR, err=str(e))
+    # Round-robin across configured keys: a 422 "quota_reached" from one key
+    # falls through to the next so we get pooled coverage.
+    r = None
+    last_status = None
+    for key in ABSTRACT_KEYS:
+        try:
+            r = requests.get(
+                "https://emailreputation.abstractapi.com/v1/",
+                params={"api_key": key, "email": email_l},
+                timeout=TIMEOUT,
+            )
+        except Exception as e:
+            return _record(email_l, STATUS_ERROR, err=str(e))
+        last_status = r.status_code
+        # AbstractAPI returns 422 with quota_reached body when free tier is dry.
+        if r.status_code == 422 and "quota_reached" in r.text:
+            continue
+        if r.status_code in (401, 403):  # invalid key — try next
+            continue
+        if r.status_code == 429:  # rate limited
+            continue
+        break  # got an actionable response (200, or non-quota error)
 
+    if r is None:
+        return _record(email_l, STATUS_ERROR, err="no key returned a response")
     if r.status_code == 429:
         return _record(email_l, STATUS_QUOTA_EXHAUSTED)
+    if r.status_code == 422 and "quota_reached" in r.text:
+        return _record(email_l, STATUS_QUOTA_EXHAUSTED, err="all keys exhausted")
     if r.status_code in (401, 403):
         return _record(email_l, STATUS_NOT_CONFIGURED,
-                       err=f"HTTP {r.status_code} — key invalid")
+                       err=f"HTTP {r.status_code} — all keys rejected")
     if not r.ok:
         return _record(email_l, STATUS_ERROR, err=f"HTTP {r.status_code}")
 

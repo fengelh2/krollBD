@@ -21,7 +21,8 @@
       "email": "dan.wang@jasperhk.com",
       "kind": "ro_guess",
       "confidence": "medium",
-      "ro": "WANG Dan"
+      "ro": "WANG Dan",
+      "evidence": "Hunter ok + AbstractAPI deliverable (valid_email)"
     },
     {
       "email": "danwang@jasperhk.com",
@@ -66,5 +67,16 @@
   "aum_usd_m": "",
   "parent_org": "",
   "classification_source": "none",
-  "website_accuracy": "unverified"
+  "website_accuracy": "unverified",
+  "hunter_hits": [
+    {
+      "email": "dan.wang@jasperhk.com",
+      "score": 84,
+      "ro": "WANG Dan",
+      "fetched_at_utc": "2026-06-01T12:12:07.972275+00:00",
+      "abstract_verdict": "deliverable",
+      "abstract_quality_score": 0.99,
+      "abstract_detail": "valid_email"
+    }
+  ]
 }
