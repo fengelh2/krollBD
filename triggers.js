@@ -44,9 +44,11 @@
   async function fetchMetaFile(path) {
     if (_META_CACHE.has(path)) return _META_CACHE.get(path);
     const pat = getPat();
-    const url = `https://api.github.com/repos/${REPO}/contents/${encodeURI(path)}`;
+    // cache-bust both the GitHub API CDN edge and the browser HTTP cache
+    const url = `https://api.github.com/repos/${REPO}/contents/${encodeURI(path)}?_=${Date.now()}`;
     try {
       const r = await fetch(url, {
+        cache: "no-store",
         headers: {
           "Accept": "application/vnd.github+json",
           ...(pat ? { "Authorization": `Bearer ${pat}` } : {}),
