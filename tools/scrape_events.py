@@ -163,8 +163,15 @@ def _existing_events() -> list[dict]:
 
 
 def _event_key(e: dict) -> tuple:
+    # Normalize the title so em-dash/hyphen, smart quotes, and trailing
+    # whitespace don't bypass dedup. "Foo – Bar" and "Foo - Bar" collapse.
+    title = (e.get("title", "") or "").strip().lower()
+    title = title.replace("—", "-").replace("–", "-")   # em + en dash
+    title = title.replace("‘", "'").replace("’", "'")  # smart quotes
+    title = title.replace("“", '"').replace("”", '"')
+    title = " ".join(title.split())                                # collapse whitespace
     return (e.get("host", "").strip().lower(),
-            (e.get("title", "") or "").strip().lower(),
+            title,
             (e.get("date_start", "") or "").strip())
 
 
