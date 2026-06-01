@@ -140,15 +140,92 @@ def _ro_salutation(ro: dict | None, natural: str) -> str:
     return f"{natural} Management"
 
 
-def natural_company(name: str) -> str:
-    """Strip 'Limited', 'Ltd.', '(Hong Kong)' etc. for natural prose."""
-    s = name
-    for suf in [" Limited", " Ltd.", " Ltd", " Co., Ltd.", " Company Limited",
-                " (Hong Kong) Limited", " (HK) Limited", " HK Limited",
-                " (Asia) Limited", " Asia Limited", " Inc.", " Inc",
-                " Corporation", " Corp.", " Corp"]:
-        if s.endswith(suf):
-            s = s[: -len(suf)]
+_NATURAL_OVERRIDES_CACHE: dict[str, str] | None = None
+
+
+def _load_natural_overrides() -> dict[str, str]:
+    global _NATURAL_OVERRIDES_CACHE
+    if _NATURAL_OVERRIDES_CACHE is not None:
+        return _NATURAL_OVERRIDES_CACHE
+    out: dict[str, str] = {}
+    p = PROJECT_ROOT / "data" / "name_natural_overrides.csv"
+    if p.exists():
+        with p.open(encoding="utf-8-sig") as f:
+            for r in csv.DictReader(f):
+                ce = (r.get("ceref") or "").strip()
+                nat = (r.get("name_natural") or "").strip()
+                if ce and nat:
+                    out[ce] = nat
+    _NATURAL_OVERRIDES_CACHE = out
+    return out
+
+
+# Corporate-form suffixes stripped from the END (case-insensitive). Longest
+# first so e.g. "Co., Limited" wins over "Limited".
+_CORP_SUFFIXES = [
+    " (Hong Kong) Company Limited", " (HK) Company Limited",
+    " Hong Kong Company Limited", " HK Company Limited",
+    " (Hong Kong) Co., Limited", " (HK) Co., Limited",
+    " (Hong Kong) Co., Ltd.", " (HK) Co., Ltd.",
+    " (Hong Kong) Limited", " (HK) Limited",
+    " (Asia Pacific) Limited", " (Asia) Limited", " (APAC) Limited",
+    " Hong Kong Limited", " HK Limited",
+    " Asia Pacific Limited", " Asia Limited",
+    " Co., Limited", " Company Limited",
+    " Co., Ltd.", " Co. Ltd.", " Co Ltd",
+    " Company Ltd.", " Company Ltd",
+    " Limited", " Ltd.", " Ltd",
+    " (Hong Kong)", " (HK)", " Hong Kong", " HK",
+    " Incorporated", " Inc.", " Inc",
+    " Corporation", " Corp.", " Corp",
+]
+
+# Mid-string geographic infixes to strip (the corp-form list already handles
+# trailing forms). Whitespace around the match is collapsed.
+_MID_INFIX_RE = re.compile(
+    r"\s+(\(Hong Kong\)|\(HK\)|\(Asia Pacific\)|\(Asia\)|\(APAC\)|\(China\))\s+",
+    re.IGNORECASE,
+)
+
+
+def natural_company(name: str, ceref: str | None = None) -> str:
+    """Strip corporate-form + geographic suffixes for natural prose.
+
+    Per-firm overrides live in `data/name_natural_overrides.csv` (keyed by
+    ceref). Use an override when the default stripper picks the wrong brand
+    form — e.g. "China Asset Management" is a brand, not a description.
+
+    Rules (after override miss):
+      1. Repeatedly strip trailing corp-form suffixes (Limited / Co., Ltd. /
+         (Hong Kong) Limited / etc.) — case-insensitive, longest-first.
+      2. Strip mid-string geographic parentheticals: "(Hong Kong)", "(HK)",
+         "(Asia)", "(Asia Pacific)", "(APAC)", "(China)".
+      3. Drop a single trailing word "Management" when the remaining prefix
+         is ≥2 words (so "Pan Capital Management" → "Pan Capital", but
+         "NC Management" stays "NC Management").
+    """
+    if ceref:
+        ov = _load_natural_overrides().get(ceref)
+        if ov:
+            return ov
+
+    s = name.strip()
+    changed = True
+    while changed:
+        changed = False
+        low = s.lower()
+        for suf in _CORP_SUFFIXES:
+            if low.endswith(suf.lower()):
+                s = s[: -len(suf)].rstrip(",. ")
+                changed = True
+                break
+
+    s = _MID_INFIX_RE.sub(" ", s).strip()
+    s = re.sub(r"\s{2,}", " ", s)
+
+    parts = s.split()
+    if len(parts) >= 3 and parts[-1].lower() == "management":
+        s = " ".join(parts[:-1]).rstrip(",. ")
     return s.strip()
 
 
@@ -588,9 +665,9 @@ def url_quote(s: str) -> str:
     return quote_plus(s)
 
 
-def lookup_block(firm_name: str, person_name: str | None = None) -> str:
+def lookup_block(firm_name: str, person_name: str | None = None, ceref: str | None = None) -> str:
     """Render the click-through email-discovery block."""
-    natural = natural_company(firm_name)
+    natural = natural_company(firm_name, ceref)
     lines = ["### Email lookup helpers (free, click-through)", ""]
     if person_name:
         lines.append(
@@ -637,7 +714,7 @@ def build_c1_triggers(new_corps: list[dict], ro_rows: list[dict],
     for c in sorted(new_corps, key=lambda r: r["name_en"]):
         ros = all_ros(c["ceref"], ro_rows)
         primary = ros[0] if ros else None
-        natural = natural_company(c["name_en"])
+        natural = natural_company(c["name_en"], c["ceref"])
         ctx = firm_ctx.get(c["ceref"], {})
         salutation = _ro_salutation(primary, natural)
         body = C1_TEMPLATE.format(natural=natural, salutation=salutation)
@@ -670,7 +747,7 @@ def build_c1_triggers(new_corps: list[dict], ro_rows: list[dict],
             f"**SFC public register:** https://apps.sfc.hk/publicregWeb/corp/{c['ceref']}/details?locale=en\n\n"
             f"{ros_block}\n"
         )
-        lookups = lookup_block(c["name_en"], primary["ro_full_name"] if primary else None)
+        lookups = lookup_block(c["name_en"], primary["ro_full_name"] if primary else None, c["ceref"])
         if len(per_ro_drafts) > 1:
             drafts_md = "\n".join(
                 f"\n**Draft for {d['ro_name']}:**\n\n```\nSubject: {d['email_subject']}\n\n{d['email_body']}```"
@@ -728,7 +805,7 @@ def build_c2_triggers(changed_corps: list[dict], ro_rows_new: list[dict], ro_row
         ros_now = all_ros(ceref, ro_rows_new)
         departed = departed_ros(ceref, ro_rows_new, ro_rows_old)
         primary = (ros_now or departed or [None])[0]
-        natural = natural_company(name)
+        natural = natural_company(name, ceref)
         salutation = _ro_salutation(primary, natural)
         body = C2_TEMPLATE.format(natural=natural, salutation=salutation)
         subj, body_only = split_email(body)
@@ -751,7 +828,7 @@ def build_c2_triggers(changed_corps: list[dict], ro_rows_new: list[dict], ro_row
             f"**SFC public register:** https://apps.sfc.hk/publicregWeb/corp/{ceref}/details?locale=en\n\n"
             + "\n".join(ro_section) + "\n"
         )
-        lookups = lookup_block(name, primary["ro_full_name"] if primary else None)
+        lookups = lookup_block(name, primary["ro_full_name"] if primary else None, ceref)
         out.append({
             "trigger_id": f"C2-{ceref}",
             "title": f"[C2] Type 9 retired — {name}",
@@ -807,7 +884,7 @@ def build_r1_triggers(corps_new: list[dict], ros_new: list[dict], ros_old: list[
         if r["corp_ceref"] in brand_new_cerefs:
             continue  # piggy-back RO at brand-new corp; handled by C1
         firm = corp_name_by_ceref.get(r["corp_ceref"], r["corp_name"])
-        natural = natural_company(firm)
+        natural = natural_company(firm, r["corp_ceref"])
         salutation = _ro_salutation(r, natural)
         body = R1_TEMPLATE.format(natural=natural, salutation=salutation)
         subj, body_only = split_email(body)
@@ -817,7 +894,7 @@ def build_r1_triggers(corps_new: list[dict], ros_new: list[dict], ros_old: list[
             f"**Firm:** {firm}\n"
             f"**SFC public register:** https://apps.sfc.hk/publicregWeb/corp/{r['corp_ceref']}/details?locale=en\n"
         )
-        lookups = lookup_block(firm, r["ro_full_name"])
+        lookups = lookup_block(firm, r["ro_full_name"], r["corp_ceref"])
         out.append({
             "trigger_id": f"R1-{r['corp_ceref']}-{r['ro_ceref']}",
             "title": f"[R1] New RO at {firm} — {r['ro_full_name']}",
@@ -861,8 +938,8 @@ def build_c5_triggers(changed_corps: list[dict], ro_rows_new: list[dict],
         old_name, new_name = ch["diffs"]["name_en"]
         ros = all_ros(ceref, ro_rows_new)
         primary = ros[0] if ros else None
-        natural = natural_company(new_name)
-        old_natural = natural_company(old_name)
+        natural = natural_company(new_name, ceref)
+        old_natural = natural_company(old_name, ceref)
         salutation = _ro_salutation(primary, natural)
         body = C5_TEMPLATE.format(natural=natural, old_natural=old_natural, salutation=salutation)
         subj, body_only = split_email(body)
@@ -872,7 +949,7 @@ def build_c5_triggers(changed_corps: list[dict], ro_rows_new: list[dict],
             f"**New name:** {new_name}\n"
             f"**SFC public register:** https://apps.sfc.hk/publicregWeb/corp/{ceref}/details?locale=en\n"
         )
-        lookups = lookup_block(new_name, primary["ro_full_name"] if primary else None)
+        lookups = lookup_block(new_name, primary["ro_full_name"] if primary else None, ceref)
         out.append({
             "trigger_id": f"C5-{ceref}",
             "title": f"[C5] Rebrand — {old_name} → {new_name}",
