@@ -642,8 +642,25 @@ def build_c1_triggers(new_corps: list[dict], ro_rows: list[dict],
         salutation = _ro_salutation(primary, natural)
         body = C1_TEMPLATE.format(natural=natural, salutation=salutation)
         subj, body_only = split_email(body)
+
+        # Per-RO drafts: each founding RO gets a personalized salutation +
+        # body. UI uses these to build per-recipient mailto links so each
+        # candidate email row opens with the right "Dear ..." greeting.
+        per_ro_drafts = []
+        for r in ros:
+            ro_sal = _ro_salutation(r, natural)
+            ro_body = C1_TEMPLATE.format(natural=natural, salutation=ro_sal)
+            ro_subj, ro_body_only = split_email(ro_body)
+            per_ro_drafts.append({
+                "ro_name": r["ro_full_name"],
+                "ro_ceref": r["ro_ceref"],
+                "salutation": ro_sal,
+                "email_subject": ro_subj,
+                "email_body": ro_body_only,
+            })
+
         ros_block = (
-            "**Responsible Officers on file:**\n"
+            "**Founding ROs (recipients of this email):**\n"
             + "\n".join(f"  - {r['ro_full_name']} (`{r['ro_ceref']}`)" for r in ros)
             if ros else "**Responsible Officers on file:** (none yet)"
         )
@@ -654,11 +671,19 @@ def build_c1_triggers(new_corps: list[dict], ro_rows: list[dict],
             f"{ros_block}\n"
         )
         lookups = lookup_block(c["name_en"], primary["ro_full_name"] if primary else None)
+        if len(per_ro_drafts) > 1:
+            drafts_md = "\n".join(
+                f"\n**Draft for {d['ro_name']}:**\n\n```\nSubject: {d['email_subject']}\n\n{d['email_body']}```"
+                for d in per_ro_drafts
+            )
+            email_section = f"### Drafted outreach emails (per founding RO)\n{drafts_md}\n"
+        else:
+            email_section = f"### Drafted outreach email\n\n```\n{body}```\n"
         out.append({
             "trigger_id": f"C1-{c['ceref']}",
             "title": f"[C1] New Type 9 corp — {c['name_en']}",
             "labels": ["C1-new-corp", "high-priority"],
-            "body": f"{meta}\n---\n\n{lookups}\n\n---\n\n### Drafted outreach email\n\n```\n{body}```\n",
+            "body": f"{meta}\n---\n\n{lookups}\n\n---\n\n{email_section}",
             "meta": {
                 "type": "C1",
                 "type_label": "New Type 9 corp",
@@ -671,7 +696,8 @@ def build_c1_triggers(new_corps: list[dict], ro_rows: list[dict],
                 "sfc_url": f"https://apps.sfc.hk/publicregWeb/corp/{c['ceref']}/details?locale=en",
                 "email_subject": subj,
                 "email_body": body_only,
-                "variant_id": "C1-v1",
+                "per_ro_drafts": per_ro_drafts,
+                "variant_id": "C1-v2",
                 "email_body_hash": short_hash(subj + "\n" + body_only),
                 "email_candidates": email_candidates(
                     [{"ro_full_name": r["ro_full_name"]} for r in ros], c["name_en"],
@@ -761,9 +787,16 @@ def build_c2_triggers(changed_corps: list[dict], ro_rows_new: list[dict], ro_row
 # ------------- R1: new RO appointed at a firm -------------
 
 def build_r1_triggers(corps_new: list[dict], ros_new: list[dict], ros_old: list[dict],
-                      firm_ctx: dict[str, dict] | None = None) -> list[dict]:
-    """One trigger per (corp, RO) pair that is in the new RO snapshot but not the old."""
+                      firm_ctx: dict[str, dict] | None = None,
+                      brand_new_cerefs: set[str] | None = None) -> list[dict]:
+    """One trigger per (corp, RO) pair that is in the new RO snapshot but not the old.
+
+    ROs at brand-new corps are suppressed: those founding ROs are addressed
+    directly by the corp's C1 card (per-RO drafts), so a separate R1 would
+    duplicate the outreach.
+    """
     firm_ctx = firm_ctx or {}
+    brand_new_cerefs = brand_new_cerefs or set()
     corp_name_by_ceref = {c["ceref"]: c["name_en"] for c in corps_new}
     old_pairs = {(r["corp_ceref"], r["ro_ceref"]) for r in ros_old}
     out: list[dict] = []
@@ -771,6 +804,8 @@ def build_r1_triggers(corps_new: list[dict], ros_new: list[dict], ros_old: list[
         key = (r["corp_ceref"], r["ro_ceref"])
         if key in old_pairs:
             continue
+        if r["corp_ceref"] in brand_new_cerefs:
+            continue  # piggy-back RO at brand-new corp; handled by C1
         firm = corp_name_by_ceref.get(r["corp_ceref"], r["corp_name"])
         natural = natural_company(firm)
         salutation = _ro_salutation(r, natural)
@@ -1100,7 +1135,8 @@ def main() -> None:
     c1 = build_c1_triggers(brand_new, new_ros, firm_ctx)
     c2 = build_c2_triggers(changed, new_ros, old_ros, firm_ctx)
     c5 = build_c5_triggers(changed, new_ros, firm_ctx)
-    r1 = build_r1_triggers(new_corps, new_ros, old_ros, firm_ctx)
+    r1 = build_r1_triggers(new_corps, new_ros, old_ros, firm_ctx,
+                           brand_new_cerefs={c["ceref"] for c in brand_new})
     triggers = c1 + c2 + c5 + r1
     print(f"Found {len(c1)} C1 + {len(c2)} C2 + {len(c5)} C5 + {len(r1)} R1 = {len(triggers)} candidate triggers.", file=sys.stderr)
 

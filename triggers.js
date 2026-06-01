@@ -304,8 +304,17 @@
         <div class="candidates">
           <div class="cand-head"><span>Email candidates · ordered best→worst · <em>verify before sending</em></span></div>
           ${meta.email_candidates.map(c => {
-            const subj = encodeURIComponent(meta.email_subject || "");
-            const body = encodeURIComponent(meta.email_body || "");
+            // Per-RO draft: if a C1 has multiple founding ROs, each gets a
+            // personalized salutation. Match candidate.ro to per_ro_drafts so
+            // the mailto link opens with "Dear <this RO>" rather than the
+            // primary RO's greeting.
+            const perRoDrafts = meta.per_ro_drafts || [];
+            const matchDraft = c.ro ? perRoDrafts.find(d =>
+              (d.ro_name || "").toLowerCase() === (c.ro || "").toLowerCase()) : null;
+            const useSubj = matchDraft ? matchDraft.email_subject : (meta.email_subject || "");
+            const useBody = matchDraft ? matchDraft.email_body    : (meta.email_body || "");
+            const subj = encodeURIComponent(useSubj);
+            const body = encodeURIComponent(useBody);
             const mailto = `mailto:${c.email}?subject=${subj}&body=${body}`;
             const conf = (c.confidence || "low").toLowerCase();
             const kindLabel = ({

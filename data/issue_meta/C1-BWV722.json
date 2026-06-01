@@ -23,7 +23,7 @@
   "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BWV722/details?locale=en",
   "email_subject": "Congratulations on Pan Capital Management (Hong Kong)'s SFC Type 9 licence",
   "email_body": "Dear Jixin,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on Pan Capital Management (Hong Kong)'s recent Type 9 licensing with the SFC. As newly licensed asset managers establish and scale their operations, we often see a need for practical support around regulatory compliance, governance, and ongoing regulatory engagement.\n\nKroll's Financial Services, Compliance and Regulation (FSCR) team works closely with SFC regulated firms across Hong Kong, providing hands on support with licensing post approval matters, compliance framework implementation, regulatory filings, and day to day advisory support. Our objective is to help managers operate efficiently while maintaining a strong and constructive relationship with the regulator.\n\nIf helpful, I would be happy to introduce you to the relevant FSCR colleagues for an informal discussion. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
-  "variant_id": "C1-v1",
+  "variant_id": "C1-v2",
   "email_body_hash": "32aa1e9b2e",
   "email_candidates": [
     {
@@ -111,5 +111,28 @@
   "aum_usd_m": "",
   "parent_org": "",
   "classification_source": "none",
-  "website_accuracy": "not_found"
+  "website_accuracy": "not_found",
+  "per_ro_drafts": [
+    {
+      "ro_name": "DAI Jixin",
+      "ro_ceref": "AVP032",
+      "salutation": "Jixin",
+      "email_subject": "Congratulations on Pan Capital Management (Hong Kong)'s SFC Type 9 licence",
+      "email_body": "Dear Jixin,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on Pan Capital Management (Hong Kong)'s recent Type 9 licensing with the SFC. As newly licensed asset managers establish and scale their operations, we often see a need for practical support around regulatory compliance, governance, and ongoing regulatory engagement.\n\nKroll's Financial Services, Compliance and Regulation (FSCR) team works closely with SFC regulated firms across Hong Kong, providing hands on support with licensing post approval matters, compliance framework implementation, regulatory filings, and day to day advisory support. Our objective is to help managers operate efficiently while maintaining a strong and constructive relationship with the regulator.\n\nIf helpful, I would be happy to introduce you to the relevant FSCR colleagues for an informal discussion. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n"
+    },
+    {
+      "ro_name": "FU Qiang",
+      "ro_ceref": "BWV726",
+      "salutation": "Qiang",
+      "email_subject": "Congratulations on Pan Capital Management (Hong Kong)'s SFC Type 9 licence",
+      "email_body": "Dear Qiang,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on Pan Capital Management (Hong Kong)'s recent Type 9 licensing with the SFC. As newly licensed asset managers establish and scale their operations, we often see a need for practical support around regulatory compliance, governance, and ongoing regulatory engagement.\n\nKroll's Financial Services, Compliance and Regulation (FSCR) team works closely with SFC regulated firms across Hong Kong, providing hands on support with licensing post approval matters, compliance framework implementation, regulatory filings, and day to day advisory support. Our objective is to help managers operate efficiently while maintaining a strong and constructive relationship with the regulator.\n\nIf helpful, I would be happy to introduce you to the relevant FSCR colleagues for an informal discussion. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n"
+    },
+    {
+      "ro_name": "PEI Biao",
+      "ro_ceref": "BWV725",
+      "salutation": "Biao",
+      "email_subject": "Congratulations on Pan Capital Management (Hong Kong)'s SFC Type 9 licence",
+      "email_body": "Dear Biao,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on Pan Capital Management (Hong Kong)'s recent Type 9 licensing with the SFC. As newly licensed asset managers establish and scale their operations, we often see a need for practical support around regulatory compliance, governance, and ongoing regulatory engagement.\n\nKroll's Financial Services, Compliance and Regulation (FSCR) team works closely with SFC regulated firms across Hong Kong, providing hands on support with licensing post approval matters, compliance framework implementation, regulatory filings, and day to day advisory support. Our objective is to help managers operate efficiently while maintaining a strong and constructive relationship with the regulator.\n\nIf helpful, I would be happy to introduce you to the relevant FSCR colleagues for an informal discussion. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n"
+    }
+  ]
 }
