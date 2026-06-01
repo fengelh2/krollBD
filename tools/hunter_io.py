@@ -31,6 +31,14 @@ PROJECT_ROOT = Path(__file__).resolve().parents[1]  # repo root
 load_dotenv(PROJECT_ROOT / ".env")
 
 API_KEY = os.environ.get("HUNTER_API_KEY")
+# Round-robin support: collect all HUNTER_API_KEY{,_2,_3,...} so we pool
+# quota across multiple Free accounts. find_email() iterates these in order
+# and uses the first key whose remaining quota is >= QUOTA_FLOOR.
+API_KEYS: list[str] = [k for k in (
+    os.environ.get("HUNTER_API_KEY"),
+    os.environ.get("HUNTER_API_KEY_2"),
+    os.environ.get("HUNTER_API_KEY_3"),
+) if k]
 CACHE_PATH = PROJECT_ROOT / "data" / "hunter_io_cache.json"
 LOCK_PATH = PROJECT_ROOT / "data" / ".hunter_io_cache.lock"
 QUOTA_FLOOR = 5     # never burn the last 5 lookups — reserved for ad-hoc + retries
@@ -150,22 +158,19 @@ def _miss_expired(rec: dict) -> bool:
 
 # ---------------- public API ----------------
 
-def remaining_quota() -> int:
-    """Returns remaining /email-finder lookups this month.
-    Returns -1 if API is unreachable or key missing.
-    Free tier defaults to 50/mo."""
-    if not API_KEY:
+def _quota_for_key(key: str) -> int:
+    """Remaining /email-finder searches for a single key. -1 if probe fails."""
+    if not key:
         return -1
     try:
         r = requests.get(
             "https://api.hunter.io/v2/account",
-            params={"api_key": API_KEY},
+            params={"api_key": key},
             timeout=TIMEOUT,
         )
         if not r.ok:
             return -1
-        data = r.json().get("data", {})
-        rq = data.get("requests", {})
+        rq = (r.json().get("data") or {}).get("requests") or {}
         if isinstance(rq, dict):
             if "searches" in rq:
                 s = rq["searches"] or {}
@@ -175,6 +180,32 @@ def remaining_quota() -> int:
         return -1
     except Exception:
         return -1
+
+
+def remaining_quota() -> int:
+    """Returns POOLED remaining searches across all configured keys.
+    Returns -1 if every probe fails. Free tier is 50/mo per account."""
+    if not API_KEYS:
+        return -1
+    totals = [_quota_for_key(k) for k in API_KEYS]
+    valid = [t for t in totals if t >= 0]
+    return sum(valid) if valid else -1
+
+
+def pick_active_key() -> tuple[str | None, int]:
+    """Choose the first key with remaining quota >= QUOTA_FLOOR.
+    Returns (key, remaining) or (None, -1) if every key is dry or unreachable."""
+    if not API_KEYS:
+        return (None, -1)
+    any_probed = False
+    for k in API_KEYS:
+        q = _quota_for_key(k)
+        if q < 0:
+            continue
+        any_probed = True
+        if q >= QUOTA_FLOOR:
+            return (k, q)
+    return (None, 0 if any_probed else -1)
 
 
 def find_email(domain: str, first: str, last: str) -> dict | None:
@@ -203,7 +234,7 @@ def find_email(domain: str, first: str, last: str) -> dict | None:
     """
     if not (domain and first and last):
         return None
-    if not API_KEY:
+    if not API_KEYS:
         return _record(STATUS_NOT_CONFIGURED, qr=-1)
 
     key = _cache_key(domain, first, last)
@@ -213,16 +244,12 @@ def find_email(domain: str, first: str, last: str) -> dict | None:
         if key in cache and not _miss_expired(cache[key]):
             return cache[key]
 
-    qr = remaining_quota()
-    # FAIL CLOSED: if probe failed (qr=-1) OR below floor, do NOT call /email-finder.
+    active_key, qr = pick_active_key()
+    # FAIL CLOSED: if every probe failed, or all keys below floor.
     if qr == -1:
-        rec = _record(STATUS_QUOTA_UNKNOWN, qr=qr)
-        # Don't cache — transient.
-        return rec
-    if qr < QUOTA_FLOOR:
-        rec = _record(STATUS_QUOTA_EXHAUSTED, qr=qr)
-        # Don't cache — quota resets monthly.
-        return rec
+        return _record(STATUS_QUOTA_UNKNOWN, qr=qr)
+    if not active_key:
+        return _record(STATUS_QUOTA_EXHAUSTED, qr=qr)
 
     try:
         r = requests.get(
@@ -231,7 +258,7 @@ def find_email(domain: str, first: str, last: str) -> dict | None:
                 "domain": domain,
                 "first_name": first,
                 "last_name": last,
-                "api_key": API_KEY,
+                "api_key": active_key,
             },
             timeout=TIMEOUT,
         )
