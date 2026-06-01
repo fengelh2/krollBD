@@ -1,0 +1,70 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "Pan Capital Management (Hong Kong) Limited",
+  "natural": "Pan Capital Management (Hong Kong)",
+  "ceref": "BWV722",
+  "ros": [
+    {
+      "name": "PEI Biao",
+      "ceref": "BWV725"
+    }
+  ],
+  "primary_ro": "PEI Biao",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BWV722/details?locale=en",
+  "email_subject": "Congratulations on your appointment at Pan Capital Management (Hong Kong)",
+  "email_body": "Dear Biao,\n\nThis is Felix from Kroll in Hong Kong. I noticed via the SFC public register that you were recently appointed as a Responsible Officer at Pan Capital Management (Hong Kong) — congratulations.\n\nAs you settle into the role, valuation governance and the year-end audit cycle often feature high on the agenda. Kroll's Portfolio Valuation team supports SFC-licensed managers across Hong Kong with independent fair-value opinions under IFRS 13 / ASC 820 — particularly for harder-to-value private equity and private credit positions where audit pushback is most common.\n\nIf a brief introduction would be useful — whether on year-end planning, LP-driven mark requests, or simply how peers are approaching current market conditions — I would be happy to set up an informal call.\n\nKind regards,\nFelix Engelhardt\n",
+  "variant_id": "R1-v1",
+  "email_body_hash": "1401f76313",
+  "email_candidates": [
+    {
+      "email": "biao.pei@paninvestment.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "PEI Biao"
+    },
+    {
+      "email": "biaopei@paninvestment.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "PEI Biao"
+    },
+    {
+      "email": "bpei@paninvestment.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "PEI Biao"
+    },
+    {
+      "email": "info@paninvestment.com",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    },
+    {
+      "email": "compliance@paninvestment.com",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    },
+    {
+      "email": "contact@paninvestment.com",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    },
+    {
+      "email": "enquiry@paninvestment.com",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    }
+  ],
+  "asset_classes": "unknown",
+  "illiq_likelihood": "unknown",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "none",
+  "website_accuracy": "not_found"
+}

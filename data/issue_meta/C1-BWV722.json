@@ -1,0 +1,115 @@
+{
+  "type": "C1",
+  "type_label": "New Type 9 corp",
+  "firm": "Pan Capital Management (Hong Kong) Limited",
+  "natural": "Pan Capital Management (Hong Kong)",
+  "ceref": "BWV722",
+  "address": "5806-07, 58th Floor,, Two International Finance Centre,No. 8 Finance Street,, Central, Hong Kong",
+  "ros": [
+    {
+      "name": "DAI Jixin",
+      "ceref": "AVP032"
+    },
+    {
+      "name": "FU Qiang",
+      "ceref": "BWV726"
+    },
+    {
+      "name": "PEI Biao",
+      "ceref": "BWV725"
+    }
+  ],
+  "primary_ro": "DAI Jixin",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BWV722/details?locale=en",
+  "email_subject": "Congratulations on Pan Capital Management (Hong Kong)'s SFC Type 9 licence",
+  "email_body": "Dear Jixin,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on Pan Capital Management (Hong Kong)'s recent Type 9 licensing with the SFC. As newly licensed asset managers establish and scale their operations, we often see a need for practical support around regulatory compliance, governance, and ongoing regulatory engagement.\n\nKroll's Financial Services, Compliance and Regulation (FSCR) team works closely with SFC regulated firms across Hong Kong, providing hands on support with licensing post approval matters, compliance framework implementation, regulatory filings, and day to day advisory support. Our objective is to help managers operate efficiently while maintaining a strong and constructive relationship with the regulator.\n\nIf helpful, I would be happy to introduce you to the relevant FSCR colleagues for an informal discussion. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "variant_id": "C1-v1",
+  "email_body_hash": "32aa1e9b2e",
+  "email_candidates": [
+    {
+      "email": "jixin.dai@paninvestment.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "DAI Jixin"
+    },
+    {
+      "email": "jixindai@paninvestment.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "DAI Jixin"
+    },
+    {
+      "email": "jdai@paninvestment.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "DAI Jixin"
+    },
+    {
+      "email": "qiang.fu@paninvestment.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "FU Qiang"
+    },
+    {
+      "email": "qiangfu@paninvestment.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "FU Qiang"
+    },
+    {
+      "email": "qfu@paninvestment.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "FU Qiang"
+    },
+    {
+      "email": "biao.pei@paninvestment.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "PEI Biao"
+    },
+    {
+      "email": "biaopei@paninvestment.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "PEI Biao"
+    },
+    {
+      "email": "bpei@paninvestment.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "PEI Biao"
+    },
+    {
+      "email": "info@paninvestment.com",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    },
+    {
+      "email": "compliance@paninvestment.com",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    },
+    {
+      "email": "contact@paninvestment.com",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    },
+    {
+      "email": "enquiry@paninvestment.com",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    }
+  ],
+  "asset_classes": "unknown",
+  "illiq_likelihood": "unknown",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "none",
+  "website_accuracy": "not_found"
+}

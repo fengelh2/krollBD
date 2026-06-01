@@ -1,0 +1,70 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "Lumen Innovation Asset Management Limited",
+  "natural": "Lumen Innovation Asset Management",
+  "ceref": "BQT061",
+  "ros": [
+    {
+      "name": "HE Ziping",
+      "ceref": "BSI887"
+    }
+  ],
+  "primary_ro": "HE Ziping",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BQT061/details?locale=en",
+  "email_subject": "Congratulations on your appointment at Lumen Innovation Asset Management",
+  "email_body": "Dear Ziping,\n\nThis is Felix from Kroll in Hong Kong. I noticed via the SFC public register that you were recently appointed as a Responsible Officer at Lumen Innovation Asset Management — congratulations.\n\nAs you settle into the role, valuation governance and the year-end audit cycle often feature high on the agenda. Kroll's Portfolio Valuation team supports SFC-licensed managers across Hong Kong with independent fair-value opinions under IFRS 13 / ASC 820 — particularly for harder-to-value private equity and private credit positions where audit pushback is most common.\n\nIf a brief introduction would be useful — whether on year-end planning, LP-driven mark requests, or simply how peers are approaching current market conditions — I would be happy to set up an informal call.\n\nKind regards,\nFelix Engelhardt\n",
+  "variant_id": "R1-v1",
+  "email_body_hash": "5a32441a6f",
+  "email_candidates": [
+    {
+      "email": "ziping.he@lumeninnovation.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "HE Ziping"
+    },
+    {
+      "email": "zipinghe@lumeninnovation.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "HE Ziping"
+    },
+    {
+      "email": "zhe@lumeninnovation.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "HE Ziping"
+    },
+    {
+      "email": "info@lumeninnovation.com",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    },
+    {
+      "email": "compliance@lumeninnovation.com",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    },
+    {
+      "email": "contact@lumeninnovation.com",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    },
+    {
+      "email": "enquiry@lumeninnovation.com",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    }
+  ],
+  "asset_classes": "unknown",
+  "illiq_likelihood": "unknown",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "none",
+  "website_accuracy": "not_found"
+}

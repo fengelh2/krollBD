@@ -1,0 +1,70 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "NC Management Limited",
+  "natural": "NC Management",
+  "ceref": "BWK354",
+  "ros": [
+    {
+      "name": "LI Xiang",
+      "ceref": "BXH009"
+    }
+  ],
+  "primary_ro": "LI Xiang",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BWK354/details?locale=en",
+  "email_subject": "Congratulations on your appointment at NC Management",
+  "email_body": "Dear Xiang,\n\nThis is Felix from Kroll in Hong Kong. I noticed via the SFC public register that you were recently appointed as a Responsible Officer at NC Management — congratulations.\n\nAs you settle into the role, valuation governance and the year-end audit cycle often feature high on the agenda. Kroll's Portfolio Valuation team supports SFC-licensed managers across Hong Kong with independent fair-value opinions under IFRS 13 / ASC 820 — particularly for harder-to-value private equity and private credit positions where audit pushback is most common.\n\nIf a brief introduction would be useful — whether on year-end planning, LP-driven mark requests, or simply how peers are approaching current market conditions — I would be happy to set up an informal call.\n\nKind regards,\nFelix Engelhardt\n",
+  "variant_id": "R1-v1",
+  "email_body_hash": "a507af1048",
+  "email_candidates": [
+    {
+      "email": "xiang.li@nc.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LI Xiang"
+    },
+    {
+      "email": "xiangli@nc.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LI Xiang"
+    },
+    {
+      "email": "xli@nc.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LI Xiang"
+    },
+    {
+      "email": "info@nc.com",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    },
+    {
+      "email": "compliance@nc.com",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    },
+    {
+      "email": "contact@nc.com",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    },
+    {
+      "email": "enquiry@nc.com",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    }
+  ],
+  "asset_classes": "unknown",
+  "illiq_likelihood": "unknown",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "none",
+  "website_accuracy": "not_found"
+}

@@ -1,0 +1,70 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "GUO YUAN XIN DA (HK) CAPITAL MANAGEMENT CO., LIMITED",
+  "natural": "GUO YUAN XIN DA (HK) CAPITAL MANAGEMENT CO., LIMITED",
+  "ceref": "BWK251",
+  "ros": [
+    {
+      "name": "ZHANG Shifeng",
+      "ceref": "BWK257"
+    }
+  ],
+  "primary_ro": "ZHANG Shifeng",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BWK251/details?locale=en",
+  "email_subject": "Congratulations on your appointment at GUO YUAN XIN DA (HK) CAPITAL MANAGEMENT CO., LIMITED",
+  "email_body": "Dear Shifeng,\n\nThis is Felix from Kroll in Hong Kong. I noticed via the SFC public register that you were recently appointed as a Responsible Officer at GUO YUAN XIN DA (HK) CAPITAL MANAGEMENT CO., LIMITED — congratulations.\n\nAs you settle into the role, valuation governance and the year-end audit cycle often feature high on the agenda. Kroll's Portfolio Valuation team supports SFC-licensed managers across Hong Kong with independent fair-value opinions under IFRS 13 / ASC 820 — particularly for harder-to-value private equity and private credit positions where audit pushback is most common.\n\nIf a brief introduction would be useful — whether on year-end planning, LP-driven mark requests, or simply how peers are approaching current market conditions — I would be happy to set up an informal call.\n\nKind regards,\nFelix Engelhardt\n",
+  "variant_id": "R1-v1",
+  "email_body_hash": "0fdeebd71e",
+  "email_candidates": [
+    {
+      "email": "shifeng.zhang@guoyuanxindahk.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "ZHANG Shifeng"
+    },
+    {
+      "email": "shifengzhang@guoyuanxindahk.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "ZHANG Shifeng"
+    },
+    {
+      "email": "szhang@guoyuanxindahk.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "ZHANG Shifeng"
+    },
+    {
+      "email": "info@guoyuanxindahk.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    },
+    {
+      "email": "compliance@guoyuanxindahk.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    },
+    {
+      "email": "contact@guoyuanxindahk.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    },
+    {
+      "email": "enquiry@guoyuanxindahk.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    }
+  ],
+  "asset_classes": "unknown",
+  "illiq_likelihood": "unknown",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "none",
+  "website_accuracy": "not_found"
+}

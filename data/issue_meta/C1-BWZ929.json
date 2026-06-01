@@ -1,0 +1,93 @@
+{
+  "type": "C1",
+  "type_label": "New Type 9 corp",
+  "firm": "HONG KONG FENGHE INVESTMENT CO., LIMITED",
+  "natural": "HONG KONG FENGHE INVESTMENT CO., LIMITED",
+  "ceref": "BWZ929",
+  "address": "Rm 31, 2/F,, 143 Wai Yip Street,, Kwun Tong, Hong Kong",
+  "ros": [
+    {
+      "name": "HE Liang",
+      "ceref": "BWZ932"
+    },
+    {
+      "name": "SUN Yong",
+      "ceref": "BVI094"
+    }
+  ],
+  "primary_ro": "HE Liang",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BWZ929/details?locale=en",
+  "email_subject": "Congratulations on HONG KONG FENGHE INVESTMENT CO., LIMITED's SFC Type 9 licence",
+  "email_body": "Dear Liang,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on HONG KONG FENGHE INVESTMENT CO., LIMITED's recent Type 9 licensing with the SFC. As newly licensed asset managers establish and scale their operations, we often see a need for practical support around regulatory compliance, governance, and ongoing regulatory engagement.\n\nKroll's Financial Services, Compliance and Regulation (FSCR) team works closely with SFC regulated firms across Hong Kong, providing hands on support with licensing post approval matters, compliance framework implementation, regulatory filings, and day to day advisory support. Our objective is to help managers operate efficiently while maintaining a strong and constructive relationship with the regulator.\n\nIf helpful, I would be happy to introduce you to the relevant FSCR colleagues for an informal discussion. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "variant_id": "C1-v1",
+  "email_body_hash": "1474a5f506",
+  "email_candidates": [
+    {
+      "email": "liang.he@hongkong.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "HE Liang"
+    },
+    {
+      "email": "lianghe@hongkong.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "HE Liang"
+    },
+    {
+      "email": "lhe@hongkong.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "HE Liang"
+    },
+    {
+      "email": "yong.sun@hongkong.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "SUN Yong"
+    },
+    {
+      "email": "yongsun@hongkong.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "SUN Yong"
+    },
+    {
+      "email": "ysun@hongkong.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "SUN Yong"
+    },
+    {
+      "email": "info@hongkong.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    },
+    {
+      "email": "compliance@hongkong.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    },
+    {
+      "email": "contact@hongkong.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    },
+    {
+      "email": "enquiry@hongkong.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    }
+  ],
+  "asset_classes": "unknown",
+  "illiq_likelihood": "unknown",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "none",
+  "website_accuracy": "not_found"
+}
