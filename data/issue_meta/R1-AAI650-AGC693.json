@@ -89,5 +89,8 @@
       "abstract_detail": "invalid_mailbox",
       "abstract_quality_score": 0.0
     }
-  ]
+  ],
+  "deep_scrape_attempted_utc": "2026-06-02T01:59:24.831918+00:00",
+  "deep_scrape_note": "site scraped — no new emails found",
+  "hunter_attempted_utc": "2026-06-02T01:59:24.860112+00:00"
 }
