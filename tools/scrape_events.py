@@ -379,12 +379,32 @@ def main():
         print(f"  [extract] {len(events)} events on page, {kept} new", file=sys.stderr)
         time.sleep(0.5)   # be polite
 
+    # Merge in data/events_manual.csv — one-line overrides for orphan
+    # events that don't appear on any host's public listing (AIMA member
+    # events, ad-hoc invitations forwarded by colleagues, etc.). Manual
+    # rows always take precedence over scraped duplicates on the same key.
+    manual_added = 0
+    manual_path = EVENTS_PATH.parent / "events_manual.csv"
+    if manual_path.exists():
+        with manual_path.open(encoding="utf-8-sig") as f:
+            for m in csv.DictReader(f):
+                k = _event_key(m)
+                if k in existing_keys:
+                    # overwrite the scraped version in-place
+                    for i, r in enumerate(new_rows):
+                        if _event_key(r) == k:
+                            new_rows[i] = {**r, **{kk: vv for kk, vv in m.items() if vv}}
+                            break
+                else:
+                    new_rows.append(m); existing_keys.add(k); manual_added += 1
+
     _atomic_write_events(new_rows)
 
     print(f"\n[events] done.", file=sys.stderr)
     print(f"  total in events.csv:  {len(new_rows)}", file=sys.stderr)
     print(f"  new this run:         {new_count}", file=sys.stderr)
     print(f"  duplicates skipped:   {skipped_count}", file=sys.stderr)
+    print(f"  manual overrides:     {manual_added} added", file=sys.stderr)
     if failed_sources:
         print(f"  sources failed:       {len(failed_sources)}", file=sys.stderr)
         for h, why in failed_sources:
