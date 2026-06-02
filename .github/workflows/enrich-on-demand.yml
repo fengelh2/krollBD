@@ -7,7 +7,7 @@ name: Enrich trigger (on-demand)
 
 on:
   repository_dispatch:
-    types: [enrich_firm, find_ro_emails]
+    types: [enrich_firm, find_ro_emails, enrich_all]
 
 permissions:
   contents: write
@@ -20,7 +20,7 @@ concurrency:
 jobs:
   enrich:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 60
 
     env:
       FIRECRAWL_API_KEY: ${{ secrets.FIRECRAWL_API_KEY }}
@@ -73,7 +73,21 @@ jobs:
           python tools/_enrich_inject_into_meta.py --trigger-id "$TRIGGER_ID" --ceref "$CEREF" --mode ros
           echo "::endgroup::"
 
+      - name: Configure git for bulk commits
+        if: ${{ github.event.action == 'enrich_all' }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Enrich ALL open triggers
+        if: ${{ github.event.action == 'enrich_all' }}
+        run: |
+          echo "::group::Bulk-enriching all open triggers"
+          python tools/_enrich_all_open.py
+          echo "::endgroup::"
+
       - name: Commit + push if changed
+        if: ${{ github.event.action != 'enrich_all' }}
         env:
           TRIGGER_ID: ${{ github.event.client_payload.trigger_id }}
           MODE: ${{ github.event.action }}

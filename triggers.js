@@ -147,6 +147,121 @@
     return out;
   }
 
+  async function fetchEnrichStatus() {
+    // Fetch the bulk-enrich status file via Contents API (cache-busted)
+    const pat = getPat();
+    const url = `https://api.github.com/repos/${REPO}/contents/data/.enrich_status.json?_=${Date.now()}`;
+    try {
+      const r = await fetch(url, {
+        cache: "no-store",
+        headers: {
+          "Accept": "application/vnd.github+json",
+          ...(pat ? { "Authorization": `Bearer ${pat}` } : {}),
+        },
+      });
+      if (!r.ok) return null;
+      const j = await r.json();
+      const decoded = decodeURIComponent(escape(atob((j.content || "").replace(/\s/g, ""))));
+      return JSON.parse(decoded);
+    } catch (e) {
+      return null;
+    }
+  }
+
+  async function startEnrichAll() {
+    const pat = getPat();
+    if (!pat) { promptForPat(); if (!getPat()) return; }
+    if (!confirm("Run firecrawl scrape + Hunter+AbstractAPI on every open trigger?\n\nTypical runtime: ~15-60s per trigger × open trigger count. You can leave this tab open or come back later.")) return;
+    const btn = document.getElementById("enrich-all-btn");
+    const hint = document.getElementById("enrich-all-hint");
+    const wrap = document.getElementById("enrich-all-progress");
+    const fill = document.getElementById("enrich-all-fill");
+    const lbl = document.getElementById("enrich-all-label");
+    btn.disabled = true; btn.textContent = "Dispatching…";
+    hint.hidden = true;
+    wrap.hidden = false;
+    fill.style.width = "5%";
+    lbl.textContent = "queued — waiting for GitHub Actions to start…";
+
+    // Capture baseline so we know which run is ours
+    const baselineStatus = await fetchEnrichStatus();
+    const baselineStartedAt = baselineStatus ? baselineStatus.started_at : null;
+
+    const dispatchR = await fetch(DISPATCH, {
+      method: "POST",
+      headers: {
+        "Accept": "application/vnd.github+json",
+        "Authorization": `Bearer ${getPat()}`,
+        "X-GitHub-Api-Version": "2022-11-28",
+      },
+      body: JSON.stringify({ event_type: "enrich_all", client_payload: {} }),
+    });
+    if (!dispatchR.ok) {
+      const t = await dispatchR.text().catch(() => "");
+      lbl.textContent = `Dispatch failed (${dispatchR.status}): ${t.slice(0,200)}`;
+      lbl.style.color = "#991b1b";
+      btn.disabled = false; btn.textContent = "Enrich all open triggers";
+      return;
+    }
+    btn.textContent = "Running…";
+
+    // Poll status file every 5s
+    const t0 = Date.now();
+    const POLL = 5000;
+    const TIMEOUT_S = 60 * 60;
+    const tick = setInterval(async () => {
+      const elapsed = (Date.now() - t0) / 1000;
+      if (elapsed > TIMEOUT_S) {
+        clearInterval(tick);
+        lbl.textContent = "Timed out after 60 min. Workflow may still be running — refresh later.";
+        btn.disabled = false; btn.textContent = "Enrich all open triggers";
+        return;
+      }
+      const s = await fetchEnrichStatus();
+      // Wait until status file reflects OUR run (newer started_at than baseline)
+      if (!s || (baselineStartedAt && s.started_at === baselineStartedAt && !s.done)) {
+        lbl.textContent = `queued — workflow spinning up… (${Math.floor(elapsed)}s elapsed)`;
+        return;
+      }
+      if (s.done) {
+        clearInterval(tick);
+        fill.style.width = "100%";
+        fill.style.background = "#10b981";
+        lbl.textContent = `Done — ${s.total} triggers enriched in ${Math.floor((Date.now()-t0)/1000)}s. Refreshing cards…`;
+        // Clear in-memory meta cache + refresh
+        _META_CACHE.clear();
+        ALL_OPEN.forEach(i => delete i._meta);
+        setTimeout(async () => {
+          await fetchAndAttachMetas(ALL_OPEN);
+          refresh();
+          btn.disabled = false; btn.textContent = "Enrich all open triggers";
+          // Browser notification if permitted
+          if ("Notification" in window && Notification.permission === "granted") {
+            new Notification("Enrich-all complete", { body: `${s.total} triggers refreshed.` });
+          }
+        }, 800);
+        return;
+      }
+      const pct = Math.min(95, (s.current_idx / Math.max(1, s.total)) * 100);
+      fill.style.width = pct.toFixed(1) + "%";
+      lbl.textContent = `Processing ${s.current_idx} of ${s.total}${s.current_firm ? " — " + s.current_firm : ""} (${Math.floor(elapsed)}s elapsed)`;
+    }, POLL);
+
+    // Best-effort notification permission
+    if ("Notification" in window && Notification.permission === "default") {
+      Notification.requestPermission().catch(() => {});
+    }
+  }
+
+  // Wire the global button once Triggers view is initialized
+  function wireEnrichAllButton() {
+    const btn = document.getElementById("enrich-all-btn");
+    if (btn && !btn._wired) {
+      btn.addEventListener("click", startEnrichAll);
+      btn._wired = true;
+    }
+  }
+
   async function fetchMetaSha(path) {
     // Get the current Git SHA of a meta file. Used to detect when the
     // on-demand enrichment workflow has written a new version.
@@ -538,10 +653,6 @@
         </div>
       `;
       })() : ""}
-      <div class="actions enrich-actions">
-        <button class="btn secondary" data-action="enrich-firm" title="Run firecrawl deep-scrape on the firm's website to extract real info@/contact@ inboxes. ~30-90s.">Enrich firm</button>
-        <button class="btn secondary" data-action="find-ros" title="Run Hunter.io + AbstractAPI for each RO on this card to find verified personal emails. ~15-30s.">Find RO emails</button>
-      </div>
       <div class="actions">
         ${opts.pending
           ? `<span class="muted-text">Logging… (Action running, refresh in ~30s)</span>`
@@ -570,14 +681,6 @@
       const ok = await dispatchOutreach(issue, meta);
       if (ok) { addPending(issue.number); refresh(); }
       else { btn.disabled = false; btn.textContent = "Mark as reached out"; }
-    });
-    const enrichFirmBtn = card.querySelector('[data-action="enrich-firm"]');
-    if (enrichFirmBtn) enrichFirmBtn.addEventListener("click", () => {
-      dispatchEnrichment("enrich_firm", issue, meta, enrichFirmBtn, "Scraping firm site");
-    });
-    const findRosBtn = card.querySelector('[data-action="find-ros"]');
-    if (findRosBtn) findRosBtn.addEventListener("click", () => {
-      dispatchEnrichment("find_ro_emails", issue, meta, findRosBtn, "Searching Hunter for ROs");
     });
     const dropBtn = card.querySelector('[data-action="drop"]');
     if (dropBtn) dropBtn.addEventListener("click", async () => {
@@ -670,6 +773,7 @@
       refresh();
     }));
     refreshPatStatus();
+    wireEnrichAllButton();
     try {
       [ALL_OPEN, LOG_ROWS] = await Promise.all([fetchIssues("open"), fetchLog()]);
       await fetchAndAttachMetas(ALL_OPEN);

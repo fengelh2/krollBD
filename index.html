@@ -6,7 +6,7 @@
 <title>Kroll PortVal · BD Command Center</title>
 <link rel="preconnect" href="https://api.github.com">
 <link rel="preconnect" href="https://raw.githubusercontent.com">
-<link rel="stylesheet" href="style.css?v=43">
+<link rel="stylesheet" href="style.css?v=44">
 </head>
 <body>
 <header class="topbar">
@@ -210,6 +210,15 @@
       <button data-filter="done">Reached out</button>
     </nav>
 
+    <div class="bulk-enrich-bar" id="bulk-enrich-bar">
+      <button class="btn primary" id="enrich-all-btn" title="Run firecrawl scrape on every open trigger's firm + Hunter+AbstractAPI on every RO. Typically ~15-60s per trigger.">Enrich all open triggers</button>
+      <span class="muted-text" id="enrich-all-hint">— scrape sites for generic inboxes + find RO emails via Hunter, dedup, refresh</span>
+      <div class="enrich-progress" id="enrich-all-progress" hidden>
+        <div class="enrich-bar"><div class="enrich-bar-fill" id="enrich-all-fill"></div></div>
+        <div class="enrich-label" id="enrich-all-label">queued…</div>
+      </div>
+    </div>
+
     <main id="cards" class="cards">
       <p class="loading">Loading triggers…</p>
     </main>
@@ -229,11 +238,11 @@
   <p>Data CSVs (snapshots + classification) are read from the triggers repo under <code>data/</code>. See <a href="DESIGN_NOTES.md">DESIGN_NOTES.md</a>.</p>
 </footer>
 
-<script src="data.js?v=43"></script>
-<script src="triggers.js?v=43"></script>
-<script src="overview.js?v=43"></script>
-<script src="tables.js?v=43"></script>
-<script src="events.js?v=43"></script>
-<script src="app.js?v=43"></script>
+<script src="data.js?v=44"></script>
+<script src="triggers.js?v=44"></script>
+<script src="overview.js?v=44"></script>
+<script src="tables.js?v=44"></script>
+<script src="events.js?v=44"></script>
+<script src="app.js?v=44"></script>
 </body>
 </html>
