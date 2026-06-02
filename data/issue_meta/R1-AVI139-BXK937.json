@@ -66,5 +66,9 @@
   "aum_usd_m": "",
   "parent_org": "SDIC Securities Co., Ltd. (国投证券)",
   "classification_source": "website",
-  "website_accuracy": "suspect"
+  "website_accuracy": "suspect",
+  "deep_scrape_attempted_utc": "2026-06-02T01:53:25.804366+00:00",
+  "deep_scrape_note": "site scraped — no new emails found",
+  "hunter_hits": [],
+  "hunter_attempted_utc": "2026-06-02T01:53:32.813579+00:00"
 }

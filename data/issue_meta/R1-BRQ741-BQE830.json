@@ -78,5 +78,9 @@
   "aum_usd_m": "10000",
   "parent_org": "",
   "classification_source": "website",
-  "website_accuracy": "verified"
+  "website_accuracy": "verified",
+  "deep_scrape_attempted_utc": "2026-06-02T01:52:54.303261+00:00",
+  "deep_scrape_note": "site scraped — no new emails found",
+  "hunter_hits": [],
+  "hunter_attempted_utc": "2026-06-02T01:52:54.350300+00:00"
 }
