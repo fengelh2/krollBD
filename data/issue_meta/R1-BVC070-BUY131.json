@@ -87,5 +87,6 @@
       "abstract_quality_score": 0.99,
       "abstract_detail": "valid_email"
     }
-  ]
+  ],
+  "deep_scrape_note": "site scraped — no emails published (firm publishes no contact addresses)"
 }

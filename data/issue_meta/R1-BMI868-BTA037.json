@@ -28,6 +28,12 @@
       "abstract_detail": "valid_email"
     },
     {
+      "email": "investorservices@jasperhk.com",
+      "kind": "observed_on_site",
+      "confidence": "verified",
+      "evidence": "extracted from jasperhk.com /contact path"
+    },
+    {
       "email": "danwang@jasperhk.com",
       "kind": "ro_guess",
       "confidence": "medium",
