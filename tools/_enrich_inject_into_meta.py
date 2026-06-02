@@ -123,8 +123,11 @@ def inject_firm_emails(trigger_id: str, ceref: str) -> dict:
     return {"ok": True, "added": added, "named": named, "generic": generics}
 
 
-def find_ros(trigger_id: str, ceref: str) -> dict:
-    """Hunter find + AbstractAPI verify for every parsed RO on this trigger."""
+def find_ros(trigger_id: str, ceref: str, force: bool = False) -> dict:
+    """Hunter find + AbstractAPI verify for every parsed RO on this trigger.
+
+    Skips ROs that already have a hunter_hits entry unless force=True.
+    """
     p = _meta_path(trigger_id)
     if not p.exists():
         return {"ok": False, "err": f"meta file not found: {p}"}
@@ -145,14 +148,21 @@ def find_ros(trigger_id: str, ceref: str) -> dict:
 
     ec = meta.get("email_candidates") or []
     hunter_hits = meta.get("hunter_hits") or []
+    # Build set of RO names already covered by a hunter_hit so we don't
+    # re-burn quota on people we've already looked up. Case-insensitive.
+    ros_already_hit = {(h.get("ro") or "").lower().strip() for h in hunter_hits if h.get("ro")}
     results = []
 
     for r in ros:
+        ro_name = r["name"]
+        if not force and ro_name.lower().strip() in ros_already_hit:
+            results.append({"ro": ro_name, "status": "skipped_already_verified"})
+            continue
         row = ro_idx.get(r["ceref"]) or {}
         first = (row.get("ro_first_short") or row.get("ro_first_full") or "").strip()
         last = (row.get("ro_last") or "").strip()
         if not (first and last):
-            results.append({"ro": r["name"], "status": "skipped_no_name"})
+            results.append({"ro": ro_name, "status": "skipped_no_name"})
             continue
         hunter_resp = hunter_io.find_email(domain, first, last)
         st = (hunter_resp or {}).get("status")

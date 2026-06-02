@@ -93,19 +93,51 @@ def main():
                    "phase": "starting", "done": False})
     _git_commit_and_push(f"enrich-all: starting ({total} triggers)")
 
+    n_scrape_skipped = 0
+    n_ros_skipped = 0
     for idx, t in enumerate(triggers, start=1):
         tid, ce, firm = t["trigger_id"], t["ceref"], t["title"][:60]
         print(f"\n[{idx}/{total}] {tid}  {firm}", flush=True)
 
-        # 1. Deep-scrape (only if not previously attempted)
-        try:
-            subprocess.run(
-                ["python", "tools/deep_scrape_contact_pages.py",
-                 "--cerefs", ce, "--force"],
-                cwd=PROJECT_ROOT, check=False,
-            )
-        except Exception as e:
-            print(f"  scrape failed: {e}")
+        # Skip-checks: is this firm already scraped? are all ROs already
+        # verified? If both yes, fast-path skip the entire trigger.
+        meta_path = PROJECT_ROOT / "data" / "issue_meta" / f"{tid}.json"
+        firm_already_scraped = False
+        all_ros_already_verified = False
+        if meta_path.exists():
+            try:
+                m = json.loads(meta_path.read_text(encoding="utf-8"))
+                # Firm scraped already? (stamped by inject_firm_emails OR by
+                # deep_scrape_contact_pages.py on the strategy_classification.csv side)
+                firm_already_scraped = bool(m.get("deep_scrape_attempted_utc"))
+                hh = m.get("hunter_hits") or []
+                ros_in_meta = [(r.get("name") or "").lower().strip() for r in (m.get("ros") or m.get("ros_current") or [])]
+                ros_hit_names = {(h.get("ro") or "").lower().strip() for h in hh if h.get("ro")}
+                all_ros_already_verified = bool(ros_in_meta) and all(n in ros_hit_names for n in ros_in_meta)
+            except Exception:
+                pass
+        if firm_already_scraped and all_ros_already_verified:
+            print(f"  fully enriched already — skipping")
+            n_scrape_skipped += 1; n_ros_skipped += 1
+            _write_status({
+                "started_at": started_at, "current_idx": idx, "total": total,
+                "phase": "running", "current_firm": firm + " (skipped)",
+                "current_trigger_id": tid, "done": False,
+            })
+            continue
+
+        # 1. Deep-scrape (only if not previously attempted; no --force)
+        if firm_already_scraped:
+            print(f"  firm already scraped — skipping deep-scrape")
+            n_scrape_skipped += 1
+        else:
+            try:
+                subprocess.run(
+                    ["python", "tools/deep_scrape_contact_pages.py", "--cerefs", ce],
+                    cwd=PROJECT_ROOT, check=False,
+                )
+            except Exception as e:
+                print(f"  scrape failed: {e}")
 
         # 2. Inject scraped emails into meta
         try:
@@ -136,7 +168,8 @@ def main():
         "phase": "done", "done": True, "finished_at": _now_iso(),
     })
     _git_commit_and_push(f"enrich-all: complete ({total} processed)")
-    print(f"\nDone. {total} triggers processed.")
+    print(f"\nDone. {total} triggers processed. "
+          f"({n_scrape_skipped} firm-scrapes skipped, {n_ros_skipped} RO-finds skipped — already enriched.)")
 
 
 if __name__ == "__main__":
