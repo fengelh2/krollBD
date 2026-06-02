@@ -198,5 +198,15 @@
     "source": "hunter.io",
     "fetched_at_utc": "2026-06-01T12:12:20+00:00",
     "quota_remaining_when_fetched": 45
+  },
+  "spectrum-capital.net|flannie lan|fu": {
+    "status": "no_match",
+    "email": null,
+    "score": null,
+    "confidence": "none",
+    "verification_status": "no_match",
+    "source": "hunter.io",
+    "fetched_at_utc": "2026-06-02T01:52:47+00:00",
+    "quota_remaining_when_fetched": 45
   }
 }

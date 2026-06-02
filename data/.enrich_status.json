@@ -1,7 +1,9 @@
 {
   "started_at": "2026-06-02T01:50:42.473389+00:00",
-  "current_idx": 0,
+  "current_idx": 3,
   "total": 20,
-  "phase": "starting",
+  "phase": "running",
+  "current_firm": "[R1] New RO at Spectrum Finance Limited — FU Flannie Lan",
+  "current_trigger_id": "R1-BTR656-BXM723",
   "done": false
 }
