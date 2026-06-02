@@ -1,0 +1,105 @@
+name: Enrich trigger (on-demand)
+
+# Fires when the dashboard sends a repository_dispatch event with
+# event_type=enrich_firm or event_type=find_ro_emails. The client_payload
+# carries the trigger_id + ceref; the workflow runs the appropriate
+# enrichment, updates data/issue_meta/<trigger_id>.json, and commits.
+
+on:
+  repository_dispatch:
+    types: [enrich_firm, find_ro_emails]
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: data-writes
+  cancel-in-progress: false
+
+jobs:
+  enrich:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    env:
+      FIRECRAWL_API_KEY: ${{ secrets.FIRECRAWL_API_KEY }}
+      HUNTER_API_KEY: ${{ secrets.HUNTER_API_KEY }}
+      HUNTER_API_KEY_2: ${{ secrets.HUNTER_API_KEY_2 }}
+      HUNTER_API_KEY_3: ${{ secrets.HUNTER_API_KEY_3 }}
+      HUNTER_EMAIL: ${{ secrets.HUNTER_EMAIL }}
+      ABSTRACTAPI_KEY: ${{ secrets.ABSTRACTAPI_KEY }}
+      ABSTRACTAPI_KEY_2: ${{ secrets.ABSTRACTAPI_KEY_2 }}
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      PYTHONIOENCODING: utf-8
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Install deps
+        run: pip install -r requirements.txt
+
+      - name: Enrich firm (deep-scrape)
+        if: ${{ github.event.action == 'enrich_firm' }}
+        env:
+          CEREF: ${{ github.event.client_payload.ceref }}
+          TRIGGER_ID: ${{ github.event.client_payload.trigger_id }}
+          ISSUE_NUMBER: ${{ github.event.client_payload.issue_number }}
+        run: |
+          echo "::group::Scraping firm $CEREF for $TRIGGER_ID"
+          python tools/deep_scrape_contact_pages.py --cerefs "$CEREF" --force
+          echo "::endgroup::"
+          python tools/_enrich_inject_into_meta.py --trigger-id "$TRIGGER_ID" --ceref "$CEREF" --mode firm
+
+      - name: Find RO emails (Hunter + AbstractAPI)
+        if: ${{ github.event.action == 'find_ro_emails' }}
+        env:
+          CEREF: ${{ github.event.client_payload.ceref }}
+          TRIGGER_ID: ${{ github.event.client_payload.trigger_id }}
+          ISSUE_NUMBER: ${{ github.event.client_payload.issue_number }}
+        run: |
+          echo "::group::Finding RO emails for $TRIGGER_ID ($CEREF)"
+          python tools/_enrich_inject_into_meta.py --trigger-id "$TRIGGER_ID" --ceref "$CEREF" --mode ros
+          echo "::endgroup::"
+
+      - name: Commit + push if changed
+        env:
+          TRIGGER_ID: ${{ github.event.client_payload.trigger_id }}
+          MODE: ${{ github.event.action }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/issue_meta/ data/strategy_classification.csv data/hunter_io_cache.json data/email_verifier_cache.json 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "$MODE for $TRIGGER_ID (dashboard-triggered)"
+            for i in 1 2 3; do
+              git pull --rebase origin main && git push origin HEAD:main && break
+              echo "push retry $i..."; sleep 2
+            done
+          fi
+
+      - name: Comment on issue with result
+        if: always()
+        env:
+          ISSUE_NUMBER: ${{ github.event.client_payload.issue_number }}
+          TRIGGER_ID: ${{ github.event.client_payload.trigger_id }}
+          MODE: ${{ github.event.action }}
+          OUTCOME: ${{ job.status }}
+        run: |
+          if [ -n "$ISSUE_NUMBER" ]; then
+            gh issue comment "$ISSUE_NUMBER" --repo "$GITHUB_REPOSITORY" \
+              --body "On-demand enrichment ($MODE) finished with status: $OUTCOME"
+          fi

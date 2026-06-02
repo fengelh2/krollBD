@@ -147,6 +147,115 @@
     return out;
   }
 
+  async function fetchMetaSha(path) {
+    // Get the current Git SHA of a meta file. Used to detect when the
+    // on-demand enrichment workflow has written a new version.
+    const pat = getPat();
+    const url = `https://api.github.com/repos/${REPO}/contents/${encodeURI(path)}?_=${Date.now()}`;
+    const r = await fetch(url, {
+      cache: "no-store",
+      headers: {
+        "Accept": "application/vnd.github+json",
+        ...(pat ? { "Authorization": `Bearer ${pat}` } : {}),
+      },
+    });
+    if (!r.ok) return null;
+    const j = await r.json();
+    return j.sha || null;
+  }
+
+  async function dispatchEnrichment(eventType, issue, meta, btnEl, label) {
+    const pat = getPat();
+    if (!pat) { promptForPat(); if (!getPat()) return false; }
+    const metaFileMatch = (issue.body || "").match(/META_FILE:\s*(\S+)/);
+    if (!metaFileMatch) {
+      alert("Can't enrich: this issue has no META_FILE pointer in its body.");
+      return false;
+    }
+    const metaPath = metaFileMatch[1];
+    const baselineSha = await fetchMetaSha(metaPath);
+
+    // Replace the button with a progress bar
+    const wrap = document.createElement("div");
+    wrap.className = "enrich-progress";
+    wrap.innerHTML = `
+      <div class="enrich-bar"><div class="enrich-bar-fill"></div></div>
+      <div class="enrich-label">${label} · queued <span class="enrich-elapsed">0s</span></div>
+    `;
+    btnEl.replaceWith(wrap);
+    const fill = wrap.querySelector(".enrich-bar-fill");
+    const lbl = wrap.querySelector(".enrich-label");
+    const elap = wrap.querySelector(".enrich-elapsed");
+    const t0 = Date.now();
+    let phase = "queued";
+    // Indeterminate-ish progress: fill bar based on elapsed vs expected (~90s)
+    const tick = setInterval(() => {
+      const s = Math.floor((Date.now() - t0) / 1000);
+      elap.textContent = `${s}s`;
+      const pct = Math.min(95, (s / 90) * 100);
+      fill.style.width = pct + "%";
+      if (s > 5 && phase === "queued") {
+        phase = "running"; lbl.firstChild.nodeValue = `${label} · running `;
+      }
+    }, 500);
+
+    const r = await fetch(DISPATCH, {
+      method: "POST",
+      headers: {
+        "Accept": "application/vnd.github+json",
+        "Authorization": `Bearer ${getPat()}`,
+        "X-GitHub-Api-Version": "2022-11-28",
+      },
+      body: JSON.stringify({
+        event_type: eventType,
+        client_payload: {
+          trigger_id: (metaPath.split("/").pop() || "").replace(/\.json$/, ""),
+          ceref: meta.ceref,
+          issue_number: issue.number,
+        },
+      }),
+    });
+    if (!r.ok) {
+      clearInterval(tick);
+      const msg = await r.text().catch(() => "");
+      wrap.innerHTML = `<div class="enrich-label" style="color:#991b1b">Dispatch failed (${r.status}): ${msg.slice(0,200)}</div>`;
+      return false;
+    }
+
+    // Poll meta-file SHA until it changes — workflow has committed → done
+    const POLL_INTERVAL = 5000;
+    const TIMEOUT_S = 300;
+    return await new Promise((resolve) => {
+      const poll = setInterval(async () => {
+        const elapsedS = (Date.now() - t0) / 1000;
+        if (elapsedS > TIMEOUT_S) {
+          clearInterval(poll); clearInterval(tick);
+          wrap.innerHTML = `<div class="enrich-label" style="color:#991b1b">Timed out after ${TIMEOUT_S}s — workflow may still be running. Refresh in a minute.</div>`;
+          resolve(false);
+          return;
+        }
+        const sha = await fetchMetaSha(metaPath);
+        if (sha && sha !== baselineSha) {
+          clearInterval(poll); clearInterval(tick);
+          fill.style.width = "100%";
+          fill.style.background = "#10b981";
+          lbl.textContent = `${label} · done in ${Math.floor(elapsedS)}s — refreshing card`;
+          // Wipe in-memory cache for this meta file so refresh picks up new
+          _META_CACHE.delete(metaPath);
+          delete issue._meta;
+          setTimeout(() => {
+            // Re-fetch issue body + meta, then re-render this card
+            fetchAndAttachMetas([issue]).then(() => {
+              const fresh = renderCard(issue, { pending: false });
+              if (fresh) wrap.closest(".card").replaceWith(fresh);
+            });
+          }, 600);
+          resolve(true);
+        }
+      }, POLL_INTERVAL);
+    });
+  }
+
   async function dropTrigger(issue, meta, reason) {
     const pat = getPat();
     if (!pat) { promptForPat(); if (!getPat()) return false; }
@@ -429,6 +538,10 @@
         </div>
       `;
       })() : ""}
+      <div class="actions enrich-actions">
+        <button class="btn secondary" data-action="enrich-firm" title="Run firecrawl deep-scrape on the firm's website to extract real info@/contact@ inboxes. ~30-90s.">Enrich firm</button>
+        <button class="btn secondary" data-action="find-ros" title="Run Hunter.io + AbstractAPI for each RO on this card to find verified personal emails. ~15-30s.">Find RO emails</button>
+      </div>
       <div class="actions">
         ${opts.pending
           ? `<span class="muted-text">Logging… (Action running, refresh in ~30s)</span>`
@@ -457,6 +570,14 @@
       const ok = await dispatchOutreach(issue, meta);
       if (ok) { addPending(issue.number); refresh(); }
       else { btn.disabled = false; btn.textContent = "Mark as reached out"; }
+    });
+    const enrichFirmBtn = card.querySelector('[data-action="enrich-firm"]');
+    if (enrichFirmBtn) enrichFirmBtn.addEventListener("click", () => {
+      dispatchEnrichment("enrich_firm", issue, meta, enrichFirmBtn, "Scraping firm site");
+    });
+    const findRosBtn = card.querySelector('[data-action="find-ros"]');
+    if (findRosBtn) findRosBtn.addEventListener("click", () => {
+      dispatchEnrichment("find_ro_emails", issue, meta, findRosBtn, "Searching Hunter for ROs");
     });
     const dropBtn = card.querySelector('[data-action="drop"]');
     if (dropBtn) dropBtn.addEventListener("click", async () => {
