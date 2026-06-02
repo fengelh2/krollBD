@@ -341,10 +341,36 @@
           <button class="btn copy" data-copy="body">Copy body</button>
         </div>
       </div>
-      ${(meta.email_candidates && meta.email_candidates.length) ? `
+      ${(meta.email_candidates && meta.email_candidates.length) ? (() => {
+        // Suppress pattern-guess clutter for an RO once we have a verified
+        // address for the same person. (Generic firm-level guesses like
+        // info@, contact@ stay — those aren't per-RO.)
+        const verifiedRos = new Set(
+          meta.email_candidates
+            .filter(c => ["hunter_verified","verified","very_high","high"].includes((c.confidence||"").toLowerCase()))
+            .map(c => (c.ro || "").toLowerCase().trim())
+            .filter(Boolean)
+        );
+        const personKinds = new Set([
+          "ro_guess","inferred_pattern","ro_pattern_match","ro_via_aggregator","person"
+        ]);
+        const showAllOverride = !!issue._showAllCands;
+        const visibleCands = showAllOverride ? meta.email_candidates : meta.email_candidates.filter(c => {
+          const ro = (c.ro || "").toLowerCase().trim();
+          const conf = (c.confidence||"").toLowerCase();
+          const isVerified = ["hunter_verified","verified","very_high","high"].includes(conf);
+          // Hide only lower-confidence per-RO guesses where that RO has a verified email
+          if (!isVerified && personKinds.has(c.kind) && ro && verifiedRos.has(ro)) return false;
+          return true;
+        });
+        const hiddenCount = meta.email_candidates.length - visibleCands.length;
+        return `
         <div class="candidates">
-          <div class="cand-head"><span>Email candidates · ordered best→worst · <em>verify before sending</em></span></div>
-          ${meta.email_candidates.map(c => {
+          <div class="cand-head">
+            <span>Email candidates · ordered best→worst · <em>verify before sending</em></span>
+            ${hiddenCount ? `<span class="muted-text" style="font-size:11px">· ${hiddenCount} lower-confidence guess${hiddenCount===1?"":"es"} hidden (verified addr found) · <a href="#" data-action="show-all-cands" style="color:var(--muted)">show all</a></span>` : ""}
+          </div>
+          ${visibleCands.map(c => {
             // Per-RO draft: if a C1 has multiple founding ROs, each gets a
             // personalized salutation. Match candidate.ro to per_ro_drafts so
             // the mailto link opens with "Dear <this RO>" rather than the
@@ -401,7 +427,8 @@
               </div>`;
           }).join("")}
         </div>
-      ` : ""}
+      `;
+      })() : ""}
       <div class="actions">
         ${opts.pending
           ? `<span class="muted-text">Logging… (Action running, refresh in ~30s)</span>`
@@ -416,6 +443,14 @@
     card.querySelectorAll('[data-copy-cand]').forEach(b => b.addEventListener("click", e => {
       copyToClipboard(e.target.dataset.copyCand, e.target);
     }));
+    const showAll = card.querySelector('[data-action="show-all-cands"]');
+    if (showAll) showAll.addEventListener("click", (e) => {
+      e.preventDefault();
+      // Re-render this single card with the suppression bypassed
+      issue._showAllCands = true;
+      const fresh = renderCard(issue, { pending: opts.pending });
+      if (fresh) card.replaceWith(fresh);
+    });
     const btn = card.querySelector('[data-action="reached-out"]');
     if (btn) btn.addEventListener("click", async () => {
       btn.disabled = true; btn.textContent = "Sending…";
