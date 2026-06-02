@@ -579,11 +579,21 @@
           "ro_guess","inferred_pattern","ro_pattern_match","ro_via_aggregator","person"
         ]);
         const showAllOverride = !!issue._showAllCands;
+        const genericKinds = new Set(["generic_guess","generic_on_site","generic"]);
+        // Any per-RO candidate on this card means the message is personalized
+        // — generic inboxes are then the wrong recipient ("Dear Wayne" sent
+        // to info@ makes no sense). Only show generics as a fallback when
+        // there are zero per-RO candidates at all.
+        const hasAnyPersonCand = meta.email_candidates.some(c =>
+          personKinds.has(c.kind) || (c.kind === "hunter_io") || (c.kind === "observed_on_site" && c.ro)
+        );
         const visibleCands = showAllOverride ? meta.email_candidates : meta.email_candidates.filter(c => {
           const ro = (c.ro || "").toLowerCase().trim();
           const conf = (c.confidence||"").toLowerCase();
           const isVerified = ["hunter_verified","verified","very_high","high"].includes(conf);
-          // Hide only lower-confidence per-RO guesses where that RO has a verified email
+          // Rule 1: drop generic-inbox candidates when we have any personal email
+          if (hasAnyPersonCand && genericKinds.has(c.kind)) return false;
+          // Rule 2: drop lower-confidence per-RO guesses where that RO has a verified email
           if (!isVerified && personKinds.has(c.kind) && ro && verifiedRos.has(ro)) return false;
           return true;
         });
