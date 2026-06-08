@@ -1,0 +1,109 @@
+{
+  "type": "C1",
+  "type_label": "New Type 9 corp",
+  "firm": "Tsinghua Innovation Capital Co., Limited",
+  "natural": "Tsinghua Innovation Capital",
+  "ceref": "BWP230",
+  "address": "Room 1309, Sun House, 90 Connaught Road, Sheung Wan, Hong Kong, Hong Kong",
+  "ros": [
+    {
+      "name": "DENG Haifeng",
+      "ceref": "AJN297"
+    },
+    {
+      "name": "SONG Feng",
+      "ceref": "BWQ869"
+    }
+  ],
+  "primary_ro": "DENG Haifeng",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BWP230/details?locale=en",
+  "email_subject": "Congratulations on Tsinghua Innovation Capital's SFC Type 9 licence",
+  "email_body": "Dear Haifeng,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on Tsinghua Innovation Capital's recent Type 9 licensing with the SFC. As newly licensed asset managers establish and scale their operations, we often see a need for practical support around regulatory compliance, governance, and ongoing regulatory engagement.\n\nKroll's Financial Services, Compliance and Regulation (FSCR) team works closely with SFC regulated firms across Hong Kong, providing hands on support with licensing post approval matters, compliance framework implementation, regulatory filings, and day to day advisory support. Our objective is to help managers operate efficiently while maintaining a strong and constructive relationship with the regulator.\n\nIf helpful, I would be happy to introduce you to the relevant FSCR colleagues for an informal discussion. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "per_ro_drafts": [
+    {
+      "ro_name": "DENG Haifeng",
+      "ro_ceref": "AJN297",
+      "salutation": "Haifeng",
+      "email_subject": "Congratulations on Tsinghua Innovation Capital's SFC Type 9 licence",
+      "email_body": "Dear Haifeng,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on Tsinghua Innovation Capital's recent Type 9 licensing with the SFC. As newly licensed asset managers establish and scale their operations, we often see a need for practical support around regulatory compliance, governance, and ongoing regulatory engagement.\n\nKroll's Financial Services, Compliance and Regulation (FSCR) team works closely with SFC regulated firms across Hong Kong, providing hands on support with licensing post approval matters, compliance framework implementation, regulatory filings, and day to day advisory support. Our objective is to help managers operate efficiently while maintaining a strong and constructive relationship with the regulator.\n\nIf helpful, I would be happy to introduce you to the relevant FSCR colleagues for an informal discussion. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n"
+    },
+    {
+      "ro_name": "SONG Feng",
+      "ro_ceref": "BWQ869",
+      "salutation": "Feng",
+      "email_subject": "Congratulations on Tsinghua Innovation Capital's SFC Type 9 licence",
+      "email_body": "Dear Feng,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on Tsinghua Innovation Capital's recent Type 9 licensing with the SFC. As newly licensed asset managers establish and scale their operations, we often see a need for practical support around regulatory compliance, governance, and ongoing regulatory engagement.\n\nKroll's Financial Services, Compliance and Regulation (FSCR) team works closely with SFC regulated firms across Hong Kong, providing hands on support with licensing post approval matters, compliance framework implementation, regulatory filings, and day to day advisory support. Our objective is to help managers operate efficiently while maintaining a strong and constructive relationship with the regulator.\n\nIf helpful, I would be happy to introduce you to the relevant FSCR colleagues for an informal discussion. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n"
+    }
+  ],
+  "variant_id": "C1-v2",
+  "email_body_hash": "0a8f5e8ef2",
+  "email_candidates": [
+    {
+      "email": "haifeng.deng@tsinghua.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "DENG Haifeng"
+    },
+    {
+      "email": "haifengdeng@tsinghua.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "DENG Haifeng"
+    },
+    {
+      "email": "hdeng@tsinghua.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "DENG Haifeng"
+    },
+    {
+      "email": "feng.song@tsinghua.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "SONG Feng"
+    },
+    {
+      "email": "fengsong@tsinghua.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "SONG Feng"
+    },
+    {
+      "email": "fsong@tsinghua.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "SONG Feng"
+    },
+    {
+      "email": "info@tsinghua.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    },
+    {
+      "email": "compliance@tsinghua.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    },
+    {
+      "email": "contact@tsinghua.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    },
+    {
+      "email": "enquiry@tsinghua.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    }
+  ],
+  "asset_classes": "unknown",
+  "illiq_likelihood": "unknown",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "none",
+  "website_accuracy": "not_found"
+}

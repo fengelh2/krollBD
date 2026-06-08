@@ -1,0 +1,138 @@
+{
+  "type": "C1",
+  "type_label": "New Type 9 corp",
+  "firm": "Hazel Securities Limited",
+  "natural": "Hazel Securities",
+  "ceref": "BWK564",
+  "address": "Unit 3605, 36/F.,, Dah Sing Financial Centre, 248 Queens Road East, Wanchai, Hong Kong",
+  "ros": [
+    {
+      "name": "CHUNG I Fon",
+      "ceref": "AVI326"
+    },
+    {
+      "name": "LEE Ka Ho",
+      "ceref": "BBT497"
+    },
+    {
+      "name": "SUN Yuen Han",
+      "ceref": "AGN808"
+    }
+  ],
+  "primary_ro": "CHUNG I Fon",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BWK564/details?locale=en",
+  "email_subject": "Congratulations on Hazel Securities's SFC Type 9 licence",
+  "email_body": "Dear I Fon,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on Hazel Securities's recent Type 9 licensing with the SFC. As newly licensed asset managers establish and scale their operations, we often see a need for practical support around regulatory compliance, governance, and ongoing regulatory engagement.\n\nKroll's Financial Services, Compliance and Regulation (FSCR) team works closely with SFC regulated firms across Hong Kong, providing hands on support with licensing post approval matters, compliance framework implementation, regulatory filings, and day to day advisory support. Our objective is to help managers operate efficiently while maintaining a strong and constructive relationship with the regulator.\n\nIf helpful, I would be happy to introduce you to the relevant FSCR colleagues for an informal discussion. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "per_ro_drafts": [
+    {
+      "ro_name": "CHUNG I Fon",
+      "ro_ceref": "AVI326",
+      "salutation": "I Fon",
+      "email_subject": "Congratulations on Hazel Securities's SFC Type 9 licence",
+      "email_body": "Dear I Fon,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on Hazel Securities's recent Type 9 licensing with the SFC. As newly licensed asset managers establish and scale their operations, we often see a need for practical support around regulatory compliance, governance, and ongoing regulatory engagement.\n\nKroll's Financial Services, Compliance and Regulation (FSCR) team works closely with SFC regulated firms across Hong Kong, providing hands on support with licensing post approval matters, compliance framework implementation, regulatory filings, and day to day advisory support. Our objective is to help managers operate efficiently while maintaining a strong and constructive relationship with the regulator.\n\nIf helpful, I would be happy to introduce you to the relevant FSCR colleagues for an informal discussion. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n"
+    },
+    {
+      "ro_name": "LEE Ka Ho",
+      "ro_ceref": "BBT497",
+      "salutation": "Ka Ho",
+      "email_subject": "Congratulations on Hazel Securities's SFC Type 9 licence",
+      "email_body": "Dear Ka Ho,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on Hazel Securities's recent Type 9 licensing with the SFC. As newly licensed asset managers establish and scale their operations, we often see a need for practical support around regulatory compliance, governance, and ongoing regulatory engagement.\n\nKroll's Financial Services, Compliance and Regulation (FSCR) team works closely with SFC regulated firms across Hong Kong, providing hands on support with licensing post approval matters, compliance framework implementation, regulatory filings, and day to day advisory support. Our objective is to help managers operate efficiently while maintaining a strong and constructive relationship with the regulator.\n\nIf helpful, I would be happy to introduce you to the relevant FSCR colleagues for an informal discussion. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n"
+    },
+    {
+      "ro_name": "SUN Yuen Han",
+      "ro_ceref": "AGN808",
+      "salutation": "Yuen Han",
+      "email_subject": "Congratulations on Hazel Securities's SFC Type 9 licence",
+      "email_body": "Dear Yuen Han,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on Hazel Securities's recent Type 9 licensing with the SFC. As newly licensed asset managers establish and scale their operations, we often see a need for practical support around regulatory compliance, governance, and ongoing regulatory engagement.\n\nKroll's Financial Services, Compliance and Regulation (FSCR) team works closely with SFC regulated firms across Hong Kong, providing hands on support with licensing post approval matters, compliance framework implementation, regulatory filings, and day to day advisory support. Our objective is to help managers operate efficiently while maintaining a strong and constructive relationship with the regulator.\n\nIf helpful, I would be happy to introduce you to the relevant FSCR colleagues for an informal discussion. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n"
+    }
+  ],
+  "variant_id": "C1-v2",
+  "email_body_hash": "c6498c268a",
+  "email_candidates": [
+    {
+      "email": "i.chung@hazelsec.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHUNG I Fon"
+    },
+    {
+      "email": "ichung@hazelsec.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHUNG I Fon"
+    },
+    {
+      "email": "ic@hazelsec.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHUNG I Fon"
+    },
+    {
+      "email": "ka.lee@hazelsec.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LEE Ka Ho"
+    },
+    {
+      "email": "kalee@hazelsec.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LEE Ka Ho"
+    },
+    {
+      "email": "klee@hazelsec.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LEE Ka Ho"
+    },
+    {
+      "email": "yuen.sun@hazelsec.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "SUN Yuen Han"
+    },
+    {
+      "email": "yuensun@hazelsec.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "SUN Yuen Han"
+    },
+    {
+      "email": "ysun@hazelsec.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "SUN Yuen Han"
+    },
+    {
+      "email": "info@hazelsec.com",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    },
+    {
+      "email": "compliance@hazelsec.com",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    },
+    {
+      "email": "contact@hazelsec.com",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    },
+    {
+      "email": "enquiry@hazelsec.com",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    }
+  ],
+  "asset_classes": "unknown",
+  "illiq_likelihood": "unknown",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "none",
+  "website_accuracy": "not_found"
+}

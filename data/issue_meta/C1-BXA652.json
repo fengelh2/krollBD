@@ -1,0 +1,109 @@
+{
+  "type": "C1",
+  "type_label": "New Type 9 corp",
+  "firm": "Uni Asset Management Limited",
+  "natural": "Uni Asset",
+  "ceref": "BXA652",
+  "address": "R93, 3/F, Eton Tower, 8 Hysan Avenue, Causeway Bay, Hong Kong",
+  "ros": [
+    {
+      "name": "CHEUNG Ka Yee, Katherine",
+      "ceref": "AGJ566"
+    },
+    {
+      "name": "NG Laurence Hou Jun",
+      "ceref": "BEL947"
+    }
+  ],
+  "primary_ro": "CHEUNG Ka Yee, Katherine",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BXA652/details?locale=en",
+  "email_subject": "Congratulations on Uni Asset's SFC Type 9 licence",
+  "email_body": "Dear Katherine,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on Uni Asset's recent Type 9 licensing with the SFC. As newly licensed asset managers establish and scale their operations, we often see a need for practical support around regulatory compliance, governance, and ongoing regulatory engagement.\n\nKroll's Financial Services, Compliance and Regulation (FSCR) team works closely with SFC regulated firms across Hong Kong, providing hands on support with licensing post approval matters, compliance framework implementation, regulatory filings, and day to day advisory support. Our objective is to help managers operate efficiently while maintaining a strong and constructive relationship with the regulator.\n\nIf helpful, I would be happy to introduce you to the relevant FSCR colleagues for an informal discussion. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "per_ro_drafts": [
+    {
+      "ro_name": "CHEUNG Ka Yee, Katherine",
+      "ro_ceref": "AGJ566",
+      "salutation": "Katherine",
+      "email_subject": "Congratulations on Uni Asset's SFC Type 9 licence",
+      "email_body": "Dear Katherine,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on Uni Asset's recent Type 9 licensing with the SFC. As newly licensed asset managers establish and scale their operations, we often see a need for practical support around regulatory compliance, governance, and ongoing regulatory engagement.\n\nKroll's Financial Services, Compliance and Regulation (FSCR) team works closely with SFC regulated firms across Hong Kong, providing hands on support with licensing post approval matters, compliance framework implementation, regulatory filings, and day to day advisory support. Our objective is to help managers operate efficiently while maintaining a strong and constructive relationship with the regulator.\n\nIf helpful, I would be happy to introduce you to the relevant FSCR colleagues for an informal discussion. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n"
+    },
+    {
+      "ro_name": "NG Laurence Hou Jun",
+      "ro_ceref": "BEL947",
+      "salutation": "Laurence",
+      "email_subject": "Congratulations on Uni Asset's SFC Type 9 licence",
+      "email_body": "Dear Laurence,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on Uni Asset's recent Type 9 licensing with the SFC. As newly licensed asset managers establish and scale their operations, we often see a need for practical support around regulatory compliance, governance, and ongoing regulatory engagement.\n\nKroll's Financial Services, Compliance and Regulation (FSCR) team works closely with SFC regulated firms across Hong Kong, providing hands on support with licensing post approval matters, compliance framework implementation, regulatory filings, and day to day advisory support. Our objective is to help managers operate efficiently while maintaining a strong and constructive relationship with the regulator.\n\nIf helpful, I would be happy to introduce you to the relevant FSCR colleagues for an informal discussion. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n"
+    }
+  ],
+  "variant_id": "C1-v2",
+  "email_body_hash": "cbd892b9c3",
+  "email_candidates": [
+    {
+      "email": "ka.cheung@uniasset.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHEUNG Ka Yee, Katherine"
+    },
+    {
+      "email": "kacheung@uniasset.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHEUNG Ka Yee, Katherine"
+    },
+    {
+      "email": "kcheung@uniasset.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHEUNG Ka Yee, Katherine"
+    },
+    {
+      "email": "laurence.ng@uniasset.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "NG Laurence Hou Jun"
+    },
+    {
+      "email": "laurenceng@uniasset.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "NG Laurence Hou Jun"
+    },
+    {
+      "email": "lng@uniasset.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "NG Laurence Hou Jun"
+    },
+    {
+      "email": "info@uniasset.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    },
+    {
+      "email": "compliance@uniasset.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    },
+    {
+      "email": "contact@uniasset.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    },
+    {
+      "email": "enquiry@uniasset.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    }
+  ],
+  "asset_classes": "unknown",
+  "illiq_likelihood": "unknown",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "none",
+  "website_accuracy": "not_found"
+}

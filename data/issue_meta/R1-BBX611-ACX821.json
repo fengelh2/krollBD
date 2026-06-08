@@ -1,0 +1,70 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "Core Pacific - Yamaichi Asset Management Limited",
+  "natural": "Core Pacific - Yamaichi Asset",
+  "ceref": "BBX611",
+  "ros": [
+    {
+      "name": "CHANG Brian Hongwei",
+      "ceref": "ACX821"
+    }
+  ],
+  "primary_ro": "CHANG Brian Hongwei",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BBX611/details?locale=en",
+  "email_subject": "Congratulations on your appointment at Core Pacific - Yamaichi Asset",
+  "email_body": "Dear Brian,\n\nThis is Felix from Kroll in Hong Kong. I noticed via the SFC public register that you were recently appointed as a Responsible Officer at Core Pacific - Yamaichi Asset — congratulations.\n\nAs you settle into the role, valuation governance and the year-end audit cycle often feature high on the agenda. Kroll's Portfolio Valuation team supports SFC-licensed managers across Hong Kong with independent fair-value opinions under IFRS 13 / ASC 820 — particularly for harder-to-value private equity and private credit positions where audit pushback is most common.\n\nIf a brief introduction would be useful — whether on year-end planning, LP-driven mark requests, or simply how peers are approaching current market conditions — I would be happy to set up an informal call.\n\nKind regards,\nFelix Engelhardt\n",
+  "variant_id": "R1-v1",
+  "email_body_hash": "024b367cd8",
+  "email_candidates": [
+    {
+      "email": "info@cpy.com.hk",
+      "kind": "generic_on_site",
+      "confidence": "verified",
+      "ro": null
+    },
+    {
+      "email": "brian.chang@cpy.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHANG Brian Hongwei"
+    },
+    {
+      "email": "brianchang@cpy.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHANG Brian Hongwei"
+    },
+    {
+      "email": "bchang@cpy.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHANG Brian Hongwei"
+    },
+    {
+      "email": "compliance@cpy.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    },
+    {
+      "email": "contact@cpy.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    },
+    {
+      "email": "enquiry@cpy.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    }
+  ],
+  "asset_classes": "public_equity,public_credit,unknown",
+  "illiq_likelihood": "medium",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "website",
+  "website_accuracy": "probable"
+}

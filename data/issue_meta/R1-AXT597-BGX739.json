@@ -1,0 +1,76 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "Frontier Capital Management Limited",
+  "natural": "Frontier Capital",
+  "ceref": "AXT597",
+  "ros": [
+    {
+      "name": "WONG Kun Ho, Eric",
+      "ceref": "BGX739"
+    }
+  ],
+  "primary_ro": "WONG Kun Ho, Eric",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/AXT597/details?locale=en",
+  "email_subject": "Congratulations on your appointment at Frontier Capital",
+  "email_body": "Dear Eric,\n\nThis is Felix from Kroll in Hong Kong. I noticed via the SFC public register that you were recently appointed as a Responsible Officer at Frontier Capital — congratulations.\n\nAs you settle into the role, valuation governance and the year-end audit cycle often feature high on the agenda. Kroll's Portfolio Valuation team supports SFC-licensed managers across Hong Kong with independent fair-value opinions under IFRS 13 / ASC 820 — particularly for harder-to-value private equity and private credit positions where audit pushback is most common.\n\nIf a brief introduction would be useful — whether on year-end planning, LP-driven mark requests, or simply how peers are approaching current market conditions — I would be happy to set up an informal call.\n\nKind regards,\nFelix Engelhardt\n",
+  "variant_id": "R1-v1",
+  "email_body_hash": "52fba640f3",
+  "email_candidates": [
+    {
+      "email": "cs@ffgwm.com",
+      "kind": "observed_on_site",
+      "confidence": "verified",
+      "ro": null
+    },
+    {
+      "email": "kun.wong@ffgwm.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "WONG Kun Ho, Eric"
+    },
+    {
+      "email": "kunwong@ffgwm.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "WONG Kun Ho, Eric"
+    },
+    {
+      "email": "kwong@ffgwm.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "WONG Kun Ho, Eric"
+    },
+    {
+      "email": "info@ffgwm.com",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    },
+    {
+      "email": "compliance@ffgwm.com",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    },
+    {
+      "email": "contact@ffgwm.com",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    },
+    {
+      "email": "enquiry@ffgwm.com",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    }
+  ],
+  "asset_classes": "public_equity,public_credit,multi",
+  "illiq_likelihood": "low",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "website",
+  "website_accuracy": "suspect"
+}

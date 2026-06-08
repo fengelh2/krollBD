@@ -1,0 +1,109 @@
+{
+  "type": "C1",
+  "type_label": "New Type 9 corp",
+  "firm": "MetaQuest Limited",
+  "natural": "MetaQuest",
+  "ceref": "BWS644",
+  "address": "Room 8, 13/F,, Kuo Wah Building, 342 Hennessy Road, Wan Chai, Hong Kong",
+  "ros": [
+    {
+      "name": "WU Kaili",
+      "ceref": "BWS650"
+    },
+    {
+      "name": "XIE Shaobin",
+      "ceref": "BWS645"
+    }
+  ],
+  "primary_ro": "WU Kaili",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BWS644/details?locale=en",
+  "email_subject": "Congratulations on MetaQuest's SFC Type 9 licence",
+  "email_body": "Dear Kaili,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on MetaQuest's recent Type 9 licensing with the SFC. As newly licensed asset managers establish and scale their operations, we often see a need for practical support around regulatory compliance, governance, and ongoing regulatory engagement.\n\nKroll's Financial Services, Compliance and Regulation (FSCR) team works closely with SFC regulated firms across Hong Kong, providing hands on support with licensing post approval matters, compliance framework implementation, regulatory filings, and day to day advisory support. Our objective is to help managers operate efficiently while maintaining a strong and constructive relationship with the regulator.\n\nIf helpful, I would be happy to introduce you to the relevant FSCR colleagues for an informal discussion. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "per_ro_drafts": [
+    {
+      "ro_name": "WU Kaili",
+      "ro_ceref": "BWS650",
+      "salutation": "Kaili",
+      "email_subject": "Congratulations on MetaQuest's SFC Type 9 licence",
+      "email_body": "Dear Kaili,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on MetaQuest's recent Type 9 licensing with the SFC. As newly licensed asset managers establish and scale their operations, we often see a need for practical support around regulatory compliance, governance, and ongoing regulatory engagement.\n\nKroll's Financial Services, Compliance and Regulation (FSCR) team works closely with SFC regulated firms across Hong Kong, providing hands on support with licensing post approval matters, compliance framework implementation, regulatory filings, and day to day advisory support. Our objective is to help managers operate efficiently while maintaining a strong and constructive relationship with the regulator.\n\nIf helpful, I would be happy to introduce you to the relevant FSCR colleagues for an informal discussion. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n"
+    },
+    {
+      "ro_name": "XIE Shaobin",
+      "ro_ceref": "BWS645",
+      "salutation": "Shaobin",
+      "email_subject": "Congratulations on MetaQuest's SFC Type 9 licence",
+      "email_body": "Dear Shaobin,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on MetaQuest's recent Type 9 licensing with the SFC. As newly licensed asset managers establish and scale their operations, we often see a need for practical support around regulatory compliance, governance, and ongoing regulatory engagement.\n\nKroll's Financial Services, Compliance and Regulation (FSCR) team works closely with SFC regulated firms across Hong Kong, providing hands on support with licensing post approval matters, compliance framework implementation, regulatory filings, and day to day advisory support. Our objective is to help managers operate efficiently while maintaining a strong and constructive relationship with the regulator.\n\nIf helpful, I would be happy to introduce you to the relevant FSCR colleagues for an informal discussion. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n"
+    }
+  ],
+  "variant_id": "C1-v2",
+  "email_body_hash": "b87640807c",
+  "email_candidates": [
+    {
+      "email": "kaili.wu@metaquest.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "WU Kaili"
+    },
+    {
+      "email": "kailiwu@metaquest.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "WU Kaili"
+    },
+    {
+      "email": "kwu@metaquest.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "WU Kaili"
+    },
+    {
+      "email": "shaobin.xie@metaquest.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "XIE Shaobin"
+    },
+    {
+      "email": "shaobinxie@metaquest.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "XIE Shaobin"
+    },
+    {
+      "email": "sxie@metaquest.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "XIE Shaobin"
+    },
+    {
+      "email": "info@metaquest.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    },
+    {
+      "email": "compliance@metaquest.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    },
+    {
+      "email": "contact@metaquest.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    },
+    {
+      "email": "enquiry@metaquest.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    }
+  ],
+  "asset_classes": "unknown",
+  "illiq_likelihood": "unknown",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "none",
+  "website_accuracy": "not_found"
+}

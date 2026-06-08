@@ -1,0 +1,70 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "CGS International Securities Hong Kong Limited",
+  "natural": "CGS International Securities",
+  "ceref": "AAW351",
+  "ros": [
+    {
+      "name": "CHANG Michael Poyung",
+      "ceref": "ANA974"
+    }
+  ],
+  "primary_ro": "CHANG Michael Poyung",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/AAW351/details?locale=en",
+  "email_subject": "Congratulations on your appointment at CGS International Securities",
+  "email_body": "Dear Michael,\n\nThis is Felix from Kroll in Hong Kong. I noticed via the SFC public register that you were recently appointed as a Responsible Officer at CGS International Securities — congratulations.\n\nAs you settle into the role, valuation governance and the year-end audit cycle often feature high on the agenda. Kroll's Portfolio Valuation team supports SFC-licensed managers across Hong Kong with independent fair-value opinions under IFRS 13 / ASC 820 — particularly for harder-to-value private equity and private credit positions where audit pushback is most common.\n\nIf a brief introduction would be useful — whether on year-end planning, LP-driven mark requests, or simply how peers are approaching current market conditions — I would be happy to set up an informal call.\n\nKind regards,\nFelix Engelhardt\n",
+  "variant_id": "R1-v1",
+  "email_body_hash": "9d70ce0952",
+  "email_candidates": [
+    {
+      "email": "michael.chang@cgsi.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHANG Michael Poyung"
+    },
+    {
+      "email": "michaelchang@cgsi.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHANG Michael Poyung"
+    },
+    {
+      "email": "mchang@cgsi.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHANG Michael Poyung"
+    },
+    {
+      "email": "info@cgsi.com",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    },
+    {
+      "email": "compliance@cgsi.com",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    },
+    {
+      "email": "contact@cgsi.com",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    },
+    {
+      "email": "enquiry@cgsi.com",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    }
+  ],
+  "asset_classes": "public_equity,public_credit",
+  "illiq_likelihood": "low",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "CGS International",
+  "classification_source": "website",
+  "website_accuracy": "suspect"
+}

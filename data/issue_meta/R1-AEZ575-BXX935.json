@@ -1,0 +1,76 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "Bright Smart Securities International (H.K.) Limited",
+  "natural": "Bright Smart Securities International (H.K.)",
+  "ceref": "AEZ575",
+  "ros": [
+    {
+      "name": "ZHENG Yanlan",
+      "ceref": "BXX935"
+    }
+  ],
+  "primary_ro": "ZHENG Yanlan",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/AEZ575/details?locale=en",
+  "email_subject": "Congratulations on your appointment at Bright Smart Securities International (H.K.)",
+  "email_body": "Dear Yanlan,\n\nThis is Felix from Kroll in Hong Kong. I noticed via the SFC public register that you were recently appointed as a Responsible Officer at Bright Smart Securities International (H.K.) — congratulations.\n\nAs you settle into the role, valuation governance and the year-end audit cycle often feature high on the agenda. Kroll's Portfolio Valuation team supports SFC-licensed managers across Hong Kong with independent fair-value opinions under IFRS 13 / ASC 820 — particularly for harder-to-value private equity and private credit positions where audit pushback is most common.\n\nIf a brief introduction would be useful — whether on year-end planning, LP-driven mark requests, or simply how peers are approaching current market conditions — I would be happy to set up an informal call.\n\nKind regards,\nFelix Engelhardt\n",
+  "variant_id": "R1-v1",
+  "email_body_hash": "ad8e2c9771",
+  "email_candidates": [
+    {
+      "email": "online@bsgroup.com.hk",
+      "kind": "observed_on_site",
+      "confidence": "verified",
+      "ro": null
+    },
+    {
+      "email": "yanlan.zheng@bsgroup.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "ZHENG Yanlan"
+    },
+    {
+      "email": "yanlanzheng@bsgroup.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "ZHENG Yanlan"
+    },
+    {
+      "email": "yzheng@bsgroup.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "ZHENG Yanlan"
+    },
+    {
+      "email": "info@bsgroup.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    },
+    {
+      "email": "compliance@bsgroup.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    },
+    {
+      "email": "contact@bsgroup.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    },
+    {
+      "email": "enquiry@bsgroup.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    }
+  ],
+  "asset_classes": "public_equity,public_credit",
+  "illiq_likelihood": "low",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "Bright Smart Securities International (H.K.) Limited",
+  "classification_source": "consensus_website_plus",
+  "website_accuracy": "suspect"
+}

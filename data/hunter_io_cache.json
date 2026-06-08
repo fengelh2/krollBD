@@ -278,5 +278,35 @@
     "source": "hunter.io",
     "fetched_at_utc": "2026-06-02T02:01:54+00:00",
     "quota_remaining_when_fetched": 45
+  },
+  "deca-capital.com|jing|guo": {
+    "status": "ok",
+    "email": "jing@deca-capital.com",
+    "score": 78,
+    "confidence": "medium",
+    "verification_status": "accept_all",
+    "source": "hunter.io",
+    "fetched_at_utc": "2026-06-08T03:05:25+00:00",
+    "quota_remaining_when_fetched": 50
+  },
+  "endowus.hk|samuel gene|rhee": {
+    "status": "no_match",
+    "email": null,
+    "score": null,
+    "confidence": "none",
+    "verification_status": "no_match",
+    "source": "hunter.io",
+    "fetched_at_utc": "2026-06-08T03:05:49+00:00",
+    "quota_remaining_when_fetched": 49
+  },
+  "deftapartners.com|yuanwei|gao": {
+    "status": "ok",
+    "email": "yuanweig@deftapartners.com",
+    "score": 96,
+    "confidence": "high",
+    "verification_status": "valid",
+    "source": "hunter.io",
+    "fetched_at_utc": "2026-06-08T03:05:50+00:00",
+    "quota_remaining_when_fetched": 49
   }
 }

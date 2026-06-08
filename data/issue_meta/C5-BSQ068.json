@@ -1,0 +1,115 @@
+{
+  "type": "C5",
+  "type_label": "Rebrand / name change",
+  "firm": "Sinofortune International Asset Management Limited",
+  "old_firm": "Investates Asset Management Limited",
+  "natural": "Sinofortune International Asset",
+  "ceref": "BSQ068",
+  "ros": [
+    {
+      "name": "HUANG Zhifang",
+      "ceref": "BUE461"
+    },
+    {
+      "name": "LAU Chi Ching",
+      "ceref": "APF062"
+    },
+    {
+      "name": "XI Qi",
+      "ceref": "BNQ524"
+    }
+  ],
+  "primary_ro": "HUANG Zhifang",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BSQ068/details?locale=en",
+  "email_subject": "Sinofortune International Asset — note on the recent rebrand",
+  "email_body": "Dear Zhifang,\n\nThis is Felix from Kroll in Hong Kong. The SFC public register shows that Investates Asset has been renamed to Sinofortune International Asset.\n\nRebrands often accompany broader changes — a new sponsor, a strategy refresh, or an organisational reshape — and these moments are often a natural time to revisit fund-level valuation policies and the operating arrangements behind them.\n\nKroll's Portfolio Valuation team works with SFC-regulated managers across Hong Kong on independent fair-value opinions for private equity and credit positions, and our adjacent FSCR colleagues support governance and regulatory engagement. Happy to set up an informal call if any of this would be useful as you transition.\n\nKind regards,\nFelix Engelhardt\n",
+  "variant_id": "C5-v1",
+  "email_body_hash": "af5e9b9a2c",
+  "email_candidates": [
+    {
+      "email": "zhifang.huang@sinofortune.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "HUANG Zhifang"
+    },
+    {
+      "email": "zhifanghuang@sinofortune.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "HUANG Zhifang"
+    },
+    {
+      "email": "zhuang@sinofortune.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "HUANG Zhifang"
+    },
+    {
+      "email": "chi.lau@sinofortune.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LAU Chi Ching"
+    },
+    {
+      "email": "chilau@sinofortune.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LAU Chi Ching"
+    },
+    {
+      "email": "clau@sinofortune.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LAU Chi Ching"
+    },
+    {
+      "email": "qi.xi@sinofortune.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "XI Qi"
+    },
+    {
+      "email": "qixi@sinofortune.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "XI Qi"
+    },
+    {
+      "email": "qxi@sinofortune.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "XI Qi"
+    },
+    {
+      "email": "info@sinofortune.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    },
+    {
+      "email": "compliance@sinofortune.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    },
+    {
+      "email": "contact@sinofortune.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    },
+    {
+      "email": "enquiry@sinofortune.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    }
+  ],
+  "asset_classes": "unknown",
+  "illiq_likelihood": "unknown",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "none",
+  "website_accuracy": "not_found"
+}

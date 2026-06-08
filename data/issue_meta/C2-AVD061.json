@@ -1,0 +1,71 @@
+{
+  "type": "C2",
+  "type_label": "Type 9 retired",
+  "firm": "Saxo Capital Markets HK Limited",
+  "natural": "Saxo Capital Markets",
+  "ceref": "AVD061",
+  "ros_current": [],
+  "ros_departed": [
+    {
+      "name": "MOH Benedict Shang Wei",
+      "ceref": "BTQ997"
+    }
+  ],
+  "primary_ro": "MOH Benedict Shang Wei",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/AVD061/details?locale=en",
+  "email_subject": "Saxo Capital Markets — Type 9 licence transition",
+  "email_body": "Dear Benedict,\n\nThis is Felix from Kroll. I am reaching out in light of publicly disclosed changes to Saxo Capital Markets's SFC Type 9 registration, as such transitions often prompt a review of fund-level operating and advisory arrangements.\n\nFor funds that have largely deployed capital and are managing minority positions requiring limited day-to-day GP involvement, Kroll's Fund Solutions practice supports GPs with a range of later-lifecycle options — particularly around replacement advisory, realization structuring, and cost-efficient ongoing management.\n\nShould this be relevant to you, I would be happy to introduce you to the appropriate colleagues for an informal discussion. If not, please feel free to disregard this note.\n\nKind regards,\nFelix Engelhardt\n",
+  "variant_id": "C2-v1",
+  "email_body_hash": "30861af318",
+  "email_candidates": [
+    {
+      "email": "benedict.moh@saxomarkets.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "MOH Benedict Shang Wei"
+    },
+    {
+      "email": "benedictmoh@saxomarkets.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "MOH Benedict Shang Wei"
+    },
+    {
+      "email": "bmoh@saxomarkets.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "MOH Benedict Shang Wei"
+    },
+    {
+      "email": "info@saxomarkets.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    },
+    {
+      "email": "compliance@saxomarkets.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    },
+    {
+      "email": "contact@saxomarkets.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    },
+    {
+      "email": "enquiry@saxomarkets.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    }
+  ],
+  "asset_classes": "unknown",
+  "illiq_likelihood": "unknown",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "none",
+  "website_accuracy": "not_found"
+}

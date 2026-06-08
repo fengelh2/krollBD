@@ -1,0 +1,76 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "Allianz Global Investors Asia Pacific Limited",
+  "natural": "Allianz Global Investors",
+  "ceref": "BFE699",
+  "ros": [
+    {
+      "name": "KOO Julie J",
+      "ceref": "ANE311"
+    }
+  ],
+  "primary_ro": "KOO Julie J",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BFE699/details?locale=en",
+  "email_subject": "Congratulations on your appointment at Allianz Global Investors",
+  "email_body": "Dear Julie J,\n\nThis is Felix from Kroll in Hong Kong. I noticed via the SFC public register that you were recently appointed as a Responsible Officer at Allianz Global Investors — congratulations.\n\nAs you settle into the role, valuation governance and the year-end audit cycle often feature high on the agenda. Kroll's Portfolio Valuation team supports SFC-licensed managers across Hong Kong with independent fair-value opinions under IFRS 13 / ASC 820 — particularly for harder-to-value private equity and private credit positions where audit pushback is most common.\n\nIf a brief introduction would be useful — whether on year-end planning, LP-driven mark requests, or simply how peers are approaching current market conditions — I would be happy to set up an informal call.\n\nKind regards,\nFelix Engelhardt\n",
+  "variant_id": "R1-v1",
+  "email_body_hash": "072fe404f2",
+  "email_candidates": [
+    {
+      "email": "hkenquiry@allianzgi.com",
+      "kind": "observed_on_site",
+      "confidence": "verified",
+      "ro": null
+    },
+    {
+      "email": "julie.koo@hk.allianzgi.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "KOO Julie J"
+    },
+    {
+      "email": "juliekoo@hk.allianzgi.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "KOO Julie J"
+    },
+    {
+      "email": "jkoo@hk.allianzgi.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "KOO Julie J"
+    },
+    {
+      "email": "info@hk.allianzgi.com",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    },
+    {
+      "email": "compliance@hk.allianzgi.com",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    },
+    {
+      "email": "contact@hk.allianzgi.com",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    },
+    {
+      "email": "enquiry@hk.allianzgi.com",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    }
+  ],
+  "asset_classes": "public_equity,public_credit,private_equity,private_credit,real_assets,multi",
+  "illiq_likelihood": "medium",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "Allianz SE",
+  "classification_source": "consensus_website_plus",
+  "website_accuracy": "verified"
+}

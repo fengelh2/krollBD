@@ -1,0 +1,76 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "Beevest Securities Limited",
+  "natural": "Beevest Securities",
+  "ceref": "ABM126",
+  "ros": [
+    {
+      "name": "CHUNG Kok Fook",
+      "ceref": "ASY849"
+    }
+  ],
+  "primary_ro": "CHUNG Kok Fook",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/ABM126/details?locale=en",
+  "email_subject": "Congratulations on your appointment at Beevest Securities",
+  "email_body": "Dear Kok Fook,\n\nThis is Felix from Kroll in Hong Kong. I noticed via the SFC public register that you were recently appointed as a Responsible Officer at Beevest Securities — congratulations.\n\nAs you settle into the role, valuation governance and the year-end audit cycle often feature high on the agenda. Kroll's Portfolio Valuation team supports SFC-licensed managers across Hong Kong with independent fair-value opinions under IFRS 13 / ASC 820 — particularly for harder-to-value private equity and private credit positions where audit pushback is most common.\n\nIf a brief introduction would be useful — whether on year-end planning, LP-driven mark requests, or simply how peers are approaching current market conditions — I would be happy to set up an informal call.\n\nKind regards,\nFelix Engelhardt\n",
+  "variant_id": "R1-v1",
+  "email_body_hash": "23be87439a",
+  "email_candidates": [
+    {
+      "email": "cs@beevestsec.com",
+      "kind": "observed_on_site",
+      "confidence": "verified",
+      "ro": null
+    },
+    {
+      "email": "kok.chung@beevestsec.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHUNG Kok Fook"
+    },
+    {
+      "email": "kokchung@beevestsec.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHUNG Kok Fook"
+    },
+    {
+      "email": "kchung@beevestsec.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHUNG Kok Fook"
+    },
+    {
+      "email": "info@beevestsec.com",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    },
+    {
+      "email": "compliance@beevestsec.com",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    },
+    {
+      "email": "contact@beevestsec.com",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    },
+    {
+      "email": "enquiry@beevestsec.com",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    }
+  ],
+  "asset_classes": "unknown",
+  "illiq_likelihood": "unknown",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "none",
+  "website_accuracy": "not_found"
+}

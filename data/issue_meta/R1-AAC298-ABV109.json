@@ -1,0 +1,70 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "BOCI Securities Limited",
+  "natural": "BOCI Securities",
+  "ceref": "AAC298",
+  "ros": [
+    {
+      "name": "YUEN Kwok Hung",
+      "ceref": "ABV109"
+    }
+  ],
+  "primary_ro": "YUEN Kwok Hung",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/AAC298/details?locale=en",
+  "email_subject": "Congratulations on your appointment at BOCI Securities",
+  "email_body": "Dear Kwok Hung,\n\nThis is Felix from Kroll in Hong Kong. I noticed via the SFC public register that you were recently appointed as a Responsible Officer at BOCI Securities — congratulations.\n\nAs you settle into the role, valuation governance and the year-end audit cycle often feature high on the agenda. Kroll's Portfolio Valuation team supports SFC-licensed managers across Hong Kong with independent fair-value opinions under IFRS 13 / ASC 820 — particularly for harder-to-value private equity and private credit positions where audit pushback is most common.\n\nIf a brief introduction would be useful — whether on year-end planning, LP-driven mark requests, or simply how peers are approaching current market conditions — I would be happy to set up an informal call.\n\nKind regards,\nFelix Engelhardt\n",
+  "variant_id": "R1-v1",
+  "email_body_hash": "58627cd62c",
+  "email_candidates": [
+    {
+      "email": "kwok.yuen@bocionline.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "YUEN Kwok Hung"
+    },
+    {
+      "email": "kwokyuen@bocionline.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "YUEN Kwok Hung"
+    },
+    {
+      "email": "kyuen@bocionline.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "YUEN Kwok Hung"
+    },
+    {
+      "email": "info@bocionline.com",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    },
+    {
+      "email": "compliance@bocionline.com",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    },
+    {
+      "email": "contact@bocionline.com",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    },
+    {
+      "email": "enquiry@bocionline.com",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    }
+  ],
+  "asset_classes": "public_equity,public_credit",
+  "illiq_likelihood": "low",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "BOC International Holdings",
+  "classification_source": "website",
+  "website_accuracy": "probable"
+}

@@ -1,0 +1,49 @@
+{
+  "type": "C1",
+  "type_label": "New Type 9 corp",
+  "firm": "Hua Xia Bank Co., Limited",
+  "natural": "Hua Xia Bank",
+  "ceref": "BDQ794",
+  "address": "Suites 1611-1615, 16/F & 18/F Two IFC, 8 Finance Street, Central, Hong Kong, Hong Kong",
+  "ros": [],
+  "primary_ro": null,
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BDQ794/details?locale=en",
+  "email_subject": "Congratulations on Hua Xia Bank's SFC Type 9 licence",
+  "email_body": "Dear Hua Xia Bank Management,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on Hua Xia Bank's recent Type 9 licensing with the SFC. As newly licensed asset managers establish and scale their operations, we often see a need for practical support around regulatory compliance, governance, and ongoing regulatory engagement.\n\nKroll's Financial Services, Compliance and Regulation (FSCR) team works closely with SFC regulated firms across Hong Kong, providing hands on support with licensing post approval matters, compliance framework implementation, regulatory filings, and day to day advisory support. Our objective is to help managers operate efficiently while maintaining a strong and constructive relationship with the regulator.\n\nIf helpful, I would be happy to introduce you to the relevant FSCR colleagues for an informal discussion. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "per_ro_drafts": [],
+  "variant_id": "C1-v2",
+  "email_body_hash": "6591c2a867",
+  "email_candidates": [
+    {
+      "email": "info@huaxia.com",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    },
+    {
+      "email": "compliance@huaxia.com",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    },
+    {
+      "email": "contact@huaxia.com",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    },
+    {
+      "email": "enquiry@huaxia.com",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    }
+  ],
+  "asset_classes": "unknown",
+  "illiq_likelihood": "unknown",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "none",
+  "website_accuracy": "not_found"
+}

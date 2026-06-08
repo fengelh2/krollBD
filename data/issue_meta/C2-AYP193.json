@@ -1,0 +1,71 @@
+{
+  "type": "C2",
+  "type_label": "Type 9 retired",
+  "firm": "Asia Research & Capital Management Limited",
+  "natural": "Asia Research & Capital",
+  "ceref": "AYP193",
+  "ros_current": [],
+  "ros_departed": [
+    {
+      "name": "SHIH Paul I-cheng",
+      "ceref": "ASE814"
+    }
+  ],
+  "primary_ro": "SHIH Paul I-cheng",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/AYP193/details?locale=en",
+  "email_subject": "Asia Research & Capital — Type 9 licence transition",
+  "email_body": "Dear Paul I-Cheng,\n\nThis is Felix from Kroll. I am reaching out in light of publicly disclosed changes to Asia Research & Capital's SFC Type 9 registration, as such transitions often prompt a review of fund-level operating and advisory arrangements.\n\nFor funds that have largely deployed capital and are managing minority positions requiring limited day-to-day GP involvement, Kroll's Fund Solutions practice supports GPs with a range of later-lifecycle options — particularly around replacement advisory, realization structuring, and cost-efficient ongoing management.\n\nShould this be relevant to you, I would be happy to introduce you to the appropriate colleagues for an informal discussion. If not, please feel free to disregard this note.\n\nKind regards,\nFelix Engelhardt\n",
+  "variant_id": "C2-v1",
+  "email_body_hash": "aacd540f46",
+  "email_candidates": [
+    {
+      "email": "paul.shih@arcmcap.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "SHIH Paul I-cheng"
+    },
+    {
+      "email": "paulshih@arcmcap.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "SHIH Paul I-cheng"
+    },
+    {
+      "email": "pshih@arcmcap.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "SHIH Paul I-cheng"
+    },
+    {
+      "email": "info@arcmcap.com",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    },
+    {
+      "email": "compliance@arcmcap.com",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    },
+    {
+      "email": "contact@arcmcap.com",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    },
+    {
+      "email": "enquiry@arcmcap.com",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    }
+  ],
+  "asset_classes": "public_equity,public_credit,multi",
+  "illiq_likelihood": "low",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "website",
+  "website_accuracy": "verified"
+}
