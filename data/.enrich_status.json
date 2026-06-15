@@ -2,8 +2,7 @@
   "started_at": "2026-06-15T14:43:18.901592+00:00",
   "current_idx": 94,
   "total": 94,
-  "phase": "running",
-  "current_firm": "[C1] New Type 9 corp — GUO YUAN XIN DA (HK) CAPITAL MANAGEME",
-  "current_trigger_id": "C1-BWK251",
-  "done": false
+  "phase": "done",
+  "done": true,
+  "finished_at": "2026-06-15T15:37:00.679686+00:00"
 }
