@@ -518,5 +518,35 @@
     "source": "hunter.io",
     "fetched_at_utc": "2026-06-15T15:03:04+00:00",
     "quota_remaining_when_fetched": 44
+  },
+  "chubbwealth.com|ka wai|leung": {
+    "status": "no_match",
+    "email": null,
+    "score": null,
+    "confidence": "none",
+    "verification_status": "no_match",
+    "source": "hunter.io",
+    "fetched_at_utc": "2026-06-15T15:03:58+00:00",
+    "quota_remaining_when_fetched": 43
+  },
+  "ebshk.com|hau ngai|hon": {
+    "status": "no_match",
+    "email": null,
+    "score": null,
+    "confidence": "none",
+    "verification_status": "no_match",
+    "source": "hunter.io",
+    "fetched_at_utc": "2026-06-15T15:04:31+00:00",
+    "quota_remaining_when_fetched": 43
+  },
+  "clsa.com|lingxin|chen": {
+    "status": "ok",
+    "email": "lingxin.chen@clsa.com",
+    "score": 84,
+    "confidence": "medium",
+    "verification_status": "accept_all",
+    "source": "hunter.io",
+    "fetched_at_utc": "2026-06-15T15:04:58+00:00",
+    "quota_remaining_when_fetched": 43
   }
 }
