@@ -18,6 +18,16 @@
   "email_body_hash": "52fba640f3",
   "email_candidates": [
     {
+      "email": "eric.wong@ffgwm.com",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "WONG Kun Ho, Eric",
+      "score": 98,
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email",
+      "evidence": "Hunter score 98 + AbstractAPI: deliverable"
+    },
+    {
       "email": "cs@ffgwm.com",
       "kind": "observed_on_site",
       "confidence": "verified",
@@ -72,5 +82,18 @@
   "aum_usd_m": "",
   "parent_org": "",
   "classification_source": "website",
-  "website_accuracy": "suspect"
+  "website_accuracy": "suspect",
+  "deep_scrape_attempted_utc": "2026-06-15T15:18:30.485939+00:00",
+  "deep_scrape_note": "site scraped — no new emails found",
+  "hunter_hits": [
+    {
+      "email": "eric.wong@ffgwm.com",
+      "score": 98,
+      "ro": "WONG Kun Ho, Eric",
+      "fetched_at_utc": "2026-06-15T15:18:40.205047+00:00",
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email"
+    }
+  ],
+  "hunter_attempted_utc": "2026-06-15T15:18:40.205068+00:00"
 }

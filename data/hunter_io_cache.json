@@ -678,5 +678,35 @@
     "source": "hunter.io",
     "fetched_at_utc": "2026-06-15T15:16:43+00:00",
     "quota_remaining_when_fetched": 39
+  },
+  "finloop.hk|tsz chun|lam": {
+    "status": "no_match",
+    "email": null,
+    "score": null,
+    "confidence": "none",
+    "verification_status": "no_match",
+    "source": "hunter.io",
+    "fetched_at_utc": "2026-06-15T15:17:54+00:00",
+    "quota_remaining_when_fetched": 39
+  },
+  "ffgwm.com|eric|wong": {
+    "status": "ok",
+    "email": "eric.wong@ffgwm.com",
+    "score": 98,
+    "confidence": "high",
+    "verification_status": "valid",
+    "source": "hunter.io",
+    "fetched_at_utc": "2026-06-15T15:18:37+00:00",
+    "quota_remaining_when_fetched": 39
+  },
+  "hubbis.com|hua|zhu": {
+    "status": "no_match",
+    "email": null,
+    "score": null,
+    "confidence": "none",
+    "verification_status": "no_match",
+    "source": "hunter.io",
+    "fetched_at_utc": "2026-06-15T15:19:09+00:00",
+    "quota_remaining_when_fetched": 38
   }
 }

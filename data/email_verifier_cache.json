@@ -1902,5 +1902,19 @@
     "quality_score": 0.99,
     "is_mx_valid": true,
     "status_detail": "valid_email"
+  },
+  "eric.wong@ffgwm.com": {
+    "email": "eric.wong@ffgwm.com",
+    "status": "deliverable",
+    "source": "abstractapi",
+    "fetched_at_utc": "2026-06-15T15:18:40+00:00",
+    "is_valid_format": true,
+    "is_smtp_valid": true,
+    "is_catch_all": false,
+    "is_role": false,
+    "is_disposable": false,
+    "quality_score": 0.99,
+    "is_mx_valid": true,
+    "status_detail": "valid_email"
   }
 }
