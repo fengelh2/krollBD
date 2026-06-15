@@ -18,6 +18,16 @@
   "email_body_hash": "d3ad128f8a",
   "email_candidates": [
     {
+      "email": "louis_boscia@ssga.com",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "BOSCIA Louis Anthony",
+      "score": 81,
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email",
+      "evidence": "Hunter score 81 + AbstractAPI: deliverable"
+    },
+    {
       "email": "louis.boscia@ssga.com",
       "kind": "ro_guess",
       "confidence": "medium",
@@ -66,5 +76,18 @@
   "aum_usd_m": "5620000",
   "parent_org": "State Street Corporation",
   "classification_source": "consensus_website_plus",
-  "website_accuracy": "verified"
+  "website_accuracy": "verified",
+  "deep_scrape_attempted_utc": "2026-06-15T14:52:09.173352+00:00",
+  "deep_scrape_note": "site scraped — no new emails found",
+  "hunter_hits": [
+    {
+      "email": "louis_boscia@ssga.com",
+      "score": 81,
+      "ro": "BOSCIA Louis Anthony",
+      "fetched_at_utc": "2026-06-15T14:52:09.209234+00:00",
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email"
+    }
+  ],
+  "hunter_attempted_utc": "2026-06-15T14:52:09.209261+00:00"
 }
