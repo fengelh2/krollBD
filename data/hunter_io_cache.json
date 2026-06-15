@@ -488,5 +488,35 @@
     "source": "hunter.io",
     "fetched_at_utc": "2026-06-15T14:58:23+00:00",
     "quota_remaining_when_fetched": 44
+  },
+  "higgs.com|liang|liang": {
+    "status": "no_match",
+    "email": null,
+    "score": null,
+    "confidence": "none",
+    "verification_status": "no_match",
+    "source": "hunter.io",
+    "fetched_at_utc": "2026-06-15T15:01:42+00:00",
+    "quota_remaining_when_fetched": 44
+  },
+  "eddid.com.hk|kwun|lee": {
+    "status": "no_match",
+    "email": null,
+    "score": null,
+    "confidence": "none",
+    "verification_status": "no_match",
+    "source": "hunter.io",
+    "fetched_at_utc": "2026-06-15T15:02:32+00:00",
+    "quota_remaining_when_fetched": 44
+  },
+  "deca-capital.com|min|wang": {
+    "status": "ok",
+    "email": "min@deca-capital.com",
+    "score": 70,
+    "confidence": "medium",
+    "verification_status": "accept_all",
+    "source": "hunter.io",
+    "fetched_at_utc": "2026-06-15T15:03:04+00:00",
+    "quota_remaining_when_fetched": 44
   }
 }

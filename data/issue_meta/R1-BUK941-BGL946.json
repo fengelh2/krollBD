@@ -18,6 +18,16 @@
   "email_body_hash": "de39cc0dcb",
   "email_candidates": [
     {
+      "email": "min@deca-capital.com",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "WANG Min",
+      "score": 70,
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email",
+      "evidence": "Hunter score 70 + AbstractAPI: deliverable"
+    },
+    {
       "email": "general@deca-capital.com",
       "kind": "generic_on_site",
       "confidence": "verified",
@@ -72,5 +82,18 @@
   "aum_usd_m": "",
   "parent_org": "",
   "classification_source": "website",
-  "website_accuracy": "verified"
+  "website_accuracy": "verified",
+  "deep_scrape_attempted_utc": "2026-06-15T15:03:02.010138+00:00",
+  "deep_scrape_note": "site scraped — no new emails found",
+  "hunter_hits": [
+    {
+      "email": "min@deca-capital.com",
+      "score": 70,
+      "ro": "WANG Min",
+      "fetched_at_utc": "2026-06-15T15:03:07.112576+00:00",
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email"
+    }
+  ],
+  "hunter_attempted_utc": "2026-06-15T15:03:07.112598+00:00"
 }
