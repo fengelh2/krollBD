@@ -18,6 +18,16 @@
   "email_body_hash": "b044ec247d",
   "email_candidates": [
     {
+      "email": "tinglau@cmbi.com.hk",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "LAU Yik Ting",
+      "score": 81,
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email",
+      "evidence": "Hunter score 81 + AbstractAPI: deliverable"
+    },
+    {
       "email": "yik.lau@cmbi.com.hk",
       "kind": "ro_guess",
       "confidence": "medium",
@@ -66,5 +76,18 @@
   "aum_usd_m": "",
   "parent_org": "China Merchants Bank",
   "classification_source": "website",
-  "website_accuracy": "probable"
+  "website_accuracy": "probable",
+  "deep_scrape_attempted_utc": "2026-06-15T15:24:27.500927+00:00",
+  "deep_scrape_note": "site scraped — no new emails found",
+  "hunter_hits": [
+    {
+      "email": "tinglau@cmbi.com.hk",
+      "score": 81,
+      "ro": "LAU Yik Ting",
+      "fetched_at_utc": "2026-06-15T15:24:33.570211+00:00",
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email"
+    }
+  ],
+  "hunter_attempted_utc": "2026-06-15T15:24:33.570229+00:00"
 }
