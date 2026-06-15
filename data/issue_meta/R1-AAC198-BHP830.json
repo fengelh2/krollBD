@@ -79,8 +79,8 @@
   "parent_org": "Bank of America",
   "classification_source": "consensus_website_plus",
   "website_accuracy": "verified",
-  "deep_scrape_attempted_utc": "2026-06-02T01:56:53.848072+00:00",
+  "deep_scrape_attempted_utc": "2026-06-15T15:36:53.860433+00:00",
   "deep_scrape_note": "site scraped — no new emails found",
   "hunter_hits": [],
-  "hunter_attempted_utc": "2026-06-02T01:56:53.875294+00:00"
+  "hunter_attempted_utc": "2026-06-15T15:36:53.891547+00:00"
 }
