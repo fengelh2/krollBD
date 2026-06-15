@@ -39,6 +39,16 @@
   "email_body_hash": "05295a12ec",
   "email_candidates": [
     {
+      "email": "peter@gatelanes.com",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "WOO Peter",
+      "score": 96,
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email",
+      "evidence": "Hunter score 96 + AbstractAPI: deliverable"
+    },
+    {
       "email": "jun.lim@gatelanes.com",
       "kind": "ro_guess",
       "confidence": "medium",
@@ -105,5 +115,18 @@
   "aum_usd_m": "",
   "parent_org": "",
   "classification_source": "none",
-  "website_accuracy": "unverified"
+  "website_accuracy": "unverified",
+  "deep_scrape_attempted_utc": "2026-06-15T15:36:38.533665+00:00",
+  "deep_scrape_note": "site scraped — no new emails found",
+  "hunter_hits": [
+    {
+      "email": "peter@gatelanes.com",
+      "score": 96,
+      "ro": "WOO Peter",
+      "fetched_at_utc": "2026-06-15T15:36:45.492307+00:00",
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email"
+    }
+  ],
+  "hunter_attempted_utc": "2026-06-15T15:36:45.492328+00:00"
 }
