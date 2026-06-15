@@ -618,5 +618,35 @@
     "source": "hunter.io",
     "fetched_at_utc": "2026-06-15T15:09:17+00:00",
     "quota_remaining_when_fetched": 41
+  },
+  "sparccapital.com|wan wai|lo": {
+    "status": "no_match",
+    "email": null,
+    "score": null,
+    "confidence": "none",
+    "verification_status": "no_match",
+    "source": "hunter.io",
+    "fetched_at_utc": "2026-06-15T15:10:16+00:00",
+    "quota_remaining_when_fetched": 41
+  },
+  "samsungetfhk.com|sang chul|park": {
+    "status": "no_match",
+    "email": null,
+    "score": null,
+    "confidence": "none",
+    "verification_status": "no_match",
+    "source": "hunter.io",
+    "fetched_at_utc": "2026-06-15T15:10:30+00:00",
+    "quota_remaining_when_fetched": 41
+  },
+  "ssga.com|ninghui|liu": {
+    "status": "ok",
+    "email": "ninghui_liu@ssga.com",
+    "score": 49,
+    "confidence": "low",
+    "verification_status": "accept_all",
+    "source": "hunter.io",
+    "fetched_at_utc": "2026-06-15T15:10:36+00:00",
+    "quota_remaining_when_fetched": 41
   }
 }
