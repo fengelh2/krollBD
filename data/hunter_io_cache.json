@@ -778,5 +778,15 @@
     "source": "hunter.io",
     "fetched_at_utc": "2026-06-15T15:24:28+00:00",
     "quota_remaining_when_fetched": 36
+  },
+  "cgsi.com|michael|chang": {
+    "status": "ok",
+    "email": "michael.chang@cgsi.com",
+    "score": 97,
+    "confidence": "high",
+    "verification_status": "valid",
+    "source": "hunter.io",
+    "fetched_at_utc": "2026-06-15T15:25:47+00:00",
+    "quota_remaining_when_fetched": 35
   }
 }

@@ -19,9 +19,13 @@
   "email_candidates": [
     {
       "email": "michael.chang@cgsi.com",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "CHANG Michael Poyung"
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "CHANG Michael Poyung",
+      "score": 97,
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email",
+      "evidence": "Hunter score 97 + AbstractAPI: deliverable"
     },
     {
       "email": "michaelchang@cgsi.com",
@@ -66,5 +70,18 @@
   "aum_usd_m": "",
   "parent_org": "CGS International",
   "classification_source": "website",
-  "website_accuracy": "suspect"
+  "website_accuracy": "suspect",
+  "deep_scrape_attempted_utc": "2026-06-15T15:25:44.559293+00:00",
+  "deep_scrape_note": "site scraped — no new emails found",
+  "hunter_hits": [
+    {
+      "email": "michael.chang@cgsi.com",
+      "score": 97,
+      "ro": "CHANG Michael Poyung",
+      "fetched_at_utc": "2026-06-15T15:25:49.823523+00:00",
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email"
+    }
+  ],
+  "hunter_attempted_utc": "2026-06-15T15:25:49.823543+00:00"
 }
