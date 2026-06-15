@@ -123,5 +123,9 @@
   "aum_usd_m": "2000",
   "parent_org": "",
   "classification_source": "consensus_website_plus",
-  "website_accuracy": "verified"
+  "website_accuracy": "verified",
+  "deep_scrape_attempted_utc": "2026-06-15T15:09:13.935614+00:00",
+  "deep_scrape_note": "site scraped — no new emails found",
+  "hunter_hits": [],
+  "hunter_attempted_utc": "2026-06-15T15:09:17.747433+00:00"
 }

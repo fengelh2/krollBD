@@ -608,5 +608,15 @@
     "source": "hunter.io",
     "fetched_at_utc": "2026-06-15T15:08:45+00:00",
     "quota_remaining_when_fetched": 41
+  },
+  "lyfecapital.com|yuan|li": {
+    "status": "no_match",
+    "email": null,
+    "score": null,
+    "confidence": "none",
+    "verification_status": "no_match",
+    "source": "hunter.io",
+    "fetched_at_utc": "2026-06-15T15:09:17+00:00",
+    "quota_remaining_when_fetched": 41
   }
 }
