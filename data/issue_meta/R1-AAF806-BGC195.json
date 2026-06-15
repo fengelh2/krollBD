@@ -66,5 +66,9 @@
   "aum_usd_m": "",
   "parent_org": "Haitong Securities Co., Ltd.",
   "classification_source": "llm_on_name",
-  "website_accuracy": "suspect"
+  "website_accuracy": "suspect",
+  "deep_scrape_attempted_utc": "2026-06-15T15:16:13.508263+00:00",
+  "deep_scrape_note": "site scraped — no new emails found",
+  "hunter_hits": [],
+  "hunter_attempted_utc": "2026-06-15T15:16:24.089388+00:00"
 }
