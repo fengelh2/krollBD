@@ -568,5 +568,45 @@
     "source": "hunter.io",
     "fetched_at_utc": "2026-06-15T15:07:41+00:00",
     "quota_remaining_when_fetched": 42
+  },
+  "garviscapital.com.hk|chi yuen|chiu": {
+    "status": "no_match",
+    "email": null,
+    "score": null,
+    "confidence": "none",
+    "verification_status": "no_match",
+    "source": "hunter.io",
+    "fetched_at_utc": "2026-06-15T15:08:15+00:00",
+    "quota_remaining_when_fetched": 42
+  },
+  "intechopen.com|chi wai|leong": {
+    "status": "no_match",
+    "email": null,
+    "score": null,
+    "confidence": "none",
+    "verification_status": "no_match",
+    "source": "hunter.io",
+    "fetched_at_utc": "2026-06-15T15:08:39+00:00",
+    "quota_remaining_when_fetched": 42
+  },
+  "intechopen.com|alex|leung": {
+    "status": "ok",
+    "email": "alex@intechopen.com",
+    "score": 95,
+    "confidence": "high",
+    "verification_status": "valid",
+    "source": "hunter.io",
+    "fetched_at_utc": "2026-06-15T15:08:40+00:00",
+    "quota_remaining_when_fetched": 42
+  },
+  "intechopen.com|ka cheung|yung": {
+    "status": "no_match",
+    "email": null,
+    "score": null,
+    "confidence": "none",
+    "verification_status": "no_match",
+    "source": "hunter.io",
+    "fetched_at_utc": "2026-06-15T15:08:45+00:00",
+    "quota_remaining_when_fetched": 41
   }
 }

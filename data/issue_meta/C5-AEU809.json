@@ -27,6 +27,16 @@
   "email_body_hash": "6571750734",
   "email_candidates": [
     {
+      "email": "alex@intechopen.com",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "LEUNG King Yue, Alex",
+      "score": 95,
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email",
+      "evidence": "Hunter score 95 + AbstractAPI: deliverable"
+    },
+    {
       "email": "chi.leong@intechopen.com",
       "kind": "ro_guess",
       "confidence": "medium",
@@ -111,5 +121,18 @@
   "aum_usd_m": "",
   "parent_org": "",
   "classification_source": "none",
-  "website_accuracy": "not_found"
+  "website_accuracy": "not_found",
+  "deep_scrape_attempted_utc": "2026-06-15T15:08:37.176924+00:00",
+  "deep_scrape_note": "site scraped — no new emails found",
+  "hunter_hits": [
+    {
+      "email": "alex@intechopen.com",
+      "score": 95,
+      "ro": "LEUNG King Yue, Alex",
+      "fetched_at_utc": "2026-06-15T15:08:43.456865+00:00",
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email"
+    }
+  ],
+  "hunter_attempted_utc": "2026-06-15T15:08:45.768858+00:00"
 }
