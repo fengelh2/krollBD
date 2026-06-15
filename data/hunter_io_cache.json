@@ -728,5 +728,25 @@
     "source": "hunter.io",
     "fetched_at_utc": "2026-06-15T15:20:24+00:00",
     "quota_remaining_when_fetched": 37
+  },
+  "cashalgo.com|chi ho|cheng": {
+    "status": "no_match",
+    "email": null,
+    "score": null,
+    "confidence": "none",
+    "verification_status": "no_match",
+    "source": "hunter.io",
+    "fetched_at_utc": "2026-06-15T15:21:16+00:00",
+    "quota_remaining_when_fetched": 37
+  },
+  "cpy.com.hk|brian|chang": {
+    "status": "ok",
+    "email": "brian.chang@cpy.com.hk",
+    "score": 82,
+    "confidence": "medium",
+    "verification_status": "valid",
+    "source": "hunter.io",
+    "fetched_at_utc": "2026-06-15T15:21:57+00:00",
+    "quota_remaining_when_fetched": 37
   }
 }

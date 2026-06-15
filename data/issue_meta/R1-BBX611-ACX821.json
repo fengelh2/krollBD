@@ -18,16 +18,20 @@
   "email_body_hash": "024b367cd8",
   "email_candidates": [
     {
+      "email": "brian.chang@cpy.com.hk",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "CHANG Brian Hongwei",
+      "score": 82,
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email",
+      "evidence": "Hunter score 82 + AbstractAPI: deliverable"
+    },
+    {
       "email": "info@cpy.com.hk",
       "kind": "generic_on_site",
       "confidence": "verified",
       "ro": null
-    },
-    {
-      "email": "brian.chang@cpy.com.hk",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "CHANG Brian Hongwei"
     },
     {
       "email": "brianchang@cpy.com.hk",
@@ -66,5 +70,18 @@
   "aum_usd_m": "",
   "parent_org": "",
   "classification_source": "website",
-  "website_accuracy": "probable"
+  "website_accuracy": "probable",
+  "deep_scrape_attempted_utc": "2026-06-15T15:21:49.970015+00:00",
+  "deep_scrape_note": "site scraped — no new emails found",
+  "hunter_hits": [
+    {
+      "email": "brian.chang@cpy.com.hk",
+      "score": 82,
+      "ro": "CHANG Brian Hongwei",
+      "fetched_at_utc": "2026-06-15T15:21:59.643648+00:00",
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email"
+    }
+  ],
+  "hunter_attempted_utc": "2026-06-15T15:21:59.643670+00:00"
 }
