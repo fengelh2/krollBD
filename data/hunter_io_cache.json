@@ -378,5 +378,35 @@
     "source": "hunter.io",
     "fetched_at_utc": "2026-06-15T14:48:32+00:00",
     "quota_remaining_when_fetched": 47
+  },
+  "btlfund.com.hk|meng lu|li": {
+    "status": "no_match",
+    "email": null,
+    "score": null,
+    "confidence": "none",
+    "verification_status": "no_match",
+    "source": "hunter.io",
+    "fetched_at_utc": "2026-06-15T14:50:47+00:00",
+    "quota_remaining_when_fetched": 47
+  },
+  "ssga.com|louis|boscia": {
+    "status": "ok",
+    "email": "louis_boscia@ssga.com",
+    "score": 81,
+    "confidence": "medium",
+    "verification_status": "accept_all",
+    "source": "hunter.io",
+    "fetched_at_utc": "2026-06-15T14:50:53+00:00",
+    "quota_remaining_when_fetched": 47
+  },
+  "silverstone.com.hk|yingjie|liu": {
+    "status": "ok",
+    "email": "yingjie@silverstone.com.hk",
+    "score": 78,
+    "confidence": "medium",
+    "verification_status": "accept_all",
+    "source": "hunter.io",
+    "fetched_at_utc": "2026-06-15T14:51:58+00:00",
+    "quota_remaining_when_fetched": 46
   }
 }

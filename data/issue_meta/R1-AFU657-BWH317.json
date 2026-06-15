@@ -18,6 +18,16 @@
   "email_body_hash": "9b6460d1b3",
   "email_candidates": [
     {
+      "email": "yingjie@silverstone.com.hk",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "LIU Yingjie",
+      "score": 78,
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email",
+      "evidence": "Hunter score 78 + AbstractAPI: deliverable"
+    },
+    {
       "email": "info@silverstone.com.hk",
       "kind": "generic_on_site",
       "confidence": "verified",
@@ -66,5 +76,18 @@
   "aum_usd_m": "",
   "parent_org": "",
   "classification_source": "website",
-  "website_accuracy": "verified"
+  "website_accuracy": "verified",
+  "deep_scrape_attempted_utc": "2026-06-15T14:51:57.020867+00:00",
+  "deep_scrape_note": "site scraped — no new emails found",
+  "hunter_hits": [
+    {
+      "email": "yingjie@silverstone.com.hk",
+      "score": 78,
+      "ro": "LIU Yingjie",
+      "fetched_at_utc": "2026-06-15T14:52:02.481396+00:00",
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email"
+    }
+  ],
+  "hunter_attempted_utc": "2026-06-15T14:52:02.481415+00:00"
 }
