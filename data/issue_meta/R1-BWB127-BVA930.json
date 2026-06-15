@@ -66,5 +66,9 @@
   "aum_usd_m": "",
   "parent_org": "Wolver Hill Group",
   "classification_source": "website",
-  "website_accuracy": "probable"
+  "website_accuracy": "probable",
+  "deep_scrape_attempted_utc": "2026-06-15T14:58:13.613035+00:00",
+  "deep_scrape_note": "site scraped — no new emails found",
+  "hunter_hits": [],
+  "hunter_attempted_utc": "2026-06-15T14:58:23.850038+00:00"
 }
