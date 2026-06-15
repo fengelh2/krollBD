@@ -358,5 +358,25 @@
     "source": "hunter.io",
     "fetched_at_utc": "2026-06-15T03:39:13+00:00",
     "quota_remaining_when_fetched": 48
+  },
+  "vision-gain.com|xuefeng|cong": {
+    "status": "ok",
+    "email": "xuefeng@vision-gain.com",
+    "score": 78,
+    "confidence": "medium",
+    "verification_status": "accept_all",
+    "source": "hunter.io",
+    "fetched_at_utc": "2026-06-15T14:47:47+00:00",
+    "quota_remaining_when_fetched": 48
+  },
+  "sirenia.com|chun hei|ng": {
+    "status": "no_match",
+    "email": null,
+    "score": null,
+    "confidence": "none",
+    "verification_status": "no_match",
+    "source": "hunter.io",
+    "fetched_at_utc": "2026-06-15T14:48:32+00:00",
+    "quota_remaining_when_fetched": 47
   }
 }
