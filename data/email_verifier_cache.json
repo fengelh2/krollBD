@@ -1916,5 +1916,19 @@
     "quality_score": 0.99,
     "is_mx_valid": true,
     "status_detail": "valid_email"
+  },
+  "takashi.teruya@hk.daiwacm.com": {
+    "email": "takashi.teruya@hk.daiwacm.com",
+    "status": "undeliverable",
+    "source": "abstractapi",
+    "fetched_at_utc": "2026-06-15T15:19:43+00:00",
+    "is_valid_format": true,
+    "is_smtp_valid": false,
+    "is_catch_all": false,
+    "is_role": false,
+    "is_disposable": false,
+    "quality_score": 0.0,
+    "is_mx_valid": true,
+    "status_detail": "invalid_mailbox"
   }
 }

@@ -19,9 +19,14 @@
   "email_candidates": [
     {
       "email": "takashi.teruya@hk.daiwacm.com",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "TERUYA Takashi"
+      "kind": "hunter_io",
+      "confidence": "low",
+      "ro": "TERUYA Takashi",
+      "score": 83,
+      "abstract_verdict": "undeliverable",
+      "abstract_detail": "invalid_mailbox",
+      "evidence": "Hunter score 83 + AbstractAPI: undeliverable",
+      "flag": "abstractapi_says_undeliverable"
     },
     {
       "email": "takashiteruya@hk.daiwacm.com",
@@ -66,5 +71,18 @@
   "aum_usd_m": "",
   "parent_org": "Daiwa Securities Group Inc.",
   "classification_source": "website",
-  "website_accuracy": "probable"
+  "website_accuracy": "probable",
+  "deep_scrape_attempted_utc": "2026-06-15T15:19:38.218433+00:00",
+  "deep_scrape_note": "site scraped — no new emails found",
+  "hunter_hits": [
+    {
+      "email": "takashi.teruya@hk.daiwacm.com",
+      "score": 83,
+      "ro": "TERUYA Takashi",
+      "fetched_at_utc": "2026-06-15T15:19:43.906449+00:00",
+      "abstract_verdict": "undeliverable",
+      "abstract_detail": "invalid_mailbox"
+    }
+  ],
+  "hunter_attempted_utc": "2026-06-15T15:19:43.906468+00:00"
 }
