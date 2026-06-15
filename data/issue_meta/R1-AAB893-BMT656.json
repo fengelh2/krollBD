@@ -18,6 +18,16 @@
   "email_body_hash": "6b6940696c",
   "email_candidates": [
     {
+      "email": "lingxin.chen@clsa.com",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "CHEN Lingxin",
+      "score": 84,
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email",
+      "evidence": "Hunter score 84 + AbstractAPI: deliverable"
+    },
+    {
       "email": "kai.kaufmann@clsa.com",
       "kind": "observed_on_site",
       "confidence": "verified",
@@ -28,12 +38,6 @@
       "kind": "observed_on_site",
       "confidence": "verified",
       "ro": null
-    },
-    {
-      "email": "lingxin.chen@clsa.com",
-      "kind": "ro_pattern_match",
-      "confidence": "high",
-      "ro": "CHEN Lingxin"
     },
     {
       "email": "lingxinchen@clsa.com",
@@ -78,5 +82,18 @@
   "aum_usd_m": "",
   "parent_org": "CITIC Securities",
   "classification_source": "website",
-  "website_accuracy": "probable"
+  "website_accuracy": "probable",
+  "deep_scrape_attempted_utc": "2026-06-15T15:05:27.695060+00:00",
+  "deep_scrape_note": "site scraped — no new emails found",
+  "hunter_hits": [
+    {
+      "email": "lingxin.chen@clsa.com",
+      "score": 84,
+      "ro": "CHEN Lingxin",
+      "fetched_at_utc": "2026-06-15T15:05:27.726715+00:00",
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email"
+    }
+  ],
+  "hunter_attempted_utc": "2026-06-15T15:05:27.726740+00:00"
 }
