@@ -18,6 +18,16 @@
   "email_body_hash": "1c127e2969",
   "email_candidates": [
     {
+      "email": "ninghui_liu@ssga.com",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "LIU Ninghui",
+      "score": 49,
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email",
+      "evidence": "Hunter score 49 + AbstractAPI: deliverable"
+    },
+    {
       "email": "ninghui.liu@ssga.com",
       "kind": "ro_guess",
       "confidence": "medium",
@@ -66,5 +76,18 @@
   "aum_usd_m": "5620000",
   "parent_org": "State Street Corporation",
   "classification_source": "consensus_website_plus",
-  "website_accuracy": "verified"
+  "website_accuracy": "verified",
+  "deep_scrape_attempted_utc": "2026-06-15T15:10:47.416108+00:00",
+  "deep_scrape_note": "site scraped — no new emails found",
+  "hunter_hits": [
+    {
+      "email": "ninghui_liu@ssga.com",
+      "score": 49,
+      "ro": "LIU Ninghui",
+      "fetched_at_utc": "2026-06-15T15:10:47.453835+00:00",
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email"
+    }
+  ],
+  "hunter_attempted_utc": "2026-06-15T15:10:47.453861+00:00"
 }

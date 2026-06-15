@@ -648,5 +648,15 @@
     "source": "hunter.io",
     "fetched_at_utc": "2026-06-15T15:10:36+00:00",
     "quota_remaining_when_fetched": 41
+  },
+  "jqinvestments.com|yi peng|wang": {
+    "status": "ok",
+    "email": "peng@jqinvestments.com",
+    "score": 83,
+    "confidence": "medium",
+    "verification_status": "accept_all",
+    "source": "hunter.io",
+    "fetched_at_utc": "2026-06-15T15:12:36+00:00",
+    "quota_remaining_when_fetched": 40
   }
 }

@@ -18,6 +18,16 @@
   "email_body_hash": "6a8d0ad50e",
   "email_candidates": [
     {
+      "email": "peng@jqinvestments.com",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "WANG Yi Peng",
+      "score": 83,
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email",
+      "evidence": "Hunter score 83 + AbstractAPI: deliverable"
+    },
+    {
       "email": "yi.wang@jqinvestments.com",
       "kind": "ro_guess",
       "confidence": "medium",
@@ -66,5 +76,18 @@
   "aum_usd_m": "",
   "parent_org": "",
   "classification_source": "website",
-  "website_accuracy": "probable"
+  "website_accuracy": "probable",
+  "deep_scrape_attempted_utc": "2026-06-15T15:12:35.851106+00:00",
+  "deep_scrape_note": "site scraped — no new emails found",
+  "hunter_hits": [
+    {
+      "email": "peng@jqinvestments.com",
+      "score": 83,
+      "ro": "WANG Yi Peng",
+      "fetched_at_utc": "2026-06-15T15:12:41.925145+00:00",
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email"
+    }
+  ],
+  "hunter_attempted_utc": "2026-06-15T15:12:41.925163+00:00"
 }
