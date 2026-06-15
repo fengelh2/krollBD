@@ -1,0 +1,70 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "Chubb Investment Management (HK) Limited (trading as Chubb Wealth) ",
+  "natural": "Chubb Investment Management Limited (trading as Chubb Wealth)",
+  "ceref": "AVR438",
+  "ros": [
+    {
+      "name": "LEUNG Ka Wai",
+      "ceref": "AOK606"
+    }
+  ],
+  "primary_ro": "LEUNG Ka Wai",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/AVR438/details?locale=en",
+  "email_subject": "Congratulations on your appointment at Chubb Investment Management Limited (trading as Chubb Wealth)",
+  "email_body": "Dear Ka Wai,\n\nThis is Felix from Kroll in Hong Kong. I noticed via the SFC public register that you were recently appointed as a Responsible Officer at Chubb Investment Management Limited (trading as Chubb Wealth) — congratulations.\n\nAs you settle into the role, valuation governance and the year-end audit cycle often feature high on the agenda. Kroll's Portfolio Valuation team supports SFC-licensed managers across Hong Kong with independent fair-value opinions under IFRS 13 / ASC 820 — particularly for harder-to-value private equity and private credit positions where audit pushback is most common.\n\nIf a brief introduction would be useful — whether on year-end planning, LP-driven mark requests, or simply how peers are approaching current market conditions — I would be happy to set up an informal call.\n\nKind regards,\nFelix Engelhardt\n",
+  "variant_id": "R1-v1",
+  "email_body_hash": "9674b69f12",
+  "email_candidates": [
+    {
+      "email": "ka.leung@chubbwealth.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LEUNG Ka Wai"
+    },
+    {
+      "email": "kaleung@chubbwealth.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LEUNG Ka Wai"
+    },
+    {
+      "email": "kleung@chubbwealth.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LEUNG Ka Wai"
+    },
+    {
+      "email": "info@chubbwealth.com",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    },
+    {
+      "email": "compliance@chubbwealth.com",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    },
+    {
+      "email": "contact@chubbwealth.com",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    },
+    {
+      "email": "enquiry@chubbwealth.com",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    }
+  ],
+  "asset_classes": "private_equity,private_credit,real_assets,public_equity,public_credit,multi",
+  "illiq_likelihood": "medium",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "Chubb Group",
+  "classification_source": "website",
+  "website_accuracy": "verified"
+}

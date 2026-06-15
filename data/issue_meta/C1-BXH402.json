@@ -1,0 +1,127 @@
+{
+  "type": "C1",
+  "type_label": "New Type 9 corp",
+  "firm": "LYFE Capital Investment Management (Hong Kong) Limited",
+  "natural": "LYFE Capital Investment",
+  "ceref": "BXH402",
+  "address": "Unit No.13, 16/F,, Wellborne Commercial Centre, No.8 Java Road,, Hong Kong, Hong Kong",
+  "ros": [
+    {
+      "name": "CHEN Long",
+      "ceref": "BXH407"
+    },
+    {
+      "name": "LI Yuan",
+      "ceref": "BXH408"
+    }
+  ],
+  "primary_ro": "CHEN Long",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BXH402/details?locale=en",
+  "email_subject": "Congratulations on LYFE Capital Investment's SFC Type 9 licence",
+  "email_body": "Dear Long,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on LYFE Capital Investment's recent Type 9 licensing with the SFC. As newly licensed asset managers establish and scale their operations, we often see a need for practical support around regulatory compliance, governance, and ongoing regulatory engagement.\n\nKroll's Financial Services, Compliance and Regulation (FSCR) team works closely with SFC regulated firms across Hong Kong, providing hands on support with licensing post approval matters, compliance framework implementation, regulatory filings, and day to day advisory support. Our objective is to help managers operate efficiently while maintaining a strong and constructive relationship with the regulator.\n\nIf helpful, I would be happy to introduce you to the relevant FSCR colleagues for an informal discussion. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "per_ro_drafts": [
+    {
+      "ro_name": "CHEN Long",
+      "ro_ceref": "BXH407",
+      "salutation": "Long",
+      "email_subject": "Congratulations on LYFE Capital Investment's SFC Type 9 licence",
+      "email_body": "Dear Long,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on LYFE Capital Investment's recent Type 9 licensing with the SFC. As newly licensed asset managers establish and scale their operations, we often see a need for practical support around regulatory compliance, governance, and ongoing regulatory engagement.\n\nKroll's Financial Services, Compliance and Regulation (FSCR) team works closely with SFC regulated firms across Hong Kong, providing hands on support with licensing post approval matters, compliance framework implementation, regulatory filings, and day to day advisory support. Our objective is to help managers operate efficiently while maintaining a strong and constructive relationship with the regulator.\n\nIf helpful, I would be happy to introduce you to the relevant FSCR colleagues for an informal discussion. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n"
+    },
+    {
+      "ro_name": "LI Yuan",
+      "ro_ceref": "BXH408",
+      "salutation": "Yuan",
+      "email_subject": "Congratulations on LYFE Capital Investment's SFC Type 9 licence",
+      "email_body": "Dear Yuan,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on LYFE Capital Investment's recent Type 9 licensing with the SFC. As newly licensed asset managers establish and scale their operations, we often see a need for practical support around regulatory compliance, governance, and ongoing regulatory engagement.\n\nKroll's Financial Services, Compliance and Regulation (FSCR) team works closely with SFC regulated firms across Hong Kong, providing hands on support with licensing post approval matters, compliance framework implementation, regulatory filings, and day to day advisory support. Our objective is to help managers operate efficiently while maintaining a strong and constructive relationship with the regulator.\n\nIf helpful, I would be happy to introduce you to the relevant FSCR colleagues for an informal discussion. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n"
+    }
+  ],
+  "variant_id": "C1-v2",
+  "email_body_hash": "f7d381cfdb",
+  "email_candidates": [
+    {
+      "email": "newlp@lyfecapital.com",
+      "kind": "observed_on_site",
+      "confidence": "verified",
+      "ro": null
+    },
+    {
+      "email": "hr@lyfecapital.com",
+      "kind": "generic_on_site",
+      "confidence": "verified",
+      "ro": null
+    },
+    {
+      "email": "information@lyfecapital.com",
+      "kind": "generic_on_site",
+      "confidence": "verified",
+      "ro": null
+    },
+    {
+      "email": "long.chen@lyfecapital.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHEN Long"
+    },
+    {
+      "email": "longchen@lyfecapital.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHEN Long"
+    },
+    {
+      "email": "lchen@lyfecapital.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHEN Long"
+    },
+    {
+      "email": "yuan.li@lyfecapital.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LI Yuan"
+    },
+    {
+      "email": "yuanli@lyfecapital.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LI Yuan"
+    },
+    {
+      "email": "yli@lyfecapital.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LI Yuan"
+    },
+    {
+      "email": "info@lyfecapital.com",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    },
+    {
+      "email": "compliance@lyfecapital.com",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    },
+    {
+      "email": "contact@lyfecapital.com",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    },
+    {
+      "email": "enquiry@lyfecapital.com",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    }
+  ],
+  "asset_classes": "private_equity,private_credit,real_assets",
+  "illiq_likelihood": "high",
+  "aum_raw_string": "2Bn USD AUM",
+  "aum_usd_m": "2000",
+  "parent_org": "",
+  "classification_source": "consensus_website_plus",
+  "website_accuracy": "verified"
+}

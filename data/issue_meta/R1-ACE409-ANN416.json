@@ -1,0 +1,70 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "China Everbright Capital Limited",
+  "natural": "China Everbright Capital",
+  "ceref": "ACE409",
+  "ros": [
+    {
+      "name": "HON Hau Ngai",
+      "ceref": "ANN416"
+    }
+  ],
+  "primary_ro": "HON Hau Ngai",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/ACE409/details?locale=en",
+  "email_subject": "Congratulations on your appointment at China Everbright Capital",
+  "email_body": "Dear Hau Ngai,\n\nThis is Felix from Kroll in Hong Kong. I noticed via the SFC public register that you were recently appointed as a Responsible Officer at China Everbright Capital — congratulations.\n\nAs you settle into the role, valuation governance and the year-end audit cycle often feature high on the agenda. Kroll's Portfolio Valuation team supports SFC-licensed managers across Hong Kong with independent fair-value opinions under IFRS 13 / ASC 820 — particularly for harder-to-value private equity and private credit positions where audit pushback is most common.\n\nIf a brief introduction would be useful — whether on year-end planning, LP-driven mark requests, or simply how peers are approaching current market conditions — I would be happy to set up an informal call.\n\nKind regards,\nFelix Engelhardt\n",
+  "variant_id": "R1-v1",
+  "email_body_hash": "fe687931ce",
+  "email_candidates": [
+    {
+      "email": "hau.hon@ebshk.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "HON Hau Ngai"
+    },
+    {
+      "email": "hauhon@ebshk.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "HON Hau Ngai"
+    },
+    {
+      "email": "hhon@ebshk.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "HON Hau Ngai"
+    },
+    {
+      "email": "info@ebshk.com",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    },
+    {
+      "email": "compliance@ebshk.com",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    },
+    {
+      "email": "contact@ebshk.com",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    },
+    {
+      "email": "enquiry@ebshk.com",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    }
+  ],
+  "asset_classes": "public_equity,public_credit,multi",
+  "illiq_likelihood": "medium",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "China Everbright Group",
+  "classification_source": "website",
+  "website_accuracy": "probable"
+}
