@@ -448,5 +448,35 @@
     "source": "hunter.io",
     "fetched_at_utc": "2026-06-15T14:55:45+00:00",
     "quota_remaining_when_fetched": 45
+  },
+  "megasuccess.com|tsun yu|ho": {
+    "status": "no_match",
+    "email": null,
+    "score": null,
+    "confidence": "none",
+    "verification_status": "no_match",
+    "source": "hunter.io",
+    "fetched_at_utc": "2026-06-15T14:56:10+00:00",
+    "quota_remaining_when_fetched": 45
+  },
+  "miraeasset.hk|xinyi|huang": {
+    "status": "ok",
+    "email": "xinyi.huang@miraeasset.hk",
+    "score": 80,
+    "confidence": "medium",
+    "verification_status": "accept_all",
+    "source": "hunter.io",
+    "fetched_at_utc": "2026-06-15T14:56:40+00:00",
+    "quota_remaining_when_fetched": 45
+  },
+  "mfghk.com|simon|liu": {
+    "status": "no_match",
+    "email": null,
+    "score": null,
+    "confidence": "none",
+    "verification_status": "no_match",
+    "source": "hunter.io",
+    "fetched_at_utc": "2026-06-15T14:57:48+00:00",
+    "quota_remaining_when_fetched": 44
   }
 }

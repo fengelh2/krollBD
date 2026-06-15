@@ -19,9 +19,13 @@
   "email_candidates": [
     {
       "email": "xinyi.huang@miraeasset.hk",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "HUANG Xinyi"
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "HUANG Xinyi",
+      "score": 80,
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email",
+      "evidence": "Hunter score 80 + AbstractAPI: deliverable"
     },
     {
       "email": "xinyihuang@miraeasset.hk",
@@ -66,5 +70,18 @@
   "aum_usd_m": "",
   "parent_org": "",
   "classification_source": "none",
-  "website_accuracy": "not_found"
+  "website_accuracy": "not_found",
+  "deep_scrape_attempted_utc": "2026-06-15T14:56:38.897176+00:00",
+  "deep_scrape_note": "site scraped — no new emails found",
+  "hunter_hits": [
+    {
+      "email": "xinyi.huang@miraeasset.hk",
+      "score": 80,
+      "ro": "HUANG Xinyi",
+      "fetched_at_utc": "2026-06-15T14:56:41.422494+00:00",
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email"
+    }
+  ],
+  "hunter_attempted_utc": "2026-06-15T14:56:41.422516+00:00"
 }
