@@ -18,6 +18,16 @@
   "email_body_hash": "072fe404f2",
   "email_candidates": [
     {
+      "email": "julie.koo@allianzgi.com",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "KOO Julie J",
+      "score": 82,
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email",
+      "evidence": "Hunter score 82 + AbstractAPI: deliverable"
+    },
+    {
       "email": "hkenquiry@allianzgi.com",
       "kind": "observed_on_site",
       "confidence": "verified",
@@ -72,5 +82,18 @@
   "aum_usd_m": "",
   "parent_org": "Allianz SE",
   "classification_source": "consensus_website_plus",
-  "website_accuracy": "verified"
+  "website_accuracy": "verified",
+  "deep_scrape_attempted_utc": "2026-06-15T15:29:46.767987+00:00",
+  "deep_scrape_note": "site scraped — no new emails found",
+  "hunter_hits": [
+    {
+      "email": "julie.koo@allianzgi.com",
+      "score": 82,
+      "ro": "KOO Julie J",
+      "fetched_at_utc": "2026-06-15T15:29:49.673924+00:00",
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email"
+    }
+  ],
+  "hunter_attempted_utc": "2026-06-15T15:29:49.673949+00:00"
 }
