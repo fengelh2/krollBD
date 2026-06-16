@@ -9,10 +9,10 @@
   "primary_ro": null,
   "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BDQ794/details?locale=en",
   "email_subject": "Congratulations on Hua Xia Bank's SFC Type 9 licence",
-  "email_body": "Dear Hua Xia Bank Management,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on Hua Xia Bank's recent Type 9 licensing with the SFC. As newly licensed asset managers establish and scale their operations, we often see a need for practical support around regulatory compliance, governance, and ongoing regulatory engagement.\n\nKroll's Financial Services, Compliance and Regulation (FSCR) team works closely with SFC regulated firms across Hong Kong, providing hands on support with licensing post approval matters, compliance framework implementation, regulatory filings, and day to day advisory support. Our objective is to help managers operate efficiently while maintaining a strong and constructive relationship with the regulator.\n\nIf helpful, I would be happy to introduce you to the relevant FSCR colleagues for an informal discussion. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "email_body": "Dear Hua Xia Bank Management,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on Hua Xia Bank's recent Type 9 licensing with the SFC.\n\nAs newly licensed managers like yourself establish and scale operations, we often see a need for practical support around compliance, governance, and regulatory engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps with exactly that, scaled to your firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
   "per_ro_drafts": [],
-  "variant_id": "C1-v2",
-  "email_body_hash": "6591c2a867",
+  "variant_id": "C1-v3-FSCR",
+  "email_body_hash": "bee88aca79",
   "email_candidates": [
     {
       "email": "info@huaxia.com",
@@ -47,5 +47,6 @@
   "classification_source": "none",
   "website_accuracy": "not_found",
   "deep_scrape_attempted_utc": "2026-06-16T01:35:48.665988+00:00",
-  "deep_scrape_note": "site scraped — no new emails found"
+  "deep_scrape_note": "site scraped — no new emails found",
+  "bd_lane": "FSCR"
 }

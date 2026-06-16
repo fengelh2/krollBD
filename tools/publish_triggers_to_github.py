@@ -229,20 +229,45 @@ def natural_company(name: str, ceref: str | None = None) -> str:
     return s.strip()
 
 
-C1_TEMPLATE = """To: [find via LinkedIn / Lusha / Apollo]
+# ============================================================================
+# Lane-specific templates: PV (Portfolio Valuation) for firms with illiquid /
+# mixed books, FSCR (Financial Services, Compliance & Regulation) for the
+# rest. _pick_template() routes based on illiq_likelihood from
+# strategy_classification.csv (high|medium -> PV; else -> FSCR).
+# ============================================================================
+
+C1_TEMPLATE_PV = """To: [find via LinkedIn / Lusha / Apollo]
 Subject: Congratulations on {natural}'s SFC Type 9 licence
 
 Dear {salutation},
 
-This is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on {natural}'s recent Type 9 licensing with the SFC. As newly licensed asset managers establish and scale their operations, we often see a need for practical support around regulatory compliance, governance, and ongoing regulatory engagement.
+This is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on {natural}'s recent Type 9 licensing with the SFC.
 
-Kroll's Financial Services, Compliance and Regulation (FSCR) team works closely with SFC regulated firms across Hong Kong, providing hands on support with licensing post approval matters, compliance framework implementation, regulatory filings, and day to day advisory support. Our objective is to help managers operate efficiently while maintaining a strong and constructive relationship with the regulator.
+For illiquid managers like yourself, as you get ready to start deploying capital, the recurring question is how to mark private positions in a way that holds up with LPs and auditors. Kroll's Portfolio Valuation team here in Hong Kong helps with exactly that — across private equity, private credit, and other illiquid strategies.
 
-If helpful, I would be happy to introduce you to the relevant FSCR colleagues for an informal discussion. If not, please feel free to disregard this note.
+If a quick chat would be useful — now, or down the line — happy to set one up. If not, please feel free to disregard this note.
 
 Kind Regards,
 Felix
 """
+
+C1_TEMPLATE_FSCR = """To: [find via LinkedIn / Lusha / Apollo]
+Subject: Congratulations on {natural}'s SFC Type 9 licence
+
+Dear {salutation},
+
+This is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on {natural}'s recent Type 9 licensing with the SFC.
+
+As newly licensed managers like yourself establish and scale operations, we often see a need for practical support around compliance, governance, and regulatory engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps with exactly that, scaled to your firm's size and stage.
+
+If it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.
+
+Kind Regards,
+Felix
+"""
+
+# Back-compat alias for any code that still references C1_TEMPLATE
+C1_TEMPLATE = C1_TEMPLATE_FSCR
 
 C2_TEMPLATE = """To: [find via LinkedIn / Lusha / Apollo]
 Subject: {natural} — Type 9 licence transition
@@ -259,20 +284,50 @@ Kind regards,
 Felix Engelhardt
 """
 
-R1_TEMPLATE = """To: [find via LinkedIn / candidates below]
-Subject: Congratulations on your appointment at {natural}
+R1_TEMPLATE_PV = """To: [find via LinkedIn / candidates below]
+Subject: Congratulations on your RO appointment at {natural}
 
 Dear {salutation},
 
-This is Felix from Kroll in Hong Kong. I noticed via the SFC public register that you were recently appointed as a Responsible Officer at {natural} — congratulations.
+This is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at {natural}.
 
-As you settle into the role, valuation governance and the year-end audit cycle often feature high on the agenda. Kroll's Portfolio Valuation team supports SFC-licensed managers across Hong Kong with independent fair-value opinions under IFRS 13 / ASC 820 — particularly for harder-to-value private equity and private credit positions where audit pushback is most common.
+For illiquid managers like yourself, the marks the RO signs off on tend to be the most scrutinised line items on the books — LPs want comfort, auditors want defensibility, and internal-only marks usually invite more questions than they close. Kroll's Portfolio Valuation team here in Hong Kong helps with exactly that — robust independent valuations across private equity, private credit, and other illiquid strategies.
 
-If a brief introduction would be useful — whether on year-end planning, LP-driven mark requests, or simply how peers are approaching current market conditions — I would be happy to set up an informal call.
+If a quick chat would be useful — now, or down the line — happy to set one up. If not, please feel free to disregard this note.
 
-Kind regards,
-Felix Engelhardt
+Kind Regards,
+Felix
 """
+
+R1_TEMPLATE_FSCR = """To: [find via LinkedIn / candidates below]
+Subject: Congratulations on your RO appointment at {natural}
+
+Dear {salutation},
+
+This is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at {natural}.
+
+For newly appointed ROs like yourself, settling into the role often means getting a clear view of where the firm's compliance posture sits — internal policies, current filings, ongoing SFC engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps SFC-licensed firms with exactly that, scaled to the firm's size and stage.
+
+If it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.
+
+Kind Regards,
+Felix
+"""
+
+# Back-compat alias for any code that still references R1_TEMPLATE
+R1_TEMPLATE = R1_TEMPLATE_PV
+
+
+def _pick_template(trigger_type: str, illiq_likelihood: str | None) -> tuple[str, str]:
+    """Returns (template_string, lane) where lane is 'PV' or 'FSCR'.
+    PV: illiq_likelihood in {high, medium}. FSCR: everything else."""
+    ill = (illiq_likelihood or "").lower().strip()
+    is_pv = ill in ("high", "medium")
+    if trigger_type == "C1":
+        return (C1_TEMPLATE_PV, "PV") if is_pv else (C1_TEMPLATE_FSCR, "FSCR")
+    if trigger_type == "R1":
+        return (R1_TEMPLATE_PV, "PV") if is_pv else (R1_TEMPLATE_FSCR, "FSCR")
+    raise ValueError(f"_pick_template not applicable to type {trigger_type!r}")
 
 C5_TEMPLATE = """To: [find via LinkedIn / candidates below]
 Subject: {natural} — note on the recent rebrand
@@ -717,7 +772,8 @@ def build_c1_triggers(new_corps: list[dict], ro_rows: list[dict],
         natural = natural_company(c["name_en"], c["ceref"])
         ctx = firm_ctx.get(c["ceref"], {})
         salutation = _ro_salutation(primary, natural)
-        body = C1_TEMPLATE.format(natural=natural, salutation=salutation)
+        template, lane = _pick_template("C1", ctx.get("illiq_likelihood"))
+        body = template.format(natural=natural, salutation=salutation)
         subj, body_only = split_email(body)
 
         # Per-RO drafts: each founding RO gets a personalized salutation +
@@ -726,7 +782,7 @@ def build_c1_triggers(new_corps: list[dict], ro_rows: list[dict],
         per_ro_drafts = []
         for r in ros:
             ro_sal = _ro_salutation(r, natural)
-            ro_body = C1_TEMPLATE.format(natural=natural, salutation=ro_sal)
+            ro_body = template.format(natural=natural, salutation=ro_sal)
             ro_subj, ro_body_only = split_email(ro_body)
             per_ro_drafts.append({
                 "ro_name": r["ro_full_name"],
@@ -774,7 +830,8 @@ def build_c1_triggers(new_corps: list[dict], ro_rows: list[dict],
                 "email_subject": subj,
                 "email_body": body_only,
                 "per_ro_drafts": per_ro_drafts,
-                "variant_id": "C1-v2",
+                "bd_lane": lane,
+                "variant_id": f"C1-v3-{lane}",
                 "email_body_hash": short_hash(subj + "\n" + body_only),
                 "email_candidates": email_candidates(
                     [{"ro_full_name": r["ro_full_name"]} for r in ros], c["name_en"],
@@ -886,7 +943,9 @@ def build_r1_triggers(corps_new: list[dict], ros_new: list[dict], ros_old: list[
         firm = corp_name_by_ceref.get(r["corp_ceref"], r["corp_name"])
         natural = natural_company(firm, r["corp_ceref"])
         salutation = _ro_salutation(r, natural)
-        body = R1_TEMPLATE.format(natural=natural, salutation=salutation)
+        ctx = firm_ctx.get(r["corp_ceref"], {})
+        template, lane = _pick_template("R1", ctx.get("illiq_likelihood"))
+        body = template.format(natural=natural, salutation=salutation)
         subj, body_only = split_email(body)
         meta = (
             f"**SFC CE reference (firm):** `{r['corp_ceref']}` · **RO CE ref:** `{r['ro_ceref']}`\n"
@@ -911,7 +970,8 @@ def build_r1_triggers(corps_new: list[dict], ros_new: list[dict], ros_old: list[
                 "sfc_url": f"https://apps.sfc.hk/publicregWeb/corp/{r['corp_ceref']}/details?locale=en",
                 "email_subject": subj,
                 "email_body": body_only,
-                "variant_id": "R1-v1",
+                "bd_lane": lane,
+                "variant_id": f"R1-v2-{lane}",
                 "email_body_hash": short_hash(subj + "\n" + body_only),
                 "email_candidates": email_candidates(
                     [{"ro_full_name": r["ro_full_name"]}], firm,

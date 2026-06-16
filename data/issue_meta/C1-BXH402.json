@@ -18,25 +18,25 @@
   "primary_ro": "CHEN Long",
   "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BXH402/details?locale=en",
   "email_subject": "Congratulations on LYFE Capital Investment's SFC Type 9 licence",
-  "email_body": "Dear Long,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on LYFE Capital Investment's recent Type 9 licensing with the SFC. As newly licensed asset managers establish and scale their operations, we often see a need for practical support around regulatory compliance, governance, and ongoing regulatory engagement.\n\nKroll's Financial Services, Compliance and Regulation (FSCR) team works closely with SFC regulated firms across Hong Kong, providing hands on support with licensing post approval matters, compliance framework implementation, regulatory filings, and day to day advisory support. Our objective is to help managers operate efficiently while maintaining a strong and constructive relationship with the regulator.\n\nIf helpful, I would be happy to introduce you to the relevant FSCR colleagues for an informal discussion. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "email_body": "Dear Long,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on LYFE Capital Investment's recent Type 9 licensing with the SFC.\n\nFor illiquid managers like yourself, as you get ready to start deploying capital, the recurring question is how to mark private positions in a way that holds up with LPs and auditors. Kroll's Portfolio Valuation team here in Hong Kong helps with exactly that — across private equity, private credit, and other illiquid strategies.\n\nIf a quick chat would be useful — now, or down the line — happy to set one up. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
   "per_ro_drafts": [
     {
       "ro_name": "CHEN Long",
       "ro_ceref": "BXH407",
       "salutation": "Long",
       "email_subject": "Congratulations on LYFE Capital Investment's SFC Type 9 licence",
-      "email_body": "Dear Long,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on LYFE Capital Investment's recent Type 9 licensing with the SFC. As newly licensed asset managers establish and scale their operations, we often see a need for practical support around regulatory compliance, governance, and ongoing regulatory engagement.\n\nKroll's Financial Services, Compliance and Regulation (FSCR) team works closely with SFC regulated firms across Hong Kong, providing hands on support with licensing post approval matters, compliance framework implementation, regulatory filings, and day to day advisory support. Our objective is to help managers operate efficiently while maintaining a strong and constructive relationship with the regulator.\n\nIf helpful, I would be happy to introduce you to the relevant FSCR colleagues for an informal discussion. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n"
+      "email_body": "Dear Long,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on LYFE Capital Investment's recent Type 9 licensing with the SFC.\n\nFor illiquid managers like yourself, as you get ready to start deploying capital, the recurring question is how to mark private positions in a way that holds up with LPs and auditors. Kroll's Portfolio Valuation team here in Hong Kong helps with exactly that — across private equity, private credit, and other illiquid strategies.\n\nIf a quick chat would be useful — now, or down the line — happy to set one up. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n"
     },
     {
       "ro_name": "LI Yuan",
       "ro_ceref": "BXH408",
       "salutation": "Yuan",
       "email_subject": "Congratulations on LYFE Capital Investment's SFC Type 9 licence",
-      "email_body": "Dear Yuan,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on LYFE Capital Investment's recent Type 9 licensing with the SFC. As newly licensed asset managers establish and scale their operations, we often see a need for practical support around regulatory compliance, governance, and ongoing regulatory engagement.\n\nKroll's Financial Services, Compliance and Regulation (FSCR) team works closely with SFC regulated firms across Hong Kong, providing hands on support with licensing post approval matters, compliance framework implementation, regulatory filings, and day to day advisory support. Our objective is to help managers operate efficiently while maintaining a strong and constructive relationship with the regulator.\n\nIf helpful, I would be happy to introduce you to the relevant FSCR colleagues for an informal discussion. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n"
+      "email_body": "Dear Yuan,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on LYFE Capital Investment's recent Type 9 licensing with the SFC.\n\nFor illiquid managers like yourself, as you get ready to start deploying capital, the recurring question is how to mark private positions in a way that holds up with LPs and auditors. Kroll's Portfolio Valuation team here in Hong Kong helps with exactly that — across private equity, private credit, and other illiquid strategies.\n\nIf a quick chat would be useful — now, or down the line — happy to set one up. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n"
     }
   ],
-  "variant_id": "C1-v2",
-  "email_body_hash": "f7d381cfdb",
+  "variant_id": "C1-v3-PV",
+  "email_body_hash": "1cb98d6210",
   "email_candidates": [
     {
       "email": "wchen@lyfecapital.com",
@@ -135,5 +135,6 @@
   "deep_scrape_note": "site scraped — no new emails found",
   "hunter_hits": [],
   "hunter_attempted_utc": "2026-06-16T01:35:37.111348+00:00",
-  "sfc_filed_website": "https://www.lyfecapital.com"
+  "sfc_filed_website": "https://www.lyfecapital.com",
+  "bd_lane": "PV"
 }

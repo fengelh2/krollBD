@@ -18,25 +18,25 @@
   "primary_ro": "LIM Jun Hong",
   "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BXB852/details?locale=en",
   "email_subject": "Congratulations on Gatelanes's SFC Type 9 licence",
-  "email_body": "Dear Jun Hong,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on Gatelanes's recent Type 9 licensing with the SFC. As newly licensed asset managers establish and scale their operations, we often see a need for practical support around regulatory compliance, governance, and ongoing regulatory engagement.\n\nKroll's Financial Services, Compliance and Regulation (FSCR) team works closely with SFC regulated firms across Hong Kong, providing hands on support with licensing post approval matters, compliance framework implementation, regulatory filings, and day to day advisory support. Our objective is to help managers operate efficiently while maintaining a strong and constructive relationship with the regulator.\n\nIf helpful, I would be happy to introduce you to the relevant FSCR colleagues for an informal discussion. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "email_body": "Dear Jun Hong,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on Gatelanes's recent Type 9 licensing with the SFC.\n\nAs newly licensed managers like yourself establish and scale operations, we often see a need for practical support around compliance, governance, and regulatory engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps with exactly that, scaled to your firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
   "per_ro_drafts": [
     {
       "ro_name": "LIM Jun Hong",
       "ro_ceref": "BSV106",
       "salutation": "Jun Hong",
       "email_subject": "Congratulations on Gatelanes's SFC Type 9 licence",
-      "email_body": "Dear Jun Hong,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on Gatelanes's recent Type 9 licensing with the SFC. As newly licensed asset managers establish and scale their operations, we often see a need for practical support around regulatory compliance, governance, and ongoing regulatory engagement.\n\nKroll's Financial Services, Compliance and Regulation (FSCR) team works closely with SFC regulated firms across Hong Kong, providing hands on support with licensing post approval matters, compliance framework implementation, regulatory filings, and day to day advisory support. Our objective is to help managers operate efficiently while maintaining a strong and constructive relationship with the regulator.\n\nIf helpful, I would be happy to introduce you to the relevant FSCR colleagues for an informal discussion. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n"
+      "email_body": "Dear Jun Hong,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on Gatelanes's recent Type 9 licensing with the SFC.\n\nAs newly licensed managers like yourself establish and scale operations, we often see a need for practical support around compliance, governance, and regulatory engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps with exactly that, scaled to your firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n"
     },
     {
       "ro_name": "WOO Peter",
       "ro_ceref": "ACY383",
       "salutation": "Peter",
       "email_subject": "Congratulations on Gatelanes's SFC Type 9 licence",
-      "email_body": "Dear Peter,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on Gatelanes's recent Type 9 licensing with the SFC. As newly licensed asset managers establish and scale their operations, we often see a need for practical support around regulatory compliance, governance, and ongoing regulatory engagement.\n\nKroll's Financial Services, Compliance and Regulation (FSCR) team works closely with SFC regulated firms across Hong Kong, providing hands on support with licensing post approval matters, compliance framework implementation, regulatory filings, and day to day advisory support. Our objective is to help managers operate efficiently while maintaining a strong and constructive relationship with the regulator.\n\nIf helpful, I would be happy to introduce you to the relevant FSCR colleagues for an informal discussion. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n"
+      "email_body": "Dear Peter,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on Gatelanes's recent Type 9 licensing with the SFC.\n\nAs newly licensed managers like yourself establish and scale operations, we often see a need for practical support around compliance, governance, and regulatory engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps with exactly that, scaled to your firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n"
     }
   ],
-  "variant_id": "C1-v2",
-  "email_body_hash": "05295a12ec",
+  "variant_id": "C1-v3-FSCR",
+  "email_body_hash": "c8bd7183a1",
   "email_candidates": [
     {
       "email": "general@gatelanes.com",
@@ -136,5 +136,6 @@
     }
   ],
   "hunter_attempted_utc": "2026-06-16T01:35:49.894578+00:00",
-  "sfc_filed_website": "www.gatelanes.com"
+  "sfc_filed_website": "www.gatelanes.com",
+  "bd_lane": "FSCR"
 }

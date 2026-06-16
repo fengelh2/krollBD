@@ -12,10 +12,10 @@
   ],
   "primary_ro": "CHEN Lingxin",
   "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/AAB893/details?locale=en",
-  "email_subject": "Congratulations on your appointment at CLSA",
-  "email_body": "Dear Lingxin,\n\nThis is Felix from Kroll in Hong Kong. I noticed via the SFC public register that you were recently appointed as a Responsible Officer at CLSA — congratulations.\n\nAs you settle into the role, valuation governance and the year-end audit cycle often feature high on the agenda. Kroll's Portfolio Valuation team supports SFC-licensed managers across Hong Kong with independent fair-value opinions under IFRS 13 / ASC 820 — particularly for harder-to-value private equity and private credit positions where audit pushback is most common.\n\nIf a brief introduction would be useful — whether on year-end planning, LP-driven mark requests, or simply how peers are approaching current market conditions — I would be happy to set up an informal call.\n\nKind regards,\nFelix Engelhardt\n",
-  "variant_id": "R1-v1",
-  "email_body_hash": "6b6940696c",
+  "email_subject": "Congratulations on your RO appointment at CLSA",
+  "email_body": "Dear Lingxin,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at CLSA.\n\nFor illiquid managers like yourself, the marks the RO signs off on tend to be the most scrutinised line items on the books — LPs want comfort, auditors want defensibility, and internal-only marks usually invite more questions than they close. Kroll's Portfolio Valuation team here in Hong Kong helps with exactly that — robust independent valuations across private equity, private credit, and other illiquid strategies.\n\nIf a quick chat would be useful — now, or down the line — happy to set one up. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "variant_id": "R1-v2-PV",
+  "email_body_hash": "8d6a7f7ef0",
   "email_candidates": [
     {
       "email": "hklicense@clsa.com",
@@ -103,5 +103,6 @@
     }
   ],
   "hunter_attempted_utc": "2026-06-15T15:05:27.726740+00:00",
-  "sfc_filed_website": "www.clsa.com"
+  "sfc_filed_website": "www.clsa.com",
+  "bd_lane": "PV"
 }

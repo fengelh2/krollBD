@@ -12,10 +12,10 @@
   ],
   "primary_ro": "LIANG Liang",
   "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BTE674/details?locale=en",
-  "email_subject": "Congratulations on your appointment at Higgs Fintech",
-  "email_body": "Dear Liang,\n\nThis is Felix from Kroll in Hong Kong. I noticed via the SFC public register that you were recently appointed as a Responsible Officer at Higgs Fintech — congratulations.\n\nAs you settle into the role, valuation governance and the year-end audit cycle often feature high on the agenda. Kroll's Portfolio Valuation team supports SFC-licensed managers across Hong Kong with independent fair-value opinions under IFRS 13 / ASC 820 — particularly for harder-to-value private equity and private credit positions where audit pushback is most common.\n\nIf a brief introduction would be useful — whether on year-end planning, LP-driven mark requests, or simply how peers are approaching current market conditions — I would be happy to set up an informal call.\n\nKind regards,\nFelix Engelhardt\n",
-  "variant_id": "R1-v1",
-  "email_body_hash": "ff54c45306",
+  "email_subject": "Congratulations on your RO appointment at Higgs Fintech",
+  "email_body": "Dear Liang,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at Higgs Fintech.\n\nFor newly appointed ROs like yourself, settling into the role often means getting a clear view of where the firm's compliance posture sits — internal policies, current filings, ongoing SFC engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps SFC-licensed firms with exactly that, scaled to the firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "variant_id": "R1-v2-FSCR",
+  "email_body_hash": "1f5cd1fcad",
   "email_candidates": [
     {
       "email": "higgs-001@higgsfintech.com",
@@ -78,5 +78,6 @@
   "deep_scrape_note": "site scraped — no new emails found",
   "hunter_hits": [],
   "hunter_attempted_utc": "2026-06-16T01:35:34.424005+00:00",
-  "verified_domain": "https://www.higgs.com/"
+  "verified_domain": "https://www.higgs.com/",
+  "bd_lane": "FSCR"
 }
