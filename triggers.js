@@ -743,7 +743,19 @@
     } else {
       visible = ALL_OPEN.slice();
       if (CURRENT_FILTER !== "all") {
-        visible = visible.filter(i => { const m = parseMeta(i); return m && m.type === CURRENT_FILTER; });
+        const splitFilter = CURRENT_FILTER.match(/^(C1|R1)-(PV|FSCR)$/);
+        if (splitFilter) {
+          const [_, t, lane] = splitFilter;
+          visible = visible.filter(i => {
+            const m = parseMeta(i);
+            if (!m || m.type !== t) return false;
+            const illiq = (m.illiq_likelihood || "").toLowerCase();
+            const isPV = illiq === "high" || illiq === "medium";
+            return lane === "PV" ? isPV : !isPV;
+          });
+        } else {
+          visible = visible.filter(i => { const m = parseMeta(i); return m && m.type === CURRENT_FILTER; });
+        }
       }
       if (visible.length === 0) {
         cards.innerHTML = `<p class="loading">Nothing in this view.</p>`;

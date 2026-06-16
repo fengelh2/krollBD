@@ -258,6 +258,12 @@ svg.chart.big{height:auto;max-width:680px;aspect-ratio:600/220;margin:0 auto}
 }
 .filters button:hover{background:var(--hover)}
 .filters button.active{background:var(--fg);color:#fff;border-color:var(--fg)}
+/* BD lane hints — subtle left-border tint so PortVal vs FSCR reads at a glance.
+   PortVal = green (Kroll's illiquids/PE practice, where we sell). FSCR = blue. */
+.filters button.lane-pv{border-left:3px solid #10b981}
+.filters button.lane-fscr{border-left:3px solid #3b82f6}
+.filters button.lane-pv.active{background:#10b981;border-color:#10b981}
+.filters button.lane-fscr.active{background:#3b82f6;border-color:#3b82f6}
 
 .cards{margin:0;padding:0}
 .loading{color:var(--muted);text-align:center;padding:40px 0;font-size:13px}
