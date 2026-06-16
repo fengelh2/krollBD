@@ -141,10 +141,11 @@
   "aum_usd_m": "",
   "parent_org": "",
   "classification_source": "none",
-  "website_accuracy": "not_found",
+  "website_accuracy": "sfc_filed",
   "deep_scrape_attempted_utc": "2026-06-16T01:35:48.733152+00:00",
   "deep_scrape_note": "site scraped — no new emails found",
   "hunter_hits": [],
   "hunter_attempted_utc": "2026-06-15T15:35:11.039766+00:00",
-  "sfc_filed_website": "hazelsec.com"
+  "sfc_filed_website": "hazelsec.com",
+  "verified_domain": "https://hazelsec.com"
 }

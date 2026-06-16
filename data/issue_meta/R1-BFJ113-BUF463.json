@@ -73,10 +73,11 @@
   "aum_usd_m": "",
   "parent_org": "",
   "classification_source": "none",
-  "website_accuracy": "not_found",
+  "website_accuracy": "sfc_filed",
   "deep_scrape_attempted_utc": "2026-06-16T01:35:29.538793+00:00",
   "deep_scrape_note": "site scraped — no new emails found",
   "hunter_hits": [],
   "hunter_attempted_utc": "2026-06-16T01:35:29.585746+00:00",
-  "sfc_filed_website": "www.btlfund.com.hk"
+  "sfc_filed_website": "www.btlfund.com.hk",
+  "verified_domain": "https://www.btlfund.com.hk"
 }

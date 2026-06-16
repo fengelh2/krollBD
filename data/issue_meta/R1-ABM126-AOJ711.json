@@ -79,10 +79,11 @@
   "aum_usd_m": "",
   "parent_org": "",
   "classification_source": "none",
-  "website_accuracy": "not_found",
+  "website_accuracy": "probable",
   "deep_scrape_attempted_utc": "2026-06-16T01:35:44.144599+00:00",
   "deep_scrape_note": "site scraped — no new emails found",
   "hunter_hits": [],
   "hunter_attempted_utc": "2026-06-16T01:35:44.177987+00:00",
-  "sfc_filed_website": "www.beevestsec.com"
+  "sfc_filed_website": "www.beevestsec.com",
+  "verified_domain": "https://www.beevestsec.com"
 }

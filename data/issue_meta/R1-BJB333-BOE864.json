@@ -77,7 +77,7 @@
   "aum_usd_m": "",
   "parent_org": "",
   "classification_source": "none",
-  "website_accuracy": "not_found",
+  "website_accuracy": "probable",
   "deep_scrape_attempted_utc": "2026-06-15T14:56:38.897176+00:00",
   "deep_scrape_note": "site scraped — no new emails found",
   "hunter_hits": [
@@ -91,5 +91,6 @@
     }
   ],
   "hunter_attempted_utc": "2026-06-15T14:56:41.422516+00:00",
-  "sfc_filed_website": "miraeasset.hk"
+  "sfc_filed_website": "miraeasset.hk",
+  "verified_domain": "https://miraeasset.hk"
 }

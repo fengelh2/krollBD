@@ -145,15 +145,28 @@ def _probe_url(url: str, firm_name: str) -> tuple[str, str]:
     host_name_match = any(t in host_stem or host_stem in t for t in tokens) if host_stem else False
 
     hits = [t for t in tokens if t in body_text]
-    if host_name_match and len(hits) >= 1:
-        return ("verified", f"host '{host_stem}' matches name + page mentions {hits[:3]}")
-    if host_name_match:
-        return ("probable", f"host '{host_stem}' matches name (body match weak)")
-    if len(hits) >= 2:
-        # Body mentions multiple tokens but host doesn't match — could still be
-        # a directory page about the firm. Probable not verified.
-        return ("probable", f"body mentions {hits[:3]} but host '{host_stem}' is unrelated")
-    return ("wrong_match", f"host '{host_stem}' unrelated to firm; body tokens hit {hits!r}")
+    # Industry signal: the page must look like an asset-management / finance
+    # site, not e.g. a personal dev blog at sirenia.com matching 'sirenia'.
+    finance_signals = [
+        "asset management", "asset mgmt", "capital management",
+        "investment management", "fund management", "private equity",
+        "private credit", "hedge fund", "wealth management",
+        "responsible officer", "sfc", "type 9", "discretionary",
+        "portfolio", "limited partnership", "general partner",
+        "regulated", "licensed", "financial services",
+    ]
+    industry_match = any(sig in body_text for sig in finance_signals)
+
+    if host_name_match and len(hits) >= 1 and industry_match:
+        return ("verified", f"host + name + finance signals all match (hits={hits[:3]})")
+    if host_name_match and industry_match:
+        return ("probable", f"host '{host_stem}' matches name; finance signals present")
+    if host_name_match and not industry_match:
+        # Sirenia Software case: host stem matches but it's a different company
+        return ("wrong_match", f"host '{host_stem}' matches but page has no finance/asset-mgmt signals — likely different company")
+    if len(hits) >= 2 and industry_match:
+        return ("probable", f"body mentions {hits[:3]} + finance signals (host '{host_stem}' unrelated)")
+    return ("wrong_match", f"host '{host_stem}' unrelated to firm; body tokens hit {hits!r}; industry_match={industry_match}")
 
 
 def _ddg_search(firm_name: str) -> str | None:
