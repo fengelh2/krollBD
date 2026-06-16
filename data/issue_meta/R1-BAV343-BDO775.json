@@ -18,6 +18,13 @@
   "email_body_hash": "9e76ea082f",
   "email_candidates": [
     {
+      "email": "ronald.yeung@meridianam.com.hk",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-06-16T02:10:52.125671+00:00"
+    },
+    {
       "email": "cheuk.yeung@meridiancapitalasia.com",
       "kind": "ro_guess",
       "confidence": "low",

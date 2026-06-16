@@ -18,6 +18,13 @@
   "email_body_hash": "9eeeb36fbb",
   "email_candidates": [
     {
+      "email": "rpaml2017@gmail.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-06-16T02:10:52.146234+00:00"
+    },
+    {
       "email": "contact@rp-assetmanagement.com",
       "kind": "generic_on_site",
       "confidence": "verified",

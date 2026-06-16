@@ -619,6 +619,7 @@
             const mailto = `mailto:${c.email}?subject=${subj}&body=${body}`;
             const conf = (c.confidence || "low").toLowerCase();
             const kindLabel = ({
+              "sfc_filed": "filed with SFC by the firm",
               "hunter_io": "hunter.io verified",
               "inferred_pattern": "inferred from firm pattern",
               "observed_on_site": "verified · on firm site",
@@ -637,7 +638,9 @@
             // so the user doesn't have to hover for the reason a candidate
             // is low/medium/high.
             let verdictTag = "";
-            if (c.kind === "hunter_io" && (conf === "hunter_verified" || conf === "high")) {
+            if (c.kind === "sfc_filed") {
+              verdictTag = `<span class="verdict-tag verdict-good">SFC filed-of-record ✓</span>`;
+            } else if (c.kind === "hunter_io" && (conf === "hunter_verified" || conf === "high")) {
               verdictTag = `<span class="verdict-tag verdict-good">Hunter+SMTP verified ✓</span>`;
             } else if (c.flag === "abstractapi_says_undeliverable" || c.abstract_verdict === "undeliverable") {
               const det = c.abstract_detail ? ` (${esc(c.abstract_detail)})` : "";

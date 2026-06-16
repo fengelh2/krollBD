@@ -39,6 +39,13 @@
   "email_body_hash": "05295a12ec",
   "email_candidates": [
     {
+      "email": "general@gatelanes.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-06-16T02:10:52.090860+00:00"
+    },
+    {
       "email": "peter@gatelanes.com",
       "kind": "hunter_io",
       "confidence": "hunter_verified",
@@ -128,5 +135,6 @@
       "abstract_detail": "valid_email"
     }
   ],
-  "hunter_attempted_utc": "2026-06-16T01:35:49.894578+00:00"
+  "hunter_attempted_utc": "2026-06-16T01:35:49.894578+00:00",
+  "sfc_filed_website": "www.gatelanes.com"
 }

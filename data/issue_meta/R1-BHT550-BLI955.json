@@ -18,6 +18,13 @@
   "email_body_hash": "fb42373830",
   "email_candidates": [
     {
+      "email": "compliance@eddid.com.hk",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-06-16T02:10:52.143683+00:00"
+    },
+    {
       "email": "kwun.lee@eddid.com.hk",
       "kind": "ro_guess",
       "confidence": "medium",
@@ -70,5 +77,6 @@
   "deep_scrape_attempted_utc": "2026-06-16T01:35:34.443212+00:00",
   "deep_scrape_note": "site scraped — no new emails found",
   "hunter_hits": [],
-  "hunter_attempted_utc": "2026-06-16T01:35:34.499674+00:00"
+  "hunter_attempted_utc": "2026-06-16T01:35:34.499674+00:00",
+  "sfc_filed_website": "www.eddid.com.hk/sf/www.eddidsfl.com"
 }

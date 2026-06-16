@@ -18,6 +18,13 @@
   "email_body_hash": "e44de9bbaf",
   "email_candidates": [
     {
+      "email": "complianceasia@dkpartners.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-06-16T02:10:52.114581+00:00"
+    },
+    {
       "email": "wtsang@dkpartners.com",
       "kind": "hunter_io",
       "confidence": "hunter_verified",
@@ -84,5 +91,6 @@
   ],
   "deep_scrape_note": "site scraped — no new emails found",
   "deep_scrape_attempted_utc": "2026-06-02T01:57:57.610853+00:00",
-  "hunter_attempted_utc": "2026-06-02T01:57:57.646015+00:00"
+  "hunter_attempted_utc": "2026-06-02T01:57:57.646015+00:00",
+  "sfc_filed_website": "http://www.dkpartners.com"
 }

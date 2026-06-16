@@ -18,6 +18,13 @@
   "email_body_hash": "aa4df63593",
   "email_candidates": [
     {
+      "email": "husonchan@gmail.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-06-16T02:10:52.154740+00:00"
+    },
+    {
       "email": "chun.ng@sirenia.com",
       "kind": "ro_guess",
       "confidence": "medium",

@@ -27,6 +27,13 @@
   "email_body_hash": "0f6d8ff499",
   "email_candidates": [
     {
+      "email": "info-hk@pancapmgmt.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-06-16T02:10:52.089421+00:00"
+    },
+    {
       "email": "jixin.dai@paninvestment.com",
       "kind": "ro_guess",
       "confidence": "medium",

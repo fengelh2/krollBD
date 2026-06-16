@@ -18,6 +18,13 @@
   "email_body_hash": "18f9d13301",
   "email_candidates": [
     {
+      "email": "investorservices@jasperhk.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-06-16T02:10:52.148428+00:00"
+    },
+    {
       "email": "dan.wang@jasperhk.com",
       "kind": "hunter_io",
       "confidence": "hunter_verified",
@@ -90,5 +97,6 @@
   ],
   "deep_scrape_attempted_utc": "2026-06-02T01:57:50.879818+00:00",
   "deep_scrape_note": "site scraped — no new emails found",
-  "hunter_attempted_utc": "2026-06-02T01:57:50.922478+00:00"
+  "hunter_attempted_utc": "2026-06-02T01:57:50.922478+00:00",
+  "sfc_filed_website": "jasperhk.com"
 }

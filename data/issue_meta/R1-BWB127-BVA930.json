@@ -18,6 +18,13 @@
   "email_body_hash": "a93405219e",
   "email_candidates": [
     {
+      "email": "info@hillgroup-hk.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-06-16T02:10:52.156948+00:00"
+    },
+    {
       "email": "liebin.zou@wolverhill.com",
       "kind": "ro_guess",
       "confidence": "medium",

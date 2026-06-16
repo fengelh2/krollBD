@@ -18,6 +18,13 @@
   "email_body_hash": "ad8e2c9771",
   "email_candidates": [
     {
+      "email": "compliance@bsgroup.com.hk",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-06-16T02:10:52.109132+00:00"
+    },
+    {
       "email": "online@bsgroup.com.hk",
       "kind": "observed_on_site",
       "confidence": "verified",
@@ -76,5 +83,6 @@
   "deep_scrape_attempted_utc": "2026-06-16T01:35:44.102517+00:00",
   "deep_scrape_note": "site scraped — no new emails found",
   "hunter_hits": [],
-  "hunter_attempted_utc": "2026-06-16T01:35:44.138508+00:00"
+  "hunter_attempted_utc": "2026-06-16T01:35:44.138508+00:00",
+  "sfc_filed_website": "www.bsgroup.com.hk"
 }

@@ -18,6 +18,13 @@
   "email_body_hash": "9b6460d1b3",
   "email_candidates": [
     {
+      "email": "info@silverstone.com.hk",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-06-16T02:10:52.109622+00:00"
+    },
+    {
       "email": "yingjie@silverstone.com.hk",
       "kind": "hunter_io",
       "confidence": "hunter_verified",
@@ -89,5 +96,6 @@
       "abstract_detail": "valid_email"
     }
   ],
-  "hunter_attempted_utc": "2026-06-15T14:52:02.481415+00:00"
+  "hunter_attempted_utc": "2026-06-15T14:52:02.481415+00:00",
+  "sfc_filed_website": "www.silverstone.com.hk"
 }

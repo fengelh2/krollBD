@@ -18,6 +18,13 @@
   "email_body_hash": "d76f4ae230",
   "email_candidates": [
     {
+      "email": "complaintofficer@hk.daiwacm.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-06-16T02:10:52.101576+00:00"
+    },
+    {
       "email": "takashi.teruya@hk.daiwacm.com",
       "kind": "hunter_io",
       "confidence": "low",
@@ -84,5 +91,6 @@
       "abstract_detail": "invalid_mailbox"
     }
   ],
-  "hunter_attempted_utc": "2026-06-15T15:19:43.906468+00:00"
+  "hunter_attempted_utc": "2026-06-15T15:19:43.906468+00:00",
+  "sfc_filed_website": "www.hk.daiwacm.com"
 }

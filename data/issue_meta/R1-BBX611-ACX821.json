@@ -18,6 +18,13 @@
   "email_body_hash": "024b367cd8",
   "email_candidates": [
     {
+      "email": "compliance@cpy.com.hk",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-06-16T02:10:52.126123+00:00"
+    },
+    {
       "email": "brian.chang@cpy.com.hk",
       "kind": "hunter_io",
       "confidence": "hunter_verified",
@@ -83,5 +90,6 @@
       "abstract_detail": "valid_email"
     }
   ],
-  "hunter_attempted_utc": "2026-06-15T15:21:59.643670+00:00"
+  "hunter_attempted_utc": "2026-06-15T15:21:59.643670+00:00",
+  "sfc_filed_website": "www.cpy.com.hk"
 }

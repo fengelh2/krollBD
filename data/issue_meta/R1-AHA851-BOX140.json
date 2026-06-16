@@ -18,6 +18,13 @@
   "email_body_hash": "189d5af9f3",
   "email_candidates": [
     {
+      "email": "compliance@chinaalphafund.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-06-16T02:10:52.110117+00:00"
+    },
+    {
       "email": "ir@chinaalphafund.com",
       "kind": "generic_on_site",
       "confidence": "verified",
@@ -76,5 +83,6 @@
   "deep_scrape_attempted_utc": "2026-06-16T01:35:43.019225+00:00",
   "deep_scrape_note": "site scraped — no new emails found",
   "hunter_hits": [],
-  "hunter_attempted_utc": "2026-06-16T01:35:43.056300+00:00"
+  "hunter_attempted_utc": "2026-06-16T01:35:43.056300+00:00",
+  "sfc_filed_website": "http://www.chinaalphafund.com/"
 }

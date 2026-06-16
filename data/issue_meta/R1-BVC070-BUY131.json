@@ -18,6 +18,13 @@
   "email_body_hash": "c0fa59dce1",
   "email_candidates": [
     {
+      "email": "bilininvestment@hotmail.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-06-16T02:10:52.155180+00:00"
+    },
+    {
       "email": "wenjie@bilincapital.com",
       "kind": "hunter_io",
       "confidence": "hunter_verified",
@@ -90,5 +97,6 @@
   ],
   "deep_scrape_note": "site scraped — no new emails found",
   "deep_scrape_attempted_utc": "2026-06-02T01:59:58.980002+00:00",
-  "hunter_attempted_utc": "2026-06-02T01:59:59.029515+00:00"
+  "hunter_attempted_utc": "2026-06-02T01:59:59.029515+00:00",
+  "sfc_filed_website": "www.bilincapital.com"
 }

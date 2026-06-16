@@ -50,6 +50,13 @@
   "email_body_hash": "c6498c268a",
   "email_candidates": [
     {
+      "email": "cs@hazelsec.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-06-16T02:10:52.087364+00:00"
+    },
+    {
       "email": "i.chung@hazelsec.com",
       "kind": "ro_guess",
       "confidence": "medium",
@@ -138,5 +145,6 @@
   "deep_scrape_attempted_utc": "2026-06-16T01:35:48.733152+00:00",
   "deep_scrape_note": "site scraped — no new emails found",
   "hunter_hits": [],
-  "hunter_attempted_utc": "2026-06-15T15:35:11.039766+00:00"
+  "hunter_attempted_utc": "2026-06-15T15:35:11.039766+00:00",
+  "sfc_filed_website": "hazelsec.com"
 }

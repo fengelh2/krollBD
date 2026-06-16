@@ -23,6 +23,13 @@
   "email_body_hash": "c5ff76eacc",
   "email_candidates": [
     {
+      "email": "everon@everonfund.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-06-16T02:10:52.101109+00:00"
+    },
+    {
       "email": "yi.ren@megafaithassociates.com.hk",
       "kind": "ro_guess",
       "confidence": "medium",

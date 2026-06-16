@@ -18,6 +18,13 @@
   "email_body_hash": "6b6940696c",
   "email_candidates": [
     {
+      "email": "hklicense@clsa.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-06-16T02:10:52.102038+00:00"
+    },
+    {
       "email": "lingxin.chen@clsa.com",
       "kind": "hunter_io",
       "confidence": "hunter_verified",
@@ -95,5 +102,6 @@
       "abstract_detail": "valid_email"
     }
   ],
-  "hunter_attempted_utc": "2026-06-15T15:05:27.726740+00:00"
+  "hunter_attempted_utc": "2026-06-15T15:05:27.726740+00:00",
+  "sfc_filed_website": "www.clsa.com"
 }

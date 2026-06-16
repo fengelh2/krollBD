@@ -27,6 +27,13 @@
   "email_body_hash": "af5e9b9a2c",
   "email_candidates": [
     {
+      "email": "op@sinofor.com.hk",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-06-16T02:10:52.100626+00:00"
+    },
+    {
       "email": "zhifang.huang@sinofortune.com.hk",
       "kind": "ro_guess",
       "confidence": "medium",

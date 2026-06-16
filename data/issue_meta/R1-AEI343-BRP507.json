@@ -18,6 +18,13 @@
   "email_body_hash": "1c127e2969",
   "email_candidates": [
     {
+      "email": "ssgaasia@ssga.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-06-16T02:10:52.108606+00:00"
+    },
+    {
       "email": "ninghui_liu@ssga.com",
       "kind": "hunter_io",
       "confidence": "hunter_verified",
@@ -89,5 +96,6 @@
       "abstract_detail": "valid_email"
     }
   ],
-  "hunter_attempted_utc": "2026-06-15T15:10:47.453861+00:00"
+  "hunter_attempted_utc": "2026-06-15T15:10:47.453861+00:00",
+  "sfc_filed_website": "www.ssga.com"
 }

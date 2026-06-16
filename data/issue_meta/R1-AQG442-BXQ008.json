@@ -18,6 +18,13 @@
   "email_body_hash": "6aafb4bb03",
   "email_candidates": [
     {
+      "email": "compliance.hk@samsung.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-06-16T02:10:52.113570+00:00"
+    },
+    {
       "email": "sang.park@samsungetfhk.com",
       "kind": "ro_guess",
       "confidence": "medium",
@@ -70,5 +77,6 @@
   "deep_scrape_attempted_utc": "2026-06-16T01:35:38.277468+00:00",
   "deep_scrape_note": "site scraped — no new emails found",
   "hunter_hits": [],
-  "hunter_attempted_utc": "2026-06-16T01:35:38.316503+00:00"
+  "hunter_attempted_utc": "2026-06-16T01:35:38.316503+00:00",
+  "sfc_filed_website": "www.samsungetfhk.com"
 }

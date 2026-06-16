@@ -18,6 +18,13 @@
   "email_body_hash": "2957eb9b05",
   "email_candidates": [
     {
+      "email": "compliance.hk@syfe.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-06-16T02:10:52.151116+00:00"
+    },
+    {
       "email": "sik.chan@syfe.com",
       "kind": "ro_guess",
       "confidence": "low",
@@ -82,5 +89,6 @@
   "deep_scrape_attempted_utc": "2026-06-16T01:35:51.266810+00:00",
   "deep_scrape_note": "site scraped — no new emails found",
   "hunter_hits": [],
-  "hunter_attempted_utc": "2026-06-16T01:35:51.322755+00:00"
+  "hunter_attempted_utc": "2026-06-16T01:35:51.322755+00:00",
+  "sfc_filed_website": "www.syfe.com"
 }

@@ -24,6 +24,13 @@
   "email_candidates": [
     {
       "email": "cs@garviscapital.com.hk",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-06-16T02:10:52.100110+00:00"
+    },
+    {
+      "email": "cs@garviscapital.com.hk",
       "kind": "observed_on_site",
       "confidence": "verified",
       "ro": null

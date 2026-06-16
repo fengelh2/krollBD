@@ -18,6 +18,13 @@
   "email_body_hash": "d3ad128f8a",
   "email_candidates": [
     {
+      "email": "ssgaasia@ssga.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-06-16T02:10:52.108075+00:00"
+    },
+    {
       "email": "louis_boscia@ssga.com",
       "kind": "hunter_io",
       "confidence": "hunter_verified",
@@ -89,5 +96,6 @@
       "abstract_detail": "valid_email"
     }
   ],
-  "hunter_attempted_utc": "2026-06-15T14:52:09.209261+00:00"
+  "hunter_attempted_utc": "2026-06-15T14:52:09.209261+00:00",
+  "sfc_filed_website": "www.ssga.com"
 }

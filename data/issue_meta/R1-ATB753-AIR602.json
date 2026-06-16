@@ -18,6 +18,13 @@
   "email_body_hash": "6798a63804",
   "email_candidates": [
     {
+      "email": "cs@qmis.com.hk",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-06-16T02:10:52.115062+00:00"
+    },
+    {
       "email": "on.mow@qmisgroup.com",
       "kind": "ro_guess",
       "confidence": "low",
@@ -82,5 +89,6 @@
   "deep_scrape_attempted_utc": "2026-06-16T01:35:52.357324+00:00",
   "deep_scrape_note": "site scraped — no new emails found",
   "hunter_hits": [],
-  "hunter_attempted_utc": "2026-06-16T01:35:52.397962+00:00"
+  "hunter_attempted_utc": "2026-06-16T01:35:52.397962+00:00",
+  "sfc_filed_website": "www.qmisgroup.com"
 }

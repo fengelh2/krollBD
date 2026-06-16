@@ -18,6 +18,13 @@
   "email_body_hash": "de39cc0dcb",
   "email_candidates": [
     {
+      "email": "general@deca-capital.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-06-16T02:10:52.154297+00:00"
+    },
+    {
       "email": "min@deca-capital.com",
       "kind": "hunter_io",
       "confidence": "hunter_verified",

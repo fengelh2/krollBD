@@ -18,6 +18,13 @@
   "email_body_hash": "072fe404f2",
   "email_candidates": [
     {
+      "email": "hk.compliance@allianzgi.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-06-16T02:10:52.127032+00:00"
+    },
+    {
       "email": "julie.koo@allianzgi.com",
       "kind": "hunter_io",
       "confidence": "hunter_verified",
@@ -31,7 +38,8 @@
       "email": "hkenquiry@allianzgi.com",
       "kind": "observed_on_site",
       "confidence": "verified",
-      "ro": null
+      "ro": null,
+      "evidence": "· WARN: SFC has https://hk.allianzgi.com, this was scraped from allianzgi.com"
     },
     {
       "email": "julie.koo@hk.allianzgi.com",
@@ -95,5 +103,6 @@
       "abstract_detail": "valid_email"
     }
   ],
-  "hunter_attempted_utc": "2026-06-15T15:29:49.673949+00:00"
+  "hunter_attempted_utc": "2026-06-15T15:29:49.673949+00:00",
+  "sfc_filed_website": "https://hk.allianzgi.com"
 }

@@ -23,6 +23,13 @@
   "email_body_hash": "f3d452717f",
   "email_candidates": [
     {
+      "email": "lixiao@gyxdhk.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-06-16T02:10:52.085774+00:00"
+    },
+    {
       "email": "hui.li@guoyuanxindahk.com.hk",
       "kind": "ro_guess",
       "confidence": "medium",

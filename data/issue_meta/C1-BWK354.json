@@ -23,6 +23,13 @@
   "email_body_hash": "2aa0f470ec",
   "email_candidates": [
     {
+      "email": "nc.hk@eveonecapital.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-06-16T02:10:52.086286+00:00"
+    },
+    {
       "email": "nga.hui@nc.com",
       "kind": "ro_guess",
       "confidence": "medium",
