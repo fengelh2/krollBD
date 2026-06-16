@@ -16,56 +16,7 @@
   "email_body": "Dear Sing Kuen,\n\nThis is Felix from Kroll in Hong Kong. I noticed via the SFC public register that you were recently appointed as a Responsible Officer at Asia Pacific Asset — congratulations.\n\nAs you settle into the role, valuation governance and the year-end audit cycle often feature high on the agenda. Kroll's Portfolio Valuation team supports SFC-licensed managers across Hong Kong with independent fair-value opinions under IFRS 13 / ASC 820 — particularly for harder-to-value private equity and private credit positions where audit pushback is most common.\n\nIf a brief introduction would be useful — whether on year-end planning, LP-driven mark requests, or simply how peers are approaching current market conditions — I would be happy to set up an informal call.\n\nKind regards,\nFelix Engelhardt\n",
   "variant_id": "R1-v1",
   "email_body_hash": "0bea6d1093",
-  "email_candidates": [
-    {
-      "email": "bkapl@bkasiapacific.com",
-      "kind": "observed_on_site",
-      "confidence": "verified",
-      "ro": null
-    },
-    {
-      "email": "sing.lam@bkasiapacific.com",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "LAM Sing Kuen"
-    },
-    {
-      "email": "singlam@bkasiapacific.com",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "LAM Sing Kuen"
-    },
-    {
-      "email": "slam@bkasiapacific.com",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "LAM Sing Kuen"
-    },
-    {
-      "email": "info@bkasiapacific.com",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "compliance@bkasiapacific.com",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "contact@bkasiapacific.com",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "enquiry@bkasiapacific.com",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    }
-  ],
+  "email_candidates": [],
   "asset_classes": "unknown",
   "illiq_likelihood": "unknown",
   "aum_raw_string": "",

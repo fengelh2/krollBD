@@ -16,50 +16,7 @@
   "email_body": "Dear Hua,\n\nThis is Felix from Kroll in Hong Kong. I noticed via the SFC public register that you were recently appointed as a Responsible Officer at DC Wealth — congratulations.\n\nAs you settle into the role, valuation governance and the year-end audit cycle often feature high on the agenda. Kroll's Portfolio Valuation team supports SFC-licensed managers across Hong Kong with independent fair-value opinions under IFRS 13 / ASC 820 — particularly for harder-to-value private equity and private credit positions where audit pushback is most common.\n\nIf a brief introduction would be useful — whether on year-end planning, LP-driven mark requests, or simply how peers are approaching current market conditions — I would be happy to set up an informal call.\n\nKind regards,\nFelix Engelhardt\n",
   "variant_id": "R1-v1",
   "email_body_hash": "975e211c4a",
-  "email_candidates": [
-    {
-      "email": "hua.zhu@hubbis.com",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "ZHU Hua"
-    },
-    {
-      "email": "huazhu@hubbis.com",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "ZHU Hua"
-    },
-    {
-      "email": "hzhu@hubbis.com",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "ZHU Hua"
-    },
-    {
-      "email": "info@hubbis.com",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "compliance@hubbis.com",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "contact@hubbis.com",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "enquiry@hubbis.com",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    }
-  ],
+  "email_candidates": [],
   "asset_classes": "unknown",
   "illiq_likelihood": "unknown",
   "aum_raw_string": "",

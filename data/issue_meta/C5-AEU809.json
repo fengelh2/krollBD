@@ -25,96 +25,7 @@
   "email_body": "Dear Chi Wai,\n\nThis is Felix from Kroll in Hong Kong. The SFC public register shows that Hua Yu Investment has been renamed to Vajra Capital.\n\nRebrands often accompany broader changes — a new sponsor, a strategy refresh, or an organisational reshape — and these moments are often a natural time to revisit fund-level valuation policies and the operating arrangements behind them.\n\nKroll's Portfolio Valuation team works with SFC-regulated managers across Hong Kong on independent fair-value opinions for private equity and credit positions, and our adjacent FSCR colleagues support governance and regulatory engagement. Happy to set up an informal call if any of this would be useful as you transition.\n\nKind regards,\nFelix Engelhardt\n",
   "variant_id": "C5-v1",
   "email_body_hash": "6571750734",
-  "email_candidates": [
-    {
-      "email": "alex@intechopen.com",
-      "kind": "hunter_io",
-      "confidence": "hunter_verified",
-      "ro": "LEUNG King Yue, Alex",
-      "score": 95,
-      "abstract_verdict": "deliverable",
-      "abstract_detail": "valid_email",
-      "evidence": "Hunter score 95 + AbstractAPI: deliverable"
-    },
-    {
-      "email": "chi.leong@intechopen.com",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "LEONG Chi Wai"
-    },
-    {
-      "email": "chileong@intechopen.com",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "LEONG Chi Wai"
-    },
-    {
-      "email": "cleong@intechopen.com",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "LEONG Chi Wai"
-    },
-    {
-      "email": "king.leung@intechopen.com",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "LEUNG King Yue, Alex"
-    },
-    {
-      "email": "kingleung@intechopen.com",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "LEUNG King Yue, Alex"
-    },
-    {
-      "email": "kleung@intechopen.com",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "LEUNG King Yue, Alex"
-    },
-    {
-      "email": "ka.yung@intechopen.com",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "YUNG Ka Cheung"
-    },
-    {
-      "email": "kayung@intechopen.com",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "YUNG Ka Cheung"
-    },
-    {
-      "email": "kyung@intechopen.com",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "YUNG Ka Cheung"
-    },
-    {
-      "email": "info@intechopen.com",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "compliance@intechopen.com",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "contact@intechopen.com",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "enquiry@intechopen.com",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    }
-  ],
+  "email_candidates": [],
   "asset_classes": "unknown",
   "illiq_likelihood": "unknown",
   "aum_raw_string": "",
@@ -124,15 +35,6 @@
   "website_accuracy": "not_found",
   "deep_scrape_attempted_utc": "2026-06-16T01:35:35.833325+00:00",
   "deep_scrape_note": "site scraped — no new emails found",
-  "hunter_hits": [
-    {
-      "email": "alex@intechopen.com",
-      "score": 95,
-      "ro": "LEUNG King Yue, Alex",
-      "fetched_at_utc": "2026-06-15T15:08:43.456865+00:00",
-      "abstract_verdict": "deliverable",
-      "abstract_detail": "valid_email"
-    }
-  ],
+  "hunter_hits": [],
   "hunter_attempted_utc": "2026-06-16T01:35:35.869768+00:00"
 }

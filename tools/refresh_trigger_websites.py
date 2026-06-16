@@ -129,13 +129,31 @@ def _probe_url(url: str, firm_name: str) -> tuple[str, str]:
 
     tokens = _name_tokens(firm_name)
     if not tokens:
-        return ("probable", "page resolves; firm name has no discriminative tokens to match")
+        return ("not_found", "firm name has no discriminative tokens — can't validate match")
+
+    # Strong signal: the URL HOST itself contains a name token (most corporate
+    # sites do: 'jasperhk.com' for Jasper, 'bilincapital.com' for Bilin).
+    # Without that, body-text matches alone are too noisy — random pages will
+    # mention common words and Hunter then returns confidently-wrong people
+    # at the unrelated domain (Hua Yu Investment -> intechopen.com -> a real
+    # Alex who works for the publisher, not our Alex Leung).
+    try:
+        from urllib.parse import urlparse as _up
+        host_stem = _up(url).netloc.lower().replace("www.", "").split(".")[0]
+    except Exception:
+        host_stem = ""
+    host_name_match = any(t in host_stem or host_stem in t for t in tokens) if host_stem else False
+
     hits = [t for t in tokens if t in body_text]
+    if host_name_match and len(hits) >= 1:
+        return ("verified", f"host '{host_stem}' matches name + page mentions {hits[:3]}")
+    if host_name_match:
+        return ("probable", f"host '{host_stem}' matches name (body match weak)")
     if len(hits) >= 2:
-        return ("verified", f"matches {hits[:3]}")
-    if len(hits) == 1:
-        return ("probable", f"single token match {hits!r}")
-    return ("wrong_match", f"page text doesn't mention {tokens[:3]}")
+        # Body mentions multiple tokens but host doesn't match — could still be
+        # a directory page about the firm. Probable not verified.
+        return ("probable", f"body mentions {hits[:3]} but host '{host_stem}' is unrelated")
+    return ("wrong_match", f"host '{host_stem}' unrelated to firm; body tokens hit {hits!r}")
 
 
 def _ddg_search(firm_name: str) -> str | None:
