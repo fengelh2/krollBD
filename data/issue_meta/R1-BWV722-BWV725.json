@@ -18,6 +18,13 @@
   "email_body_hash": "092c19da00",
   "email_candidates": [
     {
+      "email": "info-hk@pancapmgmt.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-06-16T04:58:50.456639+00:00"
+    },
+    {
       "email": "biao.pei@paninvestment.com",
       "kind": "ro_guess",
       "confidence": "medium",

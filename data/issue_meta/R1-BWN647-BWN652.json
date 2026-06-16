@@ -18,6 +18,13 @@
   "email_body_hash": "ff3cd830a9",
   "email_candidates": [
     {
+      "email": "jcchen@leaderway.hk",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-06-16T04:58:50.455168+00:00"
+    },
+    {
       "email": "yu.sun@leaderwayinvestment.com.hk",
       "kind": "ro_guess",
       "confidence": "medium",

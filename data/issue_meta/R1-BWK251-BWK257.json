@@ -18,6 +18,13 @@
   "email_body_hash": "fb1cd3031b",
   "email_candidates": [
     {
+      "email": "lixiao@gyxdhk.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-06-16T04:58:50.452029+00:00"
+    },
+    {
       "email": "shifeng.zhang@guoyuanxindahk.com.hk",
       "kind": "ro_guess",
       "confidence": "medium",

@@ -18,6 +18,13 @@
   "email_body_hash": "58b697cea4",
   "email_candidates": [
     {
+      "email": "info-hk@pancapmgmt.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-06-16T04:58:50.457454+00:00"
+    },
+    {
       "email": "qiang.fu@paninvestment.com",
       "kind": "ro_guess",
       "confidence": "medium",
