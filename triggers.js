@@ -771,6 +771,36 @@
     const reachedCount = doneEntries.length;
     const totalCycle = ALL_OPEN.length + reachedCount;
     $("#stat-open").textContent = toAction;
+
+    // Count open triggers per filter bucket and surface as a chip on each
+    // filter button so the user can see at-a-glance where work is sitting.
+    const tallies = { all: 0, "C1-PV": 0, "C1-FSCR": 0, "R1-PV": 0, "R1-FSCR": 0, C2: 0, C5: 0 };
+    for (const i of ALL_OPEN) {
+      if (isPending(i)) continue;
+      tallies.all += 1;
+      const m = parseMeta(i);
+      if (!m) continue;
+      const t = m.type;
+      if (t === "C1" || t === "R1") {
+        const illiq = (m.illiq_likelihood || "").toLowerCase();
+        const lane = (illiq === "high" || illiq === "medium") ? "PV" : "FSCR";
+        tallies[`${t}-${lane}`] = (tallies[`${t}-${lane}`] || 0) + 1;
+      } else if (t === "C2" || t === "C5") {
+        tallies[t] = (tallies[t] || 0) + 1;
+      }
+    }
+    $$("#filters button").forEach(b => {
+      const key = b.dataset.filter;
+      const n = (key === "done") ? reachedCount : (tallies[key] ?? null);
+      if (n == null) return;
+      // Remove any prior chip and re-append
+      const oldChip = b.querySelector(".filter-count");
+      if (oldChip) oldChip.remove();
+      const chip = document.createElement("span");
+      chip.className = "filter-count";
+      chip.textContent = String(n);
+      b.appendChild(chip);
+    });
     $("#stat-done").textContent = reachedCount;
     const rate = totalCycle ? Math.round(100 * reachedCount / totalCycle) : 0;
     $("#stat-rate").textContent = rate + "%";

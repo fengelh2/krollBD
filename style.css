@@ -264,6 +264,8 @@ svg.chart.big{height:auto;max-width:680px;aspect-ratio:600/220;margin:0 auto}
 .filters button.lane-fscr{border-left:3px solid #3b82f6}
 .filters button.lane-pv.active{background:#10b981;border-color:#10b981}
 .filters button.lane-fscr.active{background:#3b82f6;border-color:#3b82f6}
+.filter-count{display:inline-block;margin-left:6px;padding:1px 6px;border-radius:10px;background:rgba(0,0,0,.08);color:inherit;font-size:10px;font-weight:600;font-variant-numeric:tabular-nums}
+.filters button.active .filter-count{background:rgba(255,255,255,.25);color:#fff}
 
 .cards{margin:0;padding:0}
 .loading{color:var(--muted);text-align:center;padding:40px 0;font-size:13px}
