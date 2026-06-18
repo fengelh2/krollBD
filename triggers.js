@@ -119,16 +119,46 @@
     } catch { return []; }
   }
   function parseCsv(text) {
-    const lines = text.split(/\r?\n/).filter(Boolean);
-    if (lines.length < 2) return [];
-    const hdr = splitCsvLine(lines[0]);
-    return lines.slice(1).map(ln => {
-      const vals = splitCsvLine(ln);
-      const o = {};
-      hdr.forEach((h, i) => o[h] = vals[i] || "");
-      return o;
-    });
+    // Quoted CSV fields can span multiple lines (e.g. an email body with
+    // embedded newlines). A naive split-by-newline turns each body line
+    // into a fake row — which inflated the "reached out" counter (17
+    // actual sends were showing as ~105). Walk char by char and treat
+    // newlines INSIDE quoted fields as literal content.
+    const rows = [];
+    let row = [];
+    let cur = "";
+    let q = false;
+    for (let i = 0; i < text.length; i++) {
+      const c = text[i];
+      if (q) {
+        if (c === '"' && text[i+1] === '"') { cur += '"'; i++; }
+        else if (c === '"') q = false;
+        else cur += c;
+      } else {
+        if (c === '"') q = true;
+        else if (c === ',') { row.push(cur); cur = ""; }
+        else if (c === '\n' || c === '\r') {
+          if (c === '\r' && text[i+1] === '\n') i++;
+          row.push(cur); cur = "";
+          // ignore wholly-empty rows (trailing newlines)
+          if (row.length > 1 || row[0] !== "") rows.push(row);
+          row = [];
+        }
+        else cur += c;
+      }
+    }
+    if (cur !== "" || row.length > 0) { row.push(cur); rows.push(row); }
+    if (rows.length < 2) return [];
+    const hdr = rows[0];
+    return rows.slice(1)
+      .filter(r => r.some(v => (v || "").trim() !== ""))
+      .map(r => {
+        const o = {};
+        hdr.forEach((h, i) => o[h] = r[i] || "");
+        return o;
+      });
   }
+  // Legacy splitter kept for any external callers that might still use it.
   function splitCsvLine(ln) {
     const out = []; let cur = ""; let q = false;
     for (let i = 0; i < ln.length; i++) {
