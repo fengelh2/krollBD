@@ -86,10 +86,10 @@
   "parent_org": "Bank of America",
   "classification_source": "consensus_website_plus",
   "website_accuracy": "verified",
-  "deep_scrape_attempted_utc": "2026-06-16T01:35:53.531340+00:00",
+  "deep_scrape_attempted_utc": "2026-06-18T06:45:59.028135+00:00",
   "deep_scrape_note": "site scraped — no new emails found",
   "hunter_hits": [],
-  "hunter_attempted_utc": "2026-06-16T01:35:53.561650+00:00",
+  "hunter_attempted_utc": "2026-06-18T06:45:59.059416+00:00",
   "sfc_filed_website": "https://www.bankofamerica.com/",
   "bd_lane": "PV"
 }

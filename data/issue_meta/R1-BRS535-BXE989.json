@@ -86,10 +86,10 @@
   "parent_org": "",
   "classification_source": "website",
   "website_accuracy": "verified",
-  "deep_scrape_attempted_utc": "2026-06-16T01:35:52.425354+00:00",
+  "deep_scrape_attempted_utc": "2026-06-18T06:45:58.908295+00:00",
   "deep_scrape_note": "site scraped — no new emails found",
   "hunter_hits": [],
-  "hunter_attempted_utc": "2026-06-16T01:35:52.480510+00:00",
+  "hunter_attempted_utc": "2026-06-18T06:45:58.964428+00:00",
   "sfc_filed_website": "www.prymecapital.hk",
   "bd_lane": "PV"
 }
