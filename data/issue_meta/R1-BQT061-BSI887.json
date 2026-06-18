@@ -25,46 +25,37 @@
       "fetched_at_utc": "2026-06-16T02:10:52.150660+00:00"
     },
     {
-      "email": "ziping.he@lumeninnovation.com",
+      "email": "ziping.he@lumencapital.net",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "HE Ziping"
     },
     {
-      "email": "zipinghe@lumeninnovation.com",
+      "email": "zipinghe@lumencapital.net",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "HE Ziping"
     },
     {
-      "email": "zhe@lumeninnovation.com",
+      "email": "zhe@lumencapital.net",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "HE Ziping"
     },
     {
-      "email": "info@lumeninnovation.com",
+      "email": "info@lumencapital.net",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     },
     {
-      "email": "compliance@lumeninnovation.com",
+      "email": "contact@lumencapital.net",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     },
     {
-      "email": "contact@lumeninnovation.com",
+      "email": "enquiry@lumencapital.net",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "enquiry@lumeninnovation.com",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     }
   ],
   "asset_classes": "unknown",

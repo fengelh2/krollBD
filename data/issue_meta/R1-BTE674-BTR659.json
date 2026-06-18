@@ -25,46 +25,37 @@
       "fetched_at_utc": "2026-06-16T02:10:52.152462+00:00"
     },
     {
-      "email": "liang.liang@higgs.com",
+      "email": "liang.liang@higgsfintech.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "LIANG Liang"
     },
     {
-      "email": "liangliang@higgs.com",
+      "email": "liangliang@higgsfintech.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "LIANG Liang"
     },
     {
-      "email": "lliang@higgs.com",
+      "email": "lliang@higgsfintech.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "LIANG Liang"
     },
     {
-      "email": "info@higgs.com",
+      "email": "info@higgsfintech.com",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     },
     {
-      "email": "compliance@higgs.com",
+      "email": "contact@higgsfintech.com",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     },
     {
-      "email": "contact@higgs.com",
+      "email": "enquiry@higgsfintech.com",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "enquiry@higgs.com",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     }
   ],
   "asset_classes": "unknown",

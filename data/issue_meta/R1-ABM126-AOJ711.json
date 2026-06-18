@@ -71,6 +71,18 @@
       "kind": "generic_guess",
       "confidence": "low",
       "ro": null
+    },
+    {
+      "email": "wing pong.ho@beevestsec.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "HO Wing Pong"
+    },
+    {
+      "email": "wing pongho@beevestsec.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "HO Wing Pong"
     }
   ],
   "asset_classes": "unknown",

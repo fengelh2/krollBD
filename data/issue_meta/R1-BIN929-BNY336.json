@@ -25,46 +25,32 @@
       "fetched_at_utc": "2026-06-16T02:10:52.145325+00:00"
     },
     {
-      "email": "hoi.cheung@fuhaisecurities.com.hk",
+      "email": "howard.cheung@fuhaisec.com.hk",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "CHEUNG Hoi Wa, Howard"
     },
     {
-      "email": "hoicheung@fuhaisecurities.com.hk",
+      "email": "howardcheung@fuhaisec.com.hk",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "CHEUNG Hoi Wa, Howard"
     },
     {
-      "email": "hcheung@fuhaisecurities.com.hk",
+      "email": "hcheung@fuhaisec.com.hk",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "CHEUNG Hoi Wa, Howard"
     },
     {
-      "email": "info@fuhaisecurities.com.hk",
+      "email": "contact@fuhaisec.com.hk",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     },
     {
-      "email": "compliance@fuhaisecurities.com.hk",
+      "email": "enquiry@fuhaisec.com.hk",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "contact@fuhaisecurities.com.hk",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "enquiry@fuhaisecurities.com.hk",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     }
   ],
   "asset_classes": "unknown",

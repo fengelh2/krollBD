@@ -25,46 +25,37 @@
       "fetched_at_utc": "2026-06-16T02:10:52.110617+00:00"
     },
     {
-      "email": "sing.lam@asiapacific.com.hk",
+      "email": "sing kuen.lam@asiapacificsec.com.hk",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "LAM Sing Kuen"
     },
     {
-      "email": "singlam@asiapacific.com.hk",
+      "email": "sing kuenlam@asiapacificsec.com.hk",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "LAM Sing Kuen"
     },
     {
-      "email": "slam@asiapacific.com.hk",
+      "email": "slam@asiapacificsec.com.hk",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "LAM Sing Kuen"
     },
     {
-      "email": "info@asiapacific.com.hk",
+      "email": "info@asiapacificsec.com.hk",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     },
     {
-      "email": "compliance@asiapacific.com.hk",
+      "email": "contact@asiapacificsec.com.hk",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     },
     {
-      "email": "contact@asiapacific.com.hk",
+      "email": "enquiry@asiapacificsec.com.hk",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "enquiry@asiapacific.com.hk",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     }
   ],
   "asset_classes": "unknown",

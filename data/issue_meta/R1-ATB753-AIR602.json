@@ -25,58 +25,37 @@
       "fetched_at_utc": "2026-06-16T02:10:52.115062+00:00"
     },
     {
-      "email": "on.mow@qmisgroup.com",
+      "email": "on loy.mow@qmis.com.hk",
       "kind": "ro_guess",
-      "confidence": "low",
-      "ro": "MOW On Loy",
-      "evidence": "AbstractAPI: undeliverable (dns_record_not_found)",
-      "abstract_verdict": "undeliverable",
-      "abstract_quality_score": 0.0,
-      "flag": "abstractapi_says_undeliverable"
+      "confidence": "medium",
+      "ro": "MOW On Loy"
     },
     {
-      "email": "onmow@qmisgroup.com",
+      "email": "on loymow@qmis.com.hk",
       "kind": "ro_guess",
-      "confidence": "low",
-      "ro": "MOW On Loy",
-      "evidence": "AbstractAPI: undeliverable (dns_record_not_found)",
-      "abstract_verdict": "undeliverable",
-      "abstract_quality_score": 0.0,
-      "flag": "abstractapi_says_undeliverable"
+      "confidence": "medium",
+      "ro": "MOW On Loy"
     },
     {
-      "email": "omow@qmisgroup.com",
+      "email": "omow@qmis.com.hk",
       "kind": "ro_guess",
-      "confidence": "low",
-      "ro": "MOW On Loy",
-      "evidence": "AbstractAPI: undeliverable (dns_record_not_found)",
-      "abstract_verdict": "undeliverable",
-      "abstract_quality_score": 0.0,
-      "flag": "abstractapi_says_undeliverable"
+      "confidence": "medium",
+      "ro": "MOW On Loy"
     },
     {
-      "email": "info@qmisgroup.com",
+      "email": "info@qmis.com.hk",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     },
     {
-      "email": "compliance@qmisgroup.com",
+      "email": "contact@qmis.com.hk",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     },
     {
-      "email": "contact@qmisgroup.com",
+      "email": "enquiry@qmis.com.hk",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "enquiry@qmisgroup.com",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     }
   ],
   "asset_classes": "public_equity,public_credit",

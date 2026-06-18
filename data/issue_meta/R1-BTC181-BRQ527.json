@@ -25,46 +25,37 @@
       "fetched_at_utc": "2026-06-16T02:10:52.152027+00:00"
     },
     {
-      "email": "zixin.gan@colliscapital.com.hk",
+      "email": "zixin.gan@collis-capital.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "GAN Zixin"
     },
     {
-      "email": "zixingan@colliscapital.com.hk",
+      "email": "zixingan@collis-capital.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "GAN Zixin"
     },
     {
-      "email": "zgan@colliscapital.com.hk",
+      "email": "zgan@collis-capital.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "GAN Zixin"
     },
     {
-      "email": "info@colliscapital.com.hk",
+      "email": "info@collis-capital.com",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     },
     {
-      "email": "compliance@colliscapital.com.hk",
+      "email": "contact@collis-capital.com",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     },
     {
-      "email": "contact@colliscapital.com.hk",
+      "email": "enquiry@collis-capital.com",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "enquiry@colliscapital.com.hk",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     }
   ],
   "asset_classes": "unknown",

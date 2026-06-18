@@ -77,6 +77,18 @@
       "kind": "generic_guess",
       "confidence": "low",
       "ro": null
+    },
+    {
+      "email": "sik lam.chan@syfe.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHAN Sik Lam"
+    },
+    {
+      "email": "sik lamchan@syfe.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHAN Sik Lam"
     }
   ],
   "asset_classes": "public_equity,public_credit,private_credit,fund_of_funds",

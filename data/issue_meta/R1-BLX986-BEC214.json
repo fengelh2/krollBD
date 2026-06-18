@@ -25,46 +25,37 @@
       "fetched_at_utc": "2026-06-16T02:10:52.147971+00:00"
     },
     {
-      "email": "benjamin.mak@fareast.com.hk",
+      "email": "benjamin.mak@feimhk.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "MAK Benjamin Chi Wai"
     },
     {
-      "email": "benjaminmak@fareast.com.hk",
+      "email": "benjaminmak@feimhk.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "MAK Benjamin Chi Wai"
     },
     {
-      "email": "bmak@fareast.com.hk",
+      "email": "bmak@feimhk.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "MAK Benjamin Chi Wai"
     },
     {
-      "email": "info@fareast.com.hk",
+      "email": "info@feimhk.com",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     },
     {
-      "email": "compliance@fareast.com.hk",
+      "email": "contact@feimhk.com",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     },
     {
-      "email": "contact@fareast.com.hk",
+      "email": "enquiry@feimhk.com",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "enquiry@fareast.com.hk",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     }
   ],
   "asset_classes": "unknown",

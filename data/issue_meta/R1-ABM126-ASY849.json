@@ -71,6 +71,18 @@
       "kind": "generic_guess",
       "confidence": "low",
       "ro": null
+    },
+    {
+      "email": "kok fook.chung@beevestsec.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHUNG Kok Fook"
+    },
+    {
+      "email": "kok fookchung@beevestsec.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHUNG Kok Fook"
     }
   ],
   "asset_classes": "unknown",

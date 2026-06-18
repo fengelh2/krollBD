@@ -65,6 +65,18 @@
       "kind": "generic_guess",
       "confidence": "low",
       "ro": null
+    },
+    {
+      "email": "hau ngai.hon@ebshk.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "HON Hau Ngai"
+    },
+    {
+      "email": "hau ngaihon@ebshk.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "HON Hau Ngai"
     }
   ],
   "asset_classes": "public_equity,public_credit,multi",

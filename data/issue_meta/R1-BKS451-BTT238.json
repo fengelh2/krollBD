@@ -25,46 +25,37 @@
       "fetched_at_utc": "2026-06-16T02:10:52.147527+00:00"
     },
     {
-      "email": "sida.wu@optimusprimeasset.com.hk",
+      "email": "sida.wu@optimusprimefund.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "WU Sida"
     },
     {
-      "email": "sidawu@optimusprimeasset.com.hk",
+      "email": "sidawu@optimusprimefund.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "WU Sida"
     },
     {
-      "email": "swu@optimusprimeasset.com.hk",
+      "email": "swu@optimusprimefund.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "WU Sida"
     },
     {
-      "email": "info@optimusprimeasset.com.hk",
+      "email": "info@optimusprimefund.com",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     },
     {
-      "email": "compliance@optimusprimeasset.com.hk",
+      "email": "contact@optimusprimefund.com",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     },
     {
-      "email": "contact@optimusprimeasset.com.hk",
+      "email": "enquiry@optimusprimefund.com",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "enquiry@optimusprimeasset.com.hk",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     }
   ],
   "asset_classes": "unknown",

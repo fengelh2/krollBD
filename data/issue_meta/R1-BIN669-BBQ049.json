@@ -65,6 +65,18 @@
       "kind": "generic_guess",
       "confidence": "low",
       "ro": null
+    },
+    {
+      "email": "tsz chun.lam@finloop.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LAM Tsz Chun"
+    },
+    {
+      "email": "tsz chunlam@finloop.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LAM Tsz Chun"
     }
   ],
   "asset_classes": "public_equity,public_credit,fund_of_funds,multi",

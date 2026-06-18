@@ -25,58 +25,37 @@
       "fetched_at_utc": "2026-06-16T02:10:52.125671+00:00"
     },
     {
-      "email": "cheuk.yeung@meridiancapitalasia.com",
+      "email": "cheuk ki.yeung@meridianam.com.hk",
       "kind": "ro_guess",
-      "confidence": "low",
-      "ro": "YEUNG Cheuk Ki",
-      "evidence": "AbstractAPI: undeliverable (dns_record_not_found)",
-      "abstract_verdict": "undeliverable",
-      "abstract_quality_score": 0.0,
-      "flag": "abstractapi_says_undeliverable"
+      "confidence": "medium",
+      "ro": "YEUNG Cheuk Ki"
     },
     {
-      "email": "cheukyeung@meridiancapitalasia.com",
+      "email": "cheuk kiyeung@meridianam.com.hk",
       "kind": "ro_guess",
-      "confidence": "low",
-      "ro": "YEUNG Cheuk Ki",
-      "evidence": "AbstractAPI: undeliverable (dns_record_not_found)",
-      "abstract_verdict": "undeliverable",
-      "abstract_quality_score": 0.0,
-      "flag": "abstractapi_says_undeliverable"
+      "confidence": "medium",
+      "ro": "YEUNG Cheuk Ki"
     },
     {
-      "email": "cyeung@meridiancapitalasia.com",
+      "email": "cyeung@meridianam.com.hk",
       "kind": "ro_guess",
-      "confidence": "low",
-      "ro": "YEUNG Cheuk Ki",
-      "evidence": "AbstractAPI: undeliverable (dns_record_not_found)",
-      "abstract_verdict": "undeliverable",
-      "abstract_quality_score": 0.0,
-      "flag": "abstractapi_says_undeliverable"
+      "confidence": "medium",
+      "ro": "YEUNG Cheuk Ki"
     },
     {
-      "email": "info@meridiancapitalasia.com",
+      "email": "info@meridianam.com.hk",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     },
     {
-      "email": "compliance@meridiancapitalasia.com",
+      "email": "contact@meridianam.com.hk",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     },
     {
-      "email": "contact@meridiancapitalasia.com",
+      "email": "enquiry@meridianam.com.hk",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "enquiry@meridiancapitalasia.com",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     }
   ],
   "asset_classes": "private_equity",

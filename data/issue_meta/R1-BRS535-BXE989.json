@@ -77,6 +77,18 @@
       "kind": "generic_guess",
       "confidence": "low",
       "ro": null
+    },
+    {
+      "email": "man ho.mo@prymecapital.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "MO Man Ho"
+    },
+    {
+      "email": "man homo@prymecapital.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "MO Man Ho"
     }
   ],
   "asset_classes": "public_equity,public_credit,private_equity,private_credit,real_assets,multi",

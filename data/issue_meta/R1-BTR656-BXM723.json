@@ -77,6 +77,18 @@
       "kind": "generic_guess",
       "confidence": "low",
       "ro": null
+    },
+    {
+      "email": "flannie lan.fu@spectrum-capital.net",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "FU Flannie Lan"
+    },
+    {
+      "email": "flannie lanfu@spectrum-capital.net",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "FU Flannie Lan"
     }
   ],
   "asset_classes": "public_equity,public_credit,private_equity,private_credit,real_assets,fund_of_funds,multi",

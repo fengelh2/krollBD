@@ -76,6 +76,18 @@
       "kind": "generic_guess",
       "confidence": "low",
       "ro": null
+    },
+    {
+      "email": "ho tung.chung@cmschina.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHUNG Ho Tung"
+    },
+    {
+      "email": "ho tungchung@cmschina.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHUNG Ho Tung"
     }
   ],
   "asset_classes": "private_equity,public_equity,public_credit,multi",

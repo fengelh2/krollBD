@@ -25,58 +25,37 @@
       "fetched_at_utc": "2026-06-16T02:10:52.102508+00:00"
     },
     {
-      "email": "tmak@bankofamerica.com",
+      "email": "tin chak.mak@bofa.com",
       "kind": "ro_guess",
       "confidence": "medium",
-      "ro": "MAK Tin Chak",
-      "evidence": "AbstractAPI: deliverable (valid_email) · CAUTION: all 3 patterns \"deliverable\" → likely catch-all domain (mailbox not actually verified)",
-      "abstract_verdict": "deliverable",
-      "abstract_quality_score": 0.99,
-      "flag": "likely_catch_all"
+      "ro": "MAK Tin Chak"
     },
     {
-      "email": "tinmak@bankofamerica.com",
+      "email": "tin chakmak@bofa.com",
       "kind": "ro_guess",
       "confidence": "medium",
-      "ro": "MAK Tin Chak",
-      "evidence": "AbstractAPI: deliverable (valid_email) · CAUTION: all 3 patterns \"deliverable\" → likely catch-all domain (mailbox not actually verified)",
-      "abstract_verdict": "deliverable",
-      "abstract_quality_score": 0.99,
-      "flag": "likely_catch_all"
+      "ro": "MAK Tin Chak"
     },
     {
-      "email": "tin.mak@bankofamerica.com",
+      "email": "tmak@bofa.com",
       "kind": "ro_guess",
       "confidence": "medium",
-      "ro": "MAK Tin Chak",
-      "evidence": "AbstractAPI: deliverable (valid_email) · CAUTION: all 3 patterns \"deliverable\" → likely catch-all domain (mailbox not actually verified)",
-      "abstract_verdict": "deliverable",
-      "abstract_quality_score": 0.99,
-      "flag": "likely_catch_all"
+      "ro": "MAK Tin Chak"
     },
     {
-      "email": "info@bankofamerica.com",
+      "email": "info@bofa.com",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     },
     {
-      "email": "compliance@bankofamerica.com",
+      "email": "contact@bofa.com",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     },
     {
-      "email": "contact@bankofamerica.com",
+      "email": "enquiry@bofa.com",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "enquiry@bankofamerica.com",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     }
   ],
   "asset_classes": "public_equity,public_credit,multi",

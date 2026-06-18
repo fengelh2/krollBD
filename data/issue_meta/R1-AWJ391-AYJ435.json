@@ -65,6 +65,18 @@
       "kind": "generic_guess",
       "confidence": "low",
       "ro": null
+    },
+    {
+      "email": "tsz wai.wong@cornucopiae.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "WONG Tsz Wai"
+    },
+    {
+      "email": "tsz waiwong@cornucopiae.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "WONG Tsz Wai"
     }
   ],
   "asset_classes": "unknown",

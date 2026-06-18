@@ -25,46 +25,37 @@
       "fetched_at_utc": "2026-06-16T02:10:52.112005+00:00"
     },
     {
-      "email": "sai.liu@mfghk.com",
+      "email": "simon.liu@mafgl.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "LIU Sai Ho, Simon"
     },
     {
-      "email": "sailiu@mfghk.com",
+      "email": "simonliu@mafgl.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "LIU Sai Ho, Simon"
     },
     {
-      "email": "sliu@mfghk.com",
+      "email": "sliu@mafgl.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "LIU Sai Ho, Simon"
     },
     {
-      "email": "info@mfghk.com",
+      "email": "info@mafgl.com",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     },
     {
-      "email": "compliance@mfghk.com",
+      "email": "contact@mafgl.com",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     },
     {
-      "email": "contact@mfghk.com",
+      "email": "enquiry@mafgl.com",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "enquiry@mfghk.com",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     }
   ],
   "asset_classes": "public_equity,public_credit,unknown",

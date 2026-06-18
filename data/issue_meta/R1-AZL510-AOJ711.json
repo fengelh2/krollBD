@@ -25,46 +25,32 @@
       "fetched_at_utc": "2026-06-16T02:10:52.124833+00:00"
     },
     {
-      "email": "wing.ho@beevest.com.hk",
+      "email": "wing pong.ho@beevestam.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "HO Wing Pong"
     },
     {
-      "email": "wingho@beevest.com.hk",
+      "email": "wing pongho@beevestam.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "HO Wing Pong"
     },
     {
-      "email": "who@beevest.com.hk",
+      "email": "who@beevestam.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "HO Wing Pong"
     },
     {
-      "email": "info@beevest.com.hk",
+      "email": "contact@beevestam.com",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     },
     {
-      "email": "compliance@beevest.com.hk",
+      "email": "enquiry@beevestam.com",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "contact@beevest.com.hk",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "enquiry@beevest.com.hk",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     }
   ],
   "asset_classes": "unknown",

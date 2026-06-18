@@ -25,46 +25,37 @@
       "fetched_at_utc": "2026-06-16T02:10:52.102976+00:00"
     },
     {
-      "email": "kwok.yuen@bocionline.com",
+      "email": "kwok hung.yuen@bocigroup.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "YUEN Kwok Hung"
     },
     {
-      "email": "kwokyuen@bocionline.com",
+      "email": "kwok hungyuen@bocigroup.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "YUEN Kwok Hung"
     },
     {
-      "email": "kyuen@bocionline.com",
+      "email": "kyuen@bocigroup.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "YUEN Kwok Hung"
     },
     {
-      "email": "info@bocionline.com",
+      "email": "info@bocigroup.com",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     },
     {
-      "email": "compliance@bocionline.com",
+      "email": "contact@bocigroup.com",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     },
     {
-      "email": "contact@bocionline.com",
+      "email": "enquiry@bocigroup.com",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "enquiry@bocionline.com",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     }
   ],
   "asset_classes": "public_equity,public_credit",

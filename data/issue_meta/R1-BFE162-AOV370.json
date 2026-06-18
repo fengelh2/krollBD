@@ -65,6 +65,18 @@
       "kind": "generic_guess",
       "confidence": "low",
       "ro": null
+    },
+    {
+      "email": "chi ho.cheng@cashalgo.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHENG Chi Ho"
+    },
+    {
+      "email": "chi hocheng@cashalgo.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHENG Chi Ho"
     }
   ],
   "asset_classes": "public_equity,public_credit,multi",

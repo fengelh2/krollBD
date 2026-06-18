@@ -25,58 +25,37 @@
       "fetched_at_utc": "2026-06-16T02:10:52.155662+00:00"
     },
     {
-      "email": "kuiting.zhong@tianfu.com",
+      "email": "kuiting.zhong@tfsecgroup.com",
       "kind": "ro_guess",
-      "confidence": "low",
-      "ro": "ZHONG Kuiting",
-      "evidence": "AbstractAPI: undeliverable (dns_record_not_found)",
-      "abstract_verdict": "undeliverable",
-      "abstract_quality_score": 0.0,
-      "flag": "abstractapi_says_undeliverable"
+      "confidence": "medium",
+      "ro": "ZHONG Kuiting"
     },
     {
-      "email": "kuitingzhong@tianfu.com",
+      "email": "kuitingzhong@tfsecgroup.com",
       "kind": "ro_guess",
-      "confidence": "low",
-      "ro": "ZHONG Kuiting",
-      "evidence": "AbstractAPI: undeliverable (dns_record_not_found)",
-      "abstract_verdict": "undeliverable",
-      "abstract_quality_score": 0.0,
-      "flag": "abstractapi_says_undeliverable"
+      "confidence": "medium",
+      "ro": "ZHONG Kuiting"
     },
     {
-      "email": "kzhong@tianfu.com",
+      "email": "kzhong@tfsecgroup.com",
       "kind": "ro_guess",
-      "confidence": "low",
-      "ro": "ZHONG Kuiting",
-      "evidence": "AbstractAPI: undeliverable (dns_record_not_found)",
-      "abstract_verdict": "undeliverable",
-      "abstract_quality_score": 0.0,
-      "flag": "abstractapi_says_undeliverable"
+      "confidence": "medium",
+      "ro": "ZHONG Kuiting"
     },
     {
-      "email": "info@tianfu.com",
+      "email": "info@tfsecgroup.com",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     },
     {
-      "email": "compliance@tianfu.com",
+      "email": "contact@tfsecgroup.com",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     },
     {
-      "email": "contact@tianfu.com",
+      "email": "enquiry@tfsecgroup.com",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "enquiry@tianfu.com",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     }
   ],
   "asset_classes": "unknown",

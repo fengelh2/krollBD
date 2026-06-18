@@ -25,46 +25,37 @@
       "fetched_at_utc": "2026-06-16T02:10:52.156107+00:00"
     },
     {
-      "email": "xuena.liang@houdechangheasset.com.hk",
+      "email": "xuena.liang@gmail.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "LIANG Xuena"
     },
     {
-      "email": "xuenaliang@houdechangheasset.com.hk",
+      "email": "xuenaliang@gmail.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "LIANG Xuena"
     },
     {
-      "email": "xliang@houdechangheasset.com.hk",
+      "email": "xliang@gmail.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "LIANG Xuena"
     },
     {
-      "email": "info@houdechangheasset.com.hk",
+      "email": "info@gmail.com",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     },
     {
-      "email": "compliance@houdechangheasset.com.hk",
+      "email": "contact@gmail.com",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     },
     {
-      "email": "contact@houdechangheasset.com.hk",
+      "email": "enquiry@gmail.com",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "enquiry@houdechangheasset.com.hk",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     }
   ],
   "asset_classes": "unknown",

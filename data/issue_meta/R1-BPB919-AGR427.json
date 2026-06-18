@@ -71,6 +71,18 @@
       "kind": "generic_guess",
       "confidence": "low",
       "ro": null
+    },
+    {
+      "email": "wan wai.lo@sparccapital.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LO Wan Wai"
+    },
+    {
+      "email": "wan wailo@sparccapital.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LO Wan Wai"
     }
   ],
   "asset_classes": "private_credit,real_assets",
