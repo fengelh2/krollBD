@@ -74,10 +74,10 @@
   "parent_org": "Samsung Group",
   "classification_source": "consensus_website_plus",
   "website_accuracy": "probable",
-  "deep_scrape_attempted_utc": "2026-06-16T01:35:38.277468+00:00",
+  "deep_scrape_attempted_utc": "2026-06-18T06:45:48.070682+00:00",
   "deep_scrape_note": "site scraped — no new emails found",
   "hunter_hits": [],
-  "hunter_attempted_utc": "2026-06-16T01:35:38.316503+00:00",
+  "hunter_attempted_utc": "2026-06-18T06:45:48.110220+00:00",
   "sfc_filed_website": "www.samsungetfhk.com",
   "bd_lane": "FSCR"
 }
