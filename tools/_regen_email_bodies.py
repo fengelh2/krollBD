@@ -28,7 +28,7 @@ PROJECT_ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(PROJECT_ROOT / "tools"))
 
 from publish_triggers_to_github import (
-    _pick_template, _ro_salutation, split_email, short_hash,
+    _pick_template, split_email, short_hash, compute_salutation_from_meta,
 )
 
 
@@ -84,9 +84,10 @@ def main():
             continue
         ce = meta.get("ceref", "")
         natural = meta.get("natural", "")
-        primary_ce = (meta.get("ros") or [{}])[0].get("ceref")
-        primary_row = ro_idx.get(primary_ce) if primary_ce else None
-        salutation = _ro_salutation(primary_row, natural)
+        # New salutation logic: read from verified email_candidates (case C ->
+        # personal RO email, case B -> personal-named corp inbox, case A/D ->
+        # generic). Replaces the old "always use primary RO first name" rule.
+        salutation = compute_salutation_from_meta(meta, natural)
 
         firm_illiq = illiq.get(ce, "")
         template, lane = _pick_template(t, firm_illiq)
@@ -97,24 +98,12 @@ def main():
         meta["email_body"] = body_only
         meta["email_body_hash"] = short_hash(subj + "\n" + body_only)
         meta["bd_lane"] = lane
-        meta["variant_id"] = f"{t}-v3-{lane}" if t == "C1" else f"R1-v2-{lane}"
+        meta["variant_id"] = f"{t}-v4-{lane}" if t == "C1" else f"R1-v3-{lane}"
 
-        # For C1: regenerate per_ro_drafts using same template per RO
-        if t == "C1":
-            drafts = []
-            for r in (meta.get("ros") or []):
-                row = ro_idx.get(r["ceref"])
-                ro_sal = _ro_salutation(row, natural) if row else r.get("name", "")
-                ro_body = template.format(natural=natural, salutation=ro_sal)
-                ro_subj, ro_body_only = split_email(ro_body)
-                drafts.append({
-                    "ro_name": r.get("name", ""),
-                    "ro_ceref": r.get("ceref", ""),
-                    "salutation": ro_sal,
-                    "email_subject": ro_subj,
-                    "email_body": ro_body_only,
-                })
-            meta["per_ro_drafts"] = drafts
+        # per_ro_drafts no longer needed: the body's "Dear ..." is now keyed
+        # off whatever's verified on the card, not per-RO. Drop the field so
+        # the dashboard mailto for every candidate uses the single body.
+        meta.pop("per_ro_drafts", None)
 
         json.dump(meta, path.open("w", encoding="utf-8"), indent=2, ensure_ascii=False)
         stats[f"{t}-{lane}"] += 1

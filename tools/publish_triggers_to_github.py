@@ -121,6 +121,111 @@ def _strategy_meta(ctx: dict) -> dict:
     }
 
 
+# Generic email local-parts that are NOT first names. If an inbox local part
+# matches one of these, treat it as a generic corp inbox even if it happens to
+# look like a word.
+_GENERIC_LOCAL_PARTS = {
+    "info", "info-hk", "contact", "contacts", "enquiry", "enquiries", "inquiries",
+    "admin", "administration", "compliance", "sales", "support", "help", "team",
+    "office", "reception", "hr", "legal", "it", "mail", "email", "hello",
+    "marketing", "press", "media", "investorservices", "investorservice",
+    "investor.services", "investor.relations", "ir", "client", "clients",
+    "services", "operations", "ops", "corporate", "general", "accounts",
+    "accounting", "finance", "customer", "careers", "jobs", "feedback",
+    "notices", "noreply", "no-reply", "donotreply",
+}
+
+
+def _first_name_from_local_part(local: str) -> str | None:
+    """If the local part of an email looks like a personal first name, return
+    it capitalized. Otherwise None.
+
+    Returns None for generic inboxes (info, compliance, etc.) and for local
+    parts with digits / dots / underscores (which usually mean firstname.lastname
+    or unrelated formats — not a usable first name on its own).
+    """
+    if not local:
+        return None
+    s = local.lower().strip()
+    if s in _GENERIC_LOCAL_PARTS:
+        return None
+    # Must be 3-20 chars, letters only (allow internal hyphen for 'mei-ling')
+    if not re.match(r"^[a-z][a-z\-]{2,19}$", s):
+        return None
+    if "-" in s:
+        return "-".join(p.capitalize() for p in s.split("-"))
+    return s.capitalize()
+
+
+def _ro_first_from_full_name(full: str) -> str | None:
+    """Extract the English first name from an SFC RO full-name string.
+
+    Patterns:
+      'TSANG Wai Hang, Wayne'  -> 'Wayne'  (after comma)
+      'LEUNG King Yue, Alex'   -> 'Alex'
+      'WANG Dan'               -> 'Dan'    (surname first if ALL CAPS)
+      'MAK Tin Chak'           -> 'Tin Chak'
+      'REN Wenjie'             -> 'Wenjie'
+    """
+    s = (full or "").strip()
+    if not s:
+        return None
+    if "," in s:
+        rest = s.split(",", 1)[1].strip()
+        return rest.split()[0] if rest else None
+    parts = s.split()
+    if not parts:
+        return None
+    # Convention: surname is the ALL-CAPS leading token; rest is given name(s)
+    if len(parts) >= 2 and parts[0].isupper():
+        return " ".join(p.capitalize() for p in parts[1:])
+    return parts[0].capitalize() if parts else None
+
+
+def compute_salutation_from_meta(meta: dict, natural: str) -> str:
+    """Compute the Dear-line salutation from what's actually verified on the
+    card. Priority:
+      C) personal-RO email verified  -> 'Wayne and {natural} Management'
+      B) personal-named corp inbox    -> 'Haifeng and {natural} Management'
+      A) generic corp inbox verified -> '{natural} Management'
+      D) nothing verified            -> '{natural} Management' (safe default)
+
+    Confidence considered 'verified': hunter_verified, verified, very_high, high.
+    """
+    ec = meta.get("email_candidates") or []
+    verified_confs = ("hunter_verified", "verified", "very_high", "high")
+
+    case_c = None  # tied to a specific RO via candidate.ro
+    case_b = None  # personal-named local part, no RO link
+    case_a = None  # generic inbox
+
+    for c in ec:
+        conf = (c.get("confidence") or "").lower()
+        if conf not in verified_confs:
+            continue
+        email = (c.get("email") or "").lower().strip()
+        if not email or "@" not in email:
+            continue
+        local = email.split("@", 1)[0]
+        ro = (c.get("ro") or "").strip()
+        if ro and not case_c:
+            case_c = ro
+            continue
+        first = _first_name_from_local_part(local)
+        if first and not case_b:
+            case_b = first
+            continue
+        if not case_a:
+            case_a = email
+
+    if case_c:
+        ro_first = _ro_first_from_full_name(case_c) or case_c
+        return f"{ro_first} and {natural} Management"
+    if case_b:
+        return f"{case_b} and {natural} Management"
+    return f"{natural} Management"
+
+
 def _ro_salutation(ro: dict | None, natural: str) -> str:
     """Pick the best first-name form for an email greeting. Falls back to legal
     full name if the new parsed columns aren't populated yet (older snapshots).
@@ -237,7 +342,7 @@ def natural_company(name: str, ceref: str | None = None) -> str:
 # ============================================================================
 
 C1_TEMPLATE_PV = """To: [find via LinkedIn / Lusha / Apollo]
-Subject: Congratulations on {natural}'s SFC Type 9 licence
+Subject: Congratulations on {natural}'s SFC Type 9 license
 
 Dear {salutation},
 
@@ -252,7 +357,7 @@ Felix
 """
 
 C1_TEMPLATE_FSCR = """To: [find via LinkedIn / Lusha / Apollo]
-Subject: Congratulations on {natural}'s SFC Type 9 licence
+Subject: Congratulations on {natural}'s SFC Type 9 license
 
 Dear {salutation},
 
@@ -270,7 +375,7 @@ Felix
 C1_TEMPLATE = C1_TEMPLATE_FSCR
 
 C2_TEMPLATE = """To: [find via LinkedIn / Lusha / Apollo]
-Subject: {natural} — Type 9 licence transition
+Subject: {natural} — Type 9 license transition
 
 Dear {salutation},
 
