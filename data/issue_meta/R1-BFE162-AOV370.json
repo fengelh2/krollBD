@@ -74,10 +74,10 @@
   "parent_org": "CASH Group",
   "classification_source": "website",
   "website_accuracy": "verified",
-  "deep_scrape_attempted_utc": "2026-06-16T01:35:41.884298+00:00",
+  "deep_scrape_attempted_utc": "2026-06-18T06:45:51.723369+00:00",
   "deep_scrape_note": "site scraped — no new emails found",
   "hunter_hits": [],
-  "hunter_attempted_utc": "2026-06-16T01:35:41.930025+00:00",
+  "hunter_attempted_utc": "2026-06-18T06:45:51.768714+00:00",
   "sfc_filed_website": "www.cashalgo.com",
   "bd_lane": "FSCR"
 }
