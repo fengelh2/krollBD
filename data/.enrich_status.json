@@ -1,9 +1,8 @@
 {
   "started_at": "2026-06-18T06:45:40.769541+00:00",
-  "current_idx": 45,
+  "current_idx": 48,
   "total": 48,
-  "phase": "running",
-  "current_firm": "[R1] New RO at Merrill Lynch (Asia Pacific) Limited — MAK Ti",
-  "current_trigger_id": "R1-AAC198-BHP830",
-  "done": false
+  "phase": "done",
+  "done": true,
+  "finished_at": "2026-06-18T06:46:00.181648+00:00"
 }
