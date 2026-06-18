@@ -74,10 +74,10 @@
   "parent_org": "",
   "classification_source": "website",
   "website_accuracy": "probable",
-  "deep_scrape_attempted_utc": "2026-06-16T01:35:31.938862+00:00",
+  "deep_scrape_attempted_utc": "2026-06-18T06:45:44.311712+00:00",
   "deep_scrape_note": "site scraped — no new emails found",
   "hunter_hits": [],
-  "hunter_attempted_utc": "2026-06-16T01:35:31.978025+00:00",
+  "hunter_attempted_utc": "2026-06-18T06:45:44.351345+00:00",
   "sfc_filed_website": "www.mfghk.com",
   "bd_lane": "FSCR"
 }
