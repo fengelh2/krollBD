@@ -1,7 +1,9 @@
 {
   "started_at": "2026-06-18T06:45:40.769541+00:00",
-  "current_idx": 0,
+  "current_idx": 3,
   "total": 48,
-  "phase": "starting",
+  "phase": "running",
+  "current_firm": "[R1] New RO at Ovata Capital Management Limited — NG Lap Kiu",
+  "current_trigger_id": "R1-BJP820-BAA394",
   "done": false
 }
