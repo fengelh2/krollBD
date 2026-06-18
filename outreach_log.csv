@@ -1,1 +1,12 @@
 logged_at_utc,sent_at_utc,issue_number,trigger_type,variant_id,firm,ceref,primary_ro,email_subject,email_body_hash,email_body,sent_via,notes
+2026-06-18T03:12:51Z,2026-06-18T03:12:37Z,128,C1,C1-v3-PV,LYFE Capital Investment Management (Hong Kong) Limited,BXH402,CHEN Long,Congratulations on LYFE Capital Investment's SFC Type 9 licence,1cb98d6210,"Dear Long,
+
+This is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on LYFE Capital Investment's recent Type 9 licensing with the SFC.
+
+For illiquid managers like yourself, as you get ready to start deploying capital, the recurring question is how to mark private positions in a way that holds up with LPs and auditors. Kroll's Portfolio Valuation team here in Hong Kong helps with exactly that — across private equity, private credit, and other illiquid strategies.
+
+If a quick chat would be useful — now, or down the line — happy to set one up. If not, please feel free to disregard this note.
+
+Kind Regards,
+Felix
+",dashboard,
