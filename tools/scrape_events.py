@@ -170,9 +170,27 @@ def _event_key(e: dict) -> tuple:
     title = title.replace("‘", "'").replace("’", "'")  # smart quotes
     title = title.replace("“", '"').replace("”", '"')
     title = " ".join(title.split())                                # collapse whitespace
-    return (e.get("host", "").strip().lower(),
-            title,
-            (e.get("date_start", "") or "").strip())
+    # Drop common aggregator prefix decorations that get bolted onto titles
+    for prefix in ("annual conference ", "event - ", "[event] "):
+        if title.startswith(prefix):
+            title = title[len(prefix):]
+    # Collapse a literal repeated half ('foo bar foo bar' -> 'foo bar')
+    n = len(title)
+    if n >= 20:
+        mid = n // 2
+        if title[:mid].strip() == title[mid:].strip():
+            title = title[:mid].strip()
+
+    # Eventbrite scrapes the same event under different topic-category
+    # sub-hosts ('Eventbrite HK · finance' / '· asset management'). Collapse
+    # to the bare brand so the same event doesn't duplicate per category.
+    host = (e.get("host", "") or "").strip()
+    host = re.sub(r"\s*[·•\|].*$", "", host).lower()
+
+    # Date is intentionally omitted from the key — a duplicate scraped on a
+    # different listing page often has a missing or different date. Same
+    # (host, title) almost always means same event.
+    return (host, title)
 
 
 def _is_keepable(e: dict) -> tuple[bool, str]:
