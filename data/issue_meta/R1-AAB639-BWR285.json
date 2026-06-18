@@ -13,9 +13,9 @@
   "primary_ro": "TERUYA Takashi",
   "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/AAB639/details?locale=en",
   "email_subject": "Congratulations on your RO appointment at Daiwa Capital Markets",
-  "email_body": "Dear Complaintofficer and Daiwa Capital Markets Management,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at Daiwa Capital Markets.\n\nFor illiquid managers like yourself, the marks the RO signs off on tend to be the most scrutinised line items on the books — LPs want comfort, auditors want defensibility, and internal-only marks usually invite more questions than they close. Kroll's Portfolio Valuation team here in Hong Kong helps with exactly that — robust independent valuations across private equity, private credit, and other illiquid strategies.\n\nIf a quick chat would be useful — now, or down the line — happy to set one up. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "email_body": "Dear Takashi,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at Daiwa Capital Markets.\n\nFor illiquid managers like yourself, the marks the RO signs off on tend to be the most scrutinised line items on the books — LPs want comfort, auditors want defensibility, and internal-only marks usually invite more questions than they close. Kroll's Portfolio Valuation team here in Hong Kong helps with exactly that — robust independent valuations across private equity, private credit, and other illiquid strategies.\n\nIf a quick chat would be useful — now, or down the line — happy to set one up. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
   "variant_id": "R1-v3-PV",
-  "email_body_hash": "68f3b56924",
+  "email_body_hash": "28c66f71f3",
   "email_candidates": [
     {
       "email": "complaintofficer@hk.daiwacm.com",

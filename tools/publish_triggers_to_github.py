@@ -183,15 +183,32 @@ def _ro_first_from_full_name(full: str) -> str | None:
 
 
 def compute_salutation_from_meta(meta: dict, natural: str) -> str:
-    """Compute the Dear-line salutation from what's actually verified on the
-    card. Priority:
+    """Compute the Dear-line salutation from what's verified on the card.
+
+    R1 emails are personal congratulations to the newly appointed RO —
+    address that RO directly with first name only ('Wayne'), no firm
+    'Management' suffix. The trigger's named RO is always used (since
+    R1 is by definition about that specific person).
+
+    C1 / C2 / C5 emails are firm-level — addressed via a contact:
       C) personal-RO email verified  -> 'Wayne and {natural} Management'
       B) personal-named corp inbox    -> 'Haifeng and {natural} Management'
       A) generic corp inbox verified -> '{natural} Management'
-      D) nothing verified            -> '{natural} Management' (safe default)
+      D) nothing verified            -> '{natural} Management'
 
     Confidence considered 'verified': hunter_verified, verified, very_high, high.
     """
+    # ---- R1: personal congrats to the named RO; no firm suffix ----
+    trigger_type = (meta.get("type") or "").upper()
+    if trigger_type == "R1":
+        ros = meta.get("ros") or []
+        if ros:
+            ro_first = _ro_first_from_full_name(ros[0].get("name", ""))
+            if ro_first:
+                return ro_first
+        return f"{natural} Management"  # super-fallback
+
+    # ---- C1 / C2 / C5: contact + firm Management ----
     ec = meta.get("email_candidates") or []
     verified_confs = ("hunter_verified", "verified", "very_high", "high")
 

@@ -13,9 +13,9 @@
   "primary_ro": "ZHONG Kuiting",
   "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BVD261/details?locale=en",
   "email_subject": "Congratulations on your RO appointment at Tianfu International Securities Group",
-  "email_body": "Dear Tianfu and Tianfu International Securities Group Management,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at Tianfu International Securities Group.\n\nFor newly appointed ROs like yourself, settling into the role often means getting a clear view of where the firm's compliance posture sits — internal policies, current filings, ongoing SFC engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps SFC-licensed firms with exactly that, scaled to the firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "email_body": "Dear Kuiting,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at Tianfu International Securities Group.\n\nFor newly appointed ROs like yourself, settling into the role often means getting a clear view of where the firm's compliance posture sits — internal policies, current filings, ongoing SFC engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps SFC-licensed firms with exactly that, scaled to the firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
   "variant_id": "R1-v3-FSCR",
-  "email_body_hash": "679778803e",
+  "email_body_hash": "e5bfe2ae71",
   "email_candidates": [
     {
       "email": "tianfu@tfsecgroup.com",
