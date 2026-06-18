@@ -74,10 +74,10 @@
   "parent_org": "",
   "classification_source": "website",
   "website_accuracy": "probable",
-  "deep_scrape_attempted_utc": "2026-06-16T01:35:39.563957+00:00",
+  "deep_scrape_attempted_utc": "2026-06-18T06:45:50.446306+00:00",
   "deep_scrape_note": "site scraped — no new emails found",
   "hunter_hits": [],
-  "hunter_attempted_utc": "2026-06-16T01:35:39.611949+00:00",
+  "hunter_attempted_utc": "2026-06-18T06:45:50.494712+00:00",
   "sfc_filed_website": "www.finloop.hk",
   "bd_lane": "FSCR"
 }

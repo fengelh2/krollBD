@@ -74,10 +74,10 @@
   "parent_org": "",
   "classification_source": "website",
   "website_accuracy": "verified",
-  "deep_scrape_attempted_utc": "2026-06-16T01:35:40.734272+00:00",
+  "deep_scrape_attempted_utc": "2026-06-18T06:45:50.525653+00:00",
   "deep_scrape_note": "site scraped — no new emails found",
   "hunter_hits": [],
-  "hunter_attempted_utc": "2026-06-16T01:35:40.791740+00:00",
+  "hunter_attempted_utc": "2026-06-18T06:45:50.583681+00:00",
   "sfc_filed_website": "https://cglim.com",
   "bd_lane": "PV"
 }
