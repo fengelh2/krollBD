@@ -28,7 +28,8 @@ PROJECT_ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(PROJECT_ROOT / "tools"))
 
 from publish_triggers_to_github import (
-    _pick_template, split_email, short_hash, compute_salutation_from_meta,
+    _pick_template, split_email, short_hash,
+    compute_salutation_from_meta, natural_company,
 )
 
 
@@ -72,18 +73,23 @@ def main():
              "skipped_other_type": 0, "skipped_not_open": 0,
              "skipped_no_meta_change": 0}
 
+    # Regen ALL meta files (open + closed). Closed metas still surface on the
+    # dashboard's "Reached out" view, and refreshing them so the cached body
+    # reflects current natural-name + salutation rules is harmless. The
+    # outreach_log.csv (what was actually sent) is immutable historical record.
     for path in sorted((PROJECT_ROOT / "data" / "issue_meta").glob("*.json")):
         tid = path.stem
-        if tid not in open_ids:
-            stats["skipped_not_open"] += 1
-            continue
         meta = json.load(path.open(encoding="utf-8"))
         t = meta.get("type")
         if t not in ("C1", "R1"):
             stats["skipped_other_type"] += 1
             continue
         ce = meta.get("ceref", "")
-        natural = meta.get("natural", "")
+        # Recompute natural from the legal name so we pick up any updated
+        # stripping rules / title-casing (the cached meta.natural may be stale
+        # if natural_company() has been improved since the trigger was published).
+        natural = natural_company(meta.get("firm") or meta.get("natural", ""), ce)
+        meta["natural"] = natural
         # New salutation logic: read from verified email_candidates (case C ->
         # personal RO email, case B -> personal-named corp inbox, case A/D ->
         # generic). Replaces the old "always use primary RO first name" rule.

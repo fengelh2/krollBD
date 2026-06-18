@@ -17,26 +17,10 @@
   ],
   "primary_ro": "CHEN Long",
   "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BXH402/details?locale=en",
-  "email_subject": "Congratulations on LYFE Capital Investment's SFC Type 9 licence",
-  "email_body": "Dear Long,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on LYFE Capital Investment's recent Type 9 licensing with the SFC.\n\nFor illiquid managers like yourself, as you get ready to start deploying capital, the recurring question is how to mark private positions in a way that holds up with LPs and auditors. Kroll's Portfolio Valuation team here in Hong Kong helps with exactly that — across private equity, private credit, and other illiquid strategies.\n\nIf a quick chat would be useful — now, or down the line — happy to set one up. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
-  "per_ro_drafts": [
-    {
-      "ro_name": "CHEN Long",
-      "ro_ceref": "BXH407",
-      "salutation": "Long",
-      "email_subject": "Congratulations on LYFE Capital Investment's SFC Type 9 licence",
-      "email_body": "Dear Long,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on LYFE Capital Investment's recent Type 9 licensing with the SFC.\n\nFor illiquid managers like yourself, as you get ready to start deploying capital, the recurring question is how to mark private positions in a way that holds up with LPs and auditors. Kroll's Portfolio Valuation team here in Hong Kong helps with exactly that — across private equity, private credit, and other illiquid strategies.\n\nIf a quick chat would be useful — now, or down the line — happy to set one up. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n"
-    },
-    {
-      "ro_name": "LI Yuan",
-      "ro_ceref": "BXH408",
-      "salutation": "Yuan",
-      "email_subject": "Congratulations on LYFE Capital Investment's SFC Type 9 licence",
-      "email_body": "Dear Yuan,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on LYFE Capital Investment's recent Type 9 licensing with the SFC.\n\nFor illiquid managers like yourself, as you get ready to start deploying capital, the recurring question is how to mark private positions in a way that holds up with LPs and auditors. Kroll's Portfolio Valuation team here in Hong Kong helps with exactly that — across private equity, private credit, and other illiquid strategies.\n\nIf a quick chat would be useful — now, or down the line — happy to set one up. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n"
-    }
-  ],
-  "variant_id": "C1-v3-PV",
-  "email_body_hash": "1cb98d6210",
+  "email_subject": "Congratulations on LYFE Capital Investment's SFC Type 9 license",
+  "email_body": "Dear Wchen and LYFE Capital Investment Management,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on LYFE Capital Investment's recent Type 9 licensing with the SFC.\n\nFor illiquid managers like yourself, as you get ready to start deploying capital, the recurring question is how to mark private positions in a way that holds up with LPs and auditors. Kroll's Portfolio Valuation team here in Hong Kong helps with exactly that — across private equity, private credit, and other illiquid strategies.\n\nIf a quick chat would be useful — now, or down the line — happy to set one up. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "variant_id": "C1-v4-PV",
+  "email_body_hash": "019daf8310",
   "email_candidates": [
     {
       "email": "wchen@lyfecapital.com",

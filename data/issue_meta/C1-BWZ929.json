@@ -2,7 +2,7 @@
   "type": "C1",
   "type_label": "New Type 9 corp",
   "firm": "HONG KONG FENGHE INVESTMENT CO., LIMITED",
-  "natural": "HONG KONG FENGHE INVESTMENT",
+  "natural": "Fenghe Investment",
   "ceref": "BWZ929",
   "address": "Rm 31, 2/F,, 143 Wai Yip Street,, Kwun Tong, Hong Kong",
   "ros": [
@@ -17,10 +17,10 @@
   ],
   "primary_ro": "HE Liang",
   "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BWZ929/details?locale=en",
-  "email_subject": "Congratulations on HONG KONG FENGHE INVESTMENT's SFC Type 9 license",
-  "email_body": "Dear HONG KONG FENGHE INVESTMENT Management,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on HONG KONG FENGHE INVESTMENT's recent Type 9 licensing with the SFC.\n\nAs newly licensed managers like yourself establish and scale operations, we often see a need for practical support around compliance, governance, and regulatory engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps with exactly that, scaled to your firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "email_subject": "Congratulations on Fenghe Investment's SFC Type 9 license",
+  "email_body": "Dear Fenghe Investment Management,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on Fenghe Investment's recent Type 9 licensing with the SFC.\n\nAs newly licensed managers like yourself establish and scale operations, we often see a need for practical support around compliance, governance, and regulatory engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps with exactly that, scaled to your firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
   "variant_id": "C1-v4-FSCR",
-  "email_body_hash": "39903a8113",
+  "email_body_hash": "ab09e3d83a",
   "email_candidates": [
     {
       "email": "lhe15584179@gmail.com",

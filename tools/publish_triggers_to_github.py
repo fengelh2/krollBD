@@ -198,6 +198,18 @@ def compute_salutation_from_meta(meta: dict, natural: str) -> str:
 
     Confidence considered 'verified': hunter_verified, verified, very_high, high.
     """
+    # Helper: append 'Management' unless the natural name already ends in
+    # 'Management' / 'Mgmt' (e.g. 'NC Management' would otherwise become
+    # 'NC Management Management').
+    def _firm_block(nat: str) -> str:
+        s = (nat or "").strip().rstrip(",. ")
+        low = s.lower()
+        if low.endswith(" management") or low.endswith(" mgmt") or low == "management":
+            return s
+        return f"{s} Management"
+
+    firm_block = _firm_block(natural)
+
     # ---- R1: personal congrats to the named RO; no firm suffix ----
     trigger_type = (meta.get("type") or "").upper()
     if trigger_type == "R1":
@@ -206,7 +218,7 @@ def compute_salutation_from_meta(meta: dict, natural: str) -> str:
             ro_first = _ro_first_from_full_name(ros[0].get("name", ""))
             if ro_first:
                 return ro_first
-        return f"{natural} Management"  # super-fallback
+        return firm_block  # super-fallback
 
     # ---- C1 / C2 / C5: contact + firm Management ----
     ec = meta.get("email_candidates") or []
@@ -237,10 +249,10 @@ def compute_salutation_from_meta(meta: dict, natural: str) -> str:
 
     if case_c:
         ro_first = _ro_first_from_full_name(case_c) or case_c
-        return f"{ro_first} and {natural} Management"
+        return f"{ro_first} and {firm_block}"
     if case_b:
-        return f"{case_b} and {natural} Management"
-    return f"{natural} Management"
+        return f"{case_b} and {firm_block}"
+    return firm_block
 
 
 def _ro_salutation(ro: dict | None, natural: str) -> str:
@@ -348,7 +360,23 @@ def natural_company(name: str, ceref: str | None = None) -> str:
     parts = s.split()
     if len(parts) >= 3 and parts[-1].lower() == "management":
         s = " ".join(parts[:-1]).rstrip(",. ")
-    return s.strip()
+    s = s.strip()
+
+    # All-caps SFC names: strip leading geographic prefix ('HONG KONG FENGHE
+    # INVESTMENT' -> 'FENGHE INVESTMENT'), then title-case. This catches
+    # 'HONG KONG ' / 'CHINA ' / 'ASIAN ' / 'ASIA ' style legal prefixes that
+    # are jurisdictional padding, not part of the brand. Only fires on
+    # all-uppercase names so mixed-case brands ('NC Management', 'JPMorgan')
+    # are untouched.
+    letters = "".join(c for c in s if c.isalpha())
+    if letters and letters.isupper():
+        # Strip leading geographic prefix (case-insensitive on the now-uppercase string)
+        for prefix in ("HONG KONG ", "CHINA ", "GREATER CHINA ", "ASIAN ", "ASIA ", "GLOBAL "):
+            if s.upper().startswith(prefix) and len(s) > len(prefix) + 2:
+                s = s[len(prefix):].lstrip()
+                break
+        s = s.title()
+    return s
 
 
 # ============================================================================
