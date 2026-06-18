@@ -80,10 +80,10 @@
   "parent_org": "Bright Smart Securities International (H.K.) Limited",
   "classification_source": "consensus_website_plus",
   "website_accuracy": "suspect",
-  "deep_scrape_attempted_utc": "2026-06-16T01:35:44.102517+00:00",
+  "deep_scrape_attempted_utc": "2026-06-18T06:45:54.027326+00:00",
   "deep_scrape_note": "site scraped — no new emails found",
   "hunter_hits": [],
-  "hunter_attempted_utc": "2026-06-16T01:35:44.138508+00:00",
+  "hunter_attempted_utc": "2026-06-18T06:45:54.064212+00:00",
   "sfc_filed_website": "www.bsgroup.com.hk",
   "bd_lane": "FSCR"
 }
