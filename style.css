@@ -43,6 +43,11 @@ button{font-family:inherit}
 }
 .tabs a:hover{color:var(--fg);text-decoration:none}
 .tabs a.active{color:var(--fg);border-bottom-color:var(--fg)}
+
+.subtabs{display:flex;gap:2px;margin:0 0 12px;padding:6px 0;border-bottom:1px solid var(--line)}
+.subtabs a{padding:5px 12px;font-size:11.5px;color:var(--muted);font-weight:500;border:1px solid transparent;border-radius:4px;background:transparent}
+.subtabs a:hover{color:var(--fg);background:#f3f4f6;text-decoration:none}
+.subtabs a.active{color:var(--fg);background:#eef2ff;border-color:#c7d2fe}
 .nav-badge{display:inline-block;margin-left:6px;padding:1px 7px;
   background:#6b7280;color:#fff;font-size:10px;font-weight:600;border-radius:10px;
   line-height:1.4;vertical-align:middle;font-variant-numeric:tabular-nums}

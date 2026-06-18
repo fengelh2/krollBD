@@ -71,12 +71,28 @@
     return ROUTES.includes(tab) ? tab : "overview";
   }
 
+  // Database sub-tab group: Corps / Individuals / Pairs share one top-level
+  // "Database" tab and toggle which sub-view is visible via a sub-nav.
+  const DB_SUBTABS = ["corps", "individuals", "pairs"];
+
   function showView(tab) {
     ROUTES.forEach(r => {
       const el = document.getElementById(`view-${r}`);
       if (el) el.hidden = (r !== tab);
     });
-    $$("#tabs a").forEach(a => a.classList.toggle("active", a.dataset.tab === tab));
+    const inDb = DB_SUBTABS.includes(tab);
+    // Top-level "Database" link stays highlighted across all three sub-views.
+    $$("#tabs a").forEach(a => {
+      const matchesTab = (a.dataset.tab === tab);
+      const matchesDbGroup = (a.dataset.group === "database" && inDb);
+      a.classList.toggle("active", matchesTab || matchesDbGroup);
+    });
+    // Sub-nav strip only visible when on a Database sub-view.
+    const subnav = document.getElementById("database-subtabs");
+    if (subnav) {
+      subnav.hidden = !inDb;
+      $$("#database-subtabs a").forEach(a => a.classList.toggle("active", a.dataset.subtab === tab));
+    }
   }
 
   async function route() {

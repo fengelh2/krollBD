@@ -6,7 +6,7 @@
 <title>Kroll PortVal · BD Command Center</title>
 <link rel="preconnect" href="https://api.github.com">
 <link rel="preconnect" href="https://raw.githubusercontent.com">
-<link rel="stylesheet" href="style.css?v=51">
+<link rel="stylesheet" href="style.css?v=52">
 </head>
 <body>
 <header class="topbar">
@@ -22,9 +22,7 @@
   </div>
   <nav class="tabs" id="tabs">
     <a href="#/overview" data-tab="overview">Overview</a>
-    <a href="#/corps" data-tab="corps">Corps</a>
-    <a href="#/individuals" data-tab="individuals">Individuals</a>
-    <a href="#/pairs" data-tab="pairs">Corp &harr; RO pairs</a>
+    <a href="#/corps" data-tab="corps" data-group="database">Database</a>
     <a href="#/triggers" data-tab="triggers">Triggers<span class="nav-badge" id="nav-triggers-badge" hidden></span></a>
     <a href="#/events" data-tab="events">Events<span class="nav-badge" id="nav-events-badge" hidden></span></a>
   </nav>
@@ -77,6 +75,13 @@
     </div>
   </div>
 </section>
+
+<!-- ============ DATABASE (Corps / Individuals / Pairs) ============ -->
+<nav class="subtabs" id="database-subtabs" hidden>
+  <a href="#/corps" data-subtab="corps">Corps</a>
+  <a href="#/individuals" data-subtab="individuals">Individuals</a>
+  <a href="#/pairs" data-subtab="pairs">Corp &harr; RO pairs</a>
+</nav>
 
 <!-- ============ CORPS ============ -->
 <section class="view" id="view-corps" hidden>
@@ -245,11 +250,11 @@
   <p>Data CSVs (snapshots + classification) are read from the triggers repo under <code>data/</code>. See <a href="DESIGN_NOTES.md">DESIGN_NOTES.md</a>.</p>
 </footer>
 
-<script src="data.js?v=51"></script>
-<script src="triggers.js?v=51"></script>
-<script src="overview.js?v=51"></script>
-<script src="tables.js?v=51"></script>
-<script src="events.js?v=51"></script>
-<script src="app.js?v=51"></script>
+<script src="data.js?v=52"></script>
+<script src="triggers.js?v=52"></script>
+<script src="overview.js?v=52"></script>
+<script src="tables.js?v=52"></script>
+<script src="events.js?v=52"></script>
+<script src="app.js?v=52"></script>
 </body>
 </html>
