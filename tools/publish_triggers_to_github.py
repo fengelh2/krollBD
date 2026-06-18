@@ -157,15 +157,61 @@ def _first_name_from_local_part(local: str) -> str | None:
     return s.capitalize()
 
 
+# Common Western/English given names that show up among HK SFC ROs. When an RO
+# is registered with both a Chinese and a Western given name (e.g.
+# 'CHANG Brian Hongwei'), we want to greet with the Western one ('Brian') only.
+# Conservative list — known false positives like 'May' / 'June' / 'April' would
+# match Chinese surname patterns are excluded.
+_WESTERN_FIRST_NAMES = {
+    # Male
+    "aaron","alan","alex","alexander","alexis","alfred","allan","andrew","andy",
+    "anthony","arthur","austin","ben","benjamin","bernard","bill","bob","brad",
+    "brandon","brian","bruce","bryan","cameron","carl","charles","charlie","chris",
+    "christopher","colin","craig","dan","daniel","dave","david","dean","dennis",
+    "derek","dominic","don","donald","douglas","duncan","edward","eric","erik",
+    "ethan","eugene","felix","frank","fred","gary","gavin","geoff","george","glenn",
+    "gordon","graham","grant","greg","harold","harry","henry","howard","hugh","ian",
+    "jack","jacob","james","jason","jeff","jeffrey","jerry","jim","jimmy","joe",
+    "john","jonathan","joseph","joshua","justin","keith","ken","kenneth","kevin",
+    "larry","lawrence","leo","leonard","lewis","louis","luke","marcus","mark","martin",
+    "matthew","max","michael","mike","nathan","neil","nicholas","nick","noel","oliver",
+    "oscar","patrick","paul","peter","philip","phillip","quentin","ralph","raymond",
+    "rex","richard","rick","rob","robert","robin","roger","ron","ronald","roy",
+    "russell","ryan","sam","samuel","scott","sean","sebastian","simon","stephen",
+    "steve","steven","stuart","terry","thomas","tim","timothy","todd","tom","tony",
+    "vincent","warren","wayne","william","winston","wilson",
+    # Female
+    "alice","amanda","amy","andrea","angela","ann","anna","anne","barbara","beatrice",
+    "betty","beverly","brenda","candice","carol","caroline","catherine","cathy",
+    "charlotte","cheryl","chloe","christine","cindy","clara","claire","connie",
+    "constance","crystal","daisy","dawn","deborah","debra","denise","diana","diane",
+    "donna","dorothy","elaine","eleanor","elizabeth","ellen","emily","emma","erica",
+    "eva","evelyn","fiona","flannie","flora","florence","frances","gillian","gloria",
+    "grace","hannah","harriet","heather","helen","iris","irene","isabel","isabella",
+    "jacqueline","jane","janet","janice","jean","jeanette","jenna","jenny","jessica",
+    "jill","joan","joanna","joanne","jocelyn","joy","joyce","judith","judy","julia",
+    "julie","karen","kate","katherine","kathleen","kathy","kelly","kim","kimberly",
+    "kristen","kristina","laura","lauren","linda","lisa","lorraine","louise","lucy",
+    "lynn","margaret","maria","marian","marie","marilyn","martha","mary","maureen",
+    "melissa","michelle","molly","monica","nancy","naomi","natalie","nicole","nora",
+    "olivia","pamela","patricia","pauline","peggy","phoebe","rachel","rebecca","renee",
+    "rita","rosa","rose","rosemary","ruby","ruth","sally","samantha","sandra","sarah",
+    "sharon","sheila","shirley","sonia","sophia","sophie","stephanie","sue","susan",
+    "suzanne","sylvia","tammy","teresa","theresa","tiffany","tina","tracey","tracy",
+    "vanessa","vera","veronica","victoria","virginia","wendy","winnie","yvonne","zoe",
+}
+
+
 def _ro_first_from_full_name(full: str) -> str | None:
     """Extract the English first name from an SFC RO full-name string.
 
     Patterns:
-      'TSANG Wai Hang, Wayne'  -> 'Wayne'  (after comma)
-      'LEUNG King Yue, Alex'   -> 'Alex'
-      'WANG Dan'               -> 'Dan'    (surname first if ALL CAPS)
-      'MAK Tin Chak'           -> 'Tin Chak'
-      'REN Wenjie'             -> 'Wenjie'
+      'TSANG Wai Hang, Wayne'   -> 'Wayne'  (comma separates Chinese given + Western)
+      'LEUNG King Yue, Alex'    -> 'Alex'
+      'WANG Dan'                -> 'Dan'    (no comma, single given name)
+      'MAK Tin Chak'            -> 'Tin Chak' (no comma, Chinese given name in 2 chars)
+      'CHANG Brian Hongwei'     -> 'Brian'  (no comma, Western name + Chinese, prefer Western)
+      'REN Wenjie'              -> 'Wenjie'
     """
     s = (full or "").strip()
     if not s:
@@ -178,7 +224,14 @@ def _ro_first_from_full_name(full: str) -> str | None:
         return None
     # Convention: surname is the ALL-CAPS leading token; rest is given name(s)
     if len(parts) >= 2 and parts[0].isupper():
-        return " ".join(p.capitalize() for p in parts[1:])
+        post = parts[1:]
+        # If any post-surname token is a recognised Western given name, use that
+        # one alone — avoids "Brian Hongwei" awkwardness for HK ROs registered
+        # with both Western and Chinese given names.
+        for tok in post:
+            if tok.lower() in _WESTERN_FIRST_NAMES:
+                return tok.capitalize()
+        return " ".join(p.capitalize() for p in post)
     return parts[0].capitalize() if parts else None
 
 

@@ -13,9 +13,9 @@
   "primary_ro": "FU Flannie Lan",
   "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BTR656/details?locale=en",
   "email_subject": "Congratulations on your RO appointment at Spectrum Finance",
-  "email_body": "Dear Flannie Lan,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at Spectrum Finance.\n\nFor illiquid managers like yourself, the marks the RO signs off on tend to be the most scrutinised line items on the books — LPs want comfort, auditors want defensibility, and internal-only marks usually invite more questions than they close. Kroll's Portfolio Valuation team here in Hong Kong helps with exactly that — robust independent valuations across private equity, private credit, and other illiquid strategies.\n\nIf a quick chat would be useful — now, or down the line — happy to set one up. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "email_body": "Dear Flannie,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at Spectrum Finance.\n\nFor illiquid managers like yourself, the marks the RO signs off on tend to be the most scrutinised line items on the books — LPs want comfort, auditors want defensibility, and internal-only marks usually invite more questions than they close. Kroll's Portfolio Valuation team here in Hong Kong helps with exactly that — robust independent valuations across private equity, private credit, and other illiquid strategies.\n\nIf a quick chat would be useful — now, or down the line — happy to set one up. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
   "variant_id": "R1-v3-PV",
-  "email_body_hash": "2ac3e20b37",
+  "email_body_hash": "3be9a98067",
   "email_candidates": [
     {
       "email": "general@spectrum-capital.net",
