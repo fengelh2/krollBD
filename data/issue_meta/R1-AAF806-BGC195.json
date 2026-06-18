@@ -74,10 +74,10 @@
   "parent_org": "Haitong Securities Co., Ltd.",
   "classification_source": "llm_on_name",
   "website_accuracy": "suspect",
-  "deep_scrape_attempted_utc": "2026-06-16T01:35:38.365819+00:00",
+  "deep_scrape_attempted_utc": "2026-06-18T06:45:49.246192+00:00",
   "deep_scrape_note": "site scraped — no new emails found",
   "hunter_hits": [],
-  "hunter_attempted_utc": "2026-06-16T01:35:38.397300+00:00",
+  "hunter_attempted_utc": "2026-06-18T06:45:49.278742+00:00",
   "sfc_filed_website": "www.htisec.com",
   "bd_lane": "PV"
 }
