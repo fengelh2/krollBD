@@ -8,7 +8,7 @@
 
   const STATE = {
     rows: [],
-    filters: { search: "", host: "", topic: "", window: "future" },
+    filters: { search: "", host: "", topic: "", window: "future", mode: "in_person" },
   };
 
   function withinWindow(dateStr, window) {
@@ -28,8 +28,10 @@
   function syncEventsHash() {
     const f = STATE.filters;
     const parts = [];
-    for (const k of ["search", "host", "topic", "window"]) {
-      if (f[k] && f[k] !== "future") parts.push(`${k}=${encodeURIComponent(f[k])}`);
+    for (const k of ["search", "host", "topic", "window", "mode"]) {
+      // skip defaults so the URL stays clean
+      const defaultVal = (k === "window") ? "future" : (k === "mode") ? "in_person" : "";
+      if (f[k] && f[k] !== defaultVal) parts.push(`${k}=${encodeURIComponent(f[k])}`);
     }
     const newHash = "#/events" + (parts.length ? "?" + parts.join("&") : "");
     if (window.location.hash !== newHash) {
@@ -43,6 +45,9 @@
       if (f.host && r.host !== f.host) return false;
       if (f.topic && !((r.topic || "").includes(f.topic))) return false;
       if (!withinWindow(r.date_start, f.window)) return false;
+      const isVirtual = (r.is_virtual || "").toString().toLowerCase() === "true";
+      if (f.mode === "in_person" && isVirtual) return false;
+      if (f.mode === "virtual" && !isVirtual) return false;
       if (f.search) {
         const s = f.search.toLowerCase();
         const hay = (r.title + " " + r.speakers + " " + r.venue + " " + r.host).toLowerCase();
@@ -122,6 +127,7 @@
     $("#events-host").addEventListener("change", onChange("host"));
     $("#events-topic").addEventListener("change", onChange("topic"));
     $("#events-window").addEventListener("change", onChange("window"));
+    $("#events-mode").addEventListener("change", onChange("mode"));
   }
 
   function populateFilterOptions() {

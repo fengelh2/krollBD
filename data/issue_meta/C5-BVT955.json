@@ -18,9 +18,9 @@
   "primary_ro": "REN Yi",
   "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BVT955/details?locale=en",
   "email_subject": "Mega-Faith Associates — note on the recent rebrand",
-  "email_body": "Dear Yi,\n\nThis is Felix from Kroll in Hong Kong. The SFC public register shows that Everon Associates has been renamed to Mega-Faith Associates.\n\nRebrands often accompany broader changes — a new sponsor, a strategy refresh, or an organisational reshape — and these moments are often a natural time to revisit fund-level valuation policies and the operating arrangements behind them.\n\nKroll's Portfolio Valuation team works with SFC-regulated managers across Hong Kong on independent fair-value opinions for private equity and credit positions, and our adjacent FSCR colleagues support governance and regulatory engagement. Happy to set up an informal call if any of this would be useful as you transition.\n\nKind regards,\nFelix Engelhardt\n",
-  "variant_id": "C5-v1",
-  "email_body_hash": "c5ff76eacc",
+  "email_body": "Dear Everon and Mega-Faith Associates Management,\n\nThis is Felix from Kroll in Hong Kong. The SFC public register shows that Everon Associates has been renamed to Mega-Faith Associates.\n\nRebrands often accompany broader changes — a new sponsor, a strategy refresh, or an organisational reshape — and these moments are often a natural time to revisit fund-level valuation policies and the operating arrangements behind them.\n\nKroll's Portfolio Valuation team works with SFC-regulated managers across Hong Kong on independent fair-value opinions for private equity and credit positions, and our adjacent FSCR colleagues support governance and regulatory engagement. Happy to set up an informal call if any of this would be useful as you transition.\n\nKind regards,\nFelix Engelhardt\n",
+  "variant_id": "C5-v2",
+  "email_body_hash": "0b45d9b3de",
   "email_candidates": [
     {
       "email": "everon@everonfund.com",

@@ -22,9 +22,9 @@
   "primary_ro": "LEONG Chi Wai",
   "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/AEU809/details?locale=en",
   "email_subject": "Vajra Capital — note on the recent rebrand",
-  "email_body": "Dear Chi Wai,\n\nThis is Felix from Kroll in Hong Kong. The SFC public register shows that Hua Yu Investment has been renamed to Vajra Capital.\n\nRebrands often accompany broader changes — a new sponsor, a strategy refresh, or an organisational reshape — and these moments are often a natural time to revisit fund-level valuation policies and the operating arrangements behind them.\n\nKroll's Portfolio Valuation team works with SFC-regulated managers across Hong Kong on independent fair-value opinions for private equity and credit positions, and our adjacent FSCR colleagues support governance and regulatory engagement. Happy to set up an informal call if any of this would be useful as you transition.\n\nKind regards,\nFelix Engelhardt\n",
-  "variant_id": "C5-v1",
-  "email_body_hash": "6571750734",
+  "email_body": "Dear Vajra Capital Management,\n\nThis is Felix from Kroll in Hong Kong. The SFC public register shows that Hua Yu Investment has been renamed to Vajra Capital.\n\nRebrands often accompany broader changes — a new sponsor, a strategy refresh, or an organisational reshape — and these moments are often a natural time to revisit fund-level valuation policies and the operating arrangements behind them.\n\nKroll's Portfolio Valuation team works with SFC-regulated managers across Hong Kong on independent fair-value opinions for private equity and credit positions, and our adjacent FSCR colleagues support governance and regulatory engagement. Happy to set up an informal call if any of this would be useful as you transition.\n\nKind regards,\nFelix Engelhardt\n",
+  "variant_id": "C5-v2",
+  "email_body_hash": "79ed052b05",
   "email_candidates": [
     {
       "email": "info@vajraltd.com",

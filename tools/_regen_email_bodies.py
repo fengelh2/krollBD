@@ -30,6 +30,7 @@ sys.path.insert(0, str(PROJECT_ROOT / "tools"))
 from publish_triggers_to_github import (
     _pick_template, split_email, short_hash,
     compute_salutation_from_meta, natural_company,
+    C2_TEMPLATE, C5_TEMPLATE,
 )
 
 
@@ -81,7 +82,7 @@ def main():
         tid = path.stem
         meta = json.load(path.open(encoding="utf-8"))
         t = meta.get("type")
-        if t not in ("C1", "R1"):
+        if t not in ("C1", "R1", "C2", "C5"):
             stats["skipped_other_type"] += 1
             continue
         ce = meta.get("ceref", "")
@@ -95,16 +96,27 @@ def main():
         # generic). Replaces the old "always use primary RO first name" rule.
         salutation = compute_salutation_from_meta(meta, natural)
 
-        firm_illiq = illiq.get(ce, "")
-        template, lane = _pick_template(t, firm_illiq)
-        body = template.format(natural=natural, salutation=salutation)
+        if t in ("C1", "R1"):
+            firm_illiq = illiq.get(ce, "")
+            template, lane = _pick_template(t, firm_illiq)
+            body = template.format(natural=natural, salutation=salutation)
+            stats_key = f"{t}-{lane}"
+            meta["bd_lane"] = lane
+            meta["variant_id"] = f"{t}-v4-{lane}" if t == "C1" else f"R1-v3-{lane}"
+        elif t == "C2":
+            body = C2_TEMPLATE.format(natural=natural, salutation=salutation)
+            stats_key = "C2"
+            meta["variant_id"] = "C2-v2"
+        elif t == "C5":
+            old_natural = natural_company(meta.get("old_firm", ""), ce) or natural
+            body = C5_TEMPLATE.format(natural=natural, old_natural=old_natural, salutation=salutation)
+            stats_key = "C5"
+            meta["variant_id"] = "C5-v2"
         subj, body_only = split_email(body)
 
         meta["email_subject"] = subj
         meta["email_body"] = body_only
         meta["email_body_hash"] = short_hash(subj + "\n" + body_only)
-        meta["bd_lane"] = lane
-        meta["variant_id"] = f"{t}-v4-{lane}" if t == "C1" else f"R1-v3-{lane}"
 
         # per_ro_drafts no longer needed: the body's "Dear ..." is now keyed
         # off whatever's verified on the card, not per-RO. Drop the field so
@@ -112,7 +124,7 @@ def main():
         meta.pop("per_ro_drafts", None)
 
         json.dump(meta, path.open("w", encoding="utf-8"), indent=2, ensure_ascii=False)
-        stats[f"{t}-{lane}"] += 1
+        stats[stats_key] = stats.get(stats_key, 0) + 1
 
     print("=== regen summary ===")
     for k, v in stats.items():
