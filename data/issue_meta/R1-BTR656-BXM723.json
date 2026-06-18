@@ -86,10 +86,10 @@
   "parent_org": "",
   "classification_source": "website",
   "website_accuracy": "verified",
-  "deep_scrape_attempted_utc": "2026-06-16T01:35:51.181698+00:00",
+  "deep_scrape_attempted_utc": "2026-06-18T06:45:56.563237+00:00",
   "deep_scrape_note": "site scraped — no new emails found",
   "hunter_hits": [],
-  "hunter_attempted_utc": "2026-06-16T01:35:51.239466+00:00",
+  "hunter_attempted_utc": "2026-06-18T06:45:56.621814+00:00",
   "sfc_filed_website": "www.spectrum-capital.net",
   "bd_lane": "PV"
 }
