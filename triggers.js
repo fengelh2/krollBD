@@ -501,29 +501,37 @@
   function drawChart() {
     if (!$("#chart")) return;
     const weeks = weeksBack(12);
+    // Per-week tally across ALL trigger types (was C1+C2 only — also missed R1/C5)
     const byWeek = {};
-    for (const w of weeks) byWeek[w] = { C1: 0, C2: 0 };
+    for (const w of weeks) byWeek[w] = 0;
     for (const r of LOG_ROWS) {
       if (!r.sent_at_utc) continue;
       const wk = isoWeekKey(new Date(r.sent_at_utc));
-      if (byWeek[wk]) byWeek[wk][r.trigger_type] = (byWeek[wk][r.trigger_type] || 0) + 1;
+      if (byWeek[wk] !== undefined) byWeek[wk] += 1;
     }
-    const c1 = weeks.map(w => byWeek[w].C1);
-    const c2 = weeks.map(w => byWeek[w].C2);
-    const max = Math.max(1, ...c1, ...c2);
-    const W = 600, H = 100, PAD = 6;
-    const xStep = (W - PAD * 2) / Math.max(1, weeks.length - 1);
+    // Cumulative running total across the 12-week window
+    const perWeek = weeks.map(w => byWeek[w]);
+    const cum = [];
+    let acc = 0;
+    for (const v of perWeek) { acc += v; cum.push(acc); }
+
+    const W = 600, H = 100, PAD = 12;
+    const max = Math.max(1, cum[cum.length - 1]);
+    const barW = (W - PAD * 2) / weeks.length;
     const y = (v) => H - PAD - ((H - PAD * 2) * v / max);
-    const line = (arr) => arr.map((v, i) => `${PAD + i * xStep},${y(v)}`).join(" ");
+
+    const bars = cum.map((v, i) => {
+      const x = PAD + i * barW + 1;
+      const h = (H - PAD) - y(v);
+      return `<rect x="${x}" y="${y(v)}" width="${barW - 2}" height="${h}" fill="#1a3554" opacity="0.85"/>
+              <text x="${x + barW/2 - 1}" y="${y(v) - 3}" font-size="9" fill="#1a3554" font-family="Inter,sans-serif" text-anchor="middle">${v || ""}</text>`;
+    }).join("");
+
     $("#chart").innerHTML = `
       <line x1="0" y1="${H - PAD}" x2="${W}" y2="${H - PAD}" stroke="#e4e6ea" stroke-width="1"/>
-      <polyline fill="none" stroke="#1a3554" stroke-width="1.6" points="${line(c1)}"/>
-      <polyline fill="none" stroke="#9b1d23" stroke-width="1.6" points="${line(c2)}"/>
-      ${c1.map((v,i) => v ? `<circle cx="${PAD+i*xStep}" cy="${y(v)}" r="2.5" fill="#1a3554"/>` : "").join("")}
-      ${c2.map((v,i) => v ? `<circle cx="${PAD+i*xStep}" cy="${y(v)}" r="2.5" fill="#9b1d23"/>` : "").join("")}
+      ${bars}
       <text x="${PAD}" y="${H-1}" font-size="8" fill="#7a818b" font-family="Inter,sans-serif">${weeks[0]}</text>
       <text x="${W-PAD-38}" y="${H-1}" font-size="8" fill="#7a818b" font-family="Inter,sans-serif">${weeks[weeks.length-1]}</text>
-      <text x="${PAD}" y="10" font-size="8" fill="#7a818b" font-family="Inter,sans-serif">max ${max}</text>
     `;
   }
 
