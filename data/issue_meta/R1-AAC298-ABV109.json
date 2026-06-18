@@ -74,10 +74,10 @@
   "parent_org": "BOC International Holdings",
   "classification_source": "website",
   "website_accuracy": "probable",
-  "deep_scrape_attempted_utc": "2026-06-16T01:35:45.193975+00:00",
+  "deep_scrape_attempted_utc": "2026-06-18T06:45:55.177054+00:00",
   "deep_scrape_note": "site scraped — no new emails found",
   "hunter_hits": [],
-  "hunter_attempted_utc": "2026-06-16T01:35:45.225318+00:00",
+  "hunter_attempted_utc": "2026-06-18T06:45:55.208337+00:00",
   "sfc_filed_website": "www.bocionline.com",
   "bd_lane": "FSCR"
 }

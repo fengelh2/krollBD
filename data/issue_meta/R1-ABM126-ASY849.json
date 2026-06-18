@@ -80,10 +80,10 @@
   "parent_org": "",
   "classification_source": "none",
   "website_accuracy": "probable",
-  "deep_scrape_attempted_utc": "2026-06-16T01:35:44.183999+00:00",
+  "deep_scrape_attempted_utc": "2026-06-18T06:45:55.139174+00:00",
   "deep_scrape_note": "site scraped — no new emails found",
   "hunter_hits": [],
-  "hunter_attempted_utc": "2026-06-16T01:35:44.217574+00:00",
+  "hunter_attempted_utc": "2026-06-18T06:45:55.173675+00:00",
   "sfc_filed_website": "www.beevestsec.com",
   "verified_domain": "https://www.beevestsec.com",
   "bd_lane": "FSCR"

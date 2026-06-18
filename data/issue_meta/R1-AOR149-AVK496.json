@@ -74,10 +74,10 @@
   "parent_org": "",
   "classification_source": "website",
   "website_accuracy": "verified",
-  "deep_scrape_attempted_utc": "2026-06-16T01:35:45.237422+00:00",
+  "deep_scrape_attempted_utc": "2026-06-18T06:45:55.220411+00:00",
   "deep_scrape_note": "site scraped — no new emails found",
   "hunter_hits": [],
-  "hunter_attempted_utc": "2026-06-16T01:35:45.275937+00:00",
+  "hunter_attempted_utc": "2026-06-18T06:45:55.260382+00:00",
   "sfc_filed_website": "www.abaxcap.com",
   "bd_lane": "PV"
 }
