@@ -80,10 +80,10 @@
   "parent_org": "",
   "classification_source": "website",
   "website_accuracy": "verified",
-  "deep_scrape_attempted_utc": "2026-06-16T01:35:43.019225+00:00",
+  "deep_scrape_attempted_utc": "2026-06-18T06:45:52.889000+00:00",
   "deep_scrape_note": "site scraped — no new emails found",
   "hunter_hits": [],
-  "hunter_attempted_utc": "2026-06-16T01:35:43.056300+00:00",
+  "hunter_attempted_utc": "2026-06-18T06:45:52.926503+00:00",
   "sfc_filed_website": "http://www.chinaalphafund.com/",
   "bd_lane": "FSCR"
 }
