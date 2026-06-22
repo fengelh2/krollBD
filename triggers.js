@@ -523,8 +523,16 @@
     const bars = cum.map((v, i) => {
       const x = PAD + i * barW + 1;
       const h = (H - PAD) - y(v);
+      const delta = perWeek[i];
+      // Cumulative number sits on top of the bar; per-week delta below it
+      // (so a week with no new sends shows '+0' — making it visually clear
+      // that the bar height carrying over is not a duplicate of last week).
+      const deltaLbl = delta > 0
+        ? `<text x="${x + barW/2 - 1}" y="${y(v) + 9}" font-size="7" fill="#10b981" font-family="Inter,sans-serif" text-anchor="middle" font-weight="600">+${delta}</text>`
+        : `<text x="${x + barW/2 - 1}" y="${y(v) + 9}" font-size="7" fill="#9ca3af" font-family="Inter,sans-serif" text-anchor="middle">+0</text>`;
       return `<rect x="${x}" y="${y(v)}" width="${barW - 2}" height="${h}" fill="#1a3554" opacity="0.85"/>
-              <text x="${x + barW/2 - 1}" y="${y(v) - 3}" font-size="9" fill="#1a3554" font-family="Inter,sans-serif" text-anchor="middle">${v || ""}</text>`;
+              <text x="${x + barW/2 - 1}" y="${y(v) - 3}" font-size="9" fill="#1a3554" font-family="Inter,sans-serif" text-anchor="middle">${v || ""}</text>
+              ${deltaLbl}`;
     }).join("");
 
     $("#chart").innerHTML = `
