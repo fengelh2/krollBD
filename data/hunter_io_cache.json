@@ -898,5 +898,25 @@
     "source": "hunter.io",
     "fetched_at_utc": "2026-06-15T15:36:43+00:00",
     "quota_remaining_when_fetched": 33
+  },
+  "everbright.com|girish|kumarguru": {
+    "status": "ok",
+    "email": "girish.kumarguru@everbright.com",
+    "score": 88,
+    "confidence": "high",
+    "verification_status": "accept_all",
+    "source": "hunter.io",
+    "fetched_at_utc": "2026-06-22T03:40:21+00:00",
+    "quota_remaining_when_fetched": 12
+  },
+  "zerobridge.com|stephen beattie|hull": {
+    "status": "ok",
+    "email": "stephen.hull@zerobridge.com",
+    "score": 96,
+    "confidence": "high",
+    "verification_status": "valid",
+    "source": "hunter.io",
+    "fetched_at_utc": "2026-06-22T03:40:23+00:00",
+    "quota_remaining_when_fetched": 11
   }
 }

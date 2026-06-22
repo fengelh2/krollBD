@@ -1,0 +1,71 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "Unity Partners Asset Management Limited",
+  "natural": "Unity Partners Asset",
+  "ceref": "BVA319",
+  "ros": [
+    {
+      "name": "KUNG Lap Quin Kevin",
+      "ceref": "BEH962"
+    }
+  ],
+  "primary_ro": "KUNG Lap Quin Kevin",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BVA319/details?locale=en",
+  "email_subject": "Congratulations on your RO appointment at Unity Partners Asset",
+  "email_body": "Dear Lap,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at Unity Partners Asset.\n\nFor newly appointed ROs like yourself, settling into the role often means getting a clear view of where the firm's compliance posture sits — internal policies, current filings, ongoing SFC engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps SFC-licensed firms with exactly that, scaled to the firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "FSCR",
+  "variant_id": "R1-v2-FSCR",
+  "email_body_hash": "d48d59190b",
+  "email_candidates": [
+    {
+      "email": "lap.kung@unity-partners.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "KUNG Lap Quin Kevin"
+    },
+    {
+      "email": "lapkung@unity-partners.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "KUNG Lap Quin Kevin"
+    },
+    {
+      "email": "lkung@unity-partners.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "KUNG Lap Quin Kevin"
+    },
+    {
+      "email": "info@unity-partners.com",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    },
+    {
+      "email": "compliance@unity-partners.com",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    },
+    {
+      "email": "contact@unity-partners.com",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    },
+    {
+      "email": "enquiry@unity-partners.com",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    }
+  ],
+  "asset_classes": "unknown",
+  "illiq_likelihood": "unknown",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "none",
+  "website_accuracy": "not_found"
+}

@@ -1,0 +1,110 @@
+{
+  "type": "C1",
+  "type_label": "New Type 9 corp",
+  "firm": "SINO-EURO BUSINESS LIMITED",
+  "natural": "Sino-Euro Business",
+  "ceref": "BWY960",
+  "address": "Unit 1505, 15/F.,, W50 Tower, 44 Wong Chuk Hang Road,, Wong Chuk Hang, Hong Kong., Hong Kong",
+  "ros": [
+    {
+      "name": "AU Ka Wah",
+      "ceref": "BOB552"
+    },
+    {
+      "name": "WONG Hoi Ka",
+      "ceref": "BFK210"
+    }
+  ],
+  "primary_ro": "AU Ka Wah",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BWY960/details?locale=en",
+  "email_subject": "Congratulations on Sino-Euro Business's SFC Type 9 license",
+  "email_body": "Dear Ka Wah,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on Sino-Euro Business's recent Type 9 licensing with the SFC.\n\nAs newly licensed managers like yourself establish and scale operations, we often see a need for practical support around compliance, governance, and regulatory engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps with exactly that, scaled to your firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "per_ro_drafts": [
+    {
+      "ro_name": "AU Ka Wah",
+      "ro_ceref": "BOB552",
+      "salutation": "Ka Wah",
+      "email_subject": "Congratulations on Sino-Euro Business's SFC Type 9 license",
+      "email_body": "Dear Ka Wah,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on Sino-Euro Business's recent Type 9 licensing with the SFC.\n\nAs newly licensed managers like yourself establish and scale operations, we often see a need for practical support around compliance, governance, and regulatory engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps with exactly that, scaled to your firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n"
+    },
+    {
+      "ro_name": "WONG Hoi Ka",
+      "ro_ceref": "BFK210",
+      "salutation": "Hoi Ka",
+      "email_subject": "Congratulations on Sino-Euro Business's SFC Type 9 license",
+      "email_body": "Dear Hoi Ka,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on Sino-Euro Business's recent Type 9 licensing with the SFC.\n\nAs newly licensed managers like yourself establish and scale operations, we often see a need for practical support around compliance, governance, and regulatory engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps with exactly that, scaled to your firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n"
+    }
+  ],
+  "bd_lane": "FSCR",
+  "variant_id": "C1-v3-FSCR",
+  "email_body_hash": "3b09c2b292",
+  "email_candidates": [
+    {
+      "email": "ka.au@sinoeurobusiness.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "AU Ka Wah"
+    },
+    {
+      "email": "kaau@sinoeurobusiness.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "AU Ka Wah"
+    },
+    {
+      "email": "kau@sinoeurobusiness.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "AU Ka Wah"
+    },
+    {
+      "email": "hoi.wong@sinoeurobusiness.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "WONG Hoi Ka"
+    },
+    {
+      "email": "hoiwong@sinoeurobusiness.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "WONG Hoi Ka"
+    },
+    {
+      "email": "hwong@sinoeurobusiness.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "WONG Hoi Ka"
+    },
+    {
+      "email": "info@sinoeurobusiness.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    },
+    {
+      "email": "compliance@sinoeurobusiness.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    },
+    {
+      "email": "contact@sinoeurobusiness.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    },
+    {
+      "email": "enquiry@sinoeurobusiness.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    }
+  ],
+  "asset_classes": "unknown",
+  "illiq_likelihood": "unknown",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "none",
+  "website_accuracy": "not_found"
+}

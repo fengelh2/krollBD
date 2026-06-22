@@ -1,0 +1,48 @@
+{
+  "type": "C2",
+  "type_label": "Type 9 retired",
+  "firm": "Robern Associates Limited",
+  "natural": "Robern Associates",
+  "ceref": "BQW134",
+  "ros_current": [],
+  "ros_departed": [],
+  "primary_ro": null,
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BQW134/details?locale=en",
+  "email_subject": "Robern Associates — Type 9 license transition",
+  "email_body": "Dear Robern Associates Management,\n\nThis is Felix from Kroll. I am reaching out in light of publicly disclosed changes to Robern Associates's SFC Type 9 registration, as such transitions often prompt a review of fund-level operating and advisory arrangements.\n\nFor funds that have largely deployed capital and are managing minority positions requiring limited day-to-day GP involvement, Kroll's Fund Solutions practice supports GPs with a range of later-lifecycle options — particularly around replacement advisory, realization structuring, and cost-efficient ongoing management.\n\nShould this be relevant to you, I would be happy to introduce you to the appropriate colleagues for an informal discussion. If not, please feel free to disregard this note.\n\nKind regards,\nFelix Engelhardt\n",
+  "variant_id": "C2-v1",
+  "email_body_hash": "f6d39fed47",
+  "email_candidates": [
+    {
+      "email": "info@robern.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    },
+    {
+      "email": "compliance@robern.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    },
+    {
+      "email": "contact@robern.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    },
+    {
+      "email": "enquiry@robern.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    }
+  ],
+  "asset_classes": "unknown",
+  "illiq_likelihood": "unknown",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "none",
+  "website_accuracy": "not_found"
+}

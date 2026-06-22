@@ -1,0 +1,110 @@
+{
+  "type": "C1",
+  "type_label": "New Type 9 corp",
+  "firm": "CHINA GAN ASSET MANAGEMENT LIMITED",
+  "natural": "Gan Asset",
+  "ceref": "BXH684",
+  "address": "Rm 1215, 12/F, Cosco Tower, 183 Queen's Road Central, Sheung Wan, Hong Kong",
+  "ros": [
+    {
+      "name": "CHAN Kwong Shan",
+      "ceref": "AFV359"
+    },
+    {
+      "name": "WONG Patrick",
+      "ceref": "ACQ994"
+    }
+  ],
+  "primary_ro": "CHAN Kwong Shan",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BXH684/details?locale=en",
+  "email_subject": "Congratulations on Gan Asset's SFC Type 9 license",
+  "email_body": "Dear Kwong Shan,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on Gan Asset's recent Type 9 licensing with the SFC.\n\nAs newly licensed managers like yourself establish and scale operations, we often see a need for practical support around compliance, governance, and regulatory engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps with exactly that, scaled to your firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "per_ro_drafts": [
+    {
+      "ro_name": "CHAN Kwong Shan",
+      "ro_ceref": "AFV359",
+      "salutation": "Kwong Shan",
+      "email_subject": "Congratulations on Gan Asset's SFC Type 9 license",
+      "email_body": "Dear Kwong Shan,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on Gan Asset's recent Type 9 licensing with the SFC.\n\nAs newly licensed managers like yourself establish and scale operations, we often see a need for practical support around compliance, governance, and regulatory engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps with exactly that, scaled to your firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n"
+    },
+    {
+      "ro_name": "WONG Patrick",
+      "ro_ceref": "ACQ994",
+      "salutation": "Patrick",
+      "email_subject": "Congratulations on Gan Asset's SFC Type 9 license",
+      "email_body": "Dear Patrick,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on Gan Asset's recent Type 9 licensing with the SFC.\n\nAs newly licensed managers like yourself establish and scale operations, we often see a need for practical support around compliance, governance, and regulatory engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps with exactly that, scaled to your firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n"
+    }
+  ],
+  "bd_lane": "FSCR",
+  "variant_id": "C1-v3-FSCR",
+  "email_body_hash": "89ead7ef88",
+  "email_candidates": [
+    {
+      "email": "kwong.chan@ganasset.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHAN Kwong Shan"
+    },
+    {
+      "email": "kwongchan@ganasset.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHAN Kwong Shan"
+    },
+    {
+      "email": "kchan@ganasset.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHAN Kwong Shan"
+    },
+    {
+      "email": "patrick.wong@ganasset.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "WONG Patrick"
+    },
+    {
+      "email": "patrickwong@ganasset.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "WONG Patrick"
+    },
+    {
+      "email": "pwong@ganasset.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "WONG Patrick"
+    },
+    {
+      "email": "info@ganasset.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    },
+    {
+      "email": "compliance@ganasset.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    },
+    {
+      "email": "contact@ganasset.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    },
+    {
+      "email": "enquiry@ganasset.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    }
+  ],
+  "asset_classes": "unknown",
+  "illiq_likelihood": "unknown",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "none",
+  "website_accuracy": "not_found"
+}

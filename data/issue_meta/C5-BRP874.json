@@ -1,0 +1,115 @@
+{
+  "type": "C5",
+  "type_label": "Rebrand / name change",
+  "firm": "THK Capital Group Limited",
+  "old_firm": "Toscafund HK Limited",
+  "natural": "THK Capital Group",
+  "ceref": "BRP874",
+  "ros": [
+    {
+      "name": "REAY DOUGLAS STEWART",
+      "ceref": "BVT073"
+    },
+    {
+      "name": "SLEATH Jonathan William Trevor",
+      "ceref": "BGI238"
+    },
+    {
+      "name": "TINKER Mark Andrew",
+      "ceref": "BBT883"
+    }
+  ],
+  "primary_ro": "REAY DOUGLAS STEWART",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BRP874/details?locale=en",
+  "email_subject": "THK Capital Group — note on the recent rebrand",
+  "email_body": "Dear Douglas,\n\nThis is Felix from Kroll in Hong Kong. The SFC public register shows that Toscafund has been renamed to THK Capital Group.\n\nRebrands often accompany broader changes — a new sponsor, a strategy refresh, or an organisational reshape — and these moments are often a natural time to revisit fund-level valuation policies and the operating arrangements behind them.\n\nKroll's Portfolio Valuation team works with SFC-regulated managers across Hong Kong on independent fair-value opinions for private equity and credit positions, and our adjacent FSCR colleagues support governance and regulatory engagement. Happy to set up an informal call if any of this would be useful as you transition.\n\nKind regards,\nFelix Engelhardt\n",
+  "variant_id": "C5-v1",
+  "email_body_hash": "585732ed88",
+  "email_candidates": [
+    {
+      "email": "douglas.reay@toscafundhk.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "REAY DOUGLAS STEWART"
+    },
+    {
+      "email": "douglasreay@toscafundhk.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "REAY DOUGLAS STEWART"
+    },
+    {
+      "email": "dreay@toscafundhk.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "REAY DOUGLAS STEWART"
+    },
+    {
+      "email": "jonathan.sleath@toscafundhk.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "SLEATH Jonathan William Trevor"
+    },
+    {
+      "email": "jonathansleath@toscafundhk.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "SLEATH Jonathan William Trevor"
+    },
+    {
+      "email": "jsleath@toscafundhk.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "SLEATH Jonathan William Trevor"
+    },
+    {
+      "email": "mark.tinker@toscafundhk.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "TINKER Mark Andrew"
+    },
+    {
+      "email": "marktinker@toscafundhk.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "TINKER Mark Andrew"
+    },
+    {
+      "email": "mtinker@toscafundhk.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "TINKER Mark Andrew"
+    },
+    {
+      "email": "info@toscafundhk.com",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    },
+    {
+      "email": "compliance@toscafundhk.com",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    },
+    {
+      "email": "contact@toscafundhk.com",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    },
+    {
+      "email": "enquiry@toscafundhk.com",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    }
+  ],
+  "asset_classes": "public_equity,public_credit,multi",
+  "illiq_likelihood": "low",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "Toscafund Asset Management Group",
+  "classification_source": "consensus_website_plus",
+  "website_accuracy": "probable"
+}
