@@ -509,30 +509,18 @@
       const wk = isoWeekKey(new Date(r.sent_at_utc));
       if (byWeek[wk] !== undefined) byWeek[wk] += 1;
     }
-    // Cumulative running total across the 12-week window
     const perWeek = weeks.map(w => byWeek[w]);
-    const cum = [];
-    let acc = 0;
-    for (const v of perWeek) { acc += v; cum.push(acc); }
 
     const W = 600, H = 100, PAD = 12;
-    const max = Math.max(1, cum[cum.length - 1]);
+    const max = Math.max(1, ...perWeek);
     const barW = (W - PAD * 2) / weeks.length;
     const y = (v) => H - PAD - ((H - PAD * 2) * v / max);
 
-    const bars = cum.map((v, i) => {
+    const bars = perWeek.map((v, i) => {
       const x = PAD + i * barW + 1;
       const h = (H - PAD) - y(v);
-      const delta = perWeek[i];
-      // Cumulative number sits on top of the bar; per-week delta below it
-      // (so a week with no new sends shows '+0' — making it visually clear
-      // that the bar height carrying over is not a duplicate of last week).
-      const deltaLbl = delta > 0
-        ? `<text x="${x + barW/2 - 1}" y="${y(v) + 9}" font-size="7" fill="#10b981" font-family="Inter,sans-serif" text-anchor="middle" font-weight="600">+${delta}</text>`
-        : `<text x="${x + barW/2 - 1}" y="${y(v) + 9}" font-size="7" fill="#9ca3af" font-family="Inter,sans-serif" text-anchor="middle">+0</text>`;
       return `<rect x="${x}" y="${y(v)}" width="${barW - 2}" height="${h}" fill="#1a3554" opacity="0.85"/>
-              <text x="${x + barW/2 - 1}" y="${y(v) - 3}" font-size="9" fill="#1a3554" font-family="Inter,sans-serif" text-anchor="middle">${v || ""}</text>
-              ${deltaLbl}`;
+              <text x="${x + barW/2 - 1}" y="${y(v) - 3}" font-size="9" fill="#1a3554" font-family="Inter,sans-serif" text-anchor="middle">${v || ""}</text>`;
     }).join("");
 
     $("#chart").innerHTML = `
