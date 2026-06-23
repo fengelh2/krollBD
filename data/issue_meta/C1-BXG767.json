@@ -18,86 +18,68 @@
   "primary_ro": "LEE Kit Sum",
   "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BXG767/details?locale=en",
   "email_subject": "Congratulations on Wise & Rise Capital's SFC Type 9 license",
-  "email_body": "Dear Kit Sum,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on Wise & Rise Capital's recent Type 9 licensing with the SFC.\n\nAs newly licensed managers like yourself establish and scale operations, we often see a need for practical support around compliance, governance, and regulatory engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps with exactly that, scaled to your firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
-  "per_ro_drafts": [
-    {
-      "ro_name": "LEE Kit Sum",
-      "ro_ceref": "ALN682",
-      "salutation": "Kit Sum",
-      "email_subject": "Congratulations on Wise & Rise Capital's SFC Type 9 license",
-      "email_body": "Dear Kit Sum,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on Wise & Rise Capital's recent Type 9 licensing with the SFC.\n\nAs newly licensed managers like yourself establish and scale operations, we often see a need for practical support around compliance, governance, and regulatory engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps with exactly that, scaled to your firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n"
-    },
-    {
-      "ro_name": "TSANG Tsz Lun",
-      "ro_ceref": "BSW286",
-      "salutation": "Tsz Lun",
-      "email_subject": "Congratulations on Wise & Rise Capital's SFC Type 9 license",
-      "email_body": "Dear Tsz Lun,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on Wise & Rise Capital's recent Type 9 licensing with the SFC.\n\nAs newly licensed managers like yourself establish and scale operations, we often see a need for practical support around compliance, governance, and regulatory engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps with exactly that, scaled to your firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n"
-    }
-  ],
+  "email_body": "Dear Wise & Rise Capital Management,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on Wise & Rise Capital's recent Type 9 licensing with the SFC.\n\nAs newly licensed managers like yourself establish and scale operations, we often see a need for practical support around compliance, governance, and regulatory engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps with exactly that, scaled to your firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
   "bd_lane": "FSCR",
-  "variant_id": "C1-v3-FSCR",
-  "email_body_hash": "02c98b4349",
+  "variant_id": "C1-v4-FSCR",
+  "email_body_hash": "7c8a32d71d",
   "email_candidates": [
     {
-      "email": "kit.lee@wise.com",
+      "email": "admin@licenses.com.hk",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-06-23T01:49:09.886223+00:00"
+    },
+    {
+      "email": "kit sum.lee@licenses.com.hk",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "LEE Kit Sum"
     },
     {
-      "email": "kitlee@wise.com",
+      "email": "kit sumlee@licenses.com.hk",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "LEE Kit Sum"
     },
     {
-      "email": "klee@wise.com",
+      "email": "klee@licenses.com.hk",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "LEE Kit Sum"
     },
     {
-      "email": "tsz.tsang@wise.com",
+      "email": "tsz lun.tsang@licenses.com.hk",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "TSANG Tsz Lun"
     },
     {
-      "email": "tsztsang@wise.com",
+      "email": "tsz luntsang@licenses.com.hk",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "TSANG Tsz Lun"
     },
     {
-      "email": "ttsang@wise.com",
+      "email": "ttsang@licenses.com.hk",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "TSANG Tsz Lun"
     },
     {
-      "email": "info@wise.com",
+      "email": "info@licenses.com.hk",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     },
     {
-      "email": "compliance@wise.com",
+      "email": "contact@licenses.com.hk",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     },
     {
-      "email": "contact@wise.com",
+      "email": "enquiry@licenses.com.hk",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "enquiry@wise.com",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     }
   ],
   "asset_classes": "unknown",

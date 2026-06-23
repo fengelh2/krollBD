@@ -18,26 +18,10 @@
   "primary_ro": "AU Ka Wah",
   "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BWY960/details?locale=en",
   "email_subject": "Congratulations on Sino-Euro Business's SFC Type 9 license",
-  "email_body": "Dear Ka Wah,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on Sino-Euro Business's recent Type 9 licensing with the SFC.\n\nAs newly licensed managers like yourself establish and scale operations, we often see a need for practical support around compliance, governance, and regulatory engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps with exactly that, scaled to your firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
-  "per_ro_drafts": [
-    {
-      "ro_name": "AU Ka Wah",
-      "ro_ceref": "BOB552",
-      "salutation": "Ka Wah",
-      "email_subject": "Congratulations on Sino-Euro Business's SFC Type 9 license",
-      "email_body": "Dear Ka Wah,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on Sino-Euro Business's recent Type 9 licensing with the SFC.\n\nAs newly licensed managers like yourself establish and scale operations, we often see a need for practical support around compliance, governance, and regulatory engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps with exactly that, scaled to your firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n"
-    },
-    {
-      "ro_name": "WONG Hoi Ka",
-      "ro_ceref": "BFK210",
-      "salutation": "Hoi Ka",
-      "email_subject": "Congratulations on Sino-Euro Business's SFC Type 9 license",
-      "email_body": "Dear Hoi Ka,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on Sino-Euro Business's recent Type 9 licensing with the SFC.\n\nAs newly licensed managers like yourself establish and scale operations, we often see a need for practical support around compliance, governance, and regulatory engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps with exactly that, scaled to your firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n"
-    }
-  ],
+  "email_body": "Dear Sino-Euro Business Management,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on Sino-Euro Business's recent Type 9 licensing with the SFC.\n\nAs newly licensed managers like yourself establish and scale operations, we often see a need for practical support around compliance, governance, and regulatory engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps with exactly that, scaled to your firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
   "bd_lane": "FSCR",
-  "variant_id": "C1-v3-FSCR",
-  "email_body_hash": "3b09c2b292",
+  "variant_id": "C1-v4-FSCR",
+  "email_body_hash": "a2412558ce",
   "email_candidates": [
     {
       "email": "ka.au@sinoeurobusiness.com.hk",

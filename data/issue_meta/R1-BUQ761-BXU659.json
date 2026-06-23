@@ -15,50 +15,48 @@
   "email_subject": "Congratulations on your RO appointment at Riches Credit Asset",
   "email_body": "Dear Ping,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at Riches Credit Asset.\n\nFor newly appointed ROs like yourself, settling into the role often means getting a clear view of where the firm's compliance posture sits — internal policies, current filings, ongoing SFC engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps SFC-licensed firms with exactly that, scaled to the firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
   "bd_lane": "FSCR",
-  "variant_id": "R1-v2-FSCR",
+  "variant_id": "R1-v3-FSCR",
   "email_body_hash": "e1737941fc",
   "email_candidates": [
     {
-      "email": "ping.wang@richescapital.com",
+      "email": "ray.wu@richesme.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-06-23T01:49:09.888425+00:00"
+    },
+    {
+      "email": "ping.wang@richesme.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "WANG Ping"
     },
     {
-      "email": "pingwang@richescapital.com",
+      "email": "pingwang@richesme.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "WANG Ping"
     },
     {
-      "email": "pwang@richescapital.com",
+      "email": "pwang@richesme.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "WANG Ping"
     },
     {
-      "email": "info@richescapital.com",
+      "email": "info@richesme.com",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     },
     {
-      "email": "compliance@richescapital.com",
+      "email": "contact@richesme.com",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     },
     {
-      "email": "contact@richescapital.com",
+      "email": "enquiry@richesme.com",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "enquiry@richescapital.com",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     }
   ],
   "asset_classes": "unknown",

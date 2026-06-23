@@ -15,9 +15,16 @@
   "email_subject": "Congratulations on your RO appointment at Pickers Capital",
   "email_body": "Dear Pong Chi,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at Pickers Capital.\n\nFor newly appointed ROs like yourself, settling into the role often means getting a clear view of where the firm's compliance posture sits — internal policies, current filings, ongoing SFC engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps SFC-licensed firms with exactly that, scaled to the firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
   "bd_lane": "FSCR",
-  "variant_id": "R1-v2-FSCR",
+  "variant_id": "R1-v3-FSCR",
   "email_body_hash": "e9aaf0cfae",
   "email_candidates": [
+    {
+      "email": "info@pickerscapital.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-06-23T01:49:09.887558+00:00"
+    },
     {
       "email": "info@pickerscapital.com",
       "kind": "generic_on_site",
@@ -59,6 +66,18 @@
       "kind": "generic_guess",
       "confidence": "low",
       "ro": null
+    },
+    {
+      "email": "pong chi.chan@pickerscapital.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHAN Pong Chi"
+    },
+    {
+      "email": "pong chichan@pickerscapital.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHAN Pong Chi"
     }
   ],
   "asset_classes": "public_equity",
@@ -67,5 +86,6 @@
   "aum_usd_m": "",
   "parent_org": "",
   "classification_source": "website",
-  "website_accuracy": "probable"
+  "website_accuracy": "probable",
+  "sfc_filed_website": "www.pickerscapital.com"
 }

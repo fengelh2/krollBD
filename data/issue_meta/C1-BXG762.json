@@ -18,86 +18,63 @@
   "primary_ro": "DONG Xiaofei",
   "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BXG762/details?locale=en",
   "email_subject": "Congratulations on Bright Capital Astra's SFC Type 9 license",
-  "email_body": "Dear Xiaofei,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on Bright Capital Astra's recent Type 9 licensing with the SFC.\n\nAs newly licensed managers like yourself establish and scale operations, we often see a need for practical support around compliance, governance, and regulatory engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps with exactly that, scaled to your firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
-  "per_ro_drafts": [
-    {
-      "ro_name": "DONG Xiaofei",
-      "ro_ceref": "BXG766",
-      "salutation": "Xiaofei",
-      "email_subject": "Congratulations on Bright Capital Astra's SFC Type 9 license",
-      "email_body": "Dear Xiaofei,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on Bright Capital Astra's recent Type 9 licensing with the SFC.\n\nAs newly licensed managers like yourself establish and scale operations, we often see a need for practical support around compliance, governance, and regulatory engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps with exactly that, scaled to your firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n"
-    },
-    {
-      "ro_name": "LUO Tingxia",
-      "ro_ceref": "BXG763",
-      "salutation": "Tingxia",
-      "email_subject": "Congratulations on Bright Capital Astra's SFC Type 9 license",
-      "email_body": "Dear Tingxia,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on Bright Capital Astra's recent Type 9 licensing with the SFC.\n\nAs newly licensed managers like yourself establish and scale operations, we often see a need for practical support around compliance, governance, and regulatory engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps with exactly that, scaled to your firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n"
-    }
-  ],
+  "email_body": "Dear Bright Capital Astra Management,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on Bright Capital Astra's recent Type 9 licensing with the SFC.\n\nAs newly licensed managers like yourself establish and scale operations, we often see a need for practical support around compliance, governance, and regulatory engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps with exactly that, scaled to your firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
   "bd_lane": "FSCR",
-  "variant_id": "C1-v3-FSCR",
-  "email_body_hash": "5d545696bf",
+  "variant_id": "C1-v4-FSCR",
+  "email_body_hash": "10437dc5c2",
   "email_candidates": [
     {
-      "email": "xiaofei.dong@brightcapital.com.hk",
+      "email": "contact@bc-hk.cn",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-06-23T01:49:09.885843+00:00"
+    },
+    {
+      "email": "xiaofei.dong@bc-hk.cn",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "DONG Xiaofei"
     },
     {
-      "email": "xiaofeidong@brightcapital.com.hk",
+      "email": "xiaofeidong@bc-hk.cn",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "DONG Xiaofei"
     },
     {
-      "email": "xdong@brightcapital.com.hk",
+      "email": "xdong@bc-hk.cn",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "DONG Xiaofei"
     },
     {
-      "email": "tingxia.luo@brightcapital.com.hk",
+      "email": "tingxia.luo@bc-hk.cn",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "LUO Tingxia"
     },
     {
-      "email": "tingxialuo@brightcapital.com.hk",
+      "email": "tingxialuo@bc-hk.cn",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "LUO Tingxia"
     },
     {
-      "email": "tluo@brightcapital.com.hk",
+      "email": "tluo@bc-hk.cn",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "LUO Tingxia"
     },
     {
-      "email": "info@brightcapital.com.hk",
+      "email": "info@bc-hk.cn",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     },
     {
-      "email": "compliance@brightcapital.com.hk",
+      "email": "enquiry@bc-hk.cn",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "contact@brightcapital.com.hk",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "enquiry@brightcapital.com.hk",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     }
   ],
   "asset_classes": "unknown",
