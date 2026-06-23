@@ -1,0 +1,71 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "Neutral Financial Holding Company Limited",
+  "natural": "Neutral Financial Holding",
+  "ceref": "AFB361",
+  "ros": [
+    {
+      "name": "LI Keke",
+      "ceref": "BQE408"
+    }
+  ],
+  "primary_ro": "LI Keke",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/AFB361/details?locale=en",
+  "email_subject": "Congratulations on your RO appointment at Neutral Financial Holding",
+  "email_body": "Dear Keke,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at Neutral Financial Holding.\n\nFor newly appointed ROs like yourself, settling into the role often means getting a clear view of where the firm's compliance posture sits — internal policies, current filings, ongoing SFC engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps SFC-licensed firms with exactly that, scaled to the firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "FSCR",
+  "variant_id": "R1-v2-FSCR",
+  "email_body_hash": "818d72942d",
+  "email_candidates": [
+    {
+      "email": "keke.li@neutralfinancialholding.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LI Keke"
+    },
+    {
+      "email": "kekeli@neutralfinancialholding.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LI Keke"
+    },
+    {
+      "email": "kli@neutralfinancialholding.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LI Keke"
+    },
+    {
+      "email": "info@neutralfinancialholding.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    },
+    {
+      "email": "compliance@neutralfinancialholding.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    },
+    {
+      "email": "contact@neutralfinancialholding.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    },
+    {
+      "email": "enquiry@neutralfinancialholding.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    }
+  ],
+  "asset_classes": "unknown",
+  "illiq_likelihood": "unknown",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "none",
+  "website_accuracy": "not_found"
+}

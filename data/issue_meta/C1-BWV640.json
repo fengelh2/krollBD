@@ -1,0 +1,110 @@
+{
+  "type": "C1",
+  "type_label": "New Type 9 corp",
+  "firm": "Joy Vintage Limited",
+  "natural": "Joy Vintage",
+  "ceref": "BWV640",
+  "address": "8644, 86/F, International Commercial Centre, 1 Austin Road West, Kowloon, Hong Kong",
+  "ros": [
+    {
+      "name": "LI Fangxing",
+      "ceref": "BWV647"
+    },
+    {
+      "name": "LIN Lin",
+      "ceref": "BWV641"
+    }
+  ],
+  "primary_ro": "LI Fangxing",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BWV640/details?locale=en",
+  "email_subject": "Congratulations on Joy Vintage's SFC Type 9 license",
+  "email_body": "Dear Fangxing,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on Joy Vintage's recent Type 9 licensing with the SFC.\n\nAs newly licensed managers like yourself establish and scale operations, we often see a need for practical support around compliance, governance, and regulatory engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps with exactly that, scaled to your firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "per_ro_drafts": [
+    {
+      "ro_name": "LI Fangxing",
+      "ro_ceref": "BWV647",
+      "salutation": "Fangxing",
+      "email_subject": "Congratulations on Joy Vintage's SFC Type 9 license",
+      "email_body": "Dear Fangxing,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on Joy Vintage's recent Type 9 licensing with the SFC.\n\nAs newly licensed managers like yourself establish and scale operations, we often see a need for practical support around compliance, governance, and regulatory engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps with exactly that, scaled to your firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n"
+    },
+    {
+      "ro_name": "LIN Lin",
+      "ro_ceref": "BWV641",
+      "salutation": "Lin",
+      "email_subject": "Congratulations on Joy Vintage's SFC Type 9 license",
+      "email_body": "Dear Lin,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on Joy Vintage's recent Type 9 licensing with the SFC.\n\nAs newly licensed managers like yourself establish and scale operations, we often see a need for practical support around compliance, governance, and regulatory engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps with exactly that, scaled to your firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n"
+    }
+  ],
+  "bd_lane": "FSCR",
+  "variant_id": "C1-v3-FSCR",
+  "email_body_hash": "e2db13a05c",
+  "email_candidates": [
+    {
+      "email": "fangxing.li@joyinvestment.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LI Fangxing"
+    },
+    {
+      "email": "fangxingli@joyinvestment.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LI Fangxing"
+    },
+    {
+      "email": "fli@joyinvestment.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LI Fangxing"
+    },
+    {
+      "email": "lin.lin@joyinvestment.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LIN Lin"
+    },
+    {
+      "email": "linlin@joyinvestment.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LIN Lin"
+    },
+    {
+      "email": "llin@joyinvestment.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LIN Lin"
+    },
+    {
+      "email": "info@joyinvestment.com",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    },
+    {
+      "email": "compliance@joyinvestment.com",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    },
+    {
+      "email": "contact@joyinvestment.com",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    },
+    {
+      "email": "enquiry@joyinvestment.com",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    }
+  ],
+  "asset_classes": "unknown",
+  "illiq_likelihood": "unknown",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "none",
+  "website_accuracy": "not_found"
+}

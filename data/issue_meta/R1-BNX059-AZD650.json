@@ -1,0 +1,77 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "Zerobridge Partners Asset Management Limited ",
+  "natural": "Zerobridge Partners Asset",
+  "ceref": "BNX059",
+  "ros": [
+    {
+      "name": "HAN Peter Jaewon",
+      "ceref": "AZD650"
+    }
+  ],
+  "primary_ro": "HAN Peter Jaewon",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BNX059/details?locale=en",
+  "email_subject": "Congratulations on your RO appointment at Zerobridge Partners Asset",
+  "email_body": "Dear Peter,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at Zerobridge Partners Asset.\n\nFor illiquid managers like yourself, the marks the RO signs off on tend to be the most scrutinised line items on the books — LPs want comfort, auditors want defensibility, and internal-only marks usually invite more questions than they close. Kroll's Portfolio Valuation team here in Hong Kong helps with exactly that — robust independent valuations across private equity, private credit, and other illiquid strategies.\n\nIf a quick chat would be useful — now, or down the line — happy to set one up. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "PV",
+  "variant_id": "R1-v2-PV",
+  "email_body_hash": "959e020b6b",
+  "email_candidates": [
+    {
+      "email": "enquiries@zerobridge.com",
+      "kind": "generic_on_site",
+      "confidence": "verified",
+      "ro": null
+    },
+    {
+      "email": "peter.han@zerobridge.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "HAN Peter Jaewon"
+    },
+    {
+      "email": "peterhan@zerobridge.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "HAN Peter Jaewon"
+    },
+    {
+      "email": "phan@zerobridge.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "HAN Peter Jaewon"
+    },
+    {
+      "email": "info@zerobridge.com",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    },
+    {
+      "email": "compliance@zerobridge.com",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    },
+    {
+      "email": "contact@zerobridge.com",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    },
+    {
+      "email": "enquiry@zerobridge.com",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    }
+  ],
+  "asset_classes": "private_credit",
+  "illiq_likelihood": "high",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "website",
+  "website_accuracy": "verified"
+}

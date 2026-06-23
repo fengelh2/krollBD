@@ -1,0 +1,110 @@
+{
+  "type": "C1",
+  "type_label": "New Type 9 corp",
+  "firm": "Junlian Global Asset Management Limited",
+  "natural": "Junlian Global Asset",
+  "ceref": "BXB469",
+  "address": "RM B1-39, 5/F, HANG FUNG INDUSTRIAL BUILDING PHASE 1, 2G HOK YUEN STREET, HUNG HOM, Hong Kong",
+  "ros": [
+    {
+      "name": "GU Ziqiao",
+      "ceref": "BMW241"
+    },
+    {
+      "name": "HON Kai Lai",
+      "ceref": "APC068"
+    }
+  ],
+  "primary_ro": "GU Ziqiao",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BXB469/details?locale=en",
+  "email_subject": "Congratulations on Junlian Global Asset's SFC Type 9 license",
+  "email_body": "Dear Ziqiao,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on Junlian Global Asset's recent Type 9 licensing with the SFC.\n\nAs newly licensed managers like yourself establish and scale operations, we often see a need for practical support around compliance, governance, and regulatory engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps with exactly that, scaled to your firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "per_ro_drafts": [
+    {
+      "ro_name": "GU Ziqiao",
+      "ro_ceref": "BMW241",
+      "salutation": "Ziqiao",
+      "email_subject": "Congratulations on Junlian Global Asset's SFC Type 9 license",
+      "email_body": "Dear Ziqiao,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on Junlian Global Asset's recent Type 9 licensing with the SFC.\n\nAs newly licensed managers like yourself establish and scale operations, we often see a need for practical support around compliance, governance, and regulatory engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps with exactly that, scaled to your firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n"
+    },
+    {
+      "ro_name": "HON Kai Lai",
+      "ro_ceref": "APC068",
+      "salutation": "Kai Lai",
+      "email_subject": "Congratulations on Junlian Global Asset's SFC Type 9 license",
+      "email_body": "Dear Kai Lai,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on Junlian Global Asset's recent Type 9 licensing with the SFC.\n\nAs newly licensed managers like yourself establish and scale operations, we often see a need for practical support around compliance, governance, and regulatory engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps with exactly that, scaled to your firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n"
+    }
+  ],
+  "bd_lane": "FSCR",
+  "variant_id": "C1-v3-FSCR",
+  "email_body_hash": "b08241c510",
+  "email_candidates": [
+    {
+      "email": "ziqiao.gu@junlianglobal.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "GU Ziqiao"
+    },
+    {
+      "email": "ziqiaogu@junlianglobal.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "GU Ziqiao"
+    },
+    {
+      "email": "zgu@junlianglobal.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "GU Ziqiao"
+    },
+    {
+      "email": "kai.hon@junlianglobal.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "HON Kai Lai"
+    },
+    {
+      "email": "kaihon@junlianglobal.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "HON Kai Lai"
+    },
+    {
+      "email": "khon@junlianglobal.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "HON Kai Lai"
+    },
+    {
+      "email": "info@junlianglobal.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    },
+    {
+      "email": "compliance@junlianglobal.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    },
+    {
+      "email": "contact@junlianglobal.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    },
+    {
+      "email": "enquiry@junlianglobal.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    }
+  ],
+  "asset_classes": "unknown",
+  "illiq_likelihood": "unknown",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "none",
+  "website_accuracy": "not_found"
+}

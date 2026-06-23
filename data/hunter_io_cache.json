@@ -918,5 +918,15 @@
     "source": "hunter.io",
     "fetched_at_utc": "2026-06-22T03:40:23+00:00",
     "quota_remaining_when_fetched": 11
+  },
+  "aqua-csl.com|jamilah|ali": {
+    "status": "ok",
+    "email": "jamilah@aqua-csl.com",
+    "score": 97,
+    "confidence": "high",
+    "verification_status": "valid",
+    "source": "hunter.io",
+    "fetched_at_utc": "2026-06-23T01:23:37+00:00",
+    "quota_remaining_when_fetched": 10
   }
 }

@@ -1,0 +1,110 @@
+{
+  "type": "C1",
+  "type_label": "New Type 9 corp",
+  "firm": "Quantum Nexus Capital Limited",
+  "natural": "Quantum Nexus Capital",
+  "ceref": "BXE977",
+  "address": "ROOM C01, UNIT 605, 6TH FL00R, TOWER II ENTERPRISE SQUARE, 9 SHEUNG YUET ROAD, Kowloon Bay, HK, Hong Kong",
+  "ros": [
+    {
+      "name": "PANG Kai Chun",
+      "ceref": "AOJ337"
+    },
+    {
+      "name": "TSUI Dick Yee, Daisy",
+      "ceref": "AMJ137"
+    }
+  ],
+  "primary_ro": "PANG Kai Chun",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BXE977/details?locale=en",
+  "email_subject": "Congratulations on Quantum Nexus Capital's SFC Type 9 license",
+  "email_body": "Dear Kai Chun,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on Quantum Nexus Capital's recent Type 9 licensing with the SFC.\n\nAs newly licensed managers like yourself establish and scale operations, we often see a need for practical support around compliance, governance, and regulatory engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps with exactly that, scaled to your firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "per_ro_drafts": [
+    {
+      "ro_name": "PANG Kai Chun",
+      "ro_ceref": "AOJ337",
+      "salutation": "Kai Chun",
+      "email_subject": "Congratulations on Quantum Nexus Capital's SFC Type 9 license",
+      "email_body": "Dear Kai Chun,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on Quantum Nexus Capital's recent Type 9 licensing with the SFC.\n\nAs newly licensed managers like yourself establish and scale operations, we often see a need for practical support around compliance, governance, and regulatory engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps with exactly that, scaled to your firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n"
+    },
+    {
+      "ro_name": "TSUI Dick Yee, Daisy",
+      "ro_ceref": "AMJ137",
+      "salutation": "Daisy",
+      "email_subject": "Congratulations on Quantum Nexus Capital's SFC Type 9 license",
+      "email_body": "Dear Daisy,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on Quantum Nexus Capital's recent Type 9 licensing with the SFC.\n\nAs newly licensed managers like yourself establish and scale operations, we often see a need for practical support around compliance, governance, and regulatory engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps with exactly that, scaled to your firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n"
+    }
+  ],
+  "bd_lane": "FSCR",
+  "variant_id": "C1-v3-FSCR",
+  "email_body_hash": "935859ac0f",
+  "email_candidates": [
+    {
+      "email": "kai.pang@quantuminvestment.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "PANG Kai Chun"
+    },
+    {
+      "email": "kaipang@quantuminvestment.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "PANG Kai Chun"
+    },
+    {
+      "email": "kpang@quantuminvestment.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "PANG Kai Chun"
+    },
+    {
+      "email": "dick.tsui@quantuminvestment.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "TSUI Dick Yee, Daisy"
+    },
+    {
+      "email": "dicktsui@quantuminvestment.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "TSUI Dick Yee, Daisy"
+    },
+    {
+      "email": "dtsui@quantuminvestment.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "TSUI Dick Yee, Daisy"
+    },
+    {
+      "email": "info@quantuminvestment.com",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    },
+    {
+      "email": "compliance@quantuminvestment.com",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    },
+    {
+      "email": "contact@quantuminvestment.com",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    },
+    {
+      "email": "enquiry@quantuminvestment.com",
+      "kind": "generic_guess",
+      "confidence": "low",
+      "ro": null
+    }
+  ],
+  "asset_classes": "unknown",
+  "illiq_likelihood": "unknown",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "none",
+  "website_accuracy": "not_found"
+}
