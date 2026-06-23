@@ -1,8 +1,7 @@
 {
-  "started_at": "2026-06-18T06:45:40.769541+00:00",
-  "current_idx": 48,
-  "total": 48,
-  "phase": "done",
-  "done": true,
-  "finished_at": "2026-06-18T06:46:00.181648+00:00"
+  "started_at": "2026-06-23T01:50:08.756599+00:00",
+  "current_idx": 0,
+  "total": 10,
+  "phase": "starting",
+  "done": false
 }
