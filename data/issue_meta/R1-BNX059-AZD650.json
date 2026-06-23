@@ -19,6 +19,16 @@
   "email_body_hash": "959e020b6b",
   "email_candidates": [
     {
+      "email": "peter.han@zerobridge.com",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "HAN Peter Jaewon",
+      "score": 97,
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email",
+      "evidence": "Hunter score 97 + AbstractAPI: deliverable"
+    },
+    {
       "email": "zbcompliance@zerobridge.com",
       "kind": "sfc_filed",
       "confidence": "verified",
@@ -30,12 +40,6 @@
       "kind": "generic_on_site",
       "confidence": "verified",
       "ro": null
-    },
-    {
-      "email": "peter.han@zerobridge.com",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "HAN Peter Jaewon"
     },
     {
       "email": "peterhan@zerobridge.com",
@@ -81,5 +85,18 @@
   "parent_org": "",
   "classification_source": "website",
   "website_accuracy": "verified",
-  "sfc_filed_website": "www.zerobridge.com"
+  "sfc_filed_website": "www.zerobridge.com",
+  "deep_scrape_attempted_utc": "2026-06-23T01:50:38.580578+00:00",
+  "deep_scrape_note": "site scraped — no new emails found",
+  "hunter_hits": [
+    {
+      "email": "peter.han@zerobridge.com",
+      "score": 97,
+      "ro": "HAN Peter Jaewon",
+      "fetched_at_utc": "2026-06-23T01:50:43.116758+00:00",
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email"
+    }
+  ],
+  "hunter_attempted_utc": "2026-06-23T01:50:43.116789+00:00"
 }
