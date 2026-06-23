@@ -958,5 +958,25 @@
     "source": "hunter.io",
     "fetched_at_utc": "2026-06-23T01:52:41+00:00",
     "quota_remaining_when_fetched": 8
+  },
+  "wise.com|kit sum|lee": {
+    "status": "no_match",
+    "email": null,
+    "score": null,
+    "confidence": "none",
+    "verification_status": "no_match",
+    "source": "hunter.io",
+    "fetched_at_utc": "2026-06-23T01:54:01+00:00",
+    "quota_remaining_when_fetched": 8
+  },
+  "wise.com|tsz lun|tsang": {
+    "status": "no_match",
+    "email": null,
+    "score": null,
+    "confidence": "none",
+    "verification_status": "no_match",
+    "source": "hunter.io",
+    "fetched_at_utc": "2026-06-23T01:54:02+00:00",
+    "quota_remaining_when_fetched": 8
   }
 }

@@ -1,9 +1,9 @@
 {
   "started_at": "2026-06-23T01:50:08.756599+00:00",
-  "current_idx": 3,
+  "current_idx": 6,
   "total": 10,
   "phase": "running",
-  "current_firm": "[R1] New RO at Pickers Capital Management Limited — CHAN Pon",
-  "current_trigger_id": "R1-BDW926-BMY367",
+  "current_firm": "[C1] New Type 9 corp — Wise & Rise Capital Limited",
+  "current_trigger_id": "C1-BXG767",
   "done": false
 }
