@@ -2,8 +2,7 @@
   "started_at": "2026-06-23T01:50:08.756599+00:00",
   "current_idx": 10,
   "total": 10,
-  "phase": "running",
-  "current_firm": "[C1] New Type 9 corp — Bright Capital Astra Limited",
-  "current_trigger_id": "C1-BXG762",
-  "done": false
+  "phase": "done",
+  "done": true,
+  "finished_at": "2026-06-23T01:55:29.203934+00:00"
 }
