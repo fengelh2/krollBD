@@ -76,6 +76,28 @@ jobs:
       - name: Publish triggers (writes meta files, no inline push)
         run: python tools/publish_triggers_to_github.py --no-push
 
+      # Post-publish enrichment chain — runs against just-published triggers
+      # so every new card lands with SFC-filed contacts + correct-domain
+      # email candidates + lane-appropriate body. Without these the new
+      # triggers from each week need manual cleanup (the chain we ran on
+      # 2026-06-23 after noticing the 10 brand-new R1/C1/C5 cards had no
+      # SFC contact merged).
+      - name: Fetch SFC-filed contacts for open triggers
+        run: python tools/scrape_sfc_addresses.py --open-triggers
+        continue-on-error: true
+
+      - name: Merge SFC contacts into trigger meta + strategy CSV
+        run: python tools/merge_sfc_contacts.py
+        continue-on-error: true
+
+      - name: Drop wrong-domain pattern guesses + regen at authoritative domain
+        run: python tools/dedup_wrong_domain_guesses.py
+        continue-on-error: true
+
+      - name: Re-render email bodies with current natural-name + salutation rules
+        run: python tools/_regen_email_bodies.py
+        continue-on-error: true
+
       - name: Commit + push data updates
         run: |
           set -euo pipefail
