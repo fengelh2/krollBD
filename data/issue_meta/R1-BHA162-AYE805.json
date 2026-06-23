@@ -17,50 +17,7 @@
   "bd_lane": "FSCR",
   "variant_id": "R1-v3-FSCR",
   "email_body_hash": "6efd53bdc2",
-  "email_candidates": [
-    {
-      "email": "yen-fu.chen@luminoushk.org",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "CHEN Yen-fu"
-    },
-    {
-      "email": "yen-fuchen@luminoushk.org",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "CHEN Yen-fu"
-    },
-    {
-      "email": "ychen@luminoushk.org",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "CHEN Yen-fu"
-    },
-    {
-      "email": "info@luminoushk.org",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "compliance@luminoushk.org",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "contact@luminoushk.org",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "enquiry@luminoushk.org",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    }
-  ],
+  "email_candidates": [],
   "asset_classes": "unknown",
   "illiq_likelihood": "unknown",
   "aum_raw_string": "",

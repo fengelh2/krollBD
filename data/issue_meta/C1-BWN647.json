@@ -30,64 +30,55 @@
       "fetched_at_utc": "2026-06-16T02:10:52.087920+00:00"
     },
     {
-      "email": "jingchuan.chen@leaderwayinvestment.com.hk",
+      "email": "jingchuan.chen@leaderway.hk",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "CHEN Jingchuan"
     },
     {
-      "email": "jingchuanchen@leaderwayinvestment.com.hk",
+      "email": "jingchuanchen@leaderway.hk",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "CHEN Jingchuan"
     },
     {
-      "email": "jchen@leaderwayinvestment.com.hk",
+      "email": "jchen@leaderway.hk",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "CHEN Jingchuan"
     },
     {
-      "email": "yu.sun@leaderwayinvestment.com.hk",
+      "email": "yu.sun@leaderway.hk",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "SUN Yu"
     },
     {
-      "email": "yusun@leaderwayinvestment.com.hk",
+      "email": "yusun@leaderway.hk",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "SUN Yu"
     },
     {
-      "email": "ysun@leaderwayinvestment.com.hk",
+      "email": "ysun@leaderway.hk",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "SUN Yu"
     },
     {
-      "email": "info@leaderwayinvestment.com.hk",
+      "email": "info@leaderway.hk",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     },
     {
-      "email": "compliance@leaderwayinvestment.com.hk",
+      "email": "contact@leaderway.hk",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     },
     {
-      "email": "contact@leaderwayinvestment.com.hk",
+      "email": "enquiry@leaderway.hk",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "enquiry@leaderwayinvestment.com.hk",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     }
   ],
   "asset_classes": "unknown",

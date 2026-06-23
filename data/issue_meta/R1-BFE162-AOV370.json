@@ -25,13 +25,13 @@
       "fetched_at_utc": "2026-06-16T02:10:52.126578+00:00"
     },
     {
-      "email": "chi.cheng@cashalgo.com",
+      "email": "chiho.cheng@cashalgo.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "CHENG Chi Ho"
     },
     {
-      "email": "chicheng@cashalgo.com",
+      "email": "chihocheng@cashalgo.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "CHENG Chi Ho"
@@ -43,40 +43,14 @@
       "ro": "CHENG Chi Ho"
     },
     {
-      "email": "info@cashalgo.com",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "compliance@cashalgo.com",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
       "email": "contact@cashalgo.com",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     },
     {
       "email": "enquiry@cashalgo.com",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "chi ho.cheng@cashalgo.com",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "CHENG Chi Ho"
-    },
-    {
-      "email": "chi hocheng@cashalgo.com",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "CHENG Chi Ho"
+      "confidence": "low"
     }
   ],
   "asset_classes": "public_equity,public_credit,multi",

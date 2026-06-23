@@ -19,19 +19,19 @@
   "email_body_hash": "c8a3fe5cfb",
   "email_candidates": [
     {
-      "email": "pat.chiu@quamcap.com",
+      "email": "steven.chiu@quamcap.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "CHIU Pat Ngao, Steven"
     },
     {
-      "email": "patchiu@quamcap.com",
+      "email": "stevenchiu@quamcap.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "CHIU Pat Ngao, Steven"
     },
     {
-      "email": "pchiu@quamcap.com",
+      "email": "schiu@quamcap.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "CHIU Pat Ngao, Steven"
@@ -39,26 +39,17 @@
     {
       "email": "info@quamcap.com",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "compliance@quamcap.com",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     },
     {
       "email": "contact@quamcap.com",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     },
     {
       "email": "enquiry@quamcap.com",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     }
   ],
   "asset_classes": "unknown",

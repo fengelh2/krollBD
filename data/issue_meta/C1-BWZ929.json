@@ -28,66 +28,6 @@
       "confidence": "verified",
       "evidence": "filed with SFC by the firm at licensing",
       "fetched_at_utc": "2026-06-16T02:10:52.089917+00:00"
-    },
-    {
-      "email": "liang.he@hongkong.com.hk",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "HE Liang"
-    },
-    {
-      "email": "lianghe@hongkong.com.hk",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "HE Liang"
-    },
-    {
-      "email": "lhe@hongkong.com.hk",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "HE Liang"
-    },
-    {
-      "email": "yong.sun@hongkong.com.hk",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "SUN Yong"
-    },
-    {
-      "email": "yongsun@hongkong.com.hk",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "SUN Yong"
-    },
-    {
-      "email": "ysun@hongkong.com.hk",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "SUN Yong"
-    },
-    {
-      "email": "info@hongkong.com.hk",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "compliance@hongkong.com.hk",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "contact@hongkong.com.hk",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "enquiry@hongkong.com.hk",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
     }
   ],
   "asset_classes": "unknown",

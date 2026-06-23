@@ -25,35 +25,35 @@
       "fetched_at_utc": "2026-06-16T02:10:52.115062+00:00"
     },
     {
-      "email": "on loy.mow@qmis.com.hk",
+      "email": "onloy.mow@qmisgroup.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "MOW On Loy"
     },
     {
-      "email": "on loymow@qmis.com.hk",
+      "email": "onloymow@qmisgroup.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "MOW On Loy"
     },
     {
-      "email": "omow@qmis.com.hk",
+      "email": "omow@qmisgroup.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "MOW On Loy"
     },
     {
-      "email": "info@qmis.com.hk",
+      "email": "info@qmisgroup.com",
       "kind": "generic_guess",
       "confidence": "low"
     },
     {
-      "email": "contact@qmis.com.hk",
+      "email": "contact@qmisgroup.com",
       "kind": "generic_guess",
       "confidence": "low"
     },
     {
-      "email": "enquiry@qmis.com.hk",
+      "email": "enquiry@qmisgroup.com",
       "kind": "generic_guess",
       "confidence": "low"
     }

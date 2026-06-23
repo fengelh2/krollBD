@@ -63,13 +63,13 @@
       "ro": "SLEATH Jonathan William Trevor"
     },
     {
-      "email": "mark.tinker@toscafundhk.com",
+      "email": "markandrew.tinker@toscafundhk.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "TINKER Mark Andrew"
     },
     {
-      "email": "marktinker@toscafundhk.com",
+      "email": "markandrewtinker@toscafundhk.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "TINKER Mark Andrew"
@@ -83,26 +83,17 @@
     {
       "email": "info@toscafundhk.com",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "compliance@toscafundhk.com",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     },
     {
       "email": "contact@toscafundhk.com",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     },
     {
       "email": "enquiry@toscafundhk.com",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     }
   ],
   "asset_classes": "public_equity,public_credit,multi",

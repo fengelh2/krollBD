@@ -23,60 +23,6 @@
       "confidence": "verified",
       "evidence": "filed with SFC by the firm at licensing",
       "fetched_at_utc": "2026-06-16T02:10:52.107115+00:00"
-    },
-    {
-      "email": "hau.hon@ebshk.com",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "HON Hau Ngai"
-    },
-    {
-      "email": "hauhon@ebshk.com",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "HON Hau Ngai"
-    },
-    {
-      "email": "hhon@ebshk.com",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "HON Hau Ngai"
-    },
-    {
-      "email": "info@ebshk.com",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "compliance@ebshk.com",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "contact@ebshk.com",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "enquiry@ebshk.com",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "hau ngai.hon@ebshk.com",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "HON Hau Ngai"
-    },
-    {
-      "email": "hau ngaihon@ebshk.com",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "HON Hau Ngai"
     }
   ],
   "asset_classes": "public_equity,public_credit,multi",

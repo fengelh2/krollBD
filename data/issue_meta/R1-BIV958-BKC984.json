@@ -17,50 +17,7 @@
   "bd_lane": "FSCR",
   "variant_id": "R1-v3-FSCR",
   "email_body_hash": "465ef9d398",
-  "email_candidates": [
-    {
-      "email": "hin.mui@unioninsight.com",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "MUI Hin Lai Henry"
-    },
-    {
-      "email": "hinmui@unioninsight.com",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "MUI Hin Lai Henry"
-    },
-    {
-      "email": "hmui@unioninsight.com",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "MUI Hin Lai Henry"
-    },
-    {
-      "email": "info@unioninsight.com",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "compliance@unioninsight.com",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "contact@unioninsight.com",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "enquiry@unioninsight.com",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    }
-  ],
+  "email_candidates": [],
   "asset_classes": "unknown",
   "illiq_likelihood": "unknown",
   "aum_raw_string": "",

@@ -77,52 +77,84 @@ def _open_trigger_ids() -> set[str]:
     return ids
 
 
+# Known third-party corporate-services / license-agent domains some HK firms
+# file with SFC as their contact. These are NOT the firm's own domain —
+# per-RO pattern guesses there would be wrong.
+_AGENCY_DOMAINS = {
+    "licenses.com.hk", "kaizencpa.com", "tricorglobal.com", "vistra.com",
+    "ocra.com", "tmf-group.com", "intertrustgroup.com",
+}
+
+
+def _looks_like_agency(domain: str, firm_name: str) -> bool:
+    if not domain:
+        return False
+    if domain in _AGENCY_DOMAINS or any(domain.endswith("." + a) for a in _AGENCY_DOMAINS):
+        return True
+    stem = domain.split(".")[0]
+    stop = {"limited","ltd","holdings","company","asset","capital","management",
+            "investment","investments","securities","fund","funds","partners",
+            "group","hong","kong","china","asia","international","global","pacific","hk","co"}
+    toks = [t for t in re.findall(r"[a-z]{4,}", (firm_name or "").lower()) if t not in stop]
+    if not toks: return False
+    return not any(t in stem or stem in t for t in toks)
+
+
 def _authoritative_domain(meta: dict, sfc_row: dict) -> str | None:
+    firm = meta.get("firm") or meta.get("natural", "")
     ec = meta.get("email_candidates") or []
-    for kind in VERIFIED_KINDS:
+    # 1+2: trust hunter / observed
+    for kind in ("hunter_io", "observed_on_site"):
         for c in ec:
-            if c.get("kind") != kind:
-                continue
-            if (c.get("confidence") or "").lower() not in VERIFIED_CONFS:
-                continue
+            if c.get("kind") != kind: continue
+            if (c.get("confidence") or "").lower() not in VERIFIED_CONFS: continue
             h = _email_host(c.get("email", ""))
-            if h:
-                return h
-    # Fallback: SFC-filed website (host only) when no verified email exists
+            if h: return h
+    # 3: SFC-filed website host
     site = (sfc_row.get("website") or "").strip()
     if site:
         host = urlparse(site if "://" in site else "https://" + site).netloc
-        return re.sub(r"^www\.", "", host).lower() or None
+        host = re.sub(r"^www\.", "", host).lower() or None
+        if host and not _looks_like_agency(host, firm): return host
+    # 4: SFC-filed email's domain — only if not agency
+    for c in ec:
+        if c.get("kind") == "sfc_filed":
+            h = _email_host(c.get("email", ""))
+            if h and not _looks_like_agency(h, firm): return h
+    # 5: generic_on_site fallback
+    for c in ec:
+        if c.get("kind") == "generic_on_site":
+            h = _email_host(c.get("email", ""))
+            if h: return h
     return None
 
 
 def main():
     sfc = _load_sfc_contacts()
     ro_idx = _load_ro_idx()
-    open_ids = _open_trigger_ids()
+    _ = _open_trigger_ids()  # processed for all meta files now
 
-    n_meta = 0
-    n_dropped = 0
-    n_added = 0
+    n_meta = 0; n_dropped = 0; n_added = 0
 
     for path in sorted((PROJECT_ROOT / "data" / "issue_meta").glob("*.json")):
         tid = path.stem
-        if tid not in open_ids:
-            continue
         meta = json.loads(path.read_text(encoding="utf-8"))
         ce = meta.get("ceref", "")
         domain = _authoritative_domain(meta, sfc.get(ce, {}))
-        if not domain:
-            continue
 
         ec = meta.get("email_candidates") or []
-        new_ec = []
-        for c in ec:
-            if c.get("kind") in GUESS_KINDS:
-                if not _hosts_match(_email_host(c.get("email", "")), domain):
-                    n_dropped += 1
-                    continue
-            new_ec.append(c)
+        # Always WIPE all pattern guesses; regen fresh. Catches stale guesses
+        # with spaces / hyphens / formatting bugs and agency-domain guesses.
+        new_ec = [c for c in ec if c.get("kind") not in GUESS_KINDS]
+        n_dropped += len(ec) - len(new_ec)
+
+        if not domain:
+            # No authoritative domain (or it's an agency). SFC-filed email
+            # is the only viable contact — no per-RO guess generation.
+            meta["email_candidates"] = new_ec
+            path.write_text(json.dumps(meta, indent=2, ensure_ascii=False), encoding="utf-8")
+            n_meta += 1
+            continue
 
         existing = {(c.get("email", "") or "").lower() for c in new_ec}
 

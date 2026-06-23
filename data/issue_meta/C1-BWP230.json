@@ -30,64 +30,55 @@
       "fetched_at_utc": "2026-06-16T02:10:52.088421+00:00"
     },
     {
-      "email": "haifeng.deng@tsinghua.com.hk",
+      "email": "haifeng.deng@tsinghua-vc.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "DENG Haifeng"
     },
     {
-      "email": "haifengdeng@tsinghua.com.hk",
+      "email": "haifengdeng@tsinghua-vc.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "DENG Haifeng"
     },
     {
-      "email": "hdeng@tsinghua.com.hk",
+      "email": "hdeng@tsinghua-vc.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "DENG Haifeng"
     },
     {
-      "email": "feng.song@tsinghua.com.hk",
+      "email": "feng.song@tsinghua-vc.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "SONG Feng"
     },
     {
-      "email": "fengsong@tsinghua.com.hk",
+      "email": "fengsong@tsinghua-vc.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "SONG Feng"
     },
     {
-      "email": "fsong@tsinghua.com.hk",
+      "email": "fsong@tsinghua-vc.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "SONG Feng"
     },
     {
-      "email": "info@tsinghua.com.hk",
+      "email": "info@tsinghua-vc.com",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     },
     {
-      "email": "compliance@tsinghua.com.hk",
+      "email": "contact@tsinghua-vc.com",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     },
     {
-      "email": "contact@tsinghua.com.hk",
+      "email": "enquiry@tsinghua-vc.com",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "enquiry@tsinghua.com.hk",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     }
   ],
   "asset_classes": "unknown",

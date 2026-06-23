@@ -32,6 +32,70 @@
       "confidence": "verified",
       "evidence": "filed with SFC by the firm at licensing",
       "fetched_at_utc": "2026-06-16T02:10:52.099541+00:00"
+    },
+    {
+      "email": "chiwai.leong@vajraltd.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LEONG Chi Wai"
+    },
+    {
+      "email": "chiwaileong@vajraltd.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LEONG Chi Wai"
+    },
+    {
+      "email": "cleong@vajraltd.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LEONG Chi Wai"
+    },
+    {
+      "email": "alex.leung@vajraltd.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LEUNG King Yue, Alex"
+    },
+    {
+      "email": "alexleung@vajraltd.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LEUNG King Yue, Alex"
+    },
+    {
+      "email": "aleung@vajraltd.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LEUNG King Yue, Alex"
+    },
+    {
+      "email": "kacheung.yung@vajraltd.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "YUNG Ka Cheung"
+    },
+    {
+      "email": "kacheungyung@vajraltd.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "YUNG Ka Cheung"
+    },
+    {
+      "email": "kyung@vajraltd.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "YUNG Ka Cheung"
+    },
+    {
+      "email": "contact@vajraltd.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@vajraltd.com",
+      "kind": "generic_guess",
+      "confidence": "low"
     }
   ],
   "asset_classes": "unknown",

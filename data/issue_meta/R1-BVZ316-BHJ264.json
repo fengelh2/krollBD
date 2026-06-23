@@ -17,50 +17,7 @@
   "bd_lane": "FSCR",
   "variant_id": "R1-v3-FSCR",
   "email_body_hash": "ba9791e259",
-  "email_candidates": [
-    {
-      "email": "sheung.chan@questercapital.com",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "CHAN Sheung Man"
-    },
-    {
-      "email": "sheungchan@questercapital.com",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "CHAN Sheung Man"
-    },
-    {
-      "email": "schan@questercapital.com",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "CHAN Sheung Man"
-    },
-    {
-      "email": "info@questercapital.com",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "compliance@questercapital.com",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "contact@questercapital.com",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "enquiry@questercapital.com",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    }
-  ],
+  "email_candidates": [],
   "asset_classes": "unknown",
   "illiq_likelihood": "unknown",
   "aum_raw_string": "",

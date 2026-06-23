@@ -25,13 +25,13 @@
       "ro": null
     },
     {
-      "email": "ching.fok@cap-fcs.com",
+      "email": "chingpong.fok@cap-fcs.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "FOK Ching Pong"
     },
     {
-      "email": "chingfok@cap-fcs.com",
+      "email": "chingpongfok@cap-fcs.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "FOK Ching Pong"
@@ -43,22 +43,14 @@
       "ro": "FOK Ching Pong"
     },
     {
-      "email": "compliance@cap-fcs.com",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
       "email": "contact@cap-fcs.com",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     },
     {
       "email": "enquiry@cap-fcs.com",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     }
   ],
   "asset_classes": "private_equity,private_credit,real_assets,fund_of_funds",

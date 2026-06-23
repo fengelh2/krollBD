@@ -25,70 +25,37 @@
       "fetched_at_utc": "2026-06-16T02:10:52.153358+00:00"
     },
     {
+      "email": "flannielan.fu@spectrum-capital.net",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "FU Flannie Lan"
+    },
+    {
+      "email": "flannielanfu@spectrum-capital.net",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "FU Flannie Lan"
+    },
+    {
       "email": "ffu@spectrum-capital.net",
       "kind": "ro_guess",
       "confidence": "medium",
-      "ro": "FU Flannie Lan",
-      "evidence": "AbstractAPI: deliverable (valid_email) · CAUTION: all 3 patterns \"deliverable\" → likely catch-all domain (mailbox not actually verified)",
-      "abstract_verdict": "deliverable",
-      "abstract_quality_score": 0.99,
-      "flag": "likely_catch_all"
-    },
-    {
-      "email": "flanniefu@spectrum-capital.net",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "FU Flannie Lan",
-      "evidence": "AbstractAPI: deliverable (valid_email) · CAUTION: all 3 patterns \"deliverable\" → likely catch-all domain (mailbox not actually verified)",
-      "abstract_verdict": "deliverable",
-      "abstract_quality_score": 0.99,
-      "flag": "likely_catch_all"
-    },
-    {
-      "email": "flannie.fu@spectrum-capital.net",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "FU Flannie Lan",
-      "evidence": "AbstractAPI: deliverable (valid_email) · CAUTION: all 3 patterns \"deliverable\" → likely catch-all domain (mailbox not actually verified)",
-      "abstract_verdict": "deliverable",
-      "abstract_quality_score": 0.99,
-      "flag": "likely_catch_all"
+      "ro": "FU Flannie Lan"
     },
     {
       "email": "info@spectrum-capital.net",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "compliance@spectrum-capital.net",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     },
     {
       "email": "contact@spectrum-capital.net",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     },
     {
       "email": "enquiry@spectrum-capital.net",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "flannie lan.fu@spectrum-capital.net",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "FU Flannie Lan"
-    },
-    {
-      "email": "flannie lanfu@spectrum-capital.net",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "FU Flannie Lan"
+      "confidence": "low"
     }
   ],
   "asset_classes": "public_equity,public_credit,private_equity,private_credit,real_assets,fund_of_funds,multi",

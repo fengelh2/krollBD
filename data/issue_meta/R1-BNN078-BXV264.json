@@ -25,46 +25,37 @@
       "fetched_at_utc": "2026-06-16T02:10:52.148890+00:00"
     },
     {
-      "email": "xiongfei.zhang@sunfine.com.hk",
+      "email": "xiongfei.zhang@sunfine-fund.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "ZHANG Xiongfei"
     },
     {
-      "email": "xiongfeizhang@sunfine.com.hk",
+      "email": "xiongfeizhang@sunfine-fund.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "ZHANG Xiongfei"
     },
     {
-      "email": "xzhang@sunfine.com.hk",
+      "email": "xzhang@sunfine-fund.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "ZHANG Xiongfei"
     },
     {
-      "email": "info@sunfine.com.hk",
+      "email": "info@sunfine-fund.com",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     },
     {
-      "email": "compliance@sunfine.com.hk",
+      "email": "contact@sunfine-fund.com",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     },
     {
-      "email": "contact@sunfine.com.hk",
+      "email": "enquiry@sunfine-fund.com",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "enquiry@sunfine.com.hk",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     }
   ],
   "asset_classes": "unknown",

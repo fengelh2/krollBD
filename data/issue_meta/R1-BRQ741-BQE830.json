@@ -25,70 +25,37 @@
       "fetched_at_utc": "2026-06-16T02:10:52.151116+00:00"
     },
     {
-      "email": "sik.chan@syfe.com",
+      "email": "siklam.chan@syfe.com",
       "kind": "ro_guess",
-      "confidence": "low",
-      "ro": "CHAN Sik Lam",
-      "evidence": "AbstractAPI: undeliverable (invalid_mailbox)",
-      "abstract_verdict": "undeliverable",
-      "abstract_quality_score": 0.0,
-      "flag": "abstractapi_says_undeliverable"
+      "confidence": "medium",
+      "ro": "CHAN Sik Lam"
     },
     {
-      "email": "sikchan@syfe.com",
+      "email": "siklamchan@syfe.com",
       "kind": "ro_guess",
-      "confidence": "low",
-      "ro": "CHAN Sik Lam",
-      "evidence": "AbstractAPI: undeliverable (invalid_mailbox)",
-      "abstract_verdict": "undeliverable",
-      "abstract_quality_score": 0.0,
-      "flag": "abstractapi_says_undeliverable"
+      "confidence": "medium",
+      "ro": "CHAN Sik Lam"
     },
     {
       "email": "schan@syfe.com",
       "kind": "ro_guess",
-      "confidence": "low",
-      "ro": "CHAN Sik Lam",
-      "evidence": "AbstractAPI: undeliverable (invalid_mailbox)",
-      "abstract_verdict": "undeliverable",
-      "abstract_quality_score": 0.0,
-      "flag": "abstractapi_says_undeliverable"
+      "confidence": "medium",
+      "ro": "CHAN Sik Lam"
     },
     {
       "email": "info@syfe.com",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "compliance@syfe.com",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     },
     {
       "email": "contact@syfe.com",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     },
     {
       "email": "enquiry@syfe.com",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "sik lam.chan@syfe.com",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "CHAN Sik Lam"
-    },
-    {
-      "email": "sik lamchan@syfe.com",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "CHAN Sik Lam"
+      "confidence": "low"
     }
   ],
   "asset_classes": "public_equity,public_credit,private_credit,fund_of_funds",

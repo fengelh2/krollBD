@@ -34,42 +34,6 @@
       "abstract_detail": "invalid_mailbox",
       "evidence": "Hunter score 83 + AbstractAPI: undeliverable",
       "flag": "abstractapi_says_undeliverable"
-    },
-    {
-      "email": "takashiteruya@hk.daiwacm.com",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "TERUYA Takashi"
-    },
-    {
-      "email": "tteruya@hk.daiwacm.com",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "TERUYA Takashi"
-    },
-    {
-      "email": "info@hk.daiwacm.com",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "compliance@hk.daiwacm.com",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "contact@hk.daiwacm.com",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "enquiry@hk.daiwacm.com",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
     }
   ],
   "asset_classes": "public_equity,public_credit",

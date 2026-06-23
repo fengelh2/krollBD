@@ -35,13 +35,13 @@
       "evidence": "Hunter score 81 + AbstractAPI: deliverable"
     },
     {
-      "email": "yik.lau@cmbi.com.hk",
+      "email": "yikting.lau@cmbi.com.hk",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "LAU Yik Ting"
     },
     {
-      "email": "yiklau@cmbi.com.hk",
+      "email": "yiktinglau@cmbi.com.hk",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "LAU Yik Ting"
@@ -55,26 +55,17 @@
     {
       "email": "info@cmbi.com.hk",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "compliance@cmbi.com.hk",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     },
     {
       "email": "contact@cmbi.com.hk",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     },
     {
       "email": "enquiry@cmbi.com.hk",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     }
   ],
   "asset_classes": "public_equity,public_credit,multi",

@@ -25,35 +25,35 @@
       "fetched_at_utc": "2026-06-16T02:10:52.113570+00:00"
     },
     {
-      "email": "sang chul.park@samsung.com",
+      "email": "sangchul.park@samsungetfhk.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "PARK Sang Chul"
     },
     {
-      "email": "sang chulpark@samsung.com",
+      "email": "sangchulpark@samsungetfhk.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "PARK Sang Chul"
     },
     {
-      "email": "spark@samsung.com",
+      "email": "spark@samsungetfhk.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "PARK Sang Chul"
     },
     {
-      "email": "info@samsung.com",
+      "email": "info@samsungetfhk.com",
       "kind": "generic_guess",
       "confidence": "low"
     },
     {
-      "email": "contact@samsung.com",
+      "email": "contact@samsungetfhk.com",
       "kind": "generic_guess",
       "confidence": "low"
     },
     {
-      "email": "enquiry@samsung.com",
+      "email": "enquiry@samsungetfhk.com",
       "kind": "generic_guess",
       "confidence": "low"
     }

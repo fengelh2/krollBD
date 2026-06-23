@@ -32,13 +32,13 @@
       "ro": null
     },
     {
-      "email": "pong.chan@pickerscapital.com",
+      "email": "pongchi.chan@pickerscapital.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "CHAN Pong Chi"
     },
     {
-      "email": "pongchan@pickerscapital.com",
+      "email": "pongchichan@pickerscapital.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "CHAN Pong Chi"
@@ -50,34 +50,14 @@
       "ro": "CHAN Pong Chi"
     },
     {
-      "email": "compliance@pickerscapital.com",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
       "email": "contact@pickerscapital.com",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     },
     {
       "email": "enquiry@pickerscapital.com",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "pong chi.chan@pickerscapital.com",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "CHAN Pong Chi"
-    },
-    {
-      "email": "pong chichan@pickerscapital.com",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "CHAN Pong Chi"
+      "confidence": "low"
     }
   ],
   "asset_classes": "public_equity",

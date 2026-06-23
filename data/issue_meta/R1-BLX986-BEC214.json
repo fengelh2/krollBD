@@ -23,39 +23,6 @@
       "confidence": "verified",
       "evidence": "filed with SFC by the firm at licensing",
       "fetched_at_utc": "2026-06-16T02:10:52.147971+00:00"
-    },
-    {
-      "email": "benjamin.mak@feimhk.com",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "MAK Benjamin Chi Wai"
-    },
-    {
-      "email": "benjaminmak@feimhk.com",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "MAK Benjamin Chi Wai"
-    },
-    {
-      "email": "bmak@feimhk.com",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "MAK Benjamin Chi Wai"
-    },
-    {
-      "email": "info@feimhk.com",
-      "kind": "generic_guess",
-      "confidence": "low"
-    },
-    {
-      "email": "contact@feimhk.com",
-      "kind": "generic_guess",
-      "confidence": "low"
-    },
-    {
-      "email": "enquiry@feimhk.com",
-      "kind": "generic_guess",
-      "confidence": "low"
     }
   ],
   "asset_classes": "unknown",

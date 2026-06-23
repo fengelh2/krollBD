@@ -22,68 +22,7 @@
   "bd_lane": "FSCR",
   "variant_id": "C1-v4-FSCR",
   "email_body_hash": "07aa014e8b",
-  "email_candidates": [
-    {
-      "email": "kwong.chan@ganasset.com.hk",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "CHAN Kwong Shan"
-    },
-    {
-      "email": "kwongchan@ganasset.com.hk",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "CHAN Kwong Shan"
-    },
-    {
-      "email": "kchan@ganasset.com.hk",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "CHAN Kwong Shan"
-    },
-    {
-      "email": "patrick.wong@ganasset.com.hk",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "WONG Patrick"
-    },
-    {
-      "email": "patrickwong@ganasset.com.hk",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "WONG Patrick"
-    },
-    {
-      "email": "pwong@ganasset.com.hk",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "WONG Patrick"
-    },
-    {
-      "email": "info@ganasset.com.hk",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "compliance@ganasset.com.hk",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "contact@ganasset.com.hk",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "enquiry@ganasset.com.hk",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    }
-  ],
+  "email_candidates": [],
   "asset_classes": "unknown",
   "illiq_likelihood": "unknown",
   "aum_raw_string": "",

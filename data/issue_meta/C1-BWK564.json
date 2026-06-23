@@ -34,7 +34,13 @@
       "fetched_at_utc": "2026-06-16T02:10:52.087364+00:00"
     },
     {
-      "email": "i.chung@hazelsec.com",
+      "email": "ifon.chung@hazelsec.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHUNG I Fon"
+    },
+    {
+      "email": "ifonchung@hazelsec.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "CHUNG I Fon"
@@ -46,19 +52,13 @@
       "ro": "CHUNG I Fon"
     },
     {
-      "email": "ic@hazelsec.com",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "CHUNG I Fon"
-    },
-    {
-      "email": "ka.lee@hazelsec.com",
+      "email": "kaho.lee@hazelsec.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "LEE Ka Ho"
     },
     {
-      "email": "kalee@hazelsec.com",
+      "email": "kaholee@hazelsec.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "LEE Ka Ho"
@@ -70,13 +70,13 @@
       "ro": "LEE Ka Ho"
     },
     {
-      "email": "yuen.sun@hazelsec.com",
+      "email": "yuenhan.sun@hazelsec.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "SUN Yuen Han"
     },
     {
-      "email": "yuensun@hazelsec.com",
+      "email": "yuenhansun@hazelsec.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "SUN Yuen Han"
@@ -90,26 +90,17 @@
     {
       "email": "info@hazelsec.com",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "compliance@hazelsec.com",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     },
     {
       "email": "contact@hazelsec.com",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     },
     {
       "email": "enquiry@hazelsec.com",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     }
   ],
   "asset_classes": "unknown",

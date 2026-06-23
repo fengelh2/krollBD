@@ -29,51 +29,6 @@
       "confidence": "verified",
       "evidence": "filed with SFC by the firm at licensing",
       "fetched_at_utc": "2026-06-23T01:49:09.884388+00:00"
-    },
-    {
-      "email": "fangxing.li@joycapitalhk.com",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "LI Fangxing"
-    },
-    {
-      "email": "fangxingli@joycapitalhk.com",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "LI Fangxing"
-    },
-    {
-      "email": "fli@joycapitalhk.com",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "LI Fangxing"
-    },
-    {
-      "email": "lin.lin@joycapitalhk.com",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "LIN Lin"
-    },
-    {
-      "email": "llin@joycapitalhk.com",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "LIN Lin"
-    },
-    {
-      "email": "info@joycapitalhk.com",
-      "kind": "generic_guess",
-      "confidence": "low"
-    },
-    {
-      "email": "contact@joycapitalhk.com",
-      "kind": "generic_guess",
-      "confidence": "low"
-    },
-    {
-      "email": "enquiry@joycapitalhk.com",
-      "kind": "generic_guess",
-      "confidence": "low"
     }
   ],
   "asset_classes": "unknown",

@@ -35,13 +35,13 @@
       "evidence": "Hunter score 83 + AbstractAPI: deliverable"
     },
     {
-      "email": "yi.wang@jqinvestments.com",
+      "email": "yipeng.wang@jqinvestments.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "WANG Yi Peng"
     },
     {
-      "email": "yiwang@jqinvestments.com",
+      "email": "yipengwang@jqinvestments.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "WANG Yi Peng"
@@ -55,26 +55,17 @@
     {
       "email": "info@jqinvestments.com",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "compliance@jqinvestments.com",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     },
     {
       "email": "contact@jqinvestments.com",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     },
     {
       "email": "enquiry@jqinvestments.com",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     }
   ],
   "asset_classes": "public_equity",

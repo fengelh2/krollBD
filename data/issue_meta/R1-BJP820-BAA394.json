@@ -25,13 +25,13 @@
       "fetched_at_utc": "2026-06-16T02:10:52.146675+00:00"
     },
     {
-      "email": "lap.ng@ovatacapital.com",
+      "email": "lapkiu.ng@ovatacapital.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "NG Lap Kiu"
     },
     {
-      "email": "lapng@ovatacapital.com",
+      "email": "lapkiung@ovatacapital.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "NG Lap Kiu"
@@ -45,26 +45,17 @@
     {
       "email": "info@ovatacapital.com",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "compliance@ovatacapital.com",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     },
     {
       "email": "contact@ovatacapital.com",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     },
     {
       "email": "enquiry@ovatacapital.com",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     }
   ],
   "asset_classes": "public_equity",

@@ -23,39 +23,6 @@
       "confidence": "verified",
       "evidence": "filed with SFC by the firm at licensing",
       "fetched_at_utc": "2026-06-16T02:10:52.155662+00:00"
-    },
-    {
-      "email": "kuiting.zhong@tfsecgroup.com",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "ZHONG Kuiting"
-    },
-    {
-      "email": "kuitingzhong@tfsecgroup.com",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "ZHONG Kuiting"
-    },
-    {
-      "email": "kzhong@tfsecgroup.com",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "ZHONG Kuiting"
-    },
-    {
-      "email": "info@tfsecgroup.com",
-      "kind": "generic_guess",
-      "confidence": "low"
-    },
-    {
-      "email": "contact@tfsecgroup.com",
-      "kind": "generic_guess",
-      "confidence": "low"
-    },
-    {
-      "email": "enquiry@tfsecgroup.com",
-      "kind": "generic_guess",
-      "confidence": "low"
     }
   ],
   "asset_classes": "unknown",

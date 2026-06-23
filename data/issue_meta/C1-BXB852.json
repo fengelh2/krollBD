@@ -40,13 +40,13 @@
       "evidence": "Hunter score 96 + AbstractAPI: deliverable"
     },
     {
-      "email": "jun.lim@gatelanes.com",
+      "email": "junhong.lim@gatelanes.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "LIM Jun Hong"
     },
     {
-      "email": "junlim@gatelanes.com",
+      "email": "junhonglim@gatelanes.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "LIM Jun Hong"
@@ -78,26 +78,17 @@
     {
       "email": "info@gatelanes.com",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "compliance@gatelanes.com",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     },
     {
       "email": "contact@gatelanes.com",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     },
     {
       "email": "enquiry@gatelanes.com",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     }
   ],
   "asset_classes": "unknown",

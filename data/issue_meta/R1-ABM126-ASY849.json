@@ -31,13 +31,13 @@
       "ro": null
     },
     {
-      "email": "kok.chung@beevestsec.com",
+      "email": "kokfook.chung@beevestsec.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "CHUNG Kok Fook"
     },
     {
-      "email": "kokchung@beevestsec.com",
+      "email": "kokfookchung@beevestsec.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "CHUNG Kok Fook"
@@ -51,38 +51,17 @@
     {
       "email": "info@beevestsec.com",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "compliance@beevestsec.com",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     },
     {
       "email": "contact@beevestsec.com",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     },
     {
       "email": "enquiry@beevestsec.com",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "kok fook.chung@beevestsec.com",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "CHUNG Kok Fook"
-    },
-    {
-      "email": "kok fookchung@beevestsec.com",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "CHUNG Kok Fook"
+      "confidence": "low"
     }
   ],
   "asset_classes": "unknown",

@@ -23,39 +23,6 @@
       "confidence": "verified",
       "evidence": "filed with SFC by the firm at licensing",
       "fetched_at_utc": "2026-06-16T02:10:52.102508+00:00"
-    },
-    {
-      "email": "tin chak.mak@bofa.com",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "MAK Tin Chak"
-    },
-    {
-      "email": "tin chakmak@bofa.com",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "MAK Tin Chak"
-    },
-    {
-      "email": "tmak@bofa.com",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "MAK Tin Chak"
-    },
-    {
-      "email": "info@bofa.com",
-      "kind": "generic_guess",
-      "confidence": "low"
-    },
-    {
-      "email": "contact@bofa.com",
-      "kind": "generic_guess",
-      "confidence": "low"
-    },
-    {
-      "email": "enquiry@bofa.com",
-      "kind": "generic_guess",
-      "confidence": "low"
     }
   ],
   "asset_classes": "public_equity,public_credit,multi",

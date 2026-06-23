@@ -36,13 +36,13 @@
       "ro": null
     },
     {
-      "email": "kwan.au@garviscapital.com.hk",
+      "email": "kwanlok.au@garviscapital.com.hk",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "AU Kwan Lok"
     },
     {
-      "email": "kwanau@garviscapital.com.hk",
+      "email": "kwanlokau@garviscapital.com.hk",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "AU Kwan Lok"
@@ -54,13 +54,13 @@
       "ro": "AU Kwan Lok"
     },
     {
-      "email": "chi.chiu@garviscapital.com.hk",
+      "email": "chiyuen.chiu@garviscapital.com.hk",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "CHIU Chi Yuen"
     },
     {
-      "email": "chichiu@garviscapital.com.hk",
+      "email": "chiyuenchiu@garviscapital.com.hk",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "CHIU Chi Yuen"
@@ -74,26 +74,17 @@
     {
       "email": "info@garviscapital.com.hk",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "compliance@garviscapital.com.hk",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     },
     {
       "email": "contact@garviscapital.com.hk",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     },
     {
       "email": "enquiry@garviscapital.com.hk",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     }
   ],
   "asset_classes": "private_equity,private_credit,real_assets,public_equity,public_credit,fund_of_funds,multi",

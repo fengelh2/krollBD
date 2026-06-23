@@ -25,46 +25,32 @@
       "ro": null
     },
     {
-      "email": "chi.law@en.redsouthhk.com",
+      "email": "chipang.law@redsouthhk.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "LAW Chi Pang"
     },
     {
-      "email": "chilaw@en.redsouthhk.com",
+      "email": "chipanglaw@redsouthhk.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "LAW Chi Pang"
     },
     {
-      "email": "claw@en.redsouthhk.com",
+      "email": "claw@redsouthhk.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "LAW Chi Pang"
     },
     {
-      "email": "info@en.redsouthhk.com",
+      "email": "contact@redsouthhk.com",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     },
     {
-      "email": "compliance@en.redsouthhk.com",
+      "email": "enquiry@redsouthhk.com",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "contact@en.redsouthhk.com",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "enquiry@en.redsouthhk.com",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     }
   ],
   "asset_classes": "unknown",

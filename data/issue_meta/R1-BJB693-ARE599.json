@@ -31,40 +31,37 @@
       "ro": null
     },
     {
-      "email": "hin.ko@rp-assetmanagement.com",
+      "email": "hin.ko@gmail.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "KO Hin Ting James"
     },
     {
-      "email": "hinko@rp-assetmanagement.com",
+      "email": "hinko@gmail.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "KO Hin Ting James"
     },
     {
-      "email": "hko@rp-assetmanagement.com",
+      "email": "hko@gmail.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "KO Hin Ting James"
     },
     {
-      "email": "info@rp-assetmanagement.com",
+      "email": "info@gmail.com",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     },
     {
-      "email": "compliance@rp-assetmanagement.com",
+      "email": "contact@gmail.com",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     },
     {
-      "email": "enquiry@rp-assetmanagement.com",
+      "email": "enquiry@gmail.com",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     }
   ],
   "asset_classes": "private_equity,public_equity",

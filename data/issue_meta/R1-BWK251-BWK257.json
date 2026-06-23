@@ -23,48 +23,6 @@
       "confidence": "verified",
       "evidence": "filed with SFC by the firm at licensing",
       "fetched_at_utc": "2026-06-16T04:58:50.452029+00:00"
-    },
-    {
-      "email": "shifeng.zhang@guoyuanxindahk.com.hk",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "ZHANG Shifeng"
-    },
-    {
-      "email": "shifengzhang@guoyuanxindahk.com.hk",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "ZHANG Shifeng"
-    },
-    {
-      "email": "szhang@guoyuanxindahk.com.hk",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "ZHANG Shifeng"
-    },
-    {
-      "email": "info@guoyuanxindahk.com.hk",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "compliance@guoyuanxindahk.com.hk",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "contact@guoyuanxindahk.com.hk",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "enquiry@guoyuanxindahk.com.hk",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
     }
   ],
   "asset_classes": "unknown",

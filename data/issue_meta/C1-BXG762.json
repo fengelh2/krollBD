@@ -29,52 +29,6 @@
       "confidence": "verified",
       "evidence": "filed with SFC by the firm at licensing",
       "fetched_at_utc": "2026-06-23T01:49:09.885843+00:00"
-    },
-    {
-      "email": "xiaofei.dong@bc-hk.cn",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "DONG Xiaofei"
-    },
-    {
-      "email": "xiaofeidong@bc-hk.cn",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "DONG Xiaofei"
-    },
-    {
-      "email": "xdong@bc-hk.cn",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "DONG Xiaofei"
-    },
-    {
-      "email": "tingxia.luo@bc-hk.cn",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "LUO Tingxia"
-    },
-    {
-      "email": "tingxialuo@bc-hk.cn",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "LUO Tingxia"
-    },
-    {
-      "email": "tluo@bc-hk.cn",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "LUO Tingxia"
-    },
-    {
-      "email": "info@bc-hk.cn",
-      "kind": "generic_guess",
-      "confidence": "low"
-    },
-    {
-      "email": "enquiry@bc-hk.cn",
-      "kind": "generic_guess",
-      "confidence": "low"
     }
   ],
   "asset_classes": "unknown",

@@ -24,39 +24,6 @@
       "confidence": "verified",
       "evidence": "filed with SFC by the firm at licensing",
       "fetched_at_utc": "2026-06-23T01:49:09.886681+00:00"
-    },
-    {
-      "email": "shane.weir@apg-hk.com",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "WEIR Shane Frederick"
-    },
-    {
-      "email": "shaneweir@apg-hk.com",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "WEIR Shane Frederick"
-    },
-    {
-      "email": "sweir@apg-hk.com",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "WEIR Shane Frederick"
-    },
-    {
-      "email": "info@apg-hk.com",
-      "kind": "generic_guess",
-      "confidence": "low"
-    },
-    {
-      "email": "contact@apg-hk.com",
-      "kind": "generic_guess",
-      "confidence": "low"
-    },
-    {
-      "email": "enquiry@apg-hk.com",
-      "kind": "generic_guess",
-      "confidence": "low"
     }
   ],
   "asset_classes": "unknown",

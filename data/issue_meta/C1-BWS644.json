@@ -28,66 +28,6 @@
       "confidence": "verified",
       "evidence": "filed with SFC by the firm at licensing",
       "fetched_at_utc": "2026-06-16T02:10:52.088937+00:00"
-    },
-    {
-      "email": "kaili.wu@metaquest.com.hk",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "WU Kaili"
-    },
-    {
-      "email": "kailiwu@metaquest.com.hk",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "WU Kaili"
-    },
-    {
-      "email": "kwu@metaquest.com.hk",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "WU Kaili"
-    },
-    {
-      "email": "shaobin.xie@metaquest.com.hk",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "XIE Shaobin"
-    },
-    {
-      "email": "shaobinxie@metaquest.com.hk",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "XIE Shaobin"
-    },
-    {
-      "email": "sxie@metaquest.com.hk",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "XIE Shaobin"
-    },
-    {
-      "email": "info@metaquest.com.hk",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "compliance@metaquest.com.hk",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "contact@metaquest.com.hk",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "enquiry@metaquest.com.hk",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
     }
   ],
   "asset_classes": "unknown",

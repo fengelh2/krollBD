@@ -25,46 +25,37 @@
       "fetched_at_utc": "2026-06-16T04:58:50.456639+00:00"
     },
     {
-      "email": "biao.pei@paninvestment.com",
+      "email": "biao.pei@pancapmgmt.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "PEI Biao"
     },
     {
-      "email": "biaopei@paninvestment.com",
+      "email": "biaopei@pancapmgmt.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "PEI Biao"
     },
     {
-      "email": "bpei@paninvestment.com",
+      "email": "bpei@pancapmgmt.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "PEI Biao"
     },
     {
-      "email": "info@paninvestment.com",
+      "email": "info@pancapmgmt.com",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     },
     {
-      "email": "compliance@paninvestment.com",
+      "email": "contact@pancapmgmt.com",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     },
     {
-      "email": "contact@paninvestment.com",
+      "email": "enquiry@pancapmgmt.com",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "enquiry@paninvestment.com",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     }
   ],
   "asset_classes": "unknown",

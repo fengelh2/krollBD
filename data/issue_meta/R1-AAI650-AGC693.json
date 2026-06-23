@@ -34,60 +34,6 @@
       "flag": "abstractapi_says_undeliverable",
       "abstract_verdict": "undeliverable",
       "abstract_detail": "invalid_mailbox"
-    },
-    {
-      "email": "ho.chung@cmschina.com.hk",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "CHUNG Ho Tung"
-    },
-    {
-      "email": "hochung@cmschina.com.hk",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "CHUNG Ho Tung"
-    },
-    {
-      "email": "hchung@cmschina.com.hk",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "CHUNG Ho Tung"
-    },
-    {
-      "email": "info@cmschina.com.hk",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "compliance@cmschina.com.hk",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "contact@cmschina.com.hk",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "enquiry@cmschina.com.hk",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "ho tung.chung@cmschina.com.hk",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "CHUNG Ho Tung"
-    },
-    {
-      "email": "ho tungchung@cmschina.com.hk",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "CHUNG Ho Tung"
     }
   ],
   "asset_classes": "private_equity,public_equity,public_credit,multi",

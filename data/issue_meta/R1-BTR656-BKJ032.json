@@ -25,58 +25,37 @@
       "fetched_at_utc": "2026-06-16T02:10:52.152895+00:00"
     },
     {
+      "email": "meiling.wang@spectrum-capital.net",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "WANG Mei-Ling"
+    },
+    {
+      "email": "meilingwang@spectrum-capital.net",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "WANG Mei-Ling"
+    },
+    {
       "email": "mwang@spectrum-capital.net",
       "kind": "ro_guess",
       "confidence": "medium",
-      "ro": "WANG Mei-Ling",
-      "evidence": "AbstractAPI: deliverable (valid_email) · CAUTION: all 3 patterns \"deliverable\" → likely catch-all domain (mailbox not actually verified)",
-      "abstract_verdict": "deliverable",
-      "abstract_quality_score": 0.99,
-      "flag": "likely_catch_all"
-    },
-    {
-      "email": "mei-lingwang@spectrum-capital.net",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "WANG Mei-Ling",
-      "evidence": "AbstractAPI: deliverable (valid_email) · CAUTION: all 3 patterns \"deliverable\" → likely catch-all domain (mailbox not actually verified)",
-      "abstract_verdict": "deliverable",
-      "abstract_quality_score": 0.99,
-      "flag": "likely_catch_all"
-    },
-    {
-      "email": "mei-ling.wang@spectrum-capital.net",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "WANG Mei-Ling",
-      "evidence": "AbstractAPI: deliverable (valid_email) · CAUTION: all 3 patterns \"deliverable\" → likely catch-all domain (mailbox not actually verified)",
-      "abstract_verdict": "deliverable",
-      "abstract_quality_score": 0.99,
-      "flag": "likely_catch_all"
+      "ro": "WANG Mei-Ling"
     },
     {
       "email": "info@spectrum-capital.net",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "compliance@spectrum-capital.net",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     },
     {
       "email": "contact@spectrum-capital.net",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     },
     {
       "email": "enquiry@spectrum-capital.net",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     }
   ],
   "asset_classes": "public_equity,public_credit,private_equity,private_credit,real_assets,fund_of_funds,multi",

@@ -19,19 +19,19 @@
   "email_body_hash": "e2faa7ce20",
   "email_candidates": [
     {
-      "email": "tsz.chan@miraeasset.hk",
+      "email": "anthony.chan@miraeasset.hk",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "CHAN Tsz Him, Anthony"
     },
     {
-      "email": "tszchan@miraeasset.hk",
+      "email": "anthonychan@miraeasset.hk",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "CHAN Tsz Him, Anthony"
     },
     {
-      "email": "tchan@miraeasset.hk",
+      "email": "achan@miraeasset.hk",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "CHAN Tsz Him, Anthony"
@@ -39,26 +39,17 @@
     {
       "email": "info@miraeasset.hk",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "compliance@miraeasset.hk",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     },
     {
       "email": "contact@miraeasset.hk",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     },
     {
       "email": "enquiry@miraeasset.hk",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     }
   ],
   "asset_classes": "unknown",

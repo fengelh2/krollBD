@@ -42,46 +42,37 @@
       "evidence": "· WARN: SFC has https://hk.allianzgi.com, this was scraped from allianzgi.com"
     },
     {
-      "email": "julie.koo@hk.allianzgi.com",
+      "email": "juliej.koo@allianzgi.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "KOO Julie J"
     },
     {
-      "email": "juliekoo@hk.allianzgi.com",
+      "email": "juliejkoo@allianzgi.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "KOO Julie J"
     },
     {
-      "email": "jkoo@hk.allianzgi.com",
+      "email": "jkoo@allianzgi.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "KOO Julie J"
     },
     {
-      "email": "info@hk.allianzgi.com",
+      "email": "info@allianzgi.com",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     },
     {
-      "email": "compliance@hk.allianzgi.com",
+      "email": "contact@allianzgi.com",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     },
     {
-      "email": "contact@hk.allianzgi.com",
+      "email": "enquiry@allianzgi.com",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "enquiry@hk.allianzgi.com",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     }
   ],
   "asset_classes": "public_equity,public_credit,private_equity,private_credit,real_assets,multi",

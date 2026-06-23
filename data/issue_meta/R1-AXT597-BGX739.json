@@ -41,19 +41,13 @@
       "ro": null
     },
     {
-      "email": "kun.wong@ffgwm.com",
+      "email": "ericwong@ffgwm.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "WONG Kun Ho, Eric"
     },
     {
-      "email": "kunwong@ffgwm.com",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "WONG Kun Ho, Eric"
-    },
-    {
-      "email": "kwong@ffgwm.com",
+      "email": "ewong@ffgwm.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "WONG Kun Ho, Eric"
@@ -61,26 +55,17 @@
     {
       "email": "info@ffgwm.com",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "compliance@ffgwm.com",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     },
     {
       "email": "contact@ffgwm.com",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     },
     {
       "email": "enquiry@ffgwm.com",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     }
   ],
   "asset_classes": "public_equity,public_credit,multi",

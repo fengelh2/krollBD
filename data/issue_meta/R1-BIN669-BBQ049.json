@@ -25,13 +25,13 @@
       "fetched_at_utc": "2026-06-16T02:10:52.144866+00:00"
     },
     {
-      "email": "tsz.lam@finloop.hk",
+      "email": "tszchun.lam@finloop.hk",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "LAM Tsz Chun"
     },
     {
-      "email": "tszlam@finloop.hk",
+      "email": "tszchunlam@finloop.hk",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "LAM Tsz Chun"
@@ -45,38 +45,17 @@
     {
       "email": "info@finloop.hk",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "compliance@finloop.hk",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     },
     {
       "email": "contact@finloop.hk",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     },
     {
       "email": "enquiry@finloop.hk",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "tsz chun.lam@finloop.hk",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "LAM Tsz Chun"
-    },
-    {
-      "email": "tsz chunlam@finloop.hk",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "LAM Tsz Chun"
+      "confidence": "low"
     }
   ],
   "asset_classes": "public_equity,public_credit,fund_of_funds,multi",

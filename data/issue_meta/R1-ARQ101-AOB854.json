@@ -35,13 +35,13 @@
       "abstract_detail": "valid_email"
     },
     {
-      "email": "wai.tsang@dkpartners.com",
+      "email": "wayne.tsang@dkpartners.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "TSANG Wai Hang, Wayne"
     },
     {
-      "email": "waitsang@dkpartners.com",
+      "email": "waynetsang@dkpartners.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "TSANG Wai Hang, Wayne"
@@ -49,26 +49,17 @@
     {
       "email": "info@dkpartners.com",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "compliance@dkpartners.com",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     },
     {
       "email": "contact@dkpartners.com",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     },
     {
       "email": "enquiry@dkpartners.com",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     }
   ],
   "asset_classes": "private_credit,public_equity,public_credit,multi",

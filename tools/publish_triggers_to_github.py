@@ -608,8 +608,17 @@ def parse_name(full: str) -> tuple[str, str]:
     return parts[0].lower(), parts[-1].lower()
 
 
+def _sanitize_for_local_part(s: str) -> str:
+    """Strip whitespace and non-letter chars from a name component so it fits
+    inside an email local part. 'Kit Sum' -> 'kitsum', 'Mei-Ling' -> 'meiling'."""
+    if not s: return ""
+    return re.sub(r"[^a-z0-9]", "", s.lower())
+
+
 def email_patterns(first: str, last: str) -> list[str]:
     """Common corporate email-local patterns. Most-likely first."""
+    first = _sanitize_for_local_part(first)
+    last = _sanitize_for_local_part(last)
     if not first and not last:
         return []
     fi = first[0] if first else ""

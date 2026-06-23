@@ -25,19 +25,19 @@
       "fetched_at_utc": "2026-06-16T02:10:52.144354+00:00"
     },
     {
-      "email": "chun.lui@ruilianhk.com",
+      "email": "stefan.lui@ruilianhk.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "LUI Chun Wai, Stefan"
     },
     {
-      "email": "chunlui@ruilianhk.com",
+      "email": "stefanlui@ruilianhk.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "LUI Chun Wai, Stefan"
     },
     {
-      "email": "clui@ruilianhk.com",
+      "email": "slui@ruilianhk.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "LUI Chun Wai, Stefan"
@@ -45,26 +45,17 @@
     {
       "email": "info@ruilianhk.com",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "compliance@ruilianhk.com",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     },
     {
       "email": "contact@ruilianhk.com",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     },
     {
       "email": "enquiry@ruilianhk.com",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     }
   ],
   "asset_classes": "private_equity,public_equity,public_credit",

@@ -23,6 +23,39 @@
       "confidence": "verified",
       "evidence": "filed with SFC by the firm at licensing",
       "fetched_at_utc": "2026-06-16T02:10:52.122300+00:00"
+    },
+    {
+      "email": "singkuen.lam@asiapacificsec.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LAM Sing Kuen"
+    },
+    {
+      "email": "singkuenlam@asiapacificsec.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LAM Sing Kuen"
+    },
+    {
+      "email": "slam@asiapacificsec.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LAM Sing Kuen"
+    },
+    {
+      "email": "info@asiapacificsec.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@asiapacificsec.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@asiapacificsec.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
     }
   ],
   "asset_classes": "unknown",

@@ -23,48 +23,6 @@
       "confidence": "verified",
       "evidence": "filed with SFC by the firm at licensing",
       "fetched_at_utc": "2026-06-16T02:10:52.153828+00:00"
-    },
-    {
-      "email": "lei.zhang@cglim.com",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "ZHANG Lei"
-    },
-    {
-      "email": "leizhang@cglim.com",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "ZHANG Lei"
-    },
-    {
-      "email": "lzhang@cglim.com",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "ZHANG Lei"
-    },
-    {
-      "email": "info@cglim.com",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "compliance@cglim.com",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "contact@cglim.com",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "enquiry@cglim.com",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
     }
   ],
   "asset_classes": "private_equity,real_assets",

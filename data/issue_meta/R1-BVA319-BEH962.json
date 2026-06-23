@@ -17,50 +17,7 @@
   "bd_lane": "FSCR",
   "variant_id": "R1-v3-FSCR",
   "email_body_hash": "4c75a5ad28",
-  "email_candidates": [
-    {
-      "email": "lap.kung@unity-partners.com",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "KUNG Lap Quin Kevin"
-    },
-    {
-      "email": "lapkung@unity-partners.com",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "KUNG Lap Quin Kevin"
-    },
-    {
-      "email": "lkung@unity-partners.com",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "KUNG Lap Quin Kevin"
-    },
-    {
-      "email": "info@unity-partners.com",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "compliance@unity-partners.com",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "contact@unity-partners.com",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "enquiry@unity-partners.com",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    }
-  ],
+  "email_candidates": [],
   "asset_classes": "unknown",
   "illiq_likelihood": "unknown",
   "aum_raw_string": "",

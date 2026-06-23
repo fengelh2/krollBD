@@ -30,64 +30,55 @@
       "fetched_at_utc": "2026-06-16T02:10:52.086787+00:00"
     },
     {
-      "email": "ji.liu@lcvmanagement.com.hk",
+      "email": "ji.liu@lanchiventures.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "LIU Ji"
     },
     {
-      "email": "jiliu@lcvmanagement.com.hk",
+      "email": "jiliu@lanchiventures.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "LIU Ji"
     },
     {
-      "email": "jliu@lcvmanagement.com.hk",
+      "email": "jliu@lanchiventures.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "LIU Ji"
     },
     {
-      "email": "jing.rong@lcvmanagement.com.hk",
+      "email": "jing.rong@lanchiventures.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "RONG Jing"
     },
     {
-      "email": "jingrong@lcvmanagement.com.hk",
+      "email": "jingrong@lanchiventures.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "RONG Jing"
     },
     {
-      "email": "jrong@lcvmanagement.com.hk",
+      "email": "jrong@lanchiventures.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "RONG Jing"
     },
     {
-      "email": "info@lcvmanagement.com.hk",
+      "email": "info@lanchiventures.com",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     },
     {
-      "email": "compliance@lcvmanagement.com.hk",
+      "email": "contact@lanchiventures.com",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     },
     {
-      "email": "contact@lcvmanagement.com.hk",
+      "email": "enquiry@lanchiventures.com",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "enquiry@lcvmanagement.com.hk",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     }
   ],
   "asset_classes": "unknown",

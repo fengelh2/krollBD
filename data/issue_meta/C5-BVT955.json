@@ -28,66 +28,6 @@
       "confidence": "verified",
       "evidence": "filed with SFC by the firm at licensing",
       "fetched_at_utc": "2026-06-16T02:10:52.101109+00:00"
-    },
-    {
-      "email": "yi.ren@megafaithassociates.com.hk",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "REN Yi"
-    },
-    {
-      "email": "yiren@megafaithassociates.com.hk",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "REN Yi"
-    },
-    {
-      "email": "yren@megafaithassociates.com.hk",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "REN Yi"
-    },
-    {
-      "email": "ziyu.zhao@megafaithassociates.com.hk",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "ZHAO Ziyu"
-    },
-    {
-      "email": "ziyuzhao@megafaithassociates.com.hk",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "ZHAO Ziyu"
-    },
-    {
-      "email": "zzhao@megafaithassociates.com.hk",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "ZHAO Ziyu"
-    },
-    {
-      "email": "info@megafaithassociates.com.hk",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "compliance@megafaithassociates.com.hk",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "contact@megafaithassociates.com.hk",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "enquiry@megafaithassociates.com.hk",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
     }
   ],
   "asset_classes": "unknown",

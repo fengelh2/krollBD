@@ -22,68 +22,7 @@
   "bd_lane": "FSCR",
   "variant_id": "C1-v4-FSCR",
   "email_body_hash": "a2412558ce",
-  "email_candidates": [
-    {
-      "email": "ka.au@sinoeurobusiness.com.hk",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "AU Ka Wah"
-    },
-    {
-      "email": "kaau@sinoeurobusiness.com.hk",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "AU Ka Wah"
-    },
-    {
-      "email": "kau@sinoeurobusiness.com.hk",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "AU Ka Wah"
-    },
-    {
-      "email": "hoi.wong@sinoeurobusiness.com.hk",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "WONG Hoi Ka"
-    },
-    {
-      "email": "hoiwong@sinoeurobusiness.com.hk",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "WONG Hoi Ka"
-    },
-    {
-      "email": "hwong@sinoeurobusiness.com.hk",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "WONG Hoi Ka"
-    },
-    {
-      "email": "info@sinoeurobusiness.com.hk",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "compliance@sinoeurobusiness.com.hk",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "contact@sinoeurobusiness.com.hk",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "enquiry@sinoeurobusiness.com.hk",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    }
-  ],
+  "email_candidates": [],
   "asset_classes": "unknown",
   "illiq_likelihood": "unknown",
   "aum_raw_string": "",

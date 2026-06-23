@@ -23,48 +23,6 @@
       "confidence": "verified",
       "evidence": "filed with SFC by the firm at licensing",
       "fetched_at_utc": "2026-06-16T02:10:52.154740+00:00"
-    },
-    {
-      "email": "chun.ng@sirenia.com",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "NG Chun Hei"
-    },
-    {
-      "email": "chunng@sirenia.com",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "NG Chun Hei"
-    },
-    {
-      "email": "cng@sirenia.com",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "NG Chun Hei"
-    },
-    {
-      "email": "info@sirenia.com",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "compliance@sirenia.com",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "contact@sirenia.com",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "enquiry@sirenia.com",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
     }
   ],
   "asset_classes": "unknown",

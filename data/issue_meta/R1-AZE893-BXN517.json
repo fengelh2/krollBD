@@ -17,50 +17,7 @@
   "bd_lane": "FSCR",
   "variant_id": "R1-v3-FSCR",
   "email_body_hash": "957c1428c7",
-  "email_candidates": [
-    {
-      "email": "paul.leech@capulaglobal.com",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "LEECH Paul Edward"
-    },
-    {
-      "email": "paulleech@capulaglobal.com",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "LEECH Paul Edward"
-    },
-    {
-      "email": "pleech@capulaglobal.com",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "LEECH Paul Edward"
-    },
-    {
-      "email": "info@capulaglobal.com",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "compliance@capulaglobal.com",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "contact@capulaglobal.com",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "enquiry@capulaglobal.com",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    }
-  ],
+  "email_candidates": [],
   "asset_classes": "public_credit,macro,unknown",
   "illiq_likelihood": "none",
   "aum_raw_string": "",

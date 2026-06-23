@@ -31,13 +31,13 @@
       "ro": null
     },
     {
-      "email": "wan.lo@sparccapital.com",
+      "email": "wanwai.lo@sparccapital.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "LO Wan Wai"
     },
     {
-      "email": "wanlo@sparccapital.com",
+      "email": "wanwailo@sparccapital.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "LO Wan Wai"
@@ -51,38 +51,12 @@
     {
       "email": "info@sparccapital.com",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "compliance@sparccapital.com",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     },
     {
       "email": "contact@sparccapital.com",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "enquiry@sparccapital.com",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "wan wai.lo@sparccapital.com",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "LO Wan Wai"
-    },
-    {
-      "email": "wan wailo@sparccapital.com",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "LO Wan Wai"
+      "confidence": "low"
     }
   ],
   "asset_classes": "private_credit,real_assets",

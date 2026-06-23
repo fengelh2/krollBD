@@ -23,39 +23,6 @@
       "confidence": "verified",
       "evidence": "filed with SFC by the firm at licensing",
       "fetched_at_utc": "2026-06-16T02:10:52.156519+00:00"
-    },
-    {
-      "email": "ching ki.wong@tckghk.com",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "WONG Ching Ki"
-    },
-    {
-      "email": "ching kiwong@tckghk.com",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "WONG Ching Ki"
-    },
-    {
-      "email": "cwong@tckghk.com",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "WONG Ching Ki"
-    },
-    {
-      "email": "info@tckghk.com",
-      "kind": "generic_guess",
-      "confidence": "low"
-    },
-    {
-      "email": "contact@tckghk.com",
-      "kind": "generic_guess",
-      "confidence": "low"
-    },
-    {
-      "email": "enquiry@tckghk.com",
-      "kind": "generic_guess",
-      "confidence": "low"
     }
   ],
   "asset_classes": "unknown",

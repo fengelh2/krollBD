@@ -34,82 +34,73 @@
       "fetched_at_utc": "2026-06-16T02:10:52.100626+00:00"
     },
     {
-      "email": "zhifang.huang@sinofortune.com.hk",
+      "email": "zhifang.huang@sinofor.com.hk",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "HUANG Zhifang"
     },
     {
-      "email": "zhifanghuang@sinofortune.com.hk",
+      "email": "zhifanghuang@sinofor.com.hk",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "HUANG Zhifang"
     },
     {
-      "email": "zhuang@sinofortune.com.hk",
+      "email": "zhuang@sinofor.com.hk",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "HUANG Zhifang"
     },
     {
-      "email": "chi.lau@sinofortune.com.hk",
+      "email": "chiching.lau@sinofor.com.hk",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "LAU Chi Ching"
     },
     {
-      "email": "chilau@sinofortune.com.hk",
+      "email": "chichinglau@sinofor.com.hk",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "LAU Chi Ching"
     },
     {
-      "email": "clau@sinofortune.com.hk",
+      "email": "clau@sinofor.com.hk",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "LAU Chi Ching"
     },
     {
-      "email": "qi.xi@sinofortune.com.hk",
+      "email": "qi.xi@sinofor.com.hk",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "XI Qi"
     },
     {
-      "email": "qixi@sinofortune.com.hk",
+      "email": "qixi@sinofor.com.hk",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "XI Qi"
     },
     {
-      "email": "qxi@sinofortune.com.hk",
+      "email": "qxi@sinofor.com.hk",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "XI Qi"
     },
     {
-      "email": "info@sinofortune.com.hk",
+      "email": "info@sinofor.com.hk",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     },
     {
-      "email": "compliance@sinofortune.com.hk",
+      "email": "contact@sinofor.com.hk",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     },
     {
-      "email": "contact@sinofortune.com.hk",
+      "email": "enquiry@sinofor.com.hk",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "enquiry@sinofortune.com.hk",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     }
   ],
   "asset_classes": "unknown",

@@ -17,50 +17,7 @@
   "bd_lane": "FSCR",
   "variant_id": "R1-v3-FSCR",
   "email_body_hash": "530f14bd24",
-  "email_candidates": [
-    {
-      "email": "ka.chau@phronisysasset.com.hk",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "CHAU Ka Wing"
-    },
-    {
-      "email": "kachau@phronisysasset.com.hk",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "CHAU Ka Wing"
-    },
-    {
-      "email": "kchau@phronisysasset.com.hk",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "CHAU Ka Wing"
-    },
-    {
-      "email": "info@phronisysasset.com.hk",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "compliance@phronisysasset.com.hk",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "contact@phronisysasset.com.hk",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "enquiry@phronisysasset.com.hk",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    }
-  ],
+  "email_candidates": [],
   "asset_classes": "unknown",
   "illiq_likelihood": "unknown",
   "aum_raw_string": "",

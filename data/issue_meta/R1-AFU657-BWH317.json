@@ -59,22 +59,14 @@
       "ro": "LIU Yingjie"
     },
     {
-      "email": "compliance@silverstone.com.hk",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
       "email": "contact@silverstone.com.hk",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     },
     {
       "email": "enquiry@silverstone.com.hk",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     }
   ],
   "asset_classes": "private_equity,real_assets,hedge_funds,public_equity,public_credit,multi",

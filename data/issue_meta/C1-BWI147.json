@@ -30,64 +30,55 @@
       "fetched_at_utc": "2026-06-16T02:10:52.085063+00:00"
     },
     {
-      "email": "chin.kiang@aqualake.com.hk",
+      "email": "chinyu.kiang@aqualakecapital.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "KIANG Chin Yu"
     },
     {
-      "email": "chinkiang@aqualake.com.hk",
+      "email": "chinyukiang@aqualakecapital.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "KIANG Chin Yu"
     },
     {
-      "email": "ckiang@aqualake.com.hk",
+      "email": "ckiang@aqualakecapital.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "KIANG Chin Yu"
     },
     {
-      "email": "ken.ngo@aqualake.com.hk",
+      "email": "kenhung.ngo@aqualakecapital.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "NGO Ken Hung"
     },
     {
-      "email": "kenngo@aqualake.com.hk",
+      "email": "kenhungngo@aqualakecapital.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "NGO Ken Hung"
     },
     {
-      "email": "kngo@aqualake.com.hk",
+      "email": "kngo@aqualakecapital.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "NGO Ken Hung"
     },
     {
-      "email": "info@aqualake.com.hk",
+      "email": "info@aqualakecapital.com",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     },
     {
-      "email": "compliance@aqualake.com.hk",
+      "email": "contact@aqualakecapital.com",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     },
     {
-      "email": "contact@aqualake.com.hk",
+      "email": "enquiry@aqualakecapital.com",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "enquiry@aqualake.com.hk",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     }
   ],
   "asset_classes": "unknown",

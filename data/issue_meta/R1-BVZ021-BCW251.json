@@ -17,50 +17,7 @@
   "bd_lane": "FSCR",
   "variant_id": "R1-v3-FSCR",
   "email_body_hash": "954e2b0147",
-  "email_candidates": [
-    {
-      "email": "kwok.chan@nautilustrek.com.hk",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "CHAN Kwok Wai"
-    },
-    {
-      "email": "kwokchan@nautilustrek.com.hk",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "CHAN Kwok Wai"
-    },
-    {
-      "email": "kchan@nautilustrek.com.hk",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "CHAN Kwok Wai"
-    },
-    {
-      "email": "info@nautilustrek.com.hk",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "compliance@nautilustrek.com.hk",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "contact@nautilustrek.com.hk",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "enquiry@nautilustrek.com.hk",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    }
-  ],
+  "email_candidates": [],
   "asset_classes": "unknown",
   "illiq_likelihood": "unknown",
   "aum_raw_string": "",

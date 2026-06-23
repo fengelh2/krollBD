@@ -23,39 +23,6 @@
       "confidence": "verified",
       "evidence": "filed with SFC by the firm at licensing",
       "fetched_at_utc": "2026-06-16T02:10:52.147114+00:00"
-    },
-    {
-      "email": "tsun yu.ho@gmail.com",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "HO Tsun Yu"
-    },
-    {
-      "email": "tsun yuho@gmail.com",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "HO Tsun Yu"
-    },
-    {
-      "email": "tho@gmail.com",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "HO Tsun Yu"
-    },
-    {
-      "email": "info@gmail.com",
-      "kind": "generic_guess",
-      "confidence": "low"
-    },
-    {
-      "email": "contact@gmail.com",
-      "kind": "generic_guess",
-      "confidence": "low"
-    },
-    {
-      "email": "enquiry@gmail.com",
-      "kind": "generic_guess",
-      "confidence": "low"
     }
   ],
   "asset_classes": "unknown",

@@ -51,38 +51,17 @@
     {
       "email": "info@beevestsec.com",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "compliance@beevestsec.com",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     },
     {
       "email": "contact@beevestsec.com",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
+      "confidence": "low"
     },
     {
       "email": "enquiry@beevestsec.com",
       "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "wing pong.ho@beevestsec.com",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "HO Wing Pong"
-    },
-    {
-      "email": "wing pongho@beevestsec.com",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "HO Wing Pong"
+      "confidence": "low"
     }
   ],
   "asset_classes": "unknown",

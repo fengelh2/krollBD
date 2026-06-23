@@ -17,50 +17,7 @@
   "bd_lane": "FSCR",
   "variant_id": "R1-v3-FSCR",
   "email_body_hash": "247baf3b8f",
-  "email_candidates": [
-    {
-      "email": "wai.kwok@qingchiasset.com.hk",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "KWOK Wai Ling"
-    },
-    {
-      "email": "waikwok@qingchiasset.com.hk",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "KWOK Wai Ling"
-    },
-    {
-      "email": "wkwok@qingchiasset.com.hk",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "KWOK Wai Ling"
-    },
-    {
-      "email": "info@qingchiasset.com.hk",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "compliance@qingchiasset.com.hk",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "contact@qingchiasset.com.hk",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "enquiry@qingchiasset.com.hk",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    }
-  ],
+  "email_candidates": [],
   "asset_classes": "unknown",
   "illiq_likelihood": "unknown",
   "aum_raw_string": "",

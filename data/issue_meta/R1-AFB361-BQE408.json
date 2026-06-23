@@ -24,39 +24,6 @@
       "confidence": "verified",
       "evidence": "filed with SFC by the firm at licensing",
       "fetched_at_utc": "2026-06-23T01:49:09.887085+00:00"
-    },
-    {
-      "email": "keke.li@neufinc.com",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "LI Keke"
-    },
-    {
-      "email": "kekeli@neufinc.com",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "LI Keke"
-    },
-    {
-      "email": "kli@neufinc.com",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "LI Keke"
-    },
-    {
-      "email": "info@neufinc.com",
-      "kind": "generic_guess",
-      "confidence": "low"
-    },
-    {
-      "email": "contact@neufinc.com",
-      "kind": "generic_guess",
-      "confidence": "low"
-    },
-    {
-      "email": "enquiry@neufinc.com",
-      "kind": "generic_guess",
-      "confidence": "low"
     }
   ],
   "asset_classes": "unknown",

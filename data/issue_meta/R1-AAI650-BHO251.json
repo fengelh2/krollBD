@@ -34,60 +34,6 @@
       "flag": "abstractapi_says_undeliverable",
       "abstract_verdict": "undeliverable",
       "abstract_detail": "invalid_mailbox"
-    },
-    {
-      "email": "kai.liu@cmschina.com.hk",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "LIU Kai Kin"
-    },
-    {
-      "email": "kailiu@cmschina.com.hk",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "LIU Kai Kin"
-    },
-    {
-      "email": "kliu@cmschina.com.hk",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "LIU Kai Kin"
-    },
-    {
-      "email": "info@cmschina.com.hk",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "compliance@cmschina.com.hk",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "contact@cmschina.com.hk",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "enquiry@cmschina.com.hk",
-      "kind": "generic_guess",
-      "confidence": "low",
-      "ro": null
-    },
-    {
-      "email": "kai kin.liu@cmschina.com.hk",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "LIU Kai Kin"
-    },
-    {
-      "email": "kai kinliu@cmschina.com.hk",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "LIU Kai Kin"
     }
   ],
   "asset_classes": "private_equity,public_equity,public_credit,multi",
