@@ -1,0 +1,44 @@
+{
+  "type": "C5",
+  "type_label": "Rebrand / name change",
+  "firm": "Orianne Capital Management Limited",
+  "old_firm": "Petrus Asset Management Limited",
+  "natural": "Orianne Capital",
+  "ceref": "BUD085",
+  "ros": [
+    {
+      "name": "LIAO You",
+      "ceref": "BCQ567"
+    },
+    {
+      "name": "TSUI Tat Chi",
+      "ceref": "AEU434"
+    },
+    {
+      "name": "WONG Kim Ming",
+      "ceref": "AHU702"
+    }
+  ],
+  "primary_ro": "LIAO You",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BUD085/details?locale=en",
+  "email_subject": "Orianne Capital — note on the recent rebrand",
+  "email_body": "Dear Orianne Capital Management,\n\nThis is Felix from Kroll in Hong Kong. The SFC public register shows that Petrus Asset has been renamed to Orianne Capital.\n\nRebrands often accompany broader changes — a new sponsor, a strategy refresh, or an organisational reshape — and these moments are often a natural time to revisit fund-level valuation policies and the operating arrangements behind them.\n\nKroll's Portfolio Valuation team works with SFC-regulated managers across Hong Kong on independent fair-value opinions for private equity and credit positions, and our adjacent FSCR colleagues support governance and regulatory engagement. Happy to set up an informal call if any of this would be useful as you transition.\n\nKind regards,\nFelix Engelhardt\n",
+  "variant_id": "C5-v2",
+  "email_body_hash": "af77358299",
+  "email_candidates": [
+    {
+      "email": "info@petrus-capital.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-06-25T10:36:34.157757+00:00"
+    }
+  ],
+  "asset_classes": "unknown",
+  "illiq_likelihood": "unknown",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "none",
+  "website_accuracy": "not_found"
+}
