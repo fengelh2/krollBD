@@ -2028,5 +2028,33 @@
     "quality_score": 0.99,
     "is_mx_valid": true,
     "status_detail": "valid_email"
+  },
+  "bomin.chen@miraeasset.hk": {
+    "email": "bomin.chen@miraeasset.hk",
+    "status": "deliverable",
+    "source": "abstractapi",
+    "fetched_at_utc": "2026-06-26T06:49:59+00:00",
+    "is_valid_format": true,
+    "is_smtp_valid": true,
+    "is_catch_all": false,
+    "is_role": false,
+    "is_disposable": false,
+    "quality_score": 0.99,
+    "is_mx_valid": true,
+    "status_detail": "valid_email"
+  },
+  "jianfeiwu@kingston.com.hk": {
+    "email": "jianfeiwu@kingston.com.hk",
+    "status": "deliverable",
+    "source": "abstractapi",
+    "fetched_at_utc": "2026-06-26T06:50:30+00:00",
+    "is_valid_format": true,
+    "is_smtp_valid": true,
+    "is_catch_all": false,
+    "is_role": false,
+    "is_disposable": false,
+    "quality_score": 0.99,
+    "is_mx_valid": true,
+    "status_detail": "valid_email"
   }
 }

@@ -19,6 +19,16 @@
   "email_body_hash": "3594f26b19",
   "email_candidates": [
     {
+      "email": "jianfeiwu@kingston.com.hk",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "WU Jianfei",
+      "score": 74,
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email",
+      "evidence": "Hunter score 74 + AbstractAPI: deliverable"
+    },
+    {
       "email": "sumaso@kingston.com.hk",
       "kind": "sfc_filed",
       "confidence": "verified",
@@ -27,12 +37,6 @@
     },
     {
       "email": "jianfei.wu@kingston.com.hk",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "WU Jianfei"
-    },
-    {
-      "email": "jianfeiwu@kingston.com.hk",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "WU Jianfei"
@@ -65,5 +69,18 @@
   "aum_usd_m": "",
   "parent_org": "",
   "classification_source": "website",
-  "website_accuracy": "probable"
+  "website_accuracy": "probable",
+  "deep_scrape_attempted_utc": "2026-06-26T06:50:26.218029+00:00",
+  "deep_scrape_note": "site scraped — no new emails found",
+  "hunter_hits": [
+    {
+      "email": "jianfeiwu@kingston.com.hk",
+      "score": 74,
+      "ro": "WU Jianfei",
+      "fetched_at_utc": "2026-06-26T06:50:30.277897+00:00",
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email"
+    }
+  ],
+  "hunter_attempted_utc": "2026-06-26T06:50:30.277915+00:00"
 }

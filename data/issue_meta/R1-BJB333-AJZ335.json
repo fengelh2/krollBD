@@ -19,17 +19,21 @@
   "email_body_hash": "0de45cb94b",
   "email_candidates": [
     {
+      "email": "bomin.chen@miraeasset.hk",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "CHEN Bomin",
+      "score": 74,
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email",
+      "evidence": "Hunter score 74 + AbstractAPI: deliverable"
+    },
+    {
       "email": "compliance@miraeasset.hk",
       "kind": "sfc_filed",
       "confidence": "verified",
       "evidence": "filed with SFC by the firm at licensing",
       "fetched_at_utc": "2026-06-25T10:36:34.161362+00:00"
-    },
-    {
-      "email": "bomin.chen@miraeasset.hk",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "CHEN Bomin"
     },
     {
       "email": "bominchen@miraeasset.hk",
@@ -66,5 +70,18 @@
   "parent_org": "",
   "classification_source": "none+website_reverify",
   "website_accuracy": "not_found",
-  "sfc_filed_website": "miraeasset.hk"
+  "sfc_filed_website": "miraeasset.hk",
+  "deep_scrape_attempted_utc": "2026-06-26T06:49:57.532348+00:00",
+  "deep_scrape_note": "site scraped — no new emails found",
+  "hunter_hits": [
+    {
+      "email": "bomin.chen@miraeasset.hk",
+      "score": 74,
+      "ro": "CHEN Bomin",
+      "fetched_at_utc": "2026-06-26T06:49:59.691974+00:00",
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email"
+    }
+  ],
+  "hunter_attempted_utc": "2026-06-26T06:49:59.691992+00:00"
 }
