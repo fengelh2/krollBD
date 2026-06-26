@@ -2,8 +2,7 @@
   "started_at": "2026-06-26T06:47:41.541430+00:00",
   "current_idx": 24,
   "total": 24,
-  "phase": "running",
-  "current_firm": "[R1] New RO at Neutral Financial Holding Company Limited — L",
-  "current_trigger_id": "R1-AFB361-BQE408",
-  "done": false
+  "phase": "done",
+  "done": true,
+  "finished_at": "2026-06-26T07:05:44.866740+00:00"
 }
