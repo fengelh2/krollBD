@@ -2,7 +2,7 @@
   "type": "R1",
   "type_label": "New RO appointed",
   "firm": "Kingbridge Capital Asset Management Limited",
-  "natural": "Kingbridge Capital Asset",
+  "natural": "Kingbridge Capital",
   "ceref": "BOJ056",
   "ros": [
     {
@@ -12,10 +12,10 @@
   ],
   "primary_ro": "CHAN Lai Ying",
   "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BOJ056/details?locale=en",
-  "email_subject": "Congratulations on your RO appointment at Kingbridge Capital Asset",
-  "email_body": "Dear Lai Ying,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at Kingbridge Capital Asset.\n\nFor newly appointed ROs like yourself, settling into the role often means getting a clear view of where the firm's compliance posture sits — internal policies, current filings, ongoing SFC engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps SFC-licensed firms with exactly that, scaled to the firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "email_subject": "Congratulations on your RO appointment at Kingbridge Capital",
+  "email_body": "Dear Lai Ying,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at Kingbridge Capital.\n\nFor newly appointed ROs like yourself, settling into the role often means getting a clear view of where the firm's compliance posture sits — internal policies, current filings, ongoing SFC engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps SFC-licensed firms with exactly that, scaled to the firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
   "variant_id": "R1-v3-FSCR",
-  "email_body_hash": "df104c49ea",
+  "email_body_hash": "b2662858f8",
   "email_candidates": [
     {
       "email": "ro@kingbridgecap.com",

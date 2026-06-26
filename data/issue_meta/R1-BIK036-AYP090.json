@@ -2,7 +2,7 @@
   "type": "R1",
   "type_label": "New RO appointed",
   "firm": "RuiLian Financial Group Company Limited",
-  "natural": "RuiLian Financial Group",
+  "natural": "RuiLian Financial",
   "ceref": "BIK036",
   "ros": [
     {
@@ -12,10 +12,10 @@
   ],
   "primary_ro": "LUI Chun Wai, Stefan",
   "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BIK036/details?locale=en",
-  "email_subject": "Congratulations on your RO appointment at RuiLian Financial Group",
-  "email_body": "Dear Stefan,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at RuiLian Financial Group.\n\nFor illiquid managers like yourself, the marks the RO signs off on tend to be the most scrutinised line items on the books — LPs want comfort, auditors want defensibility, and internal-only marks usually invite more questions than they close. Kroll's Portfolio Valuation team here in Hong Kong helps with exactly that — robust independent valuations across private equity, private credit, and other illiquid strategies.\n\nIf a quick chat would be useful — now, or down the line — happy to set one up. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "email_subject": "Congratulations on your RO appointment at RuiLian Financial",
+  "email_body": "Dear Stefan,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at RuiLian Financial.\n\nFor illiquid managers like yourself, the marks the RO signs off on tend to be the most scrutinised line items on the books — LPs want comfort, auditors want defensibility, and internal-only marks usually invite more questions than they close. Kroll's Portfolio Valuation team here in Hong Kong helps with exactly that — robust independent valuations across private equity, private credit, and other illiquid strategies.\n\nIf a quick chat would be useful — now, or down the line — happy to set one up. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
   "variant_id": "R1-v3-PV",
-  "email_body_hash": "726d391cd4",
+  "email_body_hash": "66ad3dac58",
   "email_candidates": [
     {
       "email": "lijun.han@pmanagement.cc",

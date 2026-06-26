@@ -2,7 +2,7 @@
   "type": "R1",
   "type_label": "New RO appointed",
   "firm": "Samsung Asset Management (Hong Kong) Limited",
-  "natural": "Samsung Asset",
+  "natural": "Samsung",
   "ceref": "AQG442",
   "ros": [
     {
@@ -12,10 +12,10 @@
   ],
   "primary_ro": "PARK Sang Chul",
   "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/AQG442/details?locale=en",
-  "email_subject": "Congratulations on your RO appointment at Samsung Asset",
-  "email_body": "Dear Sang Chul,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at Samsung Asset.\n\nFor newly appointed ROs like yourself, settling into the role often means getting a clear view of where the firm's compliance posture sits — internal policies, current filings, ongoing SFC engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps SFC-licensed firms with exactly that, scaled to the firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "email_subject": "Congratulations on your RO appointment at Samsung",
+  "email_body": "Dear Sang Chul,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at Samsung.\n\nFor newly appointed ROs like yourself, settling into the role often means getting a clear view of where the firm's compliance posture sits — internal policies, current filings, ongoing SFC engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps SFC-licensed firms with exactly that, scaled to the firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
   "variant_id": "R1-v3-FSCR",
-  "email_body_hash": "c2c94e7f81",
+  "email_body_hash": "39eb5ffbf6",
   "email_candidates": [
     {
       "email": "compliance.hk@samsung.com",

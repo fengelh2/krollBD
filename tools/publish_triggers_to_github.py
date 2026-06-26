@@ -410,8 +410,19 @@ def natural_company(name: str, ceref: str | None = None) -> str:
     s = _MID_INFIX_RE.sub(" ", s).strip()
     s = re.sub(r"\s{2,}", " ", s)
 
-    parts = s.split()
-    if len(parts) >= 3 and parts[-1].lower() == "management":
+    # Iteratively strip trailing descriptor words so a name like 'Fortress
+    # Investment Group' collapses to 'Fortress' (which becomes 'Fortress
+    # Management' in the salutation). Stops at 1 word remaining — Felix can
+    # add per-firm overrides in name_natural_overrides.csv when the single
+    # word is too generic (e.g. 'China Investment Group' -> 'China').
+    _STRIP_TAIL = {"management", "mgmt", "group", "holdings", "holding",
+                   "investment", "investments", "partners", "asset", "assets",
+                   "fund", "funds", "advisors", "advisory"}
+    while True:
+        parts = s.split()
+        if len(parts) < 2: break
+        last = parts[-1].lower().rstrip(",.")
+        if last not in _STRIP_TAIL: break
         s = " ".join(parts[:-1]).rstrip(",. ")
     s = s.strip()
 
@@ -428,7 +439,10 @@ def natural_company(name: str, ceref: str | None = None) -> str:
             if s.upper().startswith(prefix) and len(s) > len(prefix) + 2:
                 s = s[len(prefix):].lstrip()
                 break
-        s = s.title()
+        # Title-case only when length > 3 letters — preserves true acronyms
+        # ('NC', 'AIA', 'CC') from being mangled into 'Nc' / 'Aia' / 'Cc'.
+        if len(letters) > 3:
+            s = s.title()
     return s
 
 

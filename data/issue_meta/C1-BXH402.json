@@ -2,7 +2,7 @@
   "type": "C1",
   "type_label": "New Type 9 corp",
   "firm": "LYFE Capital Investment Management (Hong Kong) Limited",
-  "natural": "LYFE Capital Investment",
+  "natural": "LYFE Capital",
   "ceref": "BXH402",
   "address": "Unit No.13, 16/F,, Wellborne Commercial Centre, No.8 Java Road,, Hong Kong, Hong Kong",
   "ros": [
@@ -17,10 +17,10 @@
   ],
   "primary_ro": "CHEN Long",
   "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BXH402/details?locale=en",
-  "email_subject": "Congratulations on LYFE Capital Investment's SFC Type 9 license",
-  "email_body": "Dear Wchen and LYFE Capital Investment Management,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on LYFE Capital Investment's recent Type 9 licensing with the SFC.\n\nFor illiquid managers like yourself, as you get ready to start deploying capital, the recurring question is how to mark private positions in a way that holds up with LPs and auditors. Kroll's Portfolio Valuation team here in Hong Kong helps with exactly that — across private equity, private credit, and other illiquid strategies.\n\nIf a quick chat would be useful — now, or down the line — happy to set one up. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "email_subject": "Congratulations on LYFE Capital's SFC Type 9 license",
+  "email_body": "Dear Wchen and LYFE Capital Management,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on LYFE Capital's recent Type 9 licensing with the SFC.\n\nFor illiquid managers like yourself, as you get ready to start deploying capital, the recurring question is how to mark private positions in a way that holds up with LPs and auditors. Kroll's Portfolio Valuation team here in Hong Kong helps with exactly that — across private equity, private credit, and other illiquid strategies.\n\nIf a quick chat would be useful — now, or down the line — happy to set one up. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
   "variant_id": "C1-v4-PV",
-  "email_body_hash": "019daf8310",
+  "email_body_hash": "9d6ebaa20c",
   "email_candidates": [
     {
       "email": "wchen@lyfecapital.com",

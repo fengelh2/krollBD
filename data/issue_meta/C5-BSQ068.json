@@ -3,7 +3,7 @@
   "type_label": "Rebrand / name change",
   "firm": "Sinofortune International Asset Management Limited",
   "old_firm": "Investates Asset Management Limited",
-  "natural": "Sinofortune International Asset",
+  "natural": "Sinofortune International",
   "ceref": "BSQ068",
   "ros": [
     {
@@ -21,10 +21,10 @@
   ],
   "primary_ro": "HUANG Zhifang",
   "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BSQ068/details?locale=en",
-  "email_subject": "Sinofortune International Asset — note on the recent rebrand",
-  "email_body": "Dear Sinofortune International Asset Management,\n\nThis is Felix from Kroll in Hong Kong. The SFC public register shows that Investates Asset has been renamed to Sinofortune International Asset.\n\nRebrands often accompany broader changes — a new sponsor, a strategy refresh, or an organisational reshape — and these moments are often a natural time to revisit fund-level valuation policies and the operating arrangements behind them.\n\nKroll's Portfolio Valuation team works with SFC-regulated managers across Hong Kong on independent fair-value opinions for private equity and credit positions, and our adjacent FSCR colleagues support governance and regulatory engagement. Happy to set up an informal call if any of this would be useful as you transition.\n\nKind regards,\nFelix Engelhardt\n",
+  "email_subject": "Sinofortune International — note on the recent rebrand",
+  "email_body": "Dear Sinofortune International Management,\n\nThis is Felix from Kroll in Hong Kong. The SFC public register shows that Investates has been renamed to Sinofortune International.\n\nRebrands often accompany broader changes — a new sponsor, a strategy refresh, or an organisational reshape — and these moments are often a natural time to revisit fund-level valuation policies and the operating arrangements behind them.\n\nKroll's Portfolio Valuation team works with SFC-regulated managers across Hong Kong on independent fair-value opinions for private equity and credit positions, and our adjacent FSCR colleagues support governance and regulatory engagement. Happy to set up an informal call if any of this would be useful as you transition.\n\nKind regards,\nFelix Engelhardt\n",
   "variant_id": "C5-v2",
-  "email_body_hash": "9b4ba75de0",
+  "email_body_hash": "c21d8b5003",
   "email_candidates": [
     {
       "email": "op@sinofor.com.hk",

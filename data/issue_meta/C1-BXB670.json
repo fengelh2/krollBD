@@ -2,7 +2,7 @@
   "type": "C1",
   "type_label": "New Type 9 corp",
   "firm": "Fortress Investment Group (HK) Limited",
-  "natural": "Fortress Investment Group",
+  "natural": "Fortress",
   "ceref": "BXB670",
   "address": "57F, 5704-5705 Unit, IFC Tower 2, Central, Hong Kong, Hong Kong",
   "ros": [
@@ -17,11 +17,11 @@
   ],
   "primary_ro": "CHAU Shannon Ka Yan",
   "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BXB670/details?locale=en",
-  "email_subject": "Congratulations on Fortress Investment Group's SFC Type 9 license",
-  "email_body": "Dear Fortress Investment Group Management,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on Fortress Investment Group's recent Type 9 licensing with the SFC.\n\nFor illiquid managers like yourself, as you get ready to start deploying capital, the recurring question is how to mark private positions in a way that holds up with LPs and auditors. Kroll's Portfolio Valuation team here in Hong Kong helps with exactly that — across private equity, private credit, and other illiquid strategies.\n\nIf a quick chat would be useful — now, or down the line — happy to set one up. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "email_subject": "Congratulations on Fortress's SFC Type 9 license",
+  "email_body": "Dear Fortress Management,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on Fortress's recent Type 9 licensing with the SFC.\n\nFor illiquid managers like yourself, as you get ready to start deploying capital, the recurring question is how to mark private positions in a way that holds up with LPs and auditors. Kroll's Portfolio Valuation team here in Hong Kong helps with exactly that — across private equity, private credit, and other illiquid strategies.\n\nIf a quick chat would be useful — now, or down the line — happy to set one up. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
   "bd_lane": "PV",
   "variant_id": "C1-v4-PV",
-  "email_body_hash": "5bde72070a",
+  "email_body_hash": "777c8e4812",
   "email_candidates": [
     {
       "email": "group_regulatoryfilings@fortress.com",

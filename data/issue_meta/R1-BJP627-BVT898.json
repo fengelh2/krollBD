@@ -2,7 +2,7 @@
   "type": "R1",
   "type_label": "New RO appointed",
   "firm": "Golden Pine Asset Management Limited",
-  "natural": "Golden Pine Asset",
+  "natural": "Golden Pine",
   "ceref": "BJP627",
   "ros": [
     {
@@ -12,11 +12,11 @@
   ],
   "primary_ro": "CHEN Beijia",
   "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BJP627/details?locale=en",
-  "email_subject": "Congratulations on your RO appointment at Golden Pine Asset",
-  "email_body": "Dear Beijia,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at Golden Pine Asset.\n\nFor newly appointed ROs like yourself, settling into the role often means getting a clear view of where the firm's compliance posture sits — internal policies, current filings, ongoing SFC engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps SFC-licensed firms with exactly that, scaled to the firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "email_subject": "Congratulations on your RO appointment at Golden Pine",
+  "email_body": "Dear Beijia,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at Golden Pine.\n\nFor newly appointed ROs like yourself, settling into the role often means getting a clear view of where the firm's compliance posture sits — internal policies, current filings, ongoing SFC engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps SFC-licensed firms with exactly that, scaled to the firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
   "bd_lane": "FSCR",
   "variant_id": "R1-v3-FSCR",
-  "email_body_hash": "53f694f6cd",
+  "email_body_hash": "3ca4ef6449",
   "email_candidates": [
     {
       "email": "gp@goldenpineinv.com",
