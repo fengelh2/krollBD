@@ -88,5 +88,7 @@
   "aum_usd_m": "",
   "parent_org": "Fortress Investment Group",
   "classification_source": "llm_on_name",
-  "website_accuracy": "not_found"
+  "website_accuracy": "not_found",
+  "deep_scrape_attempted_utc": "2026-06-26T07:05:40.158046+00:00",
+  "deep_scrape_note": "site scraped — no new emails found"
 }
