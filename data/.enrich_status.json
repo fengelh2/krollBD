@@ -1,7 +1,9 @@
 {
   "started_at": "2026-06-26T06:47:41.541430+00:00",
-  "current_idx": 0,
+  "current_idx": 3,
   "total": 24,
-  "phase": "starting",
+  "phase": "running",
+  "current_firm": "[R1] New RO at Maoyuan Capital (HK) Limited — ZENG Yi",
+  "current_trigger_id": "R1-BTS864-BXQ245",
   "done": false
 }

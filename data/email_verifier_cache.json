@@ -2014,5 +2014,19 @@
     "quality_score": 0.99,
     "is_mx_valid": true,
     "status_detail": "valid_email"
+  },
+  "eric.mimoun@syncicap.com": {
+    "email": "eric.mimoun@syncicap.com",
+    "status": "deliverable",
+    "source": "abstractapi",
+    "fetched_at_utc": "2026-06-26T06:49:27+00:00",
+    "is_valid_format": true,
+    "is_smtp_valid": true,
+    "is_catch_all": false,
+    "is_role": false,
+    "is_disposable": false,
+    "quality_score": 0.99,
+    "is_mx_valid": true,
+    "status_detail": "valid_email"
   }
 }

@@ -20,10 +20,14 @@
   "email_candidates": [
     {
       "email": "eric.mimoun@syncicap.com",
-      "kind": "sfc_filed",
-      "confidence": "verified",
-      "evidence": "filed with SFC by the firm at licensing",
-      "fetched_at_utc": "2026-06-25T10:36:34.162106+00:00"
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "evidence": "Hunter score 96 + AbstractAPI: deliverable",
+      "fetched_at_utc": "2026-06-25T10:36:34.162106+00:00",
+      "ro": "MIMOUN Eric Lockman",
+      "score": 96,
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email"
     },
     {
       "email": "contact@syncicap.com",
@@ -67,5 +71,18 @@
   "parent_org": "SYNCICAP Asset Management",
   "classification_source": "website",
   "website_accuracy": "probable",
-  "sfc_filed_website": "www.syncicap.com"
+  "sfc_filed_website": "www.syncicap.com",
+  "deep_scrape_attempted_utc": "2026-06-26T06:49:22.937144+00:00",
+  "deep_scrape_note": "site scraped — no new emails found",
+  "hunter_hits": [
+    {
+      "email": "eric.mimoun@syncicap.com",
+      "score": 96,
+      "ro": "MIMOUN Eric Lockman",
+      "fetched_at_utc": "2026-06-26T06:49:27.563699+00:00",
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email"
+    }
+  ],
+  "hunter_attempted_utc": "2026-06-26T06:49:27.563718+00:00"
 }
