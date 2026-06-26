@@ -66,5 +66,9 @@
   "parent_org": "",
   "classification_source": "none",
   "website_accuracy": "not_found",
-  "sfc_filed_website": "www.eimhongkong.com"
+  "sfc_filed_website": "www.eimhongkong.com",
+  "deep_scrape_attempted_utc": "2026-06-26T06:57:25.933808+00:00",
+  "deep_scrape_note": "site scraped — no new emails found",
+  "hunter_hits": [],
+  "hunter_attempted_utc": "2026-06-26T06:57:34.901143+00:00"
 }
