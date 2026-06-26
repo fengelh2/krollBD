@@ -417,7 +417,8 @@ def natural_company(name: str, ceref: str | None = None) -> str:
     # word is too generic (e.g. 'China Investment Group' -> 'China').
     _STRIP_TAIL = {"management", "mgmt", "group", "holdings", "holding",
                    "investment", "investments", "partners", "asset", "assets",
-                   "fund", "funds", "advisors", "advisory"}
+                   "fund", "funds", "advisors", "advisory",
+                   "securities", "brokerage", "markets"}
     while True:
         parts = s.split()
         if len(parts) < 2: break

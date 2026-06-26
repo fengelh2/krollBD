@@ -2,7 +2,7 @@
   "type": "R1",
   "type_label": "New RO appointed",
   "firm": "CGS International Securities Hong Kong Limited",
-  "natural": "CGS International Securities",
+  "natural": "CGS International",
   "ceref": "AAW351",
   "ros": [
     {
@@ -12,11 +12,11 @@
   ],
   "primary_ro": "LU Qian",
   "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/AAW351/details?locale=en",
-  "email_subject": "Congratulations on your RO appointment at CGS International Securities",
-  "email_body": "Dear Qian,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at CGS International Securities.\n\nFor newly appointed ROs like yourself, settling into the role often means getting a clear view of where the firm's compliance posture sits — internal policies, current filings, ongoing SFC engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps SFC-licensed firms with exactly that, scaled to the firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "email_subject": "Congratulations on your RO appointment at CGS International",
+  "email_body": "Dear Qian,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at CGS International.\n\nFor newly appointed ROs like yourself, settling into the role often means getting a clear view of where the firm's compliance posture sits — internal policies, current filings, ongoing SFC engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps SFC-licensed firms with exactly that, scaled to the firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
   "bd_lane": "FSCR",
   "variant_id": "R1-v3-FSCR",
-  "email_body_hash": "a131bf161b",
+  "email_body_hash": "87d43e299b",
   "email_candidates": [
     {
       "email": "hk.cgsisec@cgsi.com",

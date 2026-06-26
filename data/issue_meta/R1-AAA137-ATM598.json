@@ -2,7 +2,7 @@
   "type": "R1",
   "type_label": "New RO appointed",
   "firm": "Citigroup Global Markets Asia Limited",
-  "natural": "Citigroup Global Markets",
+  "natural": "Citigroup Global",
   "ceref": "AAA137",
   "ros": [
     {
@@ -12,11 +12,11 @@
   ],
   "primary_ro": "WONG Tang Tang",
   "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/AAA137/details?locale=en",
-  "email_subject": "Congratulations on your RO appointment at Citigroup Global Markets",
-  "email_body": "Dear Tang Tang,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at Citigroup Global Markets.\n\nFor illiquid managers like yourself, the marks the RO signs off on tend to be the most scrutinised line items on the books — LPs want comfort, auditors want defensibility, and internal-only marks usually invite more questions than they close. Kroll's Portfolio Valuation team here in Hong Kong helps with exactly that — robust independent valuations across private equity, private credit, and other illiquid strategies.\n\nIf a quick chat would be useful — now, or down the line — happy to set one up. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "email_subject": "Congratulations on your RO appointment at Citigroup Global",
+  "email_body": "Dear Tang Tang,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at Citigroup Global.\n\nFor illiquid managers like yourself, the marks the RO signs off on tend to be the most scrutinised line items on the books — LPs want comfort, auditors want defensibility, and internal-only marks usually invite more questions than they close. Kroll's Portfolio Valuation team here in Hong Kong helps with exactly that — robust independent valuations across private equity, private credit, and other illiquid strategies.\n\nIf a quick chat would be useful — now, or down the line — happy to set one up. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
   "bd_lane": "PV",
   "variant_id": "R1-v3-PV",
-  "email_body_hash": "1db7429f0b",
+  "email_body_hash": "9c9678342c",
   "email_candidates": [
     {
       "email": "tang-tang.wong@citigroup.com",
