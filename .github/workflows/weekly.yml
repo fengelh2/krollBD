@@ -98,6 +98,14 @@ jobs:
         run: python tools/_regen_email_bodies.py
         continue-on-error: true
 
+      - name: Hunter.io + AbstractAPI enrich every open trigger (skips already-hit ROs)
+        env:
+          HUNTER_API_KEY_2: ${{ secrets.HUNTER_API_KEY_2 }}
+          HUNTER_API_KEY_3: ${{ secrets.HUNTER_API_KEY_3 }}
+          ABSTRACTAPI_KEY_2: ${{ secrets.ABSTRACTAPI_KEY_2 }}
+        run: python tools/enrich_all_open_inline.py
+        continue-on-error: true
+
       - name: Commit + push data updates
         run: |
           set -euo pipefail
