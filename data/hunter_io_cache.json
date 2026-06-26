@@ -1058,5 +1058,15 @@
     "source": "hunter.io",
     "fetched_at_utc": "2026-06-26T06:52:38+00:00",
     "quota_remaining_when_fetched": 5
+  },
+  "jwcs.com.hk|wai kay|cheung": {
+    "status": "ok",
+    "email": "wai-kay.cheung@jwcs.com.hk",
+    "score": 47,
+    "confidence": "low",
+    "verification_status": "accept_all",
+    "source": "hunter.io",
+    "fetched_at_utc": "2026-06-26T06:56:41+00:00",
+    "quota_remaining_when_fetched": 5
   }
 }

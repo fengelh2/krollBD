@@ -2056,5 +2056,19 @@
     "quality_score": 0.99,
     "is_mx_valid": true,
     "status_detail": "valid_email"
+  },
+  "wai-kay.cheung@jwcs.com.hk": {
+    "email": "wai-kay.cheung@jwcs.com.hk",
+    "status": "deliverable",
+    "source": "abstractapi",
+    "fetched_at_utc": "2026-06-26T06:56:44+00:00",
+    "is_valid_format": true,
+    "is_smtp_valid": true,
+    "is_catch_all": false,
+    "is_role": false,
+    "is_disposable": false,
+    "quality_score": 0.99,
+    "is_mx_valid": true,
+    "status_detail": "valid_email"
   }
 }

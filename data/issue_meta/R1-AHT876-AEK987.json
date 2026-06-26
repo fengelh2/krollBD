@@ -19,6 +19,16 @@
   "email_body_hash": "f9b2c3d00e",
   "email_candidates": [
     {
+      "email": "wai-kay.cheung@jwcs.com.hk",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "CHEUNG Wai Kay",
+      "score": 47,
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email",
+      "evidence": "Hunter score 47 + AbstractAPI: deliverable"
+    },
+    {
       "email": "roy.seto@jwcs.com.hk",
       "kind": "sfc_filed",
       "confidence": "verified",
@@ -66,5 +76,18 @@
   "parent_org": "",
   "classification_source": "none",
   "website_accuracy": "not_found",
-  "sfc_filed_website": "www.jwcs.com.hk"
+  "sfc_filed_website": "www.jwcs.com.hk",
+  "deep_scrape_attempted_utc": "2026-06-26T06:56:35.478167+00:00",
+  "deep_scrape_note": "site scraped — no new emails found",
+  "hunter_hits": [
+    {
+      "email": "wai-kay.cheung@jwcs.com.hk",
+      "score": 47,
+      "ro": "CHEUNG Wai Kay",
+      "fetched_at_utc": "2026-06-26T06:56:44.632148+00:00",
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email"
+    }
+  ],
+  "hunter_attempted_utc": "2026-06-26T06:56:44.632167+00:00"
 }
