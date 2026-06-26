@@ -440,9 +440,15 @@ def natural_company(name: str, ceref: str | None = None) -> str:
             if s.upper().startswith(prefix) and len(s) > len(prefix) + 2:
                 s = s[len(prefix):].lstrip()
                 break
-        # Title-case only when length > 3 letters — preserves true acronyms
-        # ('NC', 'AIA', 'CC') from being mangled into 'Nc' / 'Aia' / 'Cc'.
-        if len(letters) > 3:
+        # Don't title-case true acronyms. Treat any SINGLE-word all-caps name
+        # up to 5 chars as an acronym (NC, AIA, OCBC, MUFG). Multi-word all-caps
+        # ('LEADERWAY INVESTMENT', 'HONG KONG FENGHE') is shouty legal-name
+        # style; title-case it. Single-word all-caps >5 chars (FENGHE) probably
+        # also wants title-case.
+        is_single_word = " " not in s.strip()
+        if is_single_word and len(letters) <= 5:
+            pass  # leave acronym alone
+        else:
             s = s.title()
     return s
 
