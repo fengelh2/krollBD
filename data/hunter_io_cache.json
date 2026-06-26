@@ -1098,5 +1098,35 @@
     "source": "hunter.io",
     "fetched_at_utc": "2026-06-26T06:58:23+00:00",
     "quota_remaining_when_fetched": 45
+  },
+  "constance.com|linwen|ho": {
+    "status": "no_match",
+    "email": null,
+    "score": null,
+    "confidence": "none",
+    "verification_status": "no_match",
+    "source": "hunter.io",
+    "fetched_at_utc": "2026-06-26T06:58:55+00:00",
+    "quota_remaining_when_fetched": 45
+  },
+  "cgsi.com|qian|lu": {
+    "status": "no_match",
+    "email": null,
+    "score": null,
+    "confidence": "none",
+    "verification_status": "no_match",
+    "source": "hunter.io",
+    "fetched_at_utc": "2026-06-26T07:00:05+00:00",
+    "quota_remaining_when_fetched": 45
+  },
+  "citigroup.com|tang tang|wong": {
+    "status": "ok",
+    "email": "tang-tang.wong@citigroup.com",
+    "score": 49,
+    "confidence": "low",
+    "verification_status": "accept_all",
+    "source": "hunter.io",
+    "fetched_at_utc": "2026-06-26T07:01:07+00:00",
+    "quota_remaining_when_fetched": 45
   }
 }

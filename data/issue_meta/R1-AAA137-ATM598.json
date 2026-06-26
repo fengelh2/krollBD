@@ -19,6 +19,16 @@
   "email_body_hash": "1db7429f0b",
   "email_candidates": [
     {
+      "email": "tang-tang.wong@citigroup.com",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "WONG Tang Tang",
+      "score": 49,
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email",
+      "evidence": "Hunter score 49 + AbstractAPI: deliverable"
+    },
+    {
       "email": "wanda.yau@citi.com",
       "kind": "sfc_filed",
       "confidence": "verified",
@@ -66,5 +76,18 @@
   "parent_org": "Citigroup Inc.",
   "classification_source": "consensus_website_plus",
   "website_accuracy": "verified",
-  "sfc_filed_website": "www.citigroup.com"
+  "sfc_filed_website": "www.citigroup.com",
+  "deep_scrape_attempted_utc": "2026-06-26T07:01:01.144592+00:00",
+  "deep_scrape_note": "site scraped — no new emails found",
+  "hunter_hits": [
+    {
+      "email": "tang-tang.wong@citigroup.com",
+      "score": 49,
+      "ro": "WONG Tang Tang",
+      "fetched_at_utc": "2026-06-26T07:01:11.666335+00:00",
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email"
+    }
+  ],
+  "hunter_attempted_utc": "2026-06-26T07:01:11.666354+00:00"
 }

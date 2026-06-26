@@ -66,5 +66,9 @@
   "parent_org": "CGS International",
   "classification_source": "website",
   "website_accuracy": "suspect",
-  "sfc_filed_website": "www.cgsi.com"
+  "sfc_filed_website": "www.cgsi.com",
+  "deep_scrape_attempted_utc": "2026-06-26T06:59:57.808318+00:00",
+  "deep_scrape_note": "site scraped — no new emails found",
+  "hunter_hits": [],
+  "hunter_attempted_utc": "2026-06-26T07:00:05.181930+00:00"
 }
