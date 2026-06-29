@@ -1,0 +1,79 @@
+{
+  "type": "C5",
+  "type_label": "Rebrand / name change",
+  "firm": "Core Arc Capital Limited",
+  "old_firm": "China Arab Capital Limited",
+  "natural": "Core Arc Capital",
+  "ceref": "BTQ708",
+  "ros": [
+    {
+      "name": "JE Siu Ming",
+      "ceref": "BGX730"
+    },
+    {
+      "name": "MA Pui Keung",
+      "ceref": "BFE801"
+    }
+  ],
+  "primary_ro": "JE Siu Ming",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BTQ708/details?locale=en",
+  "email_subject": "Core Arc Capital — note on the recent rebrand",
+  "email_body": "Dear Core Arc Capital Management,\n\nThis is Felix from Kroll in Hong Kong. The SFC public register shows that China Arab Capital has been renamed to Core Arc Capital.\n\nRebrands often accompany broader changes — a new sponsor, a strategy refresh, or an organisational reshape — and these moments are often a natural time to revisit fund-level valuation policies and the operating arrangements behind them.\n\nKroll's Portfolio Valuation team works with SFC-regulated managers across Hong Kong on independent fair-value opinions for private equity and credit positions, and our adjacent FSCR colleagues support governance and regulatory engagement. Happy to set up an informal call if any of this would be useful as you transition.\n\nKind regards,\nFelix Engelhardt\n",
+  "variant_id": "C5-v2",
+  "email_body_hash": "ad103d684a",
+  "email_candidates": [
+    {
+      "email": "pui-keung@chinaarabcapital.com",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "MA Pui Keung",
+      "score": 53,
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email",
+      "evidence": "Hunter score 53 + AbstractAPI: deliverable"
+    },
+    {
+      "email": "siu-ming@chinaarabcapital.com",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "JE Siu Ming",
+      "score": 53,
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email",
+      "evidence": "Hunter score 53 + AbstractAPI: deliverable"
+    },
+    {
+      "email": "license149@gmail.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-06-29T03:28:44.565518+00:00"
+    }
+  ],
+  "asset_classes": "public_equity,public_credit,multi",
+  "illiq_likelihood": "low",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "website",
+  "website_accuracy": "probable",
+  "hunter_hits": [
+    {
+      "email": "siu-ming@chinaarabcapital.com",
+      "score": 53,
+      "ro": "JE Siu Ming",
+      "fetched_at_utc": "2026-06-29T03:30:58.653752+00:00",
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email"
+    },
+    {
+      "email": "pui-keung@chinaarabcapital.com",
+      "score": 53,
+      "ro": "MA Pui Keung",
+      "fetched_at_utc": "2026-06-29T03:31:05.786034+00:00",
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email"
+    }
+  ],
+  "hunter_attempted_utc": "2026-06-29T03:31:05.786049+00:00"
+}

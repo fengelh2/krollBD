@@ -1,0 +1,146 @@
+{
+  "type": "C5",
+  "type_label": "Rebrand / name change",
+  "firm": "BX Securities Limited",
+  "old_firm": "Interarch Asset Management Limited",
+  "natural": "BX",
+  "ceref": "BOB012",
+  "ros": [
+    {
+      "name": "LEUNG Lok Man",
+      "ceref": "BEN424"
+    },
+    {
+      "name": "LEUNG Wing Hang",
+      "ceref": "BJW627"
+    },
+    {
+      "name": "QU Siyuan",
+      "ceref": "BHJ218"
+    },
+    {
+      "name": "TSE Sze Pan",
+      "ceref": "AYR056"
+    }
+  ],
+  "primary_ro": "LEUNG Lok Man",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BOB012/details?locale=en",
+  "email_subject": "BX — note on the recent rebrand",
+  "email_body": "Dear BX Management,\n\nThis is Felix from Kroll in Hong Kong. The SFC public register shows that Interarch has been renamed to BX.\n\nRebrands often accompany broader changes — a new sponsor, a strategy refresh, or an organisational reshape — and these moments are often a natural time to revisit fund-level valuation policies and the operating arrangements behind them.\n\nKroll's Portfolio Valuation team works with SFC-regulated managers across Hong Kong on independent fair-value opinions for private equity and credit positions, and our adjacent FSCR colleagues support governance and regulatory engagement. Happy to set up an informal call if any of this would be useful as you transition.\n\nKind regards,\nFelix Engelhardt\n",
+  "variant_id": "C5-v2",
+  "email_body_hash": "c1b6607eac",
+  "email_candidates": [
+    {
+      "email": "siyuan.qu@interarch.net",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "QU Siyuan",
+      "score": 99,
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email",
+      "evidence": "Hunter score 99 + AbstractAPI: deliverable"
+    },
+    {
+      "email": "info@interarch.net",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-06-29T03:28:44.565201+00:00"
+    },
+    {
+      "email": "lokman.leung@interarch.net",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LEUNG Lok Man"
+    },
+    {
+      "email": "lokmanleung@interarch.net",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LEUNG Lok Man"
+    },
+    {
+      "email": "lleung@interarch.net",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LEUNG Lok Man"
+    },
+    {
+      "email": "winghang.leung@interarch.net",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LEUNG Wing Hang"
+    },
+    {
+      "email": "winghangleung@interarch.net",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LEUNG Wing Hang"
+    },
+    {
+      "email": "wleung@interarch.net",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LEUNG Wing Hang"
+    },
+    {
+      "email": "siyuanqu@interarch.net",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "QU Siyuan"
+    },
+    {
+      "email": "squ@interarch.net",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "QU Siyuan"
+    },
+    {
+      "email": "szepan.tse@interarch.net",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "TSE Sze Pan"
+    },
+    {
+      "email": "szepantse@interarch.net",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "TSE Sze Pan"
+    },
+    {
+      "email": "stse@interarch.net",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "TSE Sze Pan"
+    },
+    {
+      "email": "contact@interarch.net",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@interarch.net",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "unknown",
+  "illiq_likelihood": "unknown",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "none",
+  "website_accuracy": "not_found",
+  "sfc_filed_website": "www.interarch.net",
+  "hunter_hits": [
+    {
+      "email": "siyuan.qu@interarch.net",
+      "score": 99,
+      "ro": "QU Siyuan",
+      "fetched_at_utc": "2026-06-29T03:30:40.191788+00:00",
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email"
+    }
+  ],
+  "hunter_attempted_utc": "2026-06-29T03:30:51.181385+00:00"
+}

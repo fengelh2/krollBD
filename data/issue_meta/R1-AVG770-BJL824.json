@@ -1,0 +1,57 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "China Financial International Investments & Managements Limited",
+  "natural": "China Financial International Investments & Managements",
+  "ceref": "AVG770",
+  "ros": [
+    {
+      "name": "LI Gaosheng",
+      "ceref": "BJL824"
+    }
+  ],
+  "primary_ro": "LI Gaosheng",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/AVG770/details?locale=en",
+  "email_subject": "Congratulations on your RO appointment at China Financial International Investments & Managements",
+  "email_body": "Dear Gaosheng,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at China Financial International Investments & Managements.\n\nFor newly appointed ROs like yourself, settling into the role often means getting a clear view of where the firm's compliance posture sits — internal policies, current filings, ongoing SFC engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps SFC-licensed firms with exactly that, scaled to the firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "FSCR",
+  "variant_id": "R1-v3-FSCR",
+  "email_body_hash": "d1c103c03d",
+  "email_candidates": [
+    {
+      "email": "gaoshengli@china.com",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "LI Gaosheng",
+      "score": 79,
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email",
+      "evidence": "Hunter score 79 + AbstractAPI: deliverable"
+    },
+    {
+      "email": "georgechan@cfaml.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-06-29T03:28:44.566828+00:00"
+    }
+  ],
+  "asset_classes": "unknown",
+  "illiq_likelihood": "unknown",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "none",
+  "website_accuracy": "not_found",
+  "hunter_hits": [
+    {
+      "email": "gaoshengli@china.com",
+      "score": 79,
+      "ro": "LI Gaosheng",
+      "fetched_at_utc": "2026-06-29T03:29:57.437116+00:00",
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email"
+    }
+  ],
+  "hunter_attempted_utc": "2026-06-29T03:29:57.437132+00:00"
+}

@@ -1,0 +1,71 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "Vantum Asset Management Limited",
+  "natural": "Vantum",
+  "ceref": "BHT907",
+  "ros": [
+    {
+      "name": "CHAN Ka Wai",
+      "ceref": "APP683"
+    }
+  ],
+  "primary_ro": "CHAN Ka Wai",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BHT907/details?locale=en",
+  "email_subject": "Congratulations on your RO appointment at Vantum",
+  "email_body": "Dear Ka Wai,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at Vantum.\n\nFor illiquid managers like yourself, the marks the RO signs off on tend to be the most scrutinised line items on the books — LPs want comfort, auditors want defensibility, and internal-only marks usually invite more questions than they close. Kroll's Portfolio Valuation team here in Hong Kong helps with exactly that — robust independent valuations across private equity, private credit, and other illiquid strategies.\n\nIf a quick chat would be useful — now, or down the line — happy to set one up. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "PV",
+  "variant_id": "R1-v3-PV",
+  "email_body_hash": "5b7df3a31d",
+  "email_candidates": [
+    {
+      "email": "carrie.chan@vantum.com.hk",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-06-29T03:28:44.567994+00:00"
+    },
+    {
+      "email": "kawai.chan@vantum.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHAN Ka Wai"
+    },
+    {
+      "email": "kawaichan@vantum.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHAN Ka Wai"
+    },
+    {
+      "email": "kchan@vantum.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHAN Ka Wai"
+    },
+    {
+      "email": "info@vantum.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@vantum.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@vantum.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "multi",
+  "illiq_likelihood": "medium",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "雋一控股集團有限公司 (Junyi Holdings Group Limited)",
+  "classification_source": "website",
+  "website_accuracy": "probable",
+  "hunter_hits": [],
+  "hunter_attempted_utc": "2026-06-29T03:28:57.349168+00:00"
+}

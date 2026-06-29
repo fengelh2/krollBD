@@ -1,0 +1,58 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "Goldman Sachs (Asia) L.L.C.",
+  "natural": "Goldman Sachs",
+  "ceref": "ACC536",
+  "ros": [
+    {
+      "name": "PLANK Thomas",
+      "ceref": "BYA169"
+    }
+  ],
+  "primary_ro": "PLANK Thomas",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/ACC536/details?locale=en",
+  "email_subject": "Congratulations on your RO appointment at Goldman Sachs",
+  "email_body": "Dear Thomas,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at Goldman Sachs.\n\nFor illiquid managers like yourself, the marks the RO signs off on tend to be the most scrutinised line items on the books — LPs want comfort, auditors want defensibility, and internal-only marks usually invite more questions than they close. Kroll's Portfolio Valuation team here in Hong Kong helps with exactly that — robust independent valuations across private equity, private credit, and other illiquid strategies.\n\nIf a quick chat would be useful — now, or down the line — happy to set one up. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "PV",
+  "variant_id": "R1-v3-PV",
+  "email_body_hash": "f83fb32161",
+  "email_candidates": [
+    {
+      "email": "thomas.plank@gs.com",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "PLANK Thomas",
+      "score": 95,
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email",
+      "evidence": "Hunter score 95 + AbstractAPI: deliverable"
+    },
+    {
+      "email": "hklicensing@gs.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-06-29T03:28:44.565943+00:00"
+    }
+  ],
+  "asset_classes": "private_equity,private_credit,secondaries,real_assets,public_equity,public_credit,multi",
+  "illiq_likelihood": "high",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "Goldman Sachs Group",
+  "classification_source": "website",
+  "website_accuracy": "probable",
+  "sfc_filed_website": "www.gs.com",
+  "hunter_hits": [
+    {
+      "email": "thomas.plank@gs.com",
+      "score": 95,
+      "ro": "PLANK Thomas",
+      "fetched_at_utc": "2026-06-29T03:29:44.639328+00:00",
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email"
+    }
+  ],
+  "hunter_attempted_utc": "2026-06-29T03:29:44.639344+00:00"
+}
