@@ -24,6 +24,36 @@
       "confidence": "verified",
       "evidence": "filed with SFC by the firm at licensing",
       "fetched_at_utc": "2026-06-29T03:28:44.568972+00:00"
+    },
+    {
+      "email": "andrea@sunriver.com",
+      "kind": "observed_on_site",
+      "confidence": "verified",
+      "evidence": "scraped from firm website contact pages"
+    },
+    {
+      "email": "carolb@sunriver.com",
+      "kind": "observed_on_site",
+      "confidence": "verified",
+      "evidence": "scraped from firm website contact pages"
+    },
+    {
+      "email": "dalan@sunriver.com",
+      "kind": "observed_on_site",
+      "confidence": "verified",
+      "evidence": "scraped from firm website contact pages"
+    },
+    {
+      "email": "paulw@sunriver.com",
+      "kind": "observed_on_site",
+      "confidence": "verified",
+      "evidence": "scraped from firm website contact pages"
+    },
+    {
+      "email": "info@sunriver.com",
+      "kind": "generic_on_site",
+      "confidence": "verified",
+      "evidence": "generic inbox on firm site"
     }
   ],
   "asset_classes": "unknown",

@@ -98,6 +98,37 @@ jobs:
         run: python tools/_regen_email_bodies.py
         continue-on-error: true
 
+      - name: Deep-scrape /contact /team /leadership on open-trigger firms with a domain
+        env:
+          FIRECRAWL_API_KEY: ${{ secrets.FIRECRAWL_API_KEY }}
+        run: |
+          CEREFS=$(python -c "
+          import json, subprocess, re, csv
+          out = subprocess.check_output(['gh','issue','list','--repo','fengelh2/krollBD','--state','open','--limit','200','--json','body'], text=True)
+          open_ce = set()
+          for i in json.loads(out):
+            m = re.search(r'\`([A-Z]{3}\d{3})\`', i['body'])
+            if m: open_ce.add(m.group(1))
+          out = []
+          seen = set()
+          for src in ('data/sfc_corp_contacts.csv','data/strategy_classification.csv'):
+            try:
+              with open(src, encoding='utf-8-sig') as f:
+                for r in csv.DictReader(f):
+                  ce = r['ceref']
+                  if ce not in open_ce or ce in seen: continue
+                  site = (r.get('website') or r.get('website_url') or '').strip()
+                  if site: out.append(ce); seen.add(ce)
+            except: pass
+          print(','.join(out))
+          ")
+          if [ -n \"$CEREFS\" ]; then
+            python tools/deep_scrape_contact_pages.py --cerefs \"$CEREFS\"
+          else
+            echo 'no open-trigger firms with a domain'
+          fi
+        continue-on-error: true
+
       - name: Hunter.io + AbstractAPI enrich every open trigger (skips already-hit ROs)
         env:
           HUNTER_API_KEY_2: ${{ secrets.HUNTER_API_KEY_2 }}

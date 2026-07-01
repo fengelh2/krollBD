@@ -26,6 +26,12 @@
       "fetched_at_utc": "2026-06-29T03:28:44.567098+00:00"
     },
     {
+      "email": "hk@noahgroup.hk",
+      "kind": "observed_on_site",
+      "confidence": "verified",
+      "evidence": "scraped from firm website contact pages"
+    },
+    {
       "email": "yating.hsu@noahgroup.hk",
       "kind": "ro_guess",
       "confidence": "medium",
