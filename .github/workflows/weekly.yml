@@ -23,7 +23,7 @@ concurrency:
 jobs:
   run:
     runs-on: ubuntu-latest
-    timeout-minutes: 90   # weekly batches can exceed 45min when many new firms need classification
+    timeout-minutes: 180  # bumped after Jul 6 + Jul 13 both hit the 90min limit mid-publish; --skip-enrichment now removes the biggest hotspot
 
     env:
       SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
@@ -74,7 +74,9 @@ jobs:
         run: python tools/derive_website_accuracy.py
 
       - name: Publish triggers (writes meta files, no inline push)
-        run: python tools/publish_triggers_to_github.py --no-push
+        # --skip-enrichment avoids duplicating Firecrawl + Hunter per firm here;
+        # the post-publish steps below run the same enrichment in bulk.
+        run: python tools/publish_triggers_to_github.py --no-push --skip-enrichment
 
       # Post-publish enrichment chain — runs against just-published triggers
       # so every new card lands with SFC-filed contacts + correct-domain

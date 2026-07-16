@@ -1406,6 +1406,11 @@ def main() -> None:
     ap.add_argument("--no-push", action="store_true",
                     help="Write meta files to data/issue_meta/ but skip git commit+push. "
                          "Use this from GitHub Actions where the workflow yaml handles the commit.")
+    ap.add_argument("--skip-enrichment", action="store_true",
+                    help="Skip _enrich_at_trigger_time (Firecrawl + Hunter per firm). "
+                         "Use when the surrounding workflow already runs the post-publish "
+                         "enrichment chain (SFC contacts + deep_scrape + Hunter) as separate "
+                         "steps — avoids duplicating minutes of network calls per firm.")
     args = ap.parse_args()
 
     new_corps_p, old_corps_p = latest_two("corps")
@@ -1493,14 +1498,19 @@ def main() -> None:
     new_ro_corps = {r["corp_ceref"] for r in new_ros} - {r["corp_ceref"] for r in old_ros}
     firing_cerefs.update(new_ro_corps & {c["ceref"] for c in new_corps})
 
-    for ceref in firing_cerefs:
-        ctx = firm_ctx.get(ceref, {})
-        ros_for_firm = [r for r in new_ros if r["corp_ceref"] == ceref][:2]
-        try:
-            _enrich_at_trigger_time(ceref, ctx, ros_for_firm)
-        except Exception as e:
-            print(f"  [enrich] failed for {ceref}: {e}", file=sys.stderr)
-        firm_ctx[ceref] = ctx
+    if args.skip_enrichment:
+        print(f"[publish] --skip-enrichment: skipping trigger-time cascade "
+              f"for {len(firing_cerefs)} firms (post-publish steps handle it)",
+              file=sys.stderr)
+    else:
+        for ceref in firing_cerefs:
+            ctx = firm_ctx.get(ceref, {})
+            ros_for_firm = [r for r in new_ros if r["corp_ceref"] == ceref][:2]
+            try:
+                _enrich_at_trigger_time(ceref, ctx, ros_for_firm)
+            except Exception as e:
+                print(f"  [enrich] failed for {ceref}: {e}", file=sys.stderr)
+            firm_ctx[ceref] = ctx
 
     c1 = build_c1_triggers(brand_new, new_ros, firm_ctx)
     c2 = build_c2_triggers(changed, new_ros, old_ros, firm_ctx)
