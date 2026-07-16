@@ -1,0 +1,26 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "Win Securities Limited",
+  "natural": "Win",
+  "ceref": "AGV213",
+  "address": "Room 2537-2539, 25/F, Sun Hung Kai Centre, 30 Harbour Road, Wan Chai, Hong Kong",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/AGV213/details?locale=en",
+  "email_candidates": [],
+  "ros": [
+    {
+      "name": "LAU Chi Yin",
+      "ceref": "BND487"
+    }
+  ],
+  "primary_ro": "LAU Chi Yin",
+  "bd_lane": "FSCR",
+  "variant_id": "R1-v3-FSCR",
+  "email_subject": "Congratulations on your RO appointment at Win",
+  "email_body": "Dear Chi Yin,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at Win.\n\nFor newly appointed ROs like yourself, settling into the role often means getting a clear view of where the firm's compliance posture sits — internal policies, current filings, ongoing SFC engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps SFC-licensed firms with exactly that, scaled to the firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "email_body_hash": "3bf4bc3ff8",
+  "illiq_likelihood": "unknown",
+  "asset_classes": "unknown",
+  "classification_source": "none",
+  "website_accuracy": "not_found"
+}

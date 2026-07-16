@@ -1,0 +1,27 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "E Fund Management (Hong Kong) Co., Limited",
+  "natural": "E",
+  "ceref": "ARO593",
+  "address": "Suites 3501-02 Two International Finance Centre, 8 Finance Street, Central, Hong Kong",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/ARO593/details?locale=en",
+  "email_candidates": [],
+  "ros": [
+    {
+      "name": "LIN Weibin",
+      "ceref": "BBG416"
+    }
+  ],
+  "primary_ro": "LIN Weibin",
+  "bd_lane": "FSCR",
+  "variant_id": "R1-v3-FSCR",
+  "email_subject": "Congratulations on your RO appointment at E",
+  "email_body": "Dear Weibin,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at E.\n\nFor newly appointed ROs like yourself, settling into the role often means getting a clear view of where the firm's compliance posture sits — internal policies, current filings, ongoing SFC engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps SFC-licensed firms with exactly that, scaled to the firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "email_body_hash": "b9a6b5b8cc",
+  "illiq_likelihood": "low",
+  "asset_classes": "public_equity,public_credit,alternative",
+  "parent_org": "E Fund Management Co., Ltd.",
+  "classification_source": "website",
+  "website_accuracy": "probable"
+}

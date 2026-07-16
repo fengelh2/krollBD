@@ -1,0 +1,17 @@
+{
+  "type": "C1",
+  "type_label": "New Type 9 corp",
+  "firm": "",
+  "natural": "",
+  "ceref": "BWX383",
+  "address": "",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BWX383/details?locale=en",
+  "email_candidates": [],
+  "ros": [],
+  "primary_ro": null,
+  "bd_lane": "FSCR",
+  "variant_id": "C1-v4-FSCR",
+  "email_subject": "Congratulations on 's SFC Type 9 license",
+  "email_body": "Dear  Management,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on 's recent Type 9 licensing with the SFC.\n\nAs newly licensed managers like yourself establish and scale operations, we often see a need for practical support around compliance, governance, and regulatory engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps with exactly that, scaled to your firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "email_body_hash": "4d5a7a59da"
+}

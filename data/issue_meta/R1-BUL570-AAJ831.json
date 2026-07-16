@@ -1,0 +1,27 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "Airwallex Capital Hong Kong Limited",
+  "natural": "Airwallex Capital",
+  "ceref": "BUL570",
+  "address": "34/F, Oxford House, Taikoo Place, 979 King's Road, Quarry Bay, Hong Kong, Hong Kong",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BUL570/details?locale=en",
+  "email_candidates": [],
+  "ros": [
+    {
+      "name": "CHIU Siu Po, Steve",
+      "ceref": "AAJ831"
+    }
+  ],
+  "primary_ro": "CHIU Siu Po, Steve",
+  "bd_lane": "FSCR",
+  "variant_id": "R1-v3-FSCR",
+  "email_subject": "Congratulations on your RO appointment at Airwallex Capital",
+  "email_body": "Dear Steve,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at Airwallex Capital.\n\nFor newly appointed ROs like yourself, settling into the role often means getting a clear view of where the firm's compliance posture sits — internal policies, current filings, ongoing SFC engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps SFC-licensed firms with exactly that, scaled to the firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "email_body_hash": "328d6a30e0",
+  "illiq_likelihood": "low",
+  "asset_classes": "unknown",
+  "parent_org": "Airwallex",
+  "classification_source": "none",
+  "website_accuracy": "not_found"
+}

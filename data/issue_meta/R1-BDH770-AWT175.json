@@ -1,0 +1,26 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "Pleiad Investment Advisors Limited",
+  "natural": "Pleiad",
+  "ceref": "BDH770",
+  "address": "26/F Asia Pacific Centre, 8 Wyndham Street, Central, Hong Kong",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BDH770/details?locale=en",
+  "email_candidates": [],
+  "ros": [
+    {
+      "name": "WANG Dawei",
+      "ceref": "AWT175"
+    }
+  ],
+  "primary_ro": "WANG Dawei",
+  "bd_lane": "FSCR",
+  "variant_id": "R1-v3-FSCR",
+  "email_subject": "Congratulations on your RO appointment at Pleiad",
+  "email_body": "Dear Dawei,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at Pleiad.\n\nFor newly appointed ROs like yourself, settling into the role often means getting a clear view of where the firm's compliance posture sits — internal policies, current filings, ongoing SFC engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps SFC-licensed firms with exactly that, scaled to the firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "email_body_hash": "ebaaf82d1c",
+  "illiq_likelihood": "low",
+  "asset_classes": "public_equity",
+  "classification_source": "website",
+  "website_accuracy": "verified"
+}
