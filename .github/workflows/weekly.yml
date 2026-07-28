@@ -76,7 +76,9 @@ jobs:
       - name: Publish triggers (writes meta files, no inline push)
         # --skip-enrichment avoids duplicating Firecrawl + Hunter per firm here;
         # the post-publish steps below run the same enrichment in bulk.
-        run: python tools/publish_triggers_to_github.py --no-push --skip-enrichment
+        # --max=250 covers catch-up runs after missed weeks (default 50 aborts
+        # on the ~128-trigger backlog we saw after Jul 6 + 13 cancellations).
+        run: python tools/publish_triggers_to_github.py --no-push --skip-enrichment --max=250
 
       # Post-publish enrichment chain — runs against just-published triggers
       # so every new card lands with SFC-filed contacts + correct-domain
