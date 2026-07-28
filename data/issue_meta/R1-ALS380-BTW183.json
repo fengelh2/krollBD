@@ -6,7 +6,48 @@
   "ceref": "ALS380",
   "address": "Room 1207, 12/F, Solo building, 41-43 Carnarvon Road, Tsim Sha Tsui, Kowloon, Hong Kong",
   "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/ALS380/details?locale=en",
-  "email_candidates": [],
+  "email_candidates": [
+    {
+      "email": "mail.paramountinvest@gmail.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-07-28T01:40:10.485186+00:00"
+    },
+    {
+      "email": "alanzhe.xia@imperialcap.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "XIA Alan Zhe"
+    },
+    {
+      "email": "alanzhexia@imperialcap.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "XIA Alan Zhe"
+    },
+    {
+      "email": "axia@imperialcap.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "XIA Alan Zhe"
+    },
+    {
+      "email": "info@imperialcap.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@imperialcap.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@imperialcap.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
   "ros": [
     {
       "name": "XIA Alan Zhe",
@@ -22,5 +63,8 @@
   "illiq_likelihood": "unknown",
   "asset_classes": "unknown",
   "classification_source": "none",
-  "website_accuracy": "not_found"
+  "website_accuracy": "not_found",
+  "sfc_filed_website": "www.imperialcap.com.hk",
+  "hunter_hits": [],
+  "hunter_attempted_utc": "2026-07-28T03:06:45.161719+00:00"
 }

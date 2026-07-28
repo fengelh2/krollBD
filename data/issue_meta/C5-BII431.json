@@ -1,0 +1,95 @@
+{
+  "type": "C5",
+  "type_label": "Rebrand / name change",
+  "firm": "China New Asset Management Limited",
+  "old_firm": "Sino Wealth Asset Management Limited",
+  "natural": "China New",
+  "ceref": "BII431",
+  "ros": [
+    {
+      "name": "LO Chun Wah",
+      "ceref": "AJD784"
+    },
+    {
+      "name": "YU Miu Ki",
+      "ceref": "AJL686"
+    }
+  ],
+  "primary_ro": "LO Chun Wah",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BII431/details?locale=en",
+  "email_subject": "China New — note on the recent rebrand",
+  "email_body": "Dear China New Management,\n\nThis is Felix from Kroll in Hong Kong. The SFC public register shows that Sino Wealth has been renamed to China New.\n\nRebrands often accompany broader changes — a new sponsor, a strategy refresh, or an organisational reshape — and these moments are often a natural time to revisit fund-level valuation policies and the operating arrangements behind them.\n\nKroll's Portfolio Valuation team works with SFC-regulated managers across Hong Kong on independent fair-value opinions for private equity and credit positions, and our adjacent FSCR colleagues support governance and regulatory engagement. Happy to set up an informal call if any of this would be useful as you transition.\n\nKind regards,\nFelix Engelhardt\n",
+  "variant_id": "C5-v2",
+  "email_body_hash": "e4fb42fe63",
+  "email_candidates": [
+    {
+      "email": "info@sinowealthasset.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-07-28T01:40:10.471772+00:00"
+    },
+    {
+      "email": "info@sinowealthasset.com",
+      "kind": "generic_on_site",
+      "confidence": "verified",
+      "ro": null
+    },
+    {
+      "email": "chunwah.lo@sinowealthasset.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LO Chun Wah"
+    },
+    {
+      "email": "chunwahlo@sinowealthasset.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LO Chun Wah"
+    },
+    {
+      "email": "clo@sinowealthasset.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LO Chun Wah"
+    },
+    {
+      "email": "miuki.yu@sinowealthasset.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "YU Miu Ki"
+    },
+    {
+      "email": "miukiyu@sinowealthasset.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "YU Miu Ki"
+    },
+    {
+      "email": "myu@sinowealthasset.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "YU Miu Ki"
+    },
+    {
+      "email": "contact@sinowealthasset.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@sinowealthasset.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "public_equity,public_credit,private_equity,real_assets,fund_of_funds,multi",
+  "illiq_likelihood": "medium",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "website",
+  "website_accuracy": "verified",
+  "sfc_filed_website": "www.sinowealthasset.com",
+  "hunter_hits": [],
+  "hunter_attempted_utc": "2026-07-28T03:03:53.810239+00:00"
+}

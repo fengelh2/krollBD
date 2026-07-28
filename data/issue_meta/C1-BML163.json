@@ -1,0 +1,248 @@
+{
+  "type": "C1",
+  "type_label": "New Type 9 corp",
+  "firm": "Linkways Investment Management Limited",
+  "natural": "Linkways",
+  "ceref": "BML163",
+  "address": "Room 702, 7/F, Dina House, 3-11 Duddell Street, Central, Hong Kong",
+  "ros": [
+    {
+      "name": "CHENG Man Yu, Duncan",
+      "ceref": "AGH568"
+    },
+    {
+      "name": "CHEUNG Wai Ching, Vancy",
+      "ceref": "AFB036"
+    },
+    {
+      "name": "FONG Ka Ming",
+      "ceref": "AHR794"
+    },
+    {
+      "name": "HUNG Ho Lun",
+      "ceref": "AGH158"
+    },
+    {
+      "name": "MA Chi Ho, Laurence",
+      "ceref": "AEA532"
+    },
+    {
+      "name": "NG Yik Yin",
+      "ceref": "ATN406"
+    },
+    {
+      "name": "YEUNG Ho Chun",
+      "ceref": "AXF965"
+    }
+  ],
+  "primary_ro": "CHENG Man Yu, Duncan",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BML163/details?locale=en",
+  "email_subject": "Congratulations on Linkways's SFC Type 9 license",
+  "email_body": "Dear Linkways Management,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on Linkways's recent Type 9 licensing with the SFC.\n\nAs newly licensed managers like yourself establish and scale operations, we often see a need for practical support around compliance, governance, and regulatory engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps with exactly that, scaled to your firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "FSCR",
+  "variant_id": "C1-v4-FSCR",
+  "email_body_hash": "5d26cdc334",
+  "email_candidates": [
+    {
+      "email": "laurence.ma@linkwayshk.com",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "MA Chi Ho, Laurence",
+      "score": 81,
+      "abstract_verdict": "quota_exhausted",
+      "abstract_detail": null,
+      "evidence": "Hunter score 81 + AbstractAPI: quota_exhausted"
+    },
+    {
+      "email": "vancy.cheung@linkwayshk.com",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "CHEUNG Wai Ching, Vancy",
+      "score": 80,
+      "abstract_verdict": "quota_exhausted",
+      "abstract_detail": null,
+      "evidence": "Hunter score 80 + AbstractAPI: quota_exhausted"
+    },
+    {
+      "email": "duncan.cheng@linkwayshk.com",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "CHENG Man Yu, Duncan",
+      "score": 82,
+      "abstract_verdict": "quota_exhausted",
+      "abstract_detail": null,
+      "evidence": "Hunter score 82 + AbstractAPI: quota_exhausted"
+    },
+    {
+      "email": "cs@linkwayshk.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-07-28T01:40:10.464679+00:00"
+    },
+    {
+      "email": "cs@linkwayshk.com",
+      "kind": "observed_on_site",
+      "confidence": "verified",
+      "ro": null
+    },
+    {
+      "email": "duncancheng@linkwayshk.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHENG Man Yu, Duncan"
+    },
+    {
+      "email": "dcheng@linkwayshk.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHENG Man Yu, Duncan"
+    },
+    {
+      "email": "vancycheung@linkwayshk.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHEUNG Wai Ching, Vancy"
+    },
+    {
+      "email": "vcheung@linkwayshk.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHEUNG Wai Ching, Vancy"
+    },
+    {
+      "email": "kaming.fong@linkwayshk.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "FONG Ka Ming"
+    },
+    {
+      "email": "kamingfong@linkwayshk.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "FONG Ka Ming"
+    },
+    {
+      "email": "kfong@linkwayshk.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "FONG Ka Ming"
+    },
+    {
+      "email": "holun.hung@linkwayshk.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "HUNG Ho Lun"
+    },
+    {
+      "email": "holunhung@linkwayshk.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "HUNG Ho Lun"
+    },
+    {
+      "email": "hhung@linkwayshk.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "HUNG Ho Lun"
+    },
+    {
+      "email": "laurencema@linkwayshk.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "MA Chi Ho, Laurence"
+    },
+    {
+      "email": "lma@linkwayshk.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "MA Chi Ho, Laurence"
+    },
+    {
+      "email": "yikyin.ng@linkwayshk.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "NG Yik Yin"
+    },
+    {
+      "email": "yikyinng@linkwayshk.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "NG Yik Yin"
+    },
+    {
+      "email": "yng@linkwayshk.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "NG Yik Yin"
+    },
+    {
+      "email": "hochun.yeung@linkwayshk.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "YEUNG Ho Chun"
+    },
+    {
+      "email": "hochunyeung@linkwayshk.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "YEUNG Ho Chun"
+    },
+    {
+      "email": "hyeung@linkwayshk.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "YEUNG Ho Chun"
+    },
+    {
+      "email": "info@linkwayshk.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@linkwayshk.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@linkwayshk.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "public_equity,public_credit,multi",
+  "illiq_likelihood": "low",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "website",
+  "website_accuracy": "probable",
+  "sfc_filed_website": "www.linkwayshk.com",
+  "hunter_hits": [
+    {
+      "email": "duncan.cheng@linkwayshk.com",
+      "score": 82,
+      "ro": "CHENG Man Yu, Duncan",
+      "fetched_at_utc": "2026-07-28T03:05:15.758648+00:00",
+      "abstract_verdict": "quota_exhausted",
+      "abstract_detail": null
+    },
+    {
+      "email": "vancy.cheung@linkwayshk.com",
+      "score": 80,
+      "ro": "CHEUNG Wai Ching, Vancy",
+      "fetched_at_utc": "2026-07-28T03:05:19.115274+00:00",
+      "abstract_verdict": "quota_exhausted",
+      "abstract_detail": null
+    },
+    {
+      "email": "laurence.ma@linkwayshk.com",
+      "score": 81,
+      "ro": "MA Chi Ho, Laurence",
+      "fetched_at_utc": "2026-07-28T03:05:28.950622+00:00",
+      "abstract_verdict": "quota_exhausted",
+      "abstract_detail": null
+    }
+  ],
+  "hunter_attempted_utc": "2026-07-28T03:05:42.425282+00:00"
+}

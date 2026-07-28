@@ -6,7 +6,43 @@
   "ceref": "BNN736",
   "address": "Room 07 12/F, Tung Lee Industrial Bldg, 9 Lai Yip Street, Kwun Tong, Kowloon, Hong Kong",
   "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BNN736/details?locale=en",
-  "email_candidates": [],
+  "email_candidates": [
+    {
+      "email": "info@mpassethk.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-07-28T01:40:10.497159+00:00"
+    },
+    {
+      "email": "yang.liu@mpassethk.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LIU Yang"
+    },
+    {
+      "email": "yangliu@mpassethk.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LIU Yang"
+    },
+    {
+      "email": "yliu@mpassethk.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LIU Yang"
+    },
+    {
+      "email": "contact@mpassethk.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@mpassethk.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
   "ros": [
     {
       "name": "LIU Yang",
@@ -22,5 +58,7 @@
   "illiq_likelihood": "unknown",
   "asset_classes": "unknown",
   "classification_source": "none",
-  "website_accuracy": "not_found"
+  "website_accuracy": "not_found",
+  "hunter_hits": [],
+  "hunter_attempted_utc": "2026-07-28T03:06:05.356845+00:00"
 }

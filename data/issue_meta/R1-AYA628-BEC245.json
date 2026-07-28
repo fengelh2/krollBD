@@ -1,0 +1,39 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "Soochow Securities International Asset Management Limited",
+  "natural": "Soochow Securities International",
+  "ceref": "AYA628",
+  "ros": [
+    {
+      "name": "CHOI Chung Kiu, Kenny",
+      "ceref": "BEC245"
+    }
+  ],
+  "primary_ro": "CHOI Chung Kiu, Kenny",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/AYA628/details?locale=en",
+  "email_subject": "Congratulations on your RO appointment at Soochow Securities International",
+  "email_body": "Dear Kenny,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at Soochow Securities International.\n\nFor newly appointed ROs like yourself, settling into the role often means getting a clear view of where the firm's compliance posture sits — internal policies, current filings, ongoing SFC engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps SFC-licensed firms with exactly that, scaled to the firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "FSCR",
+  "variant_id": "R1-v3-FSCR",
+  "email_body_hash": "24ebf1c3bd",
+  "email_candidates": [
+    {
+      "email": "complaint@dwzq.com.hk",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-07-28T01:40:10.490249+00:00"
+    }
+  ],
+  "asset_classes": "public_equity,public_credit",
+  "illiq_likelihood": "low",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "Soochow Securities Co., Ltd.",
+  "classification_source": "website",
+  "website_accuracy": "suspect",
+  "sfc_filed_website": "www.dwzq.com.hk",
+  "hunter_hits": [],
+  "hunter_attempted_utc": "2026-07-28T02:52:54.948491+00:00"
+}

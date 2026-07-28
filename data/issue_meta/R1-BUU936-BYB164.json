@@ -1,0 +1,90 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "Dream'ee (Hong Kong) Capital Limited",
+  "natural": "Dream'ee Capital",
+  "ceref": "BUU936",
+  "ros": [
+    {
+      "name": "PENG JIN",
+      "ceref": "BYB164"
+    }
+  ],
+  "primary_ro": "PENG JIN",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BUU936/details?locale=en",
+  "email_subject": "Congratulations on your RO appointment at Dream'ee Capital",
+  "email_body": "Dear Jin,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at Dream'ee Capital.\n\nFor newly appointed ROs like yourself, settling into the role often means getting a clear view of where the firm's compliance posture sits — internal policies, current filings, ongoing SFC engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps SFC-licensed firms with exactly that, scaled to the firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "FSCR",
+  "variant_id": "R1-v3-FSCR",
+  "email_body_hash": "bc0183172a",
+  "email_candidates": [
+    {
+      "email": "jinpeng@aastocks.com",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "PENG JIN",
+      "score": 82,
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email",
+      "evidence": "Hunter score 82 + AbstractAPI: deliverable"
+    },
+    {
+      "email": "lydia_ding@dreameefund.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-07-28T01:40:10.505990+00:00"
+    },
+    {
+      "email": "jin.peng@dreameefund.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "PENG JIN"
+    },
+    {
+      "email": "jinpeng@dreameefund.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "PENG JIN"
+    },
+    {
+      "email": "jpeng@dreameefund.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "PENG JIN"
+    },
+    {
+      "email": "info@dreameefund.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@dreameefund.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@dreameefund.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "unknown",
+  "illiq_likelihood": "unknown",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "none",
+  "website_accuracy": "not_found",
+  "hunter_hits": [
+    {
+      "email": "jinpeng@aastocks.com",
+      "score": 82,
+      "ro": "PENG JIN",
+      "fetched_at_utc": "2026-07-28T02:58:02.710682+00:00",
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email"
+    }
+  ],
+  "hunter_attempted_utc": "2026-07-28T02:58:02.710698+00:00"
+}

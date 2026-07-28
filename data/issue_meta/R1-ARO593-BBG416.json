@@ -6,7 +6,48 @@
   "ceref": "ARO593",
   "address": "Suites 3501-02 Two International Finance Centre, 8 Finance Street, Central, Hong Kong",
   "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/ARO593/details?locale=en",
-  "email_candidates": [],
+  "email_candidates": [
+    {
+      "email": "hk_compliance@efunds.com.hk",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-07-28T01:40:10.487992+00:00"
+    },
+    {
+      "email": "weibin.lin@efunds.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LIN Weibin"
+    },
+    {
+      "email": "weibinlin@efunds.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LIN Weibin"
+    },
+    {
+      "email": "wlin@efunds.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LIN Weibin"
+    },
+    {
+      "email": "info@efunds.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@efunds.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@efunds.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
   "ros": [
     {
       "name": "LIN Weibin",
@@ -23,5 +64,8 @@
   "asset_classes": "public_equity,public_credit,alternative",
   "parent_org": "E Fund Management Co., Ltd.",
   "classification_source": "website",
-  "website_accuracy": "probable"
+  "website_accuracy": "probable",
+  "sfc_filed_website": "www.efunds.com.hk",
+  "hunter_hits": [],
+  "hunter_attempted_utc": "2026-07-28T03:07:04.275281+00:00"
 }

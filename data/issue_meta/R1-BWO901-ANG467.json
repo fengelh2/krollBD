@@ -1,0 +1,38 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "CHINA INTERNATIONAL CAPITAL OF TECHNOLOGY (HONG KONG) LIMITED",
+  "natural": "International Capital Of Technology",
+  "ceref": "BWO901",
+  "ros": [
+    {
+      "name": "SHAN Li",
+      "ceref": "ANG467"
+    }
+  ],
+  "primary_ro": "SHAN Li",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BWO901/details?locale=en",
+  "email_subject": "Congratulations on your RO appointment at International Capital Of Technology",
+  "email_body": "Dear Li,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at International Capital Of Technology.\n\nFor newly appointed ROs like yourself, settling into the role often means getting a clear view of where the firm's compliance posture sits — internal policies, current filings, ongoing SFC engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps SFC-licensed firms with exactly that, scaled to the firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "FSCR",
+  "variant_id": "R1-v3-FSCR",
+  "email_body_hash": "406a797570",
+  "email_candidates": [
+    {
+      "email": "info@cicthk.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-07-28T01:40:10.508935+00:00"
+    }
+  ],
+  "asset_classes": "unknown",
+  "illiq_likelihood": "unknown",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "none",
+  "website_accuracy": "not_found",
+  "hunter_hits": [],
+  "hunter_attempted_utc": "2026-07-28T02:58:15.263598+00:00"
+}

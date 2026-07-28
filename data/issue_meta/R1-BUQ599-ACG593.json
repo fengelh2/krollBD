@@ -6,7 +6,48 @@
   "ceref": "BUQ599",
   "address": "Unit 1101C, 11/F, Mirror Tower, No. 61 Mody Road, Tsim Sha Tsui East, Kowloon, Hong Kong",
   "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BUQ599/details?locale=en",
-  "email_candidates": [],
+  "email_candidates": [
+    {
+      "email": "kongq@taoli.fund",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-07-28T01:40:10.505765+00:00"
+    },
+    {
+      "email": "chiling.wong@taoli.fund",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "WONG Chi Ling"
+    },
+    {
+      "email": "chilingwong@taoli.fund",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "WONG Chi Ling"
+    },
+    {
+      "email": "cwong@taoli.fund",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "WONG Chi Ling"
+    },
+    {
+      "email": "info@taoli.fund",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@taoli.fund",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@taoli.fund",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
   "ros": [
     {
       "name": "WONG Chi Ling",
@@ -22,5 +63,7 @@
   "illiq_likelihood": "unknown",
   "asset_classes": "unknown",
   "classification_source": "none",
-  "website_accuracy": "unverified"
+  "website_accuracy": "unverified",
+  "hunter_hits": [],
+  "hunter_attempted_utc": "2026-07-28T03:06:13.781864+00:00"
 }

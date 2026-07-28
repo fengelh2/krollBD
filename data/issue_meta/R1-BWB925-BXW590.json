@@ -6,7 +6,48 @@
   "ceref": "BWB925",
   "address": "Unit 1803, 18th Floor, The L. Plaza, Nos. 367-375 Queen's Road Central, Sheung Wan, Hong Kong",
   "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BWB925/details?locale=en",
-  "email_candidates": [],
+  "email_candidates": [
+    {
+      "email": "team@durationcapital.hk",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-07-28T01:40:10.507857+00:00"
+    },
+    {
+      "email": "tao.peng@durationcapital.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "PENG Tao"
+    },
+    {
+      "email": "taopeng@durationcapital.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "PENG Tao"
+    },
+    {
+      "email": "tpeng@durationcapital.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "PENG Tao"
+    },
+    {
+      "email": "info@durationcapital.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@durationcapital.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@durationcapital.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
   "ros": [
     {
       "name": "PENG Tao",

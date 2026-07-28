@@ -1,0 +1,72 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "Ares Management Asia (Hong Kong) Limited",
+  "natural": "Ares Management Asia",
+  "ceref": "ASS687",
+  "ros": [
+    {
+      "name": "FONG Ming Kwan Gabriel",
+      "ceref": "ADR913"
+    }
+  ],
+  "primary_ro": "FONG Ming Kwan Gabriel",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/ASS687/details?locale=en",
+  "email_subject": "Congratulations on your RO appointment at Ares Management Asia",
+  "email_body": "Dear Ming Kwan Gabriel,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at Ares Management Asia.\n\nFor illiquid managers like yourself, the marks the RO signs off on tend to be the most scrutinised line items on the books — LPs want comfort, auditors want defensibility, and internal-only marks usually invite more questions than they close. Kroll's Portfolio Valuation team here in Hong Kong helps with exactly that — robust independent valuations across private equity, private credit, and other illiquid strategies.\n\nIf a quick chat would be useful — now, or down the line — happy to set one up. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "PV",
+  "variant_id": "R1-v3-PV",
+  "email_body_hash": "7b4f95d6e4",
+  "email_candidates": [
+    {
+      "email": "hkcompliance@aresmgmt.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-07-28T01:40:10.488268+00:00"
+    },
+    {
+      "email": "ming.fong@aresmgmt.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "FONG Ming Kwan Gabriel"
+    },
+    {
+      "email": "mingfong@aresmgmt.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "FONG Ming Kwan Gabriel"
+    },
+    {
+      "email": "mfong@aresmgmt.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "FONG Ming Kwan Gabriel"
+    },
+    {
+      "email": "info@aresmgmt.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@aresmgmt.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@aresmgmt.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "private_equity,private_credit,real_assets,public_equity,public_credit",
+  "illiq_likelihood": "high",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "Ares Management Corporation",
+  "classification_source": "consensus_website_plus",
+  "website_accuracy": "verified",
+  "sfc_filed_website": "www.aresmgmt.com",
+  "hunter_hits": [],
+  "hunter_attempted_utc": "2026-07-28T03:00:52.822909+00:00"
+}

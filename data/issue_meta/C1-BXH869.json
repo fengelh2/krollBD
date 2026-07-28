@@ -1,0 +1,116 @@
+{
+  "type": "C1",
+  "type_label": "New Type 9 corp",
+  "firm": "Star Isle Investment Limited",
+  "natural": "Star Isle",
+  "ceref": "BXH869",
+  "address": "",
+  "ros": [
+    {
+      "name": "GAO Minhe",
+      "ceref": "ASN797"
+    },
+    {
+      "name": "JIANG Ziqi",
+      "ceref": "BHX700"
+    },
+    {
+      "name": "LEUNG Wing Kin",
+      "ceref": "BMY771"
+    }
+  ],
+  "primary_ro": "GAO Minhe",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BXH869/details?locale=en",
+  "email_subject": "Congratulations on Star Isle's SFC Type 9 license",
+  "email_body": "Dear Vincentjiang and Star Isle Management,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on Star Isle's recent Type 9 licensing with the SFC.\n\nAs newly licensed managers like yourself establish and scale operations, we often see a need for practical support around compliance, governance, and regulatory engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps with exactly that, scaled to your firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "FSCR",
+  "variant_id": "C1-v4-FSCR",
+  "email_body_hash": "c709441eba",
+  "email_candidates": [
+    {
+      "email": "vincentjiang@starisleinv.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-07-28T01:40:10.467171+00:00"
+    },
+    {
+      "email": "minhe.gao@starisleinv.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "GAO Minhe"
+    },
+    {
+      "email": "minhegao@starisleinv.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "GAO Minhe"
+    },
+    {
+      "email": "mgao@starisleinv.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "GAO Minhe"
+    },
+    {
+      "email": "ziqi.jiang@starisleinv.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "JIANG Ziqi"
+    },
+    {
+      "email": "ziqijiang@starisleinv.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "JIANG Ziqi"
+    },
+    {
+      "email": "zjiang@starisleinv.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "JIANG Ziqi"
+    },
+    {
+      "email": "wingkin.leung@starisleinv.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LEUNG Wing Kin"
+    },
+    {
+      "email": "wingkinleung@starisleinv.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LEUNG Wing Kin"
+    },
+    {
+      "email": "wleung@starisleinv.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LEUNG Wing Kin"
+    },
+    {
+      "email": "info@starisleinv.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@starisleinv.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@starisleinv.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "unknown",
+  "illiq_likelihood": "unknown",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "none",
+  "website_accuracy": "unverified",
+  "hunter_hits": [],
+  "hunter_attempted_utc": "2026-07-28T03:04:19.850182+00:00"
+}

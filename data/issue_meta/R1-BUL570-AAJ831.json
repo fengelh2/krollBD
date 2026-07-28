@@ -6,7 +6,58 @@
   "ceref": "BUL570",
   "address": "34/F, Oxford House, Taikoo Place, 979 King's Road, Quarry Bay, Hong Kong, Hong Kong",
   "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BUL570/details?locale=en",
-  "email_candidates": [],
+  "email_candidates": [
+    {
+      "email": "steve.c@airwallex.com",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "CHIU Siu Po, Steve",
+      "score": 82,
+      "abstract_verdict": "quota_exhausted",
+      "abstract_detail": null,
+      "evidence": "Hunter score 82 + AbstractAPI: quota_exhausted"
+    },
+    {
+      "email": "regulatory.hk@airwallex.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-07-28T01:40:10.504336+00:00"
+    },
+    {
+      "email": "steve.chiu@airwallex.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHIU Siu Po, Steve"
+    },
+    {
+      "email": "stevechiu@airwallex.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHIU Siu Po, Steve"
+    },
+    {
+      "email": "schiu@airwallex.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHIU Siu Po, Steve"
+    },
+    {
+      "email": "info@airwallex.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@airwallex.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@airwallex.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
   "ros": [
     {
       "name": "CHIU Siu Po, Steve",
@@ -23,5 +74,17 @@
   "asset_classes": "unknown",
   "parent_org": "Airwallex",
   "classification_source": "none",
-  "website_accuracy": "not_found"
+  "website_accuracy": "not_found",
+  "sfc_filed_website": "www.airwallex.com",
+  "hunter_hits": [
+    {
+      "email": "steve.c@airwallex.com",
+      "score": 82,
+      "ro": "CHIU Siu Po, Steve",
+      "fetched_at_utc": "2026-07-28T03:07:12.820552+00:00",
+      "abstract_verdict": "quota_exhausted",
+      "abstract_detail": null
+    }
+  ],
+  "hunter_attempted_utc": "2026-07-28T03:07:12.820567+00:00"
 }

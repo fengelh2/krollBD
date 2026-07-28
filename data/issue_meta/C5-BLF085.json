@@ -1,0 +1,43 @@
+{
+  "type": "C5",
+  "type_label": "Rebrand / name change",
+  "firm": "Singular Capital Management Limited",
+  "old_firm": "Aetherium Capital Partners Limited",
+  "natural": "Singular Capital",
+  "ceref": "BLF085",
+  "ros": [
+    {
+      "name": "KU Sanqi",
+      "ceref": "AZC762"
+    },
+    {
+      "name": "LU Yu",
+      "ceref": "BBE946"
+    }
+  ],
+  "primary_ro": "KU Sanqi",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BLF085/details?locale=en",
+  "email_subject": "Singular Capital — note on the recent rebrand",
+  "email_body": "Dear Singular Capital Management,\n\nThis is Felix from Kroll in Hong Kong. The SFC public register shows that Aetherium Capital has been renamed to Singular Capital.\n\nRebrands often accompany broader changes — a new sponsor, a strategy refresh, or an organisational reshape — and these moments are often a natural time to revisit fund-level valuation policies and the operating arrangements behind them.\n\nKroll's Portfolio Valuation team works with SFC-regulated managers across Hong Kong on independent fair-value opinions for private equity and credit positions, and our adjacent FSCR colleagues support governance and regulatory engagement. Happy to set up an informal call if any of this would be useful as you transition.\n\nKind regards,\nFelix Engelhardt\n",
+  "variant_id": "C5-v2",
+  "email_body_hash": "cc10417a96",
+  "email_candidates": [
+    {
+      "email": "ariana.gao@aetherium.capital",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-07-28T01:40:10.473747+00:00"
+    }
+  ],
+  "asset_classes": "public_equity,public_credit,digital_assets,multi",
+  "illiq_likelihood": "low",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "website",
+  "website_accuracy": "verified",
+  "sfc_filed_website": "www.aetherium.capital",
+  "hunter_hits": [],
+  "hunter_attempted_utc": "2026-07-28T03:01:17.243988+00:00"
+}

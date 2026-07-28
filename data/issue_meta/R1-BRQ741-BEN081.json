@@ -1,0 +1,72 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "Syfe Hong Kong Limited",
+  "natural": "Syfe",
+  "ceref": "BRQ741",
+  "ros": [
+    {
+      "name": "LAM Sze Hang Agnes",
+      "ceref": "BEN081"
+    }
+  ],
+  "primary_ro": "LAM Sze Hang Agnes",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BRQ741/details?locale=en",
+  "email_subject": "Congratulations on your RO appointment at Syfe",
+  "email_body": "Dear Sze Hang Agnes,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at Syfe.\n\nFor illiquid managers like yourself, the marks the RO signs off on tend to be the most scrutinised line items on the books — LPs want comfort, auditors want defensibility, and internal-only marks usually invite more questions than they close. Kroll's Portfolio Valuation team here in Hong Kong helps with exactly that — robust independent valuations across private equity, private credit, and other illiquid strategies.\n\nIf a quick chat would be useful — now, or down the line — happy to set one up. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "PV",
+  "variant_id": "R1-v3-PV",
+  "email_body_hash": "6bae5e6542",
+  "email_candidates": [
+    {
+      "email": "compliance.hk@syfe.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-07-28T01:40:10.502401+00:00"
+    },
+    {
+      "email": "sze.lam@syfe.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LAM Sze Hang Agnes"
+    },
+    {
+      "email": "szelam@syfe.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LAM Sze Hang Agnes"
+    },
+    {
+      "email": "slam@syfe.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LAM Sze Hang Agnes"
+    },
+    {
+      "email": "info@syfe.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@syfe.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@syfe.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "public_equity,public_credit,private_credit,fund_of_funds",
+  "illiq_likelihood": "medium",
+  "aum_raw_string": "US$10 Billion+",
+  "aum_usd_m": "10000",
+  "parent_org": "",
+  "classification_source": "website",
+  "website_accuracy": "verified",
+  "sfc_filed_website": "www.syfe.com",
+  "hunter_hits": [],
+  "hunter_attempted_utc": "2026-07-28T02:52:29.898721+00:00"
+}

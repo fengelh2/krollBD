@@ -1,0 +1,89 @@
+{
+  "type": "C1",
+  "type_label": "New Type 9 corp",
+  "firm": "Noble Peak Capital Management Limited",
+  "natural": "Noble Peak Capital",
+  "ceref": "BWZ820",
+  "address": "Room 111, Units 1101-1102,11/F,, Chuang's Enterprises Building, No. 382 Lockhart Road,, Wan Chai, Hong Kong, Hong Kong",
+  "ros": [
+    {
+      "name": "FUNG Hei Wa",
+      "ceref": "BLN442"
+    },
+    {
+      "name": "WANG Xiaotian",
+      "ceref": "BAO743"
+    }
+  ],
+  "primary_ro": "FUNG Hei Wa",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BWZ820/details?locale=en",
+  "email_subject": "Congratulations on Noble Peak Capital's SFC Type 9 license",
+  "email_body": "Dear Noble Peak Capital Management,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on Noble Peak Capital's recent Type 9 licensing with the SFC.\n\nFor illiquid managers like yourself, as you get ready to start deploying capital, the recurring question is how to mark private positions in a way that holds up with LPs and auditors. Kroll's Portfolio Valuation team here in Hong Kong helps with exactly that — across private equity, private credit, and other illiquid strategies.\n\nIf a quick chat would be useful — now, or down the line — happy to set one up. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "PV",
+  "variant_id": "C1-v4-PV",
+  "email_body_hash": "b115f0df84",
+  "email_candidates": [
+    {
+      "email": "info@noblepeakint.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-07-28T01:40:10.466487+00:00"
+    },
+    {
+      "email": "heiwa.fung@noblepeakint.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "FUNG Hei Wa"
+    },
+    {
+      "email": "heiwafung@noblepeakint.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "FUNG Hei Wa"
+    },
+    {
+      "email": "hfung@noblepeakint.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "FUNG Hei Wa"
+    },
+    {
+      "email": "xiaotian.wang@noblepeakint.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "WANG Xiaotian"
+    },
+    {
+      "email": "xiaotianwang@noblepeakint.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "WANG Xiaotian"
+    },
+    {
+      "email": "xwang@noblepeakint.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "WANG Xiaotian"
+    },
+    {
+      "email": "contact@noblepeakint.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@noblepeakint.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "private_equity,real_assets",
+  "illiq_likelihood": "high",
+  "aum_raw_string": "$ 5.0 BILLION AUM",
+  "aum_usd_m": "5000",
+  "parent_org": "Noble Investment Group",
+  "classification_source": "website",
+  "website_accuracy": "verified",
+  "hunter_hits": [],
+  "hunter_attempted_utc": "2026-07-28T03:05:10.838578+00:00"
+}

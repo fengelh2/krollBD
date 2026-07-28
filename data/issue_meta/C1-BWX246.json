@@ -1,0 +1,102 @@
+{
+  "type": "C1",
+  "type_label": "New Type 9 corp",
+  "firm": "SAGE CAPITAL INVESTMENT LIMITED",
+  "natural": "Sage Capital",
+  "ceref": "BWX246",
+  "address": "Room 1901, 19/F, Beautiful Group Tower, 74-77 Connaught Road Central, Central, Hong Kong",
+  "ros": [
+    {
+      "name": "KWONG U HOI ANDREW",
+      "ceref": "BCA085"
+    },
+    {
+      "name": "RAMSAY James Thomas",
+      "ceref": "AVD143"
+    },
+    {
+      "name": "XIAO Xiao",
+      "ceref": "BWX248"
+    }
+  ],
+  "primary_ro": "KWONG U HOI ANDREW",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BWX246/details?locale=en",
+  "email_subject": "Congratulations on Sage Capital's SFC Type 9 license",
+  "email_body": "Dear Crystal and Sage Capital Management,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on Sage Capital's recent Type 9 licensing with the SFC.\n\nAs newly licensed managers like yourself establish and scale operations, we often see a need for practical support around compliance, governance, and regulatory engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps with exactly that, scaled to your firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "FSCR",
+  "variant_id": "C1-v4-FSCR",
+  "email_body_hash": "8fb9f1a66d",
+  "email_candidates": [
+    {
+      "email": "xiao.xiao@sage.com",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "XIAO Xiao",
+      "score": 85,
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email",
+      "evidence": "Hunter score 85 + AbstractAPI: deliverable"
+    },
+    {
+      "email": "james.ramsay@sage.com",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "RAMSAY James Thomas",
+      "score": 85,
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email",
+      "evidence": "Hunter score 85 + AbstractAPI: deliverable"
+    },
+    {
+      "email": "kwongu@sage.com",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "KWONG U HOI ANDREW",
+      "score": 79,
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email",
+      "evidence": "Hunter score 79 + AbstractAPI: deliverable"
+    },
+    {
+      "email": "crystal@brizanvp.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-07-28T01:40:10.465828+00:00"
+    }
+  ],
+  "asset_classes": "unknown",
+  "illiq_likelihood": "unknown",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "none",
+  "website_accuracy": "not_found",
+  "hunter_hits": [
+    {
+      "email": "kwongu@sage.com",
+      "score": 79,
+      "ro": "KWONG U HOI ANDREW",
+      "fetched_at_utc": "2026-07-28T03:04:22.470545+00:00",
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email"
+    },
+    {
+      "email": "james.ramsay@sage.com",
+      "score": 85,
+      "ro": "RAMSAY James Thomas",
+      "fetched_at_utc": "2026-07-28T03:04:25.222884+00:00",
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email"
+    },
+    {
+      "email": "xiao.xiao@sage.com",
+      "score": 85,
+      "ro": "XIAO Xiao",
+      "fetched_at_utc": "2026-07-28T03:04:27.986191+00:00",
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email"
+    }
+  ],
+  "hunter_attempted_utc": "2026-07-28T03:04:27.986204+00:00"
+}

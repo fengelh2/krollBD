@@ -6,7 +6,25 @@
   "ceref": "ADC118",
   "address": "Suite 3303, 33/F, Singga Commercial Centre, 144-151 Connaught Road West, Hong Kong",
   "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/ADC118/details?locale=en",
-  "email_candidates": [],
+  "email_candidates": [
+    {
+      "email": "info@axiom-invest.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-07-28T01:40:10.469120+00:00"
+    },
+    {
+      "email": "contact@axiom-invest.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@axiom-invest.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
   "ros": [],
   "primary_ro": null,
   "variant_id": "C2-v2",
@@ -16,5 +34,6 @@
   "illiq_likelihood": "unknown",
   "asset_classes": "unknown",
   "classification_source": "none",
-  "website_accuracy": "not_found"
+  "website_accuracy": "not_found",
+  "sfc_filed_website": "http://www.axiom-invest.com/"
 }

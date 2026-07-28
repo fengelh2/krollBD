@@ -1,0 +1,46 @@
+{
+  "type": "C2",
+  "type_label": "Type 9 retired",
+  "firm": "Suparna Capital Management Limited",
+  "natural": "Suparna Capital",
+  "ceref": "BPK561",
+  "ros_current": [],
+  "ros_departed": [],
+  "primary_ro": null,
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BPK561/details?locale=en",
+  "email_subject": "Suparna Capital — Type 9 license transition",
+  "email_body": "Dear Suparna Capital Management,\n\nThis is Felix from Kroll. I am reaching out in light of publicly disclosed changes to Suparna Capital's SFC Type 9 registration, as such transitions often prompt a review of fund-level operating and advisory arrangements.\n\nFor funds that have largely deployed capital and are managing minority positions requiring limited day-to-day GP involvement, Kroll's Fund Solutions practice supports GPs with a range of later-lifecycle options — particularly around replacement advisory, realization structuring, and cost-efficient ongoing management.\n\nShould this be relevant to you, I would be happy to introduce you to the appropriate colleagues for an informal discussion. If not, please feel free to disregard this note.\n\nKind regards,\nFelix Engelhardt\n",
+  "variant_id": "C2-v2",
+  "email_body_hash": "59a7f073d2",
+  "email_candidates": [
+    {
+      "email": "cs@suparna-cm.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-07-28T01:40:10.470331+00:00"
+    },
+    {
+      "email": "info@suparna-cm.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@suparna-cm.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@suparna-cm.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "unknown",
+  "illiq_likelihood": "unknown",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "none",
+  "website_accuracy": "not_found"
+}

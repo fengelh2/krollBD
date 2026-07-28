@@ -1,0 +1,72 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "Bank of Communications Trustee Limited",
+  "natural": "Bank of Communications Trustee",
+  "ceref": "AAK832",
+  "ros": [
+    {
+      "name": "YOUNG Chun Ling",
+      "ceref": "BVH889"
+    }
+  ],
+  "primary_ro": "YOUNG Chun Ling",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/AAK832/details?locale=en",
+  "email_subject": "Congratulations on your RO appointment at Bank of Communications Trustee",
+  "email_body": "Dear Chun Ling,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at Bank of Communications Trustee.\n\nFor illiquid managers like yourself, the marks the RO signs off on tend to be the most scrutinised line items on the books — LPs want comfort, auditors want defensibility, and internal-only marks usually invite more questions than they close. Kroll's Portfolio Valuation team here in Hong Kong helps with exactly that — robust independent valuations across private equity, private credit, and other illiquid strategies.\n\nIf a quick chat would be useful — now, or down the line — happy to set one up. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "PV",
+  "variant_id": "R1-v3-PV",
+  "email_body_hash": "ed4be8ccbf",
+  "email_candidates": [
+    {
+      "email": "bocomtrustee@bankcomm.com.hk",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-07-28T01:40:10.480283+00:00"
+    },
+    {
+      "email": "chunling.young@bankcomm.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "YOUNG Chun Ling"
+    },
+    {
+      "email": "chunlingyoung@bankcomm.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "YOUNG Chun Ling"
+    },
+    {
+      "email": "cyoung@bankcomm.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "YOUNG Chun Ling"
+    },
+    {
+      "email": "info@bankcomm.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@bankcomm.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@bankcomm.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "unknown",
+  "illiq_likelihood": "medium",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "Bank of Communications",
+  "classification_source": "website",
+  "website_accuracy": "probable",
+  "sfc_filed_website": "https://www.bocomtrust.com.hk",
+  "hunter_hits": [],
+  "hunter_attempted_utc": "2026-07-28T02:59:39.613709+00:00"
+}

@@ -1,0 +1,91 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "Nomura Asset Management Hong Kong Limited",
+  "natural": "Nomura",
+  "ceref": "AAF351",
+  "ros": [
+    {
+      "name": "LI Hiu Mui",
+      "ceref": "AMH243"
+    }
+  ],
+  "primary_ro": "LI Hiu Mui",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/AAF351/details?locale=en",
+  "email_subject": "Congratulations on your RO appointment at Nomura",
+  "email_body": "Dear Hiu Mui,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at Nomura.\n\nFor illiquid managers like yourself, the marks the RO signs off on tend to be the most scrutinised line items on the books — LPs want comfort, auditors want defensibility, and internal-only marks usually invite more questions than they close. Kroll's Portfolio Valuation team here in Hong Kong helps with exactly that — robust independent valuations across private equity, private credit, and other illiquid strategies.\n\nIf a quick chat would be useful — now, or down the line — happy to set one up. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "PV",
+  "variant_id": "R1-v3-PV",
+  "email_body_hash": "939c86d4f5",
+  "email_candidates": [
+    {
+      "email": "m-li@nomura-am.co.jp",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "LI Hiu Mui",
+      "score": 74,
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email",
+      "evidence": "Hunter score 74 + AbstractAPI: deliverable"
+    },
+    {
+      "email": "management@namhk.com.hk",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-07-28T01:40:10.478979+00:00"
+    },
+    {
+      "email": "hiumui.li@nomura-am.co.jp",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LI Hiu Mui"
+    },
+    {
+      "email": "hiumuili@nomura-am.co.jp",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LI Hiu Mui"
+    },
+    {
+      "email": "hli@nomura-am.co.jp",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LI Hiu Mui"
+    },
+    {
+      "email": "info@nomura-am.co.jp",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@nomura-am.co.jp",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@nomura-am.co.jp",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "public_equity,public_credit,unknown",
+  "illiq_likelihood": "medium",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "Nomura Asset Management Co., Ltd.",
+  "classification_source": "consensus_website_plus",
+  "website_accuracy": "probable",
+  "sfc_filed_website": "www.nomura-am.co.jp",
+  "hunter_hits": [
+    {
+      "email": "m-li@nomura-am.co.jp",
+      "score": 74,
+      "ro": "LI Hiu Mui",
+      "fetched_at_utc": "2026-07-28T02:53:30.339673+00:00",
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email"
+    }
+  ],
+  "hunter_attempted_utc": "2026-07-28T02:53:30.339689+00:00"
+}

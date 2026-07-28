@@ -6,7 +6,30 @@
   "ceref": "BWX383",
   "address": "",
   "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BWX383/details?locale=en",
-  "email_candidates": [],
+  "email_candidates": [
+    {
+      "email": "zhongbin005@gmail.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-07-28T01:40:10.466221+00:00"
+    },
+    {
+      "email": "info@gmail.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@gmail.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@gmail.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
   "ros": [],
   "primary_ro": null,
   "bd_lane": "FSCR",

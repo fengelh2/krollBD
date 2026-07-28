@@ -1,0 +1,71 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "Ban Hin Securities Company Limited",
+  "natural": "Ban Hin",
+  "ceref": "AAK655",
+  "ros": [
+    {
+      "name": "MAK Chung Kai",
+      "ceref": "AAE088"
+    }
+  ],
+  "primary_ro": "MAK Chung Kai",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/AAK655/details?locale=en",
+  "email_subject": "Congratulations on your RO appointment at Ban Hin",
+  "email_body": "Dear Chung Kai,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at Ban Hin.\n\nFor newly appointed ROs like yourself, settling into the role often means getting a clear view of where the firm's compliance posture sits — internal policies, current filings, ongoing SFC engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps SFC-licensed firms with exactly that, scaled to the firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "FSCR",
+  "variant_id": "R1-v3-FSCR",
+  "email_body_hash": "5c6340e4f1",
+  "email_candidates": [
+    {
+      "email": "ban_hin2005@yahoo.com.hk",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-07-28T01:40:10.479972+00:00"
+    },
+    {
+      "email": "chungkai.mak@yahoo.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "MAK Chung Kai"
+    },
+    {
+      "email": "chungkaimak@yahoo.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "MAK Chung Kai"
+    },
+    {
+      "email": "cmak@yahoo.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "MAK Chung Kai"
+    },
+    {
+      "email": "info@yahoo.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@yahoo.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@yahoo.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "unknown",
+  "illiq_likelihood": "unknown",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "none",
+  "website_accuracy": "not_found",
+  "hunter_hits": [],
+  "hunter_attempted_utc": "2026-07-28T02:59:40.167586+00:00"
+}

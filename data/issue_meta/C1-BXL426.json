@@ -1,0 +1,43 @@
+{
+  "type": "C1",
+  "type_label": "New Type 9 corp",
+  "firm": "Orange Asset Management (Hong Kong) Limited",
+  "natural": "Orange",
+  "ceref": "BXL426",
+  "address": "Room 8630, 86/F, International Commerce Centre, 1 Austin Road West, Kowloon, Hong Kong, Hong Kong",
+  "ros": [
+    {
+      "name": "GE Shihang",
+      "ceref": "BEL388"
+    },
+    {
+      "name": "WU Shan",
+      "ceref": "BXL428"
+    }
+  ],
+  "primary_ro": "GE Shihang",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BXL426/details?locale=en",
+  "email_subject": "Congratulations on Orange's SFC Type 9 license",
+  "email_body": "Dear Orange Management,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on Orange's recent Type 9 licensing with the SFC.\n\nAs newly licensed managers like yourself establish and scale operations, we often see a need for practical support around compliance, governance, and regulatory engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps with exactly that, scaled to your firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "FSCR",
+  "variant_id": "C1-v4-FSCR",
+  "email_body_hash": "4cb33a7e8b",
+  "email_candidates": [
+    {
+      "email": "teresa_wu@126.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-07-28T01:40:10.468470+00:00"
+    }
+  ],
+  "asset_classes": "unknown",
+  "illiq_likelihood": "unknown",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "none",
+  "website_accuracy": "not_found",
+  "hunter_hits": [],
+  "hunter_attempted_utc": "2026-07-28T03:04:49.642455+00:00"
+}

@@ -6,7 +6,52 @@
   "ceref": "BDH770",
   "address": "26/F Asia Pacific Centre, 8 Wyndham Street, Central, Hong Kong",
   "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BDH770/details?locale=en",
-  "email_candidates": [],
+  "email_candidates": [
+    {
+      "email": "dawei.wang@pleiadadvisors.com",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "WANG Dawei",
+      "score": 98,
+      "abstract_verdict": "quota_exhausted",
+      "abstract_detail": null,
+      "evidence": "Hunter score 98 + AbstractAPI: quota_exhausted"
+    },
+    {
+      "email": "vien.chiu@pleiadadvisors.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-07-28T01:40:10.491705+00:00"
+    },
+    {
+      "email": "daweiwang@pleiadadvisors.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "WANG Dawei"
+    },
+    {
+      "email": "dwang@pleiadadvisors.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "WANG Dawei"
+    },
+    {
+      "email": "info@pleiadadvisors.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@pleiadadvisors.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@pleiadadvisors.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
   "ros": [
     {
       "name": "WANG Dawei",
@@ -22,5 +67,17 @@
   "illiq_likelihood": "low",
   "asset_classes": "public_equity",
   "classification_source": "website",
-  "website_accuracy": "verified"
+  "website_accuracy": "verified",
+  "sfc_filed_website": "www.pleiadadvisors.com",
+  "hunter_hits": [
+    {
+      "email": "dawei.wang@pleiadadvisors.com",
+      "score": 98,
+      "ro": "WANG Dawei",
+      "fetched_at_utc": "2026-07-28T03:06:37.345103+00:00",
+      "abstract_verdict": "quota_exhausted",
+      "abstract_detail": null
+    }
+  ],
+  "hunter_attempted_utc": "2026-07-28T03:06:37.345119+00:00"
 }

@@ -1,0 +1,58 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "CMB International Global Markets Limited",
+  "natural": "CMB International Global",
+  "ceref": "AAF261",
+  "ros": [
+    {
+      "name": "KONG Wei",
+      "ceref": "AXU890"
+    }
+  ],
+  "primary_ro": "KONG Wei",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/AAF261/details?locale=en",
+  "email_subject": "Congratulations on your RO appointment at CMB International Global",
+  "email_body": "Dear Wei,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at CMB International Global.\n\nFor illiquid managers like yourself, the marks the RO signs off on tend to be the most scrutinised line items on the books — LPs want comfort, auditors want defensibility, and internal-only marks usually invite more questions than they close. Kroll's Portfolio Valuation team here in Hong Kong helps with exactly that — robust independent valuations across private equity, private credit, and other illiquid strategies.\n\nIf a quick chat would be useful — now, or down the line — happy to set one up. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "PV",
+  "variant_id": "R1-v3-PV",
+  "email_body_hash": "262ca847b1",
+  "email_candidates": [
+    {
+      "email": "weikong@cmbi.com.hk",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "KONG Wei",
+      "score": 81,
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email",
+      "evidence": "Hunter score 81 + AbstractAPI: deliverable"
+    },
+    {
+      "email": "licensing@cmbi.com.hk",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-07-28T01:40:10.478412+00:00"
+    }
+  ],
+  "asset_classes": "public_equity,public_credit,multi",
+  "illiq_likelihood": "medium",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "China Merchants Bank",
+  "classification_source": "website",
+  "website_accuracy": "probable",
+  "sfc_filed_website": "www.cmbi.com.hk",
+  "hunter_hits": [
+    {
+      "email": "weikong@cmbi.com.hk",
+      "score": 81,
+      "ro": "KONG Wei",
+      "fetched_at_utc": "2026-07-28T02:59:05.659978+00:00",
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email"
+    }
+  ],
+  "hunter_attempted_utc": "2026-07-28T02:59:05.659991+00:00"
+}

@@ -6,7 +6,66 @@
   "ceref": "BUK955",
   "address": "Unit 52, Level 35,, Two Pacific Place, No. 88 Queensway,, Admiralty, Hong Kong, Hong Kong",
   "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BUK955/details?locale=en",
-  "email_candidates": [],
+  "email_candidates": [
+    {
+      "email": "sfc@gordian-capital.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-07-28T01:40:10.474621+00:00"
+    },
+    {
+      "email": "lingfeng.lee@gordian-capital.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LEE Ling Feng"
+    },
+    {
+      "email": "lingfenglee@gordian-capital.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LEE Ling Feng"
+    },
+    {
+      "email": "llee@gordian-capital.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LEE Ling Feng"
+    },
+    {
+      "email": "lijuan.zheng@gordian-capital.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "ZHENG Lijuan"
+    },
+    {
+      "email": "lijuanzheng@gordian-capital.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "ZHENG Lijuan"
+    },
+    {
+      "email": "lzheng@gordian-capital.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "ZHENG Lijuan"
+    },
+    {
+      "email": "info@gordian-capital.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@gordian-capital.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@gordian-capital.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
   "ros": [
     {
       "name": "LEE Ling Feng",
@@ -21,10 +80,13 @@
   "old_firm": "Gordian Capital Hong Kong Limited",
   "variant_id": "C5-v2",
   "email_subject": "Iq Eq — note on the recent rebrand",
-  "email_body": "Dear Iq Eq Management,\n\nThis is Felix from Kroll in Hong Kong. The SFC public register shows that Gordian Capital has been renamed to Iq Eq.\n\nRebrands often accompany broader changes — a new sponsor, a strategy refresh, or an organisational reshape — and these moments are often a natural time to revisit fund-level valuation policies and the operating arrangements behind them.\n\nKroll's Portfolio Valuation team works with SFC-regulated managers across Hong Kong on independent fair-value opinions for private equity and credit positions, and our adjacent FSCR colleagues support governance and regulatory engagement. Happy to set up an informal call if any of this would be useful as you transition.\n\nKind regards,\nFelix Engelhardt\n",
-  "email_body_hash": "1a40cedb03",
+  "email_body": "Dear Sfc and Iq Eq Management,\n\nThis is Felix from Kroll in Hong Kong. The SFC public register shows that Gordian Capital has been renamed to Iq Eq.\n\nRebrands often accompany broader changes — a new sponsor, a strategy refresh, or an organisational reshape — and these moments are often a natural time to revisit fund-level valuation policies and the operating arrangements behind them.\n\nKroll's Portfolio Valuation team works with SFC-regulated managers across Hong Kong on independent fair-value opinions for private equity and credit positions, and our adjacent FSCR colleagues support governance and regulatory engagement. Happy to set up an informal call if any of this would be useful as you transition.\n\nKind regards,\nFelix Engelhardt\n",
+  "email_body_hash": "9e01729d28",
   "illiq_likelihood": "unknown",
   "asset_classes": "unknown",
   "classification_source": "none",
-  "website_accuracy": "not_found"
+  "website_accuracy": "not_found",
+  "sfc_filed_website": "www.gordian-capital.com.hk",
+  "hunter_hits": [],
+  "hunter_attempted_utc": "2026-07-28T03:07:50.856247+00:00"
 }

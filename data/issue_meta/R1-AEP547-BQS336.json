@@ -6,7 +6,52 @@
   "ceref": "AEP547",
   "address": "16/F, Shun Ho Tower, 24-30 Ice House Street, Central, Hong Kong",
   "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/AEP547/details?locale=en",
-  "email_candidates": [],
+  "email_candidates": [
+    {
+      "email": "mhuang@jkcapitalmanagement.com",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "HUANG Mu",
+      "score": 81,
+      "abstract_verdict": "quota_exhausted",
+      "abstract_detail": null,
+      "evidence": "Hunter score 81 + AbstractAPI: quota_exhausted"
+    },
+    {
+      "email": "fjacob@jkcapitalmanagement.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-07-28T01:40:10.483627+00:00"
+    },
+    {
+      "email": "mu.huang@jkcapitalmanagement.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "HUANG Mu"
+    },
+    {
+      "email": "muhuang@jkcapitalmanagement.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "HUANG Mu"
+    },
+    {
+      "email": "info@jkcapitalmanagement.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@jkcapitalmanagement.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@jkcapitalmanagement.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
   "ros": [
     {
       "name": "HUANG Mu",
@@ -22,5 +67,17 @@
   "illiq_likelihood": "low",
   "asset_classes": "public_equity,public_credit",
   "classification_source": "website",
-  "website_accuracy": "verified"
+  "website_accuracy": "verified",
+  "sfc_filed_website": "www.jkcapitalmanagement.com",
+  "hunter_hits": [
+    {
+      "email": "mhuang@jkcapitalmanagement.com",
+      "score": 81,
+      "ro": "HUANG Mu",
+      "fetched_at_utc": "2026-07-28T03:06:44.132481+00:00",
+      "abstract_verdict": "quota_exhausted",
+      "abstract_detail": null
+    }
+  ],
+  "hunter_attempted_utc": "2026-07-28T03:06:44.132498+00:00"
 }

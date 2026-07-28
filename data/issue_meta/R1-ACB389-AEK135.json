@@ -1,0 +1,71 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "HSBC Securities Brokers (Asia) Limited",
+  "natural": "HSBC Securities Brokers",
+  "ceref": "ACB389",
+  "ros": [
+    {
+      "name": "BACHTIAR Roestam Effendi Bin",
+      "ceref": "AEK135"
+    }
+  ],
+  "primary_ro": "BACHTIAR Roestam Effendi Bin",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/ACB389/details?locale=en",
+  "email_subject": "Congratulations on your RO appointment at HSBC Securities Brokers",
+  "email_body": "Dear Roestam Effendi Bin,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at HSBC Securities Brokers.\n\nFor illiquid managers like yourself, the marks the RO signs off on tend to be the most scrutinised line items on the books — LPs want comfort, auditors want defensibility, and internal-only marks usually invite more questions than they close. Kroll's Portfolio Valuation team here in Hong Kong helps with exactly that — robust independent valuations across private equity, private credit, and other illiquid strategies.\n\nIf a quick chat would be useful — now, or down the line — happy to set one up. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "PV",
+  "variant_id": "R1-v3-PV",
+  "email_body_hash": "9a5b42fc54",
+  "email_candidates": [
+    {
+      "email": "hccbregulatorycommunications@hsbc.com.hk",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-07-28T01:40:10.481983+00:00"
+    },
+    {
+      "email": "roestam.bachtiar@hsbc.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "BACHTIAR Roestam Effendi Bin"
+    },
+    {
+      "email": "roestambachtiar@hsbc.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "BACHTIAR Roestam Effendi Bin"
+    },
+    {
+      "email": "rbachtiar@hsbc.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "BACHTIAR Roestam Effendi Bin"
+    },
+    {
+      "email": "info@hsbc.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@hsbc.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@hsbc.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "public_equity,public_credit,multi",
+  "illiq_likelihood": "medium",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "HSBC Holdings plc",
+  "classification_source": "llm_on_name",
+  "website_accuracy": "probable",
+  "hunter_hits": [],
+  "hunter_attempted_utc": "2026-07-28T02:56:34.013626+00:00"
+}

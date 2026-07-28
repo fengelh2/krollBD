@@ -1,0 +1,85 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "Nomura International (Hong Kong) Limited",
+  "natural": "Nomura International",
+  "ceref": "AAF742",
+  "ros": [
+    {
+      "name": "DE ST JOHN-PRYCE Winton Charles Nicholas",
+      "ceref": "ASK492"
+    }
+  ],
+  "primary_ro": "DE ST JOHN-PRYCE Winton Charles Nicholas",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/AAF742/details?locale=en",
+  "email_subject": "Congratulations on your RO appointment at Nomura International",
+  "email_body": "Dear Charles,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at Nomura International.\n\nFor illiquid managers like yourself, the marks the RO signs off on tend to be the most scrutinised line items on the books — LPs want comfort, auditors want defensibility, and internal-only marks usually invite more questions than they close. Kroll's Portfolio Valuation team here in Hong Kong helps with exactly that — robust independent valuations across private equity, private credit, and other illiquid strategies.\n\nIf a quick chat would be useful — now, or down the line — happy to set one up. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "PV",
+  "variant_id": "R1-v3-PV",
+  "email_body_hash": "033cdc5302",
+  "email_candidates": [
+    {
+      "email": "st.de@nomura.com",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "DE ST JOHN-PRYCE Winton Charles Nicholas",
+      "score": 45,
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email",
+      "evidence": "Hunter score 45 + AbstractAPI: deliverable"
+    },
+    {
+      "email": "compliance-licensing-hkg@nomura.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-07-28T01:40:10.479406+00:00"
+    },
+    {
+      "email": "stde@nomura.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "DE ST JOHN-PRYCE Winton Charles Nicholas"
+    },
+    {
+      "email": "sde@nomura.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "DE ST JOHN-PRYCE Winton Charles Nicholas"
+    },
+    {
+      "email": "info@nomura.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@nomura.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@nomura.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "public_equity,public_credit,private_equity,private_credit,real_assets",
+  "illiq_likelihood": "medium",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "Nomura Holdings, Inc.",
+  "classification_source": "llm_on_name",
+  "website_accuracy": "probable",
+  "sfc_filed_website": "www.nomura.com",
+  "hunter_hits": [
+    {
+      "email": "st.de@nomura.com",
+      "score": 45,
+      "ro": "DE ST JOHN-PRYCE Winton Charles Nicholas",
+      "fetched_at_utc": "2026-07-28T02:53:22.212186+00:00",
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email"
+    }
+  ],
+  "hunter_attempted_utc": "2026-07-28T02:53:22.212205+00:00"
+}

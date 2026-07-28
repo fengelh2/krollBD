@@ -1,0 +1,92 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "Micro Connect (H.K.) Investment Management Limited",
+  "natural": "Micro Connect (H.K.)",
+  "ceref": "BSG035",
+  "ros": [
+    {
+      "name": "LAU Man Yik",
+      "ceref": "BSV184"
+    }
+  ],
+  "primary_ro": "LAU Man Yik",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BSG035/details?locale=en",
+  "email_subject": "Congratulations on your RO appointment at Micro Connect (H.K.)",
+  "email_body": "Dear Man Yik,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at Micro Connect (H.K.).\n\nFor illiquid managers like yourself, the marks the RO signs off on tend to be the most scrutinised line items on the books — LPs want comfort, auditors want defensibility, and internal-only marks usually invite more questions than they close. Kroll's Portfolio Valuation team here in Hong Kong helps with exactly that — robust independent valuations across private equity, private credit, and other illiquid strategies.\n\nIf a quick chat would be useful — now, or down the line — happy to set one up. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "PV",
+  "variant_id": "R1-v3-PV",
+  "email_body_hash": "0c369532d3",
+  "email_candidates": [
+    {
+      "email": "man@microconnect.com",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "LAU Man Yik",
+      "score": 82,
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email",
+      "evidence": "Hunter score 82 + AbstractAPI: deliverable"
+    },
+    {
+      "email": "info@microconnect.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-07-28T01:40:10.503511+00:00"
+    },
+    {
+      "email": "info@microconnect.com",
+      "kind": "generic_on_site",
+      "confidence": "verified",
+      "ro": null
+    },
+    {
+      "email": "manyik.lau@microconnect.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LAU Man Yik"
+    },
+    {
+      "email": "manyiklau@microconnect.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LAU Man Yik"
+    },
+    {
+      "email": "mlau@microconnect.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LAU Man Yik"
+    },
+    {
+      "email": "contact@microconnect.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@microconnect.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "multi",
+  "illiq_likelihood": "medium",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "website",
+  "website_accuracy": "verified",
+  "sfc_filed_website": "www.microconnect.com",
+  "hunter_hits": [
+    {
+      "email": "man@microconnect.com",
+      "score": 82,
+      "ro": "LAU Man Yik",
+      "fetched_at_utc": "2026-07-28T02:53:37.776013+00:00",
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email"
+    }
+  ],
+  "hunter_attempted_utc": "2026-07-28T02:53:37.776029+00:00"
+}

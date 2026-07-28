@@ -54,6 +54,34 @@
       "kind": "generic_on_site",
       "confidence": "verified",
       "evidence": "generic inbox on firm site"
+    },
+    {
+      "email": "linyuan.qin@sunriver.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "QIN Linyuan"
+    },
+    {
+      "email": "linyuanqin@sunriver.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "QIN Linyuan"
+    },
+    {
+      "email": "lqin@sunriver.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "QIN Linyuan"
+    },
+    {
+      "email": "contact@sunriver.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@sunriver.com",
+      "kind": "generic_guess",
+      "confidence": "low"
     }
   ],
   "asset_classes": "unknown",

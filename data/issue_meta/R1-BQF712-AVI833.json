@@ -1,0 +1,71 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "AA Investment Management Limited",
+  "natural": "AA",
+  "ceref": "BQF712",
+  "ros": [
+    {
+      "name": "CHAN Ho Ping",
+      "ceref": "AVI833"
+    }
+  ],
+  "primary_ro": "CHAN Ho Ping",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BQF712/details?locale=en",
+  "email_subject": "Congratulations on your RO appointment at AA",
+  "email_body": "Dear Ho Ping,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at AA.\n\nFor newly appointed ROs like yourself, settling into the role often means getting a clear view of where the firm's compliance posture sits — internal policies, current filings, ongoing SFC engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps SFC-licensed firms with exactly that, scaled to the firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "FSCR",
+  "variant_id": "R1-v3-FSCR",
+  "email_body_hash": "7d8e60a190",
+  "email_candidates": [
+    {
+      "email": "zaone@za.group",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-07-28T01:40:10.501048+00:00"
+    },
+    {
+      "email": "hoping.chan@za.group",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHAN Ho Ping"
+    },
+    {
+      "email": "hopingchan@za.group",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHAN Ho Ping"
+    },
+    {
+      "email": "hchan@za.group",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHAN Ho Ping"
+    },
+    {
+      "email": "info@za.group",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@za.group",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@za.group",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "unknown",
+  "illiq_likelihood": "unknown",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "none",
+  "website_accuracy": "not_found",
+  "hunter_hits": [],
+  "hunter_attempted_utc": "2026-07-28T03:00:03.063913+00:00"
+}

@@ -1,0 +1,45 @@
+{
+  "type": "C2",
+  "type_label": "Type 9 retired",
+  "firm": "Total Invest Group Asset Management (Hong Kong) Limited",
+  "natural": "Total Invest",
+  "ceref": "BBS512",
+  "ros_current": [],
+  "ros_departed": [
+    {
+      "name": "LIU Pohong",
+      "ceref": "BBS515"
+    },
+    {
+      "name": "TAM Kwan Hung",
+      "ceref": "BBT082"
+    },
+    {
+      "name": "ZHOU Nan",
+      "ceref": "BBS517"
+    }
+  ],
+  "primary_ro": "LIU Pohong",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BBS512/details?locale=en",
+  "email_subject": "Total Invest — Type 9 license transition",
+  "email_body": "Dear Total Invest Management,\n\nThis is Felix from Kroll. I am reaching out in light of publicly disclosed changes to Total Invest's SFC Type 9 registration, as such transitions often prompt a review of fund-level operating and advisory arrangements.\n\nFor funds that have largely deployed capital and are managing minority positions requiring limited day-to-day GP involvement, Kroll's Fund Solutions practice supports GPs with a range of later-lifecycle options — particularly around replacement advisory, realization structuring, and cost-efficient ongoing management.\n\nShould this be relevant to you, I would be happy to introduce you to the appropriate colleagues for an informal discussion. If not, please feel free to disregard this note.\n\nKind regards,\nFelix Engelhardt\n",
+  "variant_id": "C2-v2",
+  "email_body_hash": "9267f9c049",
+  "email_candidates": [
+    {
+      "email": "office@tig.com.hk",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-07-28T01:40:10.469669+00:00"
+    }
+  ],
+  "asset_classes": "unknown",
+  "illiq_likelihood": "unknown",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "none",
+  "website_accuracy": "not_found",
+  "sfc_filed_website": "www.tig.com.hk"
+}

@@ -6,7 +6,52 @@
   "ceref": "ACX411",
   "address": "13/F Fairmont House, 8 Cotton Tree Drive, Central, Hong Kong",
   "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/ACX411/details?locale=en",
-  "email_candidates": [],
+  "email_candidates": [
+    {
+      "email": "weijiang@abci.com.hk",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "JIANG Wei",
+      "score": 83,
+      "abstract_verdict": "quota_exhausted",
+      "abstract_detail": null,
+      "evidence": "Hunter score 83 + AbstractAPI: quota_exhausted"
+    },
+    {
+      "email": "compliance@abci.com.hk",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-07-28T01:40:10.483102+00:00"
+    },
+    {
+      "email": "wei.jiang@abci.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "JIANG Wei"
+    },
+    {
+      "email": "wjiang@abci.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "JIANG Wei"
+    },
+    {
+      "email": "info@abci.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@abci.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@abci.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
   "ros": [
     {
       "name": "JIANG Wei",
@@ -22,5 +67,17 @@
   "illiq_likelihood": "unknown",
   "asset_classes": "unknown",
   "classification_source": "none",
-  "website_accuracy": "not_found"
+  "website_accuracy": "not_found",
+  "sfc_filed_website": "http://sec.abci.com.hk",
+  "hunter_hits": [
+    {
+      "email": "weijiang@abci.com.hk",
+      "score": 83,
+      "ro": "JIANG Wei",
+      "fetched_at_utc": "2026-07-28T03:07:25.528045+00:00",
+      "abstract_verdict": "quota_exhausted",
+      "abstract_detail": null
+    }
+  ],
+  "hunter_attempted_utc": "2026-07-28T03:07:25.528061+00:00"
 }

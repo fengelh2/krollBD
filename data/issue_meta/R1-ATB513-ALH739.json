@@ -1,0 +1,71 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "ASCENDANT SECURITIES (HK) LIMITED",
+  "natural": "Ascendant",
+  "ceref": "ATB513",
+  "ros": [
+    {
+      "name": "WONG Suet Yi",
+      "ceref": "ALH739"
+    }
+  ],
+  "primary_ro": "WONG Suet Yi",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/ATB513/details?locale=en",
+  "email_subject": "Congratulations on your RO appointment at Ascendant",
+  "email_body": "Dear Suet Yi,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at Ascendant.\n\nFor illiquid managers like yourself, the marks the RO signs off on tend to be the most scrutinised line items on the books — LPs want comfort, auditors want defensibility, and internal-only marks usually invite more questions than they close. Kroll's Portfolio Valuation team here in Hong Kong helps with exactly that — robust independent valuations across private equity, private credit, and other illiquid strategies.\n\nIf a quick chat would be useful — now, or down the line — happy to set one up. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "PV",
+  "variant_id": "R1-v3-PV",
+  "email_body_hash": "f4f9339281",
+  "email_candidates": [
+    {
+      "email": "zengbin@ascendantassethk.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-07-28T01:40:10.489120+00:00"
+    },
+    {
+      "email": "suetyi.wong@ascendantassethk.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "WONG Suet Yi"
+    },
+    {
+      "email": "suetyiwong@ascendantassethk.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "WONG Suet Yi"
+    },
+    {
+      "email": "swong@ascendantassethk.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "WONG Suet Yi"
+    },
+    {
+      "email": "info@ascendantassethk.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@ascendantassethk.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@ascendantassethk.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "real_assets,private_equity",
+  "illiq_likelihood": "high",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "website",
+  "website_accuracy": "probable",
+  "hunter_hits": [],
+  "hunter_attempted_utc": "2026-07-28T03:00:49.522407+00:00"
+}

@@ -34,6 +34,33 @@
       "confidence": "verified",
       "evidence": "filed with SFC by the firm at licensing",
       "fetched_at_utc": "2026-06-29T03:28:44.566828+00:00"
+    },
+    {
+      "email": "gaosheng.li@china.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LI Gaosheng"
+    },
+    {
+      "email": "gli@china.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LI Gaosheng"
+    },
+    {
+      "email": "info@china.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@china.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@china.com",
+      "kind": "generic_guess",
+      "confidence": "low"
     }
   ],
   "asset_classes": "unknown",
@@ -53,5 +80,5 @@
       "abstract_detail": "valid_email"
     }
   ],
-  "hunter_attempted_utc": "2026-06-29T03:29:57.437132+00:00"
+  "hunter_attempted_utc": "2026-07-28T03:07:51.095193+00:00"
 }

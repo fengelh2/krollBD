@@ -6,7 +6,52 @@
   "ceref": "BWC170",
   "address": "Suite 4002, 40th Floor, Two Exchange Square, 8 Connaught Place, Central, Hong Kong",
   "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BWC170/details?locale=en",
-  "email_candidates": [],
+  "email_candidates": [
+    {
+      "email": "yliu@longrising.cn",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "LIU Yuting",
+      "score": 84,
+      "abstract_verdict": "quota_exhausted",
+      "abstract_detail": null,
+      "evidence": "Hunter score 84 + AbstractAPI: quota_exhausted"
+    },
+    {
+      "email": "znxjie@longrising.cn",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-07-28T01:40:10.508107+00:00"
+    },
+    {
+      "email": "yuting.liu@longrising.cn",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LIU Yuting"
+    },
+    {
+      "email": "yutingliu@longrising.cn",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LIU Yuting"
+    },
+    {
+      "email": "info@longrising.cn",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@longrising.cn",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@longrising.cn",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
   "ros": [
     {
       "name": "LIU Yuting",
@@ -22,5 +67,16 @@
   "illiq_likelihood": "unknown",
   "asset_classes": "unknown",
   "classification_source": "none",
-  "website_accuracy": "not_found"
+  "website_accuracy": "not_found",
+  "hunter_hits": [
+    {
+      "email": "yliu@longrising.cn",
+      "score": 84,
+      "ro": "LIU Yuting",
+      "fetched_at_utc": "2026-07-28T03:06:42.534235+00:00",
+      "abstract_verdict": "quota_exhausted",
+      "abstract_detail": null
+    }
+  ],
+  "hunter_attempted_utc": "2026-07-28T03:06:42.534252+00:00"
 }

@@ -1,0 +1,72 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "Barclays Capital Asia Limited",
+  "natural": "Barclays Capital",
+  "ceref": "AAC257",
+  "ros": [
+    {
+      "name": "CHIU Chi Hoi",
+      "ceref": "ALV072"
+    }
+  ],
+  "primary_ro": "CHIU Chi Hoi",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/AAC257/details?locale=en",
+  "email_subject": "Congratulations on your RO appointment at Barclays Capital",
+  "email_body": "Dear Chi Hoi,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at Barclays Capital.\n\nFor illiquid managers like yourself, the marks the RO signs off on tend to be the most scrutinised line items on the books — LPs want comfort, auditors want defensibility, and internal-only marks usually invite more questions than they close. Kroll's Portfolio Valuation team here in Hong Kong helps with exactly that — robust independent valuations across private equity, private credit, and other illiquid strategies.\n\nIf a quick chat would be useful — now, or down the line — happy to set one up. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "PV",
+  "variant_id": "R1-v3-PV",
+  "email_body_hash": "69db6c0e3e",
+  "email_candidates": [
+    {
+      "email": "centralcomplianceho@barclayscapital.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-07-28T01:40:10.475790+00:00"
+    },
+    {
+      "email": "chihoi.chiu@barclays.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHIU Chi Hoi"
+    },
+    {
+      "email": "chihoichiu@barclays.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHIU Chi Hoi"
+    },
+    {
+      "email": "cchiu@barclays.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHIU Chi Hoi"
+    },
+    {
+      "email": "info@barclays.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@barclays.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@barclays.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "public_equity,public_credit,private_equity,private_credit,real_assets",
+  "illiq_likelihood": "medium",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "Barclays Group",
+  "classification_source": "website",
+  "website_accuracy": "probable",
+  "sfc_filed_website": "www.barclays.com",
+  "hunter_hits": [],
+  "hunter_attempted_utc": "2026-07-28T03:00:01.881305+00:00"
+}

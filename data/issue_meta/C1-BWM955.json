@@ -1,0 +1,87 @@
+{
+  "type": "C1",
+  "type_label": "New Type 9 corp",
+  "firm": "Arbos Securities Capital Limited",
+  "natural": "Arbos Securities Capital",
+  "ceref": "BWM955",
+  "address": "Room 2001, 20/F, Tower Two, Lippo Centre, No. 89 Queensway, Admiralty, Hong Kong",
+  "ros": [
+    {
+      "name": "CHIAO Wei-Wen",
+      "ceref": "BHH369"
+    },
+    {
+      "name": "LAM Sau Tung",
+      "ceref": "APS739"
+    }
+  ],
+  "primary_ro": "CHIAO Wei-Wen",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BWM955/details?locale=en",
+  "email_subject": "Congratulations on Arbos Securities Capital's SFC Type 9 license",
+  "email_body": "Dear Arbos Securities Capital Management,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on Arbos Securities Capital's recent Type 9 licensing with the SFC.\n\nAs newly licensed managers like yourself establish and scale operations, we often see a need for practical support around compliance, governance, and regulatory engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps with exactly that, scaled to your firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "FSCR",
+  "variant_id": "C1-v4-FSCR",
+  "email_body_hash": "3d3f6a0de6",
+  "email_candidates": [
+    {
+      "email": "info@arbosfund.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-07-28T01:40:10.465218+00:00"
+    },
+    {
+      "email": "weiwen.chiao@arbosfund.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHIAO Wei-Wen"
+    },
+    {
+      "email": "weiwenchiao@arbosfund.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHIAO Wei-Wen"
+    },
+    {
+      "email": "wchiao@arbosfund.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHIAO Wei-Wen"
+    },
+    {
+      "email": "sautung.lam@arbosfund.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LAM Sau Tung"
+    },
+    {
+      "email": "sautunglam@arbosfund.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LAM Sau Tung"
+    },
+    {
+      "email": "slam@arbosfund.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LAM Sau Tung"
+    },
+    {
+      "email": "contact@arbosfund.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@arbosfund.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "unknown",
+  "illiq_likelihood": "unknown",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "none",
+  "website_accuracy": "not_found"
+}

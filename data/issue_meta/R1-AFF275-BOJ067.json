@@ -6,7 +6,52 @@
   "ceref": "AFF275",
   "address": "16/F Champion Tower, 3 Garden Road, Central, Hong Kong",
   "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/AFF275/details?locale=en",
-  "email_candidates": [],
+  "email_candidates": [
+    {
+      "email": "daniel.maley@blackrock.com",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "MALEY Daniel Frank",
+      "score": 85,
+      "abstract_verdict": "quota_exhausted",
+      "abstract_detail": null,
+      "evidence": "Hunter score 85 + AbstractAPI: quota_exhausted"
+    },
+    {
+      "email": "hkglicensing@blackrock.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-07-28T01:40:10.484179+00:00"
+    },
+    {
+      "email": "danielmaley@blackrock.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "MALEY Daniel Frank"
+    },
+    {
+      "email": "dmaley@blackrock.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "MALEY Daniel Frank"
+    },
+    {
+      "email": "info@blackrock.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@blackrock.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@blackrock.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
   "ros": [
     {
       "name": "MALEY Daniel Frank",
@@ -23,5 +68,17 @@
   "asset_classes": "public_equity,public_credit,commodity,multi",
   "parent_org": "BlackRock",
   "classification_source": "consensus_website_plus",
-  "website_accuracy": "probable"
+  "website_accuracy": "probable",
+  "sfc_filed_website": "www.blackrock.com",
+  "hunter_hits": [
+    {
+      "email": "daniel.maley@blackrock.com",
+      "score": 85,
+      "ro": "MALEY Daniel Frank",
+      "fetched_at_utc": "2026-07-28T03:07:11.287123+00:00",
+      "abstract_verdict": "quota_exhausted",
+      "abstract_detail": null
+    }
+  ],
+  "hunter_attempted_utc": "2026-07-28T03:07:11.287139+00:00"
 }

@@ -6,7 +6,43 @@
   "ceref": "AXN003",
   "address": "Unit B, 7/F,, Seabright Plaza, 9-23 Shell Street,, North Point,, Hong Kong",
   "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/AXN003/details?locale=en",
-  "email_candidates": [],
+  "email_candidates": [
+    {
+      "email": "info@azurewing.com.hk",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-07-28T01:40:10.489977+00:00"
+    },
+    {
+      "email": "royan.lam@azurewing.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LAM Royan"
+    },
+    {
+      "email": "royanlam@azurewing.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LAM Royan"
+    },
+    {
+      "email": "rlam@azurewing.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LAM Royan"
+    },
+    {
+      "email": "contact@azurewing.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@azurewing.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
   "ros": [
     {
       "name": "LAM Royan",
@@ -22,5 +58,7 @@
   "illiq_likelihood": "unknown",
   "asset_classes": "unknown",
   "classification_source": "none",
-  "website_accuracy": "not_found"
+  "website_accuracy": "not_found",
+  "hunter_hits": [],
+  "hunter_attempted_utc": "2026-07-28T03:07:23.786249+00:00"
 }

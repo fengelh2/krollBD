@@ -6,7 +6,15 @@
   "ceref": "AQL991",
   "address": "41/F Two Exchange Square, 8 Connaught Place, Central, Hong Kong",
   "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/AQL991/details?locale=en",
-  "email_candidates": [],
+  "email_candidates": [
+    {
+      "email": "compliance@bamfunds.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-07-28T01:40:10.487748+00:00"
+    }
+  ],
   "ros": [
     {
       "name": "YAU Patrick Peylin",
@@ -24,5 +32,8 @@
   "aum_raw_string": "$36B Assets Under Management",
   "parent_org": "Balyasny Asset Management L.P.",
   "classification_source": "consensus_website_plus",
-  "website_accuracy": "verified"
+  "website_accuracy": "verified",
+  "sfc_filed_website": "www.bamfunds.com",
+  "hunter_hits": [],
+  "hunter_attempted_utc": "2026-07-28T03:07:09.023891+00:00"
 }

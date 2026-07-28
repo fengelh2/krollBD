@@ -1,0 +1,100 @@
+{
+  "type": "C1",
+  "type_label": "New Type 9 corp",
+  "firm": "Vision Wealth Capital Limited",
+  "natural": "Vision Wealth Capital",
+  "ceref": "BXK241",
+  "address": "UNIT B, 21/F., CHUNG PONT COMM BLDG., 300 HENNESSY RD., WANCHAI, Hong Kong",
+  "ros": [
+    {
+      "name": "CHING Kwan Leung",
+      "ceref": "ARF269"
+    },
+    {
+      "name": "POON Tit Chu, Dixon",
+      "ceref": "AEI207"
+    }
+  ],
+  "primary_ro": "CHING Kwan Leung",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BXK241/details?locale=en",
+  "email_subject": "Congratulations on Vision Wealth Capital's SFC Type 9 license",
+  "email_body": "Dear Hermanckl and Vision Wealth Capital Management,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on Vision Wealth Capital's recent Type 9 licensing with the SFC.\n\nAs newly licensed managers like yourself establish and scale operations, we often see a need for practical support around compliance, governance, and regulatory engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps with exactly that, scaled to your firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "FSCR",
+  "variant_id": "C1-v4-FSCR",
+  "email_body_hash": "046f92677f",
+  "email_candidates": [
+    {
+      "email": "hermanckl@yahoo.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-07-28T01:40:10.468149+00:00"
+    },
+    {
+      "email": "team@visionwealth.com",
+      "kind": "observed_on_site",
+      "confidence": "verified",
+      "ro": null
+    },
+    {
+      "email": "kwanleung.ching@visionwealth.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHING Kwan Leung"
+    },
+    {
+      "email": "kwanleungching@visionwealth.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHING Kwan Leung"
+    },
+    {
+      "email": "kching@visionwealth.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHING Kwan Leung"
+    },
+    {
+      "email": "dixon.poon@visionwealth.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "POON Tit Chu, Dixon"
+    },
+    {
+      "email": "dixonpoon@visionwealth.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "POON Tit Chu, Dixon"
+    },
+    {
+      "email": "dpoon@visionwealth.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "POON Tit Chu, Dixon"
+    },
+    {
+      "email": "info@visionwealth.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@visionwealth.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@visionwealth.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "public_equity,public_credit,multi",
+  "illiq_likelihood": "low",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "NewEdge Capital Group, LLC",
+  "classification_source": "website",
+  "website_accuracy": "unverified",
+  "hunter_hits": [],
+  "hunter_attempted_utc": "2026-07-28T03:04:17.809347+00:00"
+}

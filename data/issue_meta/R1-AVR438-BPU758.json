@@ -1,0 +1,71 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "Chubb Investment Management (HK) Limited (trading as Chubb Wealth) ",
+  "natural": "Chubb Investment Management Limited (trading as Chubb Wealth)",
+  "ceref": "AVR438",
+  "ros": [
+    {
+      "name": "CHAN Kam Fung Angus",
+      "ceref": "BPU758"
+    }
+  ],
+  "primary_ro": "CHAN Kam Fung Angus",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/AVR438/details?locale=en",
+  "email_subject": "Congratulations on your RO appointment at Chubb Investment Management Limited (trading as Chubb Wealth)",
+  "email_body": "Dear Kam Fung Angus,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at Chubb Investment Management Limited (trading as Chubb Wealth).\n\nFor illiquid managers like yourself, the marks the RO signs off on tend to be the most scrutinised line items on the books — LPs want comfort, auditors want defensibility, and internal-only marks usually invite more questions than they close. Kroll's Portfolio Valuation team here in Hong Kong helps with exactly that — robust independent valuations across private equity, private credit, and other illiquid strategies.\n\nIf a quick chat would be useful — now, or down the line — happy to set one up. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "PV",
+  "variant_id": "R1-v3-PV",
+  "email_body_hash": "935ca87851",
+  "email_candidates": [
+    {
+      "email": "contacthkstaff@chubbinvestment.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-07-28T01:40:10.489720+00:00"
+    },
+    {
+      "email": "kam.chan@chubbinvestment.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHAN Kam Fung Angus"
+    },
+    {
+      "email": "kamchan@chubbinvestment.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHAN Kam Fung Angus"
+    },
+    {
+      "email": "kchan@chubbinvestment.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHAN Kam Fung Angus"
+    },
+    {
+      "email": "info@chubbinvestment.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@chubbinvestment.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@chubbinvestment.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "private_equity,private_credit,real_assets,public_equity,public_credit,multi",
+  "illiq_likelihood": "medium",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "Chubb Group",
+  "classification_source": "website",
+  "website_accuracy": "verified",
+  "hunter_hits": [],
+  "hunter_attempted_utc": "2026-07-28T02:58:52.881473+00:00"
+}

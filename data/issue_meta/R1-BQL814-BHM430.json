@@ -1,0 +1,96 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "Basis Asset Management Limited",
+  "natural": "Basis",
+  "ceref": "BQL814",
+  "ros": [
+    {
+      "name": "LI Li",
+      "ceref": "BHM430"
+    }
+  ],
+  "primary_ro": "LI Li",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BQL814/details?locale=en",
+  "email_subject": "Congratulations on your RO appointment at Basis",
+  "email_body": "Dear Li,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at Basis.\n\nFor illiquid managers like yourself, the marks the RO signs off on tend to be the most scrutinised line items on the books — LPs want comfort, auditors want defensibility, and internal-only marks usually invite more questions than they close. Kroll's Portfolio Valuation team here in Hong Kong helps with exactly that — robust independent valuations across private equity, private credit, and other illiquid strategies.\n\nIf a quick chat would be useful — now, or down the line — happy to set one up. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "PV",
+  "variant_id": "R1-v3-PV",
+  "email_body_hash": "b0a24e6a5a",
+  "email_candidates": [
+    {
+      "email": "li@basisamhk.com",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "LI Li",
+      "score": 53,
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email",
+      "evidence": "Hunter score 53 + AbstractAPI: deliverable"
+    },
+    {
+      "email": "samlau@basisamhk.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-07-28T01:40:10.501858+00:00"
+    },
+    {
+      "email": "ops@basisamhk.com",
+      "kind": "observed_on_site",
+      "confidence": "verified",
+      "ro": null
+    },
+    {
+      "email": "li.li@basisamhk.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LI Li"
+    },
+    {
+      "email": "lili@basisamhk.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LI Li"
+    },
+    {
+      "email": "lli@basisamhk.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LI Li"
+    },
+    {
+      "email": "info@basisamhk.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@basisamhk.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@basisamhk.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "private_equity,real_assets,public_equity,public_credit,fund_of_funds,multi",
+  "illiq_likelihood": "high",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "website",
+  "website_accuracy": "verified",
+  "hunter_hits": [
+    {
+      "email": "li@basisamhk.com",
+      "score": 53,
+      "ro": "LI Li",
+      "fetched_at_utc": "2026-07-28T02:59:18.875178+00:00",
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email"
+    }
+  ],
+  "hunter_attempted_utc": "2026-07-28T02:59:18.875194+00:00"
+}

@@ -6,7 +6,53 @@
   "ceref": "BRO369",
   "address": "Unit 1806, 18/F, Tai Tung Building, 8 Fleming Road, Wan Chai, Hong Kong",
   "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BRO369/details?locale=en",
-  "email_candidates": [],
+  "email_candidates": [
+    {
+      "email": "yang@winnerzonegroup.com",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "FAN Yang",
+      "score": 70,
+      "abstract_verdict": "quota_exhausted",
+      "abstract_detail": null,
+      "evidence": "Hunter score 70 + AbstractAPI: quota_exhausted"
+    },
+    {
+      "email": "info@winnerzonegroup.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-07-28T01:40:10.502151+00:00"
+    },
+    {
+      "email": "yang.fan@winnerzonegroup.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "FAN Yang"
+    },
+    {
+      "email": "yangfan@winnerzonegroup.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "FAN Yang"
+    },
+    {
+      "email": "yfan@winnerzonegroup.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "FAN Yang"
+    },
+    {
+      "email": "contact@winnerzonegroup.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@winnerzonegroup.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
   "ros": [
     {
       "name": "FAN Yang",
@@ -23,5 +69,17 @@
   "asset_classes": "unknown",
   "parent_org": "Winner Zone Group Ltd",
   "classification_source": "none",
-  "website_accuracy": "unverified"
+  "website_accuracy": "unverified",
+  "sfc_filed_website": "www.winnerzonegroup.com",
+  "hunter_hits": [
+    {
+      "email": "yang@winnerzonegroup.com",
+      "score": 70,
+      "ro": "FAN Yang",
+      "fetched_at_utc": "2026-07-28T03:06:11.728791+00:00",
+      "abstract_verdict": "quota_exhausted",
+      "abstract_detail": null
+    }
+  ],
+  "hunter_attempted_utc": "2026-07-28T03:06:11.728804+00:00"
 }

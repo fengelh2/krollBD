@@ -6,7 +6,66 @@
   "ceref": "BSU854",
   "address": "Suite 1503, 15/F, Shui On Centre, 6-8 Harbour Road, Wanchai, Hong Kong",
   "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BSU854/details?locale=en",
-  "email_candidates": [],
+  "email_candidates": [
+    {
+      "email": "emmaching@gmail.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-07-28T01:40:10.474380+00:00"
+    },
+    {
+      "email": "ching.ching@gmail.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHING Ching"
+    },
+    {
+      "email": "chingching@gmail.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHING Ching"
+    },
+    {
+      "email": "cching@gmail.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHING Ching"
+    },
+    {
+      "email": "hofung.lau@gmail.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LAU Ho Fung"
+    },
+    {
+      "email": "hofunglau@gmail.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LAU Ho Fung"
+    },
+    {
+      "email": "hlau@gmail.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LAU Ho Fung"
+    },
+    {
+      "email": "info@gmail.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@gmail.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@gmail.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
   "ros": [
     {
       "name": "CHING Ching",
@@ -21,10 +80,12 @@
   "old_firm": "State Arc Asset Management Limited",
   "variant_id": "C5-v2",
   "email_subject": "GP — note on the recent rebrand",
-  "email_body": "Dear GP Management,\n\nThis is Felix from Kroll in Hong Kong. The SFC public register shows that State Arc has been renamed to GP.\n\nRebrands often accompany broader changes — a new sponsor, a strategy refresh, or an organisational reshape — and these moments are often a natural time to revisit fund-level valuation policies and the operating arrangements behind them.\n\nKroll's Portfolio Valuation team works with SFC-regulated managers across Hong Kong on independent fair-value opinions for private equity and credit positions, and our adjacent FSCR colleagues support governance and regulatory engagement. Happy to set up an informal call if any of this would be useful as you transition.\n\nKind regards,\nFelix Engelhardt\n",
-  "email_body_hash": "372b190a03",
+  "email_body": "Dear Emmaching and GP Management,\n\nThis is Felix from Kroll in Hong Kong. The SFC public register shows that State Arc has been renamed to GP.\n\nRebrands often accompany broader changes — a new sponsor, a strategy refresh, or an organisational reshape — and these moments are often a natural time to revisit fund-level valuation policies and the operating arrangements behind them.\n\nKroll's Portfolio Valuation team works with SFC-regulated managers across Hong Kong on independent fair-value opinions for private equity and credit positions, and our adjacent FSCR colleagues support governance and regulatory engagement. Happy to set up an informal call if any of this would be useful as you transition.\n\nKind regards,\nFelix Engelhardt\n",
+  "email_body_hash": "de10b6d30f",
   "illiq_likelihood": "unknown",
   "asset_classes": "unknown",
   "classification_source": "none",
-  "website_accuracy": "not_found"
+  "website_accuracy": "not_found",
+  "hunter_hits": [],
+  "hunter_attempted_utc": "2026-07-28T03:07:28.997366+00:00"
 }

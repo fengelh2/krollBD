@@ -1,0 +1,85 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "J.P. Morgan Securities (Far East) Limited",
+  "natural": "J.P. Morgan",
+  "ceref": "AAB026",
+  "ros": [
+    {
+      "name": "LIU Mengzhang",
+      "ceref": "AYT167"
+    }
+  ],
+  "primary_ro": "LIU Mengzhang",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/AAB026/details?locale=en",
+  "email_subject": "Congratulations on your RO appointment at J.P. Morgan",
+  "email_body": "Dear Mengzhang,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at J.P. Morgan.\n\nFor illiquid managers like yourself, the marks the RO signs off on tend to be the most scrutinised line items on the books — LPs want comfort, auditors want defensibility, and internal-only marks usually invite more questions than they close. Kroll's Portfolio Valuation team here in Hong Kong helps with exactly that — robust independent valuations across private equity, private credit, and other illiquid strategies.\n\nIf a quick chat would be useful — now, or down the line — happy to set one up. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "PV",
+  "variant_id": "R1-v3-PV",
+  "email_body_hash": "b35e844c39",
+  "email_candidates": [
+    {
+      "email": "mengzhang.liu@jpmorgan.com",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "LIU Mengzhang",
+      "score": 49,
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email",
+      "evidence": "Hunter score 49 + AbstractAPI: deliverable"
+    },
+    {
+      "email": "hk.compliance@jpmorgan.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-07-28T01:40:10.475500+00:00"
+    },
+    {
+      "email": "mengzhangliu@jpmorgan.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LIU Mengzhang"
+    },
+    {
+      "email": "mliu@jpmorgan.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LIU Mengzhang"
+    },
+    {
+      "email": "info@jpmorgan.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@jpmorgan.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@jpmorgan.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "public_equity,public_credit,private_equity,private_credit,real_assets,multi",
+  "illiq_likelihood": "medium",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "JPMorgan Chase & Co.",
+  "classification_source": "consensus_website_plus",
+  "website_accuracy": "verified",
+  "sfc_filed_website": "jpmorgan.com",
+  "hunter_hits": [
+    {
+      "email": "mengzhang.liu@jpmorgan.com",
+      "score": 49,
+      "ro": "LIU Mengzhang",
+      "fetched_at_utc": "2026-07-28T02:55:07.019982+00:00",
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email"
+    }
+  ],
+  "hunter_attempted_utc": "2026-07-28T02:55:07.020000+00:00"
+}

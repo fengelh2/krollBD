@@ -6,7 +6,48 @@
   "ceref": "AGG663",
   "address": "Unit 2, 27/F., West Tower, Cheung Kong Center II, 10 Harcourt Road, Central, Hong Kong",
   "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/AGG663/details?locale=en",
-  "email_candidates": [],
+  "email_candidates": [
+    {
+      "email": "cs@grit.com.hk",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-07-28T01:40:10.484692+00:00"
+    },
+    {
+      "email": "junyao.wang@grit.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "WANG Junyao"
+    },
+    {
+      "email": "junyaowang@grit.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "WANG Junyao"
+    },
+    {
+      "email": "jwang@grit.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "WANG Junyao"
+    },
+    {
+      "email": "info@grit.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@grit.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@grit.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
   "ros": [
     {
       "name": "WANG Junyao",
@@ -22,5 +63,8 @@
   "illiq_likelihood": "low",
   "asset_classes": "public_equity,public_credit,derivatives,multi,unknown",
   "classification_source": "website",
-  "website_accuracy": "probable"
+  "website_accuracy": "probable",
+  "sfc_filed_website": "www.grit.com.hk",
+  "hunter_hits": [],
+  "hunter_attempted_utc": "2026-07-28T03:06:56.136514+00:00"
 }

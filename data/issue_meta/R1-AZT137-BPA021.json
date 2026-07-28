@@ -1,0 +1,72 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "Futu Securities International (Hong Kong) Limited",
+  "natural": "Futu Securities International",
+  "ceref": "AZT137",
+  "ros": [
+    {
+      "name": "CHEUNG Ho Ming",
+      "ceref": "BPA021"
+    }
+  ],
+  "primary_ro": "CHEUNG Ho Ming",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/AZT137/details?locale=en",
+  "email_subject": "Congratulations on your RO appointment at Futu Securities International",
+  "email_body": "Dear Ho Ming,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at Futu Securities International.\n\nFor newly appointed ROs like yourself, settling into the role often means getting a clear view of where the firm's compliance posture sits — internal policies, current filings, ongoing SFC engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps SFC-licensed firms with exactly that, scaled to the firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "FSCR",
+  "variant_id": "R1-v3-FSCR",
+  "email_body_hash": "6b9846c823",
+  "email_candidates": [
+    {
+      "email": "cs@futuhk.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-07-28T01:40:10.490831+00:00"
+    },
+    {
+      "email": "homing.cheung@futuhk.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHEUNG Ho Ming"
+    },
+    {
+      "email": "homingcheung@futuhk.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHEUNG Ho Ming"
+    },
+    {
+      "email": "hcheung@futuhk.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHEUNG Ho Ming"
+    },
+    {
+      "email": "info@futuhk.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@futuhk.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@futuhk.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "public_equity,public_credit",
+  "illiq_likelihood": "low",
+  "aum_raw_string": "客戶資產 1.23萬億港元",
+  "aum_usd_m": "",
+  "parent_org": "Futu Holdings Limited",
+  "classification_source": "website",
+  "website_accuracy": "probable",
+  "sfc_filed_website": "www.futuhk.com",
+  "hunter_hits": [],
+  "hunter_attempted_utc": "2026-07-28T02:57:35.996849+00:00"
+}

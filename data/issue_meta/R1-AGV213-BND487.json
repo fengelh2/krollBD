@@ -6,7 +6,48 @@
   "ceref": "AGV213",
   "address": "Room 2537-2539, 25/F, Sun Hung Kai Centre, 30 Harbour Road, Wan Chai, Hong Kong",
   "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/AGV213/details?locale=en",
-  "email_candidates": [],
+  "email_candidates": [
+    {
+      "email": "cs@winsecs.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-07-28T01:40:10.484929+00:00"
+    },
+    {
+      "email": "chiyin.lau@come2win.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LAU Chi Yin"
+    },
+    {
+      "email": "chiyinlau@come2win.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LAU Chi Yin"
+    },
+    {
+      "email": "clau@come2win.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LAU Chi Yin"
+    },
+    {
+      "email": "info@come2win.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@come2win.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@come2win.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
   "ros": [
     {
       "name": "LAU Chi Yin",
@@ -22,5 +63,8 @@
   "illiq_likelihood": "unknown",
   "asset_classes": "unknown",
   "classification_source": "none",
-  "website_accuracy": "not_found"
+  "website_accuracy": "not_found",
+  "sfc_filed_website": "www.come2win.com",
+  "hunter_hits": [],
+  "hunter_attempted_utc": "2026-07-28T03:06:12.431510+00:00"
 }

@@ -6,7 +6,15 @@
   "ceref": "ACB501",
   "address": "Room 1608, 16/F, No. 26 Harbour Road, China Resources Building, Wanchai, Hong Kong",
   "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/ACB501/details?locale=en",
-  "email_candidates": [],
+  "email_candidates": [
+    {
+      "email": "swsc_dept_compliance@swsc.hk",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-07-28T01:40:10.482279+00:00"
+    }
+  ],
   "ros": [
     {
       "name": "YANG Yan",
@@ -23,5 +31,8 @@
   "asset_classes": "public_equity,public_credit,multi",
   "parent_org": "Southwest Securities Co., Ltd.",
   "classification_source": "website",
-  "website_accuracy": "probable"
+  "website_accuracy": "probable",
+  "sfc_filed_website": "www.swsc.hk",
+  "hunter_hits": [],
+  "hunter_attempted_utc": "2026-07-28T03:06:25.296241+00:00"
 }

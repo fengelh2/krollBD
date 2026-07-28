@@ -1,0 +1,67 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "Midas Capital Partners Hong Kong Limited",
+  "natural": "Midas Capital",
+  "ceref": "BBT325",
+  "ros": [
+    {
+      "name": "NG Tsz Wing",
+      "ceref": "BOI100"
+    }
+  ],
+  "primary_ro": "NG Tsz Wing",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BBT325/details?locale=en",
+  "email_subject": "Congratulations on your RO appointment at Midas Capital",
+  "email_body": "Dear Tsz Wing,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at Midas Capital.\n\nFor newly appointed ROs like yourself, settling into the role often means getting a clear view of where the firm's compliance posture sits — internal policies, current filings, ongoing SFC engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps SFC-licensed firms with exactly that, scaled to the firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "FSCR",
+  "variant_id": "R1-v3-FSCR",
+  "email_body_hash": "113368f707",
+  "email_candidates": [
+    {
+      "email": "enquiry@midascapitalpartners.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-07-28T01:40:10.491136+00:00"
+    },
+    {
+      "email": "tszwing.ng@midascapitalpartners.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "NG Tsz Wing"
+    },
+    {
+      "email": "tszwingng@midascapitalpartners.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "NG Tsz Wing"
+    },
+    {
+      "email": "tng@midascapitalpartners.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "NG Tsz Wing"
+    },
+    {
+      "email": "info@midascapitalpartners.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@midascapitalpartners.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "unknown",
+  "illiq_likelihood": "unknown",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "none",
+  "website_accuracy": "not_found",
+  "sfc_filed_website": "www.midascapitalpartners.com",
+  "hunter_hits": [],
+  "hunter_attempted_utc": "2026-07-28T02:54:06.662711+00:00"
+}

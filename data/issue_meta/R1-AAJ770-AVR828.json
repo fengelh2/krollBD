@@ -1,0 +1,91 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "Invesco Hong Kong Limited (trading as Invesco Asia Pacific)",
+  "natural": "Invesco Hong Kong Limited (trading as Invesco Asia Pacific)",
+  "ceref": "AAJ770",
+  "ros": [
+    {
+      "name": "CHOI Jason Graham",
+      "ceref": "AVR828"
+    }
+  ],
+  "primary_ro": "CHOI Jason Graham",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/AAJ770/details?locale=en",
+  "email_subject": "Congratulations on your RO appointment at Invesco Hong Kong Limited (trading as Invesco Asia Pacific)",
+  "email_body": "Dear Jason,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at Invesco Hong Kong Limited (trading as Invesco Asia Pacific).\n\nFor illiquid managers like yourself, the marks the RO signs off on tend to be the most scrutinised line items on the books — LPs want comfort, auditors want defensibility, and internal-only marks usually invite more questions than they close. Kroll's Portfolio Valuation team here in Hong Kong helps with exactly that — robust independent valuations across private equity, private credit, and other illiquid strategies.\n\nIf a quick chat would be useful — now, or down the line — happy to set one up. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "PV",
+  "variant_id": "R1-v3-PV",
+  "email_body_hash": "5fffaa866d",
+  "email_candidates": [
+    {
+      "email": "jason.choi@invesco.com",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "CHOI Jason Graham",
+      "score": 99,
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email",
+      "evidence": "Hunter score 99 + AbstractAPI: deliverable"
+    },
+    {
+      "email": "hkgregcompliance@invesco.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-07-28T01:40:10.479698+00:00"
+    },
+    {
+      "email": "jason.choi@invesco.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHOI Jason Graham"
+    },
+    {
+      "email": "jasonchoi@invesco.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHOI Jason Graham"
+    },
+    {
+      "email": "jchoi@invesco.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHOI Jason Graham"
+    },
+    {
+      "email": "info@invesco.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@invesco.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@invesco.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "public_equity,public_credit,multi",
+  "illiq_likelihood": "medium",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "Invesco Group",
+  "classification_source": "consensus_website_plus",
+  "website_accuracy": "verified",
+  "sfc_filed_website": "www.invesco.com.hk",
+  "hunter_hits": [
+    {
+      "email": "jason.choi@invesco.com",
+      "score": 99,
+      "ro": "CHOI Jason Graham",
+      "fetched_at_utc": "2026-07-28T02:55:29.406917+00:00",
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email"
+    }
+  ],
+  "hunter_attempted_utc": "2026-07-28T02:55:29.406932+00:00"
+}

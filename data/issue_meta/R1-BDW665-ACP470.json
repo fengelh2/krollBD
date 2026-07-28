@@ -6,7 +6,48 @@
   "ceref": "BDW665",
   "address": "6F, 6/F, Yardley Commercial Building, 3 Connaught Road West, Hong Kong",
   "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BDW665/details?locale=en",
-  "email_candidates": [],
+  "email_candidates": [
+    {
+      "email": "finance@sprout-asset.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-07-28T01:40:10.491944+00:00"
+    },
+    {
+      "email": "kwokfai.shum@sprout-asset.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "SHUM Kwok Fai"
+    },
+    {
+      "email": "kwokfaishum@sprout-asset.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "SHUM Kwok Fai"
+    },
+    {
+      "email": "kshum@sprout-asset.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "SHUM Kwok Fai"
+    },
+    {
+      "email": "info@sprout-asset.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@sprout-asset.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@sprout-asset.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
   "ros": [
     {
       "name": "SHUM Kwok Fai",
@@ -22,5 +63,8 @@
   "illiq_likelihood": "low",
   "asset_classes": "public_equity,public_credit,unknown",
   "classification_source": "website",
-  "website_accuracy": "probable"
+  "website_accuracy": "probable",
+  "sfc_filed_website": "https://sprout-asset.com/",
+  "hunter_hits": [],
+  "hunter_attempted_utc": "2026-07-28T03:06:14.752234+00:00"
 }

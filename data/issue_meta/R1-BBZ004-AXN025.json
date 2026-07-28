@@ -1,0 +1,72 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "M&G Investments (Hong Kong) Limited",
+  "natural": "M&G",
+  "ceref": "BBZ004",
+  "ros": [
+    {
+      "name": "WONG Cheuk Yen Kristy",
+      "ceref": "AXN025"
+    }
+  ],
+  "primary_ro": "WONG Cheuk Yen Kristy",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BBZ004/details?locale=en",
+  "email_subject": "Congratulations on your RO appointment at M&G",
+  "email_body": "Dear Cheuk Yen Kristy,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at M&G.\n\nFor illiquid managers like yourself, the marks the RO signs off on tend to be the most scrutinised line items on the books — LPs want comfort, auditors want defensibility, and internal-only marks usually invite more questions than they close. Kroll's Portfolio Valuation team here in Hong Kong helps with exactly that — robust independent valuations across private equity, private credit, and other illiquid strategies.\n\nIf a quick chat would be useful — now, or down the line — happy to set one up. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "PV",
+  "variant_id": "R1-v3-PV",
+  "email_body_hash": "b76887a1a1",
+  "email_candidates": [
+    {
+      "email": "compliance.hk1@mandg.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-07-28T01:40:10.491429+00:00"
+    },
+    {
+      "email": "cheuk.wong@mandg.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "WONG Cheuk Yen Kristy"
+    },
+    {
+      "email": "cheukwong@mandg.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "WONG Cheuk Yen Kristy"
+    },
+    {
+      "email": "cwong@mandg.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "WONG Cheuk Yen Kristy"
+    },
+    {
+      "email": "info@mandg.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@mandg.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@mandg.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "private_equity,private_credit,real_assets,public_equity,public_credit,multi",
+  "illiq_likelihood": "medium",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "M&G plc",
+  "classification_source": "consensus_website_plus",
+  "website_accuracy": "probable",
+  "sfc_filed_website": "http://www.mandg.hk/",
+  "hunter_hits": [],
+  "hunter_attempted_utc": "2026-07-28T02:54:03.585195+00:00"
+}

@@ -1,0 +1,73 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "Bitfire Asset Management (Hong Kong) Limited",
+  "natural": "Bitfire",
+  "ceref": "BPK544",
+  "ros": [
+    {
+      "name": "HOU Yuxi",
+      "ceref": "BYE194"
+    }
+  ],
+  "primary_ro": "HOU Yuxi",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BPK544/details?locale=en",
+  "email_subject": "Congratulations on your RO appointment at Bitfire",
+  "email_body": "Dear Yuxi,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at Bitfire.\n\nFor newly appointed ROs like yourself, settling into the role often means getting a clear view of where the firm's compliance posture sits — internal policies, current filings, ongoing SFC engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps SFC-licensed firms with exactly that, scaled to the firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "FSCR",
+  "variant_id": "R1-v3-FSCR",
+  "email_body_hash": "b82b392017",
+  "email_candidates": [
+    {
+      "email": "info@sinohope-asset.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-07-28T01:40:10.499958+00:00"
+    },
+    {
+      "email": "info@sinohope-asset.com",
+      "kind": "generic_on_site",
+      "confidence": "verified",
+      "ro": null
+    },
+    {
+      "email": "yuxi.hou@sinohope-asset.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "HOU Yuxi"
+    },
+    {
+      "email": "yuxihou@sinohope-asset.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "HOU Yuxi"
+    },
+    {
+      "email": "yhou@sinohope-asset.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "HOU Yuxi"
+    },
+    {
+      "email": "contact@sinohope-asset.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@sinohope-asset.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "public_equity,public_credit,fund_of_funds",
+  "illiq_likelihood": "low",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "Sinohope Technology Holdings Limited (formerly New Huo Technology Holdings Limited)",
+  "classification_source": "website",
+  "website_accuracy": "probable",
+  "sfc_filed_website": "https://sinohope-asset.com",
+  "hunter_hits": [],
+  "hunter_attempted_utc": "2026-07-28T02:59:28.812426+00:00"
+}
