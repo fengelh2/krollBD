@@ -60,9 +60,18 @@ _SERPAPI_MAX_RETRIES = 5  # bumped from 2 — SerpAPI 429 windows are ~15-30s
 _SERPAPI_BASE_BACKOFF = 4.0  # seconds, then ×2 with jitter
 
 
+# Circuit breaker: once SerpAPI returns 429 (monthly-quota exhausted), stop
+# calling it for the rest of the process. Weekly publish had been burning
+# 3+ hours retrying every call ~2min through exp backoff.
+_SERPAPI_QUOTA_EXHAUSTED = False
+
+
 def _serpapi_get(params: dict, *, timeout: int = 20) -> tuple[dict, str]:
+    global _SERPAPI_QUOTA_EXHAUSTED
     if not SERPAPI_KEY:
         return {}, "no_key"
+    if _SERPAPI_QUOTA_EXHAUSTED:
+        return {}, "rate_limited"
     params = {**params, "api_key": SERPAPI_KEY}
     last_status = "network_error"
     for attempt in range(_SERPAPI_MAX_RETRIES + 1):
@@ -79,7 +88,10 @@ def _serpapi_get(params: dict, *, timeout: int = 20) -> tuple[dict, str]:
         if r.status_code == 429:
             last_status = "rate_limited"
             if attempt >= _SERPAPI_MAX_RETRIES:
-                print(f"  [serpapi] 429 rate-limited after {attempt+1} attempts; giving up", file=sys.stderr)
+                print(f"  [serpapi] 429 rate-limited after {attempt+1} attempts; giving up "
+                      f"— tripping circuit breaker for the rest of this process",
+                      file=sys.stderr)
+                _SERPAPI_QUOTA_EXHAUSTED = True
                 return {}, last_status
             backoff = _SERPAPI_BASE_BACKOFF * (2 ** attempt) + _random.uniform(0, 0.5)
             _time.sleep(backoff)

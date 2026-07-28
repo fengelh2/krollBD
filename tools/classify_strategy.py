@@ -258,17 +258,32 @@ def guess_domain_urls(name: str) -> list[str]:
 _SERPAPI_KG_CACHE: dict[str, str] = {}
 
 
+_SERPAPI_EXHAUSTED = False
+
+
 def _serpapi_search(query: str) -> list[str]:
     """Return list of root URLs from SerpAPI for one query (blocklist applied).
 
     Side effect: caches Google Knowledge Graph + answer_box text in
     _SERPAPI_KG_CACHE[query] for later triangulation.
+
+    Circuit breaker: once SerpAPI returns 429 (monthly-quota exhausted),
+    every subsequent call short-circuits to [] instead of round-tripping
+    through requests. Prevents ~20s dead-time per call across hundreds of
+    firms during a weekly publish.
     """
+    global _SERPAPI_EXHAUSTED
+    if _SERPAPI_EXHAUSTED:
+        return []
     try:
         r = requests.get("https://serpapi.com/search.json",
                          params={"q": query, "api_key": SERPAPI_KEY, "num": 10,
                                  "hl": "en", "gl": "hk"},
                          timeout=20)
+        if r.status_code == 429:
+            print(f"  [serpapi] 429 on {query} — tripping circuit breaker for rest of run", file=sys.stderr)
+            _SERPAPI_EXHAUSTED = True
+            return []
         r.raise_for_status()
         data = r.json()
         # Stash KG/answer-box for later cross-check
@@ -512,23 +527,89 @@ def scrape_firecrawl(url: str) -> str:
     return fc if fc else plain
 
 
-def scrape_with_fallback(url: str, name: str) -> tuple[str, str]:
-    """Try homepage; only fall back to /about variants if homepage is thin.
+# Gate-page signature: short page (mostly disclaimers) + agreement keywords.
+# Common on HK PE/PD firms that require professional-investor confirmation
+# before showing real content.
+_GATE_KEYWORDS = re.compile(
+    r"(?i)\b(professional\s+investor|i\s+agree|terms\s+of\s+use|cookie\s+notice|"
+    r"disclaimer|confirm.*not.*resident|click\s+(?:agree|accept|continue)|"
+    r"by\s+(?:clicking|accepting|continuing)|"
+    r"\bagree\b.*\bdecline\b|"
+    r"this\s+website\s+(?:is\s+)?intended\s+for|are\s+you\s+a)\b"
+)
 
-    Most firm sites describe themselves on the homepage; /about is rarely needed.
-    Fallback only fires when homepage returns <300 chars (likely JS shell).
+
+def _looks_like_gate(md: str) -> bool:
+    """Page is a professional-investor / TOS gate, not real content."""
+    if not md:
+        return False
+    # Real content pages typically don't have 3+ gate keywords in <2000 chars.
+    if len(md) > 4000:
+        return False
+    hits = len(_GATE_KEYWORDS.findall(md))
+    return hits >= 3
+
+
+def _post_gate_url_candidates(url: str) -> list[str]:
+    """Common post-gate URL patterns HK PE/PD firms use after the click-through.
+
+    APInvest hides real content at content.{domain}; some firms use pi., app.,
+    portal., members. Try the obvious ones; classify_strategy keeps the best
+    page it gets back.
+    """
+    from urllib.parse import urlparse
+    p = urlparse(url if "://" in url else "https://" + url)
+    host = re.sub(r"^www\.", "", p.netloc.lower())
+    if not host:
+        return []
+    scheme = p.scheme or "https"
+    return [
+        f"{scheme}://content.{host}",
+        f"{scheme}://pi.{host}",
+        f"{scheme}://portal.{host}",
+        f"{scheme}://members.{host}",
+        f"{scheme}://app.{host}",
+        f"{scheme}://www.{host}/content",
+        f"{scheme}://www.{host}/private",
+        f"{scheme}://www.{host}/pi",
+    ]
+
+
+def scrape_with_fallback(url: str, name: str) -> tuple[str, str]:
+    """Try homepage; fall back to /about variants if homepage is thin OR a
+    professional-investor gate page (common on HK PE/PD firms).
+
+    Order of escalation:
+      1. homepage
+      2. if homepage is a gate → try common post-gate subdomains (content./pi.)
+         and /content, /private, /pi paths
+      3. if still thin → try /about, /about-us, /firm
     """
     md = scrape_firecrawl(url)
-    if md and len(md) >= 300:
+    if md and len(md) >= 300 and not _looks_like_gate(md):
         return md, url
-    # Homepage was thin — try a couple of /about-style variants
+
+    # Step 2: if it's a gate, try post-gate URLs
+    if md and _looks_like_gate(md):
+        for candidate in _post_gate_url_candidates(url):
+            if not robots_allowed(candidate):
+                continue
+            try:
+                better = scrape_firecrawl(candidate)
+            except Exception:
+                continue
+            if better and len(better) >= 600 and not _looks_like_gate(better):
+                # Use post-gate content; discard the gate page
+                return better, candidate
+
+    # Step 3: /about-style fallbacks
     base = url.rstrip("/")
     for path in ("/about", "/about-us", "/firm"):
         candidate = base + path
         if not robots_allowed(candidate):
             continue
         more = scrape_firecrawl(candidate)
-        if more and len(more) >= 300:
+        if more and len(more) >= 300 and not _looks_like_gate(more):
             combined = (md + "\n\n---\n\n" + more) if md else more
             return combined, candidate
     return md or "", url
