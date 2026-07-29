@@ -758,7 +758,18 @@
     if (!$("#cards")) return;
     const pending = getPending();
     const loggedIssueNums = new Set(LOG_ROWS.map(r => String(r.issue_number)));
-    for (const p of Array.from(pending)) if (loggedIssueNums.has(p)) removePending(p);
+    const openNums = new Set(ALL_OPEN.map(i => String(i.number)));
+    for (const p of Array.from(pending)) {
+      // Clear pending in two cases:
+      //   1. issue was successfully logged (row exists in LOG_ROWS)
+      //   2. issue is no longer open on GH (closed/deleted) AND not in
+      //      LOG_ROWS — an orphan we can never resolve. Silently drop so
+      //      it stops rendering a "Logging…" spinner.
+      if (loggedIssueNums.has(p)) removePending(p);
+      else if (openNums.size > 0 && !openNums.has(p)) removePending(p);
+    }
+    pending.clear();
+    for (const p of getPending()) pending.add(p);
     const cards = $("#cards"); cards.innerHTML = "";
     const isPending = (i) => pending.has(String(i.number));
     let visible;
