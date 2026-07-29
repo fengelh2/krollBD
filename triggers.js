@@ -871,6 +871,12 @@
   let _initted = false;
   async function init() {
     if (_initted) return; _initted = true;
+    // Nuke pending on every page load — it's only meant as ~30s in-tab
+    // UI feedback while a workflow runs. If the workflow completed, the
+    // log row + closed issue are the durable state. If it didn't (silent
+    // fail / cancellation), letting pending persist just glues a
+    // permanent "Logging…" spinner to the card.
+    localStorage.removeItem(PENDING_KEY);
     $$("#filters button").forEach(b => b.addEventListener("click", () => {
       $$("#filters button").forEach(x => x.classList.remove("active"));
       b.classList.add("active");
