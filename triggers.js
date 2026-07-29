@@ -440,38 +440,135 @@
     return true;
   }
 
+  // CSV quoter: mirrors Python csv.QUOTE_MINIMAL — quote fields containing
+  // comma, quote, newline, or carriage-return; double-up embedded quotes.
+  function csvQuote(v) {
+    const s = String(v == null ? "" : v);
+    return /[",\n\r]/.test(s) ? `"${s.replace(/"/g, '""')}"` : s;
+  }
+  const OUTREACH_FIELDS = [
+    "logged_at_utc","sent_at_utc","issue_number","trigger_type",
+    "variant_id","firm","ceref","primary_ro",
+    "email_subject","email_body_hash","email_body",
+    "sent_via","notes",
+  ];
+
+  // Write directly to outreach_log.csv via the Contents API.
+  // Was: fire repository_dispatch → wait ~30-60s for Actions to run.
+  // Now: 1-2s per click. Rapid clicks handle sha-conflict via refetch+retry.
   async function dispatchOutreach(issue, meta) {
     const pat = getPat();
     if (!pat) { promptForPat(); if (!getPat()) return false; }
-    const data = {
-      issue_number: issue.number,
-      sent_at_utc: new Date().toISOString().replace(/\.\d+Z$/, "Z"),
-      trigger_type: meta.type,
-      variant_id: meta.variant_id || (meta.type + "-v1"),
-      firm: meta.firm,
-      ceref: meta.ceref,
-      primary_ro: meta.primary_ro || "",
+    const nowUtc = new Date().toISOString().replace(/\.\d+Z$/, "Z");
+    const row = {
+      logged_at_utc: nowUtc,
+      sent_at_utc:   nowUtc,
+      issue_number:  issue.number,
+      trigger_type:  meta.type,
+      variant_id:    meta.variant_id || (meta.type + "-v1"),
+      firm:          meta.firm || "",
+      ceref:         meta.ceref || "",
+      primary_ro:    meta.primary_ro || "",
       email_subject: meta.email_subject || "",
       email_body_hash: meta.email_body_hash || "",
-      email_body: meta.email_body || "",
-      sent_via: "dashboard",
-      notes: "",
+      email_body:    meta.email_body || "",
+      sent_via:      "dashboard",
+      notes:         "",
     };
-    const r = await fetch(DISPATCH, {
+    const line = OUTREACH_FIELDS.map(k => csvQuote(row[k])).join(",") + "\n";
+
+    const contentsUrl = `https://api.github.com/repos/${REPO}/contents/outreach_log.csv`;
+    for (let attempt = 1; attempt <= 6; attempt++) {
+      // GET current file + sha
+      const gr = await fetch(contentsUrl + "?ref=main&_=" + Date.now(), {
+        headers: {
+          "Accept": "application/vnd.github+json",
+          "Authorization": `Bearer ${pat}`,
+          "X-GitHub-Api-Version": "2022-11-28",
+        },
+      });
+      if (!gr.ok) {
+        const t = await gr.text().catch(() => "");
+        alert(`Read outreach_log.csv failed (${gr.status}): ${t.slice(0,200)}\n\nCheck your PAT has 'public_repo' scope.`);
+        return false;
+      }
+      const meta_ = await gr.json();
+      const current = atob(meta_.content.replace(/\s+/g, ""));
+      // Dedup: if this issue already logged (someone else's tab beat us),
+      // treat as success — the row is there, no need to add another.
+      const dupCheck = new RegExp(`(^|\\n)[^,]*,[^,]*,${issue.number},`);
+      if (dupCheck.test(current)) {
+        LOG_ROWS.push(row);
+        await closeOutreachIssue(issue, meta, row, pat).catch(() => {});
+        return true;
+      }
+      const updated = current.endsWith("\n") ? current + line : current + "\n" + line;
+      const pr = await fetch(contentsUrl, {
+        method: "PUT",
+        headers: {
+          "Accept": "application/vnd.github+json",
+          "Authorization": `Bearer ${pat}`,
+          "X-GitHub-Api-Version": "2022-11-28",
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          message: `log: outreach ${nowUtc} (#${issue.number})`,
+          content: btoa(unescape(encodeURIComponent(updated))),
+          sha: meta_.sha,
+          branch: "main",
+        }),
+      });
+      if (pr.ok) {
+        LOG_ROWS.push(row);
+        await closeOutreachIssue(issue, meta, row, pat).catch(err => {
+          console.warn("issue close failed:", err);
+        });
+        return true;
+      }
+      if (pr.status === 409 || pr.status === 422) {
+        // sha conflict — someone else's PUT landed first; refetch + retry
+        await new Promise(r => setTimeout(r, 300 + Math.random() * 500));
+        continue;
+      }
+      const t = await pr.text().catch(() => "");
+      alert(`Write outreach_log.csv failed (${pr.status}): ${t.slice(0,200)}`);
+      return false;
+    }
+    alert("outreach_log.csv write: exhausted 6 sha-conflict retries. Try again.");
+    return false;
+  }
+
+  async function closeOutreachIssue(issue, meta, row, pat) {
+    const comment = [
+      "Outreach logged via dashboard (direct write).",
+      "",
+      `- variant: \`${row.variant_id}\``,
+      `- subject: ${row.email_subject}`,
+      `- sent_at: ${row.sent_at_utc}`,
+      `- sent_via: ${row.sent_via}`,
+      `- body_hash: \`${row.email_body_hash}\``,
+    ].join("\n");
+    // Post comment, then close
+    await fetch(`https://api.github.com/repos/${REPO}/issues/${issue.number}/comments`, {
       method: "POST",
       headers: {
         "Accept": "application/vnd.github+json",
-        "Authorization": `Bearer ${getPat()}`,
+        "Authorization": `Bearer ${pat}`,
         "X-GitHub-Api-Version": "2022-11-28",
+        "Content-Type": "application/json",
       },
-      body: JSON.stringify({ event_type: "outreach_sent", client_payload: { data: JSON.stringify(data) } }),
+      body: JSON.stringify({ body: comment }),
     });
-    if (!r.ok) {
-      let msg = await r.text().catch(() => "");
-      alert(`Dispatch failed (${r.status}): ${msg.slice(0,200)}\n\nCheck your PAT has 'public_repo' scope.`);
-      return false;
-    }
-    return true;
+    await fetch(`https://api.github.com/repos/${REPO}/issues/${issue.number}`, {
+      method: "PATCH",
+      headers: {
+        "Accept": "application/vnd.github+json",
+        "Authorization": `Bearer ${pat}`,
+        "X-GitHub-Api-Version": "2022-11-28",
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({ state: "closed", state_reason: "completed" }),
+    });
   }
 
   function copyToClipboard(text, btn) {
@@ -702,7 +799,7 @@
       })() : ""}
       <div class="actions">
         ${opts.pending
-          ? `<span class="muted-text">Logging… (Action running, refresh in ~30s)</span>`
+          ? `<span class="muted-text">Writing… (a few seconds)</span>`
           : `<button class="btn primary" data-action="reached-out">Mark as reached out</button>
              <button class="btn ghost" data-action="drop" title="Close this trigger without outreach (e.g. mega-bank, no realistic conversion)">Drop</button>`}
       </div>
@@ -724,9 +821,15 @@
     });
     const btn = card.querySelector('[data-action="reached-out"]');
     if (btn) btn.addEventListener("click", async () => {
-      btn.disabled = true; btn.textContent = "Sending…";
+      btn.disabled = true; btn.textContent = "Writing…";
       const ok = await dispatchOutreach(issue, meta);
-      if (ok) { addPending(issue.number); refresh(); }
+      if (ok) {
+        // Direct-write path: row is already in LOG_ROWS + issue is closed.
+        // Optimistically drop from open list — next refresh will confirm.
+        ALL_OPEN = ALL_OPEN.filter(i => i.number !== issue.number);
+        removePending(issue.number);
+        refresh();
+      }
       else { btn.disabled = false; btn.textContent = "Mark as reached out"; }
     });
     const dropBtn = card.querySelector('[data-action="drop"]');
