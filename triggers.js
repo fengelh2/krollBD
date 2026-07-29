@@ -440,6 +440,18 @@
     return true;
   }
 
+  // Single-slot mutex — the Contents API is sha-checked per PUT, so N
+  // parallel clicks turn into N-1 sha-conflict retries. Serialize instead:
+  // each click enqueues, queue processes one at a time, still ~1-2s each
+  // but with zero wasted round-trips.
+  let _outreachQueue = Promise.resolve();
+  function serialize(fn) {
+    const next = _outreachQueue.then(fn, fn);
+    // Prevent the chain from rejecting future calls if this one throws
+    _outreachQueue = next.catch(() => {});
+    return next;
+  }
+
   // CSV quoter: mirrors Python csv.QUOTE_MINIMAL — quote fields containing
   // comma, quote, newline, or carriage-return; double-up embedded quotes.
   function csvQuote(v) {
@@ -821,11 +833,13 @@
     });
     const btn = card.querySelector('[data-action="reached-out"]');
     if (btn) btn.addEventListener("click", async () => {
-      btn.disabled = true; btn.textContent = "Writing…";
-      const ok = await dispatchOutreach(issue, meta);
+      btn.disabled = true; btn.textContent = "Queued…";
+      // Serialize into a single queue so parallel clicks don't sha-race.
+      const ok = await serialize(async () => {
+        btn.textContent = "Writing…";
+        return await dispatchOutreach(issue, meta);
+      });
       if (ok) {
-        // Direct-write path: row is already in LOG_ROWS + issue is closed.
-        // Optimistically drop from open list — next refresh will confirm.
         ALL_OPEN = ALL_OPEN.filter(i => i.number !== issue.number);
         removePending(issue.number);
         refresh();
