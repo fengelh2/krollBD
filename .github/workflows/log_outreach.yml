@@ -85,6 +85,16 @@ jobs:
           PY
           git config user.name "krollbd-bot"
           git config user.email "krollbd-bot@users.noreply.github.com"
+          # Safety guard (added 2026-07-29 after direct-write nuked the file):
+          # refuse to commit if the staged file lost rows vs HEAD. Log append
+          # should only ever ADD lines.
+          BEFORE=$(git show HEAD:outreach_log.csv 2>/dev/null | wc -l || echo 0)
+          AFTER=$(wc -l < outreach_log.csv)
+          if [ "$AFTER" -lt "$BEFORE" ]; then
+            echo "::error::outreach_log.csv shrunk from $BEFORE to $AFTER lines — refusing to commit"
+            git checkout -- outreach_log.csv
+            exit 1
+          fi
           git add outreach_log.csv
           if git diff --quiet --cached; then
             echo "nothing to commit"
