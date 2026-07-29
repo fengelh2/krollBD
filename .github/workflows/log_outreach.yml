@@ -8,7 +8,14 @@ permissions:
   issues: write
 
 concurrency:
-  group: data-writes  # shared with weekly.yml + ad-hoc.yml — never race on data/ + outreach_log.csv
+  # Per-issue group so rapid clicks on DIFFERENT triggers don't cancel each
+  # other (2026-07-29: 15 of ~45 marks were silently cancelled by the old
+  # single `data-writes` group — GitHub keeps only ONE pending slot per
+  # group, so bursts of dispatches drop everything but the last two).
+  # Same-issue double-clicks still serialize (dedup guard below is idempotent).
+  # Cross-run git-push races on outreach_log.csv are handled by the
+  # pull-rebase-retry loop at the bottom of this job.
+  group: log-outreach-${{ github.event.client_payload.data && fromJSON(github.event.client_payload.data).issue_number || 'unknown' }}
   cancel-in-progress: false
 
 jobs:
@@ -39,10 +46,25 @@ jobs:
           payload['logged_at_utc'] = datetime.datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
           log = pathlib.Path('outreach_log.csv')
           write_header = not log.exists()
-          with log.open('a', encoding='utf-8', newline='') as f:
-              w = csv.DictWriter(f, fieldnames=fields)
-              if write_header: w.writeheader()
-              w.writerow({k: payload.get(k, '') for k in fields})
+
+          # Dedup guard: per-issue concurrency serializes same-issue dispatches,
+          # but a run that already appended a row shouldn't append it again if
+          # the user accidentally re-clicks after the issue is closed.
+          issue_no = str(payload.get('issue_number','')).strip()
+          already_logged = False
+          if issue_no and log.exists():
+              with log.open('r', encoding='utf-8-sig', newline='') as f:
+                  for r in csv.DictReader(f):
+                      if str(r.get('issue_number','')).strip() == issue_no:
+                          already_logged = True
+                          break
+          if already_logged:
+              print(f'issue #{issue_no} already in outreach_log.csv — skip append')
+          else:
+              with log.open('a', encoding='utf-8', newline='') as f:
+                  w = csv.DictWriter(f, fieldnames=fields)
+                  if write_header: w.writeheader()
+                  w.writerow({k: payload.get(k, '') for k in fields})
 
           issue = payload.get('issue_number')
           if issue:
@@ -69,6 +91,15 @@ jobs:
             exit 0
           fi
           git commit -m "log: outreach $(date -u +%FT%TZ)"
-          for i in 1 2 3; do
-            git pull --rebase --autostash origin main && git push && break || sleep 5
+          # Parallel runs (now allowed by per-issue concurrency) race on
+          # `git push` — retry aggressively with jitter so bursts survive.
+          # Was 3 tries × 5s, upped to 15 tries × 3-9s after 2026-07-29.
+          for i in 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15; do
+            if git pull --rebase --autostash origin main && git push; then
+              echo "pushed on attempt $i"
+              exit 0
+            fi
+            sleep $((3 + RANDOM % 7))
           done
+          echo "::error::exhausted 15 push attempts"
+          exit 1
