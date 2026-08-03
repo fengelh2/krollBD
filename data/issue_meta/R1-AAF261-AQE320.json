@@ -34,6 +34,39 @@
       "confidence": "verified",
       "evidence": "filed with SFC by the firm at licensing",
       "fetched_at_utc": "2026-07-28T01:40:10.478129+00:00"
+    },
+    {
+      "email": "xianghong.li@cmbi.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LI Xiang Hong"
+    },
+    {
+      "email": "xianghongli@cmbi.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LI Xiang Hong"
+    },
+    {
+      "email": "xli@cmbi.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LI Xiang Hong"
+    },
+    {
+      "email": "info@cmbi.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@cmbi.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@cmbi.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
     }
   ],
   "asset_classes": "public_equity,public_credit,multi",

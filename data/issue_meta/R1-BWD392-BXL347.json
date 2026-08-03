@@ -34,6 +34,39 @@
       "confidence": "verified",
       "evidence": "filed with SFC by the firm at licensing",
       "fetched_at_utc": "2026-07-28T01:40:10.508336+00:00"
+    },
+    {
+      "email": "saintjean.marine@blue.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "SAINT-JEAN Audrey Laurie Marine"
+    },
+    {
+      "email": "saintjeanmarine@blue.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "SAINT-JEAN Audrey Laurie Marine"
+    },
+    {
+      "email": "smarine@blue.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "SAINT-JEAN Audrey Laurie Marine"
+    },
+    {
+      "email": "info@blue.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@blue.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@blue.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
     }
   ],
   "asset_classes": "unknown",

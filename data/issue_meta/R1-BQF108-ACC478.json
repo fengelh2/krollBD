@@ -1,0 +1,39 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "Joy Rich Asset Management Company Limited",
+  "natural": "Joy Rich",
+  "ceref": "BQF108",
+  "ros": [
+    {
+      "name": "LAM Yee Yin, Dickson",
+      "ceref": "ACC478"
+    }
+  ],
+  "primary_ro": "LAM Yee Yin, Dickson",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BQF108/details?locale=en",
+  "email_subject": "Congratulations on your RO appointment at Joy Rich",
+  "email_body": "Dear Dickson,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at Joy Rich.\n\nFor newly appointed ROs like yourself, settling into the role often means getting a clear view of where the firm's compliance posture sits — internal policies, current filings, ongoing SFC engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps SFC-licensed firms with exactly that, scaled to the firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "FSCR",
+  "variant_id": "R1-v3-FSCR",
+  "email_body_hash": "6e0e175793",
+  "email_candidates": [
+    {
+      "email": "rolandlau@jrsec.hk",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-08-03T02:17:55.824194+00:00"
+    }
+  ],
+  "asset_classes": "public_equity,public_credit,unknown",
+  "illiq_likelihood": "low",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "Joy Rich Group",
+  "classification_source": "website",
+  "website_accuracy": "probable",
+  "sfc_filed_website": "www.jrasset.hk",
+  "hunter_hits": [],
+  "hunter_attempted_utc": "2026-08-03T02:22:35.337465+00:00"
+}

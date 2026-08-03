@@ -1,0 +1,85 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "Citadel Asia Limited",
+  "natural": "Citadel",
+  "ceref": "AML955",
+  "ros": [
+    {
+      "name": "YANG Fan",
+      "ceref": "ARH595"
+    }
+  ],
+  "primary_ro": "YANG Fan",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/AML955/details?locale=en",
+  "email_subject": "Congratulations on your RO appointment at Citadel",
+  "email_body": "Dear Fan,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at Citadel.\n\nFor newly appointed ROs like yourself, settling into the role often means getting a clear view of where the firm's compliance posture sits — internal policies, current filings, ongoing SFC engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps SFC-licensed firms with exactly that, scaled to the firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "FSCR",
+  "variant_id": "R1-v3-FSCR",
+  "email_body_hash": "7c86fe96f4",
+  "email_candidates": [
+    {
+      "email": "fan.yang@citadel.com",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "YANG Fan",
+      "score": 82,
+      "abstract_verdict": "quota_exhausted",
+      "abstract_detail": null,
+      "evidence": "Hunter score 82 + AbstractAPI: quota_exhausted"
+    },
+    {
+      "email": "amcomplianceasia@citadel.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-08-03T02:17:55.821997+00:00"
+    },
+    {
+      "email": "fanyang@citadel.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "YANG Fan"
+    },
+    {
+      "email": "fyang@citadel.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "YANG Fan"
+    },
+    {
+      "email": "info@citadel.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@citadel.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@citadel.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "public_equity,public_credit,multi",
+  "illiq_likelihood": "low",
+  "aum_raw_string": "$68B investment capital",
+  "aum_usd_m": "68000",
+  "parent_org": "",
+  "classification_source": "website",
+  "website_accuracy": "probable",
+  "sfc_filed_website": "www.citadel.com",
+  "hunter_hits": [
+    {
+      "email": "fan.yang@citadel.com",
+      "score": 82,
+      "ro": "YANG Fan",
+      "fetched_at_utc": "2026-08-03T02:23:17.083627+00:00",
+      "abstract_verdict": "quota_exhausted",
+      "abstract_detail": null
+    }
+  ],
+  "hunter_attempted_utc": "2026-08-03T02:23:17.083643+00:00"
+}

@@ -1,0 +1,85 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "BlackRock Asset Management North Asia Limited",
+  "natural": "BlackRock",
+  "ceref": "AFF275",
+  "ros": [
+    {
+      "name": "ZHUANG Shenghao Eugene",
+      "ceref": "BOP949"
+    }
+  ],
+  "primary_ro": "ZHUANG Shenghao Eugene",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/AFF275/details?locale=en",
+  "email_subject": "Congratulations on your RO appointment at BlackRock",
+  "email_body": "Dear Eugene,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at BlackRock.\n\nFor illiquid managers like yourself, the marks the RO signs off on tend to be the most scrutinised line items on the books — LPs want comfort, auditors want defensibility, and internal-only marks usually invite more questions than they close. Kroll's Portfolio Valuation team here in Hong Kong helps with exactly that — robust independent valuations across private equity, private credit, and other illiquid strategies.\n\nIf a quick chat would be useful — now, or down the line — happy to set one up. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "PV",
+  "variant_id": "R1-v3-PV",
+  "email_body_hash": "8331569a3c",
+  "email_candidates": [
+    {
+      "email": "shenghao.zhuang@blackrock.com",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "ZHUANG Shenghao Eugene",
+      "score": 49,
+      "abstract_verdict": "quota_exhausted",
+      "abstract_detail": null,
+      "evidence": "Hunter score 49 + AbstractAPI: quota_exhausted"
+    },
+    {
+      "email": "hkglicensing@blackrock.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-08-03T02:17:55.821406+00:00"
+    },
+    {
+      "email": "shenghaozhuang@blackrock.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "ZHUANG Shenghao Eugene"
+    },
+    {
+      "email": "szhuang@blackrock.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "ZHUANG Shenghao Eugene"
+    },
+    {
+      "email": "info@blackrock.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@blackrock.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@blackrock.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "public_equity,public_credit,commodity,multi",
+  "illiq_likelihood": "medium",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "BlackRock",
+  "classification_source": "consensus_website_plus",
+  "website_accuracy": "probable",
+  "sfc_filed_website": "www.blackrock.com",
+  "hunter_hits": [
+    {
+      "email": "shenghao.zhuang@blackrock.com",
+      "score": 49,
+      "ro": "ZHUANG Shenghao Eugene",
+      "fetched_at_utc": "2026-08-03T02:23:34.227692+00:00",
+      "abstract_verdict": "quota_exhausted",
+      "abstract_detail": null
+    }
+  ],
+  "hunter_attempted_utc": "2026-08-03T02:23:34.227707+00:00"
+}

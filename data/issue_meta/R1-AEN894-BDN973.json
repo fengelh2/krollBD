@@ -1,0 +1,92 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "China International Capital Corporation Hong Kong Securities Limited",
+  "natural": "China International Capital Corporation Hong Kong",
+  "ceref": "AEN894",
+  "ros": [
+    {
+      "name": "FUNG Man Heng",
+      "ceref": "BDN973"
+    }
+  ],
+  "primary_ro": "FUNG Man Heng",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/AEN894/details?locale=en",
+  "email_subject": "Congratulations on your RO appointment at China International Capital Corporation Hong Kong",
+  "email_body": "Dear Man Heng,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at China International Capital Corporation Hong Kong.\n\nFor illiquid managers like yourself, the marks the RO signs off on tend to be the most scrutinised line items on the books — LPs want comfort, auditors want defensibility, and internal-only marks usually invite more questions than they close. Kroll's Portfolio Valuation team here in Hong Kong helps with exactly that — robust independent valuations across private equity, private credit, and other illiquid strategies.\n\nIf a quick chat would be useful — now, or down the line — happy to set one up. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "PV",
+  "variant_id": "R1-v3-PV",
+  "email_body_hash": "83b4e3d0c9",
+  "email_candidates": [
+    {
+      "email": "man-heng.fung@cicc.com.cn",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "FUNG Man Heng",
+      "score": 72,
+      "abstract_verdict": "quota_exhausted",
+      "abstract_detail": null,
+      "evidence": "Hunter score 72 + AbstractAPI: quota_exhausted"
+    },
+    {
+      "email": "info@cicc.com.cn",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-08-03T02:17:55.820987+00:00"
+    },
+    {
+      "email": "cis@cicc.com.cn",
+      "kind": "observed_on_site",
+      "confidence": "verified",
+      "ro": null
+    },
+    {
+      "email": "manheng.fung@cicc.com.cn",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "FUNG Man Heng"
+    },
+    {
+      "email": "manhengfung@cicc.com.cn",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "FUNG Man Heng"
+    },
+    {
+      "email": "mfung@cicc.com.cn",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "FUNG Man Heng"
+    },
+    {
+      "email": "contact@cicc.com.cn",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@cicc.com.cn",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "private_equity,private_credit,public_equity,public_credit,multi",
+  "illiq_likelihood": "high",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "website",
+  "website_accuracy": "probable",
+  "sfc_filed_website": "www.cicc.com.cn",
+  "hunter_hits": [
+    {
+      "email": "man-heng.fung@cicc.com.cn",
+      "score": 72,
+      "ro": "FUNG Man Heng",
+      "fetched_at_utc": "2026-08-03T02:23:21.964607+00:00",
+      "abstract_verdict": "quota_exhausted",
+      "abstract_detail": null
+    }
+  ],
+  "hunter_attempted_utc": "2026-08-03T02:23:21.964620+00:00"
+}

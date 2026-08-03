@@ -34,6 +34,33 @@
       "confidence": "verified",
       "evidence": "filed with SFC by the firm at licensing",
       "fetched_at_utc": "2026-07-28T01:40:10.477822+00:00"
+    },
+    {
+      "email": "tinatong@aberdeeninvestments.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "TONG Yin Nam, Tina"
+    },
+    {
+      "email": "ttong@aberdeeninvestments.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "TONG Yin Nam, Tina"
+    },
+    {
+      "email": "info@aberdeeninvestments.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@aberdeeninvestments.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@aberdeeninvestments.com",
+      "kind": "generic_guess",
+      "confidence": "low"
     }
   ],
   "asset_classes": "public_equity,public_credit,multi",

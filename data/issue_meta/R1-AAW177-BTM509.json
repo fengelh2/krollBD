@@ -34,6 +34,39 @@
       "confidence": "verified",
       "evidence": "filed with SFC by the firm at licensing",
       "fetched_at_utc": "2026-07-28T01:40:10.480569+00:00"
+    },
+    {
+      "email": "xuehui.zhang@metasecurities.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "ZHANG Xuehui"
+    },
+    {
+      "email": "xuehuizhang@metasecurities.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "ZHANG Xuehui"
+    },
+    {
+      "email": "xzhang@metasecurities.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "ZHANG Xuehui"
+    },
+    {
+      "email": "info@metasecurities.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@metasecurities.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@metasecurities.com",
+      "kind": "generic_guess",
+      "confidence": "low"
     }
   ],
   "asset_classes": "public_equity,public_credit,multi",

@@ -1,0 +1,85 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "Citigroup Global Markets Asia Limited",
+  "natural": "Citigroup Global",
+  "ceref": "AAA137",
+  "ros": [
+    {
+      "name": "TSANG Chi Yan, Davy",
+      "ceref": "ARF362"
+    }
+  ],
+  "primary_ro": "TSANG Chi Yan, Davy",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/AAA137/details?locale=en",
+  "email_subject": "Congratulations on your RO appointment at Citigroup Global",
+  "email_body": "Dear Davy,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at Citigroup Global.\n\nFor illiquid managers like yourself, the marks the RO signs off on tend to be the most scrutinised line items on the books — LPs want comfort, auditors want defensibility, and internal-only marks usually invite more questions than they close. Kroll's Portfolio Valuation team here in Hong Kong helps with exactly that — robust independent valuations across private equity, private credit, and other illiquid strategies.\n\nIf a quick chat would be useful — now, or down the line — happy to set one up. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "PV",
+  "variant_id": "R1-v3-PV",
+  "email_body_hash": "5859289508",
+  "email_candidates": [
+    {
+      "email": "davy.tsang@citigroup.com",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "TSANG Chi Yan, Davy",
+      "score": 80,
+      "abstract_verdict": "quota_exhausted",
+      "abstract_detail": null,
+      "evidence": "Hunter score 80 + AbstractAPI: quota_exhausted"
+    },
+    {
+      "email": "wanda.yau@citi.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-08-03T02:17:55.820341+00:00"
+    },
+    {
+      "email": "davytsang@citigroup.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "TSANG Chi Yan, Davy"
+    },
+    {
+      "email": "dtsang@citigroup.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "TSANG Chi Yan, Davy"
+    },
+    {
+      "email": "info@citigroup.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@citigroup.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@citigroup.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "public_equity,public_credit,multi",
+  "illiq_likelihood": "medium",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "Citigroup Inc.",
+  "classification_source": "consensus_website_plus",
+  "website_accuracy": "verified",
+  "sfc_filed_website": "www.citigroup.com",
+  "hunter_hits": [
+    {
+      "email": "davy.tsang@citigroup.com",
+      "score": 80,
+      "ro": "TSANG Chi Yan, Davy",
+      "fetched_at_utc": "2026-08-03T02:23:25.568192+00:00",
+      "abstract_verdict": "quota_exhausted",
+      "abstract_detail": null
+    }
+  ],
+  "hunter_attempted_utc": "2026-08-03T02:23:25.568207+00:00"
+}

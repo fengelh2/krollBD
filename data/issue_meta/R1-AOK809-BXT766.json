@@ -34,6 +34,39 @@
       "confidence": "verified",
       "evidence": "filed with SFC by the firm at licensing",
       "fetched_at_utc": "2026-07-28T01:40:10.487207+00:00"
+    },
+    {
+      "email": "dayu.zhang@htsc.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "ZHANG Dayu"
+    },
+    {
+      "email": "dayuzhang@htsc.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "ZHANG Dayu"
+    },
+    {
+      "email": "dzhang@htsc.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "ZHANG Dayu"
+    },
+    {
+      "email": "info@htsc.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@htsc.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@htsc.com",
+      "kind": "generic_guess",
+      "confidence": "low"
     }
   ],
   "asset_classes": "multi",

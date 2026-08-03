@@ -18,9 +18,9 @@
   "primary_ro": "CHAN Tai Wai, David",
   "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BJP811/details?locale=en",
   "email_subject": "CHG — note on the recent rebrand",
-  "email_body": "Dear Erina and CHG Management,\n\nThis is Felix from Kroll in Hong Kong. The SFC public register shows that Po Lee has been renamed to CHG.\n\nRebrands often accompany broader changes — a new sponsor, a strategy refresh, or an organisational reshape — and these moments are often a natural time to revisit fund-level valuation policies and the operating arrangements behind them.\n\nKroll's Portfolio Valuation team works with SFC-regulated managers across Hong Kong on independent fair-value opinions for private equity and credit positions, and our adjacent FSCR colleagues support governance and regulatory engagement. Happy to set up an informal call if any of this would be useful as you transition.\n\nKind regards,\nFelix Engelhardt\n",
+  "email_body": "Dear Xinxin and CHG Management,\n\nThis is Felix from Kroll in Hong Kong. The SFC public register shows that Po Lee has been renamed to CHG.\n\nRebrands often accompany broader changes — a new sponsor, a strategy refresh, or an organisational reshape — and these moments are often a natural time to revisit fund-level valuation policies and the operating arrangements behind them.\n\nKroll's Portfolio Valuation team works with SFC-regulated managers across Hong Kong on independent fair-value opinions for private equity and credit positions, and our adjacent FSCR colleagues support governance and regulatory engagement. Happy to set up an informal call if any of this would be useful as you transition.\n\nKind regards,\nFelix Engelhardt\n",
   "variant_id": "C5-v2",
-  "email_body_hash": "4b7950428f",
+  "email_body_hash": "54a32cdf7d",
   "email_candidates": [
     {
       "email": "xinxin.guo@midland.com.hk",
@@ -50,53 +50,41 @@
       "fetched_at_utc": "2026-07-28T01:40:10.472787+00:00"
     },
     {
-      "email": "david.chan@plsl.hk",
+      "email": "davidchan@midland.com.hk",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "CHAN Tai Wai, David"
     },
     {
-      "email": "davidchan@plsl.hk",
+      "email": "dchan@midland.com.hk",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "CHAN Tai Wai, David"
     },
     {
-      "email": "dchan@plsl.hk",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "CHAN Tai Wai, David"
-    },
-    {
-      "email": "xinxin.guo@plsl.hk",
+      "email": "xinxinguo@midland.com.hk",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "GUO Xinxin"
     },
     {
-      "email": "xinxinguo@plsl.hk",
+      "email": "xguo@midland.com.hk",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "GUO Xinxin"
     },
     {
-      "email": "xguo@plsl.hk",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "GUO Xinxin"
-    },
-    {
-      "email": "info@plsl.hk",
+      "email": "info@midland.com.hk",
       "kind": "generic_guess",
       "confidence": "low"
     },
     {
-      "email": "contact@plsl.hk",
+      "email": "contact@midland.com.hk",
       "kind": "generic_guess",
       "confidence": "low"
     },
     {
-      "email": "enquiry@plsl.hk",
+      "email": "enquiry@midland.com.hk",
       "kind": "generic_guess",
       "confidence": "low"
     }

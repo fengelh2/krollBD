@@ -18,9 +18,9 @@
   "primary_ro": "CHAN Tai Wai, David",
   "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/AAZ886/details?locale=en",
   "email_subject": "CHG — note on the recent rebrand",
-  "email_body": "Dear Erina and CHG Management,\n\nThis is Felix from Kroll in Hong Kong. The SFC public register shows that Po Lee has been renamed to CHG.\n\nRebrands often accompany broader changes — a new sponsor, a strategy refresh, or an organisational reshape — and these moments are often a natural time to revisit fund-level valuation policies and the operating arrangements behind them.\n\nKroll's Portfolio Valuation team works with SFC-regulated managers across Hong Kong on independent fair-value opinions for private equity and credit positions, and our adjacent FSCR colleagues support governance and regulatory engagement. Happy to set up an informal call if any of this would be useful as you transition.\n\nKind regards,\nFelix Engelhardt\n",
+  "email_body": "Dear Xinxin and CHG Management,\n\nThis is Felix from Kroll in Hong Kong. The SFC public register shows that Po Lee has been renamed to CHG.\n\nRebrands often accompany broader changes — a new sponsor, a strategy refresh, or an organisational reshape — and these moments are often a natural time to revisit fund-level valuation policies and the operating arrangements behind them.\n\nKroll's Portfolio Valuation team works with SFC-regulated managers across Hong Kong on independent fair-value opinions for private equity and credit positions, and our adjacent FSCR colleagues support governance and regulatory engagement. Happy to set up an informal call if any of this would be useful as you transition.\n\nKind regards,\nFelix Engelhardt\n",
   "variant_id": "C5-v2",
-  "email_body_hash": "4b7950428f",
+  "email_body_hash": "54a32cdf7d",
   "email_candidates": [
     {
       "email": "xinxin@renavon.com",
@@ -50,53 +50,53 @@
       "fetched_at_utc": "2026-07-28T01:40:10.470852+00:00"
     },
     {
-      "email": "david.chan@plsl.hk",
+      "email": "david.chan@renavon.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "CHAN Tai Wai, David"
     },
     {
-      "email": "davidchan@plsl.hk",
+      "email": "davidchan@renavon.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "CHAN Tai Wai, David"
     },
     {
-      "email": "dchan@plsl.hk",
+      "email": "dchan@renavon.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "CHAN Tai Wai, David"
     },
     {
-      "email": "xinxin.guo@plsl.hk",
+      "email": "xinxin.guo@renavon.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "GUO Xinxin"
     },
     {
-      "email": "xinxinguo@plsl.hk",
+      "email": "xinxinguo@renavon.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "GUO Xinxin"
     },
     {
-      "email": "xguo@plsl.hk",
+      "email": "xguo@renavon.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "GUO Xinxin"
     },
     {
-      "email": "info@plsl.hk",
+      "email": "info@renavon.com",
       "kind": "generic_guess",
       "confidence": "low"
     },
     {
-      "email": "contact@plsl.hk",
+      "email": "contact@renavon.com",
       "kind": "generic_guess",
       "confidence": "low"
     },
     {
-      "email": "enquiry@plsl.hk",
+      "email": "enquiry@renavon.com",
       "kind": "generic_guess",
       "confidence": "low"
     }

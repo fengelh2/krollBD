@@ -36,35 +36,29 @@
       "fetched_at_utc": "2026-07-28T01:40:10.494161+00:00"
     },
     {
-      "email": "qian.wang@chinax.team",
+      "email": "qian.wang@china.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "WANG Qian"
     },
     {
-      "email": "qianwang@chinax.team",
+      "email": "qwang@china.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "WANG Qian"
     },
     {
-      "email": "qwang@chinax.team",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "WANG Qian"
-    },
-    {
-      "email": "info@chinax.team",
+      "email": "info@china.com",
       "kind": "generic_guess",
       "confidence": "low"
     },
     {
-      "email": "contact@chinax.team",
+      "email": "contact@china.com",
       "kind": "generic_guess",
       "confidence": "low"
     },
     {
-      "email": "enquiry@chinax.team",
+      "email": "enquiry@china.com",
       "kind": "generic_guess",
       "confidence": "low"
     }

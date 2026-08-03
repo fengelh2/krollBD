@@ -1,0 +1,39 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "Cosmos One Capital Limited",
+  "natural": "Cosmos One Capital",
+  "ceref": "BOZ756",
+  "ros": [
+    {
+      "name": "YANG Jia",
+      "ceref": "BCH643"
+    }
+  ],
+  "primary_ro": "YANG Jia",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BOZ756/details?locale=en",
+  "email_subject": "Congratulations on your RO appointment at Cosmos One Capital",
+  "email_body": "Dear Jia,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at Cosmos One Capital.\n\nFor newly appointed ROs like yourself, settling into the role often means getting a clear view of where the firm's compliance posture sits — internal policies, current filings, ongoing SFC engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps SFC-licensed firms with exactly that, scaled to the firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "FSCR",
+  "variant_id": "R1-v3-FSCR",
+  "email_body_hash": "258a75875c",
+  "email_candidates": [
+    {
+      "email": "info@cosonecap.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-08-03T02:17:55.824005+00:00"
+    }
+  ],
+  "asset_classes": "public_equity,public_credit,multi",
+  "illiq_likelihood": "low",
+  "aum_raw_string": "目前管理規模近20億美金",
+  "aum_usd_m": "2000",
+  "parent_org": "",
+  "classification_source": "website",
+  "website_accuracy": "suspect",
+  "sfc_filed_website": "www.cosonecap.com",
+  "hunter_hits": [],
+  "hunter_attempted_utc": "2026-08-03T02:23:15.582253+00:00"
+}

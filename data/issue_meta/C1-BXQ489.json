@@ -1,0 +1,92 @@
+{
+  "type": "C1",
+  "type_label": "New Type 9 corp",
+  "firm": "CoreBridge Capital Limited",
+  "natural": "CoreBridge Capital",
+  "ceref": "BXQ489",
+  "address": "Suite 1901 & 1920,19/F, Jardine House,1 Connaught Place, Central, Hong Kong",
+  "ros": [
+    {
+      "name": "SUN Mengqian",
+      "ceref": "BFJ288"
+    },
+    {
+      "name": "TANG Weiguo",
+      "ceref": "AUW905"
+    }
+  ],
+  "primary_ro": "SUN Mengqian",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BXQ489/details?locale=en",
+  "email_subject": "Congratulations on CoreBridge Capital's SFC Type 9 license",
+  "email_body": "Dear CoreBridge Capital Management,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on CoreBridge Capital's recent Type 9 licensing with the SFC.\n\nAs newly licensed managers like yourself establish and scale operations, we often see a need for practical support around compliance, governance, and regulatory engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps with exactly that, scaled to your firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "FSCR",
+  "variant_id": "C1-v4-FSCR",
+  "email_body_hash": "dbf58e8e0a",
+  "email_candidates": [
+    {
+      "email": "tommy.tang@corebridgecap.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-08-03T02:17:55.818925+00:00"
+    },
+    {
+      "email": "mengqian.sun@corebridgecap.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "SUN Mengqian"
+    },
+    {
+      "email": "mengqiansun@corebridgecap.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "SUN Mengqian"
+    },
+    {
+      "email": "msun@corebridgecap.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "SUN Mengqian"
+    },
+    {
+      "email": "weiguo.tang@corebridgecap.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "TANG Weiguo"
+    },
+    {
+      "email": "weiguotang@corebridgecap.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "TANG Weiguo"
+    },
+    {
+      "email": "wtang@corebridgecap.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "TANG Weiguo"
+    },
+    {
+      "email": "info@corebridgecap.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@corebridgecap.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@corebridgecap.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "unknown",
+  "illiq_likelihood": "unknown",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "none",
+  "website_accuracy": "not_found"
+}

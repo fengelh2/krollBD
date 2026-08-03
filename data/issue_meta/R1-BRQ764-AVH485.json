@@ -36,35 +36,35 @@
       "fetched_at_utc": "2026-07-28T01:40:10.502668+00:00"
     },
     {
-      "email": "michael.li@kvv-capital.com",
+      "email": "michael.li@renavon.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "LI Ming Jeung, Michael"
     },
     {
-      "email": "michaelli@kvv-capital.com",
+      "email": "michaelli@renavon.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "LI Ming Jeung, Michael"
     },
     {
-      "email": "mli@kvv-capital.com",
+      "email": "mli@renavon.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "LI Ming Jeung, Michael"
     },
     {
-      "email": "info@kvv-capital.com",
+      "email": "info@renavon.com",
       "kind": "generic_guess",
       "confidence": "low"
     },
     {
-      "email": "contact@kvv-capital.com",
+      "email": "contact@renavon.com",
       "kind": "generic_guess",
       "confidence": "low"
     },
     {
-      "email": "enquiry@kvv-capital.com",
+      "email": "enquiry@renavon.com",
       "kind": "generic_guess",
       "confidence": "low"
     }

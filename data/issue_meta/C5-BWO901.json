@@ -1,0 +1,38 @@
+{
+  "type": "C5",
+  "type_label": "Rebrand / name change",
+  "firm": "China International CatalysTech (Hong Kong) Limited",
+  "old_firm": "CHINA INTERNATIONAL CAPITAL OF TECHNOLOGY (HONG KONG) LIMITED",
+  "natural": "China International CatalysTech",
+  "ceref": "BWO901",
+  "ros": [
+    {
+      "name": "SHAN Li",
+      "ceref": "ANG467"
+    }
+  ],
+  "primary_ro": "SHAN Li",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BWO901/details?locale=en",
+  "email_subject": "China International CatalysTech — note on the recent rebrand",
+  "email_body": "Dear China International CatalysTech Management,\n\nThis is Felix from Kroll in Hong Kong. The SFC public register shows that International Capital Of Technology has been renamed to China International CatalysTech.\n\nRebrands often accompany broader changes — a new sponsor, a strategy refresh, or an organisational reshape — and these moments are often a natural time to revisit fund-level valuation policies and the operating arrangements behind them.\n\nKroll's Portfolio Valuation team works with SFC-regulated managers across Hong Kong on independent fair-value opinions for private equity and credit positions, and our adjacent FSCR colleagues support governance and regulatory engagement. Happy to set up an informal call if any of this would be useful as you transition.\n\nKind regards,\nFelix Engelhardt\n",
+  "variant_id": "C5-v2",
+  "email_body_hash": "1dadaa501c",
+  "email_candidates": [
+    {
+      "email": "info@cicthk.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-08-03T02:17:55.819748+00:00"
+    }
+  ],
+  "asset_classes": "unknown",
+  "illiq_likelihood": "unknown",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "none",
+  "website_accuracy": "not_found",
+  "hunter_hits": [],
+  "hunter_attempted_utc": "2026-08-03T02:23:56.235820+00:00"
+}
