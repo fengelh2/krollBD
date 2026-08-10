@@ -1,0 +1,91 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "UBS Securities Asia Limited",
+  "natural": "UBS",
+  "ceref": "AAV882",
+  "ros": [
+    {
+      "name": "FARTHING Jon Kristofer",
+      "ceref": "BBC926"
+    }
+  ],
+  "primary_ro": "FARTHING Jon Kristofer",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/AAV882/details?locale=en",
+  "email_subject": "Congratulations on your RO appointment at UBS",
+  "email_body": "Dear Jon Kristofer,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at UBS.\n\nFor illiquid managers like yourself, the marks the RO signs off on tend to be the most scrutinised line items on the books — LPs want comfort, auditors want defensibility, and internal-only marks usually invite more questions than they close. Kroll's Portfolio Valuation team here in Hong Kong helps with exactly that — robust independent valuations across private equity, private credit, and other illiquid strategies.\n\nIf a quick chat would be useful — now, or down the line — happy to set one up. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "PV",
+  "variant_id": "R1-v3-PV",
+  "email_body_hash": "513812b974",
+  "email_candidates": [
+    {
+      "email": "jon-kristofer.farthing@ubs.com",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "FARTHING Jon Kristofer",
+      "score": 49,
+      "abstract_verdict": "quota_exhausted",
+      "abstract_detail": null,
+      "evidence": "Hunter score 49 + AbstractAPI: quota_exhausted"
+    },
+    {
+      "email": "ol-regulatorycompliance-hk@ubs.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-08-10T01:22:10.768708+00:00"
+    },
+    {
+      "email": "jonkristofer.farthing@ubs.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "FARTHING Jon Kristofer"
+    },
+    {
+      "email": "jonkristoferfarthing@ubs.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "FARTHING Jon Kristofer"
+    },
+    {
+      "email": "jfarthing@ubs.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "FARTHING Jon Kristofer"
+    },
+    {
+      "email": "info@ubs.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@ubs.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@ubs.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "multi",
+  "illiq_likelihood": "medium",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "UBS Group AG",
+  "classification_source": "consensus_website_plus",
+  "website_accuracy": "probable",
+  "sfc_filed_website": "www.ubs.com",
+  "hunter_hits": [
+    {
+      "email": "jon-kristofer.farthing@ubs.com",
+      "score": 49,
+      "ro": "FARTHING Jon Kristofer",
+      "fetched_at_utc": "2026-08-10T01:28:50.315951+00:00",
+      "abstract_verdict": "quota_exhausted",
+      "abstract_detail": null
+    }
+  ],
+  "hunter_attempted_utc": "2026-08-10T01:28:50.315969+00:00"
+}

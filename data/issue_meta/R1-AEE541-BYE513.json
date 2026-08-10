@@ -1,0 +1,80 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "Cinda International Capital Limited",
+  "natural": "Cinda International Capital",
+  "ceref": "AEE541",
+  "ros": [
+    {
+      "name": "REN Jie",
+      "ceref": "BYE513"
+    }
+  ],
+  "primary_ro": "REN Jie",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/AEE541/details?locale=en",
+  "email_subject": "Congratulations on your RO appointment at Cinda International Capital",
+  "email_body": "Dear Jie,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at Cinda International Capital.\n\nFor newly appointed ROs like yourself, settling into the role often means getting a clear view of where the firm's compliance posture sits — internal policies, current filings, ongoing SFC engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps SFC-licensed firms with exactly that, scaled to the firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "FSCR",
+  "variant_id": "R1-v3-FSCR",
+  "email_body_hash": "ba6e570c89",
+  "email_candidates": [
+    {
+      "email": "jie.ren@cinda.com.hk",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "REN Jie",
+      "score": 99,
+      "abstract_verdict": "quota_exhausted",
+      "abstract_detail": null,
+      "evidence": "Hunter score 99 + AbstractAPI: quota_exhausted"
+    },
+    {
+      "email": "info@cinda.com.hk",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-08-10T01:22:10.770281+00:00"
+    },
+    {
+      "email": "jieren@cinda.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "REN Jie"
+    },
+    {
+      "email": "jren@cinda.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "REN Jie"
+    },
+    {
+      "email": "contact@cinda.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@cinda.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "unknown",
+  "illiq_likelihood": "unknown",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "none",
+  "website_accuracy": "not_found",
+  "sfc_filed_website": "www.cinda.com.hk",
+  "hunter_hits": [
+    {
+      "email": "jie.ren@cinda.com.hk",
+      "score": 99,
+      "ro": "REN Jie",
+      "fetched_at_utc": "2026-08-10T01:30:52.640038+00:00",
+      "abstract_verdict": "quota_exhausted",
+      "abstract_detail": null
+    }
+  ],
+  "hunter_attempted_utc": "2026-08-10T01:30:52.640057+00:00"
+}

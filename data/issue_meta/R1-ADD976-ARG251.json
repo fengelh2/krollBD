@@ -1,0 +1,72 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "Platinum Securities Company Limited",
+  "natural": "Platinum",
+  "ceref": "ADD976",
+  "ros": [
+    {
+      "name": "CHEN Nan",
+      "ceref": "ARG251"
+    }
+  ],
+  "primary_ro": "CHEN Nan",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/ADD976/details?locale=en",
+  "email_subject": "Congratulations on your RO appointment at Platinum",
+  "email_body": "Dear Nan,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at Platinum.\n\nFor newly appointed ROs like yourself, settling into the role often means getting a clear view of where the firm's compliance posture sits — internal policies, current filings, ongoing SFC engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps SFC-licensed firms with exactly that, scaled to the firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "FSCR",
+  "variant_id": "R1-v3-FSCR",
+  "email_body_hash": "6b2e460b44",
+  "email_candidates": [
+    {
+      "email": "compliance@platina.net",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-08-10T01:22:10.770013+00:00"
+    },
+    {
+      "email": "nan.chen@platinum-asia.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHEN Nan"
+    },
+    {
+      "email": "nanchen@platinum-asia.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHEN Nan"
+    },
+    {
+      "email": "nchen@platinum-asia.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHEN Nan"
+    },
+    {
+      "email": "info@platinum-asia.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@platinum-asia.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@platinum-asia.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "public_equity,public_credit",
+  "illiq_likelihood": "low",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "website",
+  "website_accuracy": "probable",
+  "sfc_filed_website": "www.platinum-asia.com",
+  "hunter_hits": [],
+  "hunter_attempted_utc": "2026-08-10T01:29:36.770901+00:00"
+}

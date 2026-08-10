@@ -1,0 +1,86 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "Cinda International Securities Limited",
+  "natural": "Cinda International",
+  "ceref": "AEL202",
+  "ros": [
+    {
+      "name": "REN Jie",
+      "ceref": "BYE513"
+    }
+  ],
+  "primary_ro": "REN Jie",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/AEL202/details?locale=en",
+  "email_subject": "Congratulations on your RO appointment at Cinda International",
+  "email_body": "Dear Jie,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at Cinda International.\n\nFor illiquid managers like yourself, the marks the RO signs off on tend to be the most scrutinised line items on the books — LPs want comfort, auditors want defensibility, and internal-only marks usually invite more questions than they close. Kroll's Portfolio Valuation team here in Hong Kong helps with exactly that — robust independent valuations across private equity, private credit, and other illiquid strategies.\n\nIf a quick chat would be useful — now, or down the line — happy to set one up. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "PV",
+  "variant_id": "R1-v3-PV",
+  "email_body_hash": "075c4a4230",
+  "email_candidates": [
+    {
+      "email": "jie.ren@cinda.com.hk",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "REN Jie",
+      "score": 99,
+      "abstract_verdict": "quota_exhausted",
+      "abstract_detail": null,
+      "evidence": "Hunter score 99 + AbstractAPI: quota_exhausted"
+    },
+    {
+      "email": "info@cinda.com.hk",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-08-10T01:22:10.770600+00:00"
+    },
+    {
+      "email": "cs@cinda.com.hk",
+      "kind": "observed_on_site",
+      "confidence": "verified",
+      "ro": null
+    },
+    {
+      "email": "jieren@cinda.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "REN Jie"
+    },
+    {
+      "email": "jren@cinda.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "REN Jie"
+    },
+    {
+      "email": "contact@cinda.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@cinda.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "public_equity,public_credit,unknown",
+  "illiq_likelihood": "medium",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "Cinda International Holdings Limited",
+  "classification_source": "website",
+  "website_accuracy": "probable",
+  "sfc_filed_website": "www.cinda.com.hk",
+  "hunter_hits": [
+    {
+      "email": "jie.ren@cinda.com.hk",
+      "score": 99,
+      "ro": "REN Jie",
+      "fetched_at_utc": "2026-08-10T01:30:52.232971+00:00",
+      "abstract_verdict": "quota_exhausted",
+      "abstract_detail": null
+    }
+  ],
+  "hunter_attempted_utc": "2026-08-10T01:30:52.232988+00:00"
+}

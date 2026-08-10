@@ -1,0 +1,84 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "Solomon JFZ (Asia) Holdings Limited",
+  "natural": "Solomon JFZ",
+  "ceref": "BIF175",
+  "ros": [
+    {
+      "name": "CHAN Wang Kin",
+      "ceref": "ATX638"
+    }
+  ],
+  "primary_ro": "CHAN Wang Kin",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BIF175/details?locale=en",
+  "email_subject": "Congratulations on your RO appointment at Solomon JFZ",
+  "email_body": "Dear Wang Kin,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at Solomon JFZ.\n\nFor newly appointed ROs like yourself, settling into the role often means getting a clear view of where the firm's compliance posture sits — internal policies, current filings, ongoing SFC engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps SFC-licensed firms with exactly that, scaled to the firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "FSCR",
+  "variant_id": "R1-v3-FSCR",
+  "email_body_hash": "124d054763",
+  "email_candidates": [
+    {
+      "email": "general@solomonjfz.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-08-10T01:22:10.771569+00:00"
+    },
+    {
+      "email": "cs@solomonwin.com.hk",
+      "kind": "observed_on_site",
+      "confidence": "verified",
+      "ro": null
+    },
+    {
+      "email": "feedback@solomonwin.com.hk",
+      "kind": "generic_on_site",
+      "confidence": "verified",
+      "ro": null
+    },
+    {
+      "email": "wangkin.chan@solomonwin.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHAN Wang Kin"
+    },
+    {
+      "email": "wangkinchan@solomonwin.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHAN Wang Kin"
+    },
+    {
+      "email": "wchan@solomonwin.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHAN Wang Kin"
+    },
+    {
+      "email": "info@solomonwin.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@solomonwin.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@solomonwin.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "public_equity,public_credit,multi",
+  "illiq_likelihood": "low",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "Solomon JFZ (Asia) Holdings Limited",
+  "classification_source": "website",
+  "website_accuracy": "probable",
+  "sfc_filed_website": "https://www.solomonwin.com.hk/",
+  "hunter_hits": [],
+  "hunter_attempted_utc": "2026-08-10T01:29:23.822016+00:00"
+}

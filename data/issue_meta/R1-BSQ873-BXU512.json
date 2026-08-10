@@ -1,0 +1,72 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "Ocean Fame Management Limited",
+  "natural": "Ocean Fame",
+  "ceref": "BSQ873",
+  "ros": [
+    {
+      "name": "YANG Yi",
+      "ceref": "BXU512"
+    }
+  ],
+  "primary_ro": "YANG Yi",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BSQ873/details?locale=en",
+  "email_subject": "Congratulations on your RO appointment at Ocean Fame",
+  "email_body": "Dear Yi,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at Ocean Fame.\n\nFor illiquid managers like yourself, the marks the RO signs off on tend to be the most scrutinised line items on the books — LPs want comfort, auditors want defensibility, and internal-only marks usually invite more questions than they close. Kroll's Portfolio Valuation team here in Hong Kong helps with exactly that — robust independent valuations across private equity, private credit, and other illiquid strategies.\n\nIf a quick chat would be useful — now, or down the line — happy to set one up. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "PV",
+  "variant_id": "R1-v3-PV",
+  "email_body_hash": "4de4a81634",
+  "email_candidates": [
+    {
+      "email": "dominicsavio@vanke.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-08-10T01:22:10.773314+00:00"
+    },
+    {
+      "email": "info@oceancapital.com.hk",
+      "kind": "generic_on_site",
+      "confidence": "verified",
+      "ro": null
+    },
+    {
+      "email": "yi.yang@oceancapital.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "YANG Yi"
+    },
+    {
+      "email": "yiyang@oceancapital.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "YANG Yi"
+    },
+    {
+      "email": "yyang@oceancapital.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "YANG Yi"
+    },
+    {
+      "email": "contact@oceancapital.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@oceancapital.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "private_equity,private_credit,real_assets,multi",
+  "illiq_likelihood": "high",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "website",
+  "website_accuracy": "probable",
+  "hunter_hits": [],
+  "hunter_attempted_utc": "2026-08-10T01:29:40.749601+00:00"
+}

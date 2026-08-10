@@ -1,0 +1,90 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "IP Investment Management (HK) Limited",
+  "natural": "IP",
+  "ceref": "BCY137",
+  "ros": [
+    {
+      "name": "LANE Graeme John",
+      "ceref": "AOG216"
+    }
+  ],
+  "primary_ro": "LANE Graeme John",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BCY137/details?locale=en",
+  "email_subject": "Congratulations on your RO appointment at IP",
+  "email_body": "Dear John,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at IP.\n\nFor illiquid managers like yourself, the marks the RO signs off on tend to be the most scrutinised line items on the books — LPs want comfort, auditors want defensibility, and internal-only marks usually invite more questions than they close. Kroll's Portfolio Valuation team here in Hong Kong helps with exactly that — robust independent valuations across private equity, private credit, and other illiquid strategies.\n\nIf a quick chat would be useful — now, or down the line — happy to set one up. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "PV",
+  "variant_id": "R1-v3-PV",
+  "email_body_hash": "ca2affe343",
+  "email_candidates": [
+    {
+      "email": "info@ip-im.com.hk",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-08-10T01:22:10.771215+00:00"
+    },
+    {
+      "email": "hk@ip-im.com",
+      "kind": "observed_on_site",
+      "confidence": "verified",
+      "ro": null
+    },
+    {
+      "email": "sg@ip-im.com",
+      "kind": "observed_on_site",
+      "confidence": "verified",
+      "ro": null
+    },
+    {
+      "email": "uk@ip-im.com",
+      "kind": "observed_on_site",
+      "confidence": "verified",
+      "ro": null
+    },
+    {
+      "email": "graemejohn.lane@ip-im.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LANE Graeme John"
+    },
+    {
+      "email": "graemejohnlane@ip-im.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LANE Graeme John"
+    },
+    {
+      "email": "glane@ip-im.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LANE Graeme John"
+    },
+    {
+      "email": "info@ip-im.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@ip-im.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@ip-im.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "real_assets",
+  "illiq_likelihood": "high",
+  "aum_raw_string": "US$300m+ Assets Under Management",
+  "aum_usd_m": "300",
+  "parent_org": "",
+  "classification_source": "website",
+  "website_accuracy": "verified",
+  "sfc_filed_website": "www.ip-im.com/hk/",
+  "hunter_hits": [],
+  "hunter_attempted_utc": "2026-08-10T01:29:59.348291+00:00"
+}

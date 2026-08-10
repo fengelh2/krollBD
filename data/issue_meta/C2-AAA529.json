@@ -1,0 +1,64 @@
+{
+  "type": "C2",
+  "type_label": "Type 9 retired",
+  "firm": "HSBC Broking Securities (Hong Kong) Limited",
+  "natural": "HSBC Broking",
+  "ceref": "AAA529",
+  "ros_current": [],
+  "ros_departed": [
+    {
+      "name": "CHANG Shu Tin, Stephen",
+      "ceref": "ALH734"
+    },
+    {
+      "name": "KEUNG Leon Sik Lim",
+      "ceref": "BDA062"
+    },
+    {
+      "name": "KWOK Wing Ho Felix",
+      "ceref": "ADQ206"
+    },
+    {
+      "name": "WO Ki",
+      "ceref": "AGW234"
+    }
+  ],
+  "primary_ro": "CHANG Shu Tin, Stephen",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/AAA529/details?locale=en",
+  "email_subject": "HSBC Broking — Type 9 license transition",
+  "email_body": "Dear Nettrader and HSBC Broking Management,\n\nThis is Felix from Kroll. I am reaching out in light of publicly disclosed changes to HSBC Broking's SFC Type 9 registration, as such transitions often prompt a review of fund-level operating and advisory arrangements.\n\nFor funds that have largely deployed capital and are managing minority positions requiring limited day-to-day GP involvement, Kroll's Fund Solutions practice supports GPs with a range of later-lifecycle options — particularly around replacement advisory, realization structuring, and cost-efficient ongoing management.\n\nShould this be relevant to you, I would be happy to introduce you to the appropriate colleagues for an informal discussion. If not, please feel free to disregard this note.\n\nKind regards,\nFelix Engelhardt\n",
+  "variant_id": "C2-v2",
+  "email_body_hash": "91e3309dfe",
+  "email_candidates": [
+    {
+      "email": "nettrader@hsbc.com.hk",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-08-10T01:22:10.767202+00:00"
+    },
+    {
+      "email": "info@hsbc.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@hsbc.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@hsbc.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "public_equity,public_credit",
+  "illiq_likelihood": "low",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "HSBC Holdings plc",
+  "classification_source": "website",
+  "website_accuracy": "verified",
+  "sfc_filed_website": "www.hsbc.com.hk/broking"
+}

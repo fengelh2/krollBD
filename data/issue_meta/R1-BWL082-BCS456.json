@@ -1,0 +1,39 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "SIMCo Credit Asia-Pacific Limited",
+  "natural": "SIMCo Credit Asia-Pacific",
+  "ceref": "BWL082",
+  "ros": [
+    {
+      "name": "YEUNG Chi Yuen",
+      "ceref": "BCS456"
+    }
+  ],
+  "primary_ro": "YEUNG Chi Yuen",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BWL082/details?locale=en",
+  "email_subject": "Congratulations on your RO appointment at SIMCo Credit Asia-Pacific",
+  "email_body": "Dear Chi Yuen,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at SIMCo Credit Asia-Pacific.\n\nFor illiquid managers like yourself, the marks the RO signs off on tend to be the most scrutinised line items on the books — LPs want comfort, auditors want defensibility, and internal-only marks usually invite more questions than they close. Kroll's Portfolio Valuation team here in Hong Kong helps with exactly that — robust independent valuations across private equity, private credit, and other illiquid strategies.\n\nIf a quick chat would be useful — now, or down the line — happy to set one up. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "PV",
+  "variant_id": "R1-v3-PV",
+  "email_body_hash": "3647a1a331",
+  "email_candidates": [
+    {
+      "email": "m.dimond@simcap.hk",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-08-10T01:22:10.776501+00:00"
+    }
+  ],
+  "asset_classes": "private_credit,infrastructure_debt,real_assets",
+  "illiq_likelihood": "high",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "Sequoia Investment Management Company Limited (SIMCo)",
+  "classification_source": "website",
+  "website_accuracy": "verified",
+  "sfc_filed_website": "https://www.simcap.hk",
+  "hunter_hits": [],
+  "hunter_attempted_utc": "2026-08-10T01:29:00.172582+00:00"
+}

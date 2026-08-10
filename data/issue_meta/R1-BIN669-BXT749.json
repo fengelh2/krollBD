@@ -1,0 +1,72 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "Finloop Finance Limited",
+  "natural": "Finloop Finance",
+  "ceref": "BIN669",
+  "ros": [
+    {
+      "name": "Luk Ho Mun",
+      "ceref": "BXT749"
+    }
+  ],
+  "primary_ro": "Luk Ho Mun",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BIN669/details?locale=en",
+  "email_subject": "Congratulations on your RO appointment at Finloop Finance",
+  "email_body": "Dear Luk,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at Finloop Finance.\n\nFor newly appointed ROs like yourself, settling into the role often means getting a clear view of where the firm's compliance posture sits — internal policies, current filings, ongoing SFC engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps SFC-licensed firms with exactly that, scaled to the firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "FSCR",
+  "variant_id": "R1-v3-FSCR",
+  "email_body_hash": "a022762c11",
+  "email_candidates": [
+    {
+      "email": "cs@finloop.hk",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-08-10T01:22:10.771924+00:00"
+    },
+    {
+      "email": "lukho.mun@finloop.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "Luk Ho Mun"
+    },
+    {
+      "email": "lukhomun@finloop.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "Luk Ho Mun"
+    },
+    {
+      "email": "lmun@finloop.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "Luk Ho Mun"
+    },
+    {
+      "email": "info@finloop.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@finloop.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@finloop.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "public_equity,public_credit,fund_of_funds,multi",
+  "illiq_likelihood": "low",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "website",
+  "website_accuracy": "probable",
+  "sfc_filed_website": "www.finloop.hk",
+  "hunter_hits": [],
+  "hunter_attempted_utc": "2026-08-10T01:30:32.791270+00:00"
+}

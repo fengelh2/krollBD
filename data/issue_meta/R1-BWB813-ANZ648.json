@@ -1,0 +1,69 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "Yhprum Capital Management Limited",
+  "natural": "Yhprum Capital",
+  "ceref": "BWB813",
+  "ros": [
+    {
+      "name": "CHENG Kwok Fun",
+      "ceref": "ANZ648"
+    }
+  ],
+  "primary_ro": "CHENG Kwok Fun",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BWB813/details?locale=en",
+  "email_subject": "Congratulations on your RO appointment at Yhprum Capital",
+  "email_body": "Dear Kwok Fun,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at Yhprum Capital.\n\nFor newly appointed ROs like yourself, settling into the role often means getting a clear view of where the firm's compliance posture sits — internal policies, current filings, ongoing SFC engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps SFC-licensed firms with exactly that, scaled to the firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "FSCR",
+  "variant_id": "R1-v3-FSCR",
+  "email_body_hash": "5fc9f9e70b",
+  "email_candidates": [
+    {
+      "email": "compliance@yhprum-cm.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-08-10T01:22:10.775620+00:00"
+    },
+    {
+      "email": "kwokfun.cheng@yhprum-cm.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHENG Kwok Fun"
+    },
+    {
+      "email": "kwokfuncheng@yhprum-cm.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHENG Kwok Fun"
+    },
+    {
+      "email": "kcheng@yhprum-cm.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHENG Kwok Fun"
+    },
+    {
+      "email": "info@yhprum-cm.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@yhprum-cm.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@yhprum-cm.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "unknown",
+  "illiq_likelihood": "unknown",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "none",
+  "website_accuracy": "not_found"
+}
