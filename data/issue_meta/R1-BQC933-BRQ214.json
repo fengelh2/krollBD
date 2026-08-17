@@ -1,0 +1,85 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "JQ Investments (HK) Limited",
+  "natural": "JQ",
+  "ceref": "BQC933",
+  "ros": [
+    {
+      "name": "QIN Xue",
+      "ceref": "BRQ214"
+    }
+  ],
+  "primary_ro": "QIN Xue",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BQC933/details?locale=en",
+  "email_subject": "Congratulations on your RO appointment at JQ",
+  "email_body": "Dear Xue,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at JQ.\n\nFor newly appointed ROs like yourself, settling into the role often means getting a clear view of where the firm's compliance posture sits — internal policies, current filings, ongoing SFC engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps SFC-licensed firms with exactly that, scaled to the firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "FSCR",
+  "variant_id": "R1-v3-FSCR",
+  "email_body_hash": "45d55902a4",
+  "email_candidates": [
+    {
+      "email": "xue@jqinvestments.com",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "QIN Xue",
+      "score": 83,
+      "abstract_verdict": "quota_exhausted",
+      "abstract_detail": null,
+      "evidence": "Hunter score 83 + AbstractAPI: quota_exhausted"
+    },
+    {
+      "email": "contact@jqi-intl.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-08-17T01:08:08.552093+00:00"
+    },
+    {
+      "email": "xue.qin@jqi-intl.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "QIN Xue"
+    },
+    {
+      "email": "xueqin@jqi-intl.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "QIN Xue"
+    },
+    {
+      "email": "xqin@jqi-intl.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "QIN Xue"
+    },
+    {
+      "email": "info@jqi-intl.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@jqi-intl.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "public_equity",
+  "illiq_likelihood": "low",
+  "aum_raw_string": "百亿规模 (10+ billion RMB)",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "website",
+  "website_accuracy": "probable",
+  "hunter_hits": [
+    {
+      "email": "xue@jqinvestments.com",
+      "score": 83,
+      "ro": "QIN Xue",
+      "fetched_at_utc": "2026-08-17T01:11:59.399563+00:00",
+      "abstract_verdict": "quota_exhausted",
+      "abstract_detail": null
+    }
+  ],
+  "hunter_attempted_utc": "2026-08-17T01:11:59.399579+00:00"
+}

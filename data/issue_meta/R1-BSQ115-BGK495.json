@@ -1,0 +1,91 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "XY Asset Management Limited",
+  "natural": "XY",
+  "ceref": "BSQ115",
+  "ros": [
+    {
+      "name": "ROH Michael Suk",
+      "ceref": "BGK495"
+    }
+  ],
+  "primary_ro": "ROH Michael Suk",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BSQ115/details?locale=en",
+  "email_subject": "Congratulations on your RO appointment at XY",
+  "email_body": "Dear Michael,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at XY.\n\nFor newly appointed ROs like yourself, settling into the role often means getting a clear view of where the firm's compliance posture sits — internal policies, current filings, ongoing SFC engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps SFC-licensed firms with exactly that, scaled to the firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "FSCR",
+  "variant_id": "R1-v3-FSCR",
+  "email_body_hash": "1543a6a21a",
+  "email_candidates": [
+    {
+      "email": "michael-suk.roh@xycapitalgroup.com",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "ROH Michael Suk",
+      "score": 77,
+      "abstract_verdict": "quota_exhausted",
+      "abstract_detail": null,
+      "evidence": "Hunter score 77 + AbstractAPI: quota_exhausted"
+    },
+    {
+      "email": "compliance@xycapitalgroup.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-08-17T01:08:08.552387+00:00"
+    },
+    {
+      "email": "michaelsuk.roh@xycapitalgroup.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "ROH Michael Suk"
+    },
+    {
+      "email": "michaelsukroh@xycapitalgroup.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "ROH Michael Suk"
+    },
+    {
+      "email": "mroh@xycapitalgroup.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "ROH Michael Suk"
+    },
+    {
+      "email": "info@xycapitalgroup.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@xycapitalgroup.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@xycapitalgroup.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "public_equity,public_credit,unknown",
+  "illiq_likelihood": "low",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "website",
+  "website_accuracy": "probable",
+  "sfc_filed_website": "www.xycapitalgroup.com",
+  "hunter_hits": [
+    {
+      "email": "michael-suk.roh@xycapitalgroup.com",
+      "score": 77,
+      "ro": "ROH Michael Suk",
+      "fetched_at_utc": "2026-08-17T01:11:32.185232+00:00",
+      "abstract_verdict": "quota_exhausted",
+      "abstract_detail": null
+    }
+  ],
+  "hunter_attempted_utc": "2026-08-17T01:11:32.185250+00:00"
+}

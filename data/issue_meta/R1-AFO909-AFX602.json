@@ -1,0 +1,72 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "Eastspring Investments (Hong Kong) Limited (trading as Eastspring Investments)",
+  "natural": "Eastspring Investments Limited (trading as Eastspring Investments)",
+  "ceref": "AFO909",
+  "ros": [
+    {
+      "name": "LEE Fanny Yuk Lai",
+      "ceref": "AFX602"
+    }
+  ],
+  "primary_ro": "LEE Fanny Yuk Lai",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/AFO909/details?locale=en",
+  "email_subject": "Congratulations on your RO appointment at Eastspring Investments Limited (trading as Eastspring Investments)",
+  "email_body": "Dear Fanny Yuk Lai,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at Eastspring Investments Limited (trading as Eastspring Investments).\n\nFor newly appointed ROs like yourself, settling into the role often means getting a clear view of where the firm's compliance posture sits — internal policies, current filings, ongoing SFC engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps SFC-licensed firms with exactly that, scaled to the firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "FSCR",
+  "variant_id": "R1-v3-FSCR",
+  "email_body_hash": "8e01b3646b",
+  "email_candidates": [
+    {
+      "email": "compliance.hk@eastspring.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-08-17T01:08:08.548559+00:00"
+    },
+    {
+      "email": "fanny.lee@eastspring.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LEE Fanny Yuk Lai"
+    },
+    {
+      "email": "fannylee@eastspring.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LEE Fanny Yuk Lai"
+    },
+    {
+      "email": "flee@eastspring.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LEE Fanny Yuk Lai"
+    },
+    {
+      "email": "info@eastspring.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@eastspring.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@eastspring.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "public_equity,public_credit,multi",
+  "illiq_likelihood": "low",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "Prudential plc",
+  "classification_source": "llm_on_name",
+  "website_accuracy": "probable",
+  "sfc_filed_website": "www.eastspring.com.hk",
+  "hunter_hits": [],
+  "hunter_attempted_utc": "2026-08-17T01:12:12.977757+00:00"
+}

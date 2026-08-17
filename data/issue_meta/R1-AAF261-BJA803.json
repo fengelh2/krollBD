@@ -1,0 +1,58 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "CMB International Global Markets Limited",
+  "natural": "CMB International Global",
+  "ceref": "AAF261",
+  "ros": [
+    {
+      "name": "SHI Ji",
+      "ceref": "BJA803"
+    }
+  ],
+  "primary_ro": "SHI Ji",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/AAF261/details?locale=en",
+  "email_subject": "Congratulations on your RO appointment at CMB International Global",
+  "email_body": "Dear Ji,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at CMB International Global.\n\nFor illiquid managers like yourself, the marks the RO signs off on tend to be the most scrutinised line items on the books — LPs want comfort, auditors want defensibility, and internal-only marks usually invite more questions than they close. Kroll's Portfolio Valuation team here in Hong Kong helps with exactly that — robust independent valuations across private equity, private credit, and other illiquid strategies.\n\nIf a quick chat would be useful — now, or down the line — happy to set one up. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "PV",
+  "variant_id": "R1-v3-PV",
+  "email_body_hash": "0f7d7f6b9d",
+  "email_candidates": [
+    {
+      "email": "shiji@cmbi.com.hk",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "SHI Ji",
+      "score": 79,
+      "abstract_verdict": "quota_exhausted",
+      "abstract_detail": null,
+      "evidence": "Hunter score 79 + AbstractAPI: quota_exhausted"
+    },
+    {
+      "email": "licensing@cmbi.com.hk",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-08-17T01:08:08.547003+00:00"
+    }
+  ],
+  "asset_classes": "public_equity,public_credit,multi",
+  "illiq_likelihood": "medium",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "China Merchants Bank",
+  "classification_source": "website",
+  "website_accuracy": "probable",
+  "sfc_filed_website": "www.cmbi.com.hk",
+  "hunter_hits": [
+    {
+      "email": "shiji@cmbi.com.hk",
+      "score": 79,
+      "ro": "SHI Ji",
+      "fetched_at_utc": "2026-08-17T01:12:21.160777+00:00",
+      "abstract_verdict": "quota_exhausted",
+      "abstract_detail": null
+    }
+  ],
+  "hunter_attempted_utc": "2026-08-17T01:12:21.160790+00:00"
+}

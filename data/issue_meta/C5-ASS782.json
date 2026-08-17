@@ -1,0 +1,135 @@
+{
+  "type": "C5",
+  "type_label": "Rebrand / name change",
+  "firm": "Grand Fire Securities Limited",
+  "old_firm": "Fortune Origin Securities Limited",
+  "natural": "Grand Fire",
+  "ceref": "ASS782",
+  "ros": [
+    {
+      "name": "CHONG Ping Kong",
+      "ceref": "BUA874"
+    },
+    {
+      "name": "CHUNG Chi Wa",
+      "ceref": "BGM235"
+    },
+    {
+      "name": "HERON David",
+      "ceref": "AAH580"
+    }
+  ],
+  "primary_ro": "CHONG Ping Kong",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/ASS782/details?locale=en",
+  "email_subject": "Grand Fire — note on the recent rebrand",
+  "email_body": "Dear Grand Fire Management,\n\nThis is Felix from Kroll in Hong Kong. The SFC public register shows that Fortune Origin has been renamed to Grand Fire.\n\nRebrands often accompany broader changes — a new sponsor, a strategy refresh, or an organisational reshape — and these moments are often a natural time to revisit fund-level valuation policies and the operating arrangements behind them.\n\nKroll's Portfolio Valuation team works with SFC-regulated managers across Hong Kong on independent fair-value opinions for private equity and credit positions, and our adjacent FSCR colleagues support governance and regulatory engagement. Happy to set up an informal call if any of this would be useful as you transition.\n\nKind regards,\nFelix Engelhardt\n",
+  "variant_id": "C5-v2",
+  "email_body_hash": "230db081a6",
+  "email_candidates": [
+    {
+      "email": "dheron@fortune-originsec.com",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "HERON David",
+      "score": 99,
+      "abstract_verdict": "quota_exhausted",
+      "abstract_detail": null,
+      "evidence": "Hunter score 99 + AbstractAPI: quota_exhausted"
+    },
+    {
+      "email": "cs@fortune-originsec.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-08-17T01:08:08.545087+00:00"
+    },
+    {
+      "email": "cs@fortune-originsec.com",
+      "kind": "observed_on_site",
+      "confidence": "verified",
+      "ro": null
+    },
+    {
+      "email": "pingkong.chong@fortune-originsec.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHONG Ping Kong"
+    },
+    {
+      "email": "pingkongchong@fortune-originsec.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHONG Ping Kong"
+    },
+    {
+      "email": "pchong@fortune-originsec.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHONG Ping Kong"
+    },
+    {
+      "email": "chiwa.chung@fortune-originsec.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHUNG Chi Wa"
+    },
+    {
+      "email": "chiwachung@fortune-originsec.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHUNG Chi Wa"
+    },
+    {
+      "email": "cchung@fortune-originsec.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHUNG Chi Wa"
+    },
+    {
+      "email": "david.heron@fortune-originsec.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "HERON David"
+    },
+    {
+      "email": "davidheron@fortune-originsec.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "HERON David"
+    },
+    {
+      "email": "info@fortune-originsec.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@fortune-originsec.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@fortune-originsec.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "unknown",
+  "illiq_likelihood": "unknown",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "none",
+  "website_accuracy": "suspect",
+  "sfc_filed_website": "www.fortune-originsec.com",
+  "hunter_hits": [
+    {
+      "email": "dheron@fortune-originsec.com",
+      "score": 99,
+      "ro": "HERON David",
+      "fetched_at_utc": "2026-08-17T01:13:15.846343+00:00",
+      "abstract_verdict": "quota_exhausted",
+      "abstract_detail": null
+    }
+  ],
+  "hunter_attempted_utc": "2026-08-17T01:13:15.846366+00:00"
+}

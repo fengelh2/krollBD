@@ -1,0 +1,94 @@
+{
+  "type": "C1",
+  "type_label": "New Type 9 corp",
+  "firm": "HyT Capital Investment Limited",
+  "natural": "HyT Capital",
+  "ceref": "BXK200",
+  "address": "5513, 55/F, The Center, 99 Queen's Road Central, Central, Hong Kong",
+  "ros": [
+    {
+      "name": "HUANG Wei",
+      "ceref": "BXK201"
+    },
+    {
+      "name": "YU Hualiang",
+      "ceref": "BTB619"
+    }
+  ],
+  "primary_ro": "HUANG Wei",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BXK200/details?locale=en",
+  "email_subject": "Congratulations on HyT Capital's SFC Type 9 license",
+  "email_body": "Dear Huangwei and HyT Capital Management,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on HyT Capital's recent Type 9 licensing with the SFC.\n\nAs newly licensed managers like yourself establish and scale operations, we often see a need for practical support around compliance, governance, and regulatory engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps with exactly that, scaled to your firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "FSCR",
+  "variant_id": "C1-v4-FSCR",
+  "email_body_hash": "1d2dcd7a11",
+  "email_candidates": [
+    {
+      "email": "huangwei@huacapital.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-08-17T01:08:08.544573+00:00"
+    },
+    {
+      "email": "wei.huang@huacapital.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "HUANG Wei"
+    },
+    {
+      "email": "weihuang@huacapital.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "HUANG Wei"
+    },
+    {
+      "email": "whuang@huacapital.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "HUANG Wei"
+    },
+    {
+      "email": "hualiang.yu@huacapital.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "YU Hualiang"
+    },
+    {
+      "email": "hualiangyu@huacapital.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "YU Hualiang"
+    },
+    {
+      "email": "hyu@huacapital.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "YU Hualiang"
+    },
+    {
+      "email": "info@huacapital.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@huacapital.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@huacapital.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "unknown",
+  "illiq_likelihood": "unknown",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "none",
+  "website_accuracy": "not_found",
+  "hunter_hits": [],
+  "hunter_attempted_utc": "2026-08-17T01:13:37.212812+00:00"
+}

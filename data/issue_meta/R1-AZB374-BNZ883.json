@@ -1,0 +1,58 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "China Industrial Securities International Asset Management Limited",
+  "natural": "China Industrial Securities International",
+  "ceref": "AZB374",
+  "ros": [
+    {
+      "name": "LIU Yujie",
+      "ceref": "BNZ883"
+    }
+  ],
+  "primary_ro": "LIU Yujie",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/AZB374/details?locale=en",
+  "email_subject": "Congratulations on your RO appointment at China Industrial Securities International",
+  "email_body": "Dear Yujie,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at China Industrial Securities International.\n\nFor illiquid managers like yourself, the marks the RO signs off on tend to be the most scrutinised line items on the books — LPs want comfort, auditors want defensibility, and internal-only marks usually invite more questions than they close. Kroll's Portfolio Valuation team here in Hong Kong helps with exactly that — robust independent valuations across private equity, private credit, and other illiquid strategies.\n\nIf a quick chat would be useful — now, or down the line — happy to set one up. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "PV",
+  "variant_id": "R1-v3-PV",
+  "email_body_hash": "67011bb914",
+  "email_candidates": [
+    {
+      "email": "yujie.liu@xyzq.com.hk",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "LIU Yujie",
+      "score": 81,
+      "abstract_verdict": "quota_exhausted",
+      "abstract_detail": null,
+      "evidence": "Hunter score 81 + AbstractAPI: quota_exhausted"
+    },
+    {
+      "email": "cs@xyzq.com.hk",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-08-17T01:08:08.550100+00:00"
+    }
+  ],
+  "asset_classes": "public_equity,public_credit,unknown",
+  "illiq_likelihood": "medium",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "Xingye Securities Co., Ltd. (兴业证券)",
+  "classification_source": "website",
+  "website_accuracy": "probable",
+  "sfc_filed_website": "www.xyzq.com.hk",
+  "hunter_hits": [
+    {
+      "email": "yujie.liu@xyzq.com.hk",
+      "score": 81,
+      "ro": "LIU Yujie",
+      "fetched_at_utc": "2026-08-17T01:12:16.985051+00:00",
+      "abstract_verdict": "quota_exhausted",
+      "abstract_detail": null
+    }
+  ],
+  "hunter_attempted_utc": "2026-08-17T01:12:16.985065+00:00"
+}

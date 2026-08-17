@@ -1,0 +1,91 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "Matthews Global Investors (Hong Kong) Limited",
+  "natural": "Matthews Global Investors",
+  "ceref": "AWP025",
+  "ros": [
+    {
+      "name": "XU Kejia",
+      "ceref": "AQD990"
+    }
+  ],
+  "primary_ro": "XU Kejia",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/AWP025/details?locale=en",
+  "email_subject": "Congratulations on your RO appointment at Matthews Global Investors",
+  "email_body": "Dear Kejia,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at Matthews Global Investors.\n\nFor newly appointed ROs like yourself, settling into the role often means getting a clear view of where the firm's compliance posture sits — internal policies, current filings, ongoing SFC engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps SFC-licensed firms with exactly that, scaled to the firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "FSCR",
+  "variant_id": "R1-v3-FSCR",
+  "email_body_hash": "43261203e9",
+  "email_candidates": [
+    {
+      "email": "kejia.xu@matthewsasia.com",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "XU Kejia",
+      "score": 73,
+      "abstract_verdict": "quota_exhausted",
+      "abstract_detail": null,
+      "evidence": "Hunter score 73 + AbstractAPI: quota_exhausted"
+    },
+    {
+      "email": "amy.lau@matthewsasia.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-08-17T01:08:08.549742+00:00"
+    },
+    {
+      "email": "globalfunds@matthewsasia.com",
+      "kind": "observed_on_site",
+      "confidence": "verified",
+      "ro": null
+    },
+    {
+      "email": "kejiaxu@matthewsasia.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "XU Kejia"
+    },
+    {
+      "email": "kxu@matthewsasia.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "XU Kejia"
+    },
+    {
+      "email": "info@matthewsasia.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@matthewsasia.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@matthewsasia.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "public_equity,public_credit",
+  "illiq_likelihood": "low",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "Matthews International Capital Management, LLC",
+  "classification_source": "website",
+  "website_accuracy": "probable",
+  "sfc_filed_website": "hk.matthewsasia.com",
+  "hunter_hits": [
+    {
+      "email": "kejia.xu@matthewsasia.com",
+      "score": 73,
+      "ro": "XU Kejia",
+      "fetched_at_utc": "2026-08-17T01:11:57.949208+00:00",
+      "abstract_verdict": "quota_exhausted",
+      "abstract_detail": null
+    }
+  ],
+  "hunter_attempted_utc": "2026-08-17T01:11:57.949227+00:00"
+}

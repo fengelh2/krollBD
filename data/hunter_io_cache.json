@@ -3448,5 +3448,315 @@
     "source": "hunter.io",
     "fetched_at_utc": "2026-08-10T01:31:02+00:00",
     "quota_remaining_when_fetched": 45
+  },
+  "xycapitalgroup.com|michael suk|roh": {
+    "status": "ok",
+    "email": "michael-suk.roh@xycapitalgroup.com",
+    "score": 77,
+    "confidence": "medium",
+    "verification_status": "accept_all",
+    "source": "hunter.io",
+    "fetched_at_utc": "2026-08-17T01:11:31+00:00",
+    "quota_remaining_when_fetched": 44
+  },
+  "victorysec.com.hk|tsz fung|tang": {
+    "status": "no_match",
+    "email": null,
+    "score": null,
+    "confidence": "none",
+    "verification_status": "no_match",
+    "source": "hunter.io",
+    "fetched_at_utc": "2026-08-17T01:11:38+00:00",
+    "quota_remaining_when_fetched": 43
+  },
+  "smartmax-food.com|yan kit|lau": {
+    "status": "no_match",
+    "email": null,
+    "score": null,
+    "confidence": "none",
+    "verification_status": "no_match",
+    "source": "hunter.io",
+    "fetched_at_utc": "2026-08-17T01:11:41+00:00",
+    "quota_remaining_when_fetched": 43
+  },
+  "smorgan.org|chenlong|liu": {
+    "status": "no_match",
+    "email": null,
+    "score": null,
+    "confidence": "none",
+    "verification_status": "no_match",
+    "source": "hunter.io",
+    "fetched_at_utc": "2026-08-17T01:11:51+00:00",
+    "quota_remaining_when_fetched": 43
+  },
+  "ssif.com.hk|yunsheng|mo": {
+    "status": "ok",
+    "email": "yunsheng.mo@ssif.com.hk",
+    "score": 74,
+    "confidence": "medium",
+    "verification_status": "accept_all",
+    "source": "hunter.io",
+    "fetched_at_utc": "2026-08-17T01:11:52+00:00",
+    "quota_remaining_when_fetched": 43
+  },
+  "sig.com|robert|risk": {
+    "status": "ok",
+    "email": "robert.risk@sig.com",
+    "score": 83,
+    "confidence": "medium",
+    "verification_status": "accept_all",
+    "source": "hunter.io",
+    "fetched_at_utc": "2026-08-17T01:11:54+00:00",
+    "quota_remaining_when_fetched": 42
+  },
+  "prudentialinvestment.com|gaocheng|zhou": {
+    "status": "no_match",
+    "email": null,
+    "score": null,
+    "confidence": "none",
+    "verification_status": "no_match",
+    "source": "hunter.io",
+    "fetched_at_utc": "2026-08-17T01:11:56+00:00",
+    "quota_remaining_when_fetched": 41
+  },
+  "hk.matthewsasia.com|kejia|xu": {
+    "status": "ok",
+    "email": "kejia.xu@matthewsasia.com",
+    "score": 73,
+    "confidence": "medium",
+    "verification_status": "accept_all",
+    "source": "hunter.io",
+    "fetched_at_utc": "2026-08-17T01:11:57+00:00",
+    "quota_remaining_when_fetched": 41
+  },
+  "jqinvestments.com|xue|qin": {
+    "status": "ok",
+    "email": "xue@jqinvestments.com",
+    "score": 83,
+    "confidence": "medium",
+    "verification_status": "accept_all",
+    "source": "hunter.io",
+    "fetched_at_utc": "2026-08-17T01:11:59+00:00",
+    "quota_remaining_when_fetched": 40
+  },
+  "hongkonginvestment.com|jiong|li": {
+    "status": "no_match",
+    "email": null,
+    "score": null,
+    "confidence": "none",
+    "verification_status": "no_match",
+    "source": "hunter.io",
+    "fetched_at_utc": "2026-08-17T01:12:01+00:00",
+    "quota_remaining_when_fetched": 39
+  },
+  "intelligent.com|biao|liu": {
+    "status": "no_match",
+    "email": null,
+    "score": null,
+    "confidence": "none",
+    "verification_status": "no_match",
+    "source": "hunter.io",
+    "fetched_at_utc": "2026-08-17T01:12:02+00:00",
+    "quota_remaining_when_fetched": 39
+  },
+  "htsc.com.hk|terence|cheng": {
+    "status": "ok",
+    "email": "terencecheng@htsc.com",
+    "score": 99,
+    "confidence": "high",
+    "verification_status": "valid",
+    "source": "hunter.io",
+    "fetched_at_utc": "2026-08-17T01:12:09+00:00",
+    "quota_remaining_when_fetched": 39
+  },
+  "hksecwiki.com|jie|kou": {
+    "status": "no_match",
+    "email": null,
+    "score": null,
+    "confidence": "none",
+    "verification_status": "no_match",
+    "source": "hunter.io",
+    "fetched_at_utc": "2026-08-17T01:12:12+00:00",
+    "quota_remaining_when_fetched": 38
+  },
+  "eastspring.com.hk|fanny|lee": {
+    "status": "no_match",
+    "email": null,
+    "score": null,
+    "confidence": "none",
+    "verification_status": "no_match",
+    "source": "hunter.io",
+    "fetched_at_utc": "2026-08-17T01:12:12+00:00",
+    "quota_remaining_when_fetched": 38
+  },
+  "csiiadmission.com|ning|zhou": {
+    "status": "no_match",
+    "email": null,
+    "score": null,
+    "confidence": "none",
+    "verification_status": "no_match",
+    "source": "hunter.io",
+    "fetched_at_utc": "2026-08-17T01:12:13+00:00",
+    "quota_remaining_when_fetched": 38
+  },
+  "hksecwiki.com|daniel|hui": {
+    "status": "no_match",
+    "email": null,
+    "score": null,
+    "confidence": "none",
+    "verification_status": "no_match",
+    "source": "hunter.io",
+    "fetched_at_utc": "2026-08-17T01:12:15+00:00",
+    "quota_remaining_when_fetched": 38
+  },
+  "xyzq.com.hk|yujie|liu": {
+    "status": "ok",
+    "email": "yujie.liu@xyzq.com.hk",
+    "score": 81,
+    "confidence": "medium",
+    "verification_status": "accept_all",
+    "source": "hunter.io",
+    "fetched_at_utc": "2026-08-17T01:12:16+00:00",
+    "quota_remaining_when_fetched": 38
+  },
+  "clsa.com|kin chiu|yam": {
+    "status": "ok",
+    "email": "kin-chiu.yam@clsa.com",
+    "score": 49,
+    "confidence": "low",
+    "verification_status": "accept_all",
+    "source": "hunter.io",
+    "fetched_at_utc": "2026-08-17T01:12:18+00:00",
+    "quota_remaining_when_fetched": 37
+  },
+  "clsa.com|siu lik|lau": {
+    "status": "ok",
+    "email": "siu.lau@clsa.com",
+    "score": 85,
+    "confidence": "high",
+    "verification_status": "accept_all",
+    "source": "hunter.io",
+    "fetched_at_utc": "2026-08-17T01:12:19+00:00",
+    "quota_remaining_when_fetched": 36
+  },
+  "cmbi.com.hk|ji|shi": {
+    "status": "ok",
+    "email": "shiji@cmbi.com.hk",
+    "score": 79,
+    "confidence": "medium",
+    "verification_status": "accept_all",
+    "source": "hunter.io",
+    "fetched_at_utc": "2026-08-17T01:12:20+00:00",
+    "quota_remaining_when_fetched": 35
+  },
+  "citigroup.com|lai man|wong": {
+    "status": "ok",
+    "email": "lai-man.wong@citigroup.com",
+    "score": 49,
+    "confidence": "low",
+    "verification_status": "accept_all",
+    "source": "hunter.io",
+    "fetched_at_utc": "2026-08-17T01:12:24+00:00",
+    "quota_remaining_when_fetched": 34
+  },
+  "arielcapitalhk.com|tsz|tsoi": {
+    "status": "no_match",
+    "email": null,
+    "score": null,
+    "confidence": "none",
+    "verification_status": "no_match",
+    "source": "hunter.io",
+    "fetched_at_utc": "2026-08-17T01:12:35+00:00",
+    "quota_remaining_when_fetched": 33
+  },
+  "bocionline.com|wan hoi|liu": {
+    "status": "no_match",
+    "email": null,
+    "score": null,
+    "confidence": "none",
+    "verification_status": "no_match",
+    "source": "hunter.io",
+    "fetched_at_utc": "2026-08-17T01:12:36+00:00",
+    "quota_remaining_when_fetched": 33
+  },
+  "aresmgmt.com|jr|morse": {
+    "status": "no_match",
+    "email": null,
+    "score": null,
+    "confidence": "none",
+    "verification_status": "no_match",
+    "source": "hunter.io",
+    "fetched_at_utc": "2026-08-17T01:12:41+00:00",
+    "quota_remaining_when_fetched": 33
+  },
+  "chinanewholdings.com.hk|wai|fong": {
+    "status": "no_match",
+    "email": null,
+    "score": null,
+    "confidence": "none",
+    "verification_status": "no_match",
+    "source": "hunter.io",
+    "fetched_at_utc": "2026-08-17T01:12:52+00:00",
+    "quota_remaining_when_fetched": 33
+  },
+  "chinanewholdings.com.hk|shuai|yuan": {
+    "status": "no_match",
+    "email": null,
+    "score": null,
+    "confidence": "none",
+    "verification_status": "no_match",
+    "source": "hunter.io",
+    "fetched_at_utc": "2026-08-17T01:12:59+00:00",
+    "quota_remaining_when_fetched": 33
+  },
+  "tempb.com|yunhe|li": {
+    "status": "no_match",
+    "email": null,
+    "score": null,
+    "confidence": "none",
+    "verification_status": "no_match",
+    "source": "hunter.io",
+    "fetched_at_utc": "2026-08-17T01:13:00+00:00",
+    "quota_remaining_when_fetched": 33
+  },
+  "fortune-originsec.com|ping kong|chong": {
+    "status": "no_match",
+    "email": null,
+    "score": null,
+    "confidence": "none",
+    "verification_status": "no_match",
+    "source": "hunter.io",
+    "fetched_at_utc": "2026-08-17T01:13:10+00:00",
+    "quota_remaining_when_fetched": 33
+  },
+  "fortune-originsec.com|david|heron": {
+    "status": "ok",
+    "email": "dheron@fortune-originsec.com",
+    "score": 99,
+    "confidence": "high",
+    "verification_status": "valid",
+    "source": "hunter.io",
+    "fetched_at_utc": "2026-08-17T01:13:15+00:00",
+    "quota_remaining_when_fetched": 33
+  },
+  "hyt.com.hk|wei|huang": {
+    "status": "no_match",
+    "email": null,
+    "score": null,
+    "confidence": "none",
+    "verification_status": "no_match",
+    "source": "hunter.io",
+    "fetched_at_utc": "2026-08-17T01:13:26+00:00",
+    "quota_remaining_when_fetched": 32
+  },
+  "hyt.com.hk|hualiang|yu": {
+    "status": "no_match",
+    "email": null,
+    "score": null,
+    "confidence": "none",
+    "verification_status": "no_match",
+    "source": "hunter.io",
+    "fetched_at_utc": "2026-08-17T01:13:37+00:00",
+    "quota_remaining_when_fetched": 32
   }
 }
