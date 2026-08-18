@@ -13,8 +13,8 @@ concurrency:
   # single `data-writes` group — GitHub keeps only ONE pending slot per
   # group, so bursts of dispatches drop everything but the last two).
   # Same-issue double-clicks still serialize (dedup guard below is idempotent).
-  # Cross-run git-push races on outreach_log.csv are handled by the
-  # pull-rebase-retry loop at the bottom of this job.
+  # Cross-run races on outreach_log.csv are handled by the rebuild-from-remote
+  # loop in the "Append row and push" step.
   group: log-outreach-${{ github.event.client_payload.data && fromJSON(github.event.client_payload.data).issue_number || 'unknown' }}
   cancel-in-progress: false
 
@@ -26,46 +26,95 @@ jobs:
         with:
           fetch-depth: 0
           token: ${{ secrets.GITHUB_TOKEN }}
-      - name: Append CSV row, close issue, commit
+
+      - name: Stage payload + append script
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PAYLOAD: ${{ toJSON(github.event.client_payload) }}
         run: |
-          python3 <<'PY'
-          import os, json, csv, pathlib, subprocess, datetime
-          outer = json.loads(os.environ['PAYLOAD'])
+          printf '%s' "$PAYLOAD" > "$RUNNER_TEMP/payload.json"
+          cat > "$RUNNER_TEMP/append.py" <<'PY'
+          import os, json, csv, pathlib, datetime, sys
+          csv.field_size_limit(10**9)   # email_body rows run to tens of KB
+          outer = json.loads(pathlib.Path(os.environ['RUNNER_TEMP'], 'payload.json').read_text(encoding='utf-8'))
           # Dashboard packs fields into outer['data'] as a JSON string to stay under
           # GitHub's 10-property client_payload cap.
-          payload = json.loads(outer['data']) if 'data' in outer and isinstance(outer['data'], str) else outer
+          payload = json.loads(outer['data']) if isinstance(outer.get('data'), str) else outer
           fields = [
               'logged_at_utc','sent_at_utc','issue_number','trigger_type',
               'variant_id','firm','ceref','primary_ro',
               'email_subject','email_body_hash','email_body',
               'sent_via','notes',
           ]
-          payload['logged_at_utc'] = datetime.datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+          payload['logged_at_utc'] = datetime.datetime.now(datetime.timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')
           log = pathlib.Path('outreach_log.csv')
-          write_header = not log.exists()
-
-          # Dedup guard: per-issue concurrency serializes same-issue dispatches,
-          # but a run that already appended a row shouldn't append it again if
-          # the user accidentally re-clicks after the issue is closed.
-          issue_no = str(payload.get('issue_number','')).strip()
-          already_logged = False
+          # Dedup guard: re-read the FRESH file on every retry, so if a
+          # concurrent run already logged this issue we skip instead of
+          # double-writing.
+          issue_no = str(payload.get('issue_number', '')).strip()
           if issue_no and log.exists():
               with log.open('r', encoding='utf-8-sig', newline='') as f:
                   for r in csv.DictReader(f):
-                      if str(r.get('issue_number','')).strip() == issue_no:
-                          already_logged = True
-                          break
-          if already_logged:
-              print(f'issue #{issue_no} already in outreach_log.csv — skip append')
-          else:
-              with log.open('a', encoding='utf-8', newline='') as f:
-                  w = csv.DictWriter(f, fieldnames=fields)
-                  if write_header: w.writeheader()
-                  w.writerow({k: payload.get(k, '') for k in fields})
+                      if str(r.get('issue_number', '')).strip() == issue_no:
+                          print(f'issue #{issue_no} already in outreach_log.csv — skip append')
+                          sys.exit(0)
+          write_header = not log.exists()
+          with log.open('a', encoding='utf-8', newline='') as f:
+              w = csv.DictWriter(f, fieldnames=fields)
+              if write_header:
+                  w.writeheader()
+              w.writerow({k: payload.get(k, '') for k in fields})
+          print(f'appended issue #{issue_no}')
+          PY
 
+      - name: Append row and push (rebuild-from-remote retry)
+        run: |
+          git config user.name "krollbd-bot"
+          git config user.email "krollbd-bot@users.noreply.github.com"
+          for i in $(seq 1 15); do
+            # Rebuild from the newest remote state, THEN re-append.
+            # Never `pull --rebase`: two runs appending at EOF always conflict,
+            # the rebase halts with unmerged files, and every later retry then
+            # died on "Pulling is not possible because you have unmerged files"
+            # — so the old 15-try loop could never recover (2026-08-18, 2 rows lost).
+            git fetch origin main
+            git checkout -B main origin/main
+            BEFORE=$(git show HEAD:outreach_log.csv 2>/dev/null | wc -l || echo 0)
+            python3 "$RUNNER_TEMP/append.py" || exit 1
+            AFTER=$(wc -l < outreach_log.csv)
+            # Safety guard (2026-07-29, after a direct-write nuked the file):
+            # an append must only ever ADD lines.
+            if [ "$AFTER" -lt "$BEFORE" ]; then
+              echo "::error::outreach_log.csv shrunk from $BEFORE to $AFTER lines — refusing to commit"
+              exit 1
+            fi
+            git add outreach_log.csv
+            if git diff --quiet --cached; then
+              echo "nothing to commit (row already present)"
+              exit 0
+            fi
+            git commit -m "log: outreach $(date -u +%FT%TZ)"
+            if git push origin main; then
+              echo "pushed on attempt $i"
+              exit 0
+            fi
+            echo "attempt $i lost the push race — rebuilding from remote"
+            sleep $((3 + RANDOM % 7))
+          done
+          echo "::error::exhausted 15 push attempts"
+          exit 1
+
+      - name: Close issue
+        # Runs ONLY after the row is safely committed. This used to run before
+        # the push, inside the same Python block — so a failed run closed the
+        # issue and commented "Outreach logged" while the row was never written
+        # (2026-08-18). A failure must now leave the issue OPEN so it can be re-clicked.
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python3 <<'PY'
+          import os, json, pathlib, subprocess
+          outer = json.loads(pathlib.Path(os.environ['RUNNER_TEMP'], 'payload.json').read_text(encoding='utf-8'))
+          payload = json.loads(outer['data']) if isinstance(outer.get('data'), str) else outer
           issue = payload.get('issue_number')
           if issue:
               comment = (
@@ -83,33 +132,3 @@ jobs:
                   check=True,
               )
           PY
-          git config user.name "krollbd-bot"
-          git config user.email "krollbd-bot@users.noreply.github.com"
-          # Safety guard (added 2026-07-29 after direct-write nuked the file):
-          # refuse to commit if the staged file lost rows vs HEAD. Log append
-          # should only ever ADD lines.
-          BEFORE=$(git show HEAD:outreach_log.csv 2>/dev/null | wc -l || echo 0)
-          AFTER=$(wc -l < outreach_log.csv)
-          if [ "$AFTER" -lt "$BEFORE" ]; then
-            echo "::error::outreach_log.csv shrunk from $BEFORE to $AFTER lines — refusing to commit"
-            git checkout -- outreach_log.csv
-            exit 1
-          fi
-          git add outreach_log.csv
-          if git diff --quiet --cached; then
-            echo "nothing to commit"
-            exit 0
-          fi
-          git commit -m "log: outreach $(date -u +%FT%TZ)"
-          # Parallel runs (now allowed by per-issue concurrency) race on
-          # `git push` — retry aggressively with jitter so bursts survive.
-          # Was 3 tries × 5s, upped to 15 tries × 3-9s after 2026-07-29.
-          for i in 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15; do
-            if git pull --rebase --autostash origin main && git push; then
-              echo "pushed on attempt $i"
-              exit 0
-            fi
-            sleep $((3 + RANDOM % 7))
-          done
-          echo "::error::exhausted 15 push attempts"
-          exit 1
