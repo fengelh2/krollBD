@@ -1,0 +1,103 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "Morgan Stanley Asia Limited",
+  "natural": "Morgan Stanley",
+  "ceref": "AAD291",
+  "ros": [
+    {
+      "name": "GO Ka Ho, Jason",
+      "ceref": "BNO016"
+    }
+  ],
+  "primary_ro": "GO Ka Ho, Jason",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/AAD291/details?locale=en",
+  "email_subject": "Congratulations on your RO appointment at Morgan Stanley",
+  "email_body": "Dear Jason,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at Morgan Stanley.\n\nFor illiquid managers like yourself, the marks the RO signs off on tend to be the most scrutinised line items on the books — LPs want comfort, auditors want defensibility, and internal-only marks usually invite more questions than they close. Kroll's Portfolio Valuation team here in Hong Kong helps with exactly that — robust independent valuations across private equity, private credit, and other illiquid strategies.\n\nIf a quick chat would be useful — now, or down the line — happy to set one up. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "PV",
+  "variant_id": "R1-v3-PV",
+  "email_body_hash": "a09eb3ec2a",
+  "email_candidates": [
+    {
+      "email": "jason.go@morganstanley.com",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "GO Ka Ho, Jason",
+      "score": 98,
+      "abstract_verdict": "quota_exhausted",
+      "abstract_detail": null,
+      "evidence": "Hunter score 98 + AbstractAPI: quota_exhausted"
+    },
+    {
+      "email": "hklicense@morganstanley.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-08-24T01:03:07.732931+00:00"
+    },
+    {
+      "email": "mediainquiries@morganstanley.com",
+      "kind": "observed_on_site",
+      "confidence": "verified",
+      "ro": null
+    },
+    {
+      "email": "msfs-queries@morganstanley.com",
+      "kind": "observed_on_site",
+      "confidence": "verified",
+      "ro": null
+    },
+    {
+      "email": "prospectus@morganstanley.com",
+      "kind": "observed_on_site",
+      "confidence": "verified",
+      "ro": null
+    },
+    {
+      "email": "jasongo@morganstanley.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "GO Ka Ho, Jason"
+    },
+    {
+      "email": "jgo@morganstanley.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "GO Ka Ho, Jason"
+    },
+    {
+      "email": "info@morganstanley.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@morganstanley.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@morganstanley.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "public_equity,public_credit,private_equity,private_credit,real_assets,multi",
+  "illiq_likelihood": "medium",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "Morgan Stanley",
+  "classification_source": "consensus_website_plus",
+  "website_accuracy": "verified",
+  "sfc_filed_website": "www.morganstanley.com",
+  "hunter_hits": [
+    {
+      "email": "jason.go@morganstanley.com",
+      "score": 98,
+      "ro": "GO Ka Ho, Jason",
+      "fetched_at_utc": "2026-08-24T01:10:58.774119+00:00",
+      "abstract_verdict": "quota_exhausted",
+      "abstract_detail": null
+    }
+  ],
+  "hunter_attempted_utc": "2026-08-24T01:10:58.774141+00:00"
+}

@@ -1,0 +1,92 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "CNCB (Hong Kong) Capital Limited",
+  "natural": "CNCB Capital",
+  "ceref": "AEQ982",
+  "ros": [
+    {
+      "name": "JI Zhe",
+      "ceref": "BJK888"
+    }
+  ],
+  "primary_ro": "JI Zhe",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/AEQ982/details?locale=en",
+  "email_subject": "Congratulations on your RO appointment at CNCB Capital",
+  "email_body": "Dear Zhe,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at CNCB Capital.\n\nFor illiquid managers like yourself, the marks the RO signs off on tend to be the most scrutinised line items on the books — LPs want comfort, auditors want defensibility, and internal-only marks usually invite more questions than they close. Kroll's Portfolio Valuation team here in Hong Kong helps with exactly that — robust independent valuations across private equity, private credit, and other illiquid strategies.\n\nIf a quick chat would be useful — now, or down the line — happy to set one up. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "PV",
+  "variant_id": "R1-v3-PV",
+  "email_body_hash": "7cce9067b7",
+  "email_candidates": [
+    {
+      "email": "jizhe@cncbinvestment.com",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "JI Zhe",
+      "score": 98,
+      "abstract_verdict": "quota_exhausted",
+      "abstract_detail": null,
+      "evidence": "Hunter score 98 + AbstractAPI: quota_exhausted"
+    },
+    {
+      "email": "info@cncbinvestment.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-08-24T01:03:07.734999+00:00"
+    },
+    {
+      "email": "dealing@cncbinvestment.com",
+      "kind": "observed_on_site",
+      "confidence": "verified",
+      "ro": null
+    },
+    {
+      "email": "zhe.ji@cncbinvestment.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "JI Zhe"
+    },
+    {
+      "email": "zheji@cncbinvestment.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "JI Zhe"
+    },
+    {
+      "email": "zji@cncbinvestment.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "JI Zhe"
+    },
+    {
+      "email": "contact@cncbinvestment.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@cncbinvestment.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "public_equity,public_credit,multi",
+  "illiq_likelihood": "medium",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "China CITIC Bank (CNCB)",
+  "classification_source": "website",
+  "website_accuracy": "probable",
+  "sfc_filed_website": "https://www.cncbinvestment.com/",
+  "hunter_hits": [
+    {
+      "email": "jizhe@cncbinvestment.com",
+      "score": 98,
+      "ro": "JI Zhe",
+      "fetched_at_utc": "2026-08-24T01:12:15.193934+00:00",
+      "abstract_verdict": "quota_exhausted",
+      "abstract_detail": null
+    }
+  ],
+  "hunter_attempted_utc": "2026-08-24T01:12:15.193953+00:00"
+}

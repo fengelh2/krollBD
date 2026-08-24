@@ -1,0 +1,86 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "China DIFI Securities Limited",
+  "natural": "China DIFI",
+  "ceref": "BJF033",
+  "ros": [
+    {
+      "name": "LEUNG Chun Bong",
+      "ceref": "AEK319"
+    }
+  ],
+  "primary_ro": "LEUNG Chun Bong",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BJF033/details?locale=en",
+  "email_subject": "Congratulations on your RO appointment at China DIFI",
+  "email_body": "Dear Chun Bong,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at China DIFI.\n\nFor newly appointed ROs like yourself, settling into the role often means getting a clear view of where the firm's compliance posture sits — internal policies, current filings, ongoing SFC engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps SFC-licensed firms with exactly that, scaled to the firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "FSCR",
+  "variant_id": "R1-v3-FSCR",
+  "email_body_hash": "e92b96bbf1",
+  "email_candidates": [
+    {
+      "email": "chun-bong@chinadifisec.com.hk",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "LEUNG Chun Bong",
+      "score": 95,
+      "abstract_verdict": "quota_exhausted",
+      "abstract_detail": null,
+      "evidence": "Hunter score 95 + AbstractAPI: quota_exhausted"
+    },
+    {
+      "email": "info@chinadifisec.com.hk",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-08-24T01:03:07.736748+00:00"
+    },
+    {
+      "email": "chunbong.leung@chinadifisec.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LEUNG Chun Bong"
+    },
+    {
+      "email": "chunbongleung@chinadifisec.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LEUNG Chun Bong"
+    },
+    {
+      "email": "cleung@chinadifisec.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LEUNG Chun Bong"
+    },
+    {
+      "email": "contact@chinadifisec.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@chinadifisec.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "unknown",
+  "illiq_likelihood": "unknown",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "none",
+  "website_accuracy": "not_found",
+  "sfc_filed_website": "www.chinadifisec.com.hk",
+  "hunter_hits": [
+    {
+      "email": "chun-bong@chinadifisec.com.hk",
+      "score": 95,
+      "ro": "LEUNG Chun Bong",
+      "fetched_at_utc": "2026-08-24T01:12:05.292747+00:00",
+      "abstract_verdict": "quota_exhausted",
+      "abstract_detail": null
+    }
+  ],
+  "hunter_attempted_utc": "2026-08-24T01:12:05.292763+00:00"
+}

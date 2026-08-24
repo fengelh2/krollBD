@@ -1,0 +1,92 @@
+{
+  "type": "C1",
+  "type_label": "New Type 9 corp",
+  "firm": "TIA Asset Management Limited",
+  "natural": "TIA",
+  "ceref": "BXE593",
+  "address": "Unit 4913, Level 49, Langham Place Office Tower,8 Argyle Street, Mong Kok, Kowloon, Hong Kong",
+  "ros": [
+    {
+      "name": "JIANG YAN",
+      "ceref": "BXE595"
+    },
+    {
+      "name": "WU Qibo",
+      "ceref": "AYG652"
+    }
+  ],
+  "primary_ro": "JIANG YAN",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BXE593/details?locale=en",
+  "email_subject": "Congratulations on TIA's SFC Type 9 license",
+  "email_body": "Dear TIA Management,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on TIA's recent Type 9 licensing with the SFC.\n\nAs newly licensed managers like yourself establish and scale operations, we often see a need for practical support around compliance, governance, and regulatory engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps with exactly that, scaled to your firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "FSCR",
+  "variant_id": "C1-v4-FSCR",
+  "email_body_hash": "290b2a02d0",
+  "email_candidates": [
+    {
+      "email": "gerald.wu@outlook.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-08-24T01:03:07.729773+00:00"
+    },
+    {
+      "email": "yan.jiang@outlook.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "JIANG YAN"
+    },
+    {
+      "email": "yanjiang@outlook.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "JIANG YAN"
+    },
+    {
+      "email": "yjiang@outlook.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "JIANG YAN"
+    },
+    {
+      "email": "qibo.wu@outlook.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "WU Qibo"
+    },
+    {
+      "email": "qibowu@outlook.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "WU Qibo"
+    },
+    {
+      "email": "qwu@outlook.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "WU Qibo"
+    },
+    {
+      "email": "info@outlook.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@outlook.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@outlook.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "unknown",
+  "illiq_likelihood": "unknown",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "none",
+  "website_accuracy": "not_found"
+}

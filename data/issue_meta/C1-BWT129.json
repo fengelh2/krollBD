@@ -1,0 +1,87 @@
+{
+  "type": "C1",
+  "type_label": "New Type 9 corp",
+  "firm": "Newin Capital Limited",
+  "natural": "Newin Capital",
+  "ceref": "BWT129",
+  "address": "UNIT 10, 20/F, TOWER 1, ENTERPRISE SQUARE, NO.9 SHEUNG YUET ROAD, KOWLOON BAY, Hong Kong",
+  "ros": [
+    {
+      "name": "LUO Lei",
+      "ceref": "AOJ150"
+    },
+    {
+      "name": "WANG Zhusiyuan",
+      "ceref": "BAV208"
+    }
+  ],
+  "primary_ro": "LUO Lei",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BWT129/details?locale=en",
+  "email_subject": "Congratulations on Newin Capital's SFC Type 9 license",
+  "email_body": "Dear Newin Capital Management,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on Newin Capital's recent Type 9 licensing with the SFC.\n\nAs newly licensed managers like yourself establish and scale operations, we often see a need for practical support around compliance, governance, and regulatory engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps with exactly that, scaled to your firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "FSCR",
+  "variant_id": "C1-v4-FSCR",
+  "email_body_hash": "ae3d1f3da2",
+  "email_candidates": [
+    {
+      "email": "info@newincap.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-08-24T01:03:07.729115+00:00"
+    },
+    {
+      "email": "lei.luo@newincap.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LUO Lei"
+    },
+    {
+      "email": "leiluo@newincap.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LUO Lei"
+    },
+    {
+      "email": "lluo@newincap.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LUO Lei"
+    },
+    {
+      "email": "zhusiyuan.wang@newincap.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "WANG Zhusiyuan"
+    },
+    {
+      "email": "zhusiyuanwang@newincap.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "WANG Zhusiyuan"
+    },
+    {
+      "email": "zwang@newincap.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "WANG Zhusiyuan"
+    },
+    {
+      "email": "contact@newincap.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@newincap.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "unknown",
+  "illiq_likelihood": "unknown",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "none",
+  "website_accuracy": "not_found"
+}

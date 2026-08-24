@@ -34,6 +34,33 @@
       "confidence": "verified",
       "evidence": "filed with SFC by the firm at licensing",
       "fetched_at_utc": "2026-08-17T01:08:08.548887+00:00"
+    },
+    {
+      "email": "terence.cheng@htsc.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHENG Tak Him, Terence"
+    },
+    {
+      "email": "tcheng@htsc.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHENG Tak Him, Terence"
+    },
+    {
+      "email": "info@htsc.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@htsc.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@htsc.com",
+      "kind": "generic_guess",
+      "confidence": "low"
     }
   ],
   "asset_classes": "multi",

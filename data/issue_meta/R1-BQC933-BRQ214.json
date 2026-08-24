@@ -36,30 +36,35 @@
       "fetched_at_utc": "2026-08-17T01:08:08.552093+00:00"
     },
     {
-      "email": "xue.qin@jqi-intl.com",
+      "email": "xue.qin@jqinvestments.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "QIN Xue"
     },
     {
-      "email": "xueqin@jqi-intl.com",
+      "email": "xueqin@jqinvestments.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "QIN Xue"
     },
     {
-      "email": "xqin@jqi-intl.com",
+      "email": "xqin@jqinvestments.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "QIN Xue"
     },
     {
-      "email": "info@jqi-intl.com",
+      "email": "info@jqinvestments.com",
       "kind": "generic_guess",
       "confidence": "low"
     },
     {
-      "email": "enquiry@jqi-intl.com",
+      "email": "contact@jqinvestments.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@jqinvestments.com",
       "kind": "generic_guess",
       "confidence": "low"
     }

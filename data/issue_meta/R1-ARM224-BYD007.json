@@ -34,6 +34,33 @@
       "confidence": "verified",
       "evidence": "filed with SFC by the firm at licensing",
       "fetched_at_utc": "2026-08-17T01:08:08.549165+00:00"
+    },
+    {
+      "email": "robertrisk@sig.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "RISK Robert William"
+    },
+    {
+      "email": "rrisk@sig.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "RISK Robert William"
+    },
+    {
+      "email": "info@sig.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@sig.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@sig.com",
+      "kind": "generic_guess",
+      "confidence": "low"
     }
   ],
   "asset_classes": "public_equity,public_credit,private_equity,venture_capital",

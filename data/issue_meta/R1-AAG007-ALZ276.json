@@ -1,0 +1,85 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "Duncan Futures Limited",
+  "natural": "Duncan Futures",
+  "ceref": "AAG007",
+  "ros": [
+    {
+      "name": "DAI Zhiqiang",
+      "ceref": "ALZ276"
+    }
+  ],
+  "primary_ro": "DAI Zhiqiang",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/AAG007/details?locale=en",
+  "email_subject": "Congratulations on your RO appointment at Duncan Futures",
+  "email_body": "Dear Zhiqiang,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at Duncan Futures.\n\nFor newly appointed ROs like yourself, settling into the role often means getting a clear view of where the firm's compliance posture sits — internal policies, current filings, ongoing SFC engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps SFC-licensed firms with exactly that, scaled to the firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "FSCR",
+  "variant_id": "R1-v3-FSCR",
+  "email_body_hash": "e7e163628b",
+  "email_candidates": [
+    {
+      "email": "zhiqiang.dai@duncanfutures.hk",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "DAI Zhiqiang",
+      "score": 95,
+      "abstract_verdict": "quota_exhausted",
+      "abstract_detail": null,
+      "evidence": "Hunter score 95 + AbstractAPI: quota_exhausted"
+    },
+    {
+      "email": "cs@duncanfutures.hk",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-08-24T01:03:07.733485+00:00"
+    },
+    {
+      "email": "zhiqiangdai@duncanfutures.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "DAI Zhiqiang"
+    },
+    {
+      "email": "zdai@duncanfutures.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "DAI Zhiqiang"
+    },
+    {
+      "email": "info@duncanfutures.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@duncanfutures.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@duncanfutures.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "unknown",
+  "illiq_likelihood": "unknown",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "none",
+  "website_accuracy": "probable",
+  "sfc_filed_website": "duncanfutures.hk",
+  "hunter_hits": [
+    {
+      "email": "zhiqiang.dai@duncanfutures.hk",
+      "score": 95,
+      "ro": "DAI Zhiqiang",
+      "fetched_at_utc": "2026-08-24T01:11:54.198722+00:00",
+      "abstract_verdict": "quota_exhausted",
+      "abstract_detail": null
+    }
+  ],
+  "hunter_attempted_utc": "2026-08-24T01:11:54.198742+00:00"
+}

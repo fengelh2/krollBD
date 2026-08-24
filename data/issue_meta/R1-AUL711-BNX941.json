@@ -1,0 +1,72 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "Valuable Capital Limited",
+  "natural": "Valuable Capital",
+  "ceref": "AUL711",
+  "ros": [
+    {
+      "name": "MAK Chi Pui",
+      "ceref": "BNX941"
+    }
+  ],
+  "primary_ro": "MAK Chi Pui",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/AUL711/details?locale=en",
+  "email_subject": "Congratulations on your RO appointment at Valuable Capital",
+  "email_body": "Dear Chi Pui,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at Valuable Capital.\n\nFor newly appointed ROs like yourself, settling into the role often means getting a clear view of where the firm's compliance posture sits — internal policies, current filings, ongoing SFC engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps SFC-licensed firms with exactly that, scaled to the firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "FSCR",
+  "variant_id": "R1-v3-FSCR",
+  "email_body_hash": "9681a070e9",
+  "email_candidates": [
+    {
+      "email": "compliance@valuable.com.hk",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-08-24T01:03:07.735282+00:00"
+    },
+    {
+      "email": "chipui.mak@valuable.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "MAK Chi Pui"
+    },
+    {
+      "email": "chipuimak@valuable.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "MAK Chi Pui"
+    },
+    {
+      "email": "cmak@valuable.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "MAK Chi Pui"
+    },
+    {
+      "email": "info@valuable.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@valuable.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@valuable.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "public_equity,public_credit,fund_of_funds,multi",
+  "illiq_likelihood": "low",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "website",
+  "website_accuracy": "probable",
+  "sfc_filed_website": "WWW.VBKR.COM",
+  "hunter_hits": [],
+  "hunter_attempted_utc": "2026-08-24T01:10:01.022889+00:00"
+}

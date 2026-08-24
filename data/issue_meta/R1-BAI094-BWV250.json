@@ -1,0 +1,92 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "China Galaxy International Asset Management (Hong Kong) Co., Limited",
+  "natural": "China Galaxy International",
+  "ceref": "BAI094",
+  "ros": [
+    {
+      "name": "Xian Xingchi",
+      "ceref": "BWV250"
+    }
+  ],
+  "primary_ro": "Xian Xingchi",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BAI094/details?locale=en",
+  "email_subject": "Congratulations on your RO appointment at China Galaxy International",
+  "email_body": "Dear Xian,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at China Galaxy International.\n\nFor illiquid managers like yourself, the marks the RO signs off on tend to be the most scrutinised line items on the books — LPs want comfort, auditors want defensibility, and internal-only marks usually invite more questions than they close. Kroll's Portfolio Valuation team here in Hong Kong helps with exactly that — robust independent valuations across private equity, private credit, and other illiquid strategies.\n\nIf a quick chat would be useful — now, or down the line — happy to set one up. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "PV",
+  "variant_id": "R1-v3-PV",
+  "email_body_hash": "7dbc2e1f14",
+  "email_candidates": [
+    {
+      "email": "xianxingchi@chinastock.com.hk",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "Xian Xingchi",
+      "score": 82,
+      "abstract_verdict": "quota_exhausted",
+      "abstract_detail": null,
+      "evidence": "Hunter score 82 + AbstractAPI: quota_exhausted"
+    },
+    {
+      "email": "enquiry@chinastock.com.hk",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-08-24T01:03:07.735469+00:00"
+    },
+    {
+      "email": "complaints@chinastock.com.hk",
+      "kind": "observed_on_site",
+      "confidence": "verified",
+      "ro": null
+    },
+    {
+      "email": "cs@chinastock.com.hk",
+      "kind": "observed_on_site",
+      "confidence": "verified",
+      "ro": null
+    },
+    {
+      "email": "xian.xingchi@chinastock.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "Xian Xingchi"
+    },
+    {
+      "email": "xxingchi@chinastock.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "Xian Xingchi"
+    },
+    {
+      "email": "info@chinastock.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@chinastock.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "public_equity,public_credit,multi",
+  "illiq_likelihood": "medium",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "China Galaxy Securities",
+  "classification_source": "website",
+  "website_accuracy": "probable",
+  "sfc_filed_website": "www.chinastock.com.hk",
+  "hunter_hits": [
+    {
+      "email": "xianxingchi@chinastock.com.hk",
+      "score": 82,
+      "ro": "Xian Xingchi",
+      "fetched_at_utc": "2026-08-24T01:12:06.621250+00:00",
+      "abstract_verdict": "quota_exhausted",
+      "abstract_detail": null
+    }
+  ],
+  "hunter_attempted_utc": "2026-08-24T01:12:06.621271+00:00"
+}
