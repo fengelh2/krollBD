@@ -731,8 +731,26 @@
     if (btn) btn.addEventListener("click", async () => {
       btn.disabled = true; btn.textContent = "Sending…";
       const ok = await dispatchOutreach(issue, meta);
-      if (ok) { addPending(issue.number); refresh(); }
-      else { btn.disabled = false; btn.textContent = "Mark as reached out"; }
+      if (ok) {
+        addPending(issue.number);
+        refresh();
+        // Poll the log until this row actually lands instead of waiting for
+        // the 20s tick. Measured click->commit round trip is 8-10s, so the
+        // old behaviour left a ~30s window where the row was written but the
+        // counters still showed the pre-click value - which reads as a lost
+        // write (2026-08-24). Also clears the pending spinner as soon as the
+        // row is real.
+        const want = String(issue.number);
+        for (let i = 0; i < 8; i++) {
+          await new Promise(r => setTimeout(r, 5000));
+          try {
+            const rows = await fetchLog();
+            if (rows.length) LOG_ROWS = rows;
+            refresh();
+            if (LOG_ROWS.some(r => String(r.issue_number) === want)) break;
+          } catch {}
+        }
+      } else { btn.disabled = false; btn.textContent = "Mark as reached out"; }
     });
     const dropBtn = card.querySelector('[data-action="drop"]');
     if (dropBtn) dropBtn.addEventListener("click", async () => {
