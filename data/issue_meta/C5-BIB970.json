@@ -1,0 +1,100 @@
+{
+  "type": "C5",
+  "type_label": "Rebrand / name change",
+  "firm": "Austrax Asset Management Limited",
+  "old_firm": "Innovax Asset Management Limited",
+  "natural": "Austrax",
+  "ceref": "BIB970",
+  "ros": [
+    {
+      "name": "GE Xiaopeng",
+      "ceref": "BMX551"
+    },
+    {
+      "name": "NG Kai Chong",
+      "ceref": "AVV236"
+    }
+  ],
+  "primary_ro": "GE Xiaopeng",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BIB970/details?locale=en",
+  "email_subject": "Austrax — note on the recent rebrand",
+  "email_body": "Dear Austrax Management,\n\nThis is Felix from Kroll in Hong Kong. The SFC public register shows that Innovax has been renamed to Austrax.\n\nRebrands often accompany broader changes — a new sponsor, a strategy refresh, or an organisational reshape — and these moments are often a natural time to revisit fund-level valuation policies and the operating arrangements behind them.\n\nKroll's Portfolio Valuation team works with SFC-regulated managers across Hong Kong on independent fair-value opinions for private equity and credit positions, and our adjacent FSCR colleagues support governance and regulatory engagement. Happy to set up an informal call if any of this would be useful as you transition.\n\nKind regards,\nFelix Engelhardt\n",
+  "variant_id": "C5-v2",
+  "email_body_hash": "11b1d35a48",
+  "email_candidates": [
+    {
+      "email": "richard.chung@innovax.hk",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-08-31T03:05:53.962706+00:00"
+    },
+    {
+      "email": "support@austrax.com",
+      "kind": "generic_on_site",
+      "confidence": "verified",
+      "ro": null
+    },
+    {
+      "email": "xiaopeng.ge@austrax.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "GE Xiaopeng"
+    },
+    {
+      "email": "xiaopengge@austrax.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "GE Xiaopeng"
+    },
+    {
+      "email": "xge@austrax.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "GE Xiaopeng"
+    },
+    {
+      "email": "kaichong.ng@austrax.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "NG Kai Chong"
+    },
+    {
+      "email": "kaichongng@austrax.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "NG Kai Chong"
+    },
+    {
+      "email": "kng@austrax.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "NG Kai Chong"
+    },
+    {
+      "email": "info@austrax.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@austrax.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@austrax.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "public_equity,public_credit,multi",
+  "illiq_likelihood": "low",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "Nan Qiang Holdings",
+  "classification_source": "website",
+  "website_accuracy": "probable",
+  "sfc_filed_website": "www.innovax.hk",
+  "hunter_hits": [],
+  "hunter_attempted_utc": "2026-08-31T03:13:24.594474+00:00"
+}

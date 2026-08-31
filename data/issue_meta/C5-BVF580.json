@@ -1,0 +1,42 @@
+{
+  "type": "C5",
+  "type_label": "Rebrand / name change",
+  "firm": "CHOW TAIKING SECURITIES (HONG KONG) LIMITED",
+  "old_firm": "Zeus Securities (Hong Kong) Limited",
+  "natural": "Chow Taiking",
+  "ceref": "BVF580",
+  "ros": [
+    {
+      "name": "SHAN Li",
+      "ceref": "BWO390"
+    },
+    {
+      "name": "TIAN Xiaomeng",
+      "ceref": "BVF581"
+    }
+  ],
+  "primary_ro": "SHAN Li",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BVF580/details?locale=en",
+  "email_subject": "Chow Taiking — note on the recent rebrand",
+  "email_body": "Dear Xmtian and Chow Taiking Management,\n\nThis is Felix from Kroll in Hong Kong. The SFC public register shows that Zeus has been renamed to Chow Taiking.\n\nRebrands often accompany broader changes — a new sponsor, a strategy refresh, or an organisational reshape — and these moments are often a natural time to revisit fund-level valuation policies and the operating arrangements behind them.\n\nKroll's Portfolio Valuation team works with SFC-regulated managers across Hong Kong on independent fair-value opinions for private equity and credit positions, and our adjacent FSCR colleagues support governance and regulatory engagement. Happy to set up an informal call if any of this would be useful as you transition.\n\nKind regards,\nFelix Engelhardt\n",
+  "variant_id": "C5-v2",
+  "email_body_hash": "b213b9816b",
+  "email_candidates": [
+    {
+      "email": "xmtian@zeussechk.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-08-31T03:05:53.963032+00:00"
+    }
+  ],
+  "asset_classes": "unknown",
+  "illiq_likelihood": "unknown",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "none",
+  "website_accuracy": "not_found",
+  "hunter_hits": [],
+  "hunter_attempted_utc": "2026-08-31T03:13:25.725167+00:00"
+}

@@ -1,0 +1,41 @@
+{
+  "type": "C1",
+  "type_label": "New Type 9 corp",
+  "firm": "Confluent Asset Management Company Limited",
+  "natural": "Confluent",
+  "ceref": "BXJ397",
+  "address": "Room 2352, Unit A-E, 23/F, Billion Plaza II, 10 Cheung Yue Street, Kowloon, Hong Kong",
+  "ros": [
+    {
+      "name": "KUNG Wai Ling",
+      "ceref": "AEU211"
+    },
+    {
+      "name": "NG Ka Yiu",
+      "ceref": "BEF660"
+    }
+  ],
+  "primary_ro": "KUNG Wai Ling",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BXJ397/details?locale=en",
+  "email_subject": "Congratulations on Confluent's SFC Type 9 license",
+  "email_body": "Dear Confluent Management,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on Confluent's recent Type 9 licensing with the SFC.\n\nAs newly licensed managers like yourself establish and scale operations, we often see a need for practical support around compliance, governance, and regulatory engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps with exactly that, scaled to your firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "FSCR",
+  "variant_id": "C1-v4-FSCR",
+  "email_body_hash": "731f89f7c9",
+  "email_candidates": [
+    {
+      "email": "karl_ng@hotmail.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-08-31T03:05:53.961111+00:00"
+    }
+  ],
+  "asset_classes": "unknown",
+  "illiq_likelihood": "unknown",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "none",
+  "website_accuracy": "not_found"
+}

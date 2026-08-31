@@ -1,0 +1,91 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "J.P. Morgan Securities (Far East) Limited",
+  "natural": "J.P. Morgan",
+  "ceref": "AAB026",
+  "ros": [
+    {
+      "name": "SETO Ka Leung",
+      "ceref": "AXB922"
+    }
+  ],
+  "primary_ro": "SETO Ka Leung",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/AAB026/details?locale=en",
+  "email_subject": "Congratulations on your RO appointment at J.P. Morgan",
+  "email_body": "Dear Ka Leung,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at J.P. Morgan.\n\nFor illiquid managers like yourself, the marks the RO signs off on tend to be the most scrutinised line items on the books — LPs want comfort, auditors want defensibility, and internal-only marks usually invite more questions than they close. Kroll's Portfolio Valuation team here in Hong Kong helps with exactly that — robust independent valuations across private equity, private credit, and other illiquid strategies.\n\nIf a quick chat would be useful — now, or down the line — happy to set one up. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "PV",
+  "variant_id": "R1-v3-PV",
+  "email_body_hash": "ea0f79ba72",
+  "email_candidates": [
+    {
+      "email": "leung.seto@jpmorgan.com",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "SETO Ka Leung",
+      "score": 83,
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email",
+      "evidence": "Hunter score 83 + AbstractAPI: deliverable"
+    },
+    {
+      "email": "hk.compliance@jpmorgan.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-08-31T03:05:53.963908+00:00"
+    },
+    {
+      "email": "kaleung.seto@jpmorgan.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "SETO Ka Leung"
+    },
+    {
+      "email": "kaleungseto@jpmorgan.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "SETO Ka Leung"
+    },
+    {
+      "email": "kseto@jpmorgan.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "SETO Ka Leung"
+    },
+    {
+      "email": "info@jpmorgan.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@jpmorgan.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@jpmorgan.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "public_equity,public_credit,private_equity,private_credit,real_assets,multi",
+  "illiq_likelihood": "medium",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "JPMorgan Chase & Co.",
+  "classification_source": "consensus_website_plus",
+  "website_accuracy": "verified",
+  "sfc_filed_website": "jpmorgan.com",
+  "hunter_hits": [
+    {
+      "email": "leung.seto@jpmorgan.com",
+      "score": 83,
+      "ro": "SETO Ka Leung",
+      "fetched_at_utc": "2026-08-31T03:11:31.400712+00:00",
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email"
+    }
+  ],
+  "hunter_attempted_utc": "2026-08-31T03:11:31.400731+00:00"
+}

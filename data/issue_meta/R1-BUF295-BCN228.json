@@ -1,0 +1,71 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "Wah Chit Global Capital Limited",
+  "natural": "Wah Chit Global Capital",
+  "ceref": "BUF295",
+  "ros": [
+    {
+      "name": "WU Chun Ngai",
+      "ceref": "BCN228"
+    }
+  ],
+  "primary_ro": "WU Chun Ngai",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BUF295/details?locale=en",
+  "email_subject": "Congratulations on your RO appointment at Wah Chit Global Capital",
+  "email_body": "Dear Chun Ngai,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at Wah Chit Global Capital.\n\nFor newly appointed ROs like yourself, settling into the role often means getting a clear view of where the firm's compliance posture sits — internal policies, current filings, ongoing SFC engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps SFC-licensed firms with exactly that, scaled to the firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "FSCR",
+  "variant_id": "R1-v3-FSCR",
+  "email_body_hash": "599ba7a8bb",
+  "email_candidates": [
+    {
+      "email": "lihua.liang@wahchitcapital.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-08-31T03:05:53.969945+00:00"
+    },
+    {
+      "email": "chunngai.wu@wahchitcapital.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "WU Chun Ngai"
+    },
+    {
+      "email": "chunngaiwu@wahchitcapital.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "WU Chun Ngai"
+    },
+    {
+      "email": "cwu@wahchitcapital.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "WU Chun Ngai"
+    },
+    {
+      "email": "info@wahchitcapital.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@wahchitcapital.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@wahchitcapital.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "unknown",
+  "illiq_likelihood": "unknown",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "none",
+  "website_accuracy": "not_found",
+  "hunter_hits": [],
+  "hunter_attempted_utc": "2026-08-31T03:10:33.058321+00:00"
+}

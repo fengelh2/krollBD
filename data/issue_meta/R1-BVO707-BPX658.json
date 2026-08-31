@@ -1,0 +1,96 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "Everflow Investment Management Limited",
+  "natural": "Everflow",
+  "ceref": "BVO707",
+  "ros": [
+    {
+      "name": "LU Liwei",
+      "ceref": "BPX658"
+    }
+  ],
+  "primary_ro": "LU Liwei",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BVO707/details?locale=en",
+  "email_subject": "Congratulations on your RO appointment at Everflow",
+  "email_body": "Dear Liwei,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at Everflow.\n\nFor newly appointed ROs like yourself, settling into the role often means getting a clear view of where the firm's compliance posture sits — internal policies, current filings, ongoing SFC engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps SFC-licensed firms with exactly that, scaled to the firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "FSCR",
+  "variant_id": "R1-v3-FSCR",
+  "email_body_hash": "f8cf9f3c7e",
+  "email_candidates": [
+    {
+      "email": "liwei@everflowhk.com",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "LU Liwei",
+      "score": 95,
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email",
+      "evidence": "Hunter score 95 + AbstractAPI: deliverable"
+    },
+    {
+      "email": "chao.yu@everflowinv.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-08-31T03:05:53.970686+00:00"
+    },
+    {
+      "email": "hi@everflowhk.com",
+      "kind": "observed_on_site",
+      "confidence": "verified",
+      "ro": null
+    },
+    {
+      "email": "liwei.lu@everflowhk.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LU Liwei"
+    },
+    {
+      "email": "liweilu@everflowhk.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LU Liwei"
+    },
+    {
+      "email": "llu@everflowhk.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LU Liwei"
+    },
+    {
+      "email": "info@everflowhk.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@everflowhk.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@everflowhk.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "unknown",
+  "illiq_likelihood": "unknown",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "none",
+  "website_accuracy": "not_found",
+  "hunter_hits": [
+    {
+      "email": "liwei@everflowhk.com",
+      "score": 95,
+      "ro": "LU Liwei",
+      "fetched_at_utc": "2026-08-31T03:12:02.837308+00:00",
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email"
+    }
+  ],
+  "hunter_attempted_utc": "2026-08-31T03:12:02.837330+00:00"
+}

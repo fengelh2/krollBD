@@ -1,0 +1,85 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "Anglo Chinese Corporate Finance, Limited",
+  "natural": "Anglo Chinese Corporate Finance",
+  "ceref": "AAD350",
+  "ros": [
+    {
+      "name": "CHAN Wan Yin",
+      "ceref": "BAX638"
+    }
+  ],
+  "primary_ro": "CHAN Wan Yin",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/AAD350/details?locale=en",
+  "email_subject": "Congratulations on your RO appointment at Anglo Chinese Corporate Finance",
+  "email_body": "Dear Wan Yin,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at Anglo Chinese Corporate Finance.\n\nFor illiquid managers like yourself, the marks the RO signs off on tend to be the most scrutinised line items on the books — LPs want comfort, auditors want defensibility, and internal-only marks usually invite more questions than they close. Kroll's Portfolio Valuation team here in Hong Kong helps with exactly that — robust independent valuations across private equity, private credit, and other illiquid strategies.\n\nIf a quick chat would be useful — now, or down the line — happy to set one up. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "PV",
+  "variant_id": "R1-v3-PV",
+  "email_body_hash": "cdd37d0055",
+  "email_candidates": [
+    {
+      "email": "wchan@anglochinesegroup.com",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "CHAN Wan Yin",
+      "score": 80,
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email",
+      "evidence": "Hunter score 80 + AbstractAPI: deliverable"
+    },
+    {
+      "email": "accf@anglochinesegroup.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-08-31T03:05:53.964694+00:00"
+    },
+    {
+      "email": "wanyin.chan@anglochinesegroup.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHAN Wan Yin"
+    },
+    {
+      "email": "wanyinchan@anglochinesegroup.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHAN Wan Yin"
+    },
+    {
+      "email": "info@anglochinesegroup.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@anglochinesegroup.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@anglochinesegroup.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "private_equity,private_credit,real_assets,public_equity,public_credit",
+  "illiq_likelihood": "medium",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "website",
+  "website_accuracy": "probable",
+  "sfc_filed_website": "www.anglochinesegroup.com",
+  "hunter_hits": [
+    {
+      "email": "wchan@anglochinesegroup.com",
+      "score": 80,
+      "ro": "CHAN Wan Yin",
+      "fetched_at_utc": "2026-08-31T03:13:16.760755+00:00",
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email"
+    }
+  ],
+  "hunter_attempted_utc": "2026-08-31T03:13:16.760779+00:00"
+}

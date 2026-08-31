@@ -1,0 +1,94 @@
+{
+  "type": "C1",
+  "type_label": "New Type 9 corp",
+  "firm": "KOG CAPITAL MANAGEMENT LIMITED",
+  "natural": "Kog Capital",
+  "ceref": "BXJ687",
+  "address": "UNIT 3205, 32/F, Excel Centre, 483A Castle Peak Road, Lai Chi Kok, Kowloon, Hong Kong",
+  "ros": [
+    {
+      "name": "CHAN Pui Kin",
+      "ceref": "BDC891"
+    },
+    {
+      "name": "LAW Wing Cheung, Ryan",
+      "ceref": "AEP792"
+    }
+  ],
+  "primary_ro": "CHAN Pui Kin",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BXJ687/details?locale=en",
+  "email_subject": "Congratulations on Kog Capital's SFC Type 9 license",
+  "email_body": "Dear Kog Capital Management,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on Kog Capital's recent Type 9 licensing with the SFC.\n\nAs newly licensed managers like yourself establish and scale operations, we often see a need for practical support around compliance, governance, and regulatory engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps with exactly that, scaled to your firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "FSCR",
+  "variant_id": "C1-v4-FSCR",
+  "email_body_hash": "51813a2d7e",
+  "email_candidates": [
+    {
+      "email": "cs@kogcapital.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-08-31T03:05:53.961474+00:00"
+    },
+    {
+      "email": "puikin.chan@kogcapital.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHAN Pui Kin"
+    },
+    {
+      "email": "puikinchan@kogcapital.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHAN Pui Kin"
+    },
+    {
+      "email": "pchan@kogcapital.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHAN Pui Kin"
+    },
+    {
+      "email": "ryan.law@kogcapital.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LAW Wing Cheung, Ryan"
+    },
+    {
+      "email": "ryanlaw@kogcapital.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LAW Wing Cheung, Ryan"
+    },
+    {
+      "email": "rlaw@kogcapital.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LAW Wing Cheung, Ryan"
+    },
+    {
+      "email": "info@kogcapital.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@kogcapital.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@kogcapital.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "unknown",
+  "illiq_likelihood": "unknown",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "none",
+  "website_accuracy": "unverified",
+  "hunter_hits": [],
+  "hunter_attempted_utc": "2026-08-31T03:13:49.961030+00:00"
+}

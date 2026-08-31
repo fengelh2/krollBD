@@ -1,0 +1,85 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "Hong Kong International Capital Management Limited",
+  "natural": "Hong Kong International Capital",
+  "ceref": "ABT748",
+  "ros": [
+    {
+      "name": "YIN Ziqiang",
+      "ceref": "BVT912"
+    }
+  ],
+  "primary_ro": "YIN Ziqiang",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/ABT748/details?locale=en",
+  "email_subject": "Congratulations on your RO appointment at Hong Kong International Capital",
+  "email_body": "Dear Ziqiang,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at Hong Kong International Capital.\n\nFor illiquid managers like yourself, the marks the RO signs off on tend to be the most scrutinised line items on the books — LPs want comfort, auditors want defensibility, and internal-only marks usually invite more questions than they close. Kroll's Portfolio Valuation team here in Hong Kong helps with exactly that — robust independent valuations across private equity, private credit, and other illiquid strategies.\n\nIf a quick chat would be useful — now, or down the line — happy to set one up. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "PV",
+  "variant_id": "R1-v3-PV",
+  "email_body_hash": "9d1a8911e5",
+  "email_candidates": [
+    {
+      "email": "ziqiang.yin@hkicml.com",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "YIN Ziqiang",
+      "score": 82,
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email",
+      "evidence": "Hunter score 82 + AbstractAPI: deliverable"
+    },
+    {
+      "email": "compliance@hkicml.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-08-31T03:05:53.965782+00:00"
+    },
+    {
+      "email": "ziqiangyin@hkicml.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "YIN Ziqiang"
+    },
+    {
+      "email": "zyin@hkicml.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "YIN Ziqiang"
+    },
+    {
+      "email": "info@hkicml.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@hkicml.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@hkicml.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "private_equity,public_equity,multi",
+  "illiq_likelihood": "medium",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "website",
+  "website_accuracy": "suspect",
+  "sfc_filed_website": "www.hkicml.com",
+  "hunter_hits": [
+    {
+      "email": "ziqiang.yin@hkicml.com",
+      "score": 82,
+      "ro": "YIN Ziqiang",
+      "fetched_at_utc": "2026-08-31T03:11:46.175510+00:00",
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email"
+    }
+  ],
+  "hunter_attempted_utc": "2026-08-31T03:11:46.175528+00:00"
+}

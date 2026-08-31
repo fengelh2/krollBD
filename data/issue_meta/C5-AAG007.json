@@ -1,0 +1,147 @@
+{
+  "type": "C5",
+  "type_label": "Rebrand / name change",
+  "firm": "Zhong Zheng International Futures Limited",
+  "old_firm": "Duncan Futures Limited",
+  "natural": "Zhong Zheng International Futures",
+  "ceref": "AAG007",
+  "ros": [
+    {
+      "name": "CHEUNG Kwok Yan",
+      "ceref": "AEJ164"
+    },
+    {
+      "name": "DAI Zhiqiang",
+      "ceref": "ALZ276"
+    },
+    {
+      "name": "LEUNG Yu Hin",
+      "ceref": "AZX593"
+    }
+  ],
+  "primary_ro": "CHEUNG Kwok Yan",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/AAG007/details?locale=en",
+  "email_subject": "Zhong Zheng International Futures — note on the recent rebrand",
+  "email_body": "Dear Zhong Zheng International Futures Management,\n\nThis is Felix from Kroll in Hong Kong. The SFC public register shows that Duncan Futures has been renamed to Zhong Zheng International Futures.\n\nRebrands often accompany broader changes — a new sponsor, a strategy refresh, or an organisational reshape — and these moments are often a natural time to revisit fund-level valuation policies and the operating arrangements behind them.\n\nKroll's Portfolio Valuation team works with SFC-regulated managers across Hong Kong on independent fair-value opinions for private equity and credit positions, and our adjacent FSCR colleagues support governance and regulatory engagement. Happy to set up an informal call if any of this would be useful as you transition.\n\nKind regards,\nFelix Engelhardt\n",
+  "variant_id": "C5-v2",
+  "email_body_hash": "09943bedb3",
+  "email_candidates": [
+    {
+      "email": "zhiqiang.dai@duncanfutures.hk",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "DAI Zhiqiang",
+      "score": 95,
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email",
+      "evidence": "Hunter score 95 + AbstractAPI: deliverable"
+    },
+    {
+      "email": "kwok-yan@duncanfutures.hk",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "CHEUNG Kwok Yan",
+      "score": 57,
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email",
+      "evidence": "Hunter score 57 + AbstractAPI: deliverable"
+    },
+    {
+      "email": "cs@duncanfutures.hk",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-08-31T03:05:53.962091+00:00"
+    },
+    {
+      "email": "kwokyan.cheung@duncanfutures.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHEUNG Kwok Yan"
+    },
+    {
+      "email": "kwokyancheung@duncanfutures.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHEUNG Kwok Yan"
+    },
+    {
+      "email": "kcheung@duncanfutures.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHEUNG Kwok Yan"
+    },
+    {
+      "email": "zhiqiangdai@duncanfutures.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "DAI Zhiqiang"
+    },
+    {
+      "email": "zdai@duncanfutures.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "DAI Zhiqiang"
+    },
+    {
+      "email": "yuhin.leung@duncanfutures.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LEUNG Yu Hin"
+    },
+    {
+      "email": "yuhinleung@duncanfutures.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LEUNG Yu Hin"
+    },
+    {
+      "email": "yleung@duncanfutures.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LEUNG Yu Hin"
+    },
+    {
+      "email": "info@duncanfutures.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@duncanfutures.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@duncanfutures.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "unknown",
+  "illiq_likelihood": "unknown",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "none",
+  "website_accuracy": "probable",
+  "sfc_filed_website": "duncanfutures.hk",
+  "hunter_hits": [
+    {
+      "email": "kwok-yan@duncanfutures.hk",
+      "score": 57,
+      "ro": "CHEUNG Kwok Yan",
+      "fetched_at_utc": "2026-08-31T03:13:22.123473+00:00",
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email"
+    },
+    {
+      "email": "zhiqiang.dai@duncanfutures.hk",
+      "score": 95,
+      "ro": "DAI Zhiqiang",
+      "fetched_at_utc": "2026-08-31T03:13:24.101202+00:00",
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email"
+    }
+  ],
+  "hunter_attempted_utc": "2026-08-31T03:13:24.546601+00:00"
+}
