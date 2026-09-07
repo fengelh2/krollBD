@@ -1,0 +1,116 @@
+{
+  "type": "C1",
+  "type_label": "New Type 9 corp",
+  "firm": "Aetheris Strategic Capital Limited",
+  "natural": "Aetheris Strategic Capital",
+  "ceref": "BXD998",
+  "address": "Unit 4, 14/F, Admiralty Centre Tower 2, 18 Harcourt Road, Central and Western District, Hong Kong",
+  "ros": [
+    {
+      "name": "GU Xiaofei",
+      "ceref": "BXE001"
+    },
+    {
+      "name": "ZHANG Fan",
+      "ceref": "AUT824"
+    },
+    {
+      "name": "ZHOU Shangchen",
+      "ceref": "BXE002"
+    }
+  ],
+  "primary_ro": "GU Xiaofei",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BXD998/details?locale=en",
+  "email_subject": "Congratulations on Aetheris Strategic Capital's SFC Type 9 license",
+  "email_body": "Dear Aetheris Strategic Capital Management,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on Aetheris Strategic Capital's recent Type 9 licensing with the SFC.\n\nFor illiquid managers like yourself, as you get ready to start deploying capital, the recurring question is how to mark private positions in a way that holds up with LPs and auditors. Kroll's Portfolio Valuation team here in Hong Kong helps with exactly that — across private equity, private credit, and other illiquid strategies.\n\nIf a quick chat would be useful — now, or down the line — happy to set one up. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "PV",
+  "variant_id": "C1-v4-PV",
+  "email_body_hash": "6c4d5d4ca8",
+  "email_candidates": [
+    {
+      "email": "ac@aetheris-capital.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-09-07T02:29:52.199966+00:00"
+    },
+    {
+      "email": "xiaofei.gu@aetheris-capital.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "GU Xiaofei"
+    },
+    {
+      "email": "xiaofeigu@aetheris-capital.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "GU Xiaofei"
+    },
+    {
+      "email": "xgu@aetheris-capital.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "GU Xiaofei"
+    },
+    {
+      "email": "fan.zhang@aetheris-capital.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "ZHANG Fan"
+    },
+    {
+      "email": "fanzhang@aetheris-capital.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "ZHANG Fan"
+    },
+    {
+      "email": "fzhang@aetheris-capital.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "ZHANG Fan"
+    },
+    {
+      "email": "shangchen.zhou@aetheris-capital.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "ZHOU Shangchen"
+    },
+    {
+      "email": "shangchenzhou@aetheris-capital.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "ZHOU Shangchen"
+    },
+    {
+      "email": "szhou@aetheris-capital.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "ZHOU Shangchen"
+    },
+    {
+      "email": "info@aetheris-capital.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@aetheris-capital.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@aetheris-capital.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "real_assets",
+  "illiq_likelihood": "high",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "website",
+  "website_accuracy": "probable",
+  "hunter_hits": [],
+  "hunter_attempted_utc": "2026-09-07T02:45:00.019036+00:00"
+}

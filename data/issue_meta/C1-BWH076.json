@@ -1,0 +1,116 @@
+{
+  "type": "C1",
+  "type_label": "New Type 9 corp",
+  "firm": "China Central Reliance Securities Company Limited",
+  "natural": "China Central Reliance",
+  "ceref": "BWH076",
+  "address": "Unit 58 & 59, 9/F, ONE VISTA SUPREME,, 1 SAM HOP LANE,, TUEN MUN, NT,, Hong Kong",
+  "ros": [
+    {
+      "name": "LEE Yu Hin",
+      "ceref": "AZG929"
+    },
+    {
+      "name": "WEI Tao",
+      "ceref": "BWH080"
+    },
+    {
+      "name": "ZHENG Shu",
+      "ceref": "BWS064"
+    }
+  ],
+  "primary_ro": "LEE Yu Hin",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BWH076/details?locale=en",
+  "email_subject": "Congratulations on China Central Reliance's SFC Type 9 license",
+  "email_body": "Dear Zhongchengruixin and China Central Reliance Management,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on China Central Reliance's recent Type 9 licensing with the SFC.\n\nAs newly licensed managers like yourself establish and scale operations, we often see a need for practical support around compliance, governance, and regulatory engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps with exactly that, scaled to your firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "FSCR",
+  "variant_id": "C1-v4-FSCR",
+  "email_body_hash": "c15a98fe09",
+  "email_candidates": [
+    {
+      "email": "zhongchengruixin@chinacentralreliance.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-09-07T02:29:52.199181+00:00"
+    },
+    {
+      "email": "yuhin.lee@chinacentralreliance.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LEE Yu Hin"
+    },
+    {
+      "email": "yuhinlee@chinacentralreliance.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LEE Yu Hin"
+    },
+    {
+      "email": "ylee@chinacentralreliance.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LEE Yu Hin"
+    },
+    {
+      "email": "tao.wei@chinacentralreliance.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "WEI Tao"
+    },
+    {
+      "email": "taowei@chinacentralreliance.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "WEI Tao"
+    },
+    {
+      "email": "twei@chinacentralreliance.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "WEI Tao"
+    },
+    {
+      "email": "shu.zheng@chinacentralreliance.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "ZHENG Shu"
+    },
+    {
+      "email": "shuzheng@chinacentralreliance.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "ZHENG Shu"
+    },
+    {
+      "email": "szheng@chinacentralreliance.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "ZHENG Shu"
+    },
+    {
+      "email": "info@chinacentralreliance.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@chinacentralreliance.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@chinacentralreliance.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "unknown",
+  "illiq_likelihood": "unknown",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "none",
+  "website_accuracy": "not_found",
+  "hunter_hits": [],
+  "hunter_attempted_utc": "2026-09-07T02:44:28.163957+00:00"
+}

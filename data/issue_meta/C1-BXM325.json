@@ -1,0 +1,87 @@
+{
+  "type": "C1",
+  "type_label": "New Type 9 corp",
+  "firm": "Mergers Group Limited",
+  "natural": "Mergers",
+  "ceref": "BXM325",
+  "address": "Room B103, 16/F., Tower 5, The Gateway, Harbour City, Tsim Sha Tsui, Hong Kong",
+  "ros": [
+    {
+      "name": "CHEN Long",
+      "ceref": "BNN107"
+    },
+    {
+      "name": "MATSUO Hidetaku",
+      "ceref": "AZL647"
+    }
+  ],
+  "primary_ro": "CHEN Long",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BXM325/details?locale=en",
+  "email_subject": "Congratulations on Mergers's SFC Type 9 license",
+  "email_body": "Dear Mergers Management,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on Mergers's recent Type 9 licensing with the SFC.\n\nAs newly licensed managers like yourself establish and scale operations, we often see a need for practical support around compliance, governance, and regulatory engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps with exactly that, scaled to your firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "FSCR",
+  "variant_id": "C1-v4-FSCR",
+  "email_body_hash": "d449a9ec47",
+  "email_candidates": [
+    {
+      "email": "info@mergers-group.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-09-07T02:29:52.200298+00:00"
+    },
+    {
+      "email": "long.chen@mergers-group.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHEN Long"
+    },
+    {
+      "email": "longchen@mergers-group.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHEN Long"
+    },
+    {
+      "email": "lchen@mergers-group.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHEN Long"
+    },
+    {
+      "email": "hidetaku.matsuo@mergers-group.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "MATSUO Hidetaku"
+    },
+    {
+      "email": "hidetakumatsuo@mergers-group.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "MATSUO Hidetaku"
+    },
+    {
+      "email": "hmatsuo@mergers-group.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "MATSUO Hidetaku"
+    },
+    {
+      "email": "contact@mergers-group.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@mergers-group.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "unknown",
+  "illiq_likelihood": "unknown",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "none",
+  "website_accuracy": "not_found"
+}

@@ -1,0 +1,120 @@
+{
+  "type": "C1",
+  "type_label": "New Type 9 corp",
+  "firm": "Citadel Securities Investment Solutions Limited",
+  "natural": "Citadel Securities Investment Solutions",
+  "ceref": "BWV302",
+  "address": "Suite 1605, 16/F,, Two International Finance Centre, 8 Finance Street,, Central, Hong Kong",
+  "ros": [
+    {
+      "name": "KOTECHA Vikesh",
+      "ceref": "AUA341"
+    },
+    {
+      "name": "ZHONG Jing",
+      "ceref": "BFZ535"
+    }
+  ],
+  "primary_ro": "KOTECHA Vikesh",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BWV302/details?locale=en",
+  "email_subject": "Congratulations on Citadel Securities Investment Solutions's SFC Type 9 license",
+  "email_body": "Dear Citadel Securities Investment Solutions Management,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on Citadel Securities Investment Solutions's recent Type 9 licensing with the SFC.\n\nAs newly licensed managers like yourself establish and scale operations, we often see a need for practical support around compliance, governance, and regulatory engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps with exactly that, scaled to your firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "FSCR",
+  "variant_id": "C1-v4-FSCR",
+  "email_body_hash": "da93643d62",
+  "email_candidates": [
+    {
+      "email": "jing.zhong@citadelsecurities.com",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "ZHONG Jing",
+      "score": 83,
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email",
+      "evidence": "Hunter score 83 + AbstractAPI: deliverable"
+    },
+    {
+      "email": "vikesh.kotecha@citadelsecurities.com",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "KOTECHA Vikesh",
+      "score": 85,
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email",
+      "evidence": "Hunter score 85 + AbstractAPI: deliverable"
+    },
+    {
+      "email": "bonnie.luk@citadelsecurities.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-09-07T02:29:52.199623+00:00"
+    },
+    {
+      "email": "vikeshkotecha@citadelsecurities.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "KOTECHA Vikesh"
+    },
+    {
+      "email": "vkotecha@citadelsecurities.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "KOTECHA Vikesh"
+    },
+    {
+      "email": "jingzhong@citadelsecurities.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "ZHONG Jing"
+    },
+    {
+      "email": "jzhong@citadelsecurities.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "ZHONG Jing"
+    },
+    {
+      "email": "info@citadelsecurities.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@citadelsecurities.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@citadelsecurities.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "unknown",
+  "illiq_likelihood": "unknown",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "none",
+  "website_accuracy": "not_found",
+  "sfc_filed_website": "https://www.citadelsecurities.com",
+  "hunter_hits": [
+    {
+      "email": "vikesh.kotecha@citadelsecurities.com",
+      "score": 85,
+      "ro": "KOTECHA Vikesh",
+      "fetched_at_utc": "2026-09-07T02:44:14.800133+00:00",
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email"
+    },
+    {
+      "email": "jing.zhong@citadelsecurities.com",
+      "score": 83,
+      "ro": "ZHONG Jing",
+      "fetched_at_utc": "2026-09-07T02:44:21.970097+00:00",
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email"
+    }
+  ],
+  "hunter_attempted_utc": "2026-09-07T02:44:21.970118+00:00"
+}

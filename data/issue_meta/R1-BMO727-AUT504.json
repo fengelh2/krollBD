@@ -1,0 +1,91 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "Aden Financial Group Limited",
+  "natural": "Aden Financial",
+  "ceref": "BMO727",
+  "ros": [
+    {
+      "name": "HUANG Wenjun",
+      "ceref": "AUT504"
+    }
+  ],
+  "primary_ro": "HUANG Wenjun",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BMO727/details?locale=en",
+  "email_subject": "Congratulations on your RO appointment at Aden Financial",
+  "email_body": "Dear Wenjun,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at Aden Financial.\n\nFor newly appointed ROs like yourself, settling into the role often means getting a clear view of where the firm's compliance posture sits — internal policies, current filings, ongoing SFC engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps SFC-licensed firms with exactly that, scaled to the firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "FSCR",
+  "variant_id": "R1-v3-FSCR",
+  "email_body_hash": "0e33aedf24",
+  "email_candidates": [
+    {
+      "email": "wenjun.huang@adenfin.com.hk",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "HUANG Wenjun",
+      "score": 76,
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email",
+      "evidence": "Hunter score 76 + AbstractAPI: deliverable"
+    },
+    {
+      "email": "compliance@adenfin.com.hk",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-09-07T02:29:52.208985+00:00"
+    },
+    {
+      "email": "cs@adenfin.com.hk",
+      "kind": "observed_on_site",
+      "confidence": "verified",
+      "ro": null
+    },
+    {
+      "email": "wenjunhuang@adenfin.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "HUANG Wenjun"
+    },
+    {
+      "email": "whuang@adenfin.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "HUANG Wenjun"
+    },
+    {
+      "email": "info@adenfin.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@adenfin.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@adenfin.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "public_equity,public_credit,multi",
+  "illiq_likelihood": "low",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "website",
+  "website_accuracy": "probable",
+  "sfc_filed_website": "www.adenfin.com.hk",
+  "hunter_hits": [
+    {
+      "email": "wenjun.huang@adenfin.com.hk",
+      "score": 76,
+      "ro": "HUANG Wenjun",
+      "fetched_at_utc": "2026-09-07T02:43:15.762022+00:00",
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email"
+    }
+  ],
+  "hunter_attempted_utc": "2026-09-07T02:43:15.762043+00:00"
+}

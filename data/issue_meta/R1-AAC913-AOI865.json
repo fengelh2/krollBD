@@ -36,30 +36,35 @@
       "fetched_at_utc": "2026-08-31T03:05:53.964431+00:00"
     },
     {
-      "email": "kinpan.yeung@bradburysecurities.com",
+      "email": "kinpan.yeung@com2.hk",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "YEUNG Kin Pan"
     },
     {
-      "email": "kinpanyeung@bradburysecurities.com",
+      "email": "kinpanyeung@com2.hk",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "YEUNG Kin Pan"
     },
     {
-      "email": "kyeung@bradburysecurities.com",
+      "email": "kyeung@com2.hk",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "YEUNG Kin Pan"
     },
     {
-      "email": "contact@bradburysecurities.com",
+      "email": "info@com2.hk",
       "kind": "generic_guess",
       "confidence": "low"
     },
     {
-      "email": "enquiry@bradburysecurities.com",
+      "email": "contact@com2.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@com2.hk",
       "kind": "generic_guess",
       "confidence": "low"
     }

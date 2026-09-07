@@ -36,35 +36,29 @@
       "fetched_at_utc": "2026-08-31T03:05:53.969438+00:00"
     },
     {
-      "email": "tingjessica.tsoi@junipercapitalltd.com",
+      "email": "tingjessica.tsoi@juniper.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "TSOI Ting Jessica"
     },
     {
-      "email": "tingjessicatsoi@junipercapitalltd.com",
+      "email": "tingjessicatsoi@juniper.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "TSOI Ting Jessica"
     },
     {
-      "email": "ttsoi@junipercapitalltd.com",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "TSOI Ting Jessica"
-    },
-    {
-      "email": "info@junipercapitalltd.com",
+      "email": "info@juniper.com",
       "kind": "generic_guess",
       "confidence": "low"
     },
     {
-      "email": "contact@junipercapitalltd.com",
+      "email": "contact@juniper.com",
       "kind": "generic_guess",
       "confidence": "low"
     },
     {
-      "email": "enquiry@junipercapitalltd.com",
+      "email": "enquiry@juniper.com",
       "kind": "generic_guess",
       "confidence": "low"
     }

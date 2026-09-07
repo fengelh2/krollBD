@@ -1,0 +1,78 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "International Commerce Corporation",
+  "natural": "International Commerce",
+  "ceref": "ACA028",
+  "ros": [
+    {
+      "name": "NG Wai Ching",
+      "ceref": "AMT784"
+    }
+  ],
+  "primary_ro": "NG Wai Ching",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/ACA028/details?locale=en",
+  "email_subject": "Congratulations on your RO appointment at International Commerce",
+  "email_body": "Dear Wai Ching,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at International Commerce.\n\nFor newly appointed ROs like yourself, settling into the role often means getting a clear view of where the firm's compliance posture sits — internal policies, current filings, ongoing SFC engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps SFC-licensed firms with exactly that, scaled to the firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "FSCR",
+  "variant_id": "R1-v3-FSCR",
+  "email_body_hash": "2c22b94f2c",
+  "email_candidates": [
+    {
+      "email": "mspivey@iccfinancial.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-09-07T02:29:52.202807+00:00"
+    },
+    {
+      "email": "pilotifs@iccfinancial.com",
+      "kind": "observed_on_site",
+      "confidence": "verified",
+      "ro": null
+    },
+    {
+      "email": "waiching.ng@iccfinancial.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "NG Wai Ching"
+    },
+    {
+      "email": "waichingng@iccfinancial.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "NG Wai Ching"
+    },
+    {
+      "email": "wng@iccfinancial.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "NG Wai Ching"
+    },
+    {
+      "email": "info@iccfinancial.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@iccfinancial.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@iccfinancial.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "public_equity,public_credit",
+  "illiq_likelihood": "low",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "website",
+  "website_accuracy": "probable",
+  "sfc_filed_website": "www.iccfinancial.com",
+  "hunter_hits": [],
+  "hunter_attempted_utc": "2026-09-07T02:41:32.883215+00:00"
+}

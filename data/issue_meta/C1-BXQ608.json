@@ -1,0 +1,92 @@
+{
+  "type": "C1",
+  "type_label": "New Type 9 corp",
+  "firm": "Rectified Flow Capital Limited",
+  "natural": "Rectified Flow Capital",
+  "ceref": "BXQ608",
+  "address": "Unit 1509, Level 15, Nexxus Building, No. 41 Connaught Road, Central, Hong Kong",
+  "ros": [
+    {
+      "name": "DING Zhongxin",
+      "ceref": "BXQ609"
+    },
+    {
+      "name": "LIU Yanting",
+      "ceref": "BXQ611"
+    }
+  ],
+  "primary_ro": "DING Zhongxin",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BXQ608/details?locale=en",
+  "email_subject": "Congratulations on Rectified Flow Capital's SFC Type 9 license",
+  "email_body": "Dear Dzx and Rectified Flow Capital Management,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on Rectified Flow Capital's recent Type 9 licensing with the SFC.\n\nAs newly licensed managers like yourself establish and scale operations, we often see a need for practical support around compliance, governance, and regulatory engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps with exactly that, scaled to your firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "FSCR",
+  "variant_id": "C1-v4-FSCR",
+  "email_body_hash": "423870dc65",
+  "email_candidates": [
+    {
+      "email": "dzx@rectified-flow.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-09-07T02:29:52.200596+00:00"
+    },
+    {
+      "email": "zhongxin.ding@rectified-flow.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "DING Zhongxin"
+    },
+    {
+      "email": "zhongxinding@rectified-flow.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "DING Zhongxin"
+    },
+    {
+      "email": "zding@rectified-flow.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "DING Zhongxin"
+    },
+    {
+      "email": "yanting.liu@rectified-flow.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LIU Yanting"
+    },
+    {
+      "email": "yantingliu@rectified-flow.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LIU Yanting"
+    },
+    {
+      "email": "yliu@rectified-flow.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LIU Yanting"
+    },
+    {
+      "email": "info@rectified-flow.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@rectified-flow.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@rectified-flow.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "unknown",
+  "illiq_likelihood": "unknown",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "none",
+  "website_accuracy": "not_found"
+}

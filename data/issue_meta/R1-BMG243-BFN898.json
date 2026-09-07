@@ -1,0 +1,72 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "Nexara Asset Management Limited",
+  "natural": "Nexara",
+  "ceref": "BMG243",
+  "ros": [
+    {
+      "name": "CHU Ka Ho",
+      "ceref": "BFN898"
+    }
+  ],
+  "primary_ro": "CHU Ka Ho",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BMG243/details?locale=en",
+  "email_subject": "Congratulations on your RO appointment at Nexara",
+  "email_body": "Dear Ka Ho,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at Nexara.\n\nFor illiquid managers like yourself, the marks the RO signs off on tend to be the most scrutinised line items on the books — LPs want comfort, auditors want defensibility, and internal-only marks usually invite more questions than they close. Kroll's Portfolio Valuation team here in Hong Kong helps with exactly that — robust independent valuations across private equity, private credit, and other illiquid strategies.\n\nIf a quick chat would be useful — now, or down the line — happy to set one up. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "PV",
+  "variant_id": "R1-v3-PV",
+  "email_body_hash": "95b7802dc2",
+  "email_candidates": [
+    {
+      "email": "info@nexaracapital.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-09-07T02:29:52.208739+00:00"
+    },
+    {
+      "email": "cs@nexaracapital.com",
+      "kind": "observed_on_site",
+      "confidence": "verified",
+      "ro": null
+    },
+    {
+      "email": "kaho.chu@nexaracapital.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHU Ka Ho"
+    },
+    {
+      "email": "kahochu@nexaracapital.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHU Ka Ho"
+    },
+    {
+      "email": "kchu@nexaracapital.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHU Ka Ho"
+    },
+    {
+      "email": "contact@nexaracapital.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@nexaracapital.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "private_equity,real_assets,public_equity,public_credit,multi",
+  "illiq_likelihood": "high",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "website",
+  "website_accuracy": "probable",
+  "hunter_hits": [],
+  "hunter_attempted_utc": "2026-09-07T02:40:55.002343+00:00"
+}

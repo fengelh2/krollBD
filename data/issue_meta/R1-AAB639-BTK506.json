@@ -34,6 +34,33 @@
       "confidence": "verified",
       "evidence": "filed with SFC by the firm at licensing",
       "fetched_at_utc": "2026-08-31T03:05:53.964180+00:00"
+    },
+    {
+      "email": "hironaokobayashi@hk.daiwacm.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "KOBAYASHI Hironao"
+    },
+    {
+      "email": "hkobayashi@hk.daiwacm.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "KOBAYASHI Hironao"
+    },
+    {
+      "email": "info@hk.daiwacm.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@hk.daiwacm.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@hk.daiwacm.com",
+      "kind": "generic_guess",
+      "confidence": "low"
     }
   ],
   "asset_classes": "public_equity,public_credit",

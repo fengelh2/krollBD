@@ -1,0 +1,72 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "Fortune Max International Asset Management Limited",
+  "natural": "Fortune Max International",
+  "ceref": "BHJ968",
+  "ros": [
+    {
+      "name": "ZHENG Yongsheng",
+      "ceref": "BNM190"
+    }
+  ],
+  "primary_ro": "ZHENG Yongsheng",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BHJ968/details?locale=en",
+  "email_subject": "Congratulations on your RO appointment at Fortune Max International",
+  "email_body": "Dear Yongsheng,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at Fortune Max International.\n\nFor illiquid managers like yourself, the marks the RO signs off on tend to be the most scrutinised line items on the books — LPs want comfort, auditors want defensibility, and internal-only marks usually invite more questions than they close. Kroll's Portfolio Valuation team here in Hong Kong helps with exactly that — robust independent valuations across private equity, private credit, and other illiquid strategies.\n\nIf a quick chat would be useful — now, or down the line — happy to set one up. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "PV",
+  "variant_id": "R1-v3-PV",
+  "email_body_hash": "d1f6d544cb",
+  "email_candidates": [
+    {
+      "email": "info@fortune-max.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-09-07T02:29:52.207056+00:00"
+    },
+    {
+      "email": "info@fortunecapital.asia",
+      "kind": "generic_on_site",
+      "confidence": "verified",
+      "ro": null
+    },
+    {
+      "email": "yongsheng.zheng@fortune-max.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "ZHENG Yongsheng"
+    },
+    {
+      "email": "yongshengzheng@fortune-max.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "ZHENG Yongsheng"
+    },
+    {
+      "email": "yzheng@fortune-max.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "ZHENG Yongsheng"
+    },
+    {
+      "email": "contact@fortune-max.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@fortune-max.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "private_equity,public_equity,public_credit,real_assets",
+  "illiq_likelihood": "medium",
+  "aum_raw_string": "₹850Cr Assets Managed",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "website",
+  "website_accuracy": "probable",
+  "hunter_hits": [],
+  "hunter_attempted_utc": "2026-09-07T02:41:47.660764+00:00"
+}
