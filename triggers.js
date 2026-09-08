@@ -519,13 +519,24 @@
     const W = 600, H = 100, PAD = 12;
     const max = Math.max(1, ...perWeek);
     const barW = (W - PAD * 2) / weeks.length;
-    const y = (v) => H - PAD - ((H - PAD * 2) * v / max);
+    const thisWeek = isoWeekKey(new Date());
+    // Floor every non-zero week at a visible height. One outlier week
+    // (2026-W31 = 94) otherwise scales a normal 5-send week to ~4px of a
+    // 100-unit viewBox, so a week's sends look like they never registered.
+    // Reported as a lost write three times (2026-08-24, 08-31, 09-08) when
+    // the rows were in fact all present. The printed label always carries
+    // the true value, so the floor hides nothing.
+    const MIN_H = 8;
+    const barH = (v) => v === 0 ? 0 : Math.max(MIN_H, (H - PAD * 2) * v / max);
 
     const bars = perWeek.map((v, i) => {
+      const h = barH(v);
+      const yTop = (H - PAD) - h;
       const x = PAD + i * barW + 1;
-      const h = (H - PAD) - y(v);
-      return `<rect x="${x}" y="${y(v)}" width="${barW - 2}" height="${h}" fill="#1a3554" opacity="0.85"/>
-              <text x="${x + barW/2 - 1}" y="${y(v) - 3}" font-size="9" fill="#1a3554" font-family="Inter,sans-serif" text-anchor="middle">${v || ""}</text>`;
+      const now = weeks[i] === thisWeek;
+      const col = now ? "#0b6b57" : "#1a3554";
+      return `<rect x="${x}" y="${yTop}" width="${barW - 2}" height="${h}" fill="${col}" opacity="${now ? 1 : 0.85}"/>
+              <text x="${x + barW/2 - 1}" y="${yTop - 3}" font-size="9" fill="${col}" font-weight="${now ? 700 : 400}" font-family="Inter,sans-serif" text-anchor="middle">${v || ""}</text>`;
     }).join("");
 
     $("#chart").innerHTML = `
