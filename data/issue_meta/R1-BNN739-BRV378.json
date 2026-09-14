@@ -1,0 +1,79 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "GL China Equity HK Management Limited",
+  "natural": "GL China Equity HK",
+  "ceref": "BNN739",
+  "ros": [
+    {
+      "name": "KONG Chak Yau",
+      "ceref": "BRV378"
+    }
+  ],
+  "primary_ro": "KONG Chak Yau",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BNN739/details?locale=en",
+  "email_subject": "Congratulations on your RO appointment at GL China Equity HK",
+  "email_body": "Dear Chak Yau,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at GL China Equity HK.\n\nFor illiquid managers like yourself, the marks the RO signs off on tend to be the most scrutinised line items on the books — LPs want comfort, auditors want defensibility, and internal-only marks usually invite more questions than they close. Kroll's Portfolio Valuation team here in Hong Kong helps with exactly that — robust independent valuations across private equity, private credit, and other illiquid strategies.\n\nIf a quick chat would be useful — now, or down the line — happy to set one up. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "PV",
+  "variant_id": "R1-v3-PV",
+  "email_body_hash": "bc76dcae81",
+  "email_candidates": [
+    {
+      "email": "ir@gl-investment.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-09-14T03:03:36.007171+00:00"
+    },
+    {
+      "email": "info@gl-investment.com",
+      "kind": "generic_on_site",
+      "confidence": "verified",
+      "ro": null
+    },
+    {
+      "email": "ir@gl-investment.com",
+      "kind": "generic_on_site",
+      "confidence": "verified",
+      "ro": null
+    },
+    {
+      "email": "chakyau.kong@gl-investment.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "KONG Chak Yau"
+    },
+    {
+      "email": "chakyaukong@gl-investment.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "KONG Chak Yau"
+    },
+    {
+      "email": "ckong@gl-investment.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "KONG Chak Yau"
+    },
+    {
+      "email": "contact@gl-investment.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@gl-investment.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "private_equity,private_credit,real_assets",
+  "illiq_likelihood": "high",
+  "aum_raw_string": "240 亿 医疗健康管理投资规模",
+  "aum_usd_m": "",
+  "parent_org": "GL Capital",
+  "classification_source": "website",
+  "website_accuracy": "suspect",
+  "sfc_filed_website": "www.gl-investment.com",
+  "hunter_hits": [],
+  "hunter_attempted_utc": "2026-09-14T03:14:01.879563+00:00"
+}

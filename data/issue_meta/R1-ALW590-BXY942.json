@@ -1,0 +1,58 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "State Street Global Advisors Singapore Limited",
+  "natural": "State Street Global Advisors Singapore",
+  "ceref": "ALW590",
+  "ros": [
+    {
+      "name": "HARDING Julian St John",
+      "ceref": "BXY942"
+    }
+  ],
+  "primary_ro": "HARDING Julian St John",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/ALW590/details?locale=en",
+  "email_subject": "Congratulations on your RO appointment at State Street Global Advisors Singapore",
+  "email_body": "Dear John,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at State Street Global Advisors Singapore.\n\nFor illiquid managers like yourself, the marks the RO signs off on tend to be the most scrutinised line items on the books — LPs want comfort, auditors want defensibility, and internal-only marks usually invite more questions than they close. Kroll's Portfolio Valuation team here in Hong Kong helps with exactly that — robust independent valuations across private equity, private credit, and other illiquid strategies.\n\nIf a quick chat would be useful — now, or down the line — happy to set one up. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "PV",
+  "variant_id": "R1-v3-PV",
+  "email_body_hash": "4641a7f3da",
+  "email_candidates": [
+    {
+      "email": "julian_harding@ssga.com",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "HARDING Julian St John",
+      "score": 85,
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email",
+      "evidence": "Hunter score 85 + AbstractAPI: deliverable"
+    },
+    {
+      "email": "ssgaasia@ssga.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-09-14T03:03:36.003507+00:00"
+    }
+  ],
+  "asset_classes": "public_equity,public_credit",
+  "illiq_likelihood": "medium",
+  "aum_raw_string": "$5.62T Assets under management",
+  "aum_usd_m": "5620000",
+  "parent_org": "State Street Investment Management (State Street Corporation)",
+  "classification_source": "website",
+  "website_accuracy": "verified",
+  "sfc_filed_website": "www.ssga.com",
+  "hunter_hits": [
+    {
+      "email": "julian_harding@ssga.com",
+      "score": 85,
+      "ro": "HARDING Julian St John",
+      "fetched_at_utc": "2026-09-14T03:12:32.738284+00:00",
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email"
+    }
+  ],
+  "hunter_attempted_utc": "2026-09-14T03:12:32.738298+00:00"
+}

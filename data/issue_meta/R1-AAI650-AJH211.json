@@ -34,6 +34,33 @@
       "confidence": "verified",
       "evidence": "filed with SFC by the firm at licensing",
       "fetched_at_utc": "2026-09-07T02:29:52.202008+00:00"
+    },
+    {
+      "email": "angus.kai@cmschina.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "AU-YEUNG Wai Kai, Angus"
+    },
+    {
+      "email": "akai@cmschina.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "AU-YEUNG Wai Kai, Angus"
+    },
+    {
+      "email": "info@cmschina.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@cmschina.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@cmschina.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
     }
   ],
   "asset_classes": "private_equity,public_equity,public_credit,multi",

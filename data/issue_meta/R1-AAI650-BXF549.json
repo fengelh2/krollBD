@@ -34,6 +34,33 @@
       "confidence": "verified",
       "evidence": "filed with SFC by the firm at licensing",
       "fetched_at_utc": "2026-09-07T02:29:52.202247+00:00"
+    },
+    {
+      "email": "feng.zou@cmschina.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "ZOU Feng"
+    },
+    {
+      "email": "fzou@cmschina.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "ZOU Feng"
+    },
+    {
+      "email": "info@cmschina.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@cmschina.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@cmschina.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
     }
   ],
   "asset_classes": "private_equity,public_equity,public_credit,multi",

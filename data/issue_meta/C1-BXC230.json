@@ -1,0 +1,80 @@
+{
+  "type": "C1",
+  "type_label": "New Type 9 corp",
+  "firm": "Dayond International Asset Management Co., Limited",
+  "natural": "Dayond International",
+  "ceref": "BXC230",
+  "address": "Room W27, Unit 3501, 35/F, Wu Chung House, 213 Queen's Road East, Wanchai, Hong Kong",
+  "ros": [
+    {
+      "name": "FAN King Chi, Kenneth",
+      "ceref": "ANH531"
+    },
+    {
+      "name": "LEUNG Pak Kei",
+      "ceref": "BBA468"
+    }
+  ],
+  "primary_ro": "FAN King Chi, Kenneth",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BXC230/details?locale=en",
+  "email_subject": "Congratulations on Dayond International's SFC Type 9 license",
+  "email_body": "Dear Dayond International Management,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on Dayond International's recent Type 9 licensing with the SFC.\n\nAs newly licensed managers like yourself establish and scale operations, we often see a need for practical support around compliance, governance, and regulatory engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps with exactly that, scaled to your firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "FSCR",
+  "variant_id": "C1-v4-FSCR",
+  "email_body_hash": "8a7ddad702",
+  "email_candidates": [
+    {
+      "email": "pak-kei@dayond.com",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "LEUNG Pak Kei",
+      "score": 57,
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email",
+      "evidence": "Hunter score 57 + AbstractAPI: deliverable"
+    },
+    {
+      "email": "kfan@dayond.com",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "FAN King Chi, Kenneth",
+      "score": 75,
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email",
+      "evidence": "Hunter score 75 + AbstractAPI: deliverable"
+    },
+    {
+      "email": "info@dyamc.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-09-14T03:03:35.995970+00:00"
+    }
+  ],
+  "asset_classes": "unknown",
+  "illiq_likelihood": "unknown",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "none",
+  "website_accuracy": "not_found",
+  "hunter_hits": [
+    {
+      "email": "kfan@dayond.com",
+      "score": 75,
+      "ro": "FAN King Chi, Kenneth",
+      "fetched_at_utc": "2026-09-14T03:16:04.853830+00:00",
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email"
+    },
+    {
+      "email": "pak-kei@dayond.com",
+      "score": 57,
+      "ro": "LEUNG Pak Kei",
+      "fetched_at_utc": "2026-09-14T03:16:17.616485+00:00",
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email"
+    }
+  ],
+  "hunter_attempted_utc": "2026-09-14T03:16:17.616499+00:00"
+}

@@ -1,0 +1,52 @@
+{
+  "type": "C2",
+  "type_label": "Type 9 retired",
+  "firm": "Credit Suisse (Hong Kong) Limited",
+  "natural": "Credit Suisse",
+  "ceref": "AAO017",
+  "ros_current": [],
+  "ros_departed": [
+    {
+      "name": "ZHANG Geng Fan",
+      "ceref": "BAP181"
+    }
+  ],
+  "primary_ro": "ZHANG Geng Fan",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/AAO017/details?locale=en",
+  "email_subject": "Credit Suisse — Type 9 license transition",
+  "email_body": "Dear Credit Suisse Management,\n\nThis is Felix from Kroll. I am reaching out in light of publicly disclosed changes to Credit Suisse's SFC Type 9 registration, as such transitions often prompt a review of fund-level operating and advisory arrangements.\n\nFor funds that have largely deployed capital and are managing minority positions requiring limited day-to-day GP involvement, Kroll's Fund Solutions practice supports GPs with a range of later-lifecycle options — particularly around replacement advisory, realization structuring, and cost-efficient ongoing management.\n\nShould this be relevant to you, I would be happy to introduce you to the appropriate colleagues for an informal discussion. If not, please feel free to disregard this note.\n\nKind regards,\nFelix Engelhardt\n",
+  "variant_id": "C2-v2",
+  "email_body_hash": "9a696a7799",
+  "email_candidates": [
+    {
+      "email": "list.hklicensingregistrations@credit-suisse.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-09-14T03:03:35.998051+00:00"
+    },
+    {
+      "email": "info@credit-suisse.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@credit-suisse.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@credit-suisse.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "private_equity,private_credit,real_assets,public_equity,public_credit,multi",
+  "illiq_likelihood": "medium",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "UBS Group",
+  "classification_source": "consensus_website_plus",
+  "website_accuracy": "suspect",
+  "sfc_filed_website": "www.credit-suisse.com"
+}

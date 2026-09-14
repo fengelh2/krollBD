@@ -1,0 +1,101 @@
+{
+  "type": "C1",
+  "type_label": "New Type 9 corp",
+  "firm": "Look Capital Partners Limited",
+  "natural": "Look Capital",
+  "ceref": "BXE013",
+  "address": "Room 1903, St George's Building, 2 Ice House Street, Central, Hong Kong",
+  "ros": [
+    {
+      "name": "LI Litong",
+      "ceref": "BQS932"
+    },
+    {
+      "name": "WANG Lijun",
+      "ceref": "BDZ089"
+    }
+  ],
+  "primary_ro": "LI Litong",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BXE013/details?locale=en",
+  "email_subject": "Congratulations on Look Capital's SFC Type 9 license",
+  "email_body": "Dear Emmawang and Look Capital Management,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on Look Capital's recent Type 9 licensing with the SFC.\n\nFor illiquid managers like yourself, as you get ready to start deploying capital, the recurring question is how to mark private positions in a way that holds up with LPs and auditors. Kroll's Portfolio Valuation team here in Hong Kong helps with exactly that — across private equity, private credit, and other illiquid strategies.\n\nIf a quick chat would be useful — now, or down the line — happy to set one up. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "PV",
+  "variant_id": "C1-v4-PV",
+  "email_body_hash": "ce0fc75d1a",
+  "email_candidates": [
+    {
+      "email": "emmawang@ilookcap.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-09-14T03:03:35.996389+00:00"
+    },
+    {
+      "email": "hello@ilookcap.com",
+      "kind": "generic_on_site",
+      "confidence": "verified",
+      "ro": null
+    },
+    {
+      "email": "litong.li@ilookcap.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LI Litong"
+    },
+    {
+      "email": "litongli@ilookcap.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LI Litong"
+    },
+    {
+      "email": "lli@ilookcap.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LI Litong"
+    },
+    {
+      "email": "lijun.wang@ilookcap.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "WANG Lijun"
+    },
+    {
+      "email": "lijunwang@ilookcap.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "WANG Lijun"
+    },
+    {
+      "email": "lwang@ilookcap.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "WANG Lijun"
+    },
+    {
+      "email": "info@ilookcap.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@ilookcap.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@ilookcap.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "public_equity,public_credit,private_equity,private_credit,real_assets,fund_of_funds,multi",
+  "illiq_likelihood": "medium",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "website",
+  "website_accuracy": "verified",
+  "sfc_filed_website": "https://ilookcap.com",
+  "hunter_hits": [],
+  "hunter_attempted_utc": "2026-09-14T03:15:44.501506+00:00"
+}

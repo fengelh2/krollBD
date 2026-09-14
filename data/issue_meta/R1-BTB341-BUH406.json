@@ -36,35 +36,29 @@
       "fetched_at_utc": "2026-09-07T02:29:52.210829+00:00"
     },
     {
-      "email": "jiarui.liu@marvelvictory.com",
+      "email": "jiarui.liu@marvel.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "LIU Jiarui"
     },
     {
-      "email": "jiaruiliu@marvelvictory.com",
+      "email": "jiaruiliu@marvel.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "LIU Jiarui"
     },
     {
-      "email": "jliu@marvelvictory.com",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "LIU Jiarui"
-    },
-    {
-      "email": "info@marvelvictory.com",
+      "email": "info@marvel.com",
       "kind": "generic_guess",
       "confidence": "low"
     },
     {
-      "email": "contact@marvelvictory.com",
+      "email": "contact@marvel.com",
       "kind": "generic_guess",
       "confidence": "low"
     },
     {
-      "email": "enquiry@marvelvictory.com",
+      "email": "enquiry@marvel.com",
       "kind": "generic_guess",
       "confidence": "low"
     }
