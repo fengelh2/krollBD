@@ -16,6 +16,9 @@
   let CURRENT_FILTER = "all";
   let ALL_OPEN = [];
   let LOG_ROWS = [];
+  // Count of triggers closed via the Drop button (stateReason NOT_PLANNED).
+  // null = not yet loaded, so the rate renders "—" instead of a fake 100%.
+  let DROPPED_COUNT = null;
 
   function getPat() { return localStorage.getItem(PAT_KEY) || ""; }
   function setPat(t) { if (t) localStorage.setItem(PAT_KEY, t); else localStorage.removeItem(PAT_KEY); refreshPatStatus(); }
@@ -110,6 +113,38 @@
     }
     return out;
   }
+  // Collapse rows that share an issue_number, keeping the earliest-logged one.
+  // Rows without an issue_number are all kept (nothing to key them on).
+  function dedupeByIssue(rows) {
+    const byIssue = new Map();
+    const out = [];
+    for (const r of rows) {
+      const k = String(r.issue_number || "").trim();
+      if (!k) { out.push(r); continue; }
+      const prev = byIssue.get(k);
+      if (!prev) { byIssue.set(k, r); continue; }
+      // keep whichever was logged first
+      if (String(r.logged_at_utc || "") < String(prev.logged_at_utc || "")) byIssue.set(k, r);
+    }
+    return out.concat(Array.from(byIssue.values()));
+  }
+
+  // Dropped triggers are closed issues with stateReason NOT_PLANNED. The search
+  // API returns just a total_count, so this is one cheap request rather than
+  // paging all ~600 closed issues on every refresh.
+  async function fetchDroppedCount() {
+    const q = encodeURIComponent(`repo:${REPO} is:issue is:closed reason:not-planned`);
+    const r = await fetch(`https://api.github.com/search/issues?q=${q}&per_page=1`, {
+      headers: {
+        "Accept": "application/vnd.github+json",
+        ...(getPat() ? { "Authorization": `Bearer ${getPat()}` } : {}),
+      },
+    });
+    if (!r.ok) throw new Error("GitHub search: " + r.status);
+    const j = await r.json();
+    return typeof j.total_count === "number" ? j.total_count : null;
+  }
+
   async function fetchLog() {
     try {
       const r = await fetch(CSV_URL + "?t=" + Date.now());
@@ -804,7 +839,7 @@
     let visible;
     if (CURRENT_FILTER === "done") {
       visible = [];
-      const list = LOG_ROWS.slice().sort((a,b) => (b.sent_at_utc||"").localeCompare(a.sent_at_utc||""));
+      const list = dedupeByIssue(LOG_ROWS).sort((a,b) => (b.sent_at_utc||"").localeCompare(a.sent_at_utc||""));
       if (!list.length) {
         cards.innerHTML = `<p class="loading">No outreach logged yet.</p>`;
       } else {
@@ -846,9 +881,18 @@
       }
     }
     const toAction = ALL_OPEN.filter(i => !isPending(i)).length;
-    const doneEntries = LOG_ROWS;
+    // Count DISTINCT issues, not rows. Two rows in outreach_log.csv can carry
+    // the same issue_number when concurrent runs both clear the dedup guard
+    // before either commits (#131 and #198 did, 2026-06; deduped 2026-09-15).
+    // Counting rows silently overstated the total.
+    const doneEntries = dedupeByIssue(LOG_ROWS);
     const reachedCount = doneEntries.length;
-    const totalCycle = ALL_OPEN.length + reachedCount;
+    // Distinct FIRMS is a different, smaller number than distinct reach-outs:
+    // a firm can throw a C1 and then several R1s. 2026-09-15: 524 reach-outs
+    // across 430 firms.
+    const firmsCount = new Set(
+      doneEntries.map(d => (d.ceref || "").trim()).filter(Boolean)
+    ).size;
     $("#stat-open").textContent = toAction;
 
     // Count open triggers per filter bucket and surface as a chip on each
@@ -881,8 +925,16 @@
       b.appendChild(chip);
     });
     $("#stat-done").textContent = reachedCount;
-    const rate = totalCycle ? Math.round(100 * reachedCount / totalCycle) : 0;
-    $("#stat-rate").textContent = rate + "%";
+    if ($("#stat-firms")) $("#stat-firms").textContent = firmsCount;
+    // Was `reachedCount / (ALL_OPEN.length + reachedCount)`, which pinned
+    // itself to 100% the moment the open queue hit zero and ignored dropped
+    // triggers entirely. The real question is "of the triggers I decided on,
+    // how many did I action rather than drop" — so the denominator is
+    // reached + dropped, with dropped counted from closed issues whose
+    // stateReason is NOT_PLANNED (what the Drop button sets).
+    const decided = reachedCount + DROPPED_COUNT;
+    const rate = decided ? Math.round(100 * reachedCount / decided) : 0;
+    $("#stat-rate").textContent = DROPPED_COUNT === null ? "—" : rate + "%";
     const c1Done = doneEntries.filter(d => d.trigger_type === "C1").length;
     const c2Done = doneEntries.filter(d => d.trigger_type === "C2").length;
     const r1Done = doneEntries.filter(d => d.trigger_type === "R1").length;
@@ -916,6 +968,8 @@
     wireEnrichAllButton();
     try {
       [ALL_OPEN, LOG_ROWS] = await Promise.all([fetchIssues("open"), fetchLog()]);
+      // Non-fatal: a failed/rate-limited search just leaves the rate as "—".
+      fetchDroppedCount().then(n => { DROPPED_COUNT = n; refresh(); }).catch(() => {});
       await fetchAndAttachMetas(ALL_OPEN);
       refresh();
       // notify overview that triggers are ready
@@ -928,6 +982,9 @@
     }, 20000);
     setInterval(async () => {
       try { ALL_OPEN = await fetchIssues("open"); await fetchAndAttachMetas(ALL_OPEN); refresh(); window.dispatchEvent(new CustomEvent("triggers-loaded")); } catch {}
+      // Refreshed on the slow poll only — the search API is rate-limited far
+      // harder than the REST endpoints (30/min authed, 10/min anonymous).
+      try { const n = await fetchDroppedCount(); if (n !== null) { DROPPED_COUNT = n; refresh(); } } catch {}
     }, 60000);
   }
 
@@ -937,7 +994,12 @@
     promptForPat,
     refreshPatStatus,
     getOpenIssues: () => ALL_OPEN,
-    getLogRows: () => LOG_ROWS,
+    // Deduped by issue_number on the way out, so a future consumer can't
+    // reintroduce the row-vs-issue overcount. getLogRowsRaw() if you really
+    // want the file as-is.
+    getLogRows: () => dedupeByIssue(LOG_ROWS),
+    getLogRowsRaw: () => LOG_ROWS,
+    getDroppedCount: () => DROPPED_COUNT,
     parseMeta,
     esc,
   };
