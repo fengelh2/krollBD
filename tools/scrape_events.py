@@ -33,7 +33,8 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 import os as _os
 import requests as _requests
-from classify_strategy import scrape_firecrawl, _scrape_firecrawl_only, FIRECRAWL_KEY  # noqa: E402
+from classify_strategy import (scrape_firecrawl, _scrape_firecrawl_only, _scrape_plain,  # noqa: E402
+                               FIRECRAWL_KEY)
 from llm_router import llm_call  # noqa: E402
 
 # For SPA-heavy event sites, the default 1500ms wait isn't enough — the event
@@ -41,6 +42,73 @@ from llm_router import llm_call  # noqa: E402
 # longer wait when requires_js=yes in event_sources.csv.
 JS_HEAVY_WAIT_MS = 4000   # lowered from 6000 to leave more buffer inside the 15s total timeout
 
+
+import re as _re
+
+# A listing page is usable if it carries enough visible text AND enough
+# date-like strings to actually contain events. Measured on a real run
+# 2026-09-16: 15 of the 18 confirmed sources yield events over plain HTTP.
+# Every source was flagged requires_js=yes, but that was a blanket default,
+# never a measurement - only HKICPA, KPMG and Deloitte genuinely need a
+# renderer, and they need one because their listings arrive as JS payloads:
+# the dates are present in the raw HTML only inside <script> blocks, which
+# any text extractor strips. Counting date-like strings in RAW html says
+# they are fine; counting them AFTER tag-stripping shows 1 and 0. Measure
+# on the extracted text, not the markup.
+_DATE_RE = _re.compile(
+    r"(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*\.?\s+\d{1,2}"
+    r"|\d{1,2}\s+(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)"
+    r"|\d{4}-\d{2}-\d{2}"
+    r"|\d{1,2}/\d{1,2}/\d{2,4}",
+    _re.I)
+
+PLAIN_MIN_CHARS = 800
+PLAIN_MIN_DATES = 3
+
+
+def _plain_html(url: str) -> str:
+    """Raw HTML via plain HTTP, hrefs intact.
+
+    The two-pass index step regex-matches detail URLs out of the page, so it
+    needs the markup - _scrape_plain strips every tag and would yield zero
+    links. Free; used before falling back to Firecrawl.
+    """
+    try:
+        import requests as _rq
+        r = _rq.get(url, headers={"User-Agent": _PLAIN_UA}, timeout=25)
+        return r.text if r.ok else ""
+    except Exception as e:
+        print(f"  [plain-html] {url[:70]}: {e}", file=sys.stderr)
+        return ""
+
+
+_PLAIN_UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+             "(KHTML, like Gecko) Chrome/125.0 Safari/537.36")
+
+def _plain_is_usable(text: str) -> bool:
+    if not text or len(text) < PLAIN_MIN_CHARS:
+        return False
+    return len(_DATE_RE.findall(text)) >= PLAIN_MIN_DATES
+
+
+def _fetch_listing(url: str, requires_js: bool, aggressive: bool) -> tuple:
+    """Free plain HTTP first, Firecrawl only as a fallback.
+
+    Returns (markdown, how) so the caller can report which path was used.
+    Previously this went straight to Firecrawl for every source, which is why
+    the whole calendar died when Firecrawl ran out of credits (2026-09-16)
+    even though 17 of 18 sources never needed it.
+    """
+    plain = _scrape_plain(url)
+    if _plain_is_usable(plain):
+        return plain, "plain"
+    if not FIRECRAWL_KEY:
+        return plain, "plain-thin (no FIRECRAWL_KEY to fall back on)"
+    if requires_js and aggressive:
+        return _scrape_firecrawl_aggressive(url), "firecrawl-aggressive"
+    if requires_js:
+        return _scrape_firecrawl_only(url, wait_ms=JS_HEAVY_WAIT_MS), "firecrawl-js"
+    return scrape_firecrawl(url), "firecrawl"
 
 def _scrape_firecrawl_aggressive(url: str) -> str:
     """Like _scrape_firecrawl_only but uses Firecrawl 'actions' to wait, scroll
@@ -306,7 +374,13 @@ def main():
             try:
                 # 3s is enough for an index page to show event URLs (we only
                 # need the links rendered, not the full event detail).
-                index_md = _scrape_firecrawl_only(url, wait_ms=3000)
+                # Free raw HTML first - the index step only needs rendered
+                # links, which most of these sites serve server-side.
+                index_md = _plain_html(url)
+                if len(re.findall(detail_re, index_md or "")) == 0 and FIRECRAWL_KEY:
+                    print("  [two-pass] plain index gave no links - trying Firecrawl",
+                          file=sys.stderr)
+                    index_md = _scrape_firecrawl_only(url, wait_ms=3000)
             except Exception as e:
                 print(f"  [scrape] index error: {e}", file=sys.stderr)
                 failed_sources.append((host, f"index scrape error: {e}"))
@@ -317,7 +391,9 @@ def main():
             kept_total = 0
             for du in urls:
                 try:
-                    dmd = _scrape_firecrawl_only(du, wait_ms=DETAIL_PAGE_WAIT_MS)
+                    dmd = _scrape_plain(du)
+                    if not _plain_is_usable(dmd) and FIRECRAWL_KEY:
+                        dmd = _scrape_firecrawl_only(du, wait_ms=DETAIL_PAGE_WAIT_MS)
                 except Exception as e:
                     print(f"    [detail] {du[:80]} error: {e}", file=sys.stderr)
                     continue
@@ -351,13 +427,8 @@ def main():
 
         requires_js = (s.get("requires_js") or "").lower() in ("yes", "y", "true", "1")
         try:
-            if requires_js and args.aggressive:
-                md = _scrape_firecrawl_aggressive(url)
-            elif requires_js:
-                # Force Firecrawl path with long JS wait so SPA event lists render.
-                md = _scrape_firecrawl_only(url, wait_ms=JS_HEAVY_WAIT_MS)
-            else:
-                md = scrape_firecrawl(url)
+            md, how = _fetch_listing(url, requires_js, args.aggressive)
+            print(f"  [fetch] via {how} ({len(md or '')} chars)", file=sys.stderr)
         except Exception as e:
             print(f"  [scrape] error: {e}", file=sys.stderr)
             failed_sources.append((host, f"scrape error: {e}"))

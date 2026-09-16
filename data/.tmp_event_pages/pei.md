@@ -1,18 +1,1 @@
-[![Brand logo](https://www.peievents.com/en/wp-content/themes/pei-events/assets/build/img/logos/pei-group.png)](https://www.peievents.com/en)
-
-[![Brand logo](https://www.peievents.com/en/wp-content/themes/pei-events/assets/build/img/logos/pei-group.png)](https://www.peievents.com/en)![Open mobile menu](https://www.peievents.com/en/wp-content/themes/pei-events/assets/build/img/burger-menu-icon.svg)![Close mobile menu](https://www.peievents.com/en/wp-content/themes/pei-events/assets/build/img/burger-menu-close-icon.svg)
-
-### Private Equity International
-
-## Upcoming events
-
-Private Equity International specialises in hosting industry-leading events for global private equity professionals. The conferences connect decision-makers virtually and in-person across global financial hubs to drive the asset class forward. View the Private Equity International events calendar below to see the full list of networking-focused conferences coming up.
-
-| Conference | Details | Location |
-| --- | --- | --- |
-| [Investor Relations Network New York Forum 2026](https://www.peievents.com/en/event/investor-relations-new-york-forum/) | April 29-30, 2026 | Convene, 360 Madison Avenue, New York |
-| [Women in Private Markets Summit North America 2026](https://www.peievents.com/en/event/women-in-private-markets-summit-north-america/) | June 2-3, 2026 | Convene, 117 West 46th Street, New York |
-| [Operating Partners Forum Napa 2026](https://www.peievents.com/en/event/operating-partners-forum-napa/) | June 23-25, 2026 | Silverado Resort, Napa |
-| [Operating Partners Forum New York 2026](https://www.peievents.com/en/event/operating-partners-forum-new-york/) | October 19-21, 2026 | Convene Brookfield Place, 225 Liberty Street, New York |
-| [Women in Private Markets Summit 2026](https://www.peievents.com/en/event/women-in-private-markets-summit/) | December 2-3, 2026 | Convene 133 Houndsditch, London |
-| [NEXUS 2027](https://www.peievents.com/en/event/pei-nexus/) | March 1-4, 2027 | Fairmont Princess Scottsdale, Arizona |
+ Private Equity International Events Calendar | PEI Events Contact us Global Events Calendar Infrastructure Investor events Private Credit events PEI events PERE events PF CFO events Responsible Investor events Sustainability &amp; Impact Events Networks Contact Us Support PEI Global Events Calendar Contact Us Support PEI Global Events Calendar Contact us Global Events Calendar Infrastructure Investor events Private Credit events PEI events PERE events PF CFO events Responsible Investor events Sustainability &amp; Impact Events Networks Private Equity International Global Events Calendar Private Equity International Upcoming events Private Equity International specialises in hosting industry-leading events for global private equity professionals. The conferences connect decision-makers virtually and in-person across global financial hubs to drive the asset class forward. View the Private Equity International events calendar below to see the full list of networking-focused conferences coming up. Conference Details Location Operating Partners Forum New York 2026 October 19-21, 2026 Convene Brookfield Place, 225 Liberty Street, New York Women in Private Markets Summit 2026 December 2-3, 2026 Convene 133 Houndsditch, London NEXUS 2027 March 1-4, 2027 Fairmont Princess Scottsdale, Arizona Women in Private Markets Summit North America 2027 June 2-3, 2027 New York © PEI Group 2026 PEI Global Events Calendar Privacy Notice Cookie Policy Terms &amp; Conditions Contact PEI Events Support DORA Statement 

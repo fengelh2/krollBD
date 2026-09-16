@@ -45,26 +45,29 @@ jobs:
       - name: Install deps
         run: pip install -r requirements.txt
 
-      # Fail fast and LOUDLY rather than burning a run to discover the same
-      # thing 18 times. Firecrawl's free allowance is one-time, not monthly:
-      # on 2026-09-16 it sat at 0/500 with a null billing period, and every
-      # scrape returned HTTP 402 "Insufficient credits".
-      - name: Check Firecrawl credits before spending a run
+      # Firecrawl is now OPTIONAL. Measured on a real run 2026-09-16: 15 of the
+      # 18 confirmed sources yield events over plain HTTP, and the scraper tries
+      # that first. Only HKICPA, KPMG and Deloitte need a renderer. So a zero
+      # balance is a WARNING, not a failure - it costs 3 sources, not the
+      # calendar (that run still added 26 events with Firecrawl fully dead).
+      # (This step used to hard-fail here, which would have blocked a refresh
+      # that does not actually need Firecrawl at all.)
+      - name: Report Firecrawl balance (optional dependency)
+        continue-on-error: true
         env:
           FIRECRAWL_API_KEY: ${{ secrets.FIRECRAWL_API_KEY }}
         run: |
           if [ -z "$FIRECRAWL_API_KEY" ]; then
-            echo "::error::FIRECRAWL_API_KEY secret is not set — the scraper cannot fetch anything."
-            exit 1
+            echo "::warning::FIRECRAWL_API_KEY not set - HKICPA, KPMG and Deloitte will be skipped; the other 15 sources still work."
+            exit 0
           fi
           BODY=$(curl -sS -H "Authorization: Bearer $FIRECRAWL_API_KEY" \
-                   https://api.firecrawl.dev/v1/team/credit-usage || echo '{}')
+                   https://api.firecrawl.dev/v1/team/credit-usage || echo "{}")
           echo "credit-usage: $BODY"
-          REMAINING=$(printf '%s' "$BODY" | python -c "import json,sys; d=json.load(sys.stdin).get('data') or {}; print(d.get('remaining_credits','unknown'))" 2>/dev/null || echo unknown)
+          REMAINING=$(printf %s "$BODY" | python -c "import json,sys; d=json.load(sys.stdin).get('data') or {}; print(d.get('remaining_credits','unknown'))" 2>/dev/null || echo unknown)
           echo "remaining_credits=$REMAINING"
           if [ "$REMAINING" = "0" ]; then
-            echo "::error::Firecrawl has 0 remaining credits. Top up at https://firecrawl.dev/pricing, then re-run this workflow. Not scraping — a run now would silently produce nothing."
-            exit 1
+            echo "::warning::Firecrawl has 0 credits. The 15 plain-HTTP sources still work; HKICPA, KPMG and Deloitte will be skipped. Top up at https://firecrawl.dev/pricing if you want them back."
           fi
 
       - name: Scrape events
