@@ -428,6 +428,33 @@ def main():
         for h, why in failed_sources:
             print(f"    - {h}: {why}", file=sys.stderr)
 
+    # Exit non-zero on outcomes a scheduled run must NOT report as success.
+    # This used to always exit 0: with Firecrawl out of credits every source
+    # returned "thin content (0 chars)", the run printed "done." and went
+    # green while scraping nothing at all (2026-09-16). A stale calendar then
+    # looks identical to a calendar that simply has no new events.
+    attempted = len(sources)
+    n_failed = len(failed_sources)
+    if n_failed and n_failed == attempted:
+        print("", file=sys.stderr)
+        print("[events] ERROR: every source failed - nothing was scraped.",
+              file=sys.stderr)
+        if not FIRECRAWL_KEY:
+            print("[events] FIRECRAWL_API_KEY is not set.", file=sys.stderr)
+        else:
+            print("[events] Check Firecrawl credits at "
+                  "https://api.firecrawl.dev/v1/team/credit-usage",
+                  file=sys.stderr)
+        return 1
+    # Partial failure is tolerable - sites change layout - but more than half
+    # the sources dying usually means a systemic cause (quota, key, network).
+    if n_failed * 2 > attempted:
+        print("", file=sys.stderr)
+        print(f"[events] ERROR: {n_failed} of {attempted} sources failed - "
+              f"treating as systemic failure.", file=sys.stderr)
+        return 1
+    return 0
+
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())

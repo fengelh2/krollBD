@@ -1,0 +1,128 @@
+name: Monthly events calendar refresh
+
+# The events calendar is NOT part of weekly.yml on purpose. It costs Firecrawl
+# credits + DeepSeek tokens per source, and HK PE/PD event listings do not turn
+# over weekly — a monthly pass is enough to keep the tab useful.
+#
+# History: the calendar was scraped by hand three times (2026-05-30, 05-31,
+# 06-02) and then never again. By 2026-09-16 only 2 of its 55 rows were still
+# in the future, because nothing was wired to refresh it.
+
+on:
+  schedule:
+    # 02:10 UTC on the 1st of each month (10:10 HKT).
+    - cron: "10 2 1 * *"
+  workflow_dispatch:
+    inputs:
+      source:
+        description: "Single source host to scrape (blank = all confirmed sources)"
+        required: false
+        default: ""
+      include_unconfirmed:
+        description: "Also try the 6 sources marked confirmed=no"
+        type: boolean
+        required: false
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: events-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install deps
+        run: pip install -r requirements.txt
+
+      # Fail fast and LOUDLY rather than burning a run to discover the same
+      # thing 18 times. Firecrawl's free allowance is one-time, not monthly:
+      # on 2026-09-16 it sat at 0/500 with a null billing period, and every
+      # scrape returned HTTP 402 "Insufficient credits".
+      - name: Check Firecrawl credits before spending a run
+        env:
+          FIRECRAWL_API_KEY: ${{ secrets.FIRECRAWL_API_KEY }}
+        run: |
+          if [ -z "$FIRECRAWL_API_KEY" ]; then
+            echo "::error::FIRECRAWL_API_KEY secret is not set — the scraper cannot fetch anything."
+            exit 1
+          fi
+          BODY=$(curl -sS -H "Authorization: Bearer $FIRECRAWL_API_KEY" \
+                   https://api.firecrawl.dev/v1/team/credit-usage || echo '{}')
+          echo "credit-usage: $BODY"
+          REMAINING=$(printf '%s' "$BODY" | python -c "import json,sys; d=json.load(sys.stdin).get('data') or {}; print(d.get('remaining_credits','unknown'))" 2>/dev/null || echo unknown)
+          echo "remaining_credits=$REMAINING"
+          if [ "$REMAINING" = "0" ]; then
+            echo "::error::Firecrawl has 0 remaining credits. Top up at https://firecrawl.dev/pricing, then re-run this workflow. Not scraping — a run now would silently produce nothing."
+            exit 1
+          fi
+
+      - name: Scrape events
+        env:
+          FIRECRAWL_API_KEY: ${{ secrets.FIRECRAWL_API_KEY }}
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          SOURCE: ${{ github.event.inputs.source }}
+          INCLUDE_UNCONFIRMED: ${{ github.event.inputs.include_unconfirmed }}
+        run: |
+          ARGS=""
+          if [ -n "$SOURCE" ]; then ARGS="$ARGS --source $SOURCE"; fi
+          if [ "$INCLUDE_UNCONFIRMED" = "true" ]; then ARGS="$ARGS --include-unconfirmed"; fi
+          echo "running: python tools/scrape_events.py $ARGS"
+          # scrape_events.py exits non-zero when every source fails, or when a
+          # majority do — so a quota/key/network outage fails this job instead
+          # of going green with a stale calendar (fixed 2026-09-16).
+          python tools/scrape_events.py $ARGS
+
+      # Reported even on failure so a green-but-empty calendar can't hide.
+      - name: Summarise calendar freshness
+        if: always()
+        run: |
+          python - <<'PY'
+          import csv, datetime, pathlib, os
+          p = pathlib.Path("data/events.csv")
+          if not p.exists():
+              print("data/events.csv missing"); raise SystemExit(0)
+          rows = list(csv.DictReader(p.open(encoding="utf-8-sig", newline="")))
+          today = datetime.date.today().isoformat()
+          fut = [r for r in rows if (r.get("date_start") or "") >= today]
+          line = f"{len(rows)} rows, {len(fut)} still upcoming (as of {today})"
+          print(line)
+          sm = os.environ.get("GITHUB_STEP_SUMMARY")
+          if sm:
+              with open(sm, "a", encoding="utf-8") as f:
+                  f.write(f"### Events calendar\n\n{line}\n\n")
+                  for r in sorted(fut, key=lambda r: r.get("date_start") or "")[:20]:
+                      f.write(f"- `{r.get('date_start','')}` {r.get('title','')[:80]}\n")
+          if not fut:
+              print("::warning::No upcoming events in the calendar — the Events tab will look empty.")
+          PY
+
+      - name: Commit + push
+        run: |
+          git config user.name "krollbd-bot"
+          git config user.email "krollbd-bot@users.noreply.github.com"
+          git add data/events.csv
+          if git diff --quiet --cached; then
+            echo "no calendar changes"
+            exit 0
+          fi
+          git commit -m "events: monthly refresh $(date -u +%F)"
+          for i in 1 2 3; do
+            git fetch origin main
+            git rebase origin/main || { git rebase --abort; echo "rebase failed"; exit 1; }
+            git push origin main && exit 0
+            echo "push race on attempt $i"
+            sleep $((3 + RANDOM % 5))
+          done
+          echo "::error::could not push after 3 attempts"
+          exit 1
