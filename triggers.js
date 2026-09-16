@@ -888,8 +888,8 @@
     const doneEntries = dedupeByIssue(LOG_ROWS);
     const reachedCount = doneEntries.length;
     // Distinct FIRMS is a different, smaller number than distinct reach-outs:
-    // a firm can throw a C1 and then several R1s. 2026-09-15: 524 reach-outs
-    // across 430 firms.
+    // a firm can throw a C1 and then several R1s. 2026-09-16: 462 reach-outs
+    // across 396 firms.
     const firmsCount = new Set(
       doneEntries.map(d => (d.ceref || "").trim()).filter(Boolean)
     ).size;
