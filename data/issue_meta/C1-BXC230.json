@@ -18,10 +18,10 @@
   "primary_ro": "FAN King Chi, Kenneth",
   "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BXC230/details?locale=en",
   "email_subject": "Congratulations on Dayond International's SFC Type 9 license",
-  "email_body": "Dear Dayond International Management,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on Dayond International's recent Type 9 licensing with the SFC.\n\nAs newly licensed managers like yourself establish and scale operations, we often see a need for practical support around compliance, governance, and regulatory engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps with exactly that, scaled to your firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "email_body": "Dear Pak Kei and Dayond International Management,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on Dayond International's recent Type 9 licensing with the SFC.\n\nAs newly licensed managers like yourself establish and scale operations, we often see a need for practical support around compliance, governance, and regulatory engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps with exactly that, scaled to your firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
   "bd_lane": "FSCR",
   "variant_id": "C1-v4-FSCR",
-  "email_body_hash": "8a7ddad702",
+  "email_body_hash": "e42a956a73",
   "email_candidates": [
     {
       "email": "pak-kei@dayond.com",
@@ -49,6 +49,51 @@
       "confidence": "verified",
       "evidence": "filed with SFC by the firm at licensing",
       "fetched_at_utc": "2026-09-14T03:03:35.995970+00:00"
+    },
+    {
+      "email": "kenneth.fan@dayond.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "FAN King Chi, Kenneth"
+    },
+    {
+      "email": "kennethfan@dayond.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "FAN King Chi, Kenneth"
+    },
+    {
+      "email": "pakkei.leung@dayond.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LEUNG Pak Kei"
+    },
+    {
+      "email": "pakkeileung@dayond.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LEUNG Pak Kei"
+    },
+    {
+      "email": "pleung@dayond.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LEUNG Pak Kei"
+    },
+    {
+      "email": "info@dayond.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@dayond.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@dayond.com",
+      "kind": "generic_guess",
+      "confidence": "low"
     }
   ],
   "asset_classes": "unknown",

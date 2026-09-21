@@ -1,0 +1,168 @@
+{
+  "type": "C5",
+  "type_label": "Rebrand / name change",
+  "firm": "Marsh Investment Solutions (HK) Limited",
+  "old_firm": "Mercer Investments (HK) Limited",
+  "natural": "Marsh Investment Solutions",
+  "ceref": "ALR969",
+  "ros": [
+    {
+      "name": "CHEN Rupeng",
+      "ceref": "BNZ819"
+    },
+    {
+      "name": "ELLIOT Graham",
+      "ceref": "BJG894"
+    },
+    {
+      "name": "JEFFREY Kevin Alan",
+      "ceref": "BFX287"
+    },
+    {
+      "name": "LIU Tsz Chung",
+      "ceref": "BNG625"
+    },
+    {
+      "name": "TAN Hui Yeng",
+      "ceref": "BCP982"
+    },
+    {
+      "name": "YU Nga Ching",
+      "ceref": "AFC514"
+    }
+  ],
+  "primary_ro": "CHEN Rupeng",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/ALR969/details?locale=en",
+  "email_subject": "Marsh Investment Solutions — note on the recent rebrand",
+  "email_body": "Dear Asiainvestmentlc and Marsh Investment Solutions Management,\n\nThis is Felix from Kroll in Hong Kong. The SFC public register shows that Mercer has been renamed to Marsh Investment Solutions.\n\nRebrands often accompany broader changes — a new sponsor, a strategy refresh, or an organisational reshape — and these moments are often a natural time to revisit fund-level valuation policies and the operating arrangements behind them.\n\nKroll's Portfolio Valuation team works with SFC-regulated managers across Hong Kong on independent fair-value opinions for private equity and credit positions, and our adjacent FSCR colleagues support governance and regulatory engagement. Happy to set up an informal call if any of this would be useful as you transition.\n\nKind regards,\nFelix Engelhardt\n",
+  "variant_id": "C5-v2",
+  "email_body_hash": "1546b35ecb",
+  "email_candidates": [
+    {
+      "email": "nga-ching.yu@mercer.com",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "YU Nga Ching",
+      "score": 84,
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email",
+      "evidence": "Hunter score 84 + AbstractAPI: deliverable"
+    },
+    {
+      "email": "hui.tan@mercer.com",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "TAN Hui Yeng",
+      "score": 80,
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email",
+      "evidence": "Hunter score 80 + AbstractAPI: deliverable"
+    },
+    {
+      "email": "chung.liu@mercer.com",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "LIU Tsz Chung",
+      "score": 83,
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email",
+      "evidence": "Hunter score 83 + AbstractAPI: deliverable"
+    },
+    {
+      "email": "kevin-alan.jeffrey@mercer.com",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "JEFFREY Kevin Alan",
+      "score": 81,
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email",
+      "evidence": "Hunter score 81 + AbstractAPI: deliverable"
+    },
+    {
+      "email": "graham.elliot@mercer.com",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "ELLIOT Graham",
+      "score": 85,
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email",
+      "evidence": "Hunter score 85 + AbstractAPI: deliverable"
+    },
+    {
+      "email": "rupeng.chen@mercer.com",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "CHEN Rupeng",
+      "score": 85,
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email",
+      "evidence": "Hunter score 85 + AbstractAPI: deliverable"
+    },
+    {
+      "email": "asiainvestmentlc@mercer.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-09-21T02:59:09.752289+00:00"
+    }
+  ],
+  "asset_classes": "private_equity,private_credit,real_assets,public_equity,public_credit,multi",
+  "illiq_likelihood": "medium",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "Marsh McLennan",
+  "classification_source": "consensus_website_plus",
+  "website_accuracy": "verified",
+  "sfc_filed_website": "www.mercer.com",
+  "hunter_hits": [
+    {
+      "email": "rupeng.chen@mercer.com",
+      "score": 85,
+      "ro": "CHEN Rupeng",
+      "fetched_at_utc": "2026-09-21T03:06:30.463254+00:00",
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email"
+    },
+    {
+      "email": "graham.elliot@mercer.com",
+      "score": 85,
+      "ro": "ELLIOT Graham",
+      "fetched_at_utc": "2026-09-21T03:06:32.690220+00:00",
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email"
+    },
+    {
+      "email": "kevin-alan.jeffrey@mercer.com",
+      "score": 81,
+      "ro": "JEFFREY Kevin Alan",
+      "fetched_at_utc": "2026-09-21T03:06:34.611636+00:00",
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email"
+    },
+    {
+      "email": "chung.liu@mercer.com",
+      "score": 83,
+      "ro": "LIU Tsz Chung",
+      "fetched_at_utc": "2026-09-21T03:06:36.575587+00:00",
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email"
+    },
+    {
+      "email": "hui.tan@mercer.com",
+      "score": 80,
+      "ro": "TAN Hui Yeng",
+      "fetched_at_utc": "2026-09-21T03:06:38.307538+00:00",
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email"
+    },
+    {
+      "email": "nga-ching.yu@mercer.com",
+      "score": 84,
+      "ro": "YU Nga Ching",
+      "fetched_at_utc": "2026-09-21T03:06:43.684480+00:00",
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email"
+    }
+  ],
+  "hunter_attempted_utc": "2026-09-21T03:06:43.684496+00:00"
+}

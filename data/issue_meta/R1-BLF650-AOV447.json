@@ -1,0 +1,72 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "GBR Capital Limited",
+  "natural": "GBR Capital",
+  "ceref": "BLF650",
+  "ros": [
+    {
+      "name": "SARKAR Abhijit",
+      "ceref": "AOV447"
+    }
+  ],
+  "primary_ro": "SARKAR Abhijit",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BLF650/details?locale=en",
+  "email_subject": "Congratulations on your RO appointment at GBR Capital",
+  "email_body": "Dear Abhijit,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at GBR Capital.\n\nFor illiquid managers like yourself, the marks the RO signs off on tend to be the most scrutinised line items on the books — LPs want comfort, auditors want defensibility, and internal-only marks usually invite more questions than they close. Kroll's Portfolio Valuation team here in Hong Kong helps with exactly that — robust independent valuations across private equity, private credit, and other illiquid strategies.\n\nIf a quick chat would be useful — now, or down the line — happy to set one up. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "PV",
+  "variant_id": "R1-v3-PV",
+  "email_body_hash": "f8f15dcbd5",
+  "email_candidates": [
+    {
+      "email": "tiffanygao@gbr-cap.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-09-21T02:59:09.757306+00:00"
+    },
+    {
+      "email": "abhijit.sarkar@gbr-cap.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "SARKAR Abhijit"
+    },
+    {
+      "email": "abhijitsarkar@gbr-cap.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "SARKAR Abhijit"
+    },
+    {
+      "email": "asarkar@gbr-cap.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "SARKAR Abhijit"
+    },
+    {
+      "email": "info@gbr-cap.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@gbr-cap.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@gbr-cap.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "private_equity,real_assets,fund_of_funds",
+  "illiq_likelihood": "high",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "website",
+  "website_accuracy": "probable",
+  "sfc_filed_website": "www.gbr-cap.com",
+  "hunter_hits": [],
+  "hunter_attempted_utc": "2026-09-21T03:05:32.968585+00:00"
+}

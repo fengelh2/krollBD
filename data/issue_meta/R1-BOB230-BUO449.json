@@ -1,0 +1,85 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "Farallon Capital Asia (HK) Limited",
+  "natural": "Farallon Capital Asia",
+  "ceref": "BOB230",
+  "ros": [
+    {
+      "name": "KUSUNOKI Masahiro",
+      "ceref": "BUO449"
+    }
+  ],
+  "primary_ro": "KUSUNOKI Masahiro",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BOB230/details?locale=en",
+  "email_subject": "Congratulations on your RO appointment at Farallon Capital Asia",
+  "email_body": "Dear Masahiro,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at Farallon Capital Asia.\n\nFor illiquid managers like yourself, the marks the RO signs off on tend to be the most scrutinised line items on the books — LPs want comfort, auditors want defensibility, and internal-only marks usually invite more questions than they close. Kroll's Portfolio Valuation team here in Hong Kong helps with exactly that — robust independent valuations across private equity, private credit, and other illiquid strategies.\n\nIf a quick chat would be useful — now, or down the line — happy to set one up. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "PV",
+  "variant_id": "R1-v3-PV",
+  "email_body_hash": "10679382e4",
+  "email_candidates": [
+    {
+      "email": "mkusunoki@faralloncapital.com",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "KUSUNOKI Masahiro",
+      "score": 80,
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email",
+      "evidence": "Hunter score 80 + AbstractAPI: deliverable"
+    },
+    {
+      "email": "fchkcompliance@faralloncapital.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-09-21T02:59:09.757558+00:00"
+    },
+    {
+      "email": "masahiro.kusunoki@faralloncapital.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "KUSUNOKI Masahiro"
+    },
+    {
+      "email": "masahirokusunoki@faralloncapital.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "KUSUNOKI Masahiro"
+    },
+    {
+      "email": "info@faralloncapital.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@faralloncapital.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@faralloncapital.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "private_equity,private_credit,public_equity,public_credit,real_assets,multi",
+  "illiq_likelihood": "high",
+  "aum_raw_string": "$44bn capital under management",
+  "aum_usd_m": "44000",
+  "parent_org": "Farallon Capital Management, L.L.C.",
+  "classification_source": "website",
+  "website_accuracy": "verified",
+  "sfc_filed_website": "www.faralloncapital.com",
+  "hunter_hits": [
+    {
+      "email": "mkusunoki@faralloncapital.com",
+      "score": 80,
+      "ro": "KUSUNOKI Masahiro",
+      "fetched_at_utc": "2026-09-21T03:05:55.613894+00:00",
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email"
+    }
+  ],
+  "hunter_attempted_utc": "2026-09-21T03:05:55.613914+00:00"
+}

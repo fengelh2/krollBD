@@ -36,35 +36,29 @@
       "fetched_at_utc": "2026-09-14T03:03:36.009131+00:00"
     },
     {
-      "email": "meichai.zhang@hankangasset.com",
+      "email": "meichai.zhang@hankang.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "ZHANG Meichai"
     },
     {
-      "email": "meichaizhang@hankangasset.com",
+      "email": "mzhang@hankang.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "ZHANG Meichai"
     },
     {
-      "email": "mzhang@hankangasset.com",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "ZHANG Meichai"
-    },
-    {
-      "email": "info@hankangasset.com",
+      "email": "info@hankang.com",
       "kind": "generic_guess",
       "confidence": "low"
     },
     {
-      "email": "contact@hankangasset.com",
+      "email": "contact@hankang.com",
       "kind": "generic_guess",
       "confidence": "low"
     },
     {
-      "email": "enquiry@hankangasset.com",
+      "email": "enquiry@hankang.com",
       "kind": "generic_guess",
       "confidence": "low"
     }

@@ -1,0 +1,72 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "ESR Hong Kong Asset Management Limited",
+  "natural": "ESR Hong Kong",
+  "ceref": "BSH171",
+  "ros": [
+    {
+      "name": "TSUI Yiu Cham",
+      "ceref": "AZH552"
+    }
+  ],
+  "primary_ro": "TSUI Yiu Cham",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BSH171/details?locale=en",
+  "email_subject": "Congratulations on your RO appointment at ESR Hong Kong",
+  "email_body": "Dear Yiu Cham,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at ESR Hong Kong.\n\nFor illiquid managers like yourself, the marks the RO signs off on tend to be the most scrutinised line items on the books — LPs want comfort, auditors want defensibility, and internal-only marks usually invite more questions than they close. Kroll's Portfolio Valuation team here in Hong Kong helps with exactly that — robust independent valuations across private equity, private credit, and other illiquid strategies.\n\nIf a quick chat would be useful — now, or down the line — happy to set one up. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "PV",
+  "variant_id": "R1-v3-PV",
+  "email_body_hash": "8cc799ade9",
+  "email_candidates": [
+    {
+      "email": "enquiry@esrhk-am.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-09-21T02:59:09.758311+00:00"
+    },
+    {
+      "email": "yiucham.tsui@esr.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "TSUI Yiu Cham"
+    },
+    {
+      "email": "yiuchamtsui@esr.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "TSUI Yiu Cham"
+    },
+    {
+      "email": "ytsui@esr.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "TSUI Yiu Cham"
+    },
+    {
+      "email": "info@esr.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@esr.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@esr.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "real_assets",
+  "illiq_likelihood": "high",
+  "aum_raw_string": "US$ 2 billion of assets in Hong Kong",
+  "aum_usd_m": "2000",
+  "parent_org": "ESR Group Limited",
+  "classification_source": "website",
+  "website_accuracy": "verified",
+  "sfc_filed_website": "https://www.esr.com/hkam-en/",
+  "hunter_hits": [],
+  "hunter_attempted_utc": "2026-09-21T03:06:06.962579+00:00"
+}

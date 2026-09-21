@@ -34,6 +34,39 @@
       "confidence": "verified",
       "evidence": "filed with SFC by the firm at licensing",
       "fetched_at_utc": "2026-09-14T03:03:36.003507+00:00"
+    },
+    {
+      "email": "julian.harding@ssga.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "HARDING Julian St John"
+    },
+    {
+      "email": "julianharding@ssga.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "HARDING Julian St John"
+    },
+    {
+      "email": "jharding@ssga.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "HARDING Julian St John"
+    },
+    {
+      "email": "info@ssga.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@ssga.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@ssga.com",
+      "kind": "generic_guess",
+      "confidence": "low"
     }
   ],
   "asset_classes": "public_equity,public_credit",

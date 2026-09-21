@@ -1,0 +1,39 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "Guotai Junan Futures (Hong Kong) Limited",
+  "natural": "Guotai Junan Futures",
+  "ceref": "ADI115",
+  "ros": [
+    {
+      "name": "SONG Cheng",
+      "ceref": "BQL512"
+    }
+  ],
+  "primary_ro": "SONG Cheng",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/ADI115/details?locale=en",
+  "email_subject": "Congratulations on your RO appointment at Guotai Junan Futures",
+  "email_body": "Dear Cheng,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at Guotai Junan Futures.\n\nFor illiquid managers like yourself, the marks the RO signs off on tend to be the most scrutinised line items on the books — LPs want comfort, auditors want defensibility, and internal-only marks usually invite more questions than they close. Kroll's Portfolio Valuation team here in Hong Kong helps with exactly that — robust independent valuations across private equity, private credit, and other illiquid strategies.\n\nIf a quick chat would be useful — now, or down the line — happy to set one up. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "PV",
+  "variant_id": "R1-v3-PV",
+  "email_body_hash": "07fcded3bb",
+  "email_candidates": [
+    {
+      "email": "compliance.central@gtjas.com.hk",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-09-21T02:59:09.753825+00:00"
+    }
+  ],
+  "asset_classes": "public_equity,public_credit,multi",
+  "illiq_likelihood": "medium",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "Guotai Junan International Holdings Limited",
+  "classification_source": "website",
+  "website_accuracy": "suspect",
+  "sfc_filed_website": "www.gtjai.com",
+  "hunter_hits": [],
+  "hunter_attempted_utc": "2026-09-21T03:05:53.339770+00:00"
+}
