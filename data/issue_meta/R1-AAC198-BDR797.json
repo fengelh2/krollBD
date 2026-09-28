@@ -34,6 +34,33 @@
       "confidence": "verified",
       "evidence": "filed with SFC by the firm at licensing",
       "fetched_at_utc": "2026-09-21T02:59:09.752934+00:00"
+    },
+    {
+      "email": "jiaweilei@bankofamerica.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LEI Jiawei"
+    },
+    {
+      "email": "jlei@bankofamerica.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LEI Jiawei"
+    },
+    {
+      "email": "info@bankofamerica.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@bankofamerica.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@bankofamerica.com",
+      "kind": "generic_guess",
+      "confidence": "low"
     }
   ],
   "asset_classes": "public_equity,public_credit,multi",

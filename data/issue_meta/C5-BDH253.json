@@ -1,0 +1,84 @@
+{
+  "type": "C5",
+  "type_label": "Rebrand / name change",
+  "firm": "Wellspring Partners Limited",
+  "old_firm": "Max Giant Limited",
+  "natural": "Wellspring",
+  "ceref": "BDH253",
+  "ros": [
+    {
+      "name": "TAM King Yin, Kenneth",
+      "ceref": "AQA664"
+    },
+    {
+      "name": "TSANG Hing Shun, Thomas",
+      "ceref": "APJ744"
+    },
+    {
+      "name": "WONG Shue Ngar, Sheila",
+      "ceref": "BDH258"
+    }
+  ],
+  "primary_ro": "TAM King Yin, Kenneth",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BDH253/details?locale=en",
+  "email_subject": "Wellspring — note on the recent rebrand",
+  "email_body": "Dear Mgl and Wellspring Management,\n\nThis is Felix from Kroll in Hong Kong. The SFC public register shows that Max Giant has been renamed to Wellspring.\n\nRebrands often accompany broader changes — a new sponsor, a strategy refresh, or an organisational reshape — and these moments are often a natural time to revisit fund-level valuation policies and the operating arrangements behind them.\n\nKroll's Portfolio Valuation team works with SFC-regulated managers across Hong Kong on independent fair-value opinions for private equity and credit positions, and our adjacent FSCR colleagues support governance and regulatory engagement. Happy to set up an informal call if any of this would be useful as you transition.\n\nKind regards,\nFelix Engelhardt\n",
+  "variant_id": "C5-v2",
+  "email_body_hash": "4351fb881b",
+  "email_candidates": [
+    {
+      "email": "sheila.wong@maxgiantcapital.com",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "WONG Shue Ngar, Sheila",
+      "score": 95,
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email",
+      "evidence": "Hunter score 95 + AbstractAPI: deliverable"
+    },
+    {
+      "email": "thomas.tsang@maxgiantcapital.com",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "TSANG Hing Shun, Thomas",
+      "score": 98,
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email",
+      "evidence": "Hunter score 98 + AbstractAPI: deliverable"
+    },
+    {
+      "email": "mgl@maxgiantcapital.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-09-28T01:52:11.072134+00:00"
+    }
+  ],
+  "asset_classes": "unknown",
+  "illiq_likelihood": "unknown",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "none",
+  "website_accuracy": "unverified",
+  "sfc_filed_website": "www.maxgiantcapital.com",
+  "hunter_hits": [
+    {
+      "email": "thomas.tsang@maxgiantcapital.com",
+      "score": 98,
+      "ro": "TSANG Hing Shun, Thomas",
+      "fetched_at_utc": "2026-09-28T02:03:27.908986+00:00",
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email"
+    },
+    {
+      "email": "sheila.wong@maxgiantcapital.com",
+      "score": 95,
+      "ro": "WONG Shue Ngar, Sheila",
+      "fetched_at_utc": "2026-09-28T02:03:33.807406+00:00",
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email"
+    }
+  ],
+  "hunter_attempted_utc": "2026-09-28T02:03:33.807418+00:00"
+}

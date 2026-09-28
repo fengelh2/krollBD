@@ -1,0 +1,92 @@
+{
+  "type": "C1",
+  "type_label": "New Type 9 corp",
+  "firm": "Zhong Dao Asset Management Limited",
+  "natural": "Zhong Dao",
+  "ceref": "BXJ559",
+  "address": "Office C2, 5/F, TOWER B CAPITAL TOWER, 38 WAI YIP STREET, KOWLOON, HONG KONG, Hong Kong",
+  "ros": [
+    {
+      "name": "CHEN Zhiqiang",
+      "ceref": "BWC199"
+    },
+    {
+      "name": "WU Yonggang",
+      "ceref": "BXJ560"
+    }
+  ],
+  "primary_ro": "CHEN Zhiqiang",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BXJ559/details?locale=en",
+  "email_subject": "Congratulations on Zhong Dao's SFC Type 9 license",
+  "email_body": "Dear Wuyg and Zhong Dao Management,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on Zhong Dao's recent Type 9 licensing with the SFC.\n\nAs newly licensed managers like yourself establish and scale operations, we often see a need for practical support around compliance, governance, and regulatory engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps with exactly that, scaled to your firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "FSCR",
+  "variant_id": "C1-v4-FSCR",
+  "email_body_hash": "b244650b44",
+  "email_candidates": [
+    {
+      "email": "wuyg@zhongdaohk.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-09-28T01:52:11.070305+00:00"
+    },
+    {
+      "email": "zhiqiang.chen@zhongdaohk.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHEN Zhiqiang"
+    },
+    {
+      "email": "zhiqiangchen@zhongdaohk.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHEN Zhiqiang"
+    },
+    {
+      "email": "zchen@zhongdaohk.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHEN Zhiqiang"
+    },
+    {
+      "email": "yonggang.wu@zhongdaohk.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "WU Yonggang"
+    },
+    {
+      "email": "yonggangwu@zhongdaohk.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "WU Yonggang"
+    },
+    {
+      "email": "ywu@zhongdaohk.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "WU Yonggang"
+    },
+    {
+      "email": "info@zhongdaohk.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@zhongdaohk.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@zhongdaohk.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "unknown",
+  "illiq_likelihood": "unknown",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "none",
+  "website_accuracy": "not_found"
+}

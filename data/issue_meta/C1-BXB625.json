@@ -1,0 +1,94 @@
+{
+  "type": "C1",
+  "type_label": "New Type 9 corp",
+  "firm": "Block Asset Management Limited",
+  "natural": "Block",
+  "ceref": "BXB625",
+  "address": "Room 3, 22/F, Tower 2, New World Tower, 16-18 Queen's Road Central, Central, Hong Kong, Hong Kong",
+  "ros": [
+    {
+      "name": "HO Sze Man, Benedict",
+      "ceref": "AKP070"
+    },
+    {
+      "name": "YIP Ka Lam",
+      "ceref": "AJA184"
+    }
+  ],
+  "primary_ro": "HO Sze Man, Benedict",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BXB625/details?locale=en",
+  "email_subject": "Congratulations on Block's SFC Type 9 license",
+  "email_body": "Dear Ben and Block Management,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on Block's recent Type 9 licensing with the SFC.\n\nAs newly licensed managers like yourself establish and scale operations, we often see a need for practical support around compliance, governance, and regulatory engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps with exactly that, scaled to your firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "FSCR",
+  "variant_id": "C1-v4-FSCR",
+  "email_body_hash": "a71b9cfd87",
+  "email_candidates": [
+    {
+      "email": "ben@blockam.io",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-09-28T01:52:11.069914+00:00"
+    },
+    {
+      "email": "benedict.ho@blockam.io",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "HO Sze Man, Benedict"
+    },
+    {
+      "email": "benedictho@blockam.io",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "HO Sze Man, Benedict"
+    },
+    {
+      "email": "bho@blockam.io",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "HO Sze Man, Benedict"
+    },
+    {
+      "email": "kalam.yip@blockam.io",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "YIP Ka Lam"
+    },
+    {
+      "email": "kalamyip@blockam.io",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "YIP Ka Lam"
+    },
+    {
+      "email": "kyip@blockam.io",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "YIP Ka Lam"
+    },
+    {
+      "email": "info@blockam.io",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@blockam.io",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@blockam.io",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "unknown",
+  "illiq_likelihood": "unknown",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "none",
+  "website_accuracy": "probable",
+  "hunter_hits": [],
+  "hunter_attempted_utc": "2026-09-28T02:04:03.816376+00:00"
+}

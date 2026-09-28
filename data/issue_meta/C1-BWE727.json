@@ -1,0 +1,80 @@
+{
+  "type": "C1",
+  "type_label": "New Type 9 corp",
+  "firm": "Richmond Valley Capital Limited",
+  "natural": "Richmond Valley Capital",
+  "ceref": "BWE727",
+  "address": "Unit 4, 10/F, NPAC, No.10 North Point Road, North Point, Hong Kong",
+  "ros": [
+    {
+      "name": "SONG Xingchi",
+      "ceref": "BWE731"
+    },
+    {
+      "name": "XU Wenjing",
+      "ceref": "BWE732"
+    }
+  ],
+  "primary_ro": "SONG Xingchi",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BWE727/details?locale=en",
+  "email_subject": "Congratulations on Richmond Valley Capital's SFC Type 9 license",
+  "email_body": "Dear Richmond Valley Capital Management,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on Richmond Valley Capital's recent Type 9 licensing with the SFC.\n\nAs newly licensed managers like yourself establish and scale operations, we often see a need for practical support around compliance, governance, and regulatory engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps with exactly that, scaled to your firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "FSCR",
+  "variant_id": "C1-v4-FSCR",
+  "email_body_hash": "97a8405df7",
+  "email_candidates": [
+    {
+      "email": "wxu@richmond.com",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "XU Wenjing",
+      "score": 83,
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email",
+      "evidence": "Hunter score 83 + AbstractAPI: deliverable"
+    },
+    {
+      "email": "xsong@richmond.com",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "SONG Xingchi",
+      "score": 82,
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email",
+      "evidence": "Hunter score 82 + AbstractAPI: deliverable"
+    },
+    {
+      "email": "xc.s@rvg.com.hk",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-09-28T01:52:11.069028+00:00"
+    }
+  ],
+  "asset_classes": "unknown",
+  "illiq_likelihood": "unknown",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "none",
+  "website_accuracy": "not_found",
+  "hunter_hits": [
+    {
+      "email": "xsong@richmond.com",
+      "score": 82,
+      "ro": "SONG Xingchi",
+      "fetched_at_utc": "2026-09-28T02:03:36.362520+00:00",
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email"
+    },
+    {
+      "email": "wxu@richmond.com",
+      "score": 83,
+      "ro": "XU Wenjing",
+      "fetched_at_utc": "2026-09-28T02:03:38.431708+00:00",
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email"
+    }
+  ],
+  "hunter_attempted_utc": "2026-09-28T02:03:38.431720+00:00"
+}

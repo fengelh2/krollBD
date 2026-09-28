@@ -1,0 +1,85 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "Prudence Investment Management (Hong Kong) Limited",
+  "natural": "Prudence",
+  "ceref": "ATB478",
+  "ros": [
+    {
+      "name": "CHEN Liye",
+      "ceref": "AXF909"
+    }
+  ],
+  "primary_ro": "CHEN Liye",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/ATB478/details?locale=en",
+  "email_subject": "Congratulations on your RO appointment at Prudence",
+  "email_body": "Dear Liye,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at Prudence.\n\nFor illiquid managers like yourself, the marks the RO signs off on tend to be the most scrutinised line items on the books — LPs want comfort, auditors want defensibility, and internal-only marks usually invite more questions than they close. Kroll's Portfolio Valuation team here in Hong Kong helps with exactly that — robust independent valuations across private equity, private credit, and other illiquid strategies.\n\nIf a quick chat would be useful — now, or down the line — happy to set one up. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "PV",
+  "variant_id": "R1-v3-PV",
+  "email_body_hash": "e52f1a16c3",
+  "email_candidates": [
+    {
+      "email": "compliance@prudenceinv.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-09-28T01:52:11.075997+00:00"
+    },
+    {
+      "email": "fycapital@prudenceinv.com",
+      "kind": "observed_on_site",
+      "confidence": "verified",
+      "ro": null
+    },
+    {
+      "email": "info@prudenceinv.com",
+      "kind": "generic_on_site",
+      "confidence": "verified",
+      "ro": null
+    },
+    {
+      "email": "ir@prudenceinv.com",
+      "kind": "generic_on_site",
+      "confidence": "verified",
+      "ro": null
+    },
+    {
+      "email": "liye.chen@prudenceinv.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHEN Liye"
+    },
+    {
+      "email": "liyechen@prudenceinv.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHEN Liye"
+    },
+    {
+      "email": "lchen@prudenceinv.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHEN Liye"
+    },
+    {
+      "email": "contact@prudenceinv.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@prudenceinv.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "public_equity,public_credit,multi",
+  "illiq_likelihood": "medium",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "Prudence Financial Group",
+  "classification_source": "website",
+  "website_accuracy": "probable",
+  "sfc_filed_website": "www.prudenceinv.com",
+  "hunter_hits": [],
+  "hunter_attempted_utc": "2026-09-28T02:00:43.486652+00:00"
+}

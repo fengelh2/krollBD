@@ -1,0 +1,182 @@
+{
+  "type": "C5",
+  "type_label": "Rebrand / name change",
+  "firm": "APG Asset Management Asia Limited",
+  "old_firm": "APG Investments Asia Limited",
+  "natural": "APG",
+  "ceref": "ARJ340",
+  "ros": [
+    {
+      "name": "AATEN Thijs",
+      "ceref": "BNH073"
+    },
+    {
+      "name": "DE BOER Patrick",
+      "ceref": "AZA737"
+    },
+    {
+      "name": "FELDMANN Daniel Thomas",
+      "ceref": "BIB605"
+    },
+    {
+      "name": "HUNG Brian Lap Hei",
+      "ceref": "ARA631"
+    },
+    {
+      "name": "KANTERS Patrick Michael",
+      "ceref": "BRY310"
+    },
+    {
+      "name": "MA Shek Yee",
+      "ceref": "AHX750"
+    }
+  ],
+  "primary_ro": "AATEN Thijs",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/ARJ340/details?locale=en",
+  "email_subject": "APG — note on the recent rebrand",
+  "email_body": "Dear APG Management,\n\nThis is Felix from Kroll in Hong Kong. The SFC public register shows that APG has been renamed to APG.\n\nRebrands often accompany broader changes — a new sponsor, a strategy refresh, or an organisational reshape — and these moments are often a natural time to revisit fund-level valuation policies and the operating arrangements behind them.\n\nKroll's Portfolio Valuation team works with SFC-regulated managers across Hong Kong on independent fair-value opinions for private equity and credit positions, and our adjacent FSCR colleagues support governance and regulatory engagement. Happy to set up an informal call if any of this would be useful as you transition.\n\nKind regards,\nFelix Engelhardt\n",
+  "variant_id": "C5-v2",
+  "email_body_hash": "810ab6afec",
+  "email_candidates": [
+    {
+      "email": "dl-apghk-compliancenotices@apg-am.hk",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-09-28T01:52:11.071738+00:00"
+    },
+    {
+      "email": "thijs.aaten@apg.nl",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "AATEN Thijs"
+    },
+    {
+      "email": "thijsaaten@apg.nl",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "AATEN Thijs"
+    },
+    {
+      "email": "taaten@apg.nl",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "AATEN Thijs"
+    },
+    {
+      "email": "boerpatrick.de@apg.nl",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "DE BOER Patrick"
+    },
+    {
+      "email": "boerpatrickde@apg.nl",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "DE BOER Patrick"
+    },
+    {
+      "email": "bde@apg.nl",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "DE BOER Patrick"
+    },
+    {
+      "email": "daniel.feldmann@apg.nl",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "FELDMANN Daniel Thomas"
+    },
+    {
+      "email": "danielfeldmann@apg.nl",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "FELDMANN Daniel Thomas"
+    },
+    {
+      "email": "dfeldmann@apg.nl",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "FELDMANN Daniel Thomas"
+    },
+    {
+      "email": "brian.hung@apg.nl",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "HUNG Brian Lap Hei"
+    },
+    {
+      "email": "brianhung@apg.nl",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "HUNG Brian Lap Hei"
+    },
+    {
+      "email": "bhung@apg.nl",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "HUNG Brian Lap Hei"
+    },
+    {
+      "email": "patrick.kanters@apg.nl",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "KANTERS Patrick Michael"
+    },
+    {
+      "email": "patrickkanters@apg.nl",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "KANTERS Patrick Michael"
+    },
+    {
+      "email": "pkanters@apg.nl",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "KANTERS Patrick Michael"
+    },
+    {
+      "email": "shekyee.ma@apg.nl",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "MA Shek Yee"
+    },
+    {
+      "email": "shekyeema@apg.nl",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "MA Shek Yee"
+    },
+    {
+      "email": "sma@apg.nl",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "MA Shek Yee"
+    },
+    {
+      "email": "info@apg.nl",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@apg.nl",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@apg.nl",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "private_equity,private_credit,real_assets,public_equity,public_credit,multi",
+  "illiq_likelihood": "high",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "consensus_website_plus",
+  "website_accuracy": "suspect",
+  "sfc_filed_website": "www.apg.nl",
+  "hunter_hits": [],
+  "hunter_attempted_utc": "2026-09-28T02:03:11.547938+00:00"
+}

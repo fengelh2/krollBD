@@ -1,0 +1,38 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "Korea Investment & Securities Asia Limited",
+  "natural": "Korea Investment &",
+  "ceref": "AED807",
+  "ros": [
+    {
+      "name": "CHAN Raymond Siu Lun",
+      "ceref": "ATT484"
+    }
+  ],
+  "primary_ro": "CHAN Raymond Siu Lun",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/AED807/details?locale=en",
+  "email_subject": "Congratulations on your RO appointment at Korea Investment &",
+  "email_body": "Dear Raymond,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at Korea Investment &.\n\nFor illiquid managers like yourself, the marks the RO signs off on tend to be the most scrutinised line items on the books — LPs want comfort, auditors want defensibility, and internal-only marks usually invite more questions than they close. Kroll's Portfolio Valuation team here in Hong Kong helps with exactly that — robust independent valuations across private equity, private credit, and other illiquid strategies.\n\nIf a quick chat would be useful — now, or down the line — happy to set one up. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "PV",
+  "variant_id": "R1-v3-PV",
+  "email_body_hash": "1d7e243880",
+  "email_candidates": [
+    {
+      "email": "general@kisasia.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-09-28T01:52:11.074606+00:00"
+    }
+  ],
+  "asset_classes": "private_equity,public_equity,public_credit,multi",
+  "illiq_likelihood": "medium",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "Korea Investment Holdings",
+  "classification_source": "website",
+  "website_accuracy": "probable",
+  "hunter_hits": [],
+  "hunter_attempted_utc": "2026-09-28T02:00:47.274474+00:00"
+}

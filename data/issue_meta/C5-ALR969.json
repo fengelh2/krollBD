@@ -34,9 +34,9 @@
   "primary_ro": "CHEN Rupeng",
   "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/ALR969/details?locale=en",
   "email_subject": "Marsh Investment Solutions — note on the recent rebrand",
-  "email_body": "Dear Asiainvestmentlc and Marsh Investment Solutions Management,\n\nThis is Felix from Kroll in Hong Kong. The SFC public register shows that Mercer has been renamed to Marsh Investment Solutions.\n\nRebrands often accompany broader changes — a new sponsor, a strategy refresh, or an organisational reshape — and these moments are often a natural time to revisit fund-level valuation policies and the operating arrangements behind them.\n\nKroll's Portfolio Valuation team works with SFC-regulated managers across Hong Kong on independent fair-value opinions for private equity and credit positions, and our adjacent FSCR colleagues support governance and regulatory engagement. Happy to set up an informal call if any of this would be useful as you transition.\n\nKind regards,\nFelix Engelhardt\n",
+  "email_body": "Dear Nga Ching and Marsh Investment Solutions Management,\n\nThis is Felix from Kroll in Hong Kong. The SFC public register shows that Mercer has been renamed to Marsh Investment Solutions.\n\nRebrands often accompany broader changes — a new sponsor, a strategy refresh, or an organisational reshape — and these moments are often a natural time to revisit fund-level valuation policies and the operating arrangements behind them.\n\nKroll's Portfolio Valuation team works with SFC-regulated managers across Hong Kong on independent fair-value opinions for private equity and credit positions, and our adjacent FSCR colleagues support governance and regulatory engagement. Happy to set up an informal call if any of this would be useful as you transition.\n\nKind regards,\nFelix Engelhardt\n",
   "variant_id": "C5-v2",
-  "email_body_hash": "1546b35ecb",
+  "email_body_hash": "334ff83673",
   "email_candidates": [
     {
       "email": "nga-ching.yu@mercer.com",
@@ -104,6 +104,117 @@
       "confidence": "verified",
       "evidence": "filed with SFC by the firm at licensing",
       "fetched_at_utc": "2026-09-21T02:59:09.752289+00:00"
+    },
+    {
+      "email": "rupengchen@mercer.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHEN Rupeng"
+    },
+    {
+      "email": "rchen@mercer.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHEN Rupeng"
+    },
+    {
+      "email": "grahamelliot@mercer.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "ELLIOT Graham"
+    },
+    {
+      "email": "gelliot@mercer.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "ELLIOT Graham"
+    },
+    {
+      "email": "kevinalan.jeffrey@mercer.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "JEFFREY Kevin Alan"
+    },
+    {
+      "email": "kevinalanjeffrey@mercer.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "JEFFREY Kevin Alan"
+    },
+    {
+      "email": "kjeffrey@mercer.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "JEFFREY Kevin Alan"
+    },
+    {
+      "email": "tszchung.liu@mercer.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LIU Tsz Chung"
+    },
+    {
+      "email": "tszchungliu@mercer.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LIU Tsz Chung"
+    },
+    {
+      "email": "tliu@mercer.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LIU Tsz Chung"
+    },
+    {
+      "email": "huiyeng.tan@mercer.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "TAN Hui Yeng"
+    },
+    {
+      "email": "huiyengtan@mercer.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "TAN Hui Yeng"
+    },
+    {
+      "email": "htan@mercer.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "TAN Hui Yeng"
+    },
+    {
+      "email": "ngaching.yu@mercer.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "YU Nga Ching"
+    },
+    {
+      "email": "ngachingyu@mercer.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "YU Nga Ching"
+    },
+    {
+      "email": "nyu@mercer.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "YU Nga Ching"
+    },
+    {
+      "email": "info@mercer.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@mercer.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@mercer.com",
+      "kind": "generic_guess",
+      "confidence": "low"
     }
   ],
   "asset_classes": "private_equity,private_credit,real_assets,public_equity,public_credit,multi",
