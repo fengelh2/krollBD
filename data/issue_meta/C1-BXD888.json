@@ -1,0 +1,80 @@
+{
+  "type": "C1",
+  "type_label": "New Type 9 corp",
+  "firm": "STILLPOINT CAPITAL LIMITED",
+  "natural": "Stillpoint Capital",
+  "ceref": "BXD888",
+  "address": "Unit 1530, Level 15, Nexxus Building, No. 41 Connaught Road,, Central, Hong Kong,, Hong Kong",
+  "ros": [
+    {
+      "name": "FAN Wenjing",
+      "ceref": "BXD889"
+    },
+    {
+      "name": "WANG Yang",
+      "ceref": "BXD891"
+    }
+  ],
+  "primary_ro": "FAN Wenjing",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BXD888/details?locale=en",
+  "email_subject": "Congratulations on Stillpoint Capital's SFC Type 9 license",
+  "email_body": "Dear Stillpoint Capital Management,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on Stillpoint Capital's recent Type 9 licensing with the SFC.\n\nAs newly licensed managers like yourself establish and scale operations, we often see a need for practical support around compliance, governance, and regulatory engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps with exactly that, scaled to your firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "FSCR",
+  "variant_id": "C1-v4-FSCR",
+  "email_body_hash": "50604a2f6a",
+  "email_candidates": [
+    {
+      "email": "yang@stillpoint.com",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "WANG Yang",
+      "score": 70,
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email",
+      "evidence": "Hunter score 70 + AbstractAPI: deliverable"
+    },
+    {
+      "email": "wenjing@stillpoint.com",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "FAN Wenjing",
+      "score": 74,
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email",
+      "evidence": "Hunter score 74 + AbstractAPI: deliverable"
+    },
+    {
+      "email": "fanwenjing168168@163.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-10-04T23:51:54.092075+00:00"
+    }
+  ],
+  "asset_classes": "unknown",
+  "illiq_likelihood": "none",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "none",
+  "website_accuracy": "not_found",
+  "hunter_hits": [
+    {
+      "email": "wenjing@stillpoint.com",
+      "score": 74,
+      "ro": "FAN Wenjing",
+      "fetched_at_utc": "2026-10-05T00:07:41.241858+00:00",
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email"
+    },
+    {
+      "email": "yang@stillpoint.com",
+      "score": 70,
+      "ro": "WANG Yang",
+      "fetched_at_utc": "2026-10-05T00:07:43.162804+00:00",
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email"
+    }
+  ],
+  "hunter_attempted_utc": "2026-10-05T00:07:43.162818+00:00"
+}

@@ -1,0 +1,117 @@
+{
+  "type": "C1",
+  "type_label": "New Type 9 corp",
+  "firm": "SIGNAL D SECURITIES LIMITED",
+  "natural": "Signal D",
+  "ceref": "BXP722",
+  "address": "RM 102, 1/F, Kai Wong Commercial Building, 222 Queen's Road Central, Sheung Wan, Hong Kong",
+  "ros": [
+    {
+      "name": "CHAN Man Li",
+      "ceref": "AKJ254"
+    },
+    {
+      "name": "LEUNG Hiu Tan",
+      "ceref": "BCE397"
+    },
+    {
+      "name": "YIP Wai Kui",
+      "ceref": "AGI948"
+    }
+  ],
+  "primary_ro": "CHAN Man Li",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BXP722/details?locale=en",
+  "email_subject": "Congratulations on Signal D's SFC Type 9 license",
+  "email_body": "Dear Signal D Management,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on Signal D's recent Type 9 licensing with the SFC.\n\nAs newly licensed managers like yourself establish and scale operations, we often see a need for practical support around compliance, governance, and regulatory engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps with exactly that, scaled to your firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "FSCR",
+  "variant_id": "C1-v4-FSCR",
+  "email_body_hash": "5878452c74",
+  "email_candidates": [
+    {
+      "email": "zn@signald.com.hk",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-10-04T23:51:54.093227+00:00"
+    },
+    {
+      "email": "manli.chan@signald.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHAN Man Li"
+    },
+    {
+      "email": "manlichan@signald.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHAN Man Li"
+    },
+    {
+      "email": "mchan@signald.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHAN Man Li"
+    },
+    {
+      "email": "hiutan.leung@signald.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LEUNG Hiu Tan"
+    },
+    {
+      "email": "hiutanleung@signald.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LEUNG Hiu Tan"
+    },
+    {
+      "email": "hleung@signald.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LEUNG Hiu Tan"
+    },
+    {
+      "email": "waikui.yip@signald.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "YIP Wai Kui"
+    },
+    {
+      "email": "waikuiyip@signald.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "YIP Wai Kui"
+    },
+    {
+      "email": "wyip@signald.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "YIP Wai Kui"
+    },
+    {
+      "email": "info@signald.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@signald.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@signald.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "unknown",
+  "illiq_likelihood": "unknown",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "none",
+  "website_accuracy": "not_found",
+  "sfc_filed_website": "www.signald.com.hk",
+  "hunter_hits": [],
+  "hunter_attempted_utc": "2026-10-05T00:08:13.751252+00:00"
+}

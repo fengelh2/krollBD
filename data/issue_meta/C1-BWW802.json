@@ -1,0 +1,100 @@
+{
+  "type": "C1",
+  "type_label": "New Type 9 corp",
+  "firm": "GRAND INTEGRITY ASSET MANAGEMENT LIMITED",
+  "natural": "Grand Integrity",
+  "ceref": "BWW802",
+  "address": "Rm 6202-6203, 6/F, Everbright Centre,, 108 Gloucester Rd, Wan Chai, Hong Kong",
+  "ros": [
+    {
+      "name": "CHEUNG Yu Chung",
+      "ceref": "BRV940"
+    },
+    {
+      "name": "LEE Kwok Cheong",
+      "ceref": "AGA695"
+    }
+  ],
+  "primary_ro": "CHEUNG Yu Chung",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BWW802/details?locale=en",
+  "email_subject": "Congratulations on Grand Integrity's SFC Type 9 license",
+  "email_body": "Dear Grand Integrity Management,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on Grand Integrity's recent Type 9 licensing with the SFC.\n\nAs newly licensed managers like yourself establish and scale operations, we often see a need for practical support around compliance, governance, and regulatory engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps with exactly that, scaled to your firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "FSCR",
+  "variant_id": "C1-v4-FSCR",
+  "email_body_hash": "1393d0b01a",
+  "email_candidates": [
+    {
+      "email": "cyrus.cheung@grand-integrity.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-10-04T23:51:54.091267+00:00"
+    },
+    {
+      "email": "info@grand.com.hk",
+      "kind": "generic_on_site",
+      "confidence": "verified",
+      "ro": null
+    },
+    {
+      "email": "yuchung.cheung@grand-integrity.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHEUNG Yu Chung"
+    },
+    {
+      "email": "yuchungcheung@grand-integrity.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHEUNG Yu Chung"
+    },
+    {
+      "email": "ycheung@grand-integrity.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHEUNG Yu Chung"
+    },
+    {
+      "email": "kwokcheong.lee@grand-integrity.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LEE Kwok Cheong"
+    },
+    {
+      "email": "kwokcheonglee@grand-integrity.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LEE Kwok Cheong"
+    },
+    {
+      "email": "klee@grand-integrity.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LEE Kwok Cheong"
+    },
+    {
+      "email": "info@grand-integrity.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@grand-integrity.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@grand-integrity.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "unknown",
+  "illiq_likelihood": "unknown",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "none",
+  "website_accuracy": "not_found",
+  "hunter_hits": [],
+  "hunter_attempted_utc": "2026-10-05T00:08:35.252396+00:00"
+}

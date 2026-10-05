@@ -1,0 +1,72 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "Olive Asset Management (Hong Kong) Limited",
+  "natural": "Olive",
+  "ceref": "BOC542",
+  "ros": [
+    {
+      "name": "YE Junlei",
+      "ceref": "BVE035"
+    }
+  ],
+  "primary_ro": "YE Junlei",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BOC542/details?locale=en",
+  "email_subject": "Congratulations on your RO appointment at Olive",
+  "email_body": "Dear Junlei,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at Olive.\n\nFor illiquid managers like yourself, the marks the RO signs off on tend to be the most scrutinised line items on the books — LPs want comfort, auditors want defensibility, and internal-only marks usually invite more questions than they close. Kroll's Portfolio Valuation team here in Hong Kong helps with exactly that — robust independent valuations across private equity, private credit, and other illiquid strategies.\n\nIf a quick chat would be useful — now, or down the line — happy to set one up. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "PV",
+  "variant_id": "R1-v3-PV",
+  "email_body_hash": "ce3f2465ee",
+  "email_candidates": [
+    {
+      "email": "hkcompliance@noahgroup.hk",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-10-04T23:51:54.099903+00:00"
+    },
+    {
+      "email": "junlei.ye@oliveam.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "YE Junlei"
+    },
+    {
+      "email": "junleiye@oliveam.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "YE Junlei"
+    },
+    {
+      "email": "jye@oliveam.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "YE Junlei"
+    },
+    {
+      "email": "info@oliveam.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@oliveam.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@oliveam.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "private_equity,private_credit,real_assets,fund_of_funds,public_equity,public_credit",
+  "illiq_likelihood": "high",
+  "aum_raw_string": "Assets Under Advisement: $9.5B USD",
+  "aum_usd_m": "9500",
+  "parent_org": "Noah Holdings",
+  "classification_source": "website",
+  "website_accuracy": "verified",
+  "sfc_filed_website": "www.oliveam.com",
+  "hunter_hits": [],
+  "hunter_attempted_utc": "2026-10-05T00:04:57.969126+00:00"
+}

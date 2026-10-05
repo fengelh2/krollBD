@@ -1,0 +1,92 @@
+{
+  "type": "C1",
+  "type_label": "New Type 9 corp",
+  "firm": "Escend Capital Management Limited",
+  "natural": "Escend Capital",
+  "ceref": "BWZ271",
+  "address": "Unit 3547, Level 35, Two Pacific Place, No.88 Queensway, Admiralty, Hong Kong, Hong Kong",
+  "ros": [
+    {
+      "name": "GU Qian",
+      "ceref": "AYV781"
+    },
+    {
+      "name": "LIU Kai Lap, Kenneth",
+      "ceref": "APV621"
+    }
+  ],
+  "primary_ro": "GU Qian",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BWZ271/details?locale=en",
+  "email_subject": "Congratulations on Escend Capital's SFC Type 9 license",
+  "email_body": "Dear Peleuschu and Escend Capital Management,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on Escend Capital's recent Type 9 licensing with the SFC.\n\nAs newly licensed managers like yourself establish and scale operations, we often see a need for practical support around compliance, governance, and regulatory engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps with exactly that, scaled to your firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "FSCR",
+  "variant_id": "C1-v4-FSCR",
+  "email_body_hash": "cd6be0435f",
+  "email_candidates": [
+    {
+      "email": "peleuschu@escendcapital.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-10-04T23:51:54.091680+00:00"
+    },
+    {
+      "email": "qian.gu@escendcapital.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "GU Qian"
+    },
+    {
+      "email": "qiangu@escendcapital.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "GU Qian"
+    },
+    {
+      "email": "qgu@escendcapital.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "GU Qian"
+    },
+    {
+      "email": "kenneth.liu@escendcapital.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LIU Kai Lap, Kenneth"
+    },
+    {
+      "email": "kennethliu@escendcapital.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LIU Kai Lap, Kenneth"
+    },
+    {
+      "email": "kliu@escendcapital.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LIU Kai Lap, Kenneth"
+    },
+    {
+      "email": "info@escendcapital.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@escendcapital.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@escendcapital.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "unknown",
+  "illiq_likelihood": "unknown",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "none",
+  "website_accuracy": "not_found"
+}

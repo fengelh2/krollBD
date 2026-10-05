@@ -1,0 +1,132 @@
+{
+  "type": "C1",
+  "type_label": "New Type 9 corp",
+  "firm": "UOB KAY HIAN INVESTMENT MANAGEMENT (HONG KONG) LIMITED",
+  "natural": "Uob Kay Hian",
+  "ceref": "BVS154",
+  "address": "6/F, Harcourt House, 39 Gloucester Road, Hong Kong, Hong Kong",
+  "ros": [
+    {
+      "name": "LI Guangchen",
+      "ceref": "BNY840"
+    },
+    {
+      "name": "WANG Qi",
+      "ceref": "ALB737"
+    }
+  ],
+  "primary_ro": "LI Guangchen",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BVS154/details?locale=en",
+  "email_subject": "Congratulations on Uob Kay Hian's SFC Type 9 license",
+  "email_body": "Dear Uob Kay Hian Management,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on Uob Kay Hian's recent Type 9 licensing with the SFC.\n\nAs newly licensed managers like yourself establish and scale operations, we often see a need for practical support around compliance, governance, and regulatory engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps with exactly that, scaled to your firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "FSCR",
+  "variant_id": "C1-v4-FSCR",
+  "email_body_hash": "d8b8e01da7",
+  "email_candidates": [
+    {
+      "email": "qi@utrade.com.hk",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "WANG Qi",
+      "score": 70,
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email",
+      "evidence": "Hunter score 70 + AbstractAPI: deliverable"
+    },
+    {
+      "email": "guangchen@utrade.com.hk",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "LI Guangchen",
+      "score": 53,
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email",
+      "evidence": "Hunter score 53 + AbstractAPI: deliverable"
+    },
+    {
+      "email": "grace.ngo@uobkayhian.com.hk",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-10-04T23:51:54.090744+00:00"
+    },
+    {
+      "email": "guangchen.li@uobkayhian.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LI Guangchen"
+    },
+    {
+      "email": "guangchenli@uobkayhian.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LI Guangchen"
+    },
+    {
+      "email": "gli@uobkayhian.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LI Guangchen"
+    },
+    {
+      "email": "qi.wang@uobkayhian.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "WANG Qi"
+    },
+    {
+      "email": "qiwang@uobkayhian.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "WANG Qi"
+    },
+    {
+      "email": "qwang@uobkayhian.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "WANG Qi"
+    },
+    {
+      "email": "info@uobkayhian.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@uobkayhian.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@uobkayhian.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "public_equity,public_credit",
+  "illiq_likelihood": "low",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "UOB Kay Hian Holdings Limited",
+  "classification_source": "llm_on_name",
+  "website_accuracy": "suspect",
+  "sfc_filed_website": "www.utrade.com.hk",
+  "hunter_hits": [
+    {
+      "email": "guangchen@utrade.com.hk",
+      "score": 53,
+      "ro": "LI Guangchen",
+      "fetched_at_utc": "2026-10-05T00:07:30.626562+00:00",
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email"
+    },
+    {
+      "email": "qi@utrade.com.hk",
+      "score": 70,
+      "ro": "WANG Qi",
+      "fetched_at_utc": "2026-10-05T00:07:32.511797+00:00",
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email"
+    }
+  ],
+  "hunter_attempted_utc": "2026-10-05T00:07:32.511816+00:00"
+}

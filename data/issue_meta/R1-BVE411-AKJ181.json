@@ -1,0 +1,91 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "Portwell Securities Limited",
+  "natural": "Portwell",
+  "ceref": "BVE411",
+  "ros": [
+    {
+      "name": "CHENG Wei-Chih",
+      "ceref": "AKJ181"
+    }
+  ],
+  "primary_ro": "CHENG Wei-Chih",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BVE411/details?locale=en",
+  "email_subject": "Congratulations on your RO appointment at Portwell",
+  "email_body": "Dear Wei-chih,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at Portwell.\n\nFor newly appointed ROs like yourself, settling into the role often means getting a clear view of where the firm's compliance posture sits — internal policies, current filings, ongoing SFC engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps SFC-licensed firms with exactly that, scaled to the firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "FSCR",
+  "variant_id": "R1-v3-FSCR",
+  "email_body_hash": "f06827b6cc",
+  "email_candidates": [
+    {
+      "email": "weic@portwell.com",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "CHENG Wei-Chih",
+      "score": 80,
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email",
+      "evidence": "Hunter score 80 + AbstractAPI: deliverable"
+    },
+    {
+      "email": "info@portwellsec.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-10-04T23:51:54.103244+00:00"
+    },
+    {
+      "email": "info@portwell.com",
+      "kind": "generic_on_site",
+      "confidence": "verified",
+      "ro": null
+    },
+    {
+      "email": "weichih.cheng@portwellsec.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHENG Wei-Chih"
+    },
+    {
+      "email": "weichihcheng@portwellsec.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHENG Wei-Chih"
+    },
+    {
+      "email": "wcheng@portwellsec.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHENG Wei-Chih"
+    },
+    {
+      "email": "contact@portwellsec.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@portwellsec.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "unknown",
+  "illiq_likelihood": "unknown",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "none",
+  "website_accuracy": "not_found",
+  "hunter_hits": [
+    {
+      "email": "weic@portwell.com",
+      "score": 80,
+      "ro": "CHENG Wei-Chih",
+      "fetched_at_utc": "2026-10-05T00:04:48.432861+00:00",
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email"
+    }
+  ],
+  "hunter_attempted_utc": "2026-10-05T00:04:48.432879+00:00"
+}

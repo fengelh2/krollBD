@@ -34,6 +34,39 @@
       "confidence": "verified",
       "evidence": "filed with SFC by the firm at licensing",
       "fetched_at_utc": "2026-09-28T01:52:11.075664+00:00"
+    },
+    {
+      "email": "hanjong.kil@sig.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "KIL Han Jong"
+    },
+    {
+      "email": "hanjongkil@sig.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "KIL Han Jong"
+    },
+    {
+      "email": "hkil@sig.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "KIL Han Jong"
+    },
+    {
+      "email": "info@sig.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@sig.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@sig.com",
+      "kind": "generic_guess",
+      "confidence": "low"
     }
   ],
   "asset_classes": "public_equity,public_credit,private_equity,venture_capital",

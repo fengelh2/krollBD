@@ -1,0 +1,91 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "State Fortune Capital Management Limited",
+  "natural": "State Fortune Capital",
+  "ceref": "AYM670",
+  "ros": [
+    {
+      "name": "CHAN Chun Ming",
+      "ceref": "ABN578"
+    }
+  ],
+  "primary_ro": "CHAN Chun Ming",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/AYM670/details?locale=en",
+  "email_subject": "Congratulations on your RO appointment at State Fortune Capital",
+  "email_body": "Dear Chun Ming,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at State Fortune Capital.\n\nFor newly appointed ROs like yourself, settling into the role often means getting a clear view of where the firm's compliance posture sits — internal policies, current filings, ongoing SFC engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps SFC-licensed firms with exactly that, scaled to the firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "FSCR",
+  "variant_id": "R1-v3-FSCR",
+  "email_body_hash": "ecf6c4f3cf",
+  "email_candidates": [
+    {
+      "email": "chanchun-ming@statefortune.com.cn",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "CHAN Chun Ming",
+      "score": 74,
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email",
+      "evidence": "Hunter score 74 + AbstractAPI: deliverable"
+    },
+    {
+      "email": "jimmy.zhu@statefortune.com.cn",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-10-04T23:51:54.097805+00:00"
+    },
+    {
+      "email": "chunming.chan@statefortune.com.cn",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHAN Chun Ming"
+    },
+    {
+      "email": "chunmingchan@statefortune.com.cn",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHAN Chun Ming"
+    },
+    {
+      "email": "cchan@statefortune.com.cn",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHAN Chun Ming"
+    },
+    {
+      "email": "info@statefortune.com.cn",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@statefortune.com.cn",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@statefortune.com.cn",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "unknown",
+  "illiq_likelihood": "unknown",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "none",
+  "website_accuracy": "not_found",
+  "sfc_filed_website": "www.statefortune.com.cn",
+  "hunter_hits": [
+    {
+      "email": "chanchun-ming@statefortune.com.cn",
+      "score": 74,
+      "ro": "CHAN Chun Ming",
+      "fetched_at_utc": "2026-10-05T00:04:44.130313+00:00",
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email"
+    }
+  ],
+  "hunter_attempted_utc": "2026-10-05T00:04:44.130330+00:00"
+}

@@ -1,0 +1,38 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "Northern Light Advisors Limited",
+  "natural": "Northern Light",
+  "ceref": "BUV221",
+  "ros": [
+    {
+      "name": "DENG Feng",
+      "ceref": "BRM456"
+    }
+  ],
+  "primary_ro": "DENG Feng",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BUV221/details?locale=en",
+  "email_subject": "Congratulations on your RO appointment at Northern Light",
+  "email_body": "Dear Feng,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at Northern Light.\n\nFor newly appointed ROs like yourself, settling into the role often means getting a clear view of where the firm's compliance posture sits — internal policies, current filings, ongoing SFC engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps SFC-licensed firms with exactly that, scaled to the firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "FSCR",
+  "variant_id": "R1-v3-FSCR",
+  "email_body_hash": "1c6214a858",
+  "email_candidates": [
+    {
+      "email": "jdl@nlvc.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-10-04T23:51:54.102920+00:00"
+    }
+  ],
+  "asset_classes": "public_credit",
+  "illiq_likelihood": "low",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "Northern Capital",
+  "classification_source": "website",
+  "website_accuracy": "probable",
+  "hunter_hits": [],
+  "hunter_attempted_utc": "2026-10-05T00:05:08.514115+00:00"
+}

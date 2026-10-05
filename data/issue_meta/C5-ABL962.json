@@ -1,0 +1,70 @@
+{
+  "type": "C5",
+  "type_label": "Rebrand / name change",
+  "firm": "Prime Global InterBroker Limited",
+  "old_firm": "Hing Wai Allied Securities Limited",
+  "natural": "Prime Global InterBroker",
+  "ceref": "ABL962",
+  "ros": [
+    {
+      "name": "FUNG Sing Yui",
+      "ceref": "ACB077"
+    },
+    {
+      "name": "LO Kum Kwong",
+      "ceref": "AAD162"
+    },
+    {
+      "name": "NG Chung Man, Rosanna",
+      "ceref": "ADW710"
+    },
+    {
+      "name": "WONG King Yiu",
+      "ceref": "AAD184"
+    }
+  ],
+  "primary_ro": "FUNG Sing Yui",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/ABL962/details?locale=en",
+  "email_subject": "Prime Global InterBroker — note on the recent rebrand",
+  "email_body": "Dear Prime Global InterBroker Management,\n\nThis is Felix from Kroll in Hong Kong. The SFC public register shows that Hing Wai Allied has been renamed to Prime Global InterBroker.\n\nRebrands often accompany broader changes — a new sponsor, a strategy refresh, or an organisational reshape — and these moments are often a natural time to revisit fund-level valuation policies and the operating arrangements behind them.\n\nKroll's Portfolio Valuation team works with SFC-regulated managers across Hong Kong on independent fair-value opinions for private equity and credit positions, and our adjacent FSCR colleagues support governance and regulatory engagement. Happy to set up an informal call if any of this would be useful as you transition.\n\nKind regards,\nFelix Engelhardt\n",
+  "variant_id": "C5-v2",
+  "email_body_hash": "a5176e366e",
+  "email_candidates": [
+    {
+      "email": "sing@e-hingwai.com",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "FUNG Sing Yui",
+      "score": 95,
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email",
+      "evidence": "Hunter score 95 + AbstractAPI: deliverable"
+    },
+    {
+      "email": "admin@e-hingwai.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-10-04T23:51:54.093683+00:00"
+    }
+  ],
+  "asset_classes": "unknown",
+  "illiq_likelihood": "unknown",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "none",
+  "website_accuracy": "not_found",
+  "sfc_filed_website": "www.e-hingwai.com",
+  "hunter_hits": [
+    {
+      "email": "sing@e-hingwai.com",
+      "score": 95,
+      "ro": "FUNG Sing Yui",
+      "fetched_at_utc": "2026-10-05T00:07:17.886049+00:00",
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email"
+    }
+  ],
+  "hunter_attempted_utc": "2026-10-05T00:07:20.330075+00:00"
+}

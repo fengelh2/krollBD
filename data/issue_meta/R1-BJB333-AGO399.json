@@ -1,0 +1,91 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "Mirae Asset Securities (HK) Limited ",
+  "natural": "Mirae",
+  "ceref": "BJB333",
+  "ros": [
+    {
+      "name": "LEUNG Wai Man",
+      "ceref": "AGO399"
+    }
+  ],
+  "primary_ro": "LEUNG Wai Man",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BJB333/details?locale=en",
+  "email_subject": "Congratulations on your RO appointment at Mirae",
+  "email_body": "Dear Wai Man,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at Mirae.\n\nFor newly appointed ROs like yourself, settling into the role often means getting a clear view of where the firm's compliance posture sits — internal policies, current filings, ongoing SFC engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps SFC-licensed firms with exactly that, scaled to the firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "FSCR",
+  "variant_id": "R1-v3-FSCR",
+  "email_body_hash": "9251ce9627",
+  "email_candidates": [
+    {
+      "email": "wai-man.leung@miraeasset.hk",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "LEUNG Wai Man",
+      "score": 83,
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email",
+      "evidence": "Hunter score 83 + AbstractAPI: deliverable"
+    },
+    {
+      "email": "compliance@miraeasset.hk",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-10-04T23:51:54.098539+00:00"
+    },
+    {
+      "email": "waiman.leung@miraeasset.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LEUNG Wai Man"
+    },
+    {
+      "email": "waimanleung@miraeasset.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LEUNG Wai Man"
+    },
+    {
+      "email": "wleung@miraeasset.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LEUNG Wai Man"
+    },
+    {
+      "email": "info@miraeasset.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@miraeasset.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@miraeasset.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "unknown",
+  "illiq_likelihood": "unknown",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "none+website_reverify",
+  "website_accuracy": "not_found",
+  "sfc_filed_website": "miraeasset.hk",
+  "hunter_hits": [
+    {
+      "email": "wai-man.leung@miraeasset.hk",
+      "score": 83,
+      "ro": "LEUNG Wai Man",
+      "fetched_at_utc": "2026-10-05T00:05:43.847750+00:00",
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email"
+    }
+  ],
+  "hunter_attempted_utc": "2026-10-05T00:05:43.847767+00:00"
+}
