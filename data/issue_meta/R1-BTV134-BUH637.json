@@ -1,0 +1,67 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "Barentsz Asset Management Limited",
+  "natural": "Barentsz",
+  "ceref": "BTV134",
+  "ros": [
+    {
+      "name": "NIU Yuanye",
+      "ceref": "BUH637"
+    }
+  ],
+  "primary_ro": "NIU Yuanye",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BTV134/details?locale=en",
+  "email_subject": "Congratulations on your RO appointment at Barentsz",
+  "email_body": "Dear Yuanye,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at Barentsz.\n\nFor illiquid managers like yourself, the marks the RO signs off on tend to be the most scrutinised line items on the books — LPs want comfort, auditors want defensibility, and internal-only marks usually invite more questions than they close. Kroll's Portfolio Valuation team here in Hong Kong helps with exactly that — robust independent valuations across private equity, private credit, and other illiquid strategies.\n\nIf a quick chat would be useful — now, or down the line — happy to set one up. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "PV",
+  "variant_id": "R1-v3-PV",
+  "email_body_hash": "3ad8186070",
+  "email_candidates": [
+    {
+      "email": "info@barentszgroup.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-10-12T00:14:20.424587+00:00"
+    },
+    {
+      "email": "yuanye.niu@barentszgroup.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "NIU Yuanye"
+    },
+    {
+      "email": "yuanyeniu@barentszgroup.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "NIU Yuanye"
+    },
+    {
+      "email": "yniu@barentszgroup.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "NIU Yuanye"
+    },
+    {
+      "email": "contact@barentszgroup.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@barentszgroup.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "private_credit,real_assets,public_equity,fund_of_funds",
+  "illiq_likelihood": "high",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "website",
+  "website_accuracy": "probable",
+  "sfc_filed_website": "www.barentszgroup.com",
+  "hunter_hits": [],
+  "hunter_attempted_utc": "2026-10-12T00:21:30.923388+00:00"
+}

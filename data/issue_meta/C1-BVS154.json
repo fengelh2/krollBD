@@ -18,10 +18,10 @@
   "primary_ro": "LI Guangchen",
   "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BVS154/details?locale=en",
   "email_subject": "Congratulations on Uob Kay Hian's SFC Type 9 license",
-  "email_body": "Dear Uob Kay Hian Management,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on Uob Kay Hian's recent Type 9 licensing with the SFC.\n\nAs newly licensed managers like yourself establish and scale operations, we often see a need for practical support around compliance, governance, and regulatory engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps with exactly that, scaled to your firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "email_body": "Dear Qi and Uob Kay Hian Management,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on Uob Kay Hian's recent Type 9 licensing with the SFC.\n\nAs newly licensed managers like yourself establish and scale operations, we often see a need for practical support around compliance, governance, and regulatory engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps with exactly that, scaled to your firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
   "bd_lane": "FSCR",
   "variant_id": "C1-v4-FSCR",
-  "email_body_hash": "d8b8e01da7",
+  "email_body_hash": "d0d0caf293",
   "email_candidates": [
     {
       "email": "qi@utrade.com.hk",
@@ -51,53 +51,53 @@
       "fetched_at_utc": "2026-10-04T23:51:54.090744+00:00"
     },
     {
-      "email": "guangchen.li@uobkayhian.com.hk",
+      "email": "guangchen.li@utrade.com.hk",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "LI Guangchen"
     },
     {
-      "email": "guangchenli@uobkayhian.com.hk",
+      "email": "guangchenli@utrade.com.hk",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "LI Guangchen"
     },
     {
-      "email": "gli@uobkayhian.com.hk",
+      "email": "gli@utrade.com.hk",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "LI Guangchen"
     },
     {
-      "email": "qi.wang@uobkayhian.com.hk",
+      "email": "qi.wang@utrade.com.hk",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "WANG Qi"
     },
     {
-      "email": "qiwang@uobkayhian.com.hk",
+      "email": "qiwang@utrade.com.hk",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "WANG Qi"
     },
     {
-      "email": "qwang@uobkayhian.com.hk",
+      "email": "qwang@utrade.com.hk",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "WANG Qi"
     },
     {
-      "email": "info@uobkayhian.com.hk",
+      "email": "info@utrade.com.hk",
       "kind": "generic_guess",
       "confidence": "low"
     },
     {
-      "email": "contact@uobkayhian.com.hk",
+      "email": "contact@utrade.com.hk",
       "kind": "generic_guess",
       "confidence": "low"
     },
     {
-      "email": "enquiry@uobkayhian.com.hk",
+      "email": "enquiry@utrade.com.hk",
       "kind": "generic_guess",
       "confidence": "low"
     }

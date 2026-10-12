@@ -1,0 +1,110 @@
+{
+  "type": "C5",
+  "type_label": "Rebrand / name change",
+  "firm": "BNP PARIBAS ASSET MANAGEMENT APAC Limited",
+  "old_firm": "AXA Investment Managers Asia Limited",
+  "natural": "Bnp Paribas Asset Management Apac",
+  "ceref": "AAP809",
+  "ros": [
+    {
+      "name": "LAO Chan Wa",
+      "ceref": "BNQ515"
+    },
+    {
+      "name": "MCKENZIE Julian John Joseph",
+      "ceref": "BSI854"
+    },
+    {
+      "name": "TSE Kevin Ka Bun",
+      "ceref": "AJE849"
+    },
+    {
+      "name": "VO  Mai Khanh",
+      "ceref": "BOW856"
+    },
+    {
+      "name": "WESTON Simon Michael",
+      "ceref": "AVU839"
+    }
+  ],
+  "primary_ro": "LAO Chan Wa",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/AAP809/details?locale=en",
+  "email_subject": "Bnp Paribas Asset Management Apac — note on the recent rebrand",
+  "email_body": "Dear Hkcompliance and Bnp Paribas Asset Management Apac Management,\n\nThis is Felix from Kroll in Hong Kong. The SFC public register shows that AXA Investment Managers has been renamed to Bnp Paribas Asset Management Apac.\n\nRebrands often accompany broader changes — a new sponsor, a strategy refresh, or an organisational reshape — and these moments are often a natural time to revisit fund-level valuation policies and the operating arrangements behind them.\n\nKroll's Portfolio Valuation team works with SFC-regulated managers across Hong Kong on independent fair-value opinions for private equity and credit positions, and our adjacent FSCR colleagues support governance and regulatory engagement. Happy to set up an informal call if any of this would be useful as you transition.\n\nKind regards,\nFelix Engelhardt\n",
+  "variant_id": "C5-v2",
+  "email_body_hash": "2b1c786123",
+  "email_candidates": [
+    {
+      "email": "simon.weston@axa-im.com",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "WESTON Simon Michael",
+      "score": 96,
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email",
+      "evidence": "Hunter score 96 + AbstractAPI: deliverable"
+    },
+    {
+      "email": "kevin.tse@axa-im.com",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "TSE Kevin Ka Bun",
+      "score": 96,
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email",
+      "evidence": "Hunter score 96 + AbstractAPI: deliverable"
+    },
+    {
+      "email": "julian.mckenzie@axa-im.com",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "MCKENZIE Julian John Joseph",
+      "score": 96,
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email",
+      "evidence": "Hunter score 96 + AbstractAPI: deliverable"
+    },
+    {
+      "email": "hkcompliance@axa-im.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-10-12T00:14:20.415870+00:00"
+    }
+  ],
+  "asset_classes": "private_equity,private_credit,public_equity,public_credit,multi",
+  "illiq_likelihood": "medium",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "BNP Paribas Asset Management",
+  "classification_source": "consensus_website_plus",
+  "website_accuracy": "verified",
+  "sfc_filed_website": "www.axa-im.com.hk",
+  "hunter_hits": [
+    {
+      "email": "julian.mckenzie@axa-im.com",
+      "score": 96,
+      "ro": "MCKENZIE Julian John Joseph",
+      "fetched_at_utc": "2026-10-12T00:22:29.864075+00:00",
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email"
+    },
+    {
+      "email": "kevin.tse@axa-im.com",
+      "score": 96,
+      "ro": "TSE Kevin Ka Bun",
+      "fetched_at_utc": "2026-10-12T00:22:34.415580+00:00",
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email"
+    },
+    {
+      "email": "simon.weston@axa-im.com",
+      "score": 96,
+      "ro": "WESTON Simon Michael",
+      "fetched_at_utc": "2026-10-12T00:22:45.939885+00:00",
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email"
+    }
+  ],
+  "hunter_attempted_utc": "2026-10-12T00:22:45.939897+00:00"
+}

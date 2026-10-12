@@ -1,0 +1,85 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "CITIC Securities Brokerage (HK) Limited",
+  "natural": "CITIC",
+  "ceref": "AAE879",
+  "ros": [
+    {
+      "name": "HAN Yuxin",
+      "ceref": "BRD962"
+    }
+  ],
+  "primary_ro": "HAN Yuxin",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/AAE879/details?locale=en",
+  "email_subject": "Congratulations on your RO appointment at CITIC",
+  "email_body": "Dear Yuxin,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at CITIC.\n\nFor illiquid managers like yourself, the marks the RO signs off on tend to be the most scrutinised line items on the books — LPs want comfort, auditors want defensibility, and internal-only marks usually invite more questions than they close. Kroll's Portfolio Valuation team here in Hong Kong helps with exactly that — robust independent valuations across private equity, private credit, and other illiquid strategies.\n\nIf a quick chat would be useful — now, or down the line — happy to set one up. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "PV",
+  "variant_id": "R1-v3-PV",
+  "email_body_hash": "49a8d526f4",
+  "email_candidates": [
+    {
+      "email": "yuxinhan@citics.com.hk",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "HAN Yuxin",
+      "score": 85,
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email",
+      "evidence": "Hunter score 85 + AbstractAPI: deliverable"
+    },
+    {
+      "email": "hk_licensing@clsa.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-10-12T00:14:20.417719+00:00"
+    },
+    {
+      "email": "yuxin.han@citics.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "HAN Yuxin"
+    },
+    {
+      "email": "yhan@citics.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "HAN Yuxin"
+    },
+    {
+      "email": "info@citics.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@citics.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@citics.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "public_equity,public_credit",
+  "illiq_likelihood": "medium",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "CITIC Securities",
+  "classification_source": "website",
+  "website_accuracy": "probable",
+  "sfc_filed_website": "www.citics.com.hk",
+  "hunter_hits": [
+    {
+      "email": "yuxinhan@citics.com.hk",
+      "score": 85,
+      "ro": "HAN Yuxin",
+      "fetched_at_utc": "2026-10-12T00:21:20.301067+00:00",
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email"
+    }
+  ],
+  "hunter_attempted_utc": "2026-10-12T00:21:20.301089+00:00"
+}

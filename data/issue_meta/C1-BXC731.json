@@ -1,0 +1,94 @@
+{
+  "type": "C1",
+  "type_label": "New Type 9 corp",
+  "firm": "Arrano Asset Management Limited",
+  "natural": "Arrano",
+  "ceref": "BXC731",
+  "address": "Room D, 9/F, 33 Des Voeux Road Central, Hong Kong, Hong Kong",
+  "ros": [
+    {
+      "name": "ACQUILLA Avaneesh John",
+      "ceref": "ARB905"
+    },
+    {
+      "name": "CHEUNG Christopher Ka Tsun",
+      "ceref": "AFY937"
+    }
+  ],
+  "primary_ro": "ACQUILLA Avaneesh John",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BXC731/details?locale=en",
+  "email_subject": "Congratulations on Arrano's SFC Type 9 license",
+  "email_body": "Dear Avaneesh and Arrano Management,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on Arrano's recent Type 9 licensing with the SFC.\n\nAs newly licensed managers like yourself establish and scale operations, we often see a need for practical support around compliance, governance, and regulatory engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps with exactly that, scaled to your firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "FSCR",
+  "variant_id": "C1-v4-FSCR",
+  "email_body_hash": "beb18d3b03",
+  "email_candidates": [
+    {
+      "email": "avaneesh@arranocap.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-10-12T00:14:20.414080+00:00"
+    },
+    {
+      "email": "avaneeshjohn.acquilla@arranocap.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "ACQUILLA Avaneesh John"
+    },
+    {
+      "email": "avaneeshjohnacquilla@arranocap.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "ACQUILLA Avaneesh John"
+    },
+    {
+      "email": "aacquilla@arranocap.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "ACQUILLA Avaneesh John"
+    },
+    {
+      "email": "christopher.cheung@arranocap.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHEUNG Christopher Ka Tsun"
+    },
+    {
+      "email": "christophercheung@arranocap.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHEUNG Christopher Ka Tsun"
+    },
+    {
+      "email": "ccheung@arranocap.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHEUNG Christopher Ka Tsun"
+    },
+    {
+      "email": "info@arranocap.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@arranocap.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@arranocap.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "public_equity,multi",
+  "illiq_likelihood": "low",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "website",
+  "website_accuracy": "probable",
+  "hunter_hits": [],
+  "hunter_attempted_utc": "2026-10-12T00:23:49.318921+00:00"
+}

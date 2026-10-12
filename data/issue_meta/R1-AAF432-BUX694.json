@@ -1,0 +1,99 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "Fosun International Securities Limited",
+  "natural": "Fosun International",
+  "ceref": "AAF432",
+  "ros": [
+    {
+      "name": "WAN Qing",
+      "ceref": "BUX694"
+    }
+  ],
+  "primary_ro": "WAN Qing",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/AAF432/details?locale=en",
+  "email_subject": "Congratulations on your RO appointment at Fosun International",
+  "email_body": "Dear Qing,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at Fosun International.\n\nFor illiquid managers like yourself, the marks the RO signs off on tend to be the most scrutinised line items on the books — LPs want comfort, auditors want defensibility, and internal-only marks usually invite more questions than they close. Kroll's Portfolio Valuation team here in Hong Kong helps with exactly that — robust independent valuations across private equity, private credit, and other illiquid strategies.\n\nIf a quick chat would be useful — now, or down the line — happy to set one up. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "PV",
+  "variant_id": "R1-v3-PV",
+  "email_body_hash": "e63bcfa6c8",
+  "email_candidates": [
+    {
+      "email": "qing.wan@fosunwealth.com",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "WAN Qing",
+      "score": 99,
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email",
+      "evidence": "Hunter score 99 + AbstractAPI: deliverable"
+    },
+    {
+      "email": "silas.tse@haninet.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-10-12T00:14:20.418044+00:00"
+    },
+    {
+      "email": "pr_team@fosunwealth.com",
+      "kind": "observed_on_site",
+      "confidence": "verified",
+      "ro": null
+    },
+    {
+      "email": "enquiry@fosunwealth.com",
+      "kind": "generic_on_site",
+      "confidence": "verified",
+      "ro": null
+    },
+    {
+      "email": "info@fosunwealth.com",
+      "kind": "generic_on_site",
+      "confidence": "verified",
+      "ro": null
+    },
+    {
+      "email": "qing_wan@fosunwealth.com",
+      "kind": "ro_pattern_match",
+      "confidence": "high",
+      "ro": "WAN Qing"
+    },
+    {
+      "email": "qingwan@fosunwealth.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "WAN Qing"
+    },
+    {
+      "email": "qwan@fosunwealth.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "WAN Qing"
+    },
+    {
+      "email": "contact@fosunwealth.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "public_equity,public_credit,unknown",
+  "illiq_likelihood": "medium",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "Fosun International Limited",
+  "classification_source": "consensus_website_plus",
+  "website_accuracy": "probable",
+  "sfc_filed_website": "www.fosunwealth.com",
+  "hunter_hits": [
+    {
+      "email": "qing.wan@fosunwealth.com",
+      "score": 99,
+      "ro": "WAN Qing",
+      "fetched_at_utc": "2026-10-12T00:21:03.306214+00:00",
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email"
+    }
+  ],
+  "hunter_attempted_utc": "2026-10-12T00:21:03.306237+00:00"
+}

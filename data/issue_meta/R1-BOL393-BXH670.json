@@ -1,0 +1,85 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "Lakala International Asset Management Limited",
+  "natural": "Lakala International",
+  "ceref": "BOL393",
+  "ros": [
+    {
+      "name": "QUE Wenzhen",
+      "ceref": "BXH670"
+    }
+  ],
+  "primary_ro": "QUE Wenzhen",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BOL393/details?locale=en",
+  "email_subject": "Congratulations on your RO appointment at Lakala International",
+  "email_body": "Dear Wenzhen,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at Lakala International.\n\nFor newly appointed ROs like yourself, settling into the role often means getting a clear view of where the firm's compliance posture sits — internal policies, current filings, ongoing SFC engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps SFC-licensed firms with exactly that, scaled to the firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "FSCR",
+  "variant_id": "R1-v3-FSCR",
+  "email_body_hash": "04462bed9f",
+  "email_candidates": [
+    {
+      "email": "wenzhenque@lakala.com",
+      "kind": "hunter_io",
+      "confidence": "low",
+      "ro": "QUE Wenzhen",
+      "score": 80,
+      "abstract_verdict": "undeliverable",
+      "abstract_detail": "invalid_mailbox",
+      "evidence": "Hunter score 80 + AbstractAPI: undeliverable",
+      "flag": "abstractapi_says_undeliverable"
+    },
+    {
+      "email": "dinghanzhi@lakala.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-10-12T00:14:20.423562+00:00"
+    },
+    {
+      "email": "wenzhen.que@lakala.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "QUE Wenzhen"
+    },
+    {
+      "email": "wque@lakala.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "QUE Wenzhen"
+    },
+    {
+      "email": "info@lakala.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@lakala.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@lakala.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "unknown",
+  "illiq_likelihood": "unknown",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "none",
+  "website_accuracy": "not_found",
+  "hunter_hits": [
+    {
+      "email": "wenzhenque@lakala.com",
+      "score": 80,
+      "ro": "QUE Wenzhen",
+      "fetched_at_utc": "2026-10-12T00:20:35.205192+00:00",
+      "abstract_verdict": "undeliverable",
+      "abstract_detail": "invalid_mailbox"
+    }
+  ],
+  "hunter_attempted_utc": "2026-10-12T00:20:35.205213+00:00"
+}

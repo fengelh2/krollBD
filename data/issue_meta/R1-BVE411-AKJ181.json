@@ -42,30 +42,30 @@
       "ro": null
     },
     {
-      "email": "weichih.cheng@portwellsec.com",
+      "email": "weichih.cheng@portwell.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "CHENG Wei-Chih"
     },
     {
-      "email": "weichihcheng@portwellsec.com",
+      "email": "weichihcheng@portwell.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "CHENG Wei-Chih"
     },
     {
-      "email": "wcheng@portwellsec.com",
+      "email": "wcheng@portwell.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "CHENG Wei-Chih"
     },
     {
-      "email": "contact@portwellsec.com",
+      "email": "contact@portwell.com",
       "kind": "generic_guess",
       "confidence": "low"
     },
     {
-      "email": "enquiry@portwellsec.com",
+      "email": "enquiry@portwell.com",
       "kind": "generic_guess",
       "confidence": "low"
     }

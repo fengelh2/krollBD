@@ -1,0 +1,114 @@
+{
+  "type": "C1",
+  "type_label": "New Type 9 corp",
+  "firm": "Aquilius Investment Partners (HK) Limited",
+  "natural": "Aquilius",
+  "ceref": "BXL175",
+  "address": "Unit 4808, Level 48,, The Center, 99 Queen's Road Central, Central, Hong Kong",
+  "ros": [
+    {
+      "name": "QIAN Chen",
+      "ceref": "BHM199"
+    },
+    {
+      "name": "WOLFF Bastian",
+      "ceref": "BXL179"
+    },
+    {
+      "name": "YUNG Martin Kwing Cheung",
+      "ceref": "AYT811"
+    }
+  ],
+  "primary_ro": "QIAN Chen",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BXL175/details?locale=en",
+  "email_subject": "Congratulations on Aquilius's SFC Type 9 license",
+  "email_body": "Dear Aquilius Management,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on Aquilius's recent Type 9 licensing with the SFC.\n\nAs newly licensed managers like yourself establish and scale operations, we often see a need for practical support around compliance, governance, and regulatory engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps with exactly that, scaled to your firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "FSCR",
+  "variant_id": "C1-v4-FSCR",
+  "email_body_hash": "baf601cf86",
+  "email_candidates": [
+    {
+      "email": "e.teo@aquilius.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-10-12T00:14:20.414976+00:00"
+    },
+    {
+      "email": "chen.qian@aquilius.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "QIAN Chen"
+    },
+    {
+      "email": "chenqian@aquilius.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "QIAN Chen"
+    },
+    {
+      "email": "cqian@aquilius.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "QIAN Chen"
+    },
+    {
+      "email": "bastian.wolff@aquilius.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "WOLFF Bastian"
+    },
+    {
+      "email": "bastianwolff@aquilius.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "WOLFF Bastian"
+    },
+    {
+      "email": "bwolff@aquilius.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "WOLFF Bastian"
+    },
+    {
+      "email": "martin.yung@aquilius.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "YUNG Martin Kwing Cheung"
+    },
+    {
+      "email": "martinyung@aquilius.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "YUNG Martin Kwing Cheung"
+    },
+    {
+      "email": "myung@aquilius.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "YUNG Martin Kwing Cheung"
+    },
+    {
+      "email": "info@aquilius.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@aquilius.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@aquilius.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "unknown",
+  "illiq_likelihood": "unknown",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "none",
+  "website_accuracy": "not_found"
+}
