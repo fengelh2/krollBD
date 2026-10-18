@@ -1,0 +1,90 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "CHG SECURITIES LIMITED",
+  "natural": "CHG",
+  "ceref": "AAZ886",
+  "ros": [
+    {
+      "name": "NG Ka Kin",
+      "ceref": "ACF722"
+    }
+  ],
+  "primary_ro": "NG Ka Kin",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/AAZ886/details?locale=en",
+  "email_subject": "Congratulations on your RO appointment at CHG",
+  "email_body": "Dear Ka Kin,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at CHG.\n\nFor newly appointed ROs like yourself, settling into the role often means getting a clear view of where the firm's compliance posture sits — internal policies, current filings, ongoing SFC engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps SFC-licensed firms with exactly that, scaled to the firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "FSCR",
+  "variant_id": "R1-v3-FSCR",
+  "email_body_hash": "383c2c86b0",
+  "email_candidates": [
+    {
+      "email": "kin@renavon.com",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "NG Ka Kin",
+      "score": 74,
+      "abstract_verdict": "quota_exhausted",
+      "abstract_detail": null,
+      "evidence": "Hunter score 74 + AbstractAPI: quota_exhausted"
+    },
+    {
+      "email": "erina@plsl.hk",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-10-18T22:50:53.142205+00:00"
+    },
+    {
+      "email": "kakin.ng@plsl.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "NG Ka Kin"
+    },
+    {
+      "email": "kakinng@plsl.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "NG Ka Kin"
+    },
+    {
+      "email": "kng@plsl.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "NG Ka Kin"
+    },
+    {
+      "email": "info@plsl.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@plsl.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@plsl.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "unknown",
+  "illiq_likelihood": "unknown",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "none",
+  "website_accuracy": "not_found",
+  "hunter_hits": [
+    {
+      "email": "kin@renavon.com",
+      "score": 74,
+      "ro": "NG Ka Kin",
+      "fetched_at_utc": "2026-10-18T22:56:04.943134+00:00",
+      "abstract_verdict": "quota_exhausted",
+      "abstract_detail": null
+    }
+  ],
+  "hunter_attempted_utc": "2026-10-18T22:56:04.943148+00:00"
+}

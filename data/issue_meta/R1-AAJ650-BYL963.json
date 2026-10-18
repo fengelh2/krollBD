@@ -1,0 +1,84 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "RBC Global Asset Management (Asia) Limited",
+  "natural": "RBC Global",
+  "ceref": "AAJ650",
+  "ros": [
+    {
+      "name": "RIOPELLE Sarah Elizabeth",
+      "ceref": "BYL963"
+    }
+  ],
+  "primary_ro": "RIOPELLE Sarah Elizabeth",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/AAJ650/details?locale=en",
+  "email_subject": "Congratulations on your RO appointment at RBC Global",
+  "email_body": "Dear Sarah,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at RBC Global.\n\nFor illiquid managers like yourself, the marks the RO signs off on tend to be the most scrutinised line items on the books — LPs want comfort, auditors want defensibility, and internal-only marks usually invite more questions than they close. Kroll's Portfolio Valuation team here in Hong Kong helps with exactly that — robust independent valuations across private equity, private credit, and other illiquid strategies.\n\nIf a quick chat would be useful — now, or down the line — happy to set one up. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "PV",
+  "variant_id": "R1-v3-PV",
+  "email_body_hash": "190c7b0d50",
+  "email_candidates": [
+    {
+      "email": "sarah.riopelle@rbc.com",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "RIOPELLE Sarah Elizabeth",
+      "score": 97,
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email",
+      "evidence": "Hunter score 97 + AbstractAPI: deliverable"
+    },
+    {
+      "email": "gamasiacompliance@rbc.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-10-18T22:50:53.141719+00:00"
+    },
+    {
+      "email": "sarahriopelle@rbc.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "RIOPELLE Sarah Elizabeth"
+    },
+    {
+      "email": "sriopelle@rbc.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "RIOPELLE Sarah Elizabeth"
+    },
+    {
+      "email": "info@rbc.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@rbc.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@rbc.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "public_equity,public_credit,multi",
+  "illiq_likelihood": "medium",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "Royal Bank of Canada",
+  "classification_source": "llm_on_name",
+  "website_accuracy": "probable",
+  "hunter_hits": [
+    {
+      "email": "sarah.riopelle@rbc.com",
+      "score": 97,
+      "ro": "RIOPELLE Sarah Elizabeth",
+      "fetched_at_utc": "2026-10-18T22:55:05.115548+00:00",
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email"
+    }
+  ],
+  "hunter_attempted_utc": "2026-10-18T22:55:05.115569+00:00"
+}

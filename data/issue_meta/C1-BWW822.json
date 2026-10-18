@@ -1,0 +1,43 @@
+{
+  "type": "C1",
+  "type_label": "New Type 9 corp",
+  "firm": "Hong Kong Oriental Focus Investment Management Limited",
+  "natural": "Hong Kong Oriental Focus",
+  "ceref": "BWW822",
+  "address": "Room 1105, 11/F, Silvercord Tower 2, 30 Canton Road, Tsim Sha Tsui, Kowloon, Hong Kong",
+  "ros": [
+    {
+      "name": "WU Chi Keung, Walter",
+      "ceref": "AAZ514"
+    },
+    {
+      "name": "YE Wenli",
+      "ceref": "AVL281"
+    }
+  ],
+  "primary_ro": "WU Chi Keung, Walter",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BWW822/details?locale=en",
+  "email_subject": "Congratulations on Hong Kong Oriental Focus's SFC Type 9 license",
+  "email_body": "Dear Walterwu and Hong Kong Oriental Focus Management,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on Hong Kong Oriental Focus's recent Type 9 licensing with the SFC.\n\nAs newly licensed managers like yourself establish and scale operations, we often see a need for practical support around compliance, governance, and regulatory engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps with exactly that, scaled to your firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "FSCR",
+  "variant_id": "C1-v4-FSCR",
+  "email_body_hash": "e05419ec0f",
+  "email_candidates": [
+    {
+      "email": "walterwu@gmail.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-10-18T22:50:53.138359+00:00"
+    }
+  ],
+  "asset_classes": "unknown",
+  "illiq_likelihood": "unknown",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "none",
+  "website_accuracy": "not_found",
+  "hunter_hits": [],
+  "hunter_attempted_utc": "2026-10-18T22:56:17.391956+00:00"
+}

@@ -1,0 +1,58 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "Eagle Asset Management (CP) Limited",
+  "natural": "Eagle Asset Management (CP)",
+  "ceref": "ANG975",
+  "ros": [
+    {
+      "name": "LAU Yee Tong Yvonne",
+      "ceref": "BHY929"
+    }
+  ],
+  "primary_ro": "LAU Yee Tong Yvonne",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/ANG975/details?locale=en",
+  "email_subject": "Congratulations on your RO appointment at Eagle Asset Management (CP)",
+  "email_body": "Dear Yvonne,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at Eagle Asset Management (CP).\n\nFor illiquid managers like yourself, the marks the RO signs off on tend to be the most scrutinised line items on the books — LPs want comfort, auditors want defensibility, and internal-only marks usually invite more questions than they close. Kroll's Portfolio Valuation team here in Hong Kong helps with exactly that — robust independent valuations across private equity, private credit, and other illiquid strategies.\n\nIf a quick chat would be useful — now, or down the line — happy to set one up. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "PV",
+  "variant_id": "R1-v3-PV",
+  "email_body_hash": "cebd99f9fc",
+  "email_candidates": [
+    {
+      "email": "yee@championreit.com",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "LAU Yee Tong Yvonne",
+      "score": 78,
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email",
+      "evidence": "Hunter score 78 + AbstractAPI: deliverable"
+    },
+    {
+      "email": "info@eam.com.hk",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-10-18T22:50:53.177856+00:00"
+    }
+  ],
+  "asset_classes": "real_assets",
+  "illiq_likelihood": "medium",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "Great Eagle Holdings Limited",
+  "classification_source": "website",
+  "website_accuracy": "probable",
+  "sfc_filed_website": "www.championreit.com",
+  "hunter_hits": [
+    {
+      "email": "yee@championreit.com",
+      "score": 78,
+      "ro": "LAU Yee Tong Yvonne",
+      "fetched_at_utc": "2026-10-18T22:55:37.767098+00:00",
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email"
+    }
+  ],
+  "hunter_attempted_utc": "2026-10-18T22:55:37.767116+00:00"
+}

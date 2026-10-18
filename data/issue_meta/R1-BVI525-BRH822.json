@@ -1,0 +1,102 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "HKSTP Co Acceleration Management Limited",
+  "natural": "HKSTP Co Acceleration",
+  "ceref": "BVI525",
+  "ros": [
+    {
+      "name": "TUNG Wo Hon",
+      "ceref": "BRH822"
+    }
+  ],
+  "primary_ro": "TUNG Wo Hon",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BVI525/details?locale=en",
+  "email_subject": "Congratulations on your RO appointment at HKSTP Co Acceleration",
+  "email_body": "Dear Wo Hon,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at HKSTP Co Acceleration.\n\nFor newly appointed ROs like yourself, settling into the role often means getting a clear view of where the firm's compliance posture sits — internal policies, current filings, ongoing SFC engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps SFC-licensed firms with exactly that, scaled to the firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "FSCR",
+  "variant_id": "R1-v3-FSCR",
+  "email_body_hash": "230bc0a801",
+  "email_candidates": [
+    {
+      "email": "hon.tung@hkstp.org",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "TUNG Wo Hon",
+      "score": 84,
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email",
+      "evidence": "Hunter score 84 + AbstractAPI: deliverable"
+    },
+    {
+      "email": "coacceleration-sfc@hkstp.org",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-10-18T22:50:53.184794+00:00"
+    },
+    {
+      "email": "enquiry.marketing@hkstp.org",
+      "kind": "observed_on_site",
+      "confidence": "verified",
+      "ro": null
+    },
+    {
+      "email": "wo.tung@hkstp.org",
+      "kind": "ro_pattern_match",
+      "confidence": "high",
+      "ro": "TUNG Wo Hon"
+    },
+    {
+      "email": "wohon.tung@hkstp.org",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "TUNG Wo Hon"
+    },
+    {
+      "email": "wohontung@hkstp.org",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "TUNG Wo Hon"
+    },
+    {
+      "email": "wtung@hkstp.org",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "TUNG Wo Hon"
+    },
+    {
+      "email": "info@hkstp.org",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@hkstp.org",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@hkstp.org",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "unknown",
+  "illiq_likelihood": "unknown",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "none",
+  "website_accuracy": "unverified",
+  "hunter_hits": [
+    {
+      "email": "hon.tung@hkstp.org",
+      "score": 84,
+      "ro": "TUNG Wo Hon",
+      "fetched_at_utc": "2026-10-18T22:55:30.566237+00:00",
+      "abstract_verdict": "deliverable",
+      "abstract_detail": "valid_email"
+    }
+  ],
+  "hunter_attempted_utc": "2026-10-18T22:55:30.566260+00:00"
+}

@@ -1,0 +1,87 @@
+{
+  "type": "C1",
+  "type_label": "New Type 9 corp",
+  "firm": "Moore Ocean Capital Limited",
+  "natural": "Moore Ocean Capital",
+  "ceref": "BXS910",
+  "address": "Unit 12A, 12/F, Seapower Tower, Concordia Plaza, No.1 Science Museum Road, Kowloon, Hong Kong, Hong Kong",
+  "ros": [
+    {
+      "name": "FONG Wai Ying, Vivian Catherine",
+      "ceref": "BBT305"
+    },
+    {
+      "name": "WONG Mun Yee",
+      "ceref": "APU633"
+    }
+  ],
+  "primary_ro": "FONG Wai Ying, Vivian Catherine",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BXS910/details?locale=en",
+  "email_subject": "Congratulations on Moore Ocean Capital's SFC Type 9 license",
+  "email_body": "Dear Moore Ocean Capital Management,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on Moore Ocean Capital's recent Type 9 licensing with the SFC.\n\nAs newly licensed managers like yourself establish and scale operations, we often see a need for practical support around compliance, governance, and regulatory engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps with exactly that, scaled to your firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "FSCR",
+  "variant_id": "C1-v4-FSCR",
+  "email_body_hash": "0d8d4b6407",
+  "email_candidates": [
+    {
+      "email": "info@mooreocean.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-10-18T22:50:53.139126+00:00"
+    },
+    {
+      "email": "wai.fong@mooreocean.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "FONG Wai Ying, Vivian Catherine"
+    },
+    {
+      "email": "waifong@mooreocean.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "FONG Wai Ying, Vivian Catherine"
+    },
+    {
+      "email": "wfong@mooreocean.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "FONG Wai Ying, Vivian Catherine"
+    },
+    {
+      "email": "munyee.wong@mooreocean.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "WONG Mun Yee"
+    },
+    {
+      "email": "munyeewong@mooreocean.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "WONG Mun Yee"
+    },
+    {
+      "email": "mwong@mooreocean.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "WONG Mun Yee"
+    },
+    {
+      "email": "contact@mooreocean.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@mooreocean.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "unknown",
+  "illiq_likelihood": "unknown",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "none",
+  "website_accuracy": "not_found"
+}

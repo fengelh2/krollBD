@@ -1,0 +1,69 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "Sinocon Capital International Limited",
+  "natural": "Sinocon Capital International",
+  "ceref": "BIV273",
+  "ros": [
+    {
+      "name": "SHI Jiangnan",
+      "ceref": "BWB775"
+    }
+  ],
+  "primary_ro": "SHI Jiangnan",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BIV273/details?locale=en",
+  "email_subject": "Congratulations on your RO appointment at Sinocon Capital International",
+  "email_body": "Dear Jiangnan,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at Sinocon Capital International.\n\nFor newly appointed ROs like yourself, settling into the role often means getting a clear view of where the firm's compliance posture sits — internal policies, current filings, ongoing SFC engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps SFC-licensed firms with exactly that, scaled to the firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "FSCR",
+  "variant_id": "R1-v3-FSCR",
+  "email_body_hash": "f86e7d70df",
+  "email_candidates": [
+    {
+      "email": "kerry.ho@sinoconholdings.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-10-18T22:50:53.181221+00:00"
+    },
+    {
+      "email": "jiangnan.shi@sinoconholdings.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "SHI Jiangnan"
+    },
+    {
+      "email": "jiangnanshi@sinoconholdings.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "SHI Jiangnan"
+    },
+    {
+      "email": "jshi@sinoconholdings.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "SHI Jiangnan"
+    },
+    {
+      "email": "info@sinoconholdings.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@sinoconholdings.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@sinoconholdings.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "unknown",
+  "illiq_likelihood": "unknown",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "none",
+  "website_accuracy": "not_found"
+}

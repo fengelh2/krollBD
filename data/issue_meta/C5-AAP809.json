@@ -30,9 +30,9 @@
   "primary_ro": "LAO Chan Wa",
   "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/AAP809/details?locale=en",
   "email_subject": "Bnp Paribas Asset Management Apac — note on the recent rebrand",
-  "email_body": "Dear Hkcompliance and Bnp Paribas Asset Management Apac Management,\n\nThis is Felix from Kroll in Hong Kong. The SFC public register shows that AXA Investment Managers has been renamed to Bnp Paribas Asset Management Apac.\n\nRebrands often accompany broader changes — a new sponsor, a strategy refresh, or an organisational reshape — and these moments are often a natural time to revisit fund-level valuation policies and the operating arrangements behind them.\n\nKroll's Portfolio Valuation team works with SFC-regulated managers across Hong Kong on independent fair-value opinions for private equity and credit positions, and our adjacent FSCR colleagues support governance and regulatory engagement. Happy to set up an informal call if any of this would be useful as you transition.\n\nKind regards,\nFelix Engelhardt\n",
+  "email_body": "Dear Simon and Bnp Paribas Asset Management Apac Management,\n\nThis is Felix from Kroll in Hong Kong. The SFC public register shows that AXA Investment Managers has been renamed to Bnp Paribas Asset Management Apac.\n\nRebrands often accompany broader changes — a new sponsor, a strategy refresh, or an organisational reshape — and these moments are often a natural time to revisit fund-level valuation policies and the operating arrangements behind them.\n\nKroll's Portfolio Valuation team works with SFC-regulated managers across Hong Kong on independent fair-value opinions for private equity and credit positions, and our adjacent FSCR colleagues support governance and regulatory engagement. Happy to set up an informal call if any of this would be useful as you transition.\n\nKind regards,\nFelix Engelhardt\n",
   "variant_id": "C5-v2",
-  "email_body_hash": "2b1c786123",
+  "email_body_hash": "ea1fdad4ad",
   "email_candidates": [
     {
       "email": "simon.weston@axa-im.com",
@@ -70,6 +70,93 @@
       "confidence": "verified",
       "evidence": "filed with SFC by the firm at licensing",
       "fetched_at_utc": "2026-10-12T00:14:20.415870+00:00"
+    },
+    {
+      "email": "chanwa.lao@axa-im.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LAO Chan Wa"
+    },
+    {
+      "email": "chanwalao@axa-im.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LAO Chan Wa"
+    },
+    {
+      "email": "clao@axa-im.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LAO Chan Wa"
+    },
+    {
+      "email": "julianmckenzie@axa-im.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "MCKENZIE Julian John Joseph"
+    },
+    {
+      "email": "jmckenzie@axa-im.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "MCKENZIE Julian John Joseph"
+    },
+    {
+      "email": "kevintse@axa-im.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "TSE Kevin Ka Bun"
+    },
+    {
+      "email": "ktse@axa-im.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "TSE Kevin Ka Bun"
+    },
+    {
+      "email": "maikhanh.vo@axa-im.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "VO  Mai Khanh"
+    },
+    {
+      "email": "maikhanhvo@axa-im.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "VO  Mai Khanh"
+    },
+    {
+      "email": "mvo@axa-im.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "VO  Mai Khanh"
+    },
+    {
+      "email": "simonweston@axa-im.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "WESTON Simon Michael"
+    },
+    {
+      "email": "sweston@axa-im.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "WESTON Simon Michael"
+    },
+    {
+      "email": "info@axa-im.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@axa-im.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@axa-im.com",
+      "kind": "generic_guess",
+      "confidence": "low"
     }
   ],
   "asset_classes": "private_equity,private_credit,public_equity,public_credit,multi",

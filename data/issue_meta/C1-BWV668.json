@@ -1,0 +1,43 @@
+{
+  "type": "C1",
+  "type_label": "New Type 9 corp",
+  "firm": "Grandview Wealth Management Limited",
+  "natural": "Grandview Wealth",
+  "ceref": "BWV668",
+  "address": "Room 410, 4/F, Strand 50, 50 Bonham Strand, Sheung Wan, Hong Kong, Hong Kong",
+  "ros": [
+    {
+      "name": "CHOY Wong Hoi, Peter",
+      "ceref": "AGA968"
+    },
+    {
+      "name": "TONG San Mong",
+      "ceref": "BOI263"
+    }
+  ],
+  "primary_ro": "CHOY Wong Hoi, Peter",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BWV668/details?locale=en",
+  "email_subject": "Congratulations on Grandview Wealth's SFC Type 9 license",
+  "email_body": "Dear Grandview Wealth Management,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on Grandview Wealth's recent Type 9 licensing with the SFC.\n\nAs newly licensed managers like yourself establish and scale operations, we often see a need for practical support around compliance, governance, and regulatory engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps with exactly that, scaled to your firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "FSCR",
+  "variant_id": "C1-v4-FSCR",
+  "email_body_hash": "3a35380bf9",
+  "email_candidates": [
+    {
+      "email": "grandviewam.hk@gmail.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-10-18T22:50:53.137987+00:00"
+    }
+  ],
+  "asset_classes": "public_equity,public_credit,multi",
+  "illiq_likelihood": "low",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "website",
+  "website_accuracy": "probable",
+  "hunter_hits": [],
+  "hunter_attempted_utc": "2026-10-18T22:56:38.083548+00:00"
+}
