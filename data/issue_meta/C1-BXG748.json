@@ -1,0 +1,41 @@
+{
+  "type": "C1",
+  "type_label": "New Type 9 corp",
+  "firm": "Mahimahi Capital Limited",
+  "natural": "Mahimahi Capital",
+  "ceref": "BXG748",
+  "address": "Unit 18A, 18/F, Two Chinachem Plaza, 68 Connaught Road Central, Central, Hong Kong",
+  "ros": [
+    {
+      "name": "CHU Fong Kwan",
+      "ceref": "ACA839"
+    },
+    {
+      "name": "KWAN Chi Hang",
+      "ceref": "AGL438"
+    }
+  ],
+  "primary_ro": "CHU Fong Kwan",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BXG748/details?locale=en",
+  "email_subject": "Congratulations on Mahimahi Capital's SFC Type 9 license",
+  "email_body": "Dear Mahimahicap and Mahimahi Capital Management,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on Mahimahi Capital's recent Type 9 licensing with the SFC.\n\nAs newly licensed managers like yourself establish and scale operations, we often see a need for practical support around compliance, governance, and regulatory engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps with exactly that, scaled to your firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "FSCR",
+  "variant_id": "C1-v4-FSCR",
+  "email_body_hash": "d593cc88a3",
+  "email_candidates": [
+    {
+      "email": "mahimahicap@gmail.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-10-25T23:06:47.143146+00:00"
+    }
+  ],
+  "asset_classes": "unknown",
+  "illiq_likelihood": "unknown",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "none",
+  "website_accuracy": "not_found"
+}

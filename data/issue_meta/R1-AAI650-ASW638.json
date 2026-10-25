@@ -34,6 +34,33 @@
       "confidence": "verified",
       "evidence": "filed with SFC by the firm at licensing",
       "fetched_at_utc": "2026-10-18T22:50:53.141408+00:00"
+    },
+    {
+      "email": "lan.wang@cmschina.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "WANG Lan"
+    },
+    {
+      "email": "lwang@cmschina.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "WANG Lan"
+    },
+    {
+      "email": "info@cmschina.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@cmschina.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@cmschina.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
     }
   ],
   "asset_classes": "private_equity,public_equity,public_credit,multi",

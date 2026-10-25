@@ -1,0 +1,58 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "Azure Lion International Asset Management Company Limited",
+  "natural": "Azure Lion International",
+  "ceref": "BGX952",
+  "ros": [
+    {
+      "name": "WONG Kin Cheong",
+      "ceref": "BGX282"
+    }
+  ],
+  "primary_ro": "WONG Kin Cheong",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BGX952/details?locale=en",
+  "email_subject": "Congratulations on your RO appointment at Azure Lion International",
+  "email_body": "Dear Kin Cheong,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at Azure Lion International.\n\nFor newly appointed ROs like yourself, settling into the role often means getting a clear view of where the firm's compliance posture sits — internal policies, current filings, ongoing SFC engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps SFC-licensed firms with exactly that, scaled to the firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "FSCR",
+  "variant_id": "R1-v3-FSCR",
+  "email_body_hash": "69314b4047",
+  "email_candidates": [
+    {
+      "email": "kin-cheong@algroup.com.hk",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "WONG Kin Cheong",
+      "score": 60,
+      "abstract_verdict": "quota_exhausted",
+      "abstract_detail": null,
+      "evidence": "Hunter score 60 + AbstractAPI: quota_exhausted"
+    },
+    {
+      "email": "cs@algroup.com.hk",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-10-25T23:06:47.147988+00:00"
+    }
+  ],
+  "asset_classes": "unknown",
+  "illiq_likelihood": "unknown",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "none",
+  "website_accuracy": "unverified",
+  "sfc_filed_website": "http://www.algroup.com.hk",
+  "hunter_hits": [
+    {
+      "email": "kin-cheong@algroup.com.hk",
+      "score": 60,
+      "ro": "WONG Kin Cheong",
+      "fetched_at_utc": "2026-10-25T23:20:31.094049+00:00",
+      "abstract_verdict": "quota_exhausted",
+      "abstract_detail": null
+    }
+  ],
+  "hunter_attempted_utc": "2026-10-25T23:20:31.094063+00:00"
+}

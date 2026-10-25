@@ -1,0 +1,92 @@
+{
+  "type": "C1",
+  "type_label": "New Type 9 corp",
+  "firm": "Xuanyuan Asset Management Co. Ltd",
+  "natural": "Xuanyuan Asset Management Co",
+  "ceref": "BXN596",
+  "address": "Unit 1062, LEVEL 10, COMPASS OFFICES, 9 QUEEN'S ROAD CENTRAL, CENTRAL, HONG KONG, Hong Kong",
+  "ros": [
+    {
+      "name": "CHEN YANG",
+      "ceref": "BQF048"
+    },
+    {
+      "name": "ZHANG Shiyun",
+      "ceref": "BXN597"
+    }
+  ],
+  "primary_ro": "CHEN YANG",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BXN596/details?locale=en",
+  "email_subject": "Congratulations on Xuanyuan Asset Management Co's SFC Type 9 license",
+  "email_body": "Dear Dxy and Xuanyuan Asset Management Co Management,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on Xuanyuan Asset Management Co's recent Type 9 licensing with the SFC.\n\nAs newly licensed managers like yourself establish and scale operations, we often see a need for practical support around compliance, governance, and regulatory engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps with exactly that, scaled to your firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "FSCR",
+  "variant_id": "C1-v4-FSCR",
+  "email_body_hash": "a1e5f32012",
+  "email_candidates": [
+    {
+      "email": "dxy@xuanyuaninv.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-10-25T23:06:47.143482+00:00"
+    },
+    {
+      "email": "yang.chen@xuanyuaninv.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHEN YANG"
+    },
+    {
+      "email": "yangchen@xuanyuaninv.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHEN YANG"
+    },
+    {
+      "email": "ychen@xuanyuaninv.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHEN YANG"
+    },
+    {
+      "email": "shiyun.zhang@xuanyuaninv.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "ZHANG Shiyun"
+    },
+    {
+      "email": "shiyunzhang@xuanyuaninv.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "ZHANG Shiyun"
+    },
+    {
+      "email": "szhang@xuanyuaninv.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "ZHANG Shiyun"
+    },
+    {
+      "email": "info@xuanyuaninv.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@xuanyuaninv.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@xuanyuaninv.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "unknown",
+  "illiq_likelihood": "unknown",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "none",
+  "website_accuracy": "not_found"
+}

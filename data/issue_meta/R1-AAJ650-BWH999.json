@@ -1,0 +1,90 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "RBC Global Asset Management (Asia) Limited",
+  "natural": "RBC Global",
+  "ceref": "AAJ650",
+  "ros": [
+    {
+      "name": "LANGHAM Philippe Marc",
+      "ceref": "BWH999"
+    }
+  ],
+  "primary_ro": "LANGHAM Philippe Marc",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/AAJ650/details?locale=en",
+  "email_subject": "Congratulations on your RO appointment at RBC Global",
+  "email_body": "Dear Philippe Marc,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at RBC Global.\n\nFor illiquid managers like yourself, the marks the RO signs off on tend to be the most scrutinised line items on the books — LPs want comfort, auditors want defensibility, and internal-only marks usually invite more questions than they close. Kroll's Portfolio Valuation team here in Hong Kong helps with exactly that — robust independent valuations across private equity, private credit, and other illiquid strategies.\n\nIf a quick chat would be useful — now, or down the line — happy to set one up. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "PV",
+  "variant_id": "R1-v3-PV",
+  "email_body_hash": "d541eff2e4",
+  "email_candidates": [
+    {
+      "email": "philippelangham@rbc.com",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "LANGHAM Philippe Marc",
+      "score": 98,
+      "abstract_verdict": "quota_exhausted",
+      "abstract_detail": null,
+      "evidence": "Hunter score 98 + AbstractAPI: quota_exhausted"
+    },
+    {
+      "email": "gamasiacompliance@rbc.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-10-25T23:06:47.146741+00:00"
+    },
+    {
+      "email": "philippemarc.langham@rbc.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LANGHAM Philippe Marc"
+    },
+    {
+      "email": "philippemarclangham@rbc.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LANGHAM Philippe Marc"
+    },
+    {
+      "email": "plangham@rbc.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LANGHAM Philippe Marc"
+    },
+    {
+      "email": "info@rbc.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@rbc.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@rbc.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "public_equity,public_credit,multi",
+  "illiq_likelihood": "medium",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "Royal Bank of Canada",
+  "classification_source": "llm_on_name",
+  "website_accuracy": "probable",
+  "hunter_hits": [
+    {
+      "email": "philippelangham@rbc.com",
+      "score": 98,
+      "ro": "LANGHAM Philippe Marc",
+      "fetched_at_utc": "2026-10-25T23:19:35.317130+00:00",
+      "abstract_verdict": "quota_exhausted",
+      "abstract_detail": null
+    }
+  ],
+  "hunter_attempted_utc": "2026-10-25T23:19:35.317148+00:00"
+}

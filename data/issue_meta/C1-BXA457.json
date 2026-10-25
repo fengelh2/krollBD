@@ -1,0 +1,109 @@
+{
+  "type": "C1",
+  "type_label": "New Type 9 corp",
+  "firm": "UV Capital Limited",
+  "natural": "UV Capital",
+  "ceref": "BXA457",
+  "address": "Suite 1004, 10/F, 8 Queens Road East, Wan Chai, Hong Kong, Hong Kong",
+  "ros": [
+    {
+      "name": "BENT Alexander John",
+      "ceref": "BUW316"
+    },
+    {
+      "name": "SNELGROVE Paul Rodger",
+      "ceref": "AEE375"
+    }
+  ],
+  "primary_ro": "BENT Alexander John",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BXA457/details?locale=en",
+  "email_subject": "Congratulations on UV Capital's SFC Type 9 license",
+  "email_body": "Dear UV Capital Management,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on UV Capital's recent Type 9 licensing with the SFC.\n\nFor illiquid managers like yourself, as you get ready to start deploying capital, the recurring question is how to mark private positions in a way that holds up with LPs and auditors. Kroll's Portfolio Valuation team here in Hong Kong helps with exactly that — across private equity, private credit, and other illiquid strategies.\n\nIf a quick chat would be useful — now, or down the line — happy to set one up. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "PV",
+  "variant_id": "C1-v4-PV",
+  "email_body_hash": "14946250c5",
+  "email_candidates": [
+    {
+      "email": "paul@undivided.vc",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "SNELGROVE Paul Rodger",
+      "score": 82,
+      "abstract_verdict": "quota_exhausted",
+      "abstract_detail": null,
+      "evidence": "Hunter score 82 + AbstractAPI: quota_exhausted"
+    },
+    {
+      "email": "info@undivided.vc",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-10-25T23:06:47.142118+00:00"
+    },
+    {
+      "email": "alexanderjohn.bent@undivided.vc",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "BENT Alexander John"
+    },
+    {
+      "email": "alexanderjohnbent@undivided.vc",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "BENT Alexander John"
+    },
+    {
+      "email": "abent@undivided.vc",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "BENT Alexander John"
+    },
+    {
+      "email": "paulrodger.snelgrove@undivided.vc",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "SNELGROVE Paul Rodger"
+    },
+    {
+      "email": "paulrodgersnelgrove@undivided.vc",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "SNELGROVE Paul Rodger"
+    },
+    {
+      "email": "psnelgrove@undivided.vc",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "SNELGROVE Paul Rodger"
+    },
+    {
+      "email": "contact@undivided.vc",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@undivided.vc",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "private_equity,real_assets",
+  "illiq_likelihood": "high",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "website",
+  "website_accuracy": "probable",
+  "sfc_filed_website": "https://www.undivided.vc",
+  "hunter_hits": [
+    {
+      "email": "paul@undivided.vc",
+      "score": 82,
+      "ro": "SNELGROVE Paul Rodger",
+      "fetched_at_utc": "2026-10-25T23:21:32.328708+00:00",
+      "abstract_verdict": "quota_exhausted",
+      "abstract_detail": null
+    }
+  ],
+  "hunter_attempted_utc": "2026-10-25T23:21:32.328725+00:00"
+}

@@ -1,0 +1,97 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "Ahead Asset Management Limited ",
+  "natural": "Ahead",
+  "ceref": "BSF946",
+  "ros": [
+    {
+      "name": "ZHANG Xiaoyu",
+      "ceref": "BMQ071"
+    }
+  ],
+  "primary_ro": "ZHANG Xiaoyu",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BSF946/details?locale=en",
+  "email_subject": "Congratulations on your RO appointment at Ahead",
+  "email_body": "Dear Xiaoyu,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at Ahead.\n\nFor illiquid managers like yourself, the marks the RO signs off on tend to be the most scrutinised line items on the books — LPs want comfort, auditors want defensibility, and internal-only marks usually invite more questions than they close. Kroll's Portfolio Valuation team here in Hong Kong helps with exactly that — robust independent valuations across private equity, private credit, and other illiquid strategies.\n\nIf a quick chat would be useful — now, or down the line — happy to set one up. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "PV",
+  "variant_id": "R1-v3-PV",
+  "email_body_hash": "8d1110521a",
+  "email_candidates": [
+    {
+      "email": "xiaoyu@aheadam.com",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "ZHANG Xiaoyu",
+      "score": 78,
+      "abstract_verdict": "quota_exhausted",
+      "abstract_detail": null,
+      "evidence": "Hunter score 78 + AbstractAPI: quota_exhausted"
+    },
+    {
+      "email": "compliance@aheadam.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-10-25T23:06:47.151988+00:00"
+    },
+    {
+      "email": "inquiry@aheadam.com",
+      "kind": "observed_on_site",
+      "confidence": "verified",
+      "ro": null
+    },
+    {
+      "email": "xiaoyu.zhang@aheadam.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "ZHANG Xiaoyu"
+    },
+    {
+      "email": "xiaoyuzhang@aheadam.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "ZHANG Xiaoyu"
+    },
+    {
+      "email": "xzhang@aheadam.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "ZHANG Xiaoyu"
+    },
+    {
+      "email": "info@aheadam.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@aheadam.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@aheadam.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "multi",
+  "illiq_likelihood": "medium",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "website",
+  "website_accuracy": "probable",
+  "sfc_filed_website": "http://aheadam.com/",
+  "hunter_hits": [
+    {
+      "email": "xiaoyu@aheadam.com",
+      "score": 78,
+      "ro": "ZHANG Xiaoyu",
+      "fetched_at_utc": "2026-10-25T23:20:25.176278+00:00",
+      "abstract_verdict": "quota_exhausted",
+      "abstract_detail": null
+    }
+  ],
+  "hunter_attempted_utc": "2026-10-25T23:20:25.176299+00:00"
+}

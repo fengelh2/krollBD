@@ -1,0 +1,101 @@
+{
+  "type": "C5",
+  "type_label": "Rebrand / name change",
+  "firm": "CAPITAL NEXUS SECURITIES GROUP HOLDINGS LIMITED",
+  "old_firm": "MC Financial Services Limited",
+  "natural": "Capital Nexus",
+  "ceref": "BLC140",
+  "ros": [
+    {
+      "name": "LEONG Chi Fung",
+      "ceref": "AJM781"
+    },
+    {
+      "name": "PUN Yat Kan",
+      "ceref": "BKW033"
+    }
+  ],
+  "primary_ro": "LEONG Chi Fung",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BLC140/details?locale=en",
+  "email_subject": "Capital Nexus — note on the recent rebrand",
+  "email_body": "Dear Settlement and Capital Nexus Management,\n\nThis is Felix from Kroll in Hong Kong. The SFC public register shows that MC Financial Services has been renamed to Capital Nexus.\n\nRebrands often accompany broader changes — a new sponsor, a strategy refresh, or an organisational reshape — and these moments are often a natural time to revisit fund-level valuation policies and the operating arrangements behind them.\n\nKroll's Portfolio Valuation team works with SFC-regulated managers across Hong Kong on independent fair-value opinions for private equity and credit positions, and our adjacent FSCR colleagues support governance and regulatory engagement. Happy to set up an informal call if any of this would be useful as you transition.\n\nKind regards,\nFelix Engelhardt\n",
+  "variant_id": "C5-v2",
+  "email_body_hash": "b81a50ca2b",
+  "email_candidates": [
+    {
+      "email": "enquiry@mcfshk.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-10-25T23:06:47.144868+00:00"
+    },
+    {
+      "email": "settlement@mcfshk.com",
+      "kind": "observed_on_site",
+      "confidence": "verified",
+      "ro": null
+    },
+    {
+      "email": "enquiry@mcfshk.com",
+      "kind": "generic_on_site",
+      "confidence": "verified",
+      "ro": null
+    },
+    {
+      "email": "chifung.leong@mcfshk.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LEONG Chi Fung"
+    },
+    {
+      "email": "chifungleong@mcfshk.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LEONG Chi Fung"
+    },
+    {
+      "email": "cleong@mcfshk.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LEONG Chi Fung"
+    },
+    {
+      "email": "yatkan.pun@mcfshk.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "PUN Yat Kan"
+    },
+    {
+      "email": "yatkanpun@mcfshk.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "PUN Yat Kan"
+    },
+    {
+      "email": "ypun@mcfshk.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "PUN Yat Kan"
+    },
+    {
+      "email": "info@mcfshk.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@mcfshk.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "public_equity,public_credit,multi",
+  "illiq_likelihood": "low",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "website",
+  "website_accuracy": "verified",
+  "sfc_filed_website": "mcfshk.com",
+  "hunter_hits": [],
+  "hunter_attempted_utc": "2026-10-25T23:20:57.618043+00:00"
+}

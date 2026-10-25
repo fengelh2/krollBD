@@ -1,0 +1,42 @@
+{
+  "type": "C5",
+  "type_label": "Rebrand / name change",
+  "firm": "Freewill Capital Limited",
+  "old_firm": "Belter Risen Asset Management Limited",
+  "natural": "Freewill Capital",
+  "ceref": "BUQ130",
+  "ros": [
+    {
+      "name": "YIK Kwan Ho",
+      "ceref": "APR487"
+    },
+    {
+      "name": "YU Tai Wai",
+      "ceref": "BCC292"
+    }
+  ],
+  "primary_ro": "YIK Kwan Ho",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BUQ130/details?locale=en",
+  "email_subject": "Freewill Capital — note on the recent rebrand",
+  "email_body": "Dear Freewill Capital Management,\n\nThis is Felix from Kroll in Hong Kong. The SFC public register shows that Belter Risen has been renamed to Freewill Capital.\n\nRebrands often accompany broader changes — a new sponsor, a strategy refresh, or an organisational reshape — and these moments are often a natural time to revisit fund-level valuation policies and the operating arrangements behind them.\n\nKroll's Portfolio Valuation team works with SFC-regulated managers across Hong Kong on independent fair-value opinions for private equity and credit positions, and our adjacent FSCR colleagues support governance and regulatory engagement. Happy to set up an informal call if any of this would be useful as you transition.\n\nKind regards,\nFelix Engelhardt\n",
+  "variant_id": "C5-v2",
+  "email_body_hash": "406e2d5e18",
+  "email_candidates": [
+    {
+      "email": "david.yu@belterrisen.net",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-10-25T23:06:47.145478+00:00"
+    }
+  ],
+  "asset_classes": "unknown",
+  "illiq_likelihood": "unknown",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "none",
+  "website_accuracy": "not_found",
+  "hunter_hits": [],
+  "hunter_attempted_utc": "2026-10-25T23:21:17.356291+00:00"
+}

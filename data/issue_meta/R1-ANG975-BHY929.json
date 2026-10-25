@@ -34,6 +34,39 @@
       "confidence": "verified",
       "evidence": "filed with SFC by the firm at licensing",
       "fetched_at_utc": "2026-10-18T22:50:53.177856+00:00"
+    },
+    {
+      "email": "yee.lau@championreit.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LAU Yee Tong Yvonne"
+    },
+    {
+      "email": "yeelau@championreit.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LAU Yee Tong Yvonne"
+    },
+    {
+      "email": "ylau@championreit.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LAU Yee Tong Yvonne"
+    },
+    {
+      "email": "info@championreit.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@championreit.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@championreit.com",
+      "kind": "generic_guess",
+      "confidence": "low"
     }
   ],
   "asset_classes": "real_assets",
@@ -54,5 +87,5 @@
       "abstract_detail": "valid_email"
     }
   ],
-  "hunter_attempted_utc": "2026-10-18T22:55:37.767116+00:00"
+  "hunter_attempted_utc": "2026-10-25T23:21:47.847177+00:00"
 }

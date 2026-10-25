@@ -36,35 +36,35 @@
       "fetched_at_utc": "2026-10-18T22:50:53.181560+00:00"
     },
     {
-      "email": "kakin.ng@plsl.hk",
+      "email": "kakin.ng@midland.com.hk",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "NG Ka Kin"
     },
     {
-      "email": "kakinng@plsl.hk",
+      "email": "kakinng@midland.com.hk",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "NG Ka Kin"
     },
     {
-      "email": "kng@plsl.hk",
+      "email": "kng@midland.com.hk",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "NG Ka Kin"
     },
     {
-      "email": "info@plsl.hk",
+      "email": "info@midland.com.hk",
       "kind": "generic_guess",
       "confidence": "low"
     },
     {
-      "email": "contact@plsl.hk",
+      "email": "contact@midland.com.hk",
       "kind": "generic_guess",
       "confidence": "low"
     },
     {
-      "email": "enquiry@plsl.hk",
+      "email": "enquiry@midland.com.hk",
       "kind": "generic_guess",
       "confidence": "low"
     }
@@ -86,5 +86,5 @@
       "abstract_detail": "valid_email"
     }
   ],
-  "hunter_attempted_utc": "2026-10-18T22:55:41.602808+00:00"
+  "hunter_attempted_utc": "2026-10-25T23:21:47.901765+00:00"
 }

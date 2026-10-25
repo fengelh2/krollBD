@@ -1,0 +1,64 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "Oakwise Capital Management Limited",
+  "natural": "Oakwise Capital",
+  "ceref": "BNN920",
+  "ros": [
+    {
+      "name": "WONG Sze Yuen, Marshal",
+      "ceref": "AUK435"
+    }
+  ],
+  "primary_ro": "WONG Sze Yuen, Marshal",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BNN920/details?locale=en",
+  "email_subject": "Congratulations on your RO appointment at Oakwise Capital",
+  "email_body": "Dear Marshal,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at Oakwise Capital.\n\nFor newly appointed ROs like yourself, settling into the role often means getting a clear view of where the firm's compliance posture sits — internal policies, current filings, ongoing SFC engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps SFC-licensed firms with exactly that, scaled to the firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "FSCR",
+  "variant_id": "R1-v3-FSCR",
+  "email_body_hash": "76524167a5",
+  "email_candidates": [
+    {
+      "email": "info@oakwisecap.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-10-25T23:06:47.149864+00:00"
+    },
+    {
+      "email": "marshal.wong@oakwisecap.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "WONG Sze Yuen, Marshal"
+    },
+    {
+      "email": "marshalwong@oakwisecap.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "WONG Sze Yuen, Marshal"
+    },
+    {
+      "email": "mwong@oakwisecap.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "WONG Sze Yuen, Marshal"
+    },
+    {
+      "email": "contact@oakwisecap.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@oakwisecap.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "unknown",
+  "illiq_likelihood": "unknown",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "none",
+  "website_accuracy": "not_found"
+}

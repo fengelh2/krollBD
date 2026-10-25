@@ -1,0 +1,73 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "AK Capital Limited",
+  "natural": "AK Capital",
+  "ceref": "BWU987",
+  "ros": [
+    {
+      "name": "LIU Ka Ho",
+      "ceref": "BYJ800"
+    }
+  ],
+  "primary_ro": "LIU Ka Ho",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BWU987/details?locale=en",
+  "email_subject": "Congratulations on your RO appointment at AK Capital",
+  "email_body": "Dear Ka Ho,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at AK Capital.\n\nFor newly appointed ROs like yourself, settling into the role often means getting a clear view of where the firm's compliance posture sits — internal policies, current filings, ongoing SFC engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps SFC-licensed firms with exactly that, scaled to the firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "FSCR",
+  "variant_id": "R1-v3-FSCR",
+  "email_body_hash": "f3700973b2",
+  "email_candidates": [
+    {
+      "email": "akcapitalhr@gmail.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-10-25T23:06:47.154176+00:00"
+    },
+    {
+      "email": "info@akcapital.com.hk",
+      "kind": "generic_on_site",
+      "confidence": "verified",
+      "ro": null
+    },
+    {
+      "email": "kaho.liu@akcapital.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LIU Ka Ho"
+    },
+    {
+      "email": "kaholiu@akcapital.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LIU Ka Ho"
+    },
+    {
+      "email": "kliu@akcapital.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LIU Ka Ho"
+    },
+    {
+      "email": "contact@akcapital.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@akcapital.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "public_equity,public_credit,multi",
+  "illiq_likelihood": "low",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "website",
+  "website_accuracy": "probable",
+  "sfc_filed_website": "www.akcapital.com.hk",
+  "hunter_hits": [],
+  "hunter_attempted_utc": "2026-10-25T23:20:17.796788+00:00"
+}

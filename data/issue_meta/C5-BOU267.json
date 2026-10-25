@@ -1,0 +1,131 @@
+{
+  "type": "C5",
+  "type_label": "Rebrand / name change",
+  "firm": "Silver Time Securities Limited",
+  "old_firm": "China Silver Bullet Securities Company Limited",
+  "natural": "Silver Time",
+  "ceref": "BOU267",
+  "ros": [
+    {
+      "name": "KWOK Shiu Man",
+      "ceref": "AXK358"
+    },
+    {
+      "name": "LI Patrick",
+      "ceref": "ALI101"
+    }
+  ],
+  "primary_ro": "KWOK Shiu Man",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BOU267/details?locale=en",
+  "email_subject": "Silver Time — note on the recent rebrand",
+  "email_body": "Dear Silver Time Management,\n\nThis is Felix from Kroll in Hong Kong. The SFC public register shows that China Silver Bullet has been renamed to Silver Time.\n\nRebrands often accompany broader changes — a new sponsor, a strategy refresh, or an organisational reshape — and these moments are often a natural time to revisit fund-level valuation policies and the operating arrangements behind them.\n\nKroll's Portfolio Valuation team works with SFC-regulated managers across Hong Kong on independent fair-value opinions for private equity and credit positions, and our adjacent FSCR colleagues support governance and regulatory engagement. Happy to set up an informal call if any of this would be useful as you transition.\n\nKind regards,\nFelix Engelhardt\n",
+  "variant_id": "C5-v2",
+  "email_body_hash": "5a8cec50cd",
+  "email_candidates": [
+    {
+      "email": "patrick@china-silver.com.hk",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "LI Patrick",
+      "score": 74,
+      "abstract_verdict": "quota_exhausted",
+      "abstract_detail": null,
+      "evidence": "Hunter score 74 + AbstractAPI: quota_exhausted"
+    },
+    {
+      "email": "man@china-silver.com.hk",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "KWOK Shiu Man",
+      "score": 79,
+      "abstract_verdict": "quota_exhausted",
+      "abstract_detail": null,
+      "evidence": "Hunter score 79 + AbstractAPI: quota_exhausted"
+    },
+    {
+      "email": "patrick_li@china-silver.com.hk",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-10-25T23:06:47.145209+00:00"
+    },
+    {
+      "email": "shiuman.kwok@china-silver.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "KWOK Shiu Man"
+    },
+    {
+      "email": "shiumankwok@china-silver.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "KWOK Shiu Man"
+    },
+    {
+      "email": "skwok@china-silver.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "KWOK Shiu Man"
+    },
+    {
+      "email": "patrick.li@china-silver.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LI Patrick"
+    },
+    {
+      "email": "patrickli@china-silver.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LI Patrick"
+    },
+    {
+      "email": "pli@china-silver.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LI Patrick"
+    },
+    {
+      "email": "info@china-silver.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@china-silver.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@china-silver.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "unknown",
+  "illiq_likelihood": "unknown",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "none",
+  "website_accuracy": "not_found",
+  "sfc_filed_website": "www.china-silver.com.hk",
+  "hunter_hits": [
+    {
+      "email": "man@china-silver.com.hk",
+      "score": 79,
+      "ro": "KWOK Shiu Man",
+      "fetched_at_utc": "2026-10-25T23:20:35.237566+00:00",
+      "abstract_verdict": "quota_exhausted",
+      "abstract_detail": null
+    },
+    {
+      "email": "patrick@china-silver.com.hk",
+      "score": 74,
+      "ro": "LI Patrick",
+      "fetched_at_utc": "2026-10-25T23:20:36.283780+00:00",
+      "abstract_verdict": "quota_exhausted",
+      "abstract_detail": null
+    }
+  ],
+  "hunter_attempted_utc": "2026-10-25T23:20:36.283794+00:00"
+}

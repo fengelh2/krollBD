@@ -1,0 +1,80 @@
+{
+  "type": "C1",
+  "type_label": "New Type 9 corp",
+  "firm": "Blue Horizon Partners Capital Management Company Limited",
+  "natural": "Blue Horizon Partners Capital",
+  "ceref": "BXF442",
+  "address": "Room 1806-23, 18th Floor, Tower 2, Lippo Center, Admiralty, Hong Kong, Hong Kong",
+  "ros": [
+    {
+      "name": "YUAN Zhongyi",
+      "ceref": "BXF443"
+    },
+    {
+      "name": "ZHAO Weice",
+      "ceref": "BXN191"
+    }
+  ],
+  "primary_ro": "YUAN Zhongyi",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BXF442/details?locale=en",
+  "email_subject": "Congratulations on Blue Horizon Partners Capital's SFC Type 9 license",
+  "email_body": "Dear Blue Horizon Partners Capital Management,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on Blue Horizon Partners Capital's recent Type 9 licensing with the SFC.\n\nAs newly licensed managers like yourself establish and scale operations, we often see a need for practical support around compliance, governance, and regulatory engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps with exactly that, scaled to your firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "FSCR",
+  "variant_id": "C1-v4-FSCR",
+  "email_body_hash": "7af720ecb5",
+  "email_candidates": [
+    {
+      "email": "weice.zhao@blue.com.hk",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "ZHAO Weice",
+      "score": 84,
+      "abstract_verdict": "quota_exhausted",
+      "abstract_detail": null,
+      "evidence": "Hunter score 84 + AbstractAPI: quota_exhausted"
+    },
+    {
+      "email": "zhongyi.yuan@blue.com.hk",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "YUAN Zhongyi",
+      "score": 85,
+      "abstract_verdict": "quota_exhausted",
+      "abstract_detail": null,
+      "evidence": "Hunter score 85 + AbstractAPI: quota_exhausted"
+    },
+    {
+      "email": "408155515@qq.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-10-25T23:06:47.142659+00:00"
+    }
+  ],
+  "asset_classes": "unknown",
+  "illiq_likelihood": "unknown",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "none",
+  "website_accuracy": "not_found",
+  "hunter_hits": [
+    {
+      "email": "zhongyi.yuan@blue.com.hk",
+      "score": 85,
+      "ro": "YUAN Zhongyi",
+      "fetched_at_utc": "2026-10-25T23:21:46.437653+00:00",
+      "abstract_verdict": "quota_exhausted",
+      "abstract_detail": null
+    },
+    {
+      "email": "weice.zhao@blue.com.hk",
+      "score": 84,
+      "ro": "ZHAO Weice",
+      "fetched_at_utc": "2026-10-25T23:21:47.435514+00:00",
+      "abstract_verdict": "quota_exhausted",
+      "abstract_detail": null
+    }
+  ],
+  "hunter_attempted_utc": "2026-10-25T23:21:47.435528+00:00"
+}

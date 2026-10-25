@@ -36,35 +36,35 @@
       "fetched_at_utc": "2026-10-18T22:50:53.140314+00:00"
     },
     {
-      "email": "ming.zhao@gigamoney.com",
+      "email": "ming.zhao@winnerintsec.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "ZHAO MING"
     },
     {
-      "email": "mingzhao@gigamoney.com",
+      "email": "mingzhao@winnerintsec.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "ZHAO MING"
     },
     {
-      "email": "mzhao@gigamoney.com",
+      "email": "mzhao@winnerintsec.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "ZHAO MING"
     },
     {
-      "email": "info@gigamoney.com",
+      "email": "info@winnerintsec.com",
       "kind": "generic_guess",
       "confidence": "low"
     },
     {
-      "email": "contact@gigamoney.com",
+      "email": "contact@winnerintsec.com",
       "kind": "generic_guess",
       "confidence": "low"
     },
     {
-      "email": "enquiry@gigamoney.com",
+      "email": "enquiry@winnerintsec.com",
       "kind": "generic_guess",
       "confidence": "low"
     }
@@ -87,5 +87,5 @@
       "abstract_detail": "valid_email"
     }
   ],
-  "hunter_attempted_utc": "2026-10-18T22:55:33.753296+00:00"
+  "hunter_attempted_utc": "2026-10-25T23:21:47.819260+00:00"
 }
