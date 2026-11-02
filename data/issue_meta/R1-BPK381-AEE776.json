@@ -1,0 +1,79 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "Keming Capital (HK) Limited",
+  "natural": "Keming Capital",
+  "ceref": "BPK381",
+  "ros": [
+    {
+      "name": "FUNG Hao Chuen, David",
+      "ceref": "AEE776"
+    }
+  ],
+  "primary_ro": "FUNG Hao Chuen, David",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BPK381/details?locale=en",
+  "email_subject": "Congratulations on your RO appointment at Keming Capital",
+  "email_body": "Dear David,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at Keming Capital.\n\nFor newly appointed ROs like yourself, settling into the role often means getting a clear view of where the firm's compliance posture sits — internal policies, current filings, ongoing SFC engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps SFC-licensed firms with exactly that, scaled to the firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "FSCR",
+  "variant_id": "R1-v3-FSCR",
+  "email_body_hash": "f3dfa91315",
+  "email_candidates": [
+    {
+      "email": "david.fung@kemingcapital.com",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "FUNG Hao Chuen, David",
+      "score": 96,
+      "abstract_verdict": "quota_exhausted",
+      "abstract_detail": null,
+      "evidence": "Hunter score 96 + AbstractAPI: quota_exhausted"
+    },
+    {
+      "email": "info@kemingcapital.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-11-02T00:12:13.172014+00:00"
+    },
+    {
+      "email": "davidfung@kemingcapital.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "FUNG Hao Chuen, David"
+    },
+    {
+      "email": "dfung@kemingcapital.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "FUNG Hao Chuen, David"
+    },
+    {
+      "email": "contact@kemingcapital.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@kemingcapital.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "unknown",
+  "illiq_likelihood": "unknown",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "none",
+  "website_accuracy": "not_found",
+  "hunter_hits": [
+    {
+      "email": "david.fung@kemingcapital.com",
+      "score": 96,
+      "ro": "FUNG Hao Chuen, David",
+      "fetched_at_utc": "2026-11-02T00:18:05.590656+00:00",
+      "abstract_verdict": "quota_exhausted",
+      "abstract_detail": null
+    }
+  ],
+  "hunter_attempted_utc": "2026-11-02T00:18:05.590673+00:00"
+}

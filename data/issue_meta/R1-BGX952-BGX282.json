@@ -34,6 +34,39 @@
       "confidence": "verified",
       "evidence": "filed with SFC by the firm at licensing",
       "fetched_at_utc": "2026-10-25T23:06:47.147988+00:00"
+    },
+    {
+      "email": "kincheong.wong@algroup.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "WONG Kin Cheong"
+    },
+    {
+      "email": "kincheongwong@algroup.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "WONG Kin Cheong"
+    },
+    {
+      "email": "kwong@algroup.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "WONG Kin Cheong"
+    },
+    {
+      "email": "info@algroup.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@algroup.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@algroup.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
     }
   ],
   "asset_classes": "unknown",

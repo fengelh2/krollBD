@@ -1,0 +1,47 @@
+{
+  "type": "C2",
+  "type_label": "Type 9 retired",
+  "firm": "EFG Asset Management (HK) Limited",
+  "natural": "EFG",
+  "ceref": "AQU400",
+  "ros_current": [],
+  "ros_departed": [],
+  "primary_ro": null,
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/AQU400/details?locale=en",
+  "email_subject": "EFG — Type 9 license transition",
+  "email_body": "Dear EFG Management,\n\nThis is Felix from Kroll. I am reaching out in light of publicly disclosed changes to EFG's SFC Type 9 registration, as such transitions often prompt a review of fund-level operating and advisory arrangements.\n\nFor funds that have largely deployed capital and are managing minority positions requiring limited day-to-day GP involvement, Kroll's Fund Solutions practice supports GPs with a range of later-lifecycle options — particularly around replacement advisory, realization structuring, and cost-efficient ongoing management.\n\nShould this be relevant to you, I would be happy to introduce you to the appropriate colleagues for an informal discussion. If not, please feel free to disregard this note.\n\nKind regards,\nFelix Engelhardt\n",
+  "variant_id": "C2-v2",
+  "email_body_hash": "3e64a68c57",
+  "email_candidates": [
+    {
+      "email": "selene.huang@efgbank.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-11-02T00:12:13.162923+00:00"
+    },
+    {
+      "email": "info@efgam.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@efgam.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@efgam.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "public_equity,public_credit,multi",
+  "illiq_likelihood": "low",
+  "aum_raw_string": "manages approximately $25 billion on behalf of clients as of March 2024",
+  "aum_usd_m": "25000",
+  "parent_org": "EFG International",
+  "classification_source": "website",
+  "website_accuracy": "verified",
+  "sfc_filed_website": "www.efgam.com"
+}

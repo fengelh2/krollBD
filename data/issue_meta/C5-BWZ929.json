@@ -1,0 +1,44 @@
+{
+  "type": "C5",
+  "type_label": "Rebrand / name change",
+  "firm": "Stars Asset Management Limited",
+  "old_firm": "HONG KONG FENGHE INVESTMENT CO., LIMITED",
+  "natural": "Stars",
+  "ceref": "BWZ929",
+  "ros": [
+    {
+      "name": "CHENG Wan Wing",
+      "ceref": "BPN162"
+    },
+    {
+      "name": "HE Liang",
+      "ceref": "BWZ932"
+    },
+    {
+      "name": "SUN Yong",
+      "ceref": "BVI094"
+    }
+  ],
+  "primary_ro": "CHENG Wan Wing",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BWZ929/details?locale=en",
+  "email_subject": "Stars — note on the recent rebrand",
+  "email_body": "Dear Stars Management,\n\nThis is Felix from Kroll in Hong Kong. The SFC public register shows that Fenghe has been renamed to Stars.\n\nRebrands often accompany broader changes — a new sponsor, a strategy refresh, or an organisational reshape — and these moments are often a natural time to revisit fund-level valuation policies and the operating arrangements behind them.\n\nKroll's Portfolio Valuation team works with SFC-regulated managers across Hong Kong on independent fair-value opinions for private equity and credit positions, and our adjacent FSCR colleagues support governance and regulatory engagement. Happy to set up an informal call if any of this would be useful as you transition.\n\nKind regards,\nFelix Engelhardt\n",
+  "variant_id": "C5-v2",
+  "email_body_hash": "cd8f29bd15",
+  "email_candidates": [
+    {
+      "email": "lhe15584179@gmail.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-11-02T00:12:13.164166+00:00"
+    }
+  ],
+  "asset_classes": "unknown",
+  "illiq_likelihood": "unknown",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "none",
+  "website_accuracy": "not_found"
+}

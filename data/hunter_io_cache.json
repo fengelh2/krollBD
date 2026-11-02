@@ -7618,5 +7618,295 @@
     "source": "hunter.io",
     "fetched_at_utc": "2026-10-25T23:21:47+00:00",
     "quota_remaining_when_fetched": 32
+  },
+  "yawkai.com.hk|gary|chan": {
+    "status": "no_match",
+    "email": null,
+    "score": null,
+    "confidence": "none",
+    "verification_status": "no_match",
+    "source": "hunter.io",
+    "fetched_at_utc": "2026-11-02T00:17:10+00:00",
+    "quota_remaining_when_fetched": 50
+  },
+  "oswin.com.hk|hin yin|yu": {
+    "status": "no_match",
+    "email": null,
+    "score": null,
+    "confidence": "none",
+    "verification_status": "no_match",
+    "source": "hunter.io",
+    "fetched_at_utc": "2026-11-02T00:17:14+00:00",
+    "quota_remaining_when_fetched": 50
+  },
+  "maxgiantcapital.com|annie|shum": {
+    "status": "ok",
+    "email": "annie.shum@maxgiantcapital.com",
+    "score": 99,
+    "confidence": "high",
+    "verification_status": "valid",
+    "source": "hunter.io",
+    "fetched_at_utc": "2026-11-02T00:17:17+00:00",
+    "quota_remaining_when_fetched": 50
+  },
+  "wolverhill.com|sam|leung": {
+    "status": "ok",
+    "email": "sam.leung@wolverhill.com",
+    "score": 98,
+    "confidence": "high",
+    "verification_status": "valid",
+    "source": "hunter.io",
+    "fetched_at_utc": "2026-11-02T00:17:19+00:00",
+    "quota_remaining_when_fetched": 49
+  },
+  "sctrade.com|zhihua|zhang": {
+    "status": "ok",
+    "email": "zhihua.zhang@sctrade.com",
+    "score": 81,
+    "confidence": "medium",
+    "verification_status": "accept_all",
+    "source": "hunter.io",
+    "fetched_at_utc": "2026-11-02T00:17:20+00:00",
+    "quota_remaining_when_fetched": 48
+  },
+  "hk.warrants.com|vallabh|shastri": {
+    "status": "no_match",
+    "email": null,
+    "score": null,
+    "confidence": "none",
+    "verification_status": "no_match",
+    "source": "hunter.io",
+    "fetched_at_utc": "2026-11-02T00:17:28+00:00",
+    "quota_remaining_when_fetched": 47
+  },
+  "pinerion.com|chun kong|lai": {
+    "status": "no_match",
+    "email": null,
+    "score": null,
+    "confidence": "none",
+    "verification_status": "no_match",
+    "source": "hunter.io",
+    "fetched_at_utc": "2026-11-02T00:17:39+00:00",
+    "quota_remaining_when_fetched": 47
+  },
+  "legend.com.hk|wah|kwok": {
+    "status": "no_match",
+    "email": null,
+    "score": null,
+    "confidence": "none",
+    "verification_status": "no_match",
+    "source": "hunter.io",
+    "fetched_at_utc": "2026-11-02T00:17:49+00:00",
+    "quota_remaining_when_fetched": 47
+  },
+  "fidelity.com|kaman|cheung": {
+    "status": "no_match",
+    "email": null,
+    "score": null,
+    "confidence": "none",
+    "verification_status": "no_match",
+    "source": "hunter.io",
+    "fetched_at_utc": "2026-11-02T00:18:00+00:00",
+    "quota_remaining_when_fetched": 47
+  },
+  "kemingcapital.com|david|fung": {
+    "status": "ok",
+    "email": "david.fung@kemingcapital.com",
+    "score": 96,
+    "confidence": "high",
+    "verification_status": "valid",
+    "source": "hunter.io",
+    "fetched_at_utc": "2026-11-02T00:18:05+00:00",
+    "quota_remaining_when_fetched": 47
+  },
+  "intewise.com|deyin|yao": {
+    "status": "no_match",
+    "email": null,
+    "score": null,
+    "confidence": "none",
+    "verification_status": "no_match",
+    "source": "hunter.io",
+    "fetched_at_utc": "2026-11-02T00:18:06+00:00",
+    "quota_remaining_when_fetched": 46
+  },
+  "grcmltd.com|yihao|wang": {
+    "status": "no_match",
+    "email": null,
+    "score": null,
+    "confidence": "none",
+    "verification_status": "no_match",
+    "source": "hunter.io",
+    "fetched_at_utc": "2026-11-02T00:18:17+00:00",
+    "quota_remaining_when_fetched": 46
+  },
+  "gravityballet.com.hk|cheuk chi|tsui": {
+    "status": "no_match",
+    "email": null,
+    "score": null,
+    "confidence": "none",
+    "verification_status": "no_match",
+    "source": "hunter.io",
+    "fetched_at_utc": "2026-11-02T00:18:28+00:00",
+    "quota_remaining_when_fetched": 46
+  },
+  "gtjai.com|shun chiu|chow": {
+    "status": "no_match",
+    "email": null,
+    "score": null,
+    "confidence": "none",
+    "verification_status": "no_match",
+    "source": "hunter.io",
+    "fetched_at_utc": "2026-11-02T00:18:38+00:00",
+    "quota_remaining_when_fetched": 46
+  },
+  "espefintech.com|chung yu|chang": {
+    "status": "no_match",
+    "email": null,
+    "score": null,
+    "confidence": "none",
+    "verification_status": "no_match",
+    "source": "hunter.io",
+    "fetched_at_utc": "2026-11-02T00:18:49+00:00",
+    "quota_remaining_when_fetched": 46
+  },
+  "dxzq.com.hk|zaohui|kong": {
+    "status": "ok",
+    "email": "zaohui@dxzq.com.hk",
+    "score": 70,
+    "confidence": "medium",
+    "verification_status": "accept_all",
+    "source": "hunter.io",
+    "fetched_at_utc": "2026-11-02T00:18:50+00:00",
+    "quota_remaining_when_fetched": 46
+  },
+  "cr.gov.hk|siu mo|lam": {
+    "status": "no_match",
+    "email": null,
+    "score": null,
+    "confidence": "none",
+    "verification_status": "no_match",
+    "source": "hunter.io",
+    "fetched_at_utc": "2026-11-02T00:19:01+00:00",
+    "quota_remaining_when_fetched": 45
+  },
+  "china.com.hk|chaoyu|zhang": {
+    "status": "no_match",
+    "email": null,
+    "score": null,
+    "confidence": "none",
+    "verification_status": "no_match",
+    "source": "hunter.io",
+    "fetched_at_utc": "2026-11-02T00:19:12+00:00",
+    "quota_remaining_when_fetched": 45
+  },
+  "chocolatefinance.com|janice|ma": {
+    "status": "no_match",
+    "email": null,
+    "score": null,
+    "confidence": "none",
+    "verification_status": "no_match",
+    "source": "hunter.io",
+    "fetched_at_utc": "2026-11-02T00:19:14+00:00",
+    "quota_remaining_when_fetched": 45
+  },
+  "china.com.hk|yichuan|zhang": {
+    "status": "no_match",
+    "email": null,
+    "score": null,
+    "confidence": "none",
+    "verification_status": "no_match",
+    "source": "hunter.io",
+    "fetched_at_utc": "2026-11-02T00:19:25+00:00",
+    "quota_remaining_when_fetched": 45
+  },
+  "cjsc.com.hk|qian|zeng": {
+    "status": "ok",
+    "email": "qianzeng@cjsc.com.hk",
+    "score": 85,
+    "confidence": "high",
+    "verification_status": "accept_all",
+    "source": "hunter.io",
+    "fetched_at_utc": "2026-11-02T00:19:26+00:00",
+    "quota_remaining_when_fetched": 45
+  },
+  "cicc.com.cn|pan|su": {
+    "status": "ok",
+    "email": "pan.su@cicc.com.cn",
+    "score": 80,
+    "confidence": "medium",
+    "verification_status": "accept_all",
+    "source": "hunter.io",
+    "fetched_at_utc": "2026-11-02T00:19:27+00:00",
+    "quota_remaining_when_fetched": 44
+  },
+  "clsa.com|yin tan|yau": {
+    "status": "ok",
+    "email": "yin-tan.yau@clsa.com",
+    "score": 81,
+    "confidence": "medium",
+    "verification_status": "accept_all",
+    "source": "hunter.io",
+    "fetched_at_utc": "2026-11-02T00:19:29+00:00",
+    "quota_remaining_when_fetched": 43
+  },
+  "topguncapitalhk.com|ka wai|fung": {
+    "status": "no_match",
+    "email": null,
+    "score": null,
+    "confidence": "none",
+    "verification_status": "no_match",
+    "source": "hunter.io",
+    "fetched_at_utc": "2026-11-02T00:19:40+00:00",
+    "quota_remaining_when_fetched": 42
+  },
+  "topguncapitalhk.com|xinxin|guo": {
+    "status": "no_match",
+    "email": null,
+    "score": null,
+    "confidence": "none",
+    "verification_status": "no_match",
+    "source": "hunter.io",
+    "fetched_at_utc": "2026-11-02T00:19:48+00:00",
+    "quota_remaining_when_fetched": 42
+  },
+  "dayuanam.com|ying kit|wong": {
+    "status": "no_match",
+    "email": null,
+    "score": null,
+    "confidence": "none",
+    "verification_status": "no_match",
+    "source": "hunter.io",
+    "fetched_at_utc": "2026-11-02T00:19:59+00:00",
+    "quota_remaining_when_fetched": 42
+  },
+  "dayuanam.com|chi wai|yiu": {
+    "status": "no_match",
+    "email": null,
+    "score": null,
+    "confidence": "none",
+    "verification_status": "no_match",
+    "source": "hunter.io",
+    "fetched_at_utc": "2026-11-02T00:20:08+00:00",
+    "quota_remaining_when_fetched": 42
+  },
+  "ascenturecapital.com|chong|wang": {
+    "status": "no_match",
+    "email": null,
+    "score": null,
+    "confidence": "none",
+    "verification_status": "no_match",
+    "source": "hunter.io",
+    "fetched_at_utc": "2026-11-02T00:20:19+00:00",
+    "quota_remaining_when_fetched": 42
+  },
+  "ascenturecapital.com|yinzhen|wang": {
+    "status": "no_match",
+    "email": null,
+    "score": null,
+    "confidence": "none",
+    "verification_status": "no_match",
+    "source": "hunter.io",
+    "fetched_at_utc": "2026-11-02T00:20:30+00:00",
+    "quota_remaining_when_fetched": 42
   }
 }

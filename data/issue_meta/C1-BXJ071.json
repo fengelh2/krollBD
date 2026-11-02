@@ -1,0 +1,95 @@
+{
+  "type": "C1",
+  "type_label": "New Type 9 corp",
+  "firm": "Topgun Capital Co., Limited",
+  "natural": "Topgun Capital",
+  "ceref": "BXJ071",
+  "address": "Unit 2970, Infinitus Plaza, 199 Des Voeux Road Central, Sheung Wan, Hong Kong",
+  "ros": [
+    {
+      "name": "FUNG Ka Wai",
+      "ceref": "BGZ624"
+    },
+    {
+      "name": "GUO Xinxin",
+      "ceref": "BEM326"
+    }
+  ],
+  "primary_ro": "FUNG Ka Wai",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BXJ071/details?locale=en",
+  "email_subject": "Congratulations on Topgun Capital's SFC Type 9 license",
+  "email_body": "Dear Topgun Capital Management,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on Topgun Capital's recent Type 9 licensing with the SFC.\n\nAs newly licensed managers like yourself establish and scale operations, we often see a need for practical support around compliance, governance, and regulatory engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps with exactly that, scaled to your firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "FSCR",
+  "variant_id": "C1-v4-FSCR",
+  "email_body_hash": "60a71d9634",
+  "email_candidates": [
+    {
+      "email": "erina.guo@topguncapitalhk.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-11-02T00:12:13.161720+00:00"
+    },
+    {
+      "email": "kawai.fung@topguncapitalhk.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "FUNG Ka Wai"
+    },
+    {
+      "email": "kawaifung@topguncapitalhk.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "FUNG Ka Wai"
+    },
+    {
+      "email": "kfung@topguncapitalhk.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "FUNG Ka Wai"
+    },
+    {
+      "email": "xinxin.guo@topguncapitalhk.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "GUO Xinxin"
+    },
+    {
+      "email": "xinxinguo@topguncapitalhk.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "GUO Xinxin"
+    },
+    {
+      "email": "xguo@topguncapitalhk.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "GUO Xinxin"
+    },
+    {
+      "email": "info@topguncapitalhk.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@topguncapitalhk.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@topguncapitalhk.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "unknown",
+  "illiq_likelihood": "unknown",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "none",
+  "website_accuracy": "not_found",
+  "sfc_filed_website": "www.topguncapitalhk.com",
+  "hunter_hits": [],
+  "hunter_attempted_utc": "2026-11-02T00:19:48.757597+00:00"
+}

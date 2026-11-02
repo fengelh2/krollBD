@@ -34,6 +34,39 @@
       "confidence": "verified",
       "evidence": "filed with SFC by the firm at licensing",
       "fetched_at_utc": "2026-10-25T23:06:47.147338+00:00"
+    },
+    {
+      "email": "shuai.hou@yhfund.com.cn",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "HOU Shuai"
+    },
+    {
+      "email": "shuaihou@yhfund.com.cn",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "HOU Shuai"
+    },
+    {
+      "email": "shou@yhfund.com.cn",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "HOU Shuai"
+    },
+    {
+      "email": "info@yhfund.com.cn",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@yhfund.com.cn",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@yhfund.com.cn",
+      "kind": "generic_guess",
+      "confidence": "low"
     }
   ],
   "asset_classes": "unknown",

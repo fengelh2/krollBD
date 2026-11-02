@@ -1,0 +1,91 @@
+{
+  "type": "C5",
+  "type_label": "Rebrand / name change",
+  "firm": "Xuanyuan Asset Management Co. Limited",
+  "old_firm": "Xuanyuan Asset Management Co. Ltd",
+  "natural": "Xuanyuan Asset Management Co",
+  "ceref": "BXN596",
+  "ros": [
+    {
+      "name": "CHEN YANG",
+      "ceref": "BQF048"
+    },
+    {
+      "name": "ZHANG Shiyun",
+      "ceref": "BXN597"
+    }
+  ],
+  "primary_ro": "CHEN YANG",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BXN596/details?locale=en",
+  "email_subject": "Xuanyuan Asset Management Co — note on the recent rebrand",
+  "email_body": "Dear Dxy and Xuanyuan Asset Management Co Management,\n\nThis is Felix from Kroll in Hong Kong. The SFC public register shows that Xuanyuan Asset Management Co has been renamed to Xuanyuan Asset Management Co.\n\nRebrands often accompany broader changes — a new sponsor, a strategy refresh, or an organisational reshape — and these moments are often a natural time to revisit fund-level valuation policies and the operating arrangements behind them.\n\nKroll's Portfolio Valuation team works with SFC-regulated managers across Hong Kong on independent fair-value opinions for private equity and credit positions, and our adjacent FSCR colleagues support governance and regulatory engagement. Happy to set up an informal call if any of this would be useful as you transition.\n\nKind regards,\nFelix Engelhardt\n",
+  "variant_id": "C5-v2",
+  "email_body_hash": "93811f0bfd",
+  "email_candidates": [
+    {
+      "email": "dxy@xuanyuaninv.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-11-02T00:12:13.164566+00:00"
+    },
+    {
+      "email": "yang.chen@xuanyuaninv.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHEN YANG"
+    },
+    {
+      "email": "yangchen@xuanyuaninv.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHEN YANG"
+    },
+    {
+      "email": "ychen@xuanyuaninv.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHEN YANG"
+    },
+    {
+      "email": "shiyun.zhang@xuanyuaninv.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "ZHANG Shiyun"
+    },
+    {
+      "email": "shiyunzhang@xuanyuaninv.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "ZHANG Shiyun"
+    },
+    {
+      "email": "szhang@xuanyuaninv.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "ZHANG Shiyun"
+    },
+    {
+      "email": "info@xuanyuaninv.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@xuanyuaninv.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@xuanyuaninv.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "unknown",
+  "illiq_likelihood": "unknown",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "none",
+  "website_accuracy": "not_found"
+}

@@ -18,10 +18,10 @@
   "primary_ro": "YUAN Zhongyi",
   "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BXF442/details?locale=en",
   "email_subject": "Congratulations on Blue Horizon Partners Capital's SFC Type 9 license",
-  "email_body": "Dear Blue Horizon Partners Capital Management,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on Blue Horizon Partners Capital's recent Type 9 licensing with the SFC.\n\nAs newly licensed managers like yourself establish and scale operations, we often see a need for practical support around compliance, governance, and regulatory engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps with exactly that, scaled to your firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "email_body": "Dear Weice and Blue Horizon Partners Capital Management,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on Blue Horizon Partners Capital's recent Type 9 licensing with the SFC.\n\nAs newly licensed managers like yourself establish and scale operations, we often see a need for practical support around compliance, governance, and regulatory engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps with exactly that, scaled to your firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
   "bd_lane": "FSCR",
   "variant_id": "C1-v4-FSCR",
-  "email_body_hash": "7af720ecb5",
+  "email_body_hash": "44621fb1cf",
   "email_candidates": [
     {
       "email": "weice.zhao@blue.com.hk",
@@ -49,6 +49,45 @@
       "confidence": "verified",
       "evidence": "filed with SFC by the firm at licensing",
       "fetched_at_utc": "2026-10-25T23:06:47.142659+00:00"
+    },
+    {
+      "email": "zhongyiyuan@blue.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "YUAN Zhongyi"
+    },
+    {
+      "email": "zyuan@blue.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "YUAN Zhongyi"
+    },
+    {
+      "email": "weicezhao@blue.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "ZHAO Weice"
+    },
+    {
+      "email": "wzhao@blue.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "ZHAO Weice"
+    },
+    {
+      "email": "info@blue.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@blue.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@blue.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
     }
   ],
   "asset_classes": "unknown",

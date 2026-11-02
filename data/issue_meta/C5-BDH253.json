@@ -72,13 +72,19 @@
       "ro": "TAM King Yin, Kenneth"
     },
     {
-      "email": "thomastsang@maxgiantcapital.com",
+      "email": "hing.tsang@maxgiantcapital.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "TSANG Hing Shun, Thomas"
     },
     {
-      "email": "ttsang@maxgiantcapital.com",
+      "email": "hingtsang@maxgiantcapital.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "TSANG Hing Shun, Thomas"
+    },
+    {
+      "email": "htsang@maxgiantcapital.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "TSANG Hing Shun, Thomas"
