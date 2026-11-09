@@ -1,0 +1,72 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "QMIS Asset Management Limited",
+  "natural": "QMIS",
+  "ceref": "ATB753",
+  "ros": [
+    {
+      "name": "LEUNG Yun Lung",
+      "ceref": "ADI458"
+    }
+  ],
+  "primary_ro": "LEUNG Yun Lung",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/ATB753/details?locale=en",
+  "email_subject": "Congratulations on your RO appointment at QMIS",
+  "email_body": "Dear Yun Lung,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at QMIS.\n\nFor newly appointed ROs like yourself, settling into the role often means getting a clear view of where the firm's compliance posture sits — internal policies, current filings, ongoing SFC engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps SFC-licensed firms with exactly that, scaled to the firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "FSCR",
+  "variant_id": "R1-v3-FSCR",
+  "email_body_hash": "567db19c90",
+  "email_candidates": [
+    {
+      "email": "cs@qmis.com.hk",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-11-09T00:28:55.797013+00:00"
+    },
+    {
+      "email": "yunlung.leung@qmisgroup.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LEUNG Yun Lung"
+    },
+    {
+      "email": "yunlungleung@qmisgroup.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LEUNG Yun Lung"
+    },
+    {
+      "email": "yleung@qmisgroup.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LEUNG Yun Lung"
+    },
+    {
+      "email": "info@qmisgroup.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@qmisgroup.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@qmisgroup.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "public_equity,public_credit",
+  "illiq_likelihood": "low",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "華亞金融集團",
+  "classification_source": "website",
+  "website_accuracy": "probable",
+  "sfc_filed_website": "www.qmisgroup.com",
+  "hunter_hits": [],
+  "hunter_attempted_utc": "2026-11-09T00:37:34.791691+00:00"
+}

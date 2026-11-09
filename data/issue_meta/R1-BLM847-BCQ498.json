@@ -1,0 +1,86 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "Pollock Asset Management Limited",
+  "natural": "Pollock",
+  "ceref": "BLM847",
+  "ros": [
+    {
+      "name": "POTIE Thibault Dany Michel",
+      "ceref": "BCQ498"
+    }
+  ],
+  "primary_ro": "POTIE Thibault Dany Michel",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BLM847/details?locale=en",
+  "email_subject": "Congratulations on your RO appointment at Pollock",
+  "email_body": "Dear Thibault Dany Michel,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at Pollock.\n\nFor illiquid managers like yourself, the marks the RO signs off on tend to be the most scrutinised line items on the books — LPs want comfort, auditors want defensibility, and internal-only marks usually invite more questions than they close. Kroll's Portfolio Valuation team here in Hong Kong helps with exactly that — robust independent valuations across private equity, private credit, and other illiquid strategies.\n\nIf a quick chat would be useful — now, or down the line — happy to set one up. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "PV",
+  "variant_id": "R1-v3-PV",
+  "email_body_hash": "2304deb4c5",
+  "email_candidates": [
+    {
+      "email": "thibault.potie@pollockcapital.com",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "POTIE Thibault Dany Michel",
+      "score": 96,
+      "abstract_verdict": "quota_exhausted",
+      "abstract_detail": null,
+      "evidence": "Hunter score 96 + AbstractAPI: quota_exhausted"
+    },
+    {
+      "email": "info@pollockcapital.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-11-09T00:28:55.802306+00:00"
+    },
+    {
+      "email": "info@pollockcapital.com",
+      "kind": "generic_on_site",
+      "confidence": "verified",
+      "ro": null
+    },
+    {
+      "email": "thibaultpotie@pollockcapital.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "POTIE Thibault Dany Michel"
+    },
+    {
+      "email": "tpotie@pollockcapital.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "POTIE Thibault Dany Michel"
+    },
+    {
+      "email": "contact@pollockcapital.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@pollockcapital.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "private_equity,private_credit,fund_of_funds,multi",
+  "illiq_likelihood": "high",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "website",
+  "website_accuracy": "probable",
+  "sfc_filed_website": "www.pollockcapital.com",
+  "hunter_hits": [
+    {
+      "email": "thibault.potie@pollockcapital.com",
+      "score": 96,
+      "ro": "POTIE Thibault Dany Michel",
+      "fetched_at_utc": "2026-11-09T00:37:37.091214+00:00",
+      "abstract_verdict": "quota_exhausted",
+      "abstract_detail": null
+    }
+  ],
+  "hunter_attempted_utc": "2026-11-09T00:37:37.091237+00:00"
+}

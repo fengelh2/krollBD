@@ -1,0 +1,132 @@
+{
+  "type": "C1",
+  "type_label": "New Type 9 corp",
+  "firm": "Unity Holdings (Hong Kong) Limited",
+  "natural": "Unity",
+  "ceref": "BWY506",
+  "address": "Flat A, 18th Floor,, Wah Kit Commercial Centre, 300-302 Des Voeux Road Central, Sheung Wan, Hong Kong, Hong Kong",
+  "ros": [
+    {
+      "name": "CHEN Michael Timothy",
+      "ceref": "BWY507"
+    },
+    {
+      "name": "LIANG Hans",
+      "ceref": "AYS659"
+    }
+  ],
+  "primary_ro": "CHEN Michael Timothy",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BWY506/details?locale=en",
+  "email_subject": "Congratulations on Unity's SFC Type 9 license",
+  "email_body": "Dear Unity Management,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on Unity's recent Type 9 licensing with the SFC.\n\nAs newly licensed managers like yourself establish and scale operations, we often see a need for practical support around compliance, governance, and regulatory engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps with exactly that, scaled to your firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "FSCR",
+  "variant_id": "C1-v4-FSCR",
+  "email_body_hash": "cd98c634a9",
+  "email_candidates": [
+    {
+      "email": "hans@unityholdings.hk",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "LIANG Hans",
+      "score": 80,
+      "abstract_verdict": "quota_exhausted",
+      "abstract_detail": null,
+      "evidence": "Hunter score 80 + AbstractAPI: quota_exhausted"
+    },
+    {
+      "email": "michael@unityholdings.hk",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "CHEN Michael Timothy",
+      "score": 95,
+      "abstract_verdict": "quota_exhausted",
+      "abstract_detail": null,
+      "evidence": "Hunter score 95 + AbstractAPI: quota_exhausted"
+    },
+    {
+      "email": "operations@unityholdings.hk",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-11-09T00:28:55.788748+00:00"
+    },
+    {
+      "email": "michael.chen@unityholdings.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHEN Michael Timothy"
+    },
+    {
+      "email": "michaelchen@unityholdings.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHEN Michael Timothy"
+    },
+    {
+      "email": "mchen@unityholdings.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHEN Michael Timothy"
+    },
+    {
+      "email": "hans.liang@unityholdings.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LIANG Hans"
+    },
+    {
+      "email": "hansliang@unityholdings.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LIANG Hans"
+    },
+    {
+      "email": "hliang@unityholdings.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LIANG Hans"
+    },
+    {
+      "email": "info@unityholdings.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@unityholdings.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@unityholdings.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "unknown",
+  "illiq_likelihood": "unknown",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "none",
+  "website_accuracy": "not_found",
+  "sfc_filed_website": "www.unityholdings.hk",
+  "hunter_hits": [
+    {
+      "email": "michael@unityholdings.hk",
+      "score": 95,
+      "ro": "CHEN Michael Timothy",
+      "fetched_at_utc": "2026-11-09T00:39:46.085020+00:00",
+      "abstract_verdict": "quota_exhausted",
+      "abstract_detail": null
+    },
+    {
+      "email": "hans@unityholdings.hk",
+      "score": 80,
+      "ro": "LIANG Hans",
+      "fetched_at_utc": "2026-11-09T00:39:47.235875+00:00",
+      "abstract_verdict": "quota_exhausted",
+      "abstract_detail": null
+    }
+  ],
+  "hunter_attempted_utc": "2026-11-09T00:39:47.235920+00:00"
+}

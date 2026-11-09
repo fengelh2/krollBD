@@ -1,0 +1,71 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "Odyssey Capital Hong Kong Limited",
+  "natural": "Odyssey Capital",
+  "ceref": "BVS848",
+  "ros": [
+    {
+      "name": "KU Sanqi",
+      "ceref": "AZC762"
+    }
+  ],
+  "primary_ro": "KU Sanqi",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BVS848/details?locale=en",
+  "email_subject": "Congratulations on your RO appointment at Odyssey Capital",
+  "email_body": "Dear Sanqi,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at Odyssey Capital.\n\nFor newly appointed ROs like yourself, settling into the role often means getting a clear view of where the firm's compliance posture sits — internal policies, current filings, ongoing SFC engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps SFC-licensed firms with exactly that, scaled to the firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "FSCR",
+  "variant_id": "R1-v3-FSCR",
+  "email_body_hash": "68734d5d29",
+  "email_candidates": [
+    {
+      "email": "jovie.shang@odysseycaphk.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-11-09T00:28:55.807153+00:00"
+    },
+    {
+      "email": "sanqi.ku@odysseycaphk.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "KU Sanqi"
+    },
+    {
+      "email": "sanqiku@odysseycaphk.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "KU Sanqi"
+    },
+    {
+      "email": "sku@odysseycaphk.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "KU Sanqi"
+    },
+    {
+      "email": "info@odysseycaphk.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@odysseycaphk.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@odysseycaphk.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "unknown",
+  "illiq_likelihood": "unknown",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "none",
+  "website_accuracy": "not_found",
+  "hunter_hits": [],
+  "hunter_attempted_utc": "2026-11-09T00:37:37.855231+00:00"
+}

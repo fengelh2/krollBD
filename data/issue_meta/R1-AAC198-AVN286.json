@@ -1,0 +1,58 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "Merrill Lynch (Asia Pacific) Limited",
+  "natural": "Merrill Lynch",
+  "ceref": "AAC198",
+  "ros": [
+    {
+      "name": "NG Warren Brian Ka Hei",
+      "ceref": "AVN286"
+    }
+  ],
+  "primary_ro": "NG Warren Brian Ka Hei",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/AAC198/details?locale=en",
+  "email_subject": "Congratulations on your RO appointment at Merrill Lynch",
+  "email_body": "Dear Warren,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at Merrill Lynch.\n\nFor illiquid managers like yourself, the marks the RO signs off on tend to be the most scrutinised line items on the books — LPs want comfort, auditors want defensibility, and internal-only marks usually invite more questions than they close. Kroll's Portfolio Valuation team here in Hong Kong helps with exactly that — robust independent valuations across private equity, private credit, and other illiquid strategies.\n\nIf a quick chat would be useful — now, or down the line — happy to set one up. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "PV",
+  "variant_id": "R1-v3-PV",
+  "email_body_hash": "665e5495e9",
+  "email_candidates": [
+    {
+      "email": "warren.ng@bofa.com",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "NG Warren Brian Ka Hei",
+      "score": 95,
+      "abstract_verdict": "quota_exhausted",
+      "abstract_detail": null,
+      "evidence": "Hunter score 95 + AbstractAPI: quota_exhausted"
+    },
+    {
+      "email": "apaclicensing@bofa.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-11-09T00:28:55.793391+00:00"
+    }
+  ],
+  "asset_classes": "public_equity,public_credit,multi",
+  "illiq_likelihood": "medium",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "Bank of America",
+  "classification_source": "consensus_website_plus",
+  "website_accuracy": "verified",
+  "sfc_filed_website": "https://www.bankofamerica.com/",
+  "hunter_hits": [
+    {
+      "email": "warren.ng@bofa.com",
+      "score": 95,
+      "ro": "NG Warren Brian Ka Hei",
+      "fetched_at_utc": "2026-11-09T00:37:51.663540+00:00",
+      "abstract_verdict": "quota_exhausted",
+      "abstract_detail": null
+    }
+  ],
+  "hunter_attempted_utc": "2026-11-09T00:37:51.663552+00:00"
+}

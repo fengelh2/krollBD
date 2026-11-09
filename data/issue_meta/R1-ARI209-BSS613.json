@@ -1,0 +1,84 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "Imperium International Asset Management Limited",
+  "natural": "Imperium International",
+  "ceref": "ARI209",
+  "ros": [
+    {
+      "name": "CHAN Ka Shing",
+      "ceref": "BSS613"
+    }
+  ],
+  "primary_ro": "CHAN Ka Shing",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/ARI209/details?locale=en",
+  "email_subject": "Congratulations on your RO appointment at Imperium International",
+  "email_body": "Dear Ka Shing,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at Imperium International.\n\nFor newly appointed ROs like yourself, settling into the role often means getting a clear view of where the firm's compliance posture sits — internal policies, current filings, ongoing SFC engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps SFC-licensed firms with exactly that, scaled to the firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "FSCR",
+  "variant_id": "R1-v3-FSCR",
+  "email_body_hash": "eb2c155595",
+  "email_candidates": [
+    {
+      "email": "compliance@imperiumhk.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-11-09T00:28:55.796634+00:00"
+    },
+    {
+      "email": "cs.securities@imperiumhk.com",
+      "kind": "observed_on_site",
+      "confidence": "verified",
+      "ro": null
+    },
+    {
+      "email": "ka.chan@imperiumhk.com",
+      "kind": "ro_pattern_match",
+      "confidence": "high",
+      "ro": "CHAN Ka Shing"
+    },
+    {
+      "email": "kashing.chan@imperiumhk.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHAN Ka Shing"
+    },
+    {
+      "email": "kashingchan@imperiumhk.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHAN Ka Shing"
+    },
+    {
+      "email": "kchan@imperiumhk.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHAN Ka Shing"
+    },
+    {
+      "email": "info@imperiumhk.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@imperiumhk.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@imperiumhk.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "unknown",
+  "illiq_likelihood": "unknown",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "none",
+  "website_accuracy": "probable",
+  "sfc_filed_website": "www.imperiumhk.com",
+  "hunter_hits": [],
+  "hunter_attempted_utc": "2026-11-09T00:38:02.360159+00:00"
+}

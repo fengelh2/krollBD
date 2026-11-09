@@ -1,0 +1,72 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "PineBridge Investments Hong Kong Limited",
+  "natural": "PineBridge",
+  "ceref": "AFD869",
+  "ros": [
+    {
+      "name": "TSOI Sze Yeung",
+      "ceref": "AQI788"
+    }
+  ],
+  "primary_ro": "TSOI Sze Yeung",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/AFD869/details?locale=en",
+  "email_subject": "Congratulations on your RO appointment at PineBridge",
+  "email_body": "Dear Sze Yeung,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at PineBridge.\n\nFor illiquid managers like yourself, the marks the RO signs off on tend to be the most scrutinised line items on the books — LPs want comfort, auditors want defensibility, and internal-only marks usually invite more questions than they close. Kroll's Portfolio Valuation team here in Hong Kong helps with exactly that — robust independent valuations across private equity, private credit, and other illiquid strategies.\n\nIf a quick chat would be useful — now, or down the line — happy to set one up. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "PV",
+  "variant_id": "R1-v3-PV",
+  "email_body_hash": "05f3883517",
+  "email_candidates": [
+    {
+      "email": "hkg_asiacompliance@pinebridge.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-11-09T00:28:55.795573+00:00"
+    },
+    {
+      "email": "szeyeung.tsoi@pinebridge.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "TSOI Sze Yeung"
+    },
+    {
+      "email": "szeyeungtsoi@pinebridge.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "TSOI Sze Yeung"
+    },
+    {
+      "email": "stsoi@pinebridge.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "TSOI Sze Yeung"
+    },
+    {
+      "email": "info@pinebridge.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@pinebridge.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@pinebridge.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "private_equity,private_credit,real_assets,public_equity,public_credit,multi",
+  "illiq_likelihood": "high",
+  "aum_raw_string": "$748.1B Total AUM",
+  "aum_usd_m": "748100",
+  "parent_org": "MetLife Investment Management (MetLife, Inc.)",
+  "classification_source": "website",
+  "website_accuracy": "verified",
+  "sfc_filed_website": "www.pinebridge.com.hk",
+  "hunter_hits": [],
+  "hunter_attempted_utc": "2026-11-09T00:37:37.440454+00:00"
+}
