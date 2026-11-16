@@ -1,0 +1,91 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "Charles Schwab, Hong Kong, Limited",
+  "natural": "Charles Schwab",
+  "ceref": "ADV256",
+  "ros": [
+    {
+      "name": "JONES SEBASTIAN PETER REDWOOD GOULTER",
+      "ceref": "BYR761"
+    }
+  ],
+  "primary_ro": "JONES SEBASTIAN PETER REDWOOD GOULTER",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/ADV256/details?locale=en",
+  "email_subject": "Congratulations on your RO appointment at Charles Schwab",
+  "email_body": "Dear Sebastian,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at Charles Schwab.\n\nFor newly appointed ROs like yourself, settling into the role often means getting a clear view of where the firm's compliance posture sits — internal policies, current filings, ongoing SFC engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps SFC-licensed firms with exactly that, scaled to the firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "FSCR",
+  "variant_id": "R1-v3-FSCR",
+  "email_body_hash": "7df815b2df",
+  "email_candidates": [
+    {
+      "email": "sebastian@schwab.com.hk",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "JONES SEBASTIAN PETER REDWOOD GOULTER",
+      "score": 80,
+      "abstract_verdict": "quota_exhausted",
+      "abstract_detail": null,
+      "evidence": "Hunter score 80 + AbstractAPI: quota_exhausted"
+    },
+    {
+      "email": "asia@schwab.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-11-16T00:43:29.996448+00:00"
+    },
+    {
+      "email": "sebastian.jones@schwab.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "JONES SEBASTIAN PETER REDWOOD GOULTER"
+    },
+    {
+      "email": "sebastianjones@schwab.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "JONES SEBASTIAN PETER REDWOOD GOULTER"
+    },
+    {
+      "email": "sjones@schwab.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "JONES SEBASTIAN PETER REDWOOD GOULTER"
+    },
+    {
+      "email": "info@schwab.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@schwab.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@schwab.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "public_equity,public_credit",
+  "illiq_likelihood": "low",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "Charles Schwab Corporation",
+  "classification_source": "consensus_website_plus",
+  "website_accuracy": "verified",
+  "sfc_filed_website": "www.schwab.com.hk",
+  "hunter_hits": [
+    {
+      "email": "sebastian@schwab.com.hk",
+      "score": 80,
+      "ro": "JONES SEBASTIAN PETER REDWOOD GOULTER",
+      "fetched_at_utc": "2026-11-16T00:51:27.763272+00:00",
+      "abstract_verdict": "quota_exhausted",
+      "abstract_detail": null
+    }
+  ],
+  "hunter_attempted_utc": "2026-11-16T00:51:27.763287+00:00"
+}

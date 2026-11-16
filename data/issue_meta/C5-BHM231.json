@@ -1,0 +1,42 @@
+{
+  "type": "C5",
+  "type_label": "Rebrand / name change",
+  "firm": "Fortunity Capital Management Limited",
+  "old_firm": "Maplefield Capital Limited",
+  "natural": "Fortunity Capital",
+  "ceref": "BHM231",
+  "ros": [
+    {
+      "name": "LI Man Lok Jonathan",
+      "ceref": "BHX227"
+    },
+    {
+      "name": "NG Wai Kie",
+      "ceref": "ATV597"
+    }
+  ],
+  "primary_ro": "LI Man Lok Jonathan",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BHM231/details?locale=en",
+  "email_subject": "Fortunity Capital — note on the recent rebrand",
+  "email_body": "Dear Fortunity Capital Management,\n\nThis is Felix from Kroll in Hong Kong. The SFC public register shows that Maplefield Capital has been renamed to Fortunity Capital.\n\nRebrands often accompany broader changes — a new sponsor, a strategy refresh, or an organisational reshape — and these moments are often a natural time to revisit fund-level valuation policies and the operating arrangements behind them.\n\nKroll's Portfolio Valuation team works with SFC-regulated managers across Hong Kong on independent fair-value opinions for private equity and credit positions, and our adjacent FSCR colleagues support governance and regulatory engagement. Happy to set up an informal call if any of this would be useful as you transition.\n\nKind regards,\nFelix Engelhardt\n",
+  "variant_id": "C5-v2",
+  "email_body_hash": "a95c41b705",
+  "email_candidates": [
+    {
+      "email": "info@maplefieldcap.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-11-16T00:43:29.993679+00:00"
+    }
+  ],
+  "asset_classes": "unknown",
+  "illiq_likelihood": "unknown",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "none",
+  "website_accuracy": "not_found",
+  "hunter_hits": [],
+  "hunter_attempted_utc": "2026-11-16T00:51:39.324109+00:00"
+}

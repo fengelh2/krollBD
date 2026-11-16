@@ -38,13 +38,13 @@
       "ro": null
     },
     {
-      "email": "wangkin.chan@solomonwin.com.hk",
+      "email": "wang.chan@solomonwin.com.hk",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "CHAN Wang Kin"
     },
     {
-      "email": "wangkinchan@solomonwin.com.hk",
+      "email": "wangchan@solomonwin.com.hk",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "CHAN Wang Kin"

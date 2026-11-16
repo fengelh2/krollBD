@@ -1,0 +1,73 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "GLY CAPITAL MANAGEMENT LIMITED",
+  "natural": "Gly Capital",
+  "ceref": "BNG966",
+  "ros": [
+    {
+      "name": "TSUI  Kwong Chi",
+      "ceref": "BMP300"
+    }
+  ],
+  "primary_ro": "TSUI  Kwong Chi",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BNG966/details?locale=en",
+  "email_subject": "Congratulations on your RO appointment at Gly Capital",
+  "email_body": "Dear Kwong Chi,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at Gly Capital.\n\nFor illiquid managers like yourself, the marks the RO signs off on tend to be the most scrutinised line items on the books — LPs want comfort, auditors want defensibility, and internal-only marks usually invite more questions than they close. Kroll's Portfolio Valuation team here in Hong Kong helps with exactly that — robust independent valuations across private equity, private credit, and other illiquid strategies.\n\nIf a quick chat would be useful — now, or down the line — happy to set one up. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "PV",
+  "variant_id": "R1-v3-PV",
+  "email_body_hash": "4bdbf9251e",
+  "email_candidates": [
+    {
+      "email": "info@glycm.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-11-16T00:43:30.000910+00:00"
+    },
+    {
+      "email": "info@glycm.com",
+      "kind": "generic_on_site",
+      "confidence": "verified",
+      "ro": null
+    },
+    {
+      "email": "kwongchi.tsui@glycm.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "TSUI  Kwong Chi"
+    },
+    {
+      "email": "kwongchitsui@glycm.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "TSUI  Kwong Chi"
+    },
+    {
+      "email": "ktsui@glycm.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "TSUI  Kwong Chi"
+    },
+    {
+      "email": "contact@glycm.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@glycm.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "private_equity,real_assets",
+  "illiq_likelihood": "high",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "website",
+  "website_accuracy": "verified",
+  "sfc_filed_website": "www.glycm.com",
+  "hunter_hits": [],
+  "hunter_attempted_utc": "2026-11-16T00:51:25.945436+00:00"
+}

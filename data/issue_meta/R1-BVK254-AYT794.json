@@ -36,35 +36,29 @@
       "fetched_at_utc": "2026-11-09T00:28:55.806506+00:00"
     },
     {
-      "email": "xiaofeng.zhang@e20capital.com",
+      "email": "xiaofeng.zhang@lei-lookup.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "ZHANG Xiaofeng"
     },
     {
-      "email": "xiaofengzhang@e20capital.com",
+      "email": "xiaofengzhang@lei-lookup.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "ZHANG Xiaofeng"
     },
     {
-      "email": "xzhang@e20capital.com",
-      "kind": "ro_guess",
-      "confidence": "medium",
-      "ro": "ZHANG Xiaofeng"
-    },
-    {
-      "email": "info@e20capital.com",
+      "email": "info@lei-lookup.com",
       "kind": "generic_guess",
       "confidence": "low"
     },
     {
-      "email": "contact@e20capital.com",
+      "email": "contact@lei-lookup.com",
       "kind": "generic_guess",
       "confidence": "low"
     },
     {
-      "email": "enquiry@e20capital.com",
+      "email": "enquiry@lei-lookup.com",
       "kind": "generic_guess",
       "confidence": "low"
     }

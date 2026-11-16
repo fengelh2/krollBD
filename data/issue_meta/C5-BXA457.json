@@ -1,0 +1,108 @@
+{
+  "type": "C5",
+  "type_label": "Rebrand / name change",
+  "firm": "Undivided Ventures Limited",
+  "old_firm": "UV Capital Limited",
+  "natural": "Undivided Ventures",
+  "ceref": "BXA457",
+  "ros": [
+    {
+      "name": "BENT Alexander John",
+      "ceref": "BUW316"
+    },
+    {
+      "name": "SNELGROVE Paul Rodger",
+      "ceref": "AEE375"
+    }
+  ],
+  "primary_ro": "BENT Alexander John",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BXA457/details?locale=en",
+  "email_subject": "Undivided Ventures — note on the recent rebrand",
+  "email_body": "Dear Undivided Ventures Management,\n\nThis is Felix from Kroll in Hong Kong. The SFC public register shows that UV Capital has been renamed to Undivided Ventures.\n\nRebrands often accompany broader changes — a new sponsor, a strategy refresh, or an organisational reshape — and these moments are often a natural time to revisit fund-level valuation policies and the operating arrangements behind them.\n\nKroll's Portfolio Valuation team works with SFC-regulated managers across Hong Kong on independent fair-value opinions for private equity and credit positions, and our adjacent FSCR colleagues support governance and regulatory engagement. Happy to set up an informal call if any of this would be useful as you transition.\n\nKind regards,\nFelix Engelhardt\n",
+  "variant_id": "C5-v2",
+  "email_body_hash": "3c5b3f01e8",
+  "email_candidates": [
+    {
+      "email": "paul@undivided.vc",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "SNELGROVE Paul Rodger",
+      "score": 82,
+      "abstract_verdict": "quota_exhausted",
+      "abstract_detail": null,
+      "evidence": "Hunter score 82 + AbstractAPI: quota_exhausted"
+    },
+    {
+      "email": "info@undivided.vc",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-11-16T00:43:29.994235+00:00"
+    },
+    {
+      "email": "alexanderjohn.bent@undivided.vc",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "BENT Alexander John"
+    },
+    {
+      "email": "alexanderjohnbent@undivided.vc",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "BENT Alexander John"
+    },
+    {
+      "email": "abent@undivided.vc",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "BENT Alexander John"
+    },
+    {
+      "email": "paulrodger.snelgrove@undivided.vc",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "SNELGROVE Paul Rodger"
+    },
+    {
+      "email": "paulrodgersnelgrove@undivided.vc",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "SNELGROVE Paul Rodger"
+    },
+    {
+      "email": "psnelgrove@undivided.vc",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "SNELGROVE Paul Rodger"
+    },
+    {
+      "email": "contact@undivided.vc",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@undivided.vc",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "private_equity,real_assets",
+  "illiq_likelihood": "high",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "website",
+  "website_accuracy": "probable",
+  "sfc_filed_website": "https://www.undivided.vc",
+  "hunter_hits": [
+    {
+      "email": "paul@undivided.vc",
+      "score": 82,
+      "ro": "SNELGROVE Paul Rodger",
+      "fetched_at_utc": "2026-11-16T00:51:39.750417+00:00",
+      "abstract_verdict": "quota_exhausted",
+      "abstract_detail": null
+    }
+  ],
+  "hunter_attempted_utc": "2026-11-16T00:51:39.750434+00:00"
+}

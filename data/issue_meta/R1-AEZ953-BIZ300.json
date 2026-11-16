@@ -1,0 +1,72 @@
+{
+  "type": "R1",
+  "type_label": "New RO appointed",
+  "firm": "Mizuho Securities Asia Limited",
+  "natural": "Mizuho",
+  "ceref": "AEZ953",
+  "ros": [
+    {
+      "name": "CAPONE Angela",
+      "ceref": "BIZ300"
+    }
+  ],
+  "primary_ro": "CAPONE Angela",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/AEZ953/details?locale=en",
+  "email_subject": "Congratulations on your RO appointment at Mizuho",
+  "email_body": "Dear Angela,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on your recent appointment as Responsible Officer at Mizuho.\n\nFor illiquid managers like yourself, the marks the RO signs off on tend to be the most scrutinised line items on the books — LPs want comfort, auditors want defensibility, and internal-only marks usually invite more questions than they close. Kroll's Portfolio Valuation team here in Hong Kong helps with exactly that — robust independent valuations across private equity, private credit, and other illiquid strategies.\n\nIf a quick chat would be useful — now, or down the line — happy to set one up. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "PV",
+  "variant_id": "R1-v3-PV",
+  "email_body_hash": "87f74d429f",
+  "email_candidates": [
+    {
+      "email": "as_compliance@hk.mizuho-sc.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-11-16T00:43:29.997164+00:00"
+    },
+    {
+      "email": "angela.capone@mizuhogroup.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CAPONE Angela"
+    },
+    {
+      "email": "angelacapone@mizuhogroup.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CAPONE Angela"
+    },
+    {
+      "email": "acapone@mizuhogroup.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CAPONE Angela"
+    },
+    {
+      "email": "info@mizuhogroup.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@mizuhogroup.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@mizuhogroup.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "public_equity,public_credit,multi",
+  "illiq_likelihood": "medium",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "Mizuho Financial Group",
+  "classification_source": "website",
+  "website_accuracy": "probable",
+  "sfc_filed_website": "https://www.mizuhogroup.com/asia-pacific/securities/hk",
+  "hunter_hits": [],
+  "hunter_attempted_utc": "2026-11-16T00:50:26.983027+00:00"
+}

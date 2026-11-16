@@ -1,0 +1,171 @@
+{
+  "type": "C1",
+  "type_label": "New Type 9 corp",
+  "firm": "KUN Capital Limited",
+  "natural": "KUN Capital",
+  "ceref": "BXJ698",
+  "address": "Unit 2806, 28/F, The Center, 99 Queen's Road Central, Hong Kong, Hong Kong",
+  "ros": [
+    {
+      "name": "FUNG Tat Chung",
+      "ceref": "AMQ345"
+    },
+    {
+      "name": "HUANG Yaorong",
+      "ceref": "BIC480"
+    },
+    {
+      "name": "ZHU Qi",
+      "ceref": "BIH729"
+    }
+  ],
+  "primary_ro": "FUNG Tat Chung",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BXJ698/details?locale=en",
+  "email_subject": "Congratulations on KUN Capital's SFC Type 9 license",
+  "email_body": "Dear Kuncapital and KUN Capital Management,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on KUN Capital's recent Type 9 licensing with the SFC.\n\nAs newly licensed managers like yourself establish and scale operations, we often see a need for practical support around compliance, governance, and regulatory engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps with exactly that, scaled to your firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "FSCR",
+  "variant_id": "C1-v4-FSCR",
+  "email_body_hash": "9454271bf4",
+  "email_candidates": [
+    {
+      "email": "zhu@kun.com",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "ZHU Qi",
+      "score": 95,
+      "abstract_verdict": "quota_exhausted",
+      "abstract_detail": null,
+      "evidence": "Hunter score 95 + AbstractAPI: quota_exhausted"
+    },
+    {
+      "email": "huang@kun.com",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "HUANG Yaorong",
+      "score": 97,
+      "abstract_verdict": "quota_exhausted",
+      "abstract_detail": null,
+      "evidence": "Hunter score 97 + AbstractAPI: quota_exhausted"
+    },
+    {
+      "email": "fung@kun.com",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "FUNG Tat Chung",
+      "score": 80,
+      "abstract_verdict": "quota_exhausted",
+      "abstract_detail": null,
+      "evidence": "Hunter score 80 + AbstractAPI: quota_exhausted"
+    },
+    {
+      "email": "kuncapital@kun.global",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-11-16T00:43:29.990445+00:00"
+    },
+    {
+      "email": "tatchung.fung@kun.global",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "FUNG Tat Chung"
+    },
+    {
+      "email": "tatchungfung@kun.global",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "FUNG Tat Chung"
+    },
+    {
+      "email": "tfung@kun.global",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "FUNG Tat Chung"
+    },
+    {
+      "email": "yaorong.huang@kun.global",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "HUANG Yaorong"
+    },
+    {
+      "email": "yaoronghuang@kun.global",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "HUANG Yaorong"
+    },
+    {
+      "email": "yhuang@kun.global",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "HUANG Yaorong"
+    },
+    {
+      "email": "qi.zhu@kun.global",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "ZHU Qi"
+    },
+    {
+      "email": "qizhu@kun.global",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "ZHU Qi"
+    },
+    {
+      "email": "qzhu@kun.global",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "ZHU Qi"
+    },
+    {
+      "email": "info@kun.global",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@kun.global",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@kun.global",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "unknown",
+  "illiq_likelihood": "unknown",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "none",
+  "website_accuracy": "suspect",
+  "hunter_hits": [
+    {
+      "email": "fung@kun.com",
+      "score": 80,
+      "ro": "FUNG Tat Chung",
+      "fetched_at_utc": "2026-11-16T00:51:50.404380+00:00",
+      "abstract_verdict": "quota_exhausted",
+      "abstract_detail": null
+    },
+    {
+      "email": "huang@kun.com",
+      "score": 97,
+      "ro": "HUANG Yaorong",
+      "fetched_at_utc": "2026-11-16T00:51:52.530312+00:00",
+      "abstract_verdict": "quota_exhausted",
+      "abstract_detail": null
+    },
+    {
+      "email": "zhu@kun.com",
+      "score": 95,
+      "ro": "ZHU Qi",
+      "fetched_at_utc": "2026-11-16T00:51:54.608776+00:00",
+      "abstract_verdict": "quota_exhausted",
+      "abstract_detail": null
+    }
+  ],
+  "hunter_attempted_utc": "2026-11-16T00:51:54.608796+00:00"
+}

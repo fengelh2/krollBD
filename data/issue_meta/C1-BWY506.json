@@ -18,10 +18,10 @@
   "primary_ro": "CHEN Michael Timothy",
   "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BWY506/details?locale=en",
   "email_subject": "Congratulations on Unity's SFC Type 9 license",
-  "email_body": "Dear Unity Management,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on Unity's recent Type 9 licensing with the SFC.\n\nAs newly licensed managers like yourself establish and scale operations, we often see a need for practical support around compliance, governance, and regulatory engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps with exactly that, scaled to your firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "email_body": "Dear Hans and Unity Management,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on Unity's recent Type 9 licensing with the SFC.\n\nAs newly licensed managers like yourself establish and scale operations, we often see a need for practical support around compliance, governance, and regulatory engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps with exactly that, scaled to your firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
   "bd_lane": "FSCR",
   "variant_id": "C1-v4-FSCR",
-  "email_body_hash": "cd98c634a9",
+  "email_body_hash": "7cbef015fe",
   "email_candidates": [
     {
       "email": "hans@unityholdings.hk",

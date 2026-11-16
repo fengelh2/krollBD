@@ -34,6 +34,39 @@
       "confidence": "verified",
       "evidence": "filed with SFC by the firm at licensing",
       "fetched_at_utc": "2026-11-09T00:28:55.795225+00:00"
+    },
+    {
+      "email": "jing.wu@htisec.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "WU Jing"
+    },
+    {
+      "email": "jingwu@htisec.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "WU Jing"
+    },
+    {
+      "email": "jwu@htisec.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "WU Jing"
+    },
+    {
+      "email": "info@htisec.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@htisec.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@htisec.com",
+      "kind": "generic_guess",
+      "confidence": "low"
     }
   ],
   "asset_classes": "unknown",

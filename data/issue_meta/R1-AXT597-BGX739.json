@@ -41,13 +41,19 @@
       "ro": null
     },
     {
-      "email": "ericwong@ffgwm.com",
+      "email": "kun.wong@ffgwm.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "WONG Kun Ho, Eric"
     },
     {
-      "email": "ewong@ffgwm.com",
+      "email": "kunwong@ffgwm.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "WONG Kun Ho, Eric"
+    },
+    {
+      "email": "kwong@ffgwm.com",
       "kind": "ro_guess",
       "confidence": "medium",
       "ro": "WONG Kun Ho, Eric"

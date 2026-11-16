@@ -1,0 +1,212 @@
+{
+  "type": "C5",
+  "type_label": "Rebrand / name change",
+  "firm": "AlphaGold Securities Limited",
+  "old_firm": "Golden Hen Securities and Futures Limited",
+  "natural": "AlphaGold",
+  "ceref": "AUQ298",
+  "ros": [
+    {
+      "name": "HUANGFU Yaoyao",
+      "ceref": "BDH322"
+    },
+    {
+      "name": "LI Kin Man, Kent",
+      "ceref": "AOY339"
+    },
+    {
+      "name": "TONG Ngar Shun",
+      "ceref": "AQP756"
+    },
+    {
+      "name": "WONG Wai Wang",
+      "ceref": "ARV690"
+    }
+  ],
+  "primary_ro": "HUANGFU Yaoyao",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/AUQ298/details?locale=en",
+  "email_subject": "AlphaGold — note on the recent rebrand",
+  "email_body": "Dear AlphaGold Management,\n\nThis is Felix from Kroll in Hong Kong. The SFC public register shows that Golden Hen Securities and Futures has been renamed to AlphaGold.\n\nRebrands often accompany broader changes — a new sponsor, a strategy refresh, or an organisational reshape — and these moments are often a natural time to revisit fund-level valuation policies and the operating arrangements behind them.\n\nKroll's Portfolio Valuation team works with SFC-regulated managers across Hong Kong on independent fair-value opinions for private equity and credit positions, and our adjacent FSCR colleagues support governance and regulatory engagement. Happy to set up an informal call if any of this would be useful as you transition.\n\nKind regards,\nFelix Engelhardt\n",
+  "variant_id": "C5-v2",
+  "email_body_hash": "aec6628444",
+  "email_candidates": [
+    {
+      "email": "wai-wangw@goldenhen.com.hk",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "WONG Wai Wang",
+      "score": 57,
+      "abstract_verdict": "quota_exhausted",
+      "abstract_detail": null,
+      "evidence": "Hunter score 57 + AbstractAPI: quota_exhausted"
+    },
+    {
+      "email": "shunt@goldenhen.com.hk",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "TONG Ngar Shun",
+      "score": 61,
+      "abstract_verdict": "quota_exhausted",
+      "abstract_detail": null,
+      "evidence": "Hunter score 61 + AbstractAPI: quota_exhausted"
+    },
+    {
+      "email": "kentl@goldenhen.com.hk",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "LI Kin Man, Kent",
+      "score": 57,
+      "abstract_verdict": "quota_exhausted",
+      "abstract_detail": null,
+      "evidence": "Hunter score 57 + AbstractAPI: quota_exhausted"
+    },
+    {
+      "email": "yaoyaoh@goldenhen.com.hk",
+      "kind": "hunter_io",
+      "confidence": "hunter_verified",
+      "ro": "HUANGFU Yaoyao",
+      "score": 57,
+      "abstract_verdict": "quota_exhausted",
+      "abstract_detail": null,
+      "evidence": "Hunter score 57 + AbstractAPI: quota_exhausted"
+    },
+    {
+      "email": "info@goldenhen.com.hk",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-11-16T00:43:29.993092+00:00"
+    },
+    {
+      "email": "info@goldenhen.com.hk",
+      "kind": "generic_on_site",
+      "confidence": "verified",
+      "ro": null
+    },
+    {
+      "email": "yaoyao.huangfu@goldenhen.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "HUANGFU Yaoyao"
+    },
+    {
+      "email": "yaoyaohuangfu@goldenhen.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "HUANGFU Yaoyao"
+    },
+    {
+      "email": "yhuangfu@goldenhen.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "HUANGFU Yaoyao"
+    },
+    {
+      "email": "kent.li@goldenhen.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LI Kin Man, Kent"
+    },
+    {
+      "email": "kentli@goldenhen.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LI Kin Man, Kent"
+    },
+    {
+      "email": "kli@goldenhen.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LI Kin Man, Kent"
+    },
+    {
+      "email": "ngarshun.tong@goldenhen.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "TONG Ngar Shun"
+    },
+    {
+      "email": "ngarshuntong@goldenhen.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "TONG Ngar Shun"
+    },
+    {
+      "email": "ntong@goldenhen.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "TONG Ngar Shun"
+    },
+    {
+      "email": "waiwang.wong@goldenhen.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "WONG Wai Wang"
+    },
+    {
+      "email": "waiwangwong@goldenhen.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "WONG Wai Wang"
+    },
+    {
+      "email": "wwong@goldenhen.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "WONG Wai Wang"
+    },
+    {
+      "email": "contact@goldenhen.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@goldenhen.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "public_equity,public_credit",
+  "illiq_likelihood": "low",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "website",
+  "website_accuracy": "verified",
+  "sfc_filed_website": "www.goldenhen.com.hk",
+  "hunter_hits": [
+    {
+      "email": "yaoyaoh@goldenhen.com.hk",
+      "score": 57,
+      "ro": "HUANGFU Yaoyao",
+      "fetched_at_utc": "2026-11-16T00:51:35.125998+00:00",
+      "abstract_verdict": "quota_exhausted",
+      "abstract_detail": null
+    },
+    {
+      "email": "kentl@goldenhen.com.hk",
+      "score": 57,
+      "ro": "LI Kin Man, Kent",
+      "fetched_at_utc": "2026-11-16T00:51:36.193698+00:00",
+      "abstract_verdict": "quota_exhausted",
+      "abstract_detail": null
+    },
+    {
+      "email": "shunt@goldenhen.com.hk",
+      "score": 61,
+      "ro": "TONG Ngar Shun",
+      "fetched_at_utc": "2026-11-16T00:51:37.368500+00:00",
+      "abstract_verdict": "quota_exhausted",
+      "abstract_detail": null
+    },
+    {
+      "email": "wai-wangw@goldenhen.com.hk",
+      "score": 57,
+      "ro": "WONG Wai Wang",
+      "fetched_at_utc": "2026-11-16T00:51:38.359812+00:00",
+      "abstract_verdict": "quota_exhausted",
+      "abstract_detail": null
+    }
+  ],
+  "hunter_attempted_utc": "2026-11-16T00:51:38.359834+00:00"
+}

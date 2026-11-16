@@ -34,6 +34,33 @@
       "confidence": "verified",
       "evidence": "filed with SFC by the firm at licensing",
       "fetched_at_utc": "2026-11-09T00:28:55.793391+00:00"
+    },
+    {
+      "email": "warrenng@bofa.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "NG Warren Brian Ka Hei"
+    },
+    {
+      "email": "wng@bofa.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "NG Warren Brian Ka Hei"
+    },
+    {
+      "email": "info@bofa.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@bofa.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@bofa.com",
+      "kind": "generic_guess",
+      "confidence": "low"
     }
   ],
   "asset_classes": "public_equity,public_credit,multi",

@@ -1,0 +1,89 @@
+{
+  "type": "C1",
+  "type_label": "New Type 9 corp",
+  "firm": "Rich Water Capital Management Limited",
+  "natural": "Rich Water Capital",
+  "ceref": "BXR880",
+  "address": "ROOM NO. 13, UNIT 707, 7/F, NEW EAST OCEAN CENTRE, 9 SCIENCE MUSEUM ROAD, TSIM SHA TSUI, Hong Kong",
+  "ros": [
+    {
+      "name": "LAI Koon Ho",
+      "ceref": "ALB158"
+    },
+    {
+      "name": "XU Luwen",
+      "ceref": "BUV933"
+    }
+  ],
+  "primary_ro": "LAI Koon Ho",
+  "sfc_url": "https://apps.sfc.hk/publicregWeb/corp/BXR880/details?locale=en",
+  "email_subject": "Congratulations on Rich Water Capital's SFC Type 9 license",
+  "email_body": "Dear Rich Water Capital Management,\n\nThis is Felix from Kroll in Hong Kong. I am reaching out to congratulate you on Rich Water Capital's recent Type 9 licensing with the SFC.\n\nAs newly licensed managers like yourself establish and scale operations, we often see a need for practical support around compliance, governance, and regulatory engagement. Kroll's Financial Services, Compliance and Regulation (FSCR) team here in Hong Kong helps with exactly that, scaled to your firm's size and stage.\n\nIf it would be useful, happy to put you in touch with my FSCR colleagues. If not, please feel free to disregard this note.\n\nKind Regards,\nFelix\n",
+  "bd_lane": "FSCR",
+  "variant_id": "C1-v4-FSCR",
+  "email_body_hash": "2d05d85353",
+  "email_candidates": [
+    {
+      "email": "info@richwatercm.com",
+      "kind": "sfc_filed",
+      "confidence": "verified",
+      "evidence": "filed with SFC by the firm at licensing",
+      "fetched_at_utc": "2026-11-16T00:43:29.991400+00:00"
+    },
+    {
+      "email": "koonho.lai@richwatercm.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LAI Koon Ho"
+    },
+    {
+      "email": "koonholai@richwatercm.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LAI Koon Ho"
+    },
+    {
+      "email": "klai@richwatercm.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "LAI Koon Ho"
+    },
+    {
+      "email": "luwen.xu@richwatercm.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "XU Luwen"
+    },
+    {
+      "email": "luwenxu@richwatercm.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "XU Luwen"
+    },
+    {
+      "email": "lxu@richwatercm.com",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "XU Luwen"
+    },
+    {
+      "email": "contact@richwatercm.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@richwatercm.com",
+      "kind": "generic_guess",
+      "confidence": "low"
+    }
+  ],
+  "asset_classes": "unknown",
+  "illiq_likelihood": "unknown",
+  "aum_raw_string": "",
+  "aum_usd_m": "",
+  "parent_org": "",
+  "classification_source": "none",
+  "website_accuracy": "not_found",
+  "hunter_hits": [],
+  "hunter_attempted_utc": "2026-11-16T00:51:42.634288+00:00"
+}

@@ -34,6 +34,33 @@
       "confidence": "verified",
       "evidence": "filed with SFC by the firm at licensing",
       "fetched_at_utc": "2026-11-09T00:28:55.793759+00:00"
+    },
+    {
+      "email": "lo.cheung@cmbi.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHEUNG Lo Yee Sandy"
+    },
+    {
+      "email": "lcheung@cmbi.com.hk",
+      "kind": "ro_guess",
+      "confidence": "medium",
+      "ro": "CHEUNG Lo Yee Sandy"
+    },
+    {
+      "email": "info@cmbi.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "contact@cmbi.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
+    },
+    {
+      "email": "enquiry@cmbi.com.hk",
+      "kind": "generic_guess",
+      "confidence": "low"
     }
   ],
   "asset_classes": "public_equity,public_credit,multi",
