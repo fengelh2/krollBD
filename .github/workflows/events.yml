@@ -120,6 +120,13 @@ jobs:
             exit 0
           fi
           git commit -m "events: monthly refresh $(date -u +%F)"
+          # The scraper also rewrites the TRACKED page cache in
+          # data/.tmp_event_pages/. Left dirty, it makes `git rebase` refuse
+          # ("cannot rebase: You have unstaged changes") - which silently lost
+          # the 2026-10-01 and 2026-11-01 refreshes after a successful scrape.
+          # Only events.csv is published, so drop every other working-tree
+          # change before rebasing.
+          git checkout -- .
           for i in 1 2 3; do
             git fetch origin main
             git rebase origin/main || { git rebase --abort; echo "rebase failed"; exit 1; }
