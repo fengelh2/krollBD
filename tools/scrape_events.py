@@ -172,7 +172,8 @@ Source: {host} ({source_url})
 
 For EACH event you can identify on the page, output one row. Skip:
   - past events (start date before today {today})
-  - events with no clear Hong Kong relevance (not in HK, not Asia-regional including HK, not virtual-and-HK-accessible)
+  - events not held in Hong Kong. Asia-regional events held elsewhere (e.g. Singapore, Sydney) do NOT count.
+    An online event counts only if a Hong Kong organisation or Hong Kong chapter runs it for a Hong Kong audience.
   - events that are clearly not finance / PE / PD / hedge funds / asset management / audit / regulatory
 
 Output STRICT JSON only — no commentary, no markdown fence:
@@ -186,7 +187,7 @@ Output STRICT JSON only — no commentary, no markdown fence:
       "time": "...",                   // e.g. '08:30-10:00 HKT', blank if unknown
       "venue": "...",                  // physical venue name + address fragment
       "city": "Hong Kong",             // or 'Virtual', 'Singapore', etc.
-      "is_hk": true,                   // boolean — physically in HK or HK-chapter event
+      "is_hk": true,                   // boolean — physically in HK, or online and run by an HK organisation/chapter
       "is_virtual": false,             // boolean
       "url": "...",                    // direct registration link if visible
       "speakers": "...",               // comma-separated, blank if not listed
@@ -196,7 +197,7 @@ Output STRICT JSON only — no commentary, no markdown fence:
   ]
 }}
 
-If no Hong Kong-relevant events on the page, output {{"events": []}}.
+If no Hong Kong events on the page, output {{"events": []}}.
 
 Source markdown (truncated to first 12000 chars):
 ---
@@ -272,12 +273,30 @@ def _is_keepable(e: dict) -> tuple[bool, str]:
         de = (e.get("date_end") or "").strip()
         if not (de and de >= today_iso):
             return False, f"past event (date_start={ds})"
-    # Drop physical-only events outside HK. Virtual events from anywhere are OK.
-    is_hk = str(e.get("is_hk", "")).lower() == "true"
-    is_virtual = str(e.get("is_virtual", "")).lower() == "true"
-    if not is_hk and not is_virtual:
-        return False, f"not HK / not virtual (city={e.get('city','')})"
-    return True, ""
+    return _is_hk(e)
+
+
+_HK_CITIES = {"hong kong", "hk", "hksar", "香港"}
+_ONLINE_CITIES = {"", "virtual", "online", "webinar", "zoom"}
+
+
+def _is_hk(e: dict) -> tuple[bool, str]:
+    """HK events only (owner decision 2026-11-21). Kept if held in Hong Kong,
+    or online/no city AND flagged is_hk (an HK organisation or HK chapter
+    running it for HK, e.g. 'AIMA Hong Kong Webinar'). A physical event in
+    any other city is dropped even when the LLM set is_hk=true - 'Asia-
+    regional including HK' and 'virtual from anywhere' used to count and no
+    longer do. The city wins over the flag because the flag is noisy: HKICPA
+    webinars came back city='Hong Kong', is_hk=false."""
+    city = (e.get("city") or "").strip().lower()
+    flagged = str(e.get("is_hk", "")).strip().lower() == "true"
+    if city in _HK_CITIES or "hong kong" in city:
+        return True, ""
+    if city in _ONLINE_CITIES:
+        if flagged:
+            return True, ""
+        return False, f"online/no city and not an HK organiser (city={e.get('city','')!r})"
+    return False, f"not in HK (city={e.get('city','')!r})"
 
 
 def _atomic_write_events(rows: list[dict]) -> None:
@@ -348,6 +367,15 @@ def main():
 
     RAW_CACHE_DIR.mkdir(parents=True, exist_ok=True)
     existing = _existing_events()
+    # Carried-forward rows get the same HK-only rule (location only - past
+    # events stay as history). Rows kept under the old "virtual from anywhere"
+    # rule are removed here.
+    dropped_non_hk = [e for e in existing if not _is_hk(e)[0]]
+    existing = [e for e in existing if _is_hk(e)[0]]
+    for e in dropped_non_hk:
+        print(f"  [hk-only] dropping existing row: {e.get('date_start','')} "
+              f"{e.get('host','')} | {e.get('title','')[:70]} ({_is_hk(e)[1]})",
+              file=sys.stderr)
     existing_keys = {_event_key(e) for e in existing}
     new_rows = list(existing)
     new_count = 0
