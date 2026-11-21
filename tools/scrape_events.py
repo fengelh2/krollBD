@@ -31,6 +31,7 @@ from pathlib import Path
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
+import html as _html
 import os as _os
 import requests as _requests
 from classify_strategy import (scrape_firecrawl, _scrape_firecrawl_only, _scrape_plain,  # noqa: E402
@@ -109,6 +110,115 @@ def _fetch_listing(url: str, requires_js: bool, aggressive: bool) -> tuple:
     if requires_js:
         return _scrape_firecrawl_only(url, wait_ms=JS_HEAVY_WAIT_MS), "firecrawl-js"
     return scrape_firecrawl(url), "firecrawl"
+
+
+# --- Hidden-event gaps --------------------------------------------------------
+# A listing can hold more events than the extractor ever sees, and none of
+# these shows up as a failure - the run just finds fewer events (2026-11-21):
+#   1. a "Load more" / next-page control: only the first batch is fetched;
+#   2. length: _llm_extract reads only the first LLM_MAX_CHARS of page text
+#      (and _scrape_plain already cuts there);
+#   3. two-pass sources read at most TWO_PASS_MAX_URLS detail pages.
+# Each fetched listing is checked, and every hit is reported at the end of the
+# run (and as a GitHub warning annotation) so a gap is visible, not silent.
+LLM_MAX_CHARS = 12000
+TWO_PASS_MAX_URLS = 20
+_MORE_CONTROL_RE = _re.compile(
+    r"\b(?:load|show|view|see) more\b|\bnext page\b|\bmore events\b"
+    r"|\bolder events\b|\bpage \d+ of \d+\b",
+    _re.I)
+
+
+def _gap_warnings(text: str) -> list[str]:
+    out = []
+    m = _MORE_CONTROL_RE.search(text or "")
+    if m:
+        out.append(f"page has a '{m.group(0)}' control - events past the "
+                   f"first batch may be missing")
+    if len(text or "") >= LLM_MAX_CHARS:
+        out.append(f"page text is {len(text):,} chars, at/over the "
+                   f"{LLM_MAX_CHARS:,}-char extraction limit - later events are cut")
+    return out
+
+
+def _html_to_text(h: str) -> str:
+    """_scrape_plain's tag stripping, without its 12,000-char cut."""
+    t = _re.sub(r"<script[^>]*>.*?</script>", "", h or "", flags=_re.S | _re.I)
+    t = _re.sub(r"<style[^>]*>.*?</style>", "", t, flags=_re.S | _re.I)
+    t = _re.sub(r"<[^>]+>", " ", t)
+    return _re.sub(r"\s+", " ", _html.unescape(t)).strip()
+
+
+# --- Paginated feeds ----------------------------------------------------------
+# ION Analytics (AVCJ, Debtwire, Mergermarket, ...) renders the first batch of
+# upcoming events and puts the rest behind "Load more", which calls a JSON feed
+# returning {"html": "<event cards>", "has_more": bool}. Measured 2026-11-21:
+# 12 cards per page; 6 upcoming events in total, has_more=false. Reading the
+# feed sees every page, needs no JS renderer and costs nothing.
+ION_LISTING_URL = "https://community.ionanalytics.com/events"
+ION_FEED_URL = "https://community.ionanalytics.com/ajax/events/search"
+FEED_MAX_PAGES = 15
+# Events per LLM call are grouped up to this size: inside LLM_MAX_CHARS, and
+# small enough that the JSON answer fits _llm_extract's 4000-token limit
+# (one ION card is ~900 chars of text, so ~8 events per call).
+FEED_CHUNK_CHARS = 8000
+# A card's title, date and venue come first; the rest is the speaker list,
+# which for a big forum is huge (AVCJ PE Forum HK 2026: 12,906 chars of text
+# in ONE card). Keep the head of each card so one forum cannot crowd every
+# later event out of the extractor's window.
+CARD_MAX_CHARS = 1500
+_ION_CARD_SPLIT = _re.compile(r'(?=<div class="event-horizontal-card[ "])')
+
+
+def _chunk_texts(texts: list[str], limit: int = FEED_CHUNK_CHARS) -> list[str]:
+    chunks, cur = [], ""
+    for t in texts:
+        if cur and len(cur) + 2 + len(t) > limit:
+            chunks.append(cur)
+            cur = ""
+        cur = f"{cur}\n\n{t}" if cur else t
+    if cur:
+        chunks.append(cur)
+    return chunks
+
+
+def _ion_feed() -> tuple[list[str], str, list[str]]:
+    """Every upcoming ION event, paged until has_more is false.
+
+    Returns (text chunks for the extractor, how, gap warnings). Raises if the
+    feed answers but no event card can be parsed and it does not say "No
+    events found" - that means the markup changed, and returning nothing would
+    look exactly like a quiet month. The caller then falls back to the page.
+    """
+    cards, warnings, page = [], [], 0
+    for page in range(1, FEED_MAX_PAGES + 1):
+        r = _requests.get(
+            ION_FEED_URL,
+            params={"page": page, "displayQuota": "", "attendance_mode": "null",
+                    "date": "upcoming", "global_filter": "0", "search": ""},
+            headers={"User-Agent": _PLAIN_UA, "X-Requested-With": "XMLHttpRequest"},
+            timeout=25)
+        r.raise_for_status()
+        d = r.json()
+        html = d.get("html") or ""
+        page_cards = [c for c in _ION_CARD_SPLIT.split(html)
+                      if c.startswith('<div class="event-horizontal-card')]
+        if not page_cards and "no events found" not in html.lower():
+            raise RuntimeError(f"feed page {page}: no event cards parsed and no "
+                               f"'No events found' - markup changed?")
+        cards += [_html_to_text(c)[:CARD_MAX_CHARS] for c in page_cards]
+        if not d.get("has_more"):
+            break
+        time.sleep(0.5)
+    else:
+        warnings.append(f"ION feed still had more events after {FEED_MAX_PAGES} "
+                        f"pages - raise FEED_MAX_PAGES")
+    return _chunk_texts(cards), f"ion-feed ({page} page(s), {len(cards)} events)", warnings
+
+
+# listing_url (as in event_sources.csv, no trailing slash) -> feed reader
+_FEEDS = {ION_LISTING_URL: _ion_feed}
+
 
 def _scrape_firecrawl_aggressive(url: str) -> str:
     """Like _scrape_firecrawl_only but uses Firecrawl 'actions' to wait, scroll
@@ -381,6 +491,7 @@ def main():
     new_count = 0
     skipped_count = 0
     failed_sources = []
+    gap_report = []          # (host, note): listings that may hide events
 
     now = dt.datetime.now(dt.UTC).isoformat(timespec="seconds")
 
@@ -415,7 +526,14 @@ def main():
                 continue
             urls = sorted(set(re.findall(detail_re, index_md or "")))
             print(f"  [two-pass] index gave {len(urls)} detail URLs", file=sys.stderr)
-            urls = urls[:20]                  # cap per source to keep Firecrawl spend bounded
+            m = _MORE_CONTROL_RE.search(_html_to_text(index_md))
+            if m:
+                gap_report.append((host, f"index page has a '{m.group(0)}' control - "
+                                         f"event pages past the first batch may be missing"))
+            if len(urls) > TWO_PASS_MAX_URLS:
+                gap_report.append((host, f"index lists {len(urls)} event pages; only the "
+                                         f"first {TWO_PASS_MAX_URLS} are read"))
+            urls = urls[:TWO_PASS_MAX_URLS]   # cap per source to keep Firecrawl spend bounded
             kept_total = 0
             for du in urls:
                 try:
@@ -454,22 +572,41 @@ def main():
             continue
 
         requires_js = (s.get("requires_js") or "").lower() in ("yes", "y", "true", "1")
-        try:
-            md, how = _fetch_listing(url, requires_js, args.aggressive)
-            print(f"  [fetch] via {how} ({len(md or '')} chars)", file=sys.stderr)
-        except Exception as e:
-            print(f"  [scrape] error: {e}", file=sys.stderr)
-            failed_sources.append((host, f"scrape error: {e}"))
-            continue
-        if not md or len(md) < 200:
-            print(f"  [scrape] thin content ({len(md or '')} chars) — skipping", file=sys.stderr)
-            failed_sources.append((host, f"thin content ({len(md or '')} chars)"))
-            continue
+        # Sources with a known paginated feed read every page of it; the
+        # rendered listing only holds the first batch. If the feed fails we
+        # fall back to the listing page and report the gap.
+        chunks = None
+        feed = _FEEDS.get(url.strip().rstrip("/"))
+        if feed:
+            try:
+                chunks, how, notes = feed()
+                print(f"  [fetch] via {how}", file=sys.stderr)
+                gap_report += [(host, n) for n in notes]
+            except Exception as e:
+                print(f"  [feed] failed ({e}) - falling back to the listing page",
+                      file=sys.stderr)
+                gap_report.append((host, f"feed failed ({e}); read the first page only"))
+        if chunks is None:
+            try:
+                md, how = _fetch_listing(url, requires_js, args.aggressive)
+                print(f"  [fetch] via {how} ({len(md or '')} chars)", file=sys.stderr)
+            except Exception as e:
+                print(f"  [scrape] error: {e}", file=sys.stderr)
+                failed_sources.append((host, f"scrape error: {e}"))
+                continue
+            if not md or len(md) < 200:
+                print(f"  [scrape] thin content ({len(md or '')} chars) — skipping", file=sys.stderr)
+                failed_sources.append((host, f"thin content ({len(md or '')} chars)"))
+                continue
+            gap_report += [(host, n) for n in _gap_warnings(md)]
+            chunks = [md]
         cache_path = RAW_CACHE_DIR / f"{_slug(host)}.md"
-        cache_path.write_text(md, encoding="utf-8")
+        cache_path.write_text("\n\n".join(chunks), encoding="utf-8")
 
         try:
-            events = _llm_extract(host, url, md)
+            events = []
+            for ch in chunks:
+                events += _llm_extract(host, url, ch)
         except Exception as e:
             print(f"  [llm] error: {e}", file=sys.stderr)
             failed_sources.append((host, f"llm error: {e}"))
@@ -526,6 +663,14 @@ def main():
         print(f"  sources failed:       {len(failed_sources)}", file=sys.stderr)
         for h, why in failed_sources:
             print(f"    - {h}: {why}", file=sys.stderr)
+    # Possible hidden events: reported, never fatal (a listing with a hidden
+    # "Load more" button is normal) - but never silent either.
+    if gap_report:
+        print(f"  may hide events:      {len(gap_report)}", file=sys.stderr)
+        for h, note in gap_report:
+            print(f"    - {h}: {note}", file=sys.stderr)
+            if os.environ.get("GITHUB_ACTIONS") == "true":
+                print(f"::warning title=Events may be missing ({h})::{note}")
 
     # Exit non-zero on outcomes a scheduled run must NOT report as success.
     # This used to always exit 0: with Firecrawl out of credits every source

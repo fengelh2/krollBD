@@ -77,14 +77,18 @@ jobs:
           SOURCE: ${{ github.event.inputs.source }}
           INCLUDE_UNCONFIRMED: ${{ github.event.inputs.include_unconfirmed }}
         run: |
-          ARGS=""
-          if [ -n "$SOURCE" ]; then ARGS="$ARGS --source $SOURCE"; fi
-          if [ "$INCLUDE_UNCONFIRMED" = "true" ]; then ARGS="$ARGS --include-unconfirmed"; fi
-          echo "running: python tools/scrape_events.py $ARGS"
+          # An array, not a string: most hosts contain spaces ("AVCJ (Ion
+          # Analytics)", "Eventbrite HK · PE"), and an unquoted string split
+          # them into several arguments, so single-source runs only worked
+          # for one-word hosts (fixed 2026-11-21).
+          ARGS=()
+          if [ -n "$SOURCE" ]; then ARGS+=(--source "$SOURCE"); fi
+          if [ "$INCLUDE_UNCONFIRMED" = "true" ]; then ARGS+=(--include-unconfirmed); fi
+          echo "running: python tools/scrape_events.py ${ARGS[*]}"
           # scrape_events.py exits non-zero when every source fails, or when a
           # majority do — so a quota/key/network outage fails this job instead
           # of going green with a stale calendar (fixed 2026-09-16).
-          python tools/scrape_events.py $ARGS
+          python tools/scrape_events.py "${ARGS[@]}"
 
       # Reported even on failure so a green-but-empty calendar can't hide.
       - name: Summarise calendar freshness
